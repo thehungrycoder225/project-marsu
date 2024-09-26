@@ -1,0 +1,66 @@
+.clife-title {
+  font-size: 3.2rem;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 1.6rem;
+  color: var(--color-primary);
+}
+
+.clife-subtitle {
+  font-size: 1.6rem;
+  text-align: center;
+  color: var(--color-text);
+}
+
+.clife-section {
+  /* display: grid;
+  gap: 1.6rem;
+  grid-template-columns: repeat(auto-fill, minmax(24rem, 1fr));
+  justify-content: center; */
+  padding: 9.6rem;
+  text-align: center;
+  background-color: var(--color-bg-light);
+  border-radius: 1.6rem;
+}
+
+.clife-gallery {
+  margin-top: 1.6rem;
+  display: grid;
+  gap: 1.6rem;
+  grid-template-columns: repeat(auto-fill, minmax(24rem, 1fr));
+  justify-content: center;
+}
+
+.clife-image {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.clife-image img {
+  width: 100%;
+  border-radius: 0.8rem;
+  display: block;
+}
+
+.clife-image:hover {
+  transform: scale(1.05); /* Slightly enlarge the image */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+
+.clife-image:focus {
+  outline: 2px solid var(--color-primary); /* Add a focus outline */
+}
+
+span:nth-child(1) {
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+span:nth-child(2) {
+  color: var(--accent-500);
+  font-weight: bold;
+}
+
+span:nth-child(3) {
+  color: var(--accent-400);
+  font-weight: bold;
+}

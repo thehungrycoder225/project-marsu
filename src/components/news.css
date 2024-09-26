@@ -1,0 +1,17 @@
+.news-section {
+  color: var(--color-primary);
+  padding: 9.6rem;
+  text-align: center;
+}
+
+.news-section h2 {
+  font-size: 3.2rem;
+  font-family: Poppins, sans-serif;
+  text-align: center;
+}
+
+.news-section p {
+  font-size: 1.6rem;
+  text-align: center;
+  color: var(--color-text);
+}

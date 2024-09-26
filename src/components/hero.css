@@ -1,0 +1,55 @@
+.hero {
+  display: flex;
+  background: var(--color-primary);
+  align-items: center;
+  justify-content: center;
+  padding: 12.8rem;
+  gap: 3.2rem;
+}
+
+.hero-image {
+  max-width: 250px;
+}
+
+.hero-image img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.hero-text {
+  color: #fff;
+}
+
+.hero-text h1 {
+  font-size: 6.4rem;
+  font-family: Poppins, sans-serif;
+}
+
+.hero-text p {
+  font-size: 2.3rem;
+  font-family: Plus Jakarta Sans, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    flex-wrap: wrap;
+  }
+
+  .hero-image {
+    object-fit: fill;
+
+    text-align: center;
+  }
+  .hero-text {
+    padding: 0 1.6rem;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    font-size: 2.4rem;
+  }
+
+  .hero-text p {
+    font-size: 1.4rem;
+  }
+}

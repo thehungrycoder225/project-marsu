@@ -1,0 +1,68 @@
+.events-section {
+  border-radius: 1.6rem;
+  padding: 9.6rem;
+}
+
+.events-section h3 {
+  font-size: 3.2rem;
+  font-weight: 500;
+  margin-bottom: 1.6rem;
+  color: var(--color-primary);
+  text-align: center;
+}
+
+.events-container {
+  display: grid;
+  gap: 1.6rem;
+  grid-template-columns: repeat(auto-fill, minmax(24rem, 1fr));
+  justify-content: center;
+  margin-top: 6.4rem;
+}
+.event-card {
+  background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 24rem;
+  margin-bottom: 3.2rem;
+  padding: 2.4rem;
+  backdrop-filter: blur(10px); /* Blur effect */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.event-card:hover {
+  background: rgba(255, 255, 255, 0.3); /* Slightly more opaque background */
+  backdrop-filter: blur(15px); /* Increase blur effect */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+}
+
+.event-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.6rem;
+}
+
+.event-card-header h4 {
+  font-weight: 700;
+  align-self: center;
+}
+
+.event-card-header span {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--accent-400);
+}
+
+.event-card-body {
+  gap: 1.6rem;
+}
+
+.event-card-body p {
+  line-height: 2.4rem;
+  color: var(--color-text);
+  font-weight: 700;
+  text-align: center;
+}
