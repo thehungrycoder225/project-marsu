@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from 'react';
 import HeroComponent from '../components/Hero';
 import NewsComponent from '../components/News';
 import SectionComponent from '../components/Section';
@@ -6,39 +7,22 @@ import './landing.css';
 import { Container } from 'react-bootstrap';
 import CampusLife from '../components/CLife';
 import Footer from '../components/Footer';
-
-const articles = [
-  {
-    id: 1,
-    title: 'News 1',
-    content: 'This is the content for news 1',
-  },
-  {
-    id: 2,
-    title: 'News 2',
-    content: 'This is the content for news 2',
-  },
-  {
-    id: 3,
-    title: 'News 3',
-    content: 'This is the content for news 3',
-  },
-];
-
-function ArticlePlayer({ article }) {
-  {
-    !article && <p>No article selected</p>;
-  }
-  return (
-    <div>
-      <h3>{article.title}</h3>
-      <p>{article.content}</p>
-      <iframe src='' frameborder='0'></iframe>
-    </div>
-  );
-}
+import Splash from '../components/Splash';
 
 function LandingPage() {
+  const [showSplash, setShowSplash] = useState(true);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowSplash(false);
+    }, 3000); // Show splash screen for 3 seconds
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (showSplash) {
+    return <Splash />;
+  }
+
   return (
     <div>
       <HeroComponent
