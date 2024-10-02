@@ -8,6 +8,7 @@ import { Container } from 'react-bootstrap';
 import CampusLife from '../components/CLife';
 import Footer from '../components/Footer';
 import Splash from '../components/Splash';
+import Linkages from '../components/Linkages';
 
 function LandingPage() {
   const [showSplash, setShowSplash] = useState(true);
@@ -66,6 +67,7 @@ function LandingPage() {
         </SectionComponent>
         <Events />
         <CampusLife />
+        <Linkages />
       </Container>
       <Footer />
     </div>
