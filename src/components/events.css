@@ -13,7 +13,7 @@
 
 .events-container {
   display: grid;
-  gap: 1.6rem;
+  gap: 2rem;
   grid-template-columns: repeat(auto-fill, minmax(24rem, 1fr));
   justify-content: center;
   margin-top: 6.4rem;
@@ -24,8 +24,6 @@
   border-radius: 0.8rem;
   display: flex;
   flex-direction: column;
-  max-width: min(100%, 300rem);
-  margin-bottom: 3.2rem;
   padding: 2.4rem;
   backdrop-filter: blur(10px); /* Blur effect */
   outline: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border */
