@@ -37,8 +37,8 @@ function LandingPage() {
           <>
             <div className='content landing-video-section'>
               <div className='p-5 w-100'>
-                <h3 className='mb-3'>Hello Mr. President</h3>
-                <p className='mb-5'>
+                <h3 className='mb-3 fs-2'>Hello Mr. President</h3>
+                <p className='mb-5 fs-5 fw-light'>
                   In a significant move to further the growth and development of
                   Marinduque State University, the University President has
                   taken a hands-on approach by creating a video message that
@@ -67,6 +67,33 @@ function LandingPage() {
         </SectionComponent>
         <Events />
         <CampusLife />
+        <SectionComponent>
+          <>
+            <div className='sgd sgd_card'>
+              <div className='row align-items-center'>
+                <div className='col-md-3'>
+                  <img src='SDGheartDesign1.png' className='sgd_img' alt='' />
+                </div>
+                <div className='col-md-6'>
+                  <h3 className='linkages_title text-start fs-2'>
+                    Marinduque State University Sustainable Development Goals
+                    Center!
+                  </h3>
+                  <p>
+                    Explore our innovative programs and projects to generate
+                    long-term change, develop community involvement, and raise
+                    awareness of the Sustainable Development Goals.
+                  </p>
+                </div>
+                <div className='col-md-3'>
+                  <a href='#' className='btn_sgd'>
+                    Explore ->
+                  </a>
+                </div>
+              </div>
+            </div>
+          </>
+        </SectionComponent>
         <Linkages />
       </Container>
       <Footer />

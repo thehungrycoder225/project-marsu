@@ -61,7 +61,7 @@ function PartnersComponent() {
   return (
     <div className='linkages'>
       <div className='linkages_content'>
-        <h1 className='linkages_title'>Our Partners</h1>
+        <h3 className='linkages_title'>Our Partners</h3>
         <p className='linkages_description'>
           At Marinduque State University, our robust industry partnerships
           facilitate the development of industry-aligned curricula, while our
@@ -77,7 +77,11 @@ function PartnersComponent() {
         <Marquee speed={50}>
           {partners.map((partner, index) => (
             <div key={index} className='marquee_item'>
-              <img src={partner.img} alt={partner.alt} />
+              <img
+                src={partner.img}
+                alt={partner.alt}
+                className='linkages_image'
+              />
             </div>
           ))}
         </Marquee>
@@ -86,7 +90,11 @@ function PartnersComponent() {
         <Marquee speed={50} direction='right'>
           {partners.map((partner, index) => (
             <div key={index} className='marquee_item'>
-              <img src={partner.img} alt={partner.alt} />
+              <img
+                src={partner.img}
+                alt={partner.alt}
+                className='linkages_image'
+              />
             </div>
           ))}
         </Marquee>

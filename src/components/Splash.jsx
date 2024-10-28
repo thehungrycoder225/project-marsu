@@ -28,7 +28,7 @@ function Splash() {
   return (
     <div className='splash-container splash-fade-in'>
       <div>
-        <img src='logo.png' alt='MarSU Logo' />
+        <img className='splash_img ' src='logo.png' alt='MarSU Logo' />
       </div>
       <div className='loading-screen'>
         <div className='spinner'></div>

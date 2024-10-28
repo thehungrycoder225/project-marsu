@@ -7,16 +7,17 @@
   height: 100vh;
 }
 
-img {
-  width: 50%;
+.splash_img {
+  max-width: min(100%, 400px);
   margin: auto;
   display: block;
+  aspect-ratio: 1/1;
   object-fit: contain;
 }
 
 .loading-screen {
   width: 100%;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.39);
   display: flex;
   flex-direction: column;
   justify-content: center;

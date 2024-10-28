@@ -55,3 +55,47 @@
     display: none;
   }
 }
+
+.sgd_img {
+  width: 100%;
+}
+
+.sgd_card {
+  border-radius: 8px;
+  width: 100%;
+}
+
+.btn_sgd {
+  padding: 16px 32px;
+  max-width: min(100%, 200px);
+  text-decoration: none;
+  color: white;
+  background-color: var(--accent-700);
+  border-radius: 4px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn_sgd:hover {
+  background-color: var(--color-text-light);
+  color: var(--accent-700);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s ease-in-out;
+}
+
+.sgd {
+  padding: 6.4rem 0;
+}
+
+@media screen and (max-width: 768px) {
+  .sgd {
+    padding: 4.8rem;
+  }
+
+  .btn_sgd {
+    margin: 32px auto;
+  }
+}
