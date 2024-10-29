@@ -7,7 +7,6 @@ import Footer from '../components/Footer';
 import Section from '../components/Section';
 import logo from '../assets/sgd-logo.png';
 import './sgd.css';
-
 const goals = [
   {
     id: 1,
@@ -119,33 +118,53 @@ const projects = [
     title: 'Project 1',
     image: 'images/sgd_projects/chicken.jpg',
     link: '/projects/project1',
+    tags: [
+      { name: 'No Poverty', image: 'sgd/E-WEB-Goal-01.png' },
+      { name: 'Zero Hunger', image: 'sgd/E-WEB-Goal-02.png' },
+    ],
   },
   {
     id: 2,
     title: 'Project 2',
     image: 'images/sgd_projects/governance.jpg',
     link: '/projects/project2',
+    tags: [
+      {
+        name: 'Peace, Justice, and Strong Institutions',
+        image: 'sgd/E-WEB-Goal-16.png',
+      },
+    ],
   },
   {
     id: 3,
     title: 'Project 3',
     image: 'images/sgd_projects/island.jpg',
     link: '/projects/project3',
+    tags: [
+      { name: 'Life Below Water', image: 'sgd/E-WEB-Goal-14.png' },
+      { name: 'Life on Land', image: 'sgd/E-WEB-Goal-15.png' },
+    ],
   },
   {
     id: 4,
     title: 'Project 4',
     image: 'images/sgd_projects/iugnay.jpg',
     link: '/projects/project4',
+    tags: [
+      {
+        name: 'Industry, Innovation, and Infrastructure',
+        image: 'sgd/E-WEB-Goal-09.png',
+      },
+    ],
   },
   {
     id: 5,
     title: 'Project 5',
     image: 'images/sgd_projects/education.jpg',
     link: '/projects/project5',
+    tags: [{ name: 'Quality Education', image: 'sgd/E-WEB-Goal-04.png' }],
   },
 ];
-
 const GoalMarquee = ({ goals }) => (
   <Marquee speed={50} pauseOnHover={1}>
     {goals.map((goal) => (
@@ -225,6 +244,61 @@ const SGDPage = () => (
                 />
               </>
             ))}
+          </div>
+        </div>
+      </Section>
+      <Section>
+        <div className='sgd_content'>
+          <div className='sgd_content--text--container'>
+            <h3 className='sgd_heading'>MarSU Innovative Projects</h3>
+            <div className='sgd__project--container'>
+              {projects.map((project) => (
+                <>
+                  <div key={project.id} className='sgd_card'>
+                    <Link to={project.link}>
+                      <img
+                        src={project.image}
+                        alt={project.title}
+                        className='sgd_card--image'
+                      />
+
+                      <h4 className='sgd_card--title'>{project.title}</h4>
+
+                      <p className='sgd_card--description'>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua.
+                      </p>
+                      <div className='sgd_card--tags'>
+                        {project.tags.map((tag) => (
+                          <img
+                            key={tag.name}
+                            src={tag.image}
+                            alt={tag.name}
+                            className='sgd_card--tag'
+                          />
+                        ))}
+                      </div>
+                    </Link>
+                  </div>
+                </>
+              ))}
+            </div>
+          </div>
+        </div>
+      </Section>
+      <Section>
+        <div className='sgd_content bg-muted '>
+          <div className='sgd_content--text--container'>
+            <h5 className='sgd_heading'>Get involved</h5>
+            <p className='fs-4 fw-light'>
+              Join us in our commitment to the Sustainable Development Goals.
+              Together, we can make a difference and build a sustainable future
+              for all.
+            </p>
+            <Link to='/get-involved' className='btn btn-danger'>
+              Join us now
+            </Link>
           </div>
         </div>
       </Section>
