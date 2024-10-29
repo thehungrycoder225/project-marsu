@@ -195,7 +195,7 @@ const SGDPage = () => (
             <h3 className='sgd_heading'>
               Empowering change for sustainable future
             </h3>
-            <p className='fs-4 fw-light'>
+            <p className='fs-4 fw-light sgd_description'>
               Join us in our commitment to drive meaningful change, inspire
               global collaboration, and promote sustainable development.
               Together let's build a sustainable future for all.
@@ -209,7 +209,7 @@ const SGDPage = () => (
             <h3 className='sgd_heading'>
               Our commitment to the Sustainable Development Goals
             </h3>
-            <p className='fs-4 fw-light'>
+            <p className='fs-4 fw-light sgd_description'>
               We are committed to the 17 Sustainable Development Goals (SDGs) to
               end poverty, protect the planet, and ensure prosperity for all. We
               are dedicated to achieving these goals by 2030.
@@ -228,7 +228,7 @@ const SGDPage = () => (
             <h3 className='sgd_heading'>
               Our programs for sustainable development
             </h3>
-            <p className='fs-4 fw-light'>
+            <p className='fs-4 fw-light sgd_description'>
               We offer programs that promote sustainable development and
               contribute to the achievement of the SDGs. Our programs focus on
               education, research, and extension services.
@@ -290,8 +290,11 @@ const SGDPage = () => (
       <Section>
         <div className='sgd_content bg-muted '>
           <div className='sgd_content--text--container'>
-            <h5 className='sgd_heading'>Get involved</h5>
-            <p className='fs-4 fw-light'>
+            <h3 className='sgd_heading'>
+              Get involved in our Sustainable Development Goals initiatives
+            </h3>
+
+            <p className='fs-4 fw-light sgd_description'>
               Join us in our commitment to the Sustainable Development Goals.
               Together, we can make a difference and build a sustainable future
               for all.
