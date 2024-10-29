@@ -16,7 +16,7 @@
 
 .bg-off-white {
   background-color: hsla(329, 100%, 99%, 0.65);
-  border-radius: 4px;
+  border-radius: 8px;
 }
 .bg-muted {
   background-color: #f5f5f5;
@@ -27,6 +27,7 @@
   object-fit: cover;
   object-position: top;
   max-width: min(42rem, 100%);
+  border-radius: 8px 0 0 8px;
 }
 
 .sgd_content--text--container {
@@ -260,5 +261,10 @@
 
   .sgd_hero--brand img {
     width: 100%;
+  }
+
+  .sgd_content--image {
+    border-radius: 100%;
+    max-width: min(16rem, 100%);
   }
 }

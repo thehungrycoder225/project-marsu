@@ -223,7 +223,7 @@ const SGDPage = () => (
             alt='President Avatar'
             className='sgd_content--image'
           />
-          <div className='sgd_content--text--container x-1 '>
+          <div className='sgd_content--text--container p-32 '>
             <h3 className='sgd_heading'>
               Empowering change for sustainable future
             </h3>
