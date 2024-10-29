@@ -197,29 +197,72 @@ const SGDPage = () => (
       titleText='sgd_title'
       heroPadding={'sgd_hero--padding'}
       title='Sustainable Goals Development Center'
-      description='Marinduque State University is committed to eradicating poverty and promoting sustainable development through education, research, and extension services.'
+      description='Marinduque State University stands as a beacon of hope and innovation, committed to advancing sustainable development goals in higher education.'
     />
     <Container>
-      <Section>
-        <div className='sgd_content box-shadow'>
-          <div className='sgd_content--image--container'>
-            <img src='avatar-pres.png' alt='President Avatar' />
-          </div>
+      {/* <Section>
+        <div className='sgd_content '>
           <div className='sgd_content--text--container'>
+            <h3 className='sgd_heading'>
+              Welcome to the Sustainable Goals Development Center
+            </h3>
+            <p className='fs-4 fw-light sgd_description'>
+              We are dedicated to fostering a culture of sustainability,
+              innovation, and social responsibility in our students, faculty,
+              and staff. Through our programs, research initiatives, and
+              community partnerships, we aim to create a sustainable future for
+              all.
+            </p>
+          </div>
+        </div>
+      </Section> */}
+      <Section>
+        <div className='sgd_content bg-off-white box-shadow'>
+          <img
+            src='avatar-pres.png'
+            alt='President Avatar'
+            className='sgd_content--image'
+          />
+          <div className='sgd_content--text--container x-1 '>
             <h3 className='sgd_heading'>
               Empowering change for sustainable future
             </h3>
             <p className='fs-4 fw-light sgd_description'>
-              Marinduque State University stands as a beacon of hope and
-              innovation, committed to advancing sustainable development goals
-              in higher education.As an island province, we recognize the unique
-              challenges and opportunities our environment presents.
+              As we stand on the precipice of a new era, we must recognize the
+              critical importance of sustainability in our efforts to provide
+              exemplary higher education services. Our island province, with its
+              unique environmental and cultural heritage, holds a distinct
+              position in fostering an educational ecosystem that not only
+              imparts knowledge but also cultivates a deep respect for our
+              natural resources. By integrating sustainable practices into every
+              facet of our curriculum and campus operations, we aim to empower
+              our students to become stewards of the environment, champions of
+              innovation, and leaders in their communities. Together, we can
+              create a model of higher education that is both forward-thinking
+              and firmly rooted in the principles of sustainability
             </p>
           </div>
         </div>
       </Section>
       <Section>
-        <div className='sgd_content'>
+        <div className='sgd_content bg-muted'>
+          <div className='sgd_content--text--container '>
+            <h3 className='sgd_heading'>Our Mission</h3>
+            <p className='fs-4 fw-light sgd_description'>
+              Our mission is to integrate sustainability into every aspect of
+              our academic and operational practices, ensuring that our students
+              not only receive a world-class education but also become stewards
+              of our natural resources. By fostering a culture of
+              sustainability, we aim to equip our graduates with the knowledge
+              and skills needed to drive positive change in their communities
+              and beyond. Together, we can build a brighter, more sustainable
+              future for Marinduque and the world.
+            </p>
+          </div>
+        </div>
+      </Section>
+      <Section>
+        <div className='sgd_content '>
           <div className='sgd_content--text--container'>
             <h3 className='sgd_heading'>
               Our commitment to the Sustainable Development Goals
