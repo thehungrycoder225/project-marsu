@@ -195,6 +195,7 @@ const SGDPage = () => (
       brand={logo}
       heroImage={'sgd_hero--brand'}
       titleText='sgd_title'
+      heroPadding={'sgd_hero--padding'}
       title='Sustainable Goals Development Center'
       description='Marinduque State University is committed to eradicating poverty and promoting sustainable development through education, research, and extension services.'
     />
@@ -209,9 +210,10 @@ const SGDPage = () => (
               Empowering change for sustainable future
             </h3>
             <p className='fs-4 fw-light sgd_description'>
-              Join us in our commitment to drive meaningful change, inspire
-              global collaboration, and promote sustainable development.
-              Together let's build a sustainable future for all.
+              Marinduque State University stands as a beacon of hope and
+              innovation, committed to advancing sustainable development goals
+              in higher education.As an island province, we recognize the unique
+              challenges and opportunities our environment presents.
             </p>
           </div>
         </div>

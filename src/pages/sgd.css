@@ -36,6 +36,10 @@
   gap: 1.6rem;
 }
 
+.sgd_hero--padding {
+  padding: 1.6rem 3.2rem;
+}
+
 .sgd_title {
   font-size: 2.8rem !important;
   font-weight: 700;
@@ -248,7 +252,7 @@
   }
 
   .sgd_hero--brand {
-    width: 64rem;
+    width: 16rem;
     scale: 1.5;
   }
 

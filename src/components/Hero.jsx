@@ -2,9 +2,16 @@ import './hero.css';
 
 import PropTypes from 'prop-types';
 
-function HeroComponent({ title, description, brand, titleText, heroImage }) {
+function HeroComponent({
+  title,
+  description,
+  brand,
+  titleText,
+  heroImage,
+  heroPadding,
+}) {
   return (
-    <div className='hero'>
+    <div className={`hero ${heroPadding}`}>
       <div className={heroImage}>
         <img src={brand} alt='logo' />
       </div>

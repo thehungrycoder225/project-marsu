@@ -3,9 +3,12 @@
   background: var(--color-primary);
   align-items: center;
   justify-content: center;
-  padding: 12.8rem;
   gap: 3.2rem;
   line-height: 1.2;
+}
+
+.hero--padding {
+  padding: 12.5rem;
 }
 
 .hero-image {
