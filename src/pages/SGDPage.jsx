@@ -115,18 +115,24 @@ const goals = [
 const projects = [
   {
     id: 1,
-    title: 'Project 1',
+    title: 'iUgnay Project',
+    description:
+      'iUgnay Project, is a project that aims to provide internet access to underprivileged villages in Marinduque. ',
     image: 'images/sgd_projects/chicken.jpg',
     link: '/project1',
     tags: [
-      { name: 'No Poverty', image: 'sgd/E-WEB-Goal-01.png' },
-      { name: 'Zero Hunger', image: 'sgd/E-WEB-Goal-02.png' },
+      {
+        name: 'Industry, Innovation, and Infrastructure',
+        image: 'sgd/E-WEB-Goal-09.png',
+      },
     ],
   },
   {
     id: 2,
     title: 'Project 2',
     image: 'images/sgd_projects/governance.jpg',
+    description:
+      'Project 2 is a project that aims to promote good governance and transparency in local government units.',
     link: '/project2',
     tags: [
       {
@@ -138,6 +144,8 @@ const projects = [
   {
     id: 3,
     title: 'Project 3',
+    description:
+      'Project 3 is a project that aims to promote sustainable tourism and protect the environment.',
     image: 'images/sgd_projects/island.jpg',
     link: '/project3',
     tags: [
@@ -148,6 +156,8 @@ const projects = [
   {
     id: 4,
     title: 'Project 4',
+    description:
+      'Project 4 is a project that aims to promote sustainable agriculture and provide livelihood opportunities to farmers.',
     image: 'images/sgd_projects/iugnay.jpg',
     link: '/project4',
     tags: [
@@ -160,6 +170,8 @@ const projects = [
   {
     id: 5,
     title: 'Project 5',
+    description:
+      'Project 5 is a project that aims to provide quality education to underprivileged children in Marinduque.',
     image: 'images/sgd_projects/education.jpg',
     link: '/project5',
     tags: [{ name: 'Quality Education', image: 'sgd/E-WEB-Goal-04.png' }],
@@ -266,9 +278,7 @@ const SGDPage = () => (
                       <h4 className='sgd_card--title'>{project.title}</h4>
 
                       <p className='sgd_card--description'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
+                        {project.description}
                       </p>
                       <div className='sgd_card--tags'>
                         {project.tags.map((tag) => (
