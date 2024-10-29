@@ -4,9 +4,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.1);
 }
-
+.box-shadow {
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+}
 .sgd_content--image--container img {
   border-radius: 8px 0 0 8px;
   aspect-ratio: 4/3;
@@ -33,4 +34,10 @@
   font-size: 2rem;
   font-weight: 700;
   color: var(--color-primary);
+}
+
+.sgd_goal--images {
+  object-fit: contain;
+  max-width: min(250px, 100%);
+  aspect-ratio: 4/3;
 }
