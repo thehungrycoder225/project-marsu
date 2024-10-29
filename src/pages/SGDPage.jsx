@@ -117,7 +117,7 @@ const projects = [
     id: 1,
     title: 'Project 1',
     image: 'images/sgd_projects/chicken.jpg',
-    link: '/projects/project1',
+    link: '/project1',
     tags: [
       { name: 'No Poverty', image: 'sgd/E-WEB-Goal-01.png' },
       { name: 'Zero Hunger', image: 'sgd/E-WEB-Goal-02.png' },
@@ -127,7 +127,7 @@ const projects = [
     id: 2,
     title: 'Project 2',
     image: 'images/sgd_projects/governance.jpg',
-    link: '/projects/project2',
+    link: '/project2',
     tags: [
       {
         name: 'Peace, Justice, and Strong Institutions',
@@ -139,7 +139,7 @@ const projects = [
     id: 3,
     title: 'Project 3',
     image: 'images/sgd_projects/island.jpg',
-    link: '/projects/project3',
+    link: '/project3',
     tags: [
       { name: 'Life Below Water', image: 'sgd/E-WEB-Goal-14.png' },
       { name: 'Life on Land', image: 'sgd/E-WEB-Goal-15.png' },
@@ -149,7 +149,7 @@ const projects = [
     id: 4,
     title: 'Project 4',
     image: 'images/sgd_projects/iugnay.jpg',
-    link: '/projects/project4',
+    link: '/project4',
     tags: [
       {
         name: 'Industry, Innovation, and Infrastructure',
@@ -161,7 +161,7 @@ const projects = [
     id: 5,
     title: 'Project 5',
     image: 'images/sgd_projects/education.jpg',
-    link: '/projects/project5',
+    link: '/project5',
     tags: [{ name: 'Quality Education', image: 'sgd/E-WEB-Goal-04.png' }],
   },
 ];
