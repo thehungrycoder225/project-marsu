@@ -181,6 +181,7 @@ const SGDPage = () => (
   <>
     <HeroComponent
       brand={logo}
+      heroImage={'sgd_hero--brand'}
       titleText='sgd_title'
       title='Sustainable Goals Development Center'
       description='Marinduque State University is committed to eradicating poverty and promoting sustainable development through education, research, and extension services.'

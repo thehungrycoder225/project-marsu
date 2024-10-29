@@ -117,8 +117,17 @@
   gap: 1.6rem;
   padding: 1.6rem;
   border-radius: 4px;
-  background-color: #fffefe;
+  background-color: hsla(329, 100%, 99%, 0.65);
   transition: all 0.3s ease-in-out;
+}
+
+.sgd_hero--brand {
+  max-width: min(100%, 32rem);
+}
+
+.sgd_hero--brand img {
+  width: 100%;
+  object-fit: contain;
 }
 
 .sgd_card--image {
@@ -173,7 +182,7 @@
 
 .sgd_card--tag {
   object-fit: contain;
-  max-width: min(3.2rem, 100%);
+  max-width: min(4.2rem, 100%);
   aspect-ratio: 4/3;
 }
 
@@ -236,5 +245,14 @@
     object-fit: contain;
     max-width: min(6.4rem, 100%);
     aspect-ratio: 4/3;
+  }
+
+  .sgd_hero--brand {
+    width: 64rem;
+    scale: 1.5;
+  }
+
+  .sgd_hero--brand img {
+    width: 100%;
   }
 }

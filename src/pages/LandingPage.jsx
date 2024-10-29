@@ -32,6 +32,7 @@ function LandingPage() {
       <HeroComponent
         title='Marinduque State University'
         brand={logo}
+        heroImage='hero-image'
         description='Your Gateway to Excellence'
       />
 
