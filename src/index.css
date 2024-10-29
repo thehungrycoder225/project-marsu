@@ -1,5 +1,7 @@
 #root {
   --color-primary: #660033;
+  --color-primary-dark: #4c0026;
+  --color-primary-light: #80004d;
   --color-secondary: #ffcc00;
   --accent-700: #841037;
   --accent-600: #a02339;

@@ -119,7 +119,7 @@ const projects = [
     description:
       'iUgnay Project, is a project that aims to provide internet access to underprivileged villages in Marinduque. ',
     image: 'images/sgd_projects/chicken.jpg',
-    link: '/project1',
+    link: '/sgd/project1',
     tags: [
       {
         name: 'Industry, Innovation, and Infrastructure',
@@ -133,7 +133,7 @@ const projects = [
     image: 'images/sgd_projects/governance.jpg',
     description:
       'Project 2 is a project that aims to promote good governance and transparency in local government units.',
-    link: '/project2',
+    link: '/sgd/project2',
     tags: [
       {
         name: 'Peace, Justice, and Strong Institutions',
@@ -147,7 +147,7 @@ const projects = [
     description:
       'Project 3 is a project that aims to promote sustainable tourism and protect the environment.',
     image: 'images/sgd_projects/island.jpg',
-    link: '/project3',
+    link: '/sgd/project3',
     tags: [
       { name: 'Life Below Water', image: 'sgd/E-WEB-Goal-14.png' },
       { name: 'Life on Land', image: 'sgd/E-WEB-Goal-15.png' },
@@ -159,7 +159,7 @@ const projects = [
     description:
       'Project 4 is a project that aims to promote sustainable agriculture and provide livelihood opportunities to farmers.',
     image: 'images/sgd_projects/iugnay.jpg',
-    link: '/project4',
+    link: '/sgd/project4',
     tags: [
       {
         name: 'Industry, Innovation, and Infrastructure',
@@ -173,7 +173,7 @@ const projects = [
     description:
       'Project 5 is a project that aims to provide quality education to underprivileged children in Marinduque.',
     image: 'images/sgd_projects/education.jpg',
-    link: '/project5',
+    link: '/sgd/project5',
     tags: [{ name: 'Quality Education', image: 'sgd/E-WEB-Goal-04.png' }],
   },
 ];
