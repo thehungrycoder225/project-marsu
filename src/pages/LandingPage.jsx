@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import logo from '../assets/logo.png';
+
 import HeroComponent from '../components/Hero';
 import NewsComponent from '../components/News';
 import SectionComponent from '../components/Section';
@@ -28,6 +31,7 @@ function LandingPage() {
     <div>
       <HeroComponent
         title='Marinduque State University'
+        brand={logo}
         description='Your Gateway to Excellence'
       />
 
@@ -72,7 +76,7 @@ function LandingPage() {
             <div className='sgd sgd_card'>
               <div className='row align-items-center'>
                 <div className='col-md-3'>
-                  <img src='SDGheartDesign1.png' className='sgd_img' alt='' />
+                  <img src='sgd-logo.png' className='sgd_img' alt='' />
                 </div>
                 <div className='col-md-6'>
                   <h3 className='linkages_title text-start fs-2'>
@@ -86,9 +90,9 @@ function LandingPage() {
                   </p>
                 </div>
                 <div className='col-md-3'>
-                  <a href='#' className='btn_sgd'>
-                    Explore ->
-                  </a>
+                  <Link className='btn_sgd' to='/sgd'>
+                    {'Explore->'}
+                  </Link>
                 </div>
               </div>
             </div>

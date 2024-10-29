@@ -1,0 +1,36 @@
+.sgd_content {
+  border-radius: 8px;
+  background-color: #fffefe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.1);
+}
+
+.sgd_content--image--container img {
+  border-radius: 8px 0 0 8px;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
+}
+
+.sgd_content--text--container {
+  padding: 4.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  gap: 1.6rem;
+}
+
+.sgd_title {
+  font-size: 3.2rem !important;
+  font-weight: 700;
+}
+
+.sgd_heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-primary);
+}

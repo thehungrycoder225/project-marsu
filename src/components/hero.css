@@ -5,6 +5,7 @@
   justify-content: center;
   padding: 12.8rem;
   gap: 3.2rem;
+  line-height: 1.2;
 }
 
 .hero-image {
@@ -21,12 +22,20 @@
 }
 
 .hero-text h1 {
-  font-size: 6.4rem;
+  font-size: 4.8rem;
   font-family: Poppins, sans-serif;
 }
 
+.hero-text--fs-2 h1 {
+  font-size: 3.2rem;
+}
+
+.hero-text--fs-3 h1 {
+  font-size: 2.4rem;
+}
+
 .hero-text p {
-  font-size: 2.3rem;
+  font-size: 1.6rem;
   font-family: Plus Jakarta Sans, sans-serif;
 }
 
