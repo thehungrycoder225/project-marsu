@@ -223,7 +223,7 @@ const SGDPage = () => (
         </div>
       </Section>
       <Section>
-        <div className='sgd_content'>
+        <div className='sgd_content p-32 box-shadow'>
           <div className='sgd_content--text--container'>
             <h3 className='sgd_heading'>
               Our programs for sustainable development
