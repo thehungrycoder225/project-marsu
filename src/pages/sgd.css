@@ -63,7 +63,7 @@
 }
 
 .sgd_hero--padding {
-  padding: 1.6rem 3.2rem;
+  padding: 9.6rem;
 }
 
 .text-justify {
@@ -183,7 +183,7 @@
 }
 
 .sgd_hero--brand {
-  max-width: min(100%, 48rem);
+  max-width: min(100%, 24rem);
 }
 
 .sgd_hero--brand img {

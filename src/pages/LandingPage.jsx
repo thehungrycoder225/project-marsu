@@ -78,7 +78,7 @@ function LandingPage() {
             <div className='sgd_landing sgd_landing_card'>
               <div className='row align-items-center'>
                 <div className='col-md-3'>
-                  <img src='sgd-logo.png' className='sgd_landing_img' alt='' />
+                  <img src='sdg-logo.png' className='sgd_landing_img' alt='' />
                 </div>
                 <div className='col-md-6'>
                   <h3 className='linkages_title text-start fs-2'>

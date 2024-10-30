@@ -5,113 +5,10 @@ import Marquee from 'react-fast-marquee';
 import HeroComponent from '../components/Hero';
 import Footer from '../components/Footer';
 import Section from '../components/Section';
-import logo from '../assets/sgd-logo.png';
+import logo from '../assets/sdg-logo.png';
 import projects from './projects';
+import goals from './goals';
 import './sgd.css';
-const goals = [
-  {
-    id: 1,
-    image: 'sdg/E-WEB-Goal-01.png',
-    alt: 'No Poverty',
-    link: '/sdg/no-poverty',
-  },
-  {
-    id: 2,
-    image: 'sdg/E-WEB-Goal-02.png',
-    alt: 'Zero Hunger',
-    link: '/sdg/zero-hunger',
-  },
-  {
-    id: 3,
-    image: 'sdg/E-WEB-Goal-03.png',
-    alt: 'Good Health and Well-being',
-    link: '/sdg/good-health',
-  },
-  {
-    id: 4,
-    image: 'sdg/E-WEB-Goal-04.png',
-    alt: 'Quality Education',
-    link: 'sdg/quality-education',
-  },
-  {
-    id: 5,
-    image: 'sdg/E-WEB-Goal-05.png',
-    alt: 'Gender Equality',
-    link: '/sdg/gender-equality',
-  },
-  {
-    id: 6,
-    image: 'sdg/E-WEB-Goal-06.png',
-    alt: 'Clean Water and Sanitation',
-    link: '/sdg/clean-water',
-  },
-  {
-    id: 7,
-    image: 'sdg/E-WEB-Goal-07.png',
-    alt: 'Affordable and Clean Energy',
-    link: '/sdg/affordable-energy',
-  },
-  {
-    id: 8,
-    image: 'sdg/E-WEB-Goal-08.png',
-    alt: 'Decent Work and Economic Growth',
-    link: '/sdg/decent-work',
-  },
-  {
-    id: 9,
-    image: 'sdg/E-WEB-Goal-09.png',
-    alt: 'Industry, Innovation, and Infrastructure',
-    link: '/sdg/industry-innovation',
-  },
-  {
-    id: 10,
-    image: 'sdg/E-WEB-Goal-10.png',
-    alt: 'Reduced Inequality',
-    link: '/sdg/reduced-inequality',
-  },
-  {
-    id: 11,
-    image: 'sdg/E-WEB-Goal-11.png',
-    alt: 'Sustainable Cities and Communities',
-    link: '/sdg/sustainable-cities',
-  },
-  {
-    id: 12,
-    image: 'sdg/E-WEB-Goal-12.png',
-    alt: 'Responsible Consumption and Production',
-    link: '/sdg/responsible-consumption',
-  },
-  {
-    id: 13,
-    image: 'sdg/E-WEB-Goal-13.png',
-    alt: 'Climate Action',
-    link: '/sdg/climate-action',
-  },
-  {
-    id: 14,
-    image: 'sdg/E-WEB-Goal-14.png',
-    alt: 'Life Below Water',
-    link: '/sdg/life-below-water',
-  },
-  {
-    id: 15,
-    image: 'sdg/E-WEB-Goal-15.png',
-    alt: 'Life on Land',
-    link: '/sdg/life-on-land',
-  },
-  {
-    id: 16,
-    image: 'sdg/E-WEB-Goal-16.png',
-    alt: 'Peace, Justice, and Strong Institutions',
-    link: '/sdg/peace-justice',
-  },
-  {
-    id: 17,
-    image: 'sdg/E-WEB-Goal-17.png',
-    alt: 'Partnerships for the Goals',
-    link: '/sdg/partnerships-goals',
-  },
-];
 
 const GoalMarquee = ({ goals }) => (
   <Marquee speed={50} pauseOnHover={1}>
@@ -158,22 +55,6 @@ const SGDPage = () => {
         description={`Marinduque State University (MarSU) reaffirms its unwavering commitment to the United Nations’ 2030 Agenda for Sustainable Development and the attainment of the 17 Sustainable Development Goals (SDGs). As an institution of higher learning, we recognize the University’s vital role in shaping a more inclusive, equitable, and sustainable world. Guided by our core values - H.E.A.R.T., MarSU stands at the forefront of driving transformative change through education, research, and community engagement – from the Heart of the Philippines to the global community.`}
       />
       <Container>
-        {/* <Section>
-        <div className='sgd_content '>
-          <div className='sgd_content--text--container'>
-            <h3 className='sgd_heading'>
-              Welcome to the Sustainable Goals Development Center
-            </h3>
-            <p className='fs-4 fw-light sgd_description'>
-              We are dedicated to fostering a culture of sustainability,
-              innovation, and social responsibility in our students, faculty,
-              and staff. Through our programs, research initiatives, and
-              community partnerships, we aim to create a sustainable future for
-              all.
-            </p>
-          </div>
-        </div>
-      </Section> */}
         <Section>
           <div className='sgd_content bg-off-white box-shadow'>
             <img
