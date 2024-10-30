@@ -247,7 +247,7 @@ const SGDPage = () => {
               <h3 className='sgd_heading'>
                 Empowering change for sustainable future
               </h3>
-              <p className='fs-4 fw-light sgd_description'>
+              <p className=' fs-4 fw-light sgd_description'>
                 As we stand on the precipice of a new era, we must recognize the
                 critical importance of sustainability in our efforts to provide
                 exemplary higher education services. Our island province, with
@@ -261,6 +261,9 @@ const SGDPage = () => {
                 Together, we can create a model of higher education that is both
                 forward-thinking and firmly rooted in the principles of
                 sustainability
+              </p>
+              <p className='fs-4 fw-light'>
+                {'- Dr. Diosdado P. Zulueta, University President'}
               </p>
             </div>
           </div>
