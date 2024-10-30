@@ -203,7 +203,7 @@
 .sgd_card--tag {
   object-fit: contain;
   max-width: min(4.2rem, 100%);
-  aspect-ratio: 4/3;
+  /* aspect-ratio: 4/3; */
 }
 
 @media screen and (max-width: 768px) {
