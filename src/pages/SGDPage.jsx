@@ -6,6 +6,7 @@ import HeroComponent from '../components/Hero';
 import Footer from '../components/Footer';
 import Section from '../components/Section';
 import logo from '../assets/sgd-logo.png';
+import projects from './projects';
 import './sgd.css';
 const goals = [
   {
@@ -112,71 +113,71 @@ const goals = [
   },
 ];
 
-const projects = [
-  {
-    id: 1,
-    title: 'iUgnay Project',
-    description:
-      'iUgnay Project, is a project that aims to provide internet access to underprivileged villages in Marinduque. ',
-    image: 'sgd/project/iugnay.jpg',
-    link: '/sgd/project/1',
-    tags: [
-      {
-        name: 'Industry, Innovation, and Infrastructure',
-        image: 'sgd/E-WEB-Goal-09.png',
-      },
-    ],
-  },
-  {
-    id: 2,
-    title: 'Project 2',
-    image: 'sgd/project/governance.jpg',
-    description:
-      'Project 2 is a project that aims to promote good governance and transparency in local government units.',
-    link: '/sgd/project/2',
-    tags: [
-      {
-        name: 'Peace, Justice, and Strong Institutions',
-        image: 'sgd/E-WEB-Goal-16.png',
-      },
-    ],
-  },
-  {
-    id: 3,
-    title: 'Project 3',
-    description:
-      'Project 3 is a project that aims to promote sustainable tourism and protect the environment.',
-    image: 'sgd/project/island.jpg',
-    link: '/sgd/project/3',
-    tags: [
-      { name: 'Life Below Water', image: 'sgd/E-WEB-Goal-14.png' },
-      { name: 'Life on Land', image: 'sgd/E-WEB-Goal-15.png' },
-    ],
-  },
-  {
-    id: 4,
-    title: 'Project 4',
-    description:
-      'Project 4 is a project that aims to promote sustainable agriculture and provide livelihood opportunities to farmers.',
-    image: 'sgd/project/eme.jpg',
-    link: '/sgd/project/4',
-    tags: [
-      {
-        name: 'Industry, Innovation, and Infrastructure',
-        image: 'sgd/E-WEB-Goal-09.png',
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: 'Project 5',
-    description:
-      'Project 5 is a project that aims to provide quality education to underprivileged children in Marinduque.',
-    image: 'sgd/project/education.jpg',
-    link: '/sgd/project/5',
-    tags: [{ name: 'Quality Education', image: 'sgd/E-WEB-Goal-04.png' }],
-  },
-];
+// const projects = [
+//   {
+//     id: 1,
+//     title: 'iUgnay Project',
+//     description:
+//       'iUgnay Project, is a project that aims to provide internet access to underprivileged villages in Marinduque. ',
+//     image: 'sgd/project/iugnay.jpg',
+//     link: '/sgd/project/1',
+//     tags: [
+//       {
+//         name: 'Industry, Innovation, and Infrastructure',
+//         image: 'sgd/E-WEB-Goal-09.png',
+//       },
+//     ],
+//   },
+//   {
+//     id: 2,
+//     title: 'Project 2',
+//     image: 'sgd/project/governance.jpg',
+//     description:
+//       'Project 2 is a project that aims to promote good governance and transparency in local government units.',
+//     link: '/sgd/project/2',
+//     tags: [
+//       {
+//         name: 'Peace, Justice, and Strong Institutions',
+//         image: 'sgd/E-WEB-Goal-16.png',
+//       },
+//     ],
+//   },
+//   {
+//     id: 3,
+//     title: 'Project 3',
+//     description:
+//       'Project 3 is a project that aims to promote sustainable tourism and protect the environment.',
+//     image: 'sgd/project/island.jpg',
+//     link: '/sgd/project/3',
+//     tags: [
+//       { name: 'Life Below Water', image: 'sgd/E-WEB-Goal-14.png' },
+//       { name: 'Life on Land', image: 'sgd/E-WEB-Goal-15.png' },
+//     ],
+//   },
+//   {
+//     id: 4,
+//     title: 'Project 4',
+//     description:
+//       'Project 4 is a project that aims to promote sustainable agriculture and provide livelihood opportunities to farmers.',
+//     image: 'sgd/project/eme.jpg',
+//     link: '/sgd/project/4',
+//     tags: [
+//       {
+//         name: 'Industry, Innovation, and Infrastructure',
+//         image: 'sgd/E-WEB-Goal-09.png',
+//       },
+//     ],
+//   },
+//   {
+//     id: 5,
+//     title: 'Project 5',
+//     description:
+//       'Project 5 is a project that aims to provide quality education to underprivileged children in Marinduque.',
+//     image: 'sgd/project/education.jpg',
+//     link: '/sgd/project/5',
+//     tags: [{ name: 'Quality Education', image: 'sgd/E-WEB-Goal-04.png' }],
+//   },
+// ];
 
 const GoalMarquee = ({ goals }) => (
   <Marquee speed={50} pauseOnHover={1}>
@@ -206,7 +207,7 @@ const SGDPage = () => {
         project.tags.some((tag) => tag.name === goal)
       )
     );
-
+    console.log(goal, newFilteredProjects);
     setFilteredProjects(newFilteredProjects);
   };
   return (
@@ -320,7 +321,7 @@ const SGDPage = () => {
               {projects.map((project) => (
                 <>
                   <img
-                    src={project.image}
+                    src={`sgd/project/${project.image}`}
                     alt={project.title}
                     className='sgd_gallery--image'
                   />
@@ -339,7 +340,7 @@ const SGDPage = () => {
                     <div key={project.id} className='sgd_card'>
                       <Link to={project.link}>
                         <img
-                          src={project.image}
+                          src={`sgd/project/${project.image}`}
                           alt={project.title}
                           className='sgd_card--image'
                         />
@@ -353,7 +354,7 @@ const SGDPage = () => {
                           {project.tags.map((tag) => (
                             <img
                               key={tag.name}
-                              src={tag.image}
+                              src={`sgd/project/${tag.image}`}
                               alt={tag.name}
                               className='sgd_card--tag'
                             />
