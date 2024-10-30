@@ -11,105 +11,105 @@ import './sgd.css';
 const goals = [
   {
     id: 1,
-    image: 'sgd/E-WEB-Goal-01.png',
+    image: 'sdg/E-WEB-Goal-01.png',
     alt: 'No Poverty',
-    link: '/sgd/no-poverty',
+    link: '/sdg/no-poverty',
   },
   {
     id: 2,
-    image: 'sgd/E-WEB-Goal-02.png',
+    image: 'sdg/E-WEB-Goal-02.png',
     alt: 'Zero Hunger',
-    link: '/sgd/zero-hunger',
+    link: '/sdg/zero-hunger',
   },
   {
     id: 3,
-    image: 'sgd/E-WEB-Goal-03.png',
+    image: 'sdg/E-WEB-Goal-03.png',
     alt: 'Good Health and Well-being',
-    link: '/sgd/good-health',
+    link: '/sdg/good-health',
   },
   {
     id: 4,
-    image: 'sgd/E-WEB-Goal-04.png',
+    image: 'sdg/E-WEB-Goal-04.png',
     alt: 'Quality Education',
-    link: 'sgd/quality-education',
+    link: 'sdg/quality-education',
   },
   {
     id: 5,
-    image: 'sgd/E-WEB-Goal-05.png',
+    image: 'sdg/E-WEB-Goal-05.png',
     alt: 'Gender Equality',
-    link: '/sgd/gender-equality',
+    link: '/sdg/gender-equality',
   },
   {
     id: 6,
-    image: 'sgd/E-WEB-Goal-06.png',
+    image: 'sdg/E-WEB-Goal-06.png',
     alt: 'Clean Water and Sanitation',
-    link: '/sgd/clean-water',
+    link: '/sdg/clean-water',
   },
   {
     id: 7,
-    image: 'sgd/E-WEB-Goal-07.png',
+    image: 'sdg/E-WEB-Goal-07.png',
     alt: 'Affordable and Clean Energy',
-    link: '/sgd/affordable-energy',
+    link: '/sdg/affordable-energy',
   },
   {
     id: 8,
-    image: 'sgd/E-WEB-Goal-08.png',
+    image: 'sdg/E-WEB-Goal-08.png',
     alt: 'Decent Work and Economic Growth',
-    link: '/sgd/decent-work',
+    link: '/sdg/decent-work',
   },
   {
     id: 9,
-    image: 'sgd/E-WEB-Goal-09.png',
+    image: 'sdg/E-WEB-Goal-09.png',
     alt: 'Industry, Innovation, and Infrastructure',
-    link: '/sgd/industry-innovation',
+    link: '/sdg/industry-innovation',
   },
   {
     id: 10,
-    image: 'sgd/E-WEB-Goal-10.png',
+    image: 'sdg/E-WEB-Goal-10.png',
     alt: 'Reduced Inequality',
-    link: '/sgd/reduced-inequality',
+    link: '/sdg/reduced-inequality',
   },
   {
     id: 11,
-    image: 'sgd/E-WEB-Goal-11.png',
+    image: 'sdg/E-WEB-Goal-11.png',
     alt: 'Sustainable Cities and Communities',
-    link: '/sgd/sustainable-cities',
+    link: '/sdg/sustainable-cities',
   },
   {
     id: 12,
-    image: 'sgd/E-WEB-Goal-12.png',
+    image: 'sdg/E-WEB-Goal-12.png',
     alt: 'Responsible Consumption and Production',
-    link: '/sgd/responsible-consumption',
+    link: '/sdg/responsible-consumption',
   },
   {
     id: 13,
-    image: 'sgd/E-WEB-Goal-13.png',
+    image: 'sdg/E-WEB-Goal-13.png',
     alt: 'Climate Action',
-    link: '/sgd/climate-action',
+    link: '/sdg/climate-action',
   },
   {
     id: 14,
-    image: 'sgd/E-WEB-Goal-14.png',
+    image: 'sdg/E-WEB-Goal-14.png',
     alt: 'Life Below Water',
-    link: '/sgd/life-below-water',
+    link: '/sdg/life-below-water',
   },
   {
     id: 15,
-    image: 'sgd/E-WEB-Goal-15.png',
+    image: 'sdg/E-WEB-Goal-15.png',
     alt: 'Life on Land',
-    link: '/sgd/life-on-land',
+    link: '/sdg/life-on-land',
   },
   {
     id: 16,
-    image: 'sgd/E-WEB-Goal-16.png',
+    image: 'sdg/E-WEB-Goal-16.png',
     alt: 'Peace, Justice, and Strong Institutions',
-    link: '/sgd/peace-justice',
+    link: '/sdg/peace-justice',
   },
   {
     id: 17,
-    image: 'sgd/E-WEB-Goal-17.png',
+    image: 'sdg/E-WEB-Goal-17.png',
     alt: 'Partnerships for the Goals',
-    link: '/sgd/partnerships-goals',
+    link: '/sdg/partnerships-goals',
   },
 ];
 
@@ -321,7 +321,7 @@ const SGDPage = () => {
               {projects.map((project) => (
                 <>
                   <img
-                    src={`sgd/project/${project.image}`}
+                    src={`sdg/project/${project.image}`}
                     alt={project.title}
                     className='sgd_gallery--image'
                   />
@@ -340,7 +340,7 @@ const SGDPage = () => {
                     <div key={project.id} className='sgd_card'>
                       <Link to={project.link}>
                         <img
-                          src={`sgd/project/${project.image}`}
+                          src={`sdg/project/${project.image}`}
                           alt={project.title}
                           className='sgd_card--image'
                         />
@@ -354,7 +354,7 @@ const SGDPage = () => {
                           {project.tags.map((tag) => (
                             <img
                               key={tag.name}
-                              src={`sgd/project/${tag.image}`}
+                              src={`sdg/project/${tag.image}`}
                               alt={tag.name}
                               className='sgd_card--tag'
                             />

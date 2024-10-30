@@ -233,6 +233,17 @@
   /* aspect-ratio: 4/3; */
 }
 
+.sdg_project--title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+  color: var(--color-primary-light);
+}
+
+.sgd_project--description {
+  font-size: 1.4rem;
+}
+
 @media screen and (max-width: 768px) {
   .sgd_content {
     flex-direction: column;

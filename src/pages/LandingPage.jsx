@@ -92,7 +92,7 @@ function LandingPage() {
                   </p>
                 </div>
                 <div className='col-md-3'>
-                  <Link className='btn_sgd' to='/sgd'>
+                  <Link className='btn_sgd' to='/sdg'>
                     {'Explore->'}
                   </Link>
                 </div>
