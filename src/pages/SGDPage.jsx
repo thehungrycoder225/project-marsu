@@ -11,7 +11,16 @@ import goals from './goals';
 import './sgd.css';
 
 const GoalMarquee = ({ goals }) => (
-  <Marquee speed={50} pauseOnHover={1}>
+  // <Marquee speed={50} pauseOnHover={1}>
+  //   {goals.map((goal) => (
+  //     <div key={goal.id} className='marquee_item'>
+  //       <Link to={goal.link}>
+  //         <img src={goal.image} alt={goal.alt} className='sgd_goal--images' />
+  //       </Link>
+  //     </div>
+  //   ))}
+  // </Marquee>
+  <div className='scrollable-container'>
     {goals.map((goal) => (
       <div key={goal.id} className='marquee_item'>
         <Link to={goal.link}>
@@ -19,7 +28,7 @@ const GoalMarquee = ({ goals }) => (
         </Link>
       </div>
     ))}
-  </Marquee>
+  </div>
 );
 
 const SGDPage = () => {

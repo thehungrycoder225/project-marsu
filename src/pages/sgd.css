@@ -114,11 +114,24 @@
   overflow-x: auto;
   scroll-behavior: smooth;
   padding: 1rem 0;
-  margin: 0 2rem; /* Space for scroll buttons */
 }
 
-.scrollable-container::-webkit-scrollbar {
-  display: none;
+.marquee_item {
+  flex: 0 0 auto;
+  margin-right: 1rem;
+}
+
+.sgd_goal--images {
+  object-fit: contain;
+  max-width: 100px;
+  aspect-ratio: 4/3;
+  transition: all 0.3s ease-in-out;
+}
+
+.sgd_goal--images:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+  filter: contrast(2.2);
 }
 
 .sgd__gallery {
