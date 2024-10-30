@@ -150,9 +150,12 @@ const SGDPage = () => {
         brand={logo}
         heroImage={'sgd_hero--brand'}
         titleText='sgd_title'
+        subText='sgd_subtitle'
+        desText='sgd_description'
         heroPadding={'sgd_hero--padding'}
-        title='Sustainable Goals Development Center'
-        description='Marinduque State University stands as a beacon of hope and innovation, committed to advancing sustainable development goals in higher education.'
+        title='From the HEART, to the World'
+        subtitle='Sustainability and Innovation @MarSU'
+        description={`Marinduque State University (MarSU) reaffirms its unwavering commitment to the United Nations’ 2030 Agenda for Sustainable Development and the attainment of the 17 Sustainable Development Goals (SDGs). As an institution of higher learning, we recognize the University’s vital role in shaping a more inclusive, equitable, and sustainable world. Guided by our core values - H.E.A.R.T., MarSU stands at the forefront of driving transformative change through education, research, and community engagement – from the Heart of the Philippines to the global community.`}
       />
       <Container>
         {/* <Section>
@@ -183,22 +186,33 @@ const SGDPage = () => {
                 Empowering change for sustainable future
               </h3>
               <p className=' fs-4 fw-light sgd_description'>
-                As we stand on the precipice of a new era, we must recognize the
-                critical importance of sustainability in our efforts to provide
-                exemplary higher education services. Our island province, with
-                its unique environmental and cultural heritage, holds a distinct
-                position in fostering an educational ecosystem that not only
-                imparts knowledge but also cultivates a deep respect for our
-                natural resources. By integrating sustainable practices into
-                every facet of our curriculum and campus operations, we aim to
-                empower our students to become stewards of the environment,
-                champions of innovation, and leaders in their communities.
-                Together, we can create a model of higher education that is both
-                forward-thinking and firmly rooted in the principles of
-                sustainability
+                Guided by our commitment to the United Nations' 2030 Sustainable
+                Development Goals, Marinduque State University envisions a
+                future where education, innovation and collaboration converge to
+                create a meaningful, lasting impact. At the core of our mission
+                lies a collective dedication to advancing sustainable solutions,
+                pioneering technologies, and cultivating a culture of
+                inclusivity and resilience. The journey toward these global
+                goals demands an unwavering collaboration across our entire
+                academic community. Faculty members, students, researchers, and
+                administrative staff all play vital roles in addressing the
+                world’s most pressing challenges. Together, we are building
+                interdisciplinary pathways that lead to sustainable practices,
+                community-centered solutions, and transformative research,
+                empowering our institution to be a pillar of sustainable
+                development in the region. As we embark on this vital journey,
+                we reaffirm our commitment to fostering partnerships and
+                encouraging knowledge sharing that will strengthen our
+                initiatives. Through education, research, and community
+                engagement, Marinduque State University pledges to be at the
+                forefront of sustainable action, fully dedicated to shaping a
+                more inclusive, resilient, and sustainable future for all.
               </p>
               <p className='fs-4 fw-light'>
                 {'- Prof. Diosdado P. Zulueta, DPA'}
+                <span className='d-block fs-5 fw-light px-3'>
+                  University President
+                </span>
               </p>
             </div>
           </div>

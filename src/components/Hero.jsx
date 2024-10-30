@@ -4,9 +4,12 @@ import PropTypes from 'prop-types';
 
 function HeroComponent({
   title,
+  subtitle,
   description,
   brand,
   titleText,
+  subText,
+  desText,
   heroImage,
   heroPadding,
 }) {
@@ -17,7 +20,8 @@ function HeroComponent({
       </div>
       <div className='hero-text'>
         <h1 className={titleText}>{title}</h1>
-        <p>{description}</p>
+        <p className={subText}>{subtitle}</p>
+        <p className={desText}>{description}</p>
       </div>
     </div>
   );
