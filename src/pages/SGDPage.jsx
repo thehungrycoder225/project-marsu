@@ -33,13 +33,16 @@ const SGDPage = () => {
 
     setSelectedGoals(newSelectedGoals);
 
-    const newFilteredProjects = projects.filter((project) =>
-      newSelectedGoals.every((goal) =>
-        project.tags.some((tag) => tag.name === goal)
-      )
-    );
-    console.log(goal, newFilteredProjects);
-    setFilteredProjects(newFilteredProjects);
+    if (newSelectedGoals.length === 0) {
+      setFilteredProjects(projects);
+    } else {
+      const newFilteredProjects = projects.filter((project) =>
+        newSelectedGoals.every((goal) =>
+          project.tags.some((tag) => tag.name === goal)
+        )
+      );
+      setFilteredProjects(newFilteredProjects);
+    }
   };
   return (
     <>
@@ -130,7 +133,11 @@ const SGDPage = () => {
           </div>
           <div className='sgd_content'>
             <div className='marquee'>
-              <GoalMarquee goals={goals} />
+              <GoalMarquee
+                goals={goals}
+                handleGoalClick={handleGoalClick}
+                selectedGoals={selectedGoals}
+              />
             </div>
           </div>
         </Section>
