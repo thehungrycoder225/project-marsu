@@ -34,15 +34,16 @@ const SGDProject = () => {
               </div>
             </div>
             <div className='col-md-6'>
-              <h3 className='sdg_project--title'>SDG Goals</h3>
-              {project.tags.map((tag, index) => (
-                <img
-                  key={index}
-                  src={tag.image}
-                  alt={tag.name}
-                  className='project-tag-image'
-                />
-              ))}
+              {project.tags.map((tag, index) =>
+                tag.image.map((icon, index) => (
+                  <img
+                    key={`${tag.id}-${index}`}
+                    src={`goals/${icon}`}
+                    alt={tag.name}
+                    className='sgd_card--tag'
+                  />
+                ))
+              )}
             </div>
           </div>
         </Section>
