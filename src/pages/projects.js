@@ -11,7 +11,7 @@ const projects = [
     tags: [
       {
         name: ['Industry, Innovation, and Infrastructure', 'Quality Education', 'Sustainable Cities and Communities'],
-        image: ['E-WEB-Goal-09.png', 'E-WEB-Goal-04.png', 'E-WEB-Goal-11.png'],
+        image: ['E-WEB-Goal-04.png', 'E-WEB-Goal-09.png', 'E-WEB-Goal-11.png'],
       },
     ],
     objectives: [
@@ -258,7 +258,7 @@ Further, 79.49% of barangay officials encountered issues and concerns in baranga
     link: `/sdg/project/4`,
     tags: [
       {
-        name: ['Industry, Innovation, and Infrastructure', 'Climate Action', 'Life Below Water', 'Life on Land'],
+        name: ['Zero Hunger', 'Climate Action', 'Life Below Water', 'Life on Land'],
         image: [
           'E-WEB-Goal-02.png',
           'E-WEB-Goal-13.png',
