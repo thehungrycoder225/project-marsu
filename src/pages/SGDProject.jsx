@@ -134,7 +134,7 @@ const SGDProject = () => {
           <div className='col-md-12'>
             <h2>Key Points</h2>
             <ul>
-              {project.keypoints.map((point, index) => (
+              {project.waypoints.map((point, index) => (
                 <li key={index}>{point}</li>
               ))}
             </ul>
@@ -143,7 +143,7 @@ const SGDProject = () => {
         <div className='row'>
           <div className='col-md-12'>
             <h2>Launch Date</h2>
-            <p>{project.launchdate}</p>
+            <p>{project.launchd}</p>
           </div>
         </div>
         <div className='row'>

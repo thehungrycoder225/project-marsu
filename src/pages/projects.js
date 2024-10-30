@@ -55,13 +55,13 @@ According to PSA Marinduque, 53.8% or 32,574 households reported that they have 
             },
         ],
         content: 'Using satellite technology provides a sustainable solution to internet connectivity challenges in remote areas of Marinduque.',
-        keypoints: [
+        waypoints: [
             'No internet',
             'Limited internet',
             'Satellite technology',
             'Remote villages'
         ],
-        launchdate: 'January 2023',
+        launchd: 'January 2023',
         proponent: 'Marinduque State University - College of Information and Computing Sciences (CICS)',
         progress: 'Implemented in multiple villages with monitoring systems and community feedback mechanisms in place for evaluation and improvement.',
         problems: 'Intermittent satellite performance during adverse weather conditions and logistical difficulties related to accessing remote sites.',
