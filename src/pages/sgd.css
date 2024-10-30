@@ -10,6 +10,19 @@
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
 }
 
+.feature_image {
+  object-fit: cover;
+  aspect-ratio: 16/9;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.project-tag-image {
+  object-fit: contain;
+  max-width: min(6.4rem, 100%);
+  aspect-ratio: 4/3;
+}
+
 .p-32 {
   padding: 3.2rem;
 }
