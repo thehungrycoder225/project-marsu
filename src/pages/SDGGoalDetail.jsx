@@ -12,7 +12,7 @@ const SDGGoalDetail = () => {
   }
 
   const relatedProjects = projects.filter((project) =>
-    project.tags.some((tag) => tag.name === goal.title)
+    project.tags.some((tag) => tag.name.includes(goal.title))
   );
 
   return (
