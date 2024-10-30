@@ -1,6 +1,7 @@
 import { useParams } from 'react-router-dom';
 import Section from '../components/Section';
 import { Container } from 'react-bootstrap';
+import PageNotFound from './404';
 import projects from './projects'; // Ensure this path is correct
 
 const SGDProject = () => {
@@ -8,7 +9,7 @@ const SGDProject = () => {
   const project = projects.find((project) => project.id === parseInt(id));
 
   if (!project) {
-    return <div>Project not found</div>;
+    return <PageNotFound />;
   }
 
   return (
