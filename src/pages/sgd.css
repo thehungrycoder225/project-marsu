@@ -336,6 +336,7 @@
   .sgd_hero--brand {
     width: 16rem;
     scale: 1.5;
+    padding: 3.2rem;
   }
 
   .sgd_hero--brand img {
@@ -349,5 +350,15 @@
 
   .sdg_project--title {
     text-align: center;
+  }
+
+  .sgd_title {
+    font-size: 3.2rem !important;
+  }
+  .sgd_subtitle {
+    font-size: 1.8rem !important;
+  }
+  .sgd_description {
+    font-size: 1.2rem !important;
   }
 }

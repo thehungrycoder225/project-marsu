@@ -1,0 +1,11 @@
+.goal-detail {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+}
+
+.goal-detail img {
+  width: 100%;
+  max-width: 10rem;
+  border-radius: 4px;
+}

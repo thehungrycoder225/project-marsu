@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import Section from '../components/Section';
 import goals from './goals'; // Adjust the import path as needed
 import projects from './projects'; // Adjust the import path as needed
+import './sdggoal.css';
 
 const SDGGoalDetail = () => {
   const { id } = useParams();
@@ -19,10 +20,14 @@ const SDGGoalDetail = () => {
 
   return (
     <div className='container'>
+      <h1>{goal.title}</h1>
       <div className='goal-detail'>
-        <h1>{goal.title}</h1>
-        <img src={goal.image} alt={goal.alt} />
-        <p>{goal.description}</p>
+        <div>
+          <img src={goal.image} alt={goal.alt} />
+        </div>
+        <div>
+          <p>{goal.description}</p>
+        </div>
       </div>
       <div className='related-projects'>
         <Section>
