@@ -263,7 +263,7 @@ const SGDPage = () => {
                 sustainability
               </p>
               <p className='fs-4 fw-light'>
-                {'- Dr. Diosdado P. Zulueta, University President'}
+                {'- Prof. Diosdado P. Zulueta, DPA'}
               </p>
             </div>
           </div>
