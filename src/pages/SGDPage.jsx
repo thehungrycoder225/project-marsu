@@ -185,7 +185,7 @@ const SGDPage = () => {
               <h3 className='sgd_heading'>
                 Empowering change for sustainable future
               </h3>
-              <p className=' fs-4 fw-light sgd_description'>
+              <p className=' fs-4 fw-light sgd_description text-justify'>
                 Guided by our commitment to the United Nations' 2030 Sustainable
                 Development Goals, Marinduque State University envisions a
                 future where education, innovation and collaboration converge to
