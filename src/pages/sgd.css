@@ -74,6 +74,7 @@
 .sgd_heading {
   font-size: 2rem;
   font-weight: 700;
+  width: 100%;
   color: var(--color-primary);
 }
 
@@ -238,6 +239,7 @@
   font-weight: 700;
   margin-bottom: 1.6rem;
   color: var(--color-primary-light);
+  width: 100%;
 }
 
 .sgd_project--description {
@@ -317,5 +319,9 @@
   .sgd_content--image {
     border-radius: 100%;
     max-width: min(16rem, 100%);
+  }
+
+  .sdg_project--title {
+    text-align: center;
   }
 }

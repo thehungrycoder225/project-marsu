@@ -151,15 +151,14 @@ const SGDProject = () => {
             <div className='row p-32'>
               <div className='col-md-12'>
                 <h3 className='sdg_project--title'>Key Points</h3>
-                <ul>
-                  {project.waypoints.map((point, index) => (
-                    <div key={index}>
-                      <ul>
-                        <li className='sgd_project--description'>{point} </li>
-                      </ul>
-                    </div>
-                  ))}
-                </ul>
+
+                {project.waypoints.map((point, index) => (
+                  <div key={index}>
+                    <ul>
+                      <li className='sgd_project--description'>{point} </li>
+                    </ul>
+                  </div>
+                ))}
               </div>
             </div>
             <div className='row p-32'>
