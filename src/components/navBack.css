@@ -5,32 +5,28 @@
   cursor: pointer;
   transition: background-color 0.3s, color 0.3s;
   text-decoration: none;
+  background-color: #660033;
 }
 
 .btn--back {
-  background-color: #660033;
+  background-color: #660033 !important;
   color: #333;
   border: transparent;
 }
 
 .btn--back:hover {
-  background-color: var(--accent-700-light);
+  background-color: var(--accent-700-light) !important;
   color: var(--color-text-dark);
 }
 
 .btn--home {
-  background-color: var(--color-primary);
+  background-color: #660033 !important;
   color: #f5f5f5;
 }
 
 .btn--home:hover {
-  background-color: var(--color-primary-light);
+  background-color: #660033 !important;
   color: #f5f5f5;
-}
-
-.logo {
-  width: 100%;
-  max-width: 20rem;
 }
 
 .btn_group {
