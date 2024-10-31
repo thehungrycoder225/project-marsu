@@ -98,6 +98,113 @@ const projects = [
       'Plans include extending coverage to additional villages of Marinduque, improving technological infrastructure for greater resilience, and exploring further collaborations with technology partners to enhance system performance.',
   },
   {
+    id: 3,
+    title: 'Small Island for Sustainable Environment',
+    logo: 'sise.jpg',
+    description:
+      'To address issues related to environmental sustainability different project components were identified and established in the 1.2 hectares of mangroves and aquasilvicultutre site of Barangay Ino-Capayang and Sitio Ubog-ubog, Nangka II, Mogpog, Marinduque.',
+    abstract: `The SISE Project research involve supporting the environment, economic and livelihood activities. It also include capacity building to empower coastal communities to be self-reliant by creating viable livelihoods to address poverty which at the same time sustain their limited natural resources, ecotourism development, resource enhancement and protection of biodiversity in the Province of Marinduque.
+.`,
+    overview: `
+The project highlights to achieve several short-term results, including the establishment of a mangrove seedling nursery, the development of a mangrove conservation plan and increased community awareness of mangrove conservation through outreach activities and distribution of environmental advocacy materials. Research, field guide and laboratory manuals are ways forward from this project in the future.`,
+    image: 'small-sland.png',
+    link: `/sdg/project/3`,
+    tags: [
+      {
+        name: [
+          'Zero Hunger',
+          'Climate Action',
+          'Life Below Water',
+          'Life on Land',
+        ],
+        image: [
+          'E-WEB-Goal-02.png',
+          'E-WEB-Goal-13.png',
+          'E-WEB-Goal-14.png',
+          'E-WEB-Goal-15.png',
+        ],
+      },
+    ],
+    objectives: [
+      'To deploy a technology-driven solution to provide high-speed internet access in various remote and isolated villages of Marinduque.',
+      'To support the educational and economic needs of residents in these underserved villages.',
+      'To create a scalable and sustainable model for expanding digital connectivity in rural communities.',
+    ],
+    subject: [
+      {
+        initiator: 'CICS',
+        leader: 'CICS',
+        members: ['CICS', 'CICS', 'CICS'],
+      },
+    ],
+    environment: [
+      {
+        nature: 'Inhabitants of geographically isolated villages',
+        industry: 'Residents who need internet connectivity service',
+        government: 'Local Government Units ',
+      },
+    ],
+    resources: [
+      {
+        human: ['CICS staff', 'Local residents'],
+        financial: [
+          'Php 100,000 Initial Cost',
+          'Php 40,000 yearly operational cost',
+        ],
+        technical: [
+          'Satellite Internet System',
+          'Wi-Fi vending machines',
+          'Fiber Optic Kits',
+          'Other networking devices',
+        ],
+      },
+    ],
+    mechanism: [
+      {
+        planning:
+          'Conduct a needs assessment to identify target villages and their connectivity requirements.',
+        design:
+          'Develop a network design that integrates satellite internet with a Wi-Fi system to provide high-speed connectivity.',
+        installation:
+          'Deploy the technology solution in target villages, including the installation of satellite dishes and Wi-Fi vending machines.',
+        testing:
+          'Conduct performance testing to ensure the reliability and speed of the internet connection.',
+        monitoring:
+          'Monitor the network performance and user feedback to identify areas for improvement and expansion.',
+      },
+    ],
+    content:
+      'Using satellite technology provides a sustainable solution to internet connectivity challenges in remote areas of Marinduque.',
+    waypoints: [
+      'No internet',
+      'Limited internet',
+      'Satellite technology',
+      'Remote villages',
+    ],
+    launchd: 'January 2023',
+    proponent:
+      'Marinduque State University - College of Information and Computing Sciences (CICS)',
+    progress:
+      'Implemented in multiple villages with monitoring systems and community feedback mechanisms in place for evaluation and improvement.',
+    problems:
+      'Intermittent satellite performance during adverse weather conditions and logistical difficulties related to accessing remote sites.',
+    solution:
+      'Implementation of weather-resistant technologies and collaboration with villages for system support and maintenance',
+    completion: 'Ongoing',
+    impact: [
+      'Provides students in remote locations with access to educational resources, enabling them to engage in online learning and research. [SDG4]',
+      'Expands the reach of MarSU educational programs and supports students and faculty in delivering remote instruction and conducting research',
+      'Positive feedback and support from local government units, which are open to further expansion efforts.',
+    ],
+    output:
+      'Over 300 users served in initial deployment areas, with consistent internet speeds maintained and revenue generated through the Wi-Fi service ',
+    costing:
+      'ROI of 173% within the first year, demonstrating the program’s economic viability and effectiveness.',
+    future:
+      'Plans include extending coverage to additional villages of Marinduque, improving technological infrastructure for greater resilience, and exploring further collaborations with technology partners to enhance system performance.',
+  },
+
+  {
     id: 2,
     title: 'Free-range Layer and Broiler Chicken Multiplier Breeder Farm',
     logo: 'freerange-logo.jpg',
@@ -249,7 +356,6 @@ const projects = [
     future:
       'There is a project proposal submitted to the Department of Agriculture - Agricultural Competitiveness Enhancement Fund to secure additional funding. The project will also engage in technology commercialization by tapping a farmers’ association to be capacitated on the commercial production of free-range chicken.',
   },
-
   {
     id: 4,
     title: 'G.R.A.C.E. -  A Training Program for Barangay Officials',
