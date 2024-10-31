@@ -22,14 +22,14 @@ const SDGGoalDetail = () => {
   return (
     <>
       <NavBack />
-
       <div className='container'>
-        <h1>{goal.title}</h1>
         <div className='goal-detail'>
-          <div>
+          <div className='goal-images'>
             <img src={goal.image} alt={goal.alt} />
+            <img src={goal.logo} alt={goal.alt} />
           </div>
           <div className='goal-text-container'>
+            <h3>{goal.subtitle}</h3>
             {goal.statement.map((statement, index) => (
               <p
                 key={index}

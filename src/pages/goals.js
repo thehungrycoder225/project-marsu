@@ -4,6 +4,9 @@ const goals = [
     image: 'sdg/E-WEB-Goal-01.png',
     title: 'No Poverty',
     description: 'Statement of Commitment for SDG 1',
+    logo: 'sdg/sdg-logo.png',
+    subtitle:
+      'MarSU stands united in its mission to break the cycle of poverty and pave the way for a more equitable and sustainable future.',
     statement: [
       {
         id: 1,
@@ -26,6 +29,7 @@ const goals = [
     image: 'sdg/E-WEB-Goal-02.png',
     title: 'Zero Hunger',
     description: 'Statement of Commitment for SDG 2 ',
+    logo: 'sdg/sdg-logo.png',
     statement: [
       {
         id: 1,

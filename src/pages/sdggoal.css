@@ -1,19 +1,37 @@
 .goal-detail {
   display: flex;
-  gap: 1.6rem;
-  justify-content: center;
-  padding: 1.6rem;
-  gap: 1.6rem;
+  gap: 3.2rem;
+  padding: 3.2rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../assets/test-bg.jfif');
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+  border: 8px;
 }
 
-.goal-detail img {
-  width: 100%;
-  max-width: 64rem;
-  border-radius: 4px;
+.goal-images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.6rem;
+  max-width: 20%;
 }
 
 .goal-text-container {
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
+}
+
+@media screen and (max-width: 768px) {
+  .goal-detail {
+    flex-direction: column;
+    gap: 1.6rem;
+    padding: 1.6rem;
+  }
+
+  .goal-images {
+    max-width: 100%;
+  }
 }
