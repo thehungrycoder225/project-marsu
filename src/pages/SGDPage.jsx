@@ -63,8 +63,8 @@ const SGDPage = () => {
         desText='sgd_description'
         heroPadding={'sgd_hero--padding'}
         title='From the HEART, to the World'
-        subtitle='Sustainability and Innovation @MarSU'
-        description={`Marinduque State University (MarSU) reaffirms its unwavering commitment to the United Nations’ 2030 Agenda for Sustainable Development and the attainment of the 17 Sustainable Development Goals (SDGs). As an institution of higher learning, we recognize the University’s vital role in shaping a more inclusive, equitable, and sustainable world. Guided by our core values - H.E.A.R.T., MarSU stands at the forefront of driving transformative change through education, research, and community engagement – from the Heart of the Philippines to the global community.`}
+        subtitle='Sustainability and Innovation @MarSU '
+        description={`Marinduque State University (MarSU) reaffirms its unwavering commitment to the United Nations’ 2030 Agenda for Sustainable Development and the attainment of the 17 Sustainable Development Goals (SDGs). As an institution of higher learning, we recognize the University’s vital role in shaping a more inclusive, equitable, and sustainable world. Guided by our core values - H.E.A.R.T., MarSU stands at the forefront of driving transformative change through education, research, and community engagement – from the Heart of the Philippines to the global community. `}
       />
       <Container>
         <Section>
@@ -75,9 +75,7 @@ const SGDPage = () => {
               className='sgd_content--image'
             />
             <div className='sgd_content--text--container p-32 '>
-              <h2 className='sgd_heading'>
-                Empowering change for sustainable future
-              </h2>
+              <h3 className='sgd_heading'>A Commitment from the HEART</h3>
               <p className=' fs-4 fw-light sgd_description text-justify'>
                 Guided by our commitment to the United Nations' 2030 Sustainable
                 Development Goals, Marinduque State University envisions a
@@ -85,21 +83,27 @@ const SGDPage = () => {
                 create a meaningful, lasting impact. At the core of our mission
                 lies a collective dedication to advancing sustainable solutions,
                 pioneering technologies, and cultivating a culture of
-                inclusivity and resilience. The journey toward these global
-                goals demands an unwavering collaboration across our entire
-                academic community. Faculty members, students, researchers, and
-                administrative staff all play vital roles in addressing the
-                world’s most pressing challenges. Together, we are building
-                interdisciplinary pathways that lead to sustainable practices,
-                community-centered solutions, and transformative research,
-                empowering our institution to be a pillar of sustainable
-                development in the region. As we embark on this vital journey,
-                we reaffirm our commitment to fostering partnerships and
-                encouraging knowledge sharing that will strengthen our
-                initiatives. Through education, research, and community
-                engagement, Marinduque State University pledges to be at the
-                forefront of sustainable action, fully dedicated to shaping a
-                more inclusive, resilient, and sustainable future for all.
+                inclusivity and resilience.
+              </p>
+              <p className=' fs-4 fw-light sgd_description text-justify'>
+                The journey toward these global goals demands an unwavering
+                collaboration across our entire academic community. Faculty
+                members, students, researchers, and administrative staff all
+                play vital roles in addressing the world’s most pressing
+                challenges. Together, we are building interdisciplinary pathways
+                that lead to sustainable practices, community-centered
+                solutions, and transformative research, empowering our
+                institution to be a pillar of sustainable development in the
+                region.
+              </p>
+              <p className=' fs-4 fw-light sgd_description text-justify'>
+                As we embark on this vital journey, we reaffirm our commitment
+                to fostering partnerships and encouraging knowledge sharing that
+                will strengthen our initiatives. Through education, research,
+                and community engagement, Marinduque State University pledges to
+                be at the forefront of sustainable action, fully dedicated to
+                shaping a more inclusive, resilient, and sustainable future for
+                all."
               </p>
               <p className='fs-4 fw-light'>
                 {'- Prof. Diosdado P. Zulueta, DPA'}

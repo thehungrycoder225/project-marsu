@@ -29,8 +29,15 @@ const SDGGoalDetail = () => {
           <div>
             <img src={goal.image} alt={goal.alt} />
           </div>
-          <div>
-            <p>{goal.description}</p>
+          <div className='goal-text-container'>
+            {goal.statement.map((statement, index) => (
+              <p
+                key={index}
+                className=' fs-4 fw-light sgd_description text-justify'
+              >
+                {statement.text}
+              </p>
+            ))}
           </div>
         </div>
         <div className='related-projects'>
