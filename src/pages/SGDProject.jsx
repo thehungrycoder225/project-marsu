@@ -4,6 +4,7 @@ import { Container } from 'react-bootstrap';
 import PageNotFound from './404';
 import projects from './projects'; // Ensure this path is correct
 import Footer from '../components/Footer';
+import NavBack from '../components/NavBack';
 
 const SGDProject = () => {
   const { id } = useParams();
@@ -15,6 +16,7 @@ const SGDProject = () => {
 
   return (
     <>
+      <NavBack />
       <Container>
         <Section>
           <img
