@@ -2,9 +2,10 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import Section from '../components/Section';
-import goals from './goals'; // Adjust the import path as needed
-import projects from './projects'; // Adjust the import path as needed
+import goals from './goals';
+import projects from './projects';
 import NavBack from '../components/NavBack';
+import SDGNav from './SDGNav';
 import './sdggoal.css';
 
 const SDGGoalDetail = () => {
@@ -22,13 +23,15 @@ const SDGGoalDetail = () => {
   return (
     <>
       <NavBack />
+
+      <SDGNav />
       <div className='container'>
         <div
           className='goal-detail'
           style={{
             background: `
             linear-gradient( to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-            url(${`../sdg-bg-${goal.id}.jpg`}) center/cover no-repeat`,
+            url(${`../sdg-bg-${goal.id}.png`}) center/cover no-repeat`,
           }}
         >
           <div className='goal-images'>

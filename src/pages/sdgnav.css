@@ -1,0 +1,32 @@
+.scrollable-nav-container {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  padding: 3.2rem 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 100px; /* Adjust the width as needed */
+  background-color: #fff; /* Optional: Set a background color */
+  border-right: 1px solid #ddd; /* Optional: Add a border */
+}
+
+.nav-marquee_item {
+  flex: 0 0 auto;
+  margin-bottom: 1rem;
+}
+
+.nav-sgd_goal--images {
+  object-fit: contain;
+  max-width: 100%;
+  aspect-ratio: 4/3;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-sgd_goal--images:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+  filter: contrast(2.2);
+}
