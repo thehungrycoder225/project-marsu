@@ -6,6 +6,13 @@
   align-items: center;
   gap: 3.2rem;
 }
+
+.sgd_content-logo img {
+  max-width: min(22rem, 100%);
+  border-radius: 100%;
+  object-fit: fill;
+  object-position: center;
+}
 .box-shadow {
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
   margin-bottom: 3.2rem;
@@ -216,6 +223,7 @@
 .sgd_card--title {
   font-size: 1.6rem;
   font-weight: 700;
+  margin-bottom: 1.6rem;
 }
 
 .sgd_card a {
@@ -247,6 +255,10 @@
   transform: translateY(-5px);
   transition: all 0.3s ease-in-out;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.sgd_card--title:hover {
+  color: var(--color-primary-dark);
 }
 
 .sgd_card--tags {

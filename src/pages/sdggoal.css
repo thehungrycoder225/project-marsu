@@ -2,12 +2,8 @@
   display: flex;
   gap: 3.2rem;
   padding: 3.2rem;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('../assets/test-bg.jfif');
   color: #fff;
-  background-size: cover;
-  background-position: center;
-  border: 8px;
+  border-radius: 8px;
 }
 
 .goal-images {
@@ -22,6 +18,14 @@
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
+}
+.sdg_detail_subtitle {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.sdg_detail_logo {
+  max-width: min(60rem, 100%);
 }
 
 @media screen and (max-width: 768px) {

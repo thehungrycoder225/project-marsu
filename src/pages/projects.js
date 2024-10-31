@@ -2,6 +2,7 @@ const projects = [
   {
     id: 1,
     title: 'iUgnay Project',
+    logo: 'iugnay-logo.jpg',
     description:
       'The iUgnay Project aims to bridge the digital divide in remote Marinduque villages using satellite technology to provide high-speed internet access and enhance educational and economic opportunities for residents.',
     abstract: `Remote communities in Marinduque face significant barriers to digital connectivity due to their isolated locations and lack of infrastructure. These geographical challenges result in the lack, if not limited, access to reliable internet services, hindering educational opportunities, communication, economic development, and overall digital engagement. Without affordable and consistent internet access, residents are left disconnected from essential resources, unable to participate in online learning, access information, or leverage digital platforms for economic activities.This program bridges the digital divide in remote Marinduque villages using satellite technology by combining Satellite Internet with a CICS-designed Wi-Fi system. It delivers affordable, high-speed connectivity despite geographical challenges. One sample village is in a Marinduque islet of Mongpong at the municipality of Santa Cruz, with over 1,000 residents now has more than 300 individuals accessing the internet, enhancing opportunities for education, communication, and economic growth. The initiative, also serving as an income-generating project, follows a structured approach including planning, network design, installation, testing, and monitoring.Aligned with SDG 4, 9, and 11, the project promotes quality education, builds resilient infrastructure, and fosters sustainable community development. The income generated sustains technology costs, while local DepEd schools and barangays receive free internet access, supporting students in their online learning.`,
@@ -10,7 +11,11 @@ const projects = [
     link: `/sdg/project/1`,
     tags: [
       {
-        name: ['Industry, Innovation, and Infrastructure', 'Quality Education', 'Sustainable Cities and Communities'],
+        name: [
+          'Industry, Innovation, and Infrastructure',
+          'Quality Education',
+          'Sustainable Cities and Communities',
+        ],
         image: ['E-WEB-Goal-04.png', 'E-WEB-Goal-09.png', 'E-WEB-Goal-11.png'],
       },
     ],
@@ -95,6 +100,7 @@ const projects = [
   {
     id: 2,
     title: 'Free-range Layer and Broiler Chicken Multiplier Breeder Farm',
+    logo: 'freerange-logo.jpg',
     description:
       'The project aims to establish a breeder farm, which will be a sustainable and eligible source of quality poultry stocks to be made made available to local farmers to support their livelihoods and improve their income.',
     abstract: `This extension project, which advocates people empowerment and community development, is a
@@ -135,7 +141,12 @@ const projects = [
     link: '/sdg/project/2',
     tags: [
       {
-        name: ['No Poverty', 'Zero Hunger', 'Decent Work and Economic Growth', 'Responsible Consumption and Production'],
+        name: [
+          'No Poverty',
+          'Zero Hunger',
+          'Decent Work and Economic Growth',
+          'Responsible Consumption and Production',
+        ],
         image: [
           'E-WEB-Goal-01.png',
           'E-WEB-Goal-02.png',
@@ -242,6 +253,7 @@ const projects = [
   {
     id: 4,
     title: 'G.R.A.C.E. -  A Training Program for Barangay Officials',
+    logo: 'grace-logo.jpg',
     description:
       'The project aims to provide training and development opportunities for barangay officials in Santa Cruz, Marinduque, to enhance their skills and competencies in local governance and administration.',
     abstract: `  It is a program plan designed to underscore the profile of barangay officials in Santa Cruz, Marinduque, one of the six (6) municipalities in the province of Marinduque, consisting of 55 barangays. It addresses how basic services of government are planned and delivered to the people through implementing policies and activities based on developed programs and projects of the community. 
@@ -258,7 +270,12 @@ Further, 79.49% of barangay officials encountered issues and concerns in baranga
     link: `/sdg/project/4`,
     tags: [
       {
-        name: ['Zero Hunger', 'Climate Action', 'Life Below Water', 'Life on Land'],
+        name: [
+          'Zero Hunger',
+          'Climate Action',
+          'Life Below Water',
+          'Life on Land',
+        ],
         image: [
           'E-WEB-Goal-02.png',
           'E-WEB-Goal-13.png',

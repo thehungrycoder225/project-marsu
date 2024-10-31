@@ -27,25 +27,28 @@ const SGDProject = () => {
         </Section>
         <Section>
           <div className='row bg-off-white '>
-            <div className='col-md-6'>
+            <div className='col-md-3'>
+              <div className='sgd_content-logo'>
+                <img src={project.logo} alt='' />
+              </div>
+            </div>
+            <div className='col-md-9'>
               <div className='sgd_content--text--contaier'>
                 <h3 className='sdg_project--title'>{project.title}</h3>
                 <p className='sgd_project--description'>
                   {project.description}
                 </p>
+                {project.tags.map((tag, index) =>
+                  tag.image.map((icon, index) => (
+                    <img
+                      key={`${tag.id}-${index}`}
+                      src={`goals/${icon}`}
+                      alt={tag.name}
+                      className='sgd_card--tag'
+                    />
+                  ))
+                )}
               </div>
-            </div>
-            <div className='col-md-6'>
-              {project.tags.map((tag, index) =>
-                tag.image.map((icon, index) => (
-                  <img
-                    key={`${tag.id}-${index}`}
-                    src={`goals/${icon}`}
-                    alt={tag.name}
-                    className='sgd_card--tag'
-                  />
-                ))
-              )}
             </div>
           </div>
         </Section>
@@ -54,22 +57,22 @@ const SGDProject = () => {
           <div className='row bg-white '>
             <div className='col-md-12'>
               <div className='sgd_content--text--container'>
-                <h3 className='sdg_project--title'>Abstract</h3>
+                <h3 className='sdg_project--title'>Overview</h3>
                 <p className='sgd_project--description'>{project.abstract}</p>
               </div>
             </div>
           </div>
           {/* overview */}
-          <div className='row bg-white box-shadow'>
+          {/* <div className='row bg-white box-shadow'>
             <div className='col-md-12'>
               <div className='sgd_content--text--container'>
                 <h3 className='sdg_project--title'>Overview</h3>
                 <p className='sgd_project--description'>{project.overview}</p>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* objectives */}
-          <div className='row bg-white box-shadow'>
+          {/* <div className='row bg-white box-shadow'>
             <div className='col-md-12'>
               <h3 className='sdg_project--title'>Objectives</h3>
 
@@ -81,10 +84,10 @@ const SGDProject = () => {
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
         </Section>
         <Section>
-          <div className='row bg-muted'>
+          {/* <div className='row bg-muted'>
             <div className='col-md-6'>
               <h3 className='sdg_project--title'>Environment</h3>
               {project.environment.map((env, index) => (
@@ -119,10 +122,10 @@ const SGDProject = () => {
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
         </Section>
         <Section>
-          <div className='row bg-muted'>
+          {/* <div className='row bg-muted'>
             <div className='col-md-12'>
               <h3 className='sdg_project--title'>Mechanism</h3>
               {project.mechanism.map((mech, index) => (
@@ -141,10 +144,10 @@ const SGDProject = () => {
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
         </Section>
         <Section>
-          <div className='bg-white box-shadow'>
+          {/* <div className='bg-white box-shadow'>
             <div className='row bg-white'>
               <div className='col-md-12'>
                 <h3 className='sdg_project--title'>Content</h3>
@@ -231,7 +234,7 @@ const SGDProject = () => {
                 <p className='sgd_project--description'>{project.future}</p>
               </div>
             </div>
-          </div>
+          </div> */}
         </Section>
       </Container>
       <Footer />

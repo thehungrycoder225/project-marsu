@@ -30,11 +30,9 @@ const goals = [
     title: 'Zero Hunger',
     description: 'Statement of Commitment for SDG 2 ',
     logo: 'sdg/sdg-logo.png',
+    subtitle:
+      'Access to sufficient, safe, and nutritious food is a fundamental human right and an essential foundation for sustainable development.',
     statement: [
-      {
-        id: 1,
-        text: `Marinduque State University wholeheartedly aligns with the global pursuit of Sustainable Development Goal No. 2 – Zero Hunger – recognizing that access to sufficient, safe, and nutritious food is a fundamental human right and an essential foundation for sustainable development.`,
-      },
       {
         id: 2,
         text: `As an institution dedicated to education, research, and community service, we are committed to advancing agricultural innovation, sustainable food systems, and community-based food security initiatives. Through our academic programs and research, we aim to equip students and community members with the skills and knowledge necessary to enhance agricultural productivity, embrace sustainable farming practices, and support local food systems resilient to climate and economic challenges.`,
@@ -52,6 +50,7 @@ const goals = [
     image: 'sdg/E-WEB-Goal-03.png',
     title: 'Good Health and Well-being',
     description: 'Statement of Commitment for SDG 3',
+    logo: 'sdg/sdg-logo.png',
     statement: [
       {
         id: 1,
@@ -74,6 +73,7 @@ const goals = [
     image: 'sdg/E-WEB-Goal-04.png',
     title: 'Quality Education',
     description: 'Statement of Commitment for SDG 4',
+    logo: 'sdg/sdg-logo.png',
     statement: [
       {
         id: 1,
@@ -96,6 +96,7 @@ const goals = [
     image: 'sdg/E-WEB-Goal-05.png',
     title: 'Gender Equality',
     description: 'Statement of Commitment for SDG 5 ',
+    logo: 'sdg/sdg-logo.png',
     statement: [
       {
         id: 1,
@@ -118,6 +119,7 @@ const goals = [
     image: 'sdg/E-WEB-Goal-06.png',
     title: 'Clean Water and Sanitation',
     description: 'Statement of Commitment for SDG 6',
+    logo: 'sdg/sdg-logo.png',
     statement: [
       {
         id: 1,
@@ -140,6 +142,7 @@ const goals = [
     image: 'sdg/E-WEB-Goal-07.png',
     title: 'Affordable and Clean Energy',
     description: 'Statement of Commitment for SDG 7',
+    logo: 'sdg/sdg-logo.png',
     statement: [
       {
         id: 1,
@@ -162,6 +165,7 @@ const goals = [
     image: 'sdg/E-WEB-Goal-08.png',
     title: 'Decent Work and Economic Growth',
     description: 'Statement of Commitment for SDG 8',
+    logo: 'sdg/sdg-logo.png',
     statement: [
       {
         id: 1,
@@ -185,6 +189,7 @@ const goals = [
     image: 'sdg/E-WEB-Goal-09.png',
     title: 'Industry, Innovation, and Infrastructure',
     description: 'Statement of Commitment for SDG 9',
+    logo: 'sdg/sdg-logo.png',
     statement: [
       {
         id: 1,
@@ -207,6 +212,7 @@ const goals = [
     image: 'sdg/E-WEB-Goal-10.png',
     title: 'Reduced Inequality',
     description: 'Statement of Commitment for SDG 10',
+    logo: 'sdg/sdg-logo.png',
     statement: [
       {
         id: 1,
@@ -229,6 +235,7 @@ const goals = [
     image: 'sdg/E-WEB-Goal-11.png',
     title: 'Sustainable Cities and Communities',
     description: 'Statement of Commitment for SDG 11',
+    logo: 'sdg/sdg-logo.png',
     statement: [
       {
         id: 1,
@@ -251,6 +258,7 @@ const goals = [
     image: 'sdg/E-WEB-Goal-12.png',
     title: 'Responsible Consumption and Production',
     description: 'Statement of Commitment for SDG 12',
+    logo: 'sdg/sdg-logo.png',
     statement: [
       {
         id: 1,
@@ -273,6 +281,7 @@ const goals = [
     image: 'sdg/E-WEB-Goal-13.png',
     title: 'Climate Action',
     description: 'Statement of Commitment for SDG 13',
+    logo: 'sdg/sdg-logo.png',
     statement: [
       {
         id: 1,
@@ -299,6 +308,7 @@ const goals = [
     image: 'sdg/E-WEB-Goal-14.png',
     title: 'Life Below Water',
     description: 'Statement of Commitment for SDG 14',
+    logo: 'sdg/sdg-logo.png',
     statement: [
       {
         id: 1,
@@ -326,6 +336,7 @@ const goals = [
     image: 'sdg/E-WEB-Goal-15.png',
     title: 'Life on Land',
     description: 'Statement of Commitment for SDG 15',
+    logo: 'sdg/sdg-logo.png',
     statement: [
       {
         id: 1,
@@ -355,6 +366,7 @@ const goals = [
     image: 'sdg/E-WEB-Goal-16.png',
     title: 'Peace, Justice, and Strong Institutions',
     description: 'Statement of Commitment for SDG 16',
+    logo: 'sdg/sdg-logo.png',
     statement: [
       {
         id: 1,
@@ -381,6 +393,7 @@ const goals = [
     image: 'sdg/E-WEB-Goal-17.png',
     title: 'Partnerships for the Goals',
     description: 'Statement of Commitment for SDG 17',
+    logo: 'sdg/sdg-logo.png',
     statement: [
       {
         id: 1,

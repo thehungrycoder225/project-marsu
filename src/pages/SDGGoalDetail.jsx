@@ -23,13 +23,20 @@ const SDGGoalDetail = () => {
     <>
       <NavBack />
       <div className='container'>
-        <div className='goal-detail'>
+        <div
+          className='goal-detail'
+          style={{
+            background: `
+            linear-gradient( to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+            url(${`../sdg-bg-${goal.id}.jpg`}) center/cover no-repeat`,
+          }}
+        >
           <div className='goal-images'>
-            <img src={goal.image} alt={goal.alt} />
-            <img src={goal.logo} alt={goal.alt} />
+            <img src={goal.image} alt={goal.alt} className='sdg_detail_icon' />
+            <img src={goal.logo} alt={goal.alt} className='sdg_detail_logo' />
           </div>
           <div className='goal-text-container'>
-            <h3>{goal.subtitle}</h3>
+            <h3 className='sdg_detail_subtitle'>{goal.subtitle}</h3>
             {goal.statement.map((statement, index) => (
               <p
                 key={index}
@@ -59,9 +66,9 @@ const SDGGoalDetail = () => {
 
                             <h4 className='sgd_card--title'>{project.title}</h4>
 
-                            <p className='sgd_card--description'>
+                            {/* <p className='sgd_card--description'>
                               {project.description}
-                            </p>
+                            </p> */}
                             <div className='sgd_card--tags'>
                               {project.tags.map((tag) =>
                                 tag.image.map((icon, index) => (
