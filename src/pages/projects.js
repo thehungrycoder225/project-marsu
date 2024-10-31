@@ -7,7 +7,7 @@ const projects = [
       'The iUgnay Project aims to bridge the digital divide in remote Marinduque villages using satellite technology to provide high-speed internet access and enhance educational and economic opportunities for residents.',
     abstract: `Remote communities in Marinduque face significant barriers to digital connectivity due to their isolated locations and lack of infrastructure. These geographical challenges result in the lack, if not limited, access to reliable internet services, hindering educational opportunities, communication, economic development, and overall digital engagement. Without affordable and consistent internet access, residents are left disconnected from essential resources, unable to participate in online learning, access information, or leverage digital platforms for economic activities.This program bridges the digital divide in remote Marinduque villages using satellite technology by combining Satellite Internet with a CICS-designed Wi-Fi system. It delivers affordable, high-speed connectivity despite geographical challenges. One sample village is in a Marinduque islet of Mongpong at the municipality of Santa Cruz, with over 1,000 residents now has more than 300 individuals accessing the internet, enhancing opportunities for education, communication, and economic growth. The initiative, also serving as an income-generating project, follows a structured approach including planning, network design, installation, testing, and monitoring.Aligned with SDG 4, 9, and 11, the project promotes quality education, builds resilient infrastructure, and fosters sustainable community development. The income generated sustains technology costs, while local DepEd schools and barangays receive free internet access, supporting students in their online learning.`,
     overview: `The project was initiated to address the widespread lack of reliable internet connectivity in Marinduque’s remote locations, where geographical challenges hinder the reach of traditional mobile networks.According to PSA Marinduque, 53.8% or 32,574 households reported that they have access to the Internet. This shows that there are a lot of Marinduqueños who are not connected to the internet, one of the reasons is the high internet cost and internet availability.`,
-    image: 'iugnay.jpg',
+    image: 'iugnay.png',
     link: `/sdg/project/1`,
     tags: [
       {
@@ -137,7 +137,7 @@ const projects = [
                     established a free-range layer and broiler chicken multiplier breeding farm
                     with funding assistance from the Department of Agriculture under the
                     National Livestock Program and the Bayanihan to Recover as One-Act.`,
-    image: 'eme.jpg',
+    image: 'freerangechicken.png',
     link: '/sdg/project/2',
     tags: [
       {
@@ -266,7 +266,7 @@ Further, 79.49% of barangay officials encountered issues and concerns in baranga
                     established a free-range layer and broiler chicken multiplier breeding farm
                     with funding assistance from the Department of Agriculture under the
                     National Livestock Program and the Bayanihan to Recover as One-Act.`,
-    image: 'governance.jpg',
+    image: 'grace.png',
     link: `/sdg/project/4`,
     tags: [
       {

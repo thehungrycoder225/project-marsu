@@ -88,7 +88,8 @@
 
 .sgd_description {
   font-size: 1.4rem !important;
-  font-weight: 200;
+  text-align: justify;
+  font-weight: 300;
 }
 
 .sgd_heading {
