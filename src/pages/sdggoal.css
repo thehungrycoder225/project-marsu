@@ -1,9 +1,10 @@
 .goal-detail {
   display: flex;
   gap: 3.2rem;
-  padding: 3.2rem;
+  padding: 6.4rem;
   color: #fff;
-  border-radius: 8px;
+  border-radius: 1.6rem;
+  margin-top: 1rem;
 }
 
 .goal-images {
@@ -31,11 +32,25 @@
 @media screen and (max-width: 768px) {
   .goal-detail {
     flex-direction: column;
+    margin-top: 0;
     gap: 1.6rem;
-    padding: 1.6rem;
+    padding: 3.6rem;
+    text-align: center;
   }
 
   .goal-images {
     max-width: 100%;
+    flex-direction: row;
+  }
+
+  .sdg_detail_icon {
+    object-fit: contain;
+    max-width: min(9.6rem, 100%);
+    display: block;
+  }
+
+  .sdg_detail_logo {
+    max-width: min(9.6rem, 100%);
+    display: block;
   }
 }

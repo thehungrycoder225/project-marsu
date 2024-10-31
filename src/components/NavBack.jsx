@@ -11,11 +11,11 @@ function NavBack() {
   return (
     <div>
       <div className='btn_group'>
-        <Link className='btn btn--back' onClick={() => navigate(-1)}>
+        <Link className='sdg-btn btn--back' onClick={() => navigate(-1)}>
           <img src={back} alt='' />
         </Link>
 
-        <Link to='/sdg' className='btn btn--home'>
+        <Link to='/sdg' className='sdg-btn btn--home'>
           <img src={home} alt='' />
         </Link>
       </div>
