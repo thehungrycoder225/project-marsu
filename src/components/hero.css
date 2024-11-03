@@ -22,6 +22,7 @@
 
 .hero-text {
   color: #fff;
+  max-width: 144rem;
 }
 
 .hero-text h1 {
