@@ -305,6 +305,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .sgd_hero--padding {
+    padding: 2.8rem;
+  }
+
   .sgd_content {
     flex-direction: column;
     gap: 3.2rem;
@@ -385,10 +389,10 @@
   }
 
   .sgd_title {
-    font-size: 3.2rem !important;
+    font-size: 1.8rem !important;
   }
   .sgd_subtitle {
-    font-size: 1.8rem !important;
+    font-size: 1.4rem !important;
   }
   .sgd_description {
     font-size: 1.2rem !important;
