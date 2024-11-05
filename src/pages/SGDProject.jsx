@@ -42,7 +42,7 @@ const SGDProject = () => {
                   tag.image.map((icon, index) => (
                     <img
                       key={`${tag.id}-${index}`}
-                      src={`goals/${icon}`}
+                      src={`sdg/project/goals/${icon}`}
                       alt={tag.name}
                       className='sgd_card--tag'
                     />

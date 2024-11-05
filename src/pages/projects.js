@@ -2,12 +2,12 @@ const projects = [
   {
     id: 1,
     title: 'iUgnay Project',
-    logo: 'iugnay-logo.jpg',
+    logo: 'sdg/project/iugnay-logo.jpg',
     description:
       'The iUgnay Project aims to bridge the digital divide in remote Marinduque villages using satellite technology to provide high-speed internet access and enhance educational and economic opportunities for residents.',
     abstract: `Remote communities in Marinduque face significant barriers to digital connectivity due to their isolated locations and lack of infrastructure. These geographical challenges result in the lack, if not limited, access to reliable internet services, hindering educational opportunities, communication, economic development, and overall digital engagement. Without affordable and consistent internet access, residents are left disconnected from essential resources, unable to participate in online learning, access information, or leverage digital platforms for economic activities.This program bridges the digital divide in remote Marinduque villages using satellite technology by combining Satellite Internet with a CICS-designed Wi-Fi system. It delivers affordable, high-speed connectivity despite geographical challenges. One sample village is in a Marinduque islet of Mongpong at the municipality of Santa Cruz, with over 1,000 residents now has more than 300 individuals accessing the internet, enhancing opportunities for education, communication, and economic growth. The initiative, also serving as an income-generating project, follows a structured approach including planning, network design, installation, testing, and monitoring.Aligned with SDG 4, 9, and 11, the project promotes quality education, builds resilient infrastructure, and fosters sustainable community development. The income generated sustains technology costs, while local DepEd schools and barangays receive free internet access, supporting students in their online learning.`,
     overview: `The project was initiated to address the widespread lack of reliable internet connectivity in Marinduque’s remote locations, where geographical challenges hinder the reach of traditional mobile networks.According to PSA Marinduque, 53.8% or 32,574 households reported that they have access to the Internet. This shows that there are a lot of Marinduqueños who are not connected to the internet, one of the reasons is the high internet cost and internet availability.`,
-    image: 'iugnay.png',
+    image: 'sdg/project/iugnay.png',
     link: `/sdg/project/1`,
     tags: [
       {
@@ -100,14 +100,14 @@ const projects = [
   {
     id: 3,
     title: 'Small Island for Sustainable Environment',
-    logo: 'sise.jpg',
+    logo: 'sdg/project/sise.jpg',
     description:
       'To address issues related to environmental sustainability different project components were identified and established in the 1.2 hectares of mangroves and aquasilvicultutre site of Barangay Ino-Capayang and Sitio Ubog-ubog, Nangka II, Mogpog, Marinduque.',
     abstract: `The SISE Project research involve supporting the environment, economic and livelihood activities. It also include capacity building to empower coastal communities to be self-reliant by creating viable livelihoods to address poverty which at the same time sustain their limited natural resources, ecotourism development, resource enhancement and protection of biodiversity in the Province of Marinduque.
 .`,
     overview: `
 The project highlights to achieve several short-term results, including the establishment of a mangrove seedling nursery, the development of a mangrove conservation plan and increased community awareness of mangrove conservation through outreach activities and distribution of environmental advocacy materials. Research, field guide and laboratory manuals are ways forward from this project in the future.`,
-    image: 'small-sland.png',
+    image: 'sdg/project/small-sland.png',
     link: `/sdg/project/3`,
     tags: [
       {
@@ -207,7 +207,7 @@ The project highlights to achieve several short-term results, including the esta
   {
     id: 2,
     title: 'Free-range Layer and Broiler Chicken Multiplier Breeder Farm',
-    logo: 'freerange-logo.jpg',
+    logo: 'sdg/project/freerange-logo.jpg',
     description:
       'The project aims to establish a breeder farm, which will be a sustainable and eligible source of quality poultry stocks to be made made available to local farmers to support their livelihoods and improve their income.',
     abstract: `This extension project, which advocates people empowerment and community development, is a
@@ -244,7 +244,7 @@ The project highlights to achieve several short-term results, including the esta
                     established a free-range layer and broiler chicken multiplier breeding farm
                     with funding assistance from the Department of Agriculture under the
                     National Livestock Program and the Bayanihan to Recover as One-Act.`,
-    image: 'freerangechicken.png',
+    image: 'sdg/project/freerangechicken.png',
     link: '/sdg/project/2',
     tags: [
       {
@@ -359,7 +359,7 @@ The project highlights to achieve several short-term results, including the esta
   {
     id: 4,
     title: 'G.R.A.C.E. -  A Training Program for Barangay Officials',
-    logo: 'grace-logo.jpg',
+    logo: 'sdg/project/grace-logo.jpg',
     description:
       'The project aims to provide training and development opportunities for barangay officials in Santa Cruz, Marinduque, to enhance their skills and competencies in local governance and administration.',
     abstract: `  It is a program plan designed to underscore the profile of barangay officials in Santa Cruz, Marinduque, one of the six (6) municipalities in the province of Marinduque, consisting of 55 barangays. It addresses how basic services of government are planned and delivered to the people through implementing policies and activities based on developed programs and projects of the community. 
@@ -372,7 +372,7 @@ Further, 79.49% of barangay officials encountered issues and concerns in baranga
                     established a free-range layer and broiler chicken multiplier breeding farm
                     with funding assistance from the Department of Agriculture under the
                     National Livestock Program and the Bayanihan to Recover as One-Act.`,
-    image: 'grace.png',
+    image: 'sdg/project/grace.png',
     link: `/sdg/project/4`,
     tags: [
       {

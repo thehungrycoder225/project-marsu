@@ -31,7 +31,7 @@ const SDGGoalDetail = () => {
           style={{
             background: `
             linear-gradient( to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-            url(${`../sdg-bg-${goal.id}.png`}) center/cover no-repeat`,
+            url(${`sdg/sdg-bg-${goal.id}.png`}) center/cover no-repeat`,
           }}
         >
           <div className='goal-images'>

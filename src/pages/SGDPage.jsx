@@ -170,7 +170,7 @@ const SGDPage = () => {
               {projects.map((project) => (
                 <>
                   <img
-                    src={`sdg/project/${project.image}`}
+                    src={`${project.image}`}
                     alt={project.title}
                     className='sgd_gallery--image'
                   />
@@ -189,7 +189,7 @@ const SGDPage = () => {
                     <div key={project.id} className='sgd_card'>
                       <Link to={project.link}>
                         <img
-                          src={`sdg/project/${project.image}`}
+                          src={`${project.image}`}
                           alt={project.title}
                           className='sgd_card--image'
                         />
