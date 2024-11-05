@@ -10,7 +10,7 @@
   height: 100vh;
   max-width: 9.6rem;
   background: rgba(255, 255, 255, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border: 1px solid rgba(255, 255, 255, 0.18);
@@ -38,12 +38,11 @@
 .nav-sgd_goal--images {
   object-fit: contain;
   max-width: min(9.6rem, 100%);
-  transition: all 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
 }
 
 .nav-sgd_goal--images:hover {
   transform: scale(1.1);
-  transition: all 0.3s ease-in-out;
   filter: contrast(2.2);
 }
 

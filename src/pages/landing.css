@@ -4,6 +4,7 @@
   border-radius: 1.6rem;
   padding: 9.6rem;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .landing-video-section h3 {
@@ -23,6 +24,8 @@
   align-items: center;
   gap: 3.2rem;
   width: 100%;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
 .video-container {
@@ -31,40 +34,37 @@
 
 .video-container iframe {
   border-radius: 0.8rem;
+  display: none;
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (min-width: 1000px) {
   .content {
-    flex-wrap: wrap;
-    text-align: center;
-    gap: 0;
+    flex-wrap: nowrap;
+    text-align: left;
+    gap: 3.2rem;
   }
 
   .landing-video-section {
-    padding: 2.4rem;
-    flex-wrap: wrap;
+    padding: 9.6rem;
   }
 
   .landing-video-section h3 {
-    font-size: 2.2rem;
+    font-size: 3.6rem;
   }
 
   .landing-video-section p {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
   }
 
   .video-container iframe {
-    display: none;
+    display: block;
   }
 }
 
-.sgd_landing_img {
-  width: 100%;
-}
-
+.sgd_landing_img,
 .sgd_landing_card {
-  border-radius: 8px;
   width: 100%;
+  border-radius: 8px;
 }
 
 .btn_sgd {
@@ -85,7 +85,6 @@
   background-color: var(--color-text-light);
   color: var(--accent-700);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: all 0.5s ease-in-out;
 }
 
 .sgd_landing {
@@ -100,6 +99,7 @@
   .btn_sgd {
     margin: 32px auto;
   }
+
   .section {
     padding: 3.2rem 0;
   }
