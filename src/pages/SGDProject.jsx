@@ -7,8 +7,10 @@ import Footer from '../components/Footer';
 import NavBack from '../components/NavBack';
 
 const SGDProject = () => {
-  const { id } = useParams();
-  const project = projects.find((project) => project.id === parseInt(id));
+  const { id, title } = useParams();
+  const project = projects.find(
+    (project) => project.id === parseInt(id) && project.title
+  );
 
   if (!project) {
     return <PageNotFound />;

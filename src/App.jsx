@@ -12,7 +12,7 @@ function App() {
       <Routes>
         <Route path='/' element={<LandingPage />} />
         <Route path='/sdg' element={<SGDPage />} />
-        <Route path='/sdg/project/:id' element={<SGDProject />} />
+        <Route path='/sdg/project/:id/:title' element={<SGDProject />} />
         <Route path='/sdg/goal/:id' element={<SDGGoalDetail />} />
         <Route path='*' element={<PageNotFound />} />
       </Routes>
