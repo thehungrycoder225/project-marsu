@@ -43,7 +43,7 @@
   max-width: min(var(--max-width-large), 100%);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 999px) {
   .goal-detail {
     flex-direction: column;
     margin-top: 0;

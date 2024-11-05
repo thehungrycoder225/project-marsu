@@ -166,17 +166,19 @@ const SGDPage = () => {
                 education, research, and extension services.
               </p>
             </div>
-            <div className='sgd__gallery'>
-              {projects.map((project) => (
-                <>
-                  <img
-                    src={`${project.image}`}
-                    alt={project.title}
-                    className='sgd_gallery--image'
-                  />
-                </>
-              ))}
-            </div>
+            <Section>
+              <div className='sgd__gallery'>
+                {projects.map((project) => (
+                  <>
+                    <img
+                      src={`${project.image}`}
+                      alt={project.title}
+                      className='sgd_gallery--image'
+                    />
+                  </>
+                ))}
+              </div>
+            </Section>
           </div>
         </Section>
         <Section>
