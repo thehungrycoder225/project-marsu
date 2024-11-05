@@ -1,5 +1,9 @@
-function Section({ children }) {
-  return <section className='section'>{children}</section>;
+function Section({ children, id }) {
+  return (
+    <section className='section' id={id}>
+      {children}
+    </section>
+  );
 }
 
 export default Section;

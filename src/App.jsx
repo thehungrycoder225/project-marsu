@@ -9,7 +9,7 @@ import { Routes, Route, Outlet, Link } from 'react-router-dom';
 function App() {
   return (
     <>
-      <Routes>
+      <Routes history={}>
         <Route path='/' element={<LandingPage />} />
         <Route path='/sdg' element={<SGDPage />} />
         <Route path='/sdg/project/:id' element={<SGDProject />} />

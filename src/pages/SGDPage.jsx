@@ -67,7 +67,7 @@ const SGDPage = () => {
         description={`Marinduque State University (MarSU) reaffirms its unwavering commitment to the United Nations’ 2030 Agenda for Sustainable Development and the attainment of the 17 Sustainable Development Goals (SDGs). As an institution of higher learning, we recognize the University’s vital role in shaping a more inclusive, equitable, and sustainable world. Guided by our core values - H.E.A.R.T., MarSU stands at the forefront of driving transformative change through education, research, and community engagement – from the Heart of the Philippines to the global community. `}
       />
       <Container>
-        <Section>
+        <Section id='sdgForeword'>
           <div className='sgd_content bg-off-white box-shadow'>
             <img
               src='avatar-pres.png'
@@ -114,7 +114,7 @@ const SGDPage = () => {
             </div>
           </div>
         </Section>
-        <Section>
+        <Section id='sdgMission'>
           <div className='sgd_content bg-muted'>
             <div className='sgd_content--text--container '>
               <h3 className='sgd_heading'>Our Mission</h3>
@@ -131,7 +131,7 @@ const SGDPage = () => {
             </div>
           </div>
         </Section>
-        <Section>
+        <Section id='sdgGoals'>
           <div className='sgd_content '>
             <div className='sgd_content--text--container'>
               <h3 className='sgd_heading'>
