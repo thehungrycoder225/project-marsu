@@ -231,10 +231,7 @@ const SGDPage = () => {
                 Together, we can make a difference and build a sustainable
                 future for all.
               </p>
-              <Link
-                to='mailto@president@marsu.edu.ph'
-                className='btn btn-danger'
-              >
+              <Link to='mailto:president@marsu.edu.ph' className='btn_sgd'>
                 Join us now
               </Link>
             </div>
