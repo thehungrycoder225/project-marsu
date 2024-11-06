@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
-import Marquee from 'react-fast-marquee';
 import HeroComponent from '../components/Hero';
 import Footer from '../components/Footer';
 import Section from '../components/Section';
@@ -33,7 +32,7 @@ const GoalMarquee = ({ goals }) => (
 
 const SGDPage = () => {
   const [selectedGoals, setSelectedGoals] = useState([]);
-  const [filteredProjects, setFilteredProjects] = useState(projects);
+  // const [filteredProjects, setFilteredProjects] = useState(projects);
 
   const handleGoalClick = (goal) => {
     const newSelectedGoals = selectedGoals.includes(goal)

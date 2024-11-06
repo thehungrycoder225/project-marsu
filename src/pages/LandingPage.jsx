@@ -43,7 +43,7 @@ function LandingPage() {
           <>
             <div className='content landing-video-section'>
               <div className='p-5 w-100'>
-                <h3 className='mb-3 fs-2'>Hello Mr. President</h3>
+                <h3 className='text-1md font-bold'>Hello Mr. President</h3>
                 <p className='mb-5 fs-5 fw-light'>
                   In a significant move to further the growth and development of
                   Marinduque State University, the University President has
