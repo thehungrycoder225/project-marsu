@@ -28,7 +28,7 @@ const projects = [
          supporting students in their online learning.`,
     overview: `The project was initiated to address the widespread lack of reliable internet connectivity in Marinduque’s remote locations, where geographical challenges hinder the reach of traditional mobile networks.According to PSA Marinduque, 53.8% or 32,574 households reported that they have access to the Internet. This shows that there are a lot of Marinduqueños who are not connected to the internet, one of the reasons is the high internet cost and internet availability.`,
     image: 'sdg/project/iugnay.jpg',
-    link: `/sdg/project/1/iUgpong`,
+    link: `/sdg/project/`,
     tags: [
       {
         name: [

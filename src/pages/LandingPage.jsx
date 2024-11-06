@@ -52,7 +52,7 @@ function LandingPage() {
                 </p>
                 <a
                   href='https://www.youtube.com/watch?v=9nl3yYgp-9I'
-                  className='btn btn-warning btn-lg p-3 mt-5'
+                  className=''
                 >
                   Watch Series
                 </a>

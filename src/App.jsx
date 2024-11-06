@@ -4,11 +4,14 @@ import PageNotFound from './pages/404';
 import SGDPage from './pages/SGDPage';
 import SDGGoalDetail from './pages/SDGGoalDetail';
 import SGDProject from './pages/SGDProject';
+import NavigationExample from './components/Navigation';
 import { Routes, Route, Outlet, Link } from 'react-router-dom';
 
 function App() {
   return (
     <>
+      {' '}
+      <NavigationExample />
       <Routes>
         <Route path='/' element={<LandingPage />} />
         <Route path='/sdg' element={<SGDPage />} />

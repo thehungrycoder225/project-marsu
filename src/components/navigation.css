@@ -1,0 +1,140 @@
+.bg-primary-900 {
+  background: var(--color-primary);
+  color: var(--color-text-light);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.bg-glass {
+  background: transparent;
+  color: var(--color-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-brand {
+  max-width: min(3.2rem, 100%);
+  transition: max-width 0.3s ease;
+}
+
+.nav-brand-text {
+  color: var(--color-text-light);
+  font-size: 1.4rem;
+  margin: 0;
+  transition: color 0.3s ease, font-size 0.3s ease;
+}
+
+.nav-bar {
+  transition: top 0.3s ease;
+}
+.nav-toggle {
+  display: none;
+}
+
+.nav-toggle-label {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .nav-toggle {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    z-index: 2;
+  }
+
+  .nav-toggle-label {
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    background: var(--color-primary);
+    border-radius: 50%;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1;
+    cursor: pointer;
+  }
+
+  .nav-toggle-label::before,
+  .nav-toggle-label::after {
+    content: '';
+    position: absolute;
+    width: 2rem;
+    height: 0.2rem;
+    background: var(--color-text-light);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.3s ease;
+  }
+
+  .nav-toggle-label::before {
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+
+  .nav-toggle-label::after {
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+
+  .nav-bar {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    background: var(--color-primary);
+    transition: top 0.3s ease;
+  }
+
+  .nav-toggle:checked + .nav-toggle-label + .nav-bar {
+    top: 0;
+  }
+}
+.nav-items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-item {
+  margin: 1rem 0;
+}
+
+.nav-link {
+  color: var(--color-text-light);
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--color-secondary);
+}
+
+@media (min-width: 769px) {
+  .nav-items {
+    flex-direction: row;
+  }
+
+  .nav-item {
+    margin: 0 1rem;
+  }
+
+  .nav-toggle,
+  .nav-toggle-label {
+    display: none;
+  }
+
+  .nav-bar {
+    position: static;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--color-primary);
+  }
+}
