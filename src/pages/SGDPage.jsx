@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 import HeroComponent from '../components/Hero';
+import NavigationExample from '../components/Navigation';
 import Footer from '../components/Footer';
 import Section from '../components/Section';
 import logo from '../assets/sdg-logo.png';
@@ -54,6 +55,7 @@ const SGDPage = () => {
   };
   return (
     <>
+      <NavigationExample />
       <HeroComponent
         brand={logo}
         heroImage={'sgd_hero--brand'}
