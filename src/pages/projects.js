@@ -502,6 +502,28 @@ Further, 79.49% of barangay officials encountered issues and concerns in baranga
     future:
       'Transfer of knowledge from one barangay to other barangays and one municipality to other municipalities',
   },
+  {
+    id: 5,
+    title:
+      'Building Bridges for Global Cooperation: MarSU and Universitas Airlangga Sign MOU',
+    logo: 'sdg/project/mou-logo.jpg',
+    description:
+      'This project aims to establish a formal partnership between Marinduque State University and Universitas Airlangga to enhance academic cooperation, research exchange, and cultural collaboration.',
+
+    abstract: `In a significant step towards expanding international collaboration, Marinduque State University (MarSU) and Universitas Airlangga (UNAIR) of Indonesia held a virtual signing of a Memorandum of Understanding (MOU), 2PM Philippine Time. This partnership marks a new chapter in academic cooperation, research exchange, and cultural collaboration between the two institutions.
+    The MOU signifies a mutual commitment to fostering global connections through joint programs, faculty exchanges, collaborative research initiatives, and student mobility opportunities. By joining forces, MarSU and Universitas Airlangga aim to promote the exchange of knowledge and best practices across borders, enhancing the educational experiences of their respective communities. 
+    With the authority from the Board of Regents, Prof. Dr. Diosdado P. Zulueta signed the MOU on behalf of MarSU. Universitas Airlangga was represented by Dr. Mohammad Nasih, UNAIR Rector. 
+    Key officials of both universities witnessed the virtual signing of the partnership. `,
+    overview: '',
+    image: 'sdg/project/mou.jpg',
+    link: `/sdg/project/5/Building Bridges for Global Cooperation: MarSU and Universitas Airlangga Sign MOU`,
+    tags: [
+      {
+        name: ['Quality Education', 'Partnerships for the Goals'],
+        image: ['E-WEB-Goal-04.png', 'E-WEB-Goal-17.png'],
+      },
+    ],
+  },
 ];
 
 export default projects;
