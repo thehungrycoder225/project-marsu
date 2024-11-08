@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo.png';
 
+import NavigationExample from '../components/Navigation';
 import HeroComponent from '../components/Hero';
 import NewsComponent from '../components/News';
 import SectionComponent from '../components/Section';
@@ -29,6 +30,7 @@ function LandingPage() {
 
   return (
     <div>
+      <NavigationExample />
       <HeroComponent
         title='Marinduque State University'
         brand={logo}
