@@ -19,7 +19,7 @@ const SGDProject = () => {
   return (
     <>
       <NavBack />
-      <Container>
+      <Container className='flow-content'>
         <Section>
           <img
             src={project.image}
@@ -28,217 +28,159 @@ const SGDProject = () => {
           />
         </Section>
         <Section>
-          <div className='row bg-off-white '>
-            <div className='col-md-3'>
+          <div className=' bg-glass  box-shadow align-items-center'>
+            <div className='sdg_project--content'>
               <div className='sgd_content-logo'>
-                <img src={project.logo} alt='' />
+                <img src={project.logo} alt={project.title} />
+              </div>
+              <div className=''>
+                <div className='sgd_content--text--container'>
+                  <h3 className='sdg_project--title'>{project.title}</h3>
+                  <p className='sdg_project--subtitle'>{project.subtitle}</p>
+                  <p className='sdg_project--description'>{project.desc}</p>
+                  <div className='flex justify-between text-base w-100 flex-auto'>
+                    <p>
+                      {' '}
+                      Author:{' '}
+                      <span className='sdg_project--author'>
+                        {project.author}
+                      </span>{' '}
+                    </p>{' '}
+                    <p>
+                      Date:{' '}
+                      <span className='sdg_project--date'>{project.date}</span>
+                    </p>
+                  </div>
+                  <div className='sdg_project--tags'>
+                    {project.tags.map((tag) =>
+                      tag.icons.map((icon, index) => (
+                        <img
+                          key={`${tag.id}-${index}`}
+                          src={`sdg/project/goals/${icon}`}
+                          alt={tag.name}
+                          className='sdg_project--icon'
+                        />
+                      ))
+                    )}
+                  </div>
+                </div>
               </div>
             </div>
-            <div className='col-md-9'>
-              <div className='sgd_content--text--contaier'>
-                <h3 className='sdg_project--title'>{project.title}</h3>
-                <p className='sgd_project--description'>
-                  {project.description}
-                </p>
-                {project.tags.map((tag, index) =>
-                  tag.image.map((icon, index) => (
-                    <img
-                      key={`${tag.id}-${index}`}
-                      src={`sdg/project/goals/${icon}`}
-                      alt={tag.name}
-                      className='sgd_card--tag'
-                    />
-                  ))
+          </div>
+        </Section>
+        <Section>
+          <div className='sgd_project '>
+            {project.contents.map((content, index) => (
+              <div key={index} className='flow-content'>
+                {content.background && (
+                  <div className='bg-white flow-content'>
+                    <h4 className='sdg_project--heading'>Background</h4>
+                    <p className='sdg_project--description'>
+                      {content.background}
+                    </p>
+                  </div>
+                )}
+                {content.highlights && (
+                  <div className='bg-muted flow-content flow-content'>
+                    <h4 className='sdg_project--heading'>Highlights</h4>
+                    <ul>
+                      {content.highlights.map((highlight, idx) => (
+                        <li key={idx} className='sdg_project--description'>
+                          {highlight}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+                {content.impact && (
+                  <div className='bg-white flow-content'>
+                    <h4 className='sdg_project--heading'>Impact</h4>
+                    <ul className='flow-content'>
+                      {content.impact.map((impact, idx) => (
+                        <li key={idx} className='sdg_project--description'>
+                          {impact}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+                {content.outcomes && (
+                  <div className='bg-muted flow-content'>
+                    <h4 className='sdg_project--heading'>Outcomes</h4>
+                    <ul className='flow-content'>
+                      {content.outcomes.map((outcome, idx) => (
+                        <li key={idx} className='sdg_project--description'>
+                          {outcome}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+                {content.plans && (
+                  <div className='bg-white flow-content'>
+                    <h4 className='sdg_project--heading'>Future Plans</h4>
+                    <ul className='flow-content'>
+                      {content.plans.map((plan, idx) => (
+                        <li key={idx} className='sdg_project--description'>
+                          {plan}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 )}
               </div>
-            </div>
+            ))}
           </div>
         </Section>
         <Section>
-          {/* abstract */}
-          <div className='row bg-white '>
-            <div className='col-md-12'>
-              <div className='sgd_content--text--container'>
-                <h3 className='sdg_project--title'>Overview</h3>
-                <p className='sgd_project--description'>{project.abstract}</p>
-              </div>
+          <div className=' bg-muted flow-content'>
+            <h4 className='sdg_project--heading'>Conclusion</h4>
+            <p className='sdg_project--description'>{project.conclusion}</p>
+          </div>
+        </Section>
+        <Section>
+          <div className=' bg-white flow-content'>
+            <h4 className='sdg_project--heading'>Call to Action</h4>
+            <p className='sdg_project--description'>{project.cta}</p>{' '}
+          </div>
+        </Section>
+        <Section>
+          <div className='bg-muted box-shadow flow-content'>
+            <h4 className='sdg_project--heading'>Gallery</h4>
+            <div className='sdg_project--gallery'>
+              {project.gallery.map((img, index) => (
+                <div key={index} className=''>
+                  <img src={img.image} alt={project.title} className='' />
+                </div>
+              ))}
             </div>
           </div>
-          {/* overview */}
-          {/* <div className='row bg-white box-shadow'>
-            <div className='col-md-12'>
-              <div className='sgd_content--text--container'>
-                <h3 className='sdg_project--title'>Overview</h3>
-                <p className='sgd_project--description'>{project.overview}</p>
-              </div>
-            </div>
-          </div> */}
-          {/* objectives */}
-          {/* <div className='row bg-white box-shadow'>
-            <div className='col-md-12'>
-              <h3 className='sdg_project--title'>Objectives</h3>
-
-              {project.objectives.map((objective, index) => (
-                <div key={index}>
-                  <ul>
-                    <li className='sgd_project--description'> {objective}</li>
-                  </ul>
-                </div>
-              ))}
-            </div>
-          </div> */}
-        </Section>
-        <Section>
-          {/* <div className='row bg-muted'>
-            <div className='col-md-6'>
-              <h3 className='sdg_project--title'>Environment</h3>
-              {project.environment.map((env, index) => (
-                <div key={index}>
-                  <ul>
-                    <li className='sgd_project--description'>
-                      Nature: {env.nature}
-                    </li>
-
-                    <li className='sgd_project--description'>
-                      Industry: {env.industry}
-                    </li>
-
-                    <li className='sgd_project--description'>
-                      Government: {env.government}
-                    </li>
-                  </ul>
-                </div>
-              ))}
-            </div>
-            <div className='col-md-6'>
-              <h3 className='sdg_project--title'>Resources</h3>
-              <ul>
-                <li className='sgd_project--description'>
-                  <>Human:</> {project.resources[0].human.join(', ')}
-                </li>
-                <li className='sgd_project--description'>
-                  <>Financial:</> {project.resources[0].financial.join(', ')}
-                </li>
-                <li className='sgd_project--description'>
-                  <>Technical:</> {project.resources[0].technical.join(', ')}
-                </li>
-              </ul>
-            </div>
-          </div> */}
-        </Section>
-        <Section>
-          {/* <div className='row bg-muted'>
-            <div className='col-md-12'>
-              <h3 className='sdg_project--title'>Mechanism</h3>
-              {project.mechanism.map((mech, index) => (
-                <div key={index}>
-                  <ul>
-                    <li className='sgd_project--description'>
-                      Planning: {mech.planning}{' '}
-                    </li>
-                    <li className='sgd_project--description'>
-                      Implementation: {mech.implementation}
-                    </li>
-                    <li className='sgd_project--description'>
-                      Monitoring: {mech.monitoring}
-                    </li>
-                  </ul>
-                </div>
-              ))}
-            </div>
-          </div> */}
-        </Section>
-        <Section>
-          {/* <div className='bg-white box-shadow'>
-            <div className='row bg-white'>
-              <div className='col-md-12'>
-                <h3 className='sdg_project--title'>Content</h3>
-                <p className='sgd_project--description'>{project.content}</p>
-              </div>
-            </div>
-            <div className='row p-32'>
-              <div className='col-md-12'>
-                <h3 className='sdg_project--title'>Key Points</h3>
-
-                {project.waypoints.map((point, index) => (
-                  <div key={index}>
-                    <ul>
-                      <li className='sgd_project--description'>{point} </li>
-                    </ul>
-                  </div>
-                ))}
-              </div>
-            </div>
-            <div className='row p-32'>
-              <div className='col-md-12'>
-                <h3 className='sdg_project--title'>Launch Date</h3>
-                <p className='sgd_project--description'>{project.launchd}</p>
-              </div>
-            </div>
-            <div className='row p-32'>
-              <div className='col-md-12'>
-                <h3 className='sdg_project--title'>Proponent</h3>
-                <p className='sgd_project--description'>{project.proponent}</p>
-              </div>
-            </div>
-            <div className='row p-32'>
-              <div className='col-md-12'>
-                <h3 className='sdg_project--title'>Progress</h3>
-                <p className='sgd_project--description'>{project.progress}</p>
-              </div>
-            </div>
-            <div className='row p-32'>
-              <div className='col-md-12'>
-                <h3 className='sdg_project--title'>Problems</h3>
-                <p className='sgd_project--description'>{project.problems}</p>
-              </div>
-            </div>
-            <div className='row p-32'>
-              <div className='col-md-12'>
-                <h3 className='sdg_project--title'>Solution</h3>
-                <p className='sgd_project--description'>{project.solution}</p>
-              </div>
-            </div>
-            <div className='row p-32'>
-              <div className='col-md-12'>
-                <h3 className='sdg_project--title'>Completion</h3>
-                <p className='sgd_project--description'>{project.completion}</p>
-              </div>
-            </div>
-            <div className='row p-32'>
-              <div className='col-md-12'>
-                <h3 className='sdg_project--title'>Impact</h3>
-
-                {project.impact.map((impact, index) => (
-                  <div key={index}>
-                    <ul>
-                      <li className='sgd_project--description'> {impact}</li>
-                    </ul>
-                  </div>
-                ))}
-              </div>
-            </div>
-            <div className='row p-32'>
-              <div className='col-md-12'>
-                <h3 className='sdg_project--title'>Output</h3>
-                <p className='sgd_project--description'>{project.output}</p>
-              </div>
-            </div>
-            <div className='row p-32'>
-              <div className='col-md-12'>
-                <h3 className='sdg_project--title'>Costing</h3>
-                <p className='sgd_project--description'>{project.costing}</p>
-              </div>
-            </div>
-            <div className='row p-32'>
-              <div className='col-md-12'>
-                <h3 className='sdg_project--title'>Future Plans</h3>
-                <p className='sgd_project--description'>{project.future}</p>
-              </div>
-            </div>
-          </div> */}
         </Section>
       </Container>
+      <Section>
+        <div className='bg-animation'>
+          <div id='stars'></div>
+          <div id='stars2'></div>
+          <div id='stars3'></div>
+          <div id='stars4'></div>
+        </div>
+      </Section>
+      <Section>
+        <div className='area'>
+          <ul className='circles'>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </Section>
       <Footer />
     </>
   );

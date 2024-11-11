@@ -1,143 +1,70 @@
+import { a } from 'react-spring';
+
 const projects = [
+  //WURI
   {
-    id: 1,
-    title: 'iUgpong',
-    logo: 'sdg/project/iugnay-logo.jpg',
-    description: `The iUgpong Project aims to bridge the digital divide in remote Marinduque
-       villages using satellite technology to provide high-speed internet access and 
-       enhance educational and economic opportunities for residents.`,
-    abstract: `Remote communities in Marinduque face significant barriers to digital connectivity 
-    due to their isolated locations and lack of infrastructure. 
-    These geographical challenges result in the lack,
-     if not limited, access to reliable internet services, 
-     hindering educational opportunities, communication, economic development, 
-     and overall digital engagement.
-      Without affordable and consistent internet access, residents are left disconnected from essential resources, 
-      unable to participate in online learning, access information, 
-      or leverage digital platforms for economic activities.
-      his program bridges the digital divide in remote Marinduque villages using satellite 
-      technology by combining Satellite Internet with a CICS-designed Wi-Fi system. 
-      It delivers affordable, high-speed connectivity despite geographical challenges. 
-      One sample village is in a Marinduque islet of Mongpong at the municipality of Santa Cruz,
-       with over 1,000 residents now has more than 300 individuals accessing the internet, 
-       enhancing opportunities for education, communication, and economic growth. The initiative, 
-       also serving as an income-generating project, follows a structured approach including planning, 
-       network design, installation, testing, and monitoring.Aligned with SDG 4, 9, and 11,
-        the project promotes quality education, builds resilient infrastructure, and fosters sustainable community development. 
-        The income generated sustains technology costs, 
-         supporting students in their online learning.`,
-    overview: `The project was initiated to address the widespread lack of reliable internet connectivity in Marinduque’s remote locations, where geographical challenges hinder the reach of traditional mobile networks.According to PSA Marinduque, 53.8% or 32,574 households reported that they have access to the Internet. This shows that there are a lot of Marinduqueños who are not connected to the internet, one of the reasons is the high internet cost and internet availability.`,
-    image: 'sdg/project/iugnay.jpg',
-    link: `/sdg/project/`,
+    id: 7,
+    image: `sdg/project/island.jpg`,
+    title: `Project SISE: Small Island for Sustainable Environment`,
+    subtitle: `Mangrove Rehabilitation and Aquasilviculture`,
+    desc: `Mangrove Rehabilitation and Aquasilviculture`,
+    author: `MarSU-CES`,
+    date: `2023`,
+    link: `/sdg/project/7/WURI`,
+    logo: `sdg/project/sise.jpg`,
+    contents: [
+      {
+        background: `Fisheries as a renewable resource significantly need management and conservation for sustainability. The decline of fish catch along coastal communities, deforestation of mangroves and beach forests and extreme environmental events like storm surges, sea level rise, mining and other anthropogenic activities are issues and concerns as drivers to address Sustainable Development Goals (SDG’s).`,
+      },
+      {
+        highlights: [
+          `The project highlights to achieve several short-term results, including the establishment of a mangrove seedling nursery, the development of a mangrove conservation plan and increased community awareness of mangrove conservation through outreach activities and distribution of environmental advocacy materials. Research, field guide and laboratory manuals are ways forward from this project in the future.
+`,
+        ],
+      },
+      {
+        impact: [
+          `Field laboratory of learners and students`,
+          `Learnings about the species and ecological services`,
+          `Developmental studies for manuals/field guide/modules`,
+          `Advocacy materials`,
+          `Laboratory site`,
+          ` Research area`,
+        ],
+      },
+      {
+        outcomes: [
+          `Increased fish catch (spawning/breeding ground) through CPUE`,
+          `Number of propagules produced for every species planted via assessment`,
+          `Carbon stock assessment`,
+          `Heavy metals accumulation of mangroves`,
+          `Mangrove assessment`,
+        ],
+      },
+      {
+        plans: [
+          `Established Livelihood Technology on Aquasilviculture`,
+          `Field laboratory of CES Faculty and Students
+`,
+          `Field Guide Manual`,
+          `Research opportunities on heavy metals in mangroves, fish, water & sediments`,
+          `Established Mangrove areas`,
+          `Ecotourism sites
+`,
+        ],
+      },
+    ],
+    conclusion: `Generally, the program ensure resource sustainability, attain food security and poverty alleviation. Specifically, to help support the marginal fisherfolks for an additional income and livelihood opportunities and to increase the level of awareness on the significance of planting mangroves along coastal areas and its ecological impact. It has been successful in achieving many of these impacts and has provided training to community members, People’s Organization (PO), Local Government Units (LGU’s), academe, learners, and non-government organization (NGO’s)`,
+    cta: ``,
     tags: [
       {
         name: [
-          'Industry, Innovation, and Infrastructure',
-          'Quality Education',
-          'Sustainable Cities and Communities',
-        ],
-        image: ['E-WEB-Goal-04.png', 'E-WEB-Goal-09.png', 'E-WEB-Goal-11.png'],
-      },
-    ],
-    objectives: [
-      'To deploy a technology-driven solution to provide high-speed internet access in various remote and isolated villages of Marinduque.',
-      'To support the educational and economic needs of residents in these underserved villages.',
-      'To create a scalable and sustainable model for expanding digital connectivity in rural communities.',
-    ],
-    subject: [
-      {
-        initiator: 'CICS',
-        leader: 'CICS',
-        members: ['CICS', 'CICS', 'CICS'],
-      },
-    ],
-    environment: [
-      {
-        nature: 'Inhabitants of geographically isolated villages',
-        industry: 'Residents who need internet connectivity service',
-        government: 'Local Government Units ',
-      },
-    ],
-    resources: [
-      {
-        human: ['CICS staff', 'Local residents'],
-        financial: [
-          'Php 100,000 Initial Cost',
-          'Php 40,000 yearly operational cost',
-        ],
-        technical: [
-          'Satellite Internet System',
-          'Wi-Fi vending machines',
-          'Fiber Optic Kits',
-          'Other networking devices',
-        ],
-      },
-    ],
-    mechanism: [
-      {
-        planning:
-          'Conduct a needs assessment to identify target villages and their connectivity requirements.',
-        design:
-          'Develop a network design that integrates satellite internet with a Wi-Fi system to provide high-speed connectivity.',
-        installation:
-          'Deploy the technology solution in target villages, including the installation of satellite dishes and Wi-Fi vending machines.',
-        testing:
-          'Conduct performance testing to ensure the reliability and speed of the internet connection.',
-        monitoring:
-          'Monitor the network performance and user feedback to identify areas for improvement and expansion.',
-      },
-    ],
-    content:
-      'Using satellite technology provides a sustainable solution to internet connectivity challenges in remote areas of Marinduque.',
-    waypoints: [
-      'No internet',
-      'Limited internet',
-      'Satellite technology',
-      'Remote villages',
-    ],
-    launchd: 'January 2023',
-    proponent:
-      'Marinduque State University - College of Information and Computing Sciences (CICS)',
-    progress:
-      'Implemented in multiple villages with monitoring systems and community feedback mechanisms in place for evaluation and improvement.',
-    problems:
-      'Intermittent satellite performance during adverse weather conditions and logistical difficulties related to accessing remote sites.',
-    solution:
-      'Implementation of weather-resistant technologies and collaboration with villages for system support and maintenance',
-    completion: 'Ongoing',
-    impact: [
-      'Provides students in remote locations with access to educational resources, enabling them to engage in online learning and research. [SDG4]',
-      'Expands the reach of MarSU educational programs and supports students and faculty in delivering remote instruction and conducting research',
-      'Positive feedback and support from local government units, which are open to further expansion efforts.',
-    ],
-    output:
-      'Over 300 users served in initial deployment areas, with consistent internet speeds maintained and revenue generated through the Wi-Fi service ',
-    costing:
-      'ROI of 173% within the first year, demonstrating the program’s economic viability and effectiveness.',
-    future:
-      'Plans include extending coverage to additional villages of Marinduque, improving technological infrastructure for greater resilience, and exploring further collaborations with technology partners to enhance system performance.',
-  },
-  {
-    id: 3,
-    title: 'Small Island for Sustainable Environment',
-    logo: 'sdg/project/sise.jpg',
-    description:
-      'To address issues related to environmental sustainability different project components were identified and established in the 1.2 hectares of mangroves and aquasilvicultutre site of Barangay Ino-Capayang and Sitio Ubog-ubog, Nangka II, Mogpog, Marinduque.',
-    abstract: `The SISE Project research involve supporting the environment, economic and livelihood activities. It also include capacity building to empower coastal communities to be self-reliant by creating viable livelihoods to address poverty which at the same time sustain their limited natural resources, ecotourism development, resource enhancement and protection of biodiversity in the Province of Marinduque.
-.`,
-    overview: `
-The project highlights to achieve several short-term results, including the establishment of a mangrove seedling nursery, the development of a mangrove conservation plan and increased community awareness of mangrove conservation through outreach activities and distribution of environmental advocacy materials. Research, field guide and laboratory manuals are ways forward from this project in the future.`,
-    image: 'sdg/project/small-sland.png',
-    link: `/sdg/project/3/Small Island for Sustainable Environment`,
-    tags: [
-      {
-        name: [
-          'Zero Hunger',
+          'Zero Hunger,',
           'Climate Action',
           'Life Below Water',
           'Life on Land',
         ],
-        image: [
+        icons: [
           'E-WEB-Goal-02.png',
           'E-WEB-Goal-13.png',
           'E-WEB-Goal-14.png',
@@ -145,136 +72,96 @@ The project highlights to achieve several short-term results, including the esta
         ],
       },
     ],
-    objectives: [
-      'To deploy a technology-driven solution to provide high-speed internet access in various remote and isolated villages of Marinduque.',
-      'To support the educational and economic needs of residents in these underserved villages.',
-      'To create a scalable and sustainable model for expanding digital connectivity in rural communities.',
-    ],
-    subject: [
+    gallery: [
       {
-        initiator: 'CICS',
-        leader: 'CICS',
-        members: ['CICS', 'CICS', 'CICS'],
+        id: 1,
+        image: 'sdg/project/project-iUgpong/sdg-WURI-image01.jpg',
+        caption: 'WURI',
+        alt: '',
+      },
+      {
+        id: 2,
+        image: 'sdg/project/project-iUgpong/sdg-WURI-image02.jpg',
+        caption: 'WURI',
+        alt: '',
+      },
+      {
+        id: 3,
+        image: 'sdg/project/project-iUgpong/sdg-WURI-image03.jpg',
+        caption: 'WURI',
+        alt: '',
+      },
+      {
+        id: 4,
+        image: 'sdg/project/project-iUgpong/sdg-WURI-image04.jpg',
+        caption: 'WURI',
+        alt: '',
       },
     ],
-    environment: [
-      {
-        nature: 'Inhabitants of geographically isolated villages',
-        industry: 'Residents who need internet connectivity service',
-        government: 'Local Government Units ',
-      },
-    ],
-    resources: [
-      {
-        human: ['CICS staff', 'Local residents'],
-        financial: [
-          'Php 100,000 Initial Cost',
-          'Php 40,000 yearly operational cost',
-        ],
-        technical: [
-          'Satellite Internet System',
-          'Wi-Fi vending machines',
-          'Fiber Optic Kits',
-          'Other networking devices',
-        ],
-      },
-    ],
-    mechanism: [
-      {
-        planning:
-          'Conduct a needs assessment to identify target villages and their connectivity requirements.',
-        design:
-          'Develop a network design that integrates satellite internet with a Wi-Fi system to provide high-speed connectivity.',
-        installation:
-          'Deploy the technology solution in target villages, including the installation of satellite dishes and Wi-Fi vending machines.',
-        testing:
-          'Conduct performance testing to ensure the reliability and speed of the internet connection.',
-        monitoring:
-          'Monitor the network performance and user feedback to identify areas for improvement and expansion.',
-      },
-    ],
-    content:
-      'Using satellite technology provides a sustainable solution to internet connectivity challenges in remote areas of Marinduque.',
-    waypoints: [
-      'No internet',
-      'Limited internet',
-      'Satellite technology',
-      'Remote villages',
-    ],
-    launchd: 'January 2023',
-    proponent:
-      'Marinduque State University - College of Information and Computing Sciences (CICS)',
-    progress:
-      'Implemented in multiple villages with monitoring systems and community feedback mechanisms in place for evaluation and improvement.',
-    problems:
-      'Intermittent satellite performance during adverse weather conditions and logistical difficulties related to accessing remote sites.',
-    solution:
-      'Implementation of weather-resistant technologies and collaboration with villages for system support and maintenance',
-    completion: 'Ongoing',
-    impact: [
-      'Provides students in remote locations with access to educational resources, enabling them to engage in online learning and research. [SDG4]',
-      'Expands the reach of MarSU educational programs and supports students and faculty in delivering remote instruction and conducting research',
-      'Positive feedback and support from local government units, which are open to further expansion efforts.',
-    ],
-    output:
-      'Over 300 users served in initial deployment areas, with consistent internet speeds maintained and revenue generated through the Wi-Fi service ',
-    costing:
-      'ROI of 173% within the first year, demonstrating the program’s economic viability and effectiveness.',
-    future:
-      'Plans include extending coverage to additional villages of Marinduque, improving technological infrastructure for greater resilience, and exploring further collaborations with technology partners to enhance system performance.',
   },
-
+  //Free-range Layer and Broiler Chicken Multiplier Breeder Farm
   {
-    id: 2,
-    title: 'Free-range Layer and Broiler Chicken Multiplier Breeder Farm',
-    logo: 'sdg/project/freerange-logo.jpg',
-    description:
-      'The project aims to establish a breeder farm, which will be a sustainable and eligible source of quality poultry stocks to be made made available to local farmers to support their livelihoods and improve their income.',
-    abstract: `This extension project, which advocates people empowerment and community development, is a
-                    response to the call of the Philippine government to accelerate the recovery and restoration of
-                    livelihoods from the effects of the COVID-19 pandemic. Poultry production is considered a more
-                    viable enterprise for small-holder farmers than other livestock production due to lower capital
-                    requirements, high market demand, and shorter production cycles. A free-range chicken production
-                    system is regarded as a better poultry enterprise than the conventional, intensive, and caged
-                    production system. It provides a conducive growing environment leading to a more humane way of
-                    producing poultry. It also utilizes farm resources such as crop residues as feedstuff that are,
-                    otherwise, discarded and can cause environmental problems.
-                    Despite the advantages of free-range chicken production, it was not yet fully adopted in Marinduque,
-                    Philippines. This was due to the limited local supply of quality free-range chicken stocks in the
-                    island-province. Sourcing out these farm inputs from the mainland will entail higher production costs,
-                    thereby affecting the profitability of the enterprise. Hence, the Marinduque State University
-                    Free-range Layer and Broiler Chicken Multiplier Breeder Farm was established through the funding
-                    support of the Department of Agriculture - National Livestock Program.
-                    Throughout its three years of implementation, the project was able to train 166 farmers and 146
-                    students. Fifty-one (31.36%) of the farmer-trainees availed of the stock dispersal program and raised
-                    free-range layer chicken and broiler chicken for egg and meat production, respectively. All the
-                    students trained received a free-range broiler chicken, which they used for the hands-on activities on
-                    chicken dressing during their practicum, internship, and skills development exercises.
-                    The project has dispersed 3,373 heads of free-range chicken stocks amounting to Php 629, 385.62
-                    or US Dollar 11,020.97 (1 USD = 57.1095 PH). The in-farm and community-based raising of
-                    free-range chicken resulted in the total production of 561,730 pieces of table eggs and 1,284.5 kg of
-                    dressed chicken. These locally-produced poultry products catered to 2.35% of the provincial demand
-                    for table eggs and 0.035% of the need for chicken meat. The project aligns with SDG1: No Poverty,
-                    SDG2: Zero Hunger, SDG8: Decent Work and Economic Growth, and SGD12:Responsible
-                    Consumption and Production by providing livelihood opportunities to the beneficiaries, promoting
-                    sustainable agricultural production, and improving the socio-economic conditions in the province.`,
-    overview: `Through poultry raising and production, the extension project is intended to
-                    contribute to intensifying the recovery and restoration of the livelihood of
-                    local farmers in Marinduque. Marinduque State University (MarSU)
-                    established a free-range layer and broiler chicken multiplier breeding farm
-                    with funding assistance from the Department of Agriculture under the
-                    National Livestock Program and the Bayanihan to Recover as One-Act.`,
-    image: 'sdg/project/freerangechicken.png',
-    link: '/sdg/project/2/Free-range Layer and Broiler Chicken Multiplier Breeder Farm',
+    id: 6,
+    image: `sdg/project/freerangechicken.png`,
+    title: `Free-range Layer and Broiler Chicken Multiplier Breeder Farm`,
+    subtitle: `Free-range Chicken`,
+    desc: `Free-range Layer and Broiler Chicken Multiplier Breeder Farm`,
+    author: `MarSU College of Agriculture`,
+    date: `January 2021`,
+    link: `/sdg/project/6/FreeRange`,
+    logo: `sdg/project/freerange-logo.jpg`,
+    contents: [
+      {
+        background: `Through poultry raising and production, the extension project is intended to
+contribute to intensifying the recovery and restoration of the livelihood of 
+local farmers in Marinduque. Marinduque State University (MarSU)
+established a free-range layer and broiler chicken multiplier breeding farm
+with funding assistance from the Department of Agriculture under the
+National Livestock Program and the Bayanihan to Recover as One-Act.`,
+      },
+      {
+        highlights: [
+          `The project aims to establish a breeder farm, which will be a sustainable
+and eligible source of quality poultry stocks to be made available to local
+farmers to support their livelihoods and improve their income.`,
+        ],
+      },
+      {
+        impact: [
+          `Hands-on experience in poultry production and management`,
+          `Availability of farm facility for animal production that can be utilized for instruction`,
+          `Improved preference for free-range chicken products`,
+          `Promotion of free-range chicken enterprise among farmers`,
+        ],
+      },
+      {
+        outcomes: [
+          `166 farmers trained`,
+          `146 students trained`,
+          `243 beneficiaries of the stock dispersal program`,
+          `3373 heads of stocks dispersed`,
+          `Php 629, 385.62 total value of stocks dispersed`,
+        ],
+      },
+      {
+        plans: [``],
+      },
+    ],
+    conclusion: `There is a project proposal submitted to the Department of Agriculture -
+Agricultural Competitiveness Enhancement Fund to secure additional
+funding. The project will also engage in technology commercialization by
+tapping a farmers’ association to be capacitated on the commercial
+production of free-range chicken.`,
+    cta: ``,
     tags: [
       {
         name: [
-          'No Poverty',
-          'Zero Hunger',
-          'Decent Work and Economic Growth',
+          'No poverty',
+          'Zero Hunger,',
+          'Decent Work and Economic Growth,',
           'Responsible Consumption and Production',
         ],
-        image: [
+        icons: [
           'E-WEB-Goal-01.png',
           'E-WEB-Goal-02.png',
           'E-WEB-Goal-08.png',
@@ -282,118 +169,83 @@ The project highlights to achieve several short-term results, including the esta
         ],
       },
     ],
-    objectives: [
-      'The project aims to establish a breeder farm, which will be a sustainable and eligible source of quality poultry stocks to be made available to local farmers to support their livelihoods and improve their income.',
-    ],
-    subject: [
+    gallery: [
       {
-        initiator: 'Marinduque State University',
-        leader: 'Prof. Dr. Diosdado P. Zulueta',
-        members: [
-          '1. Project Leader: Mr. Adrian S. Mausig',
-          '2. Housing and Facilities Management: Engr. Eulogio R. Medina, Jr.',
-          '3. Flock and Breeding Management: Mr. Adrian S. Mausig',
-          '4. Range, Forage Production, and',
-          'Feeding Management: Mr. Jaime M. Vasquez',
-          '5. Hatchery and Brooding Management: Dr. Alexander M. Pascua',
-          '6. Stock Dispersal Management: Mr. Harvey A. Dulay',
-          '7. Training Management: Dr. Doreen R. Mascareñas',
-          '8. Policy Advocacy: Mr. Julie P. Rodelas',
-          '9. Marketing and Promotion: Dr. Marilyn A. Mayores',
-          '10. Product Development and Utilization: Mrs. Isabel R. Reforma Dr. Ma. Edelwina M. Blasé',
-          '11. Project Staff: Mr. Redentor F. del Mundo, Mr. Frederick M. Ciriaco, Ms. Cherry Rose M. Robles, Mrs. Ellen N. Clarion, Ms. Kristine Joy R. Fidelino',
-        ],
+        id: 1,
+        image: 'sdg/project/project-iUgpong/sdg-FreeRange-image01.jpg',
+        caption: 'Free-range',
+        alt: '',
+      },
+      {
+        id: 2,
+        image: 'sdg/project/project-iUgpong/sdg-FreeRange-image02.jpg',
+        caption: 'Free-range',
+        alt: '',
+      },
+      {
+        id: 3,
+        image: 'sdg/project/project-iUgpong/sdg-FreeRange-image03.jpg',
+        caption: 'Free-range',
+        alt: '',
+      },
+      {
+        id: 4,
+        image: 'sdg/project/project-iUgpong/sdg-FreeRange-image04.jpg',
+        caption: 'Free-range',
+        alt: '',
       },
     ],
-    environment: [
-      {
-        nature:
-          'Small-island farming communities facing challenges in accessibility to agricultural inputs, food supply, and livelihood opportunities',
-        industry:
-          'Poultry and livestock sectors dominated by backyard producers',
-        government:
-          'National and local government agencies/units supportive of the promotion of agricultural productivity and competitiveness ',
-      },
-    ],
-    resources: [
-      {
-        human: ['15 Project Management Team'],
-        financial: ['Php 5 million'],
-        technical: [
-          'Farm equipment and tools',
-          'Poultry parents stocks',
-          'Poultry houses',
-          'Poultry feeds and biologics',
-        ],
-      },
-    ],
-    mechanism: [
-      {
-        planning:
-          'Conduct a needs assessment to identify target villages and their connectivity requirements.',
-        design:
-          'Develop a network design that integrates satellite internet with a Wi-Fi system to provide high-speed connectivity.',
-        installation:
-          'Deploy the technology solution in target villages, including the installation of satellite dishes and Wi-Fi vending machines.',
-        testing:
-          'Conduct performance testing to ensure the reliability and speed of the internet connection.',
-        monitoring:
-          'Monitor the network performance and user feedback to identify areas for improvement and expansion.',
-      },
-    ],
-    content:
-      'The breeder farm serves as a sustainable and eligible source of quality poultry stocks to be made available to local farmers. It also provides skills training on free-range chicken production and management to the farmers, students, and other beneficiaries. It supports the strengthening of livelihoods to improve economic conditions in the locality.',
-    waypoints: [
-      'Provision of livelihood to the beneficiaries',
-      'Increased income of the beneficiaries',
-      'Increased local food production',
-      'Utilization of farm waste as feedstuff',
-    ],
-    launchd: 'January 2021',
-    proponent: 'MarSU College of Agriculture',
-    progress: [
-      'Sustained operations of the poultry farm',
-      'Utilization of the poultry farm for instruction',
-      'Regular monitoring of the beneficiaries',
-    ],
-    problems: [
-      'Recurring power interruptions that affect incubation and brooding leading to high mortality',
-      'High mortality of dispersed stocks',
-    ],
-    solution: [
-      'Regular monitoring to determine the causes of mortality',
-      'Provision of management recommendations to the beneficiaries',
-    ],
-    completion: 'Ongoing',
-    impact: ['Hands-on experience in poultry production and management'],
-    output: [
-      '166 farmers trained 146 students trained',
-      '243 beneficiaries of the stock dispersal program',
-      '3373 heads of stocks dispersed',
-      'Php 629, 385.62 total value of stocks dispersed',
-    ],
-    costing: 'N/A',
-    future:
-      'There is a project proposal submitted to the Department of Agriculture - Agricultural Competitiveness Enhancement Fund to secure additional funding. The project will also engage in technology commercialization by tapping a farmers’ association to be capacitated on the commercial production of free-range chicken.',
   },
+
+  // G.R.A.C.E - GOVERNANCE AND RESOURCE ADMINISTRATION FOR COMMUNITY EMPOWERMENT
   {
-    id: 4,
-    title: 'G.R.A.C.E. -  A Training Program for Barangay Officials',
-    logo: 'sdg/project/grace-logo.jpg',
-    description:
-      'The project aims to provide training and development opportunities for barangay officials in Santa Cruz, Marinduque, to enhance their skills and competencies in local governance and administration.',
-    abstract: `  It is a program plan designed to underscore the profile of barangay officials in Santa Cruz, Marinduque, one of the six (6) municipalities in the province of Marinduque, consisting of 55 barangays. It addresses how basic services of government are planned and delivered to the people through implementing policies and activities based on developed programs and projects of the community. 
-Based on the survey, Punong Barangays are mostly high school graduates (46.1%) who belong in the age bracket of 45-56 (30.8%), and serving their communities for more than six (6) years with 66.6%. Like Punong Barangays, other elected barangay officials and appointed ones with 76.9% had one (1) to three (3) days attendance to training within the locality with 84.6% while 15.4% attended national training due to availability of funds.
-Further, 79.49% of barangay officials encountered issues and concerns in barangay management while 89.7% of them prefer personal advancement and professional development for community welfare.  One solution to mitigate the gaps was to conduct training needs assessment among barangay officials.Thus, this program was conceptualized to provide all barangay officials in the 55 barangays of Sta. Cruz to have an access to training and development opportunities necessary to perform their official duties as public servants in the field of barangay administration and local governance. 
+    id: 5,
+    image: `sdg/project/grace.png`,
+    title: `G.R.A.C.E - GOVERNANCE AND RESOURCE ADMINISTRATION FOR COMMUNITY EMPOWERMENT `,
+    subtitle: `A Training Program for Barangay Officials`,
+    desc: `A Training Program for Barangay Officials`,
+    author: `Profugo, Joy`,
+    date: `April 2021`,
+    link: `/sdg/project/5/GRACE`,
+    logo: `sdg/project/grace-logo.jpg`,
+    contents: [
+      {
+        background: `Sta. Cruz is one of the municipalities in the province of Marinduque, consists of 55 barangays. Barangay officials from the different barangays were surveyed to find their educational background, training attended, and problems to prioritize their needs using training needs assessment tool (TNA).`,
+      },
+      {
+        highlights: [
+          ` A program designed to underscore the profile of barangay officials in Santa Cruz, Marinduque, one of the six (6) municipalities in the province of Marinduque, consisting of 55 barangays. It addresses how basic services of government are planned and delivered to the people through implementing policies and activities based on developed programs and projects of the community. `,
+        ],
+      },
+      {
+        impact: [
+          `Exposure of the barangay problems among students`,
+          `Laboratory for AB Political Science students`,
+          `Subject for case-analysis among students to mitigate the problems`,
+          `Strong partnerships with the concerned agencies`,
+          `Factor in curriculum modification`,
+          `Module development`,
+        ],
+      },
+      {
+        outcomes: [
+          `A well-developed Barangay Development Plan`,
+          `A well-written minutes of the meeting applying Records Management System`,
+          `A well-planned project proposals`,
+          `A well-executed meeting using Parliamentary Practice and Procedure`,
+          `A well-implemented barangay laws and order and other government policies.
 `,
-    overview: `Through poultry raising and production, the extension project is intended to
-                    contribute to intensifying the recovery and restoration of the livelihood of
-                    local farmers in Marinduque. Marinduque State University (MarSU)
-                    established a free-range layer and broiler chicken multiplier breeding farm
-                    with funding assistance from the Department of Agriculture under the
-                    National Livestock Program and the Bayanihan to Recover as One-Act.`,
-    image: 'sdg/project/grace.png',
-    link: `/sdg/project/4/G.R.A.C.E. -  A Training Program for Barangay Official`,
+        ],
+      },
+      {
+        plans: [
+          `Transfer of knowledge from one barangay to other barangays and one municipality to other municipalities`,
+        ],
+      },
+    ],
+    conclusion: `This program was conceptualized to provide all barangay officials in the 55 barangays of Sta. Cruz to have an access to training and development opportunities necessary to perform their official duties as public servants in the field of barangay administration and local governance. 
+`,
+    cta: ``,
     tags: [
       {
         name: [
@@ -402,7 +254,7 @@ Further, 79.49% of barangay officials encountered issues and concerns in baranga
           'Life Below Water',
           'Life on Land',
         ],
-        image: [
+        icons: [
           'E-WEB-Goal-02.png',
           'E-WEB-Goal-13.png',
           'E-WEB-Goal-14.png',
@@ -410,179 +262,357 @@ Further, 79.49% of barangay officials encountered issues and concerns in baranga
         ],
       },
     ],
-    objectives: [
-      'To mitigate the existing gaps among barangay officials elected and appointed officials in the 55 barangays of Santa Cruz to promote efficiency, effectiveness, and competency for local governance and administration',
-      'To advocate high performance on selected skills among elected and appointed officials in the 55 barangays of Santa Cruz for local governance and administration.',
-    ],
-    subject: [
+    gallery: [
       {
-        initiator: 'Profugo, Joy',
-        leader: 'Profugo, Joy',
-        members: [
-          'Imperio, Wilmer II',
-          'Malabayabas, Keam Eric',
-          ' De Mesa, Katrina',
-          'Rodil, Neil Ryan',
-          'Monteagudo, Jayceron',
-        ],
+        id: 1,
+        image: 'sdg/project/project-iUgpong/sdg-GRACE-image01.jpg',
+        caption: 'iUgpong',
+        alt: '',
+      },
+      {
+        id: 2,
+        image: 'sdg/project/project-iUgpong/sdg-GRACE-image02.jpg',
+        caption: 'iUgpong',
+        alt: '',
+      },
+      {
+        id: 3,
+        image: 'sdg/project/project-iUgpong/sdg-GRACE-image03.jpg',
+        caption: 'iUgpong',
+        alt: '',
+      },
+      {
+        id: 4,
+        image: 'sdg/project/project-iUgpong/sdg-GRACE-image04.jpg',
+        caption: 'iUgpong',
+        alt: '',
       },
     ],
-    environment: [
-      {
-        nature:
-          'Bachelor of Arts in Political Science, BS in Public Adm, BS Law Enforcement Adm./ Local Government Units (Barangays)',
-        industry: 'N/A',
-        government:
-          'National and local government agencies/units supportive of the promotion of agricultural productivity and competitiveness ',
-      },
-    ],
-    resources: [
-      {
-        human: [
-          '55 Punong Barangay',
-          '55 Secretaries',
-          '55 Treasurers',
-          '385 Barangay Kagawad',
-        ],
-        financial: ['Fully funded by Liga ng mga Barangay - P600,000.00'],
-        technical: [
-          'Multimedia equipment (MarSU) ',
-          'Sound System (Liga ng mga Barangay)',
-          'Digital Modules (MarSU)',
-          'Resource Speakers from MarSU (BA PolSc., Public Adm., BS Law Enforcement)',
-        ],
-      },
-    ],
-    mechanism: [
-      {
-        planning:
-          'Conduct a needs assessment to identify target villages and their connectivity requirements.',
-        design:
-          'Develop a network design that integrates satellite internet with a Wi-Fi system to provide high-speed connectivity.',
-        installation:
-          'Deploy the technology solution in target villages, including the installation of satellite dishes and Wi-Fi vending machines.',
-        testing:
-          'Conduct performance testing to ensure the reliability and speed of the internet connection.',
-        monitoring:
-          'Monitor the network performance and user feedback to identify areas for improvement and expansion.',
-      },
-    ],
-    content: [
-      'The training project talked about the job-essential skills of Barangay Officials in the municipality of Sta. Cruz consisted of five (5) sessions namely: Session 1: Barangay Records Management Training Workshop; Session 2: Writing of Ordinance and Resolution; (3) Writing of Minutes of the Meeting and Project Proposal; (4) Basic Finance/ Barangay Financial Management; and (5) Parliamentary Practice and Procedures.',
-      'The 2nd phase consists of five (5) sessions which started with session 1 that deals with the introduction of Government Administration Training Workshop,  Good Governance as second session while the 3rd session dealt with Laws and Order. Training Workshop on Government Policy and Data Privacy Act and Public Safety were the fourth and the fifth sessions, respectively.',
-      'The 3rd phase pertains to the management training project for barangay officials in the municipality of Sta. Cruz consists of two topics, the Barangay Development Plan and the Leadership Training with Parliamentary Practice & Procedures, where the participants are Barangay Kagawad from the 9 districts in the municipality of Sta. Cruz. The said two topics were implemented first among the Barangay Kagawad from the Districts 1-4, consisting of 25 barangays which served as first group for Session 1 and 2. On the other hand, Districts 5-9, consisting of 30 barangays served as the 2nd group with similar topics for another session.',
-    ],
-    waypoints: [
-      '98% or 54 Barangay Secretaries acquired and improved skills in writing of minutes, project proposals and barangay resolutions',
-      '90% or 215 Barangay Kagawad improved the parliamentary protocol and writing of Barangay Development Plan ',
-      '93% or 51 Punong Barangays acquired skills in government policy, data privacy act and public safety, and barangay laws and orders.',
-    ],
-    launchd: 'April 2021 - March 2022',
-    proponent:
-      'Department of the Interior and Local Government, Municipal Local Government Office of Sta. Cruz, and Liga ng mga Barangays',
-    progress: 'Continuity of Impact Assessment',
-    problems: 'Scheduling due to Covid-19',
-    solution: 'Communication and collaboration with the concerned agencies',
-    completion: 'Ended in 2022',
-    impact: [
-      'Exposure of the barangay problems among students',
-      'Laboratory for AB Political Science students',
-      'Subject for case-analysis among students to mitigate the problems',
-      'Strong partnerships with the concerned agencies.',
-      'Factor in curriculum modification',
-      'Module development',
-    ],
-    output: [
-      'A well-developed Barangay Development Plan',
-      'A well-planned project proposals',
-      'A well-written minutes of the meeting applying Records Management System',
-      'A well-executed meeting using Parliamentary Practice and Procedure',
-      'A well-implemented barangay laws and order and other government policies.',
-    ],
-    future:
-      'Transfer of knowledge from one barangay to other barangays and one municipality to other municipalities',
   },
+  //iUgpong
   {
-    id: 5,
-    title:
-      'Building Bridges for Global Cooperation: MarSU and Universitas Airlangga Sign MOU',
-    logo: 'sdg/project/mou-logo.jpg',
-    description:
-      'This project aims to establish a formal partnership between Marinduque State University and Universitas Airlangga to enhance academic cooperation, research exchange, and cultural collaboration.',
+    id: 4,
+    image: `sdg/project/iugnay.jpg`,
+    title: `iUgpong`,
+    subtitle: ` Connecting Internet Underprivileged Villages of Marinduque`,
+    author: `Marinduque State University - College of Information and Computing Sciences (CICS)`,
+    desc: `Connecting Internet Underprivileged Villages of Marinduque`,
+    date: `January 2023`,
+    link: `/sdg/project/4/iUgpong`,
+    logo: `sdg/project/iugnay-logo.jpg`,
+    contents: [
+      {
+        background: `The project was initiated to address the widespread lack of reliable internet connectivity in Marinduque’s remote locations, where geographical challenges hinder the reach of traditional mobile networks.`,
+      },
+      {
+        highlights: [
+          `This program bridges the digital divide in remote Marinduque villages using satellite technology by combining Satellite Internet with a CICS-designed Wi-Fi system. delivers affordable, high-speed connectivity despite geographical challenges. One sample village is in a Marinduque islet of Mongpong at the municipality of Santa Cruz, with over 1,000 residents now has more than 300 individuals accessing the internet, enhancing opportunities for education, communication, and economic growth. The initiative, also serving as an income-generating project, follows a structured approach including planning, network design, installation, testing, and monitoring.
+`,
+        ],
+      },
+      {
+        impact: [
+          `Provides students in remote locations with access to educational resources, enabling them to engage in online learning and research.`,
+          `Expands the reach of MarSU educational programs and supports students and faculty in delivering remote instruction and conducting research`,
+        ],
+      },
+      {
+        outcomes: [
+          `Over 300 users served in initial deployment areas, with consistent internet speeds maintained and revenue generated through the Wi-Fi service.`,
+          `ROI of 173% within the first year, demonstrating the program’s economic viability and effectiveness.
+`,
+        ],
+      },
+      {
+        plans: [
+          `Plans include extending coverage to additional villages of Marinduque, improving technological infrastructure for greater resilience, and exploring further collaborations with technology partners to enhance system performance.
+`,
+        ],
+      },
+    ],
+    conclusion: `The project promotes quality education, builds resilient infrastructure, and fosters sustainable community development. The income generated sustains technology costs, while local DepEd schools and barangays receive free internet access, supporting students in their online learning.
 
-    abstract: `In a significant step towards expanding international collaboration, Marinduque State University (MarSU) and Universitas Airlangga (UNAIR) of Indonesia held a virtual signing of a Memorandum of Understanding (MOU), 2PM Philippine Time. This partnership marks a new chapter in academic cooperation, research exchange, and cultural collaboration between the two institutions.
-    The MOU signifies a mutual commitment to fostering global connections through joint programs, faculty exchanges, collaborative research initiatives, and student mobility opportunities. By joining forces, MarSU and Universitas Airlangga aim to promote the exchange of knowledge and best practices across borders, enhancing the educational experiences of their respective communities. 
-    With the authority from the Board of Regents, Prof. Dr. Diosdado P. Zulueta signed the MOU on behalf of MarSU. Universitas Airlangga was represented by Dr. Mohammad Nasih, UNAIR Rector. 
-    Key officials of both universities witnessed the virtual signing of the partnership. `,
-    overview: '',
-    image: 'sdg/project/mou.jpg',
-    link: `/sdg/project/5/Building Bridges for Global Cooperation: MarSU and Universitas Airlangga Sign MOU`,
-    tags: [
-      {
-        name: ['Quality Education', 'Partnerships for the Goals'],
-        image: ['E-WEB-Goal-04.png', 'E-WEB-Goal-17.png'],
-      },
-    ],
-  },
-  {
-    id: 6,
-    title:
-      '𝐅𝐫𝐨𝐦 𝐓𝐡𝐞 𝐇𝐞𝐚𝐫𝐭, 𝐓𝐨 𝐭𝐡𝐞 𝐖𝐨𝐫𝐥𝐝: 𝐂𝐇𝐄𝐃 𝐚𝐧𝐝 𝐌𝐚𝐫𝐒𝐔 𝐏𝐚𝐫𝐭𝐧𝐞𝐫 𝐟𝐨𝐫 𝐒𝐭𝐫𝐚𝐭𝐞𝐠𝐢𝐜 𝐈𝐧𝐭𝐞𝐫𝐧𝐚𝐭𝐢𝐨𝐧𝐚𝐥𝐢𝐳𝐚𝐭𝐢𝐨𝐧',
-    logo: '',
-    description:
-      'From The Heart, To The World: CHED and MarSU Partner for Strategic Internationalization, a project that aims to enhance the global competitiveness of MarSU through strategic partnerships and international collaborations.',
-    abstract: `Marinduque State University (MarSU), in collaboration with the Commission on Higher Education (CHED) Regional Office - MIMAROPA, held a two-day Orientation-Workshop on Strategic Approaches to Internationalization, Global Citizenship Education, Ranking, and Sustainable Development in Education from October 9-10, 2024.
-The event, spearheaded by Dr. Jimmy G. Catanes, CHED-MIMAROPA Regional Director, empowered MarSU’s academic community—students, faculty, researchers, and administrators—with the tools to align with global education standards. The focus on internationalization and global citizenship equips students to become globally competitive, while faculty and staff benefit from new international collaboration opportunities.
-This initiative also positions MarSU as a key player in the global academic arena by integrating international benchmarks such as the Times Higher Education (THE) Impact Ranking and WURI Ranking. With the continued support of CHED-MIMAROPA, MarSU is on track to enhance its reputation and broaden opportunities for the university, contributing to the long-term growth of higher education in the region.
-The collective efforts of the MarSU community led by the University President, Prof. Dr. Diosdado P. Zulueta highlights MarSU’s unified commitment to global excellence. Through this workshop, MarSU continues to pave the way for a more globally integrated, future-ready academic community
 `,
-    overview: '',
-    image: 'sdg/project/ched-marsu.jpg',
-    link: `/sdg/project/6/From The Heart, To The World: CHED and MarSU Partner for Strategic Internationalization`,
+    cta: ``,
     tags: [
       {
-        name: ['Partnerships for the Goals'],
-        image: ['E-WEB-Goal-17.png'],
+        name: [
+          'Zero Hunger',
+          'Climate Action',
+          'Life Below Water',
+          'Life on Land',
+        ],
+        icons: [
+          'E-WEB-Goal-02.png',
+          'E-WEB-Goal-13.png',
+          'E-WEB-Goal-14.png',
+          'E-WEB-Goal-15.png',
+        ],
+      },
+    ],
+    gallery: [
+      {
+        id: 1,
+        image: 'sdg/project/project-iUgpong/sdg-iUgpong-image01.jpg',
+        caption: 'iUgpong',
+        alt: '',
+      },
+      {
+        id: 2,
+        image: 'sdg/project/project-iUgpong/sdg-iUgpong-image02.jpg',
+        caption: 'iUgpong',
+        alt: '',
+      },
+      {
+        id: 3,
+        image: 'sdg/project/project-iUgpong/sdg-iUgpong-image03.jpg',
+        caption: 'iUgpong',
+        alt: '',
+      },
+      {
+        id: 4,
+        image: 'sdg/project/project-iUgpong/sdg-iUgpong-image04.jpg',
+        caption: 'iUgpong',
+        alt: '',
       },
     ],
   },
+  //LINGKOD: Language Integration for Governance and Knowledge Optimization & Development of Barangay Secretaries //
   {
-    id: 7,
-    title:
-      'Forging Synergy for World-Class Industrial Technologists: The MarSU and Coast Mountain College Partnership ',
-    logo: '',
-    description: `Marinduque State University (MarSU) and Coast Mountain College took a significant step towards international cooperation with the event titled Global Synergy: Forging International Partnerships, held under the theme "Expanding Horizons: Strengthening International Linkages in Industrial Technology." `,
-    abstract: `Marinduque State University (MarSU) and Coast Mountain College took a significant step towards international cooperation with the event titled Global Synergy: Forging International Partnerships, held under the theme "Expanding Horizons: Strengthening International Linkages in Industrial Technology." The collaboration aims to foster academic and technological exchange, benefiting both institutions' faculty, staff, and students.
-MarSU President, Professor Dr. Diosdado P. Zulueta, highlighted the strategic role of international linkages in the university’s overall development. He emphasized that partnerships like these are instrumental in expanding the horizons of the university’s academic and technological capabilities, particularly in the field of industrial technology.
-Representing Coast Mountain College, Mr. Evan van Dyk shared his excitement about the collaboration. His official message underscored the mutual benefits of the partnership, particularly in the sharing of best practices and the possibility of student and faculty exchanges that would further enhance the learning experiences in both institutions.
-his event marks the beginning of a promising partnership that is expected to bring forth innovation, growth, and global exposure for both Marinduque State University and Coast Mountain College. As they strengthen their ties, the two institutions are poised to contribute meaningfully to the global landscape of industrial technology.`,
-    overview: '',
-    image: 'sdg/project/marsu-coast.jpg',
-    link: `/sdg/project/7/Forging Synergy for World-Class Industrial Technologists: The MarSU and Coast Mountain College Partnership`,
-    tags: [
+    id: 1,
+    image: `sdg/project/marsu-bneo.jpg`,
+    title: `Language and Communication Proficiency Enhancement for Barangay Newly-Elected & Appointed Officials (BNEO)`,
+    subtitle: `LINGKOD: Language Integration for Governance and Knowledge Optimization & Development of Barangay Secretaries`,
+    desc: 'Mogpog Barangay Secretaries enhance language and communication skills through MarSU-Led Training - strengthens local governance paving the way for more transparent, educated, and tech-savvy communities.',
+    author: `Jholey Rose R. Leaño-Lancion`,
+    date: `March 2024`,
+    link: `/sdg/project/1/Language Integration `,
+    logo: `sdg/project/marsu-logo-LID.jpg`,
+    contents: [
       {
-        name: ['Quality Education', 'Partnerships for the Goals'],
-        image: ['E-WEB-Goal-04.png', 'E-WEB-Goal-17.png'],
+        background: `Marinduque State University (MarSU) teamed up with the Department of the Interior and Local Government (DILG) to transform the communication skills of Mogpog’s barangay secretaries. This dynamic training program, focused on language mastery, effective communication, and media literacy, is a game-changer for grassroots governance. By strengthening transparency and efficiency, the initiative fuels SDG 4 (Quality Education), SDG 16 (Peace, Justice, and Strong Institutions), and SDG 17 (Partnerships for the Goals), reflecting MarSU’s unwavering commitment to global standards and sustainable progress in local governance.`,
       },
-    ],
-  },
-  {
-    id: 8,
-    title:
-      'Bridging Connections for Sustainable Futures: MarSU Partners with ANAAA',
-    logo: '',
-    description: `Marinduque State University (MarSU) and the Association of National Agencies and Accredited Associations (ANAAA) have joined forces to create a sustainable future through the project titled "Bridging Connections for Sustainable Futures: MarSU Partners with ANAAA."`,
-    abstract: `The Marinduque State University cordially hosted the visit of the National Agency for Academic Assessment and Accreditation (NAAAA) of the Democratic Republic of Timor Leste on September 19, 2024 at MarSU Main Campus, Tanza, Boac ,Marinduque and discussed the proposed areas of cooperation with NAAA and selected universities in East Timor.
-As the Marinduque State University (MarSU) strengthens its international relations with various agencies and universities around the world, the community took another major step in fulfilling its role in partnership building for curriculum development and research opportunities by implementing its internationalization program and activities mechanisms.
-The agenda included the establishment of a framework for international academic cooperation, curriculum development aligned with East Timor Higher Educational Standards, and faculty development aligned with East Timor qualification standards.
+      {
+        highlights: [
+          `The BNEO for GREAT Barangay Program, initiated by DILG-Local Government Academy in 2018, aims to enhance governance at the grassroots level. Understanding the critical role of barangay secretaries in communication and administration, MarSU developed a tailored training program that addresses the evolving demands of modern governance. The significance of this initiative extends to advancing SDGs by equipping secretaries with crucial skills for community development and effective public service. This collaboration exemplifies MarSU’s dedication to creating impactful local programs with a global perspective.`,
+        ],
+      },
+      {
+        impact: [
+          `The training program unfolded through seven transformative modules, each designed to elevate the communication prowess of Mogpog’s barangay secretaries and drive impactful local governance. Participants began by sharpening their command of English grammar, which enabled them to produce clear, polished, and professional documents. Through interactive drills and real-world writing exercises, they gained the confidence to draft resolutions, minutes, and reports with precision—laying a solid foundation for effective governance. Building on this, the program bridged English and Filipino in formal communication, refining the art of crafting impactful memos, letters, and other official documents. Hands-on workshops emphasized cultural sensitivity and operational nuances, promoting professionalism while celebrating the national language’s integral role in governance. `,
+          `This dual-language approach ensured participants could navigate both local and broader communication needs with ease. The training also focused on verbal communication, transforming secretaries into eloquent speakers capable of engaging with stakeholders and confidently representing their barangays. Real-life scenarios, such as mock dialogues and community discussions, provided ample practice, enabling them to handle high-stakes interactions with poise. In today’s digital landscape, effective media management is crucial. Participants were prepared to manage their barangay’s online presence through lessons on crafting compelling social media posts and discerning credible information. 
+
 `,
-    overview: '',
-    image: 'sdg/project/marsu-anana.jpg',
-    link: `/sdg/project/8/Bridging Connections for Sustainable Futures: MarSU Partners with ANAAA`,
+          `By learning to leverage digital platforms responsibly, they fostered transparency and community engagement. Project leader Ms. Jholey Rose R. Leaño-Lancion underscored the program’s objective: “to build a robust foundation of communication skills tailored to the unique responsibilities of barangay secretaries.” The hands-on approach, complemented by rigorous pre- and post-assessments, ensured measurable progress. By the program’s conclusion, participants emerged as empowered leaders, ready to bring innovation, resilience, and internationalization to local governance.`,
+        ],
+      },
+      {
+        outcomes: [
+          `The training’s success was evident in the significant improvement of proficiency levels across all modules. Statistical analysis confirmed that participants made substantial gains, particularly in grammar and media literacy. Module 3, English Conversational Fluency, had a transformative effect, increasing participants’ confidence in public and interpersonal communication. A participant, highlighted the program’s impact: “I’m now better equipped to represent our barangay and communicate effectively in various settings.” This program not only addressed communication gaps but also set a standard for future governance training. By empowering local leaders with essential skills, the initiative directly supports SDG 16’s focus on building strong and effective institutions.`,
+        ],
+      },
+      {
+        plans: [
+          `Building on this success, MarSU has approved the conduct of a research project that will evaluate the competence of newly elected and appointed barangay officials in language, communication, and social case management across all barangays in Marinduque. This research will serve as the basis for a comprehensive capability enhancement program, ensuring that all local officials are well-prepared to serve their communities effectively. Additionally, MarSU plans to scale up the training program to include modules on advanced negotiation techniques, conflict resolution, and cross-cultural communication`,
+        ],
+      },
+    ],
+    conclusion: `The university is also pursuing international collaborations to integrate global best practices, fostering a culture of internationalization while addressing local needs. Future workshops will also include follow-up impact assessments, one year post-training, to ensure sustainable improvements and provide data-driven recommendations for further interventions. These plans underscore MarSU’s strategic commitment to SDG 4 and SDG 17, aiming to bridge local governance with global standards.`,
+    cta: `By providing essential communication skills training, MarSU empowers local leaders to enhance governance and drive community development. This initiative not only strengthens local resilience but also fosters a globally connected and forward-thinking province. MarSU’s efforts underscore the critical role of higher education in bridging global and local challenges, reinforcing its mission to empower communities through education and international collaboration.`,
     tags: [
       {
-        name: ['Quality Education'],
-        image: ['E-WEB-Goal-04.png'],
+        name: [
+          'Quality Education',
+          'Partnerships for the Goals',
+          'PeaceJusticeandStrong Institutions',
+        ],
+        icons: ['E-WEB-Goal-04.png', 'E-WEB-Goal-17.png', 'E-WEB-Goal-17.png'],
+      },
+    ],
+    gallery: [
+      {
+        id: 1,
+        image: 'sdg/project/project-bneo/bneo-1.jpg',
+        caption: 'Language Integration ',
+        alt: '',
+      },
+      {
+        id: 2,
+        image: 'sdg/project/project-bneo/bneo-2.jpg',
+        caption: 'Language Integration ',
+        alt: '',
+      },
+      {
+        id: 3,
+        image: 'sdg/project/project-bneo/bneo-3.jpg',
+        caption: 'Language Integration',
+        alt: '',
+      },
+      {
+        id: 4,
+        image: 'sdg/project/project-bneo/bneo-4.jpg',
+        caption: 'Language Integration',
+        alt: '',
+      },
+    ],
+  },
+  // The Adopt-a-Cooperative Project  Empowering cooperatives through mentoring and coaching
+  {
+    id: 2,
+    image: `sdg/project/marsu-main-EMP.jpg`,
+    title: `The Adopt-a-Cooperative Project`,
+    subtitle: `Empowering cooperatives through mentoring and coaching .`,
+    author: `Michael V. Capiña, PhD & Verna Liza L. Capiña, DBA`,
+    date: `Nov. 8, 2024`,
+    link: `/sdg/project/2/Empowering Cooperative`,
+    logo: `sdg/project/marsu-logo-EMP.jpg`,
+    content: [
+      {
+        background: `This project is designed to provide education and training to cooperative officers and members in order to advance cooperative development and promote the principles of cooperativism and good governance throughout the province of Marinduque.  This primarily involves adopting various cooperatives for ongoing support and assistance in their management and business activities by providing them with mentoring and coaching.`,
+      },
+      {
+        highlights: [
+          `Since its inception in 2022, the Adopt-a-Cooperative project has successfully conducted 13 mandatory trainings and seminars, benefitting a total of 489 cooperative members, composed of men and women. Additionally, at the request of other government agencies, two more trainings were delivered to 55 participants, further expanding the project’s impact in promoting sustainable growth and resilience among cooperatives.`,
+        ],
+      },
+      {
+        impact: [
+          `Promoting sustainable growth and resilience among cooperatives.`,
+          `Promote cooperative growth and development`,
+        ],
+      },
+      {
+        outcomes: [
+          `Marinduque State University received accreditation from the Cooperative Development Authority of MIMAROPA`,
+        ],
+      },
+      {
+        plans: [
+          `Offering online coaching and mentoring`,
+          `Facilitating continuous cooperative empowerment across the region and beyond borders as well.`,
+        ],
+      },
+    ],
+    conclusion: `With this, MarSU will be a pioneering university in the region to support and promote cooperative growth and development, leading to communities that are more empowered, productive, and sustainable.`,
+    cta: `To learn more about this innovative project or to get involved in supporting cooperative empowerment and in spreading cooperativism, visit [MarSU Website] or contact cba@marsu.edu.ph or capina.michael@marsu.edu.ph. `,
+    tags: [
+      {
+        name: [
+          'Quality Education',
+          'Gender Equality',
+          'Decent Work and Economic Growth',
+          'Reduced Inequalities',
+          'Partnership for the goals',
+        ],
+        icons: [
+          'E-WEB-Goal-04.png',
+          'E-WEB-Goal-05.png',
+          'E-WEB-Goal-08.png',
+          'E-WEB-Goal-10.png',
+          'E-WEB-Goal-17.png',
+        ],
+      },
+    ],
+    gallery: [
+      {
+        id: 1,
+        image: 'sdg/project/project-EMP/EMP-marsu-image01.jpg',
+        caption: 'Empowering cooperatives',
+        alt: '',
+      },
+      {
+        id: 2,
+        image: 'sdg/project/project-EMP/EMP-marsu-image02.jpg',
+        caption: 'Empowering cooperatives',
+        alt: '',
+      },
+      {
+        id: 3,
+        image: 'sdg/project/project-EMP/EMP-marsu-image03.jpg',
+        caption: 'Empowering cooperatives',
+        alt: '',
+      },
+      {
+        id: 4,
+        image: 'sdg/project/project-EMP/EMP-marsu-image04.jpg',
+        caption: 'Empowering cooperatives',
+        alt: '',
+      },
+    ],
+  },
+  // Project ScaleUp: From Waste to Value Scaling Up Arrowroot Enterprise through Arrowroot Bagasse Products Technology Transfer
+  {
+    id: 3,
+    image: `sdg/project/marsu-main-EMP.jpg`,
+    title: `Project ScaleUp: From Waste to Value `,
+    subtitle: `Scaling Up Arrowroot Enterprise through Arrowroot Bagasse Products Technology Transfer  .`,
+    author: `Michael V. Capiña, PhD & Verna Liza L. Capiña, DBA`,
+    date: `Nov. 8, 2024`,
+    link: `/sdg/project/3/Project ScaleUp`,
+    logo: `sdg/project/marsu-logo-ScaleUp.jpg`,
+    content: [
+      {
+        background: `Marinduque State University – College of Business and Accountancy (MarSU – CBA) leads a two-year project that converts underutilized waste from arrowroot starch extraction - the arrowroot bagasse or pulp, into value-added products such as arrowroot fiber-enhancer flour for bakery products such as cookies and brownies, boosting local agriculture, promoting arrowroot industry growth, and creating sustainable economic opportunities for arrowroot farmer, processors, and manufacturers.  `,
+      },
+      {
+        highlights: [
+          `This DA-ACEF funded project has made significant strides in its collaboration with the Bahi Agricultural and Fisheries Association (BAFA). Capacity-building trainings have been successfully conducted, each aimed at enhancing the skills and knowledge of BAFA members. Additionally, the project has already purchased complete equipment and supplies/materials for the processing and production of arrowroot bagasse/pulp products.`,
+        ],
+      },
+      {
+        impact: [
+          `Enhancing the skills and knowledge of BAFA members`,
+          `An increased market demand`,
+          `increased demand for its raw materials`,
+          `the supply chain are benefitted thus leading to a sustainable arrowroot industry in Marinduque.`,
+        ],
+      },
+      {
+        outcomes: [
+          `Arrowroot farmers benefit as the buying price for arrowroot rhizomes increase due to the value added.`,
+          `Generates additional income to arrowroot rhizomes processors.`,
+        ],
+      },
+      {
+        plans: [``],
+      },
+    ],
+    conclusion: ``,
+    cta: `To learn more about this innovative project or to get involved in supporting local agriculture and sustainable production, visit [MarSU Website] or contact cba@marsu.edu.ph or capina.michael@marsu.edu.ph`,
+    tags: [
+      {
+        name: [
+          'No Poverty ',
+          'Responsible Consumption and Production',
+          'Responsible Consumption and Production',
+        ],
+        icons: ['E-WEB-Goal-01.png', 'E-WEB-Goal-12.png', 'E-WEB-Goal-17.png'],
+      },
+    ],
+    gallery: [
+      {
+        id: 1,
+        image: 'sdg/project/project-ScaleUp/ScaleUp-marsu-image01.jpg',
+        caption: 'ScaleUp',
+        alt: '',
+      },
+      {
+        id: 2,
+        image: 'sdg/project/project-ScaleUp/ScaleUp-marsu-image02.jpg',
+        caption: 'ScaleUp',
+        alt: '',
+      },
+      {
+        id: 3,
+        image: 'sdg/project/project-ScaleUp/ScaleUp-marsu-image03.jpg',
+        caption: 'ScaleUp',
+        alt: '',
+      },
+      {
+        id: 4,
+        image: 'sdg/project/project-ScaleUp/ScaleUp-marsu-image04.jpg',
+        caption: 'ScaleUp',
+        alt: '',
       },
     ],
   },

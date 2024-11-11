@@ -75,7 +75,7 @@ const SGDPage = () => {
               alt='President Avatar'
               className='sgd_content--image'
             />
-            <div className='sgd_content--text--container p-32 '>
+            <div className='sgd_content--text--container  '>
               <h2 className='sgd_heading'>A Commitment from the HEART</h2>
               <p className=' fs-4 fw-light sgd_description text-justify'>
                 Guided by our commitment to the United Nations' 2030 Sustainable
@@ -156,7 +156,7 @@ const SGDPage = () => {
           </div>
         </Section>
         <Section>
-          <div className='sgd_content p-32 box-shadow'>
+          <div className='sgd_content  box-shadow'>
             <div className='sgd_content--text--container'>
               <h3 className='sgd_heading'>
                 Our programs for sustainable development
@@ -199,15 +199,13 @@ const SGDPage = () => {
 
                         <h4 className='sgd_card--title'>{project.title}</h4>
 
-                        <p className='sgd_card--description'>
-                          {project.description}
-                        </p>
+                        <p className='sgd_card--description'>{project.desc}</p>
                         <div className='sgd_card--tags'>
                           {project.tags.map((tag) =>
-                            tag.image.map((icon, index) => (
+                            tag.icons.map((icons, index) => (
                               <img
                                 key={`${tag.id}-${index}`}
-                                src={`sdg/${icon}`}
+                                src={`sdg/${icons}`}
                                 alt={tag.name}
                                 className='sgd_card--tag'
                               />
