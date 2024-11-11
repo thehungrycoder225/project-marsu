@@ -148,7 +148,7 @@ const SGDPage = () => {
           <div className='sgd_content'>
             <div className='marquee'>
               <GoalMarquee
-                goals={goals}
+                goals={goals.slice(0, 8)}
                 handleGoalClick={handleGoalClick}
                 selectedGoals={selectedGoals}
               />
@@ -169,7 +169,7 @@ const SGDPage = () => {
             </div>
             <Section>
               <div className='sgd__gallery'>
-                {projects.map((project) => (
+                {projects.slice(0, 8).map((project) => (
                   <>
                     <img
                       src={`${project.image}`}
