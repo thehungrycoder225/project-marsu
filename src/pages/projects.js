@@ -353,25 +353,25 @@ production of free-range chicken.`,
     gallery: [
       {
         id: 1,
-        image: 'sdg/project/project-iUgpong/sdg-iUgpong-image01.jpg',
+        image: 'sdg/project/project-iugpong/iugpong-1.JPG',
         caption: 'iUgpong',
         alt: '',
       },
       {
         id: 2,
-        image: 'sdg/project/project-iUgpong/sdg-iUgpong-image02.jpg',
+        image: 'sdg/project/project-iugpong/iugpong-2.JPG',
         caption: 'iUgpong',
         alt: '',
       },
       {
         id: 3,
-        image: 'sdg/project/project-iUgpong/sdg-iUgpong-image03.jpg',
+        image: 'sdg/project/project-iugpong/iugpong-3.JPG',
         caption: 'iUgpong',
         alt: '',
       },
       {
         id: 4,
-        image: 'sdg/project/project-iUgpong/sdg-iUgpong-image04.jpg',
+        image: 'sdg/project/project-iugpong/iugpong-4.JPG',
         caption: 'iUgpong',
         alt: '',
       },
@@ -459,14 +459,14 @@ production of free-range chicken.`,
   // The Adopt-a-Cooperative Project  Empowering cooperatives through mentoring and coaching
   {
     id: 2,
-    image: `sdg/project/marsu-main-EMP.jpg`,
+    image: `sdg/project/marsu-coop.jpg`,
     title: `The Adopt-a-Cooperative Project`,
     subtitle: `Empowering cooperatives through mentoring and coaching .`,
     author: `Michael V. Capiña, PhD & Verna Liza L. Capiña, DBA`,
     date: `Nov. 8, 2024`,
     link: `/sdg/project/2/Empowering Cooperative`,
     logo: `sdg/project/marsu-logo-EMP.jpg`,
-    content: [
+    contents: [
       {
         background: `This project is designed to provide education and training to cooperative officers and members in order to advance cooperative development and promote the principles of cooperativism and good governance throughout the province of Marinduque.  This primarily involves adopting various cooperatives for ongoing support and assistance in their management and business activities by providing them with mentoring and coaching.`,
       },
@@ -477,8 +477,7 @@ production of free-range chicken.`,
       },
       {
         impact: [
-          `Promoting sustainable growth and resilience among cooperatives.`,
-          `Promote cooperative growth and development`,
+          `As a result of this project, Marinduque State University received accreditation from the Cooperative Development Authority of MIMAROPA in 2023 as the Training Provider for Trainings of Trainers (TOT) for cooperatives in the MIMAROPA region hence expanding its reach and scope.`,
         ],
       },
       {
@@ -488,13 +487,12 @@ production of free-range chicken.`,
       },
       {
         plans: [
-          `Offering online coaching and mentoring`,
-          `Facilitating continuous cooperative empowerment across the region and beyond borders as well.`,
+          `Future initiatives include alternative modes of providing cooperative education and training by integrating it in the curriculum, developing modules, and offering online coaching and mentoring, hence facilitating continuous cooperative empowerment across the region and beyond borders as well. `,
         ],
       },
     ],
     conclusion: `With this, MarSU will be a pioneering university in the region to support and promote cooperative growth and development, leading to communities that are more empowered, productive, and sustainable.`,
-    cta: `To learn more about this innovative project or to get involved in supporting cooperative empowerment and in spreading cooperativism, visit [MarSU Website] or contact cba@marsu.edu.ph or capina.michael@marsu.edu.ph. `,
+    cta: `To learn more about this innovative project or to get involved in supporting cooperative empowerment and in spreading cooperativism, visit ${`www.marsu.edu.ph/#/sdg`} or contact cba@marsu.edu.ph or capina.michael@marsu.edu.ph. `,
     tags: [
       {
         name: [
@@ -543,14 +541,14 @@ production of free-range chicken.`,
   // Project ScaleUp: From Waste to Value Scaling Up Arrowroot Enterprise through Arrowroot Bagasse Products Technology Transfer
   {
     id: 3,
-    image: `sdg/project/marsu-main-EMP.jpg`,
+    image: `sdg/project/marsu-scaleup.jpg`,
     title: `Project ScaleUp: From Waste to Value `,
     subtitle: `Scaling Up Arrowroot Enterprise through Arrowroot Bagasse Products Technology Transfer  .`,
     author: `Michael V. Capiña, PhD & Verna Liza L. Capiña, DBA`,
     date: `Nov. 8, 2024`,
     link: `/sdg/project/3/Project ScaleUp`,
     logo: `sdg/project/marsu-logo-ScaleUp.jpg`,
-    content: [
+    contents: [
       {
         background: `Marinduque State University – College of Business and Accountancy (MarSU – CBA) leads a two-year project that converts underutilized waste from arrowroot starch extraction - the arrowroot bagasse or pulp, into value-added products such as arrowroot fiber-enhancer flour for bakery products such as cookies and brownies, boosting local agriculture, promoting arrowroot industry growth, and creating sustainable economic opportunities for arrowroot farmer, processors, and manufacturers.  `,
       },
@@ -561,30 +559,26 @@ production of free-range chicken.`,
       },
       {
         impact: [
-          `Enhancing the skills and knowledge of BAFA members`,
-          `An increased market demand`,
-          `increased demand for its raw materials`,
-          `the supply chain are benefitted thus leading to a sustainable arrowroot industry in Marinduque.`,
+          `Studies show that for every kilo of fresh arrowroot rhizome, 28% of grinded rhizomes oftentimes goes to waste.  Utilization of the grinded rhizome waste (bagasse) into flour offers competitive advantage considering its proximate analysis and nutritional facts per serving as compared to casava and wholewheat flours.  Evaluation for arrowroot cookies and brownies on different sensory attributes (appearance, aroma, taste, texture and general acceptability) showed the most acceptable ratio among the majority of the evaluators is 75% arrowroot flour utilization.  This Project ScaleUp is leveraged on these potentials and advantages.`,
         ],
       },
       {
         outcomes: [
-          `Arrowroot farmers benefit as the buying price for arrowroot rhizomes increase due to the value added.`,
-          `Generates additional income to arrowroot rhizomes processors.`,
+          `This DA-ACEF funded project has made significant strides in its collaboration with the Bahi Agricultural and Fisheries Association (BAFA). Capacity-building trainings have been successfully conducted, each aimed at enhancing the skills and knowledge of BAFA members. Additionally, the project has already purchased complete equipment and supplies/materials for the processing and production of arrowroot bagasse/pulp products.`,
         ],
       },
       {
-        plans: [``],
+        plans: [`---`],
       },
     ],
-    conclusion: ``,
+    conclusion: `The commercialization of arrowroot bagasse/pulp flour leads to full production and utilization of arrowroot bagasse/pulp thus maximizing the use of resources.  An increased market demand for arrowroot bagasse/pulp flour, including its bakery products results to an increased demand for its raw materials, the arrowroot rhizomes. This generates additional income to arrowroot rhizomes processors resulting from the full utilization of rhizomes into arrowroot starch and the production of fiber-enriched flour out of the bagasse/pulp. Consequently, the arrowroot farmers benefit as the buying price for arrowroot rhizomes increase due to the value added.  At the end, all players in the supply chain are benefitted thus leading to a sustainable arrowroot industry in Marinduque.`,
     cta: `To learn more about this innovative project or to get involved in supporting local agriculture and sustainable production, visit [MarSU Website] or contact cba@marsu.edu.ph or capina.michael@marsu.edu.ph`,
     tags: [
       {
         name: [
           'No Poverty ',
           'Responsible Consumption and Production',
-          'Responsible Consumption and Production',
+          'Partnership for the goals',
         ],
         icons: ['E-WEB-Goal-01.png', 'E-WEB-Goal-12.png', 'E-WEB-Goal-17.png'],
       },
@@ -612,6 +606,85 @@ production of free-range chicken.`,
         id: 4,
         image: 'sdg/project/project-ScaleUp/ScaleUp-marsu-image04.jpg',
         caption: 'ScaleUp',
+        alt: '',
+      },
+    ],
+  },
+  // Rimas
+  {
+    id: 8,
+    image: `sdg/project/rimas.png`,
+    title: `Empowering Communities through Rimas: MarSU-CIT’s Extension Project Drives Socio-Economic Growth `,
+    subtitle: `After six years, Marinduque State University's initiative has improved skills, created jobs, and fostered sustainable income from Rimas products, transforming local economies and recommending further expansion across the province.`,
+    desc: `A six-year impact study by the Department of Trade and Industry (DTI) highlights the positive socio-economic effects of Marinduque State University`,
+    author: `College of Industrial Technology`,
+    date: `November 6, 2023`,
+    link: `/sdg/project/8/Empowering Communities through Rimas: MarSU-CIT’s Extension Project Drives Socio-Economic Growth`,
+    logo: `sdg/project/rimas-logo.jpg`,
+    contents: [
+      {
+        background: `Marinduque State University (MarSU) plays a key role in community development in Marinduque, supporting local needs through its fourfold mission of instruction, research, extension, and production. One notable community project led by MarSU’s College of Industrial Technology (CIT) involves technology transfer focused on breadfruit (Rimas) for creating locally sourced food products. MarSU identified Rimas as a valuable resource for food production, utilizing various parts of the tree, including its fruits and seeds, to make flour. In 2017, MarSU-CIT launched free training sessions in Boac, Marinduque, where faculty trained locals in making Rimas-based products to support small businesses and generate income. With MarSU’s initial support through resources and tools, the project enabled participants to establish food businesses. Six years later, an impact study conducted by the Department of Trade and Industry (DTI) revealed positive social and economic benefits from the project, highlighting its contribution to sustainable income generation and community improvement.`,
+      },
+      {
+        highlights: [``],
+      },
+      {
+        impact: [
+          `The Rimas Extension Project has made a notable difference in the lives of its beneficiaries by developing Rimas (breadfruit) products that contribute to both social and economic growth within the community..`,
+        ],
+      },
+      {
+        outcomes: [
+          `a.	Social and Economic Benefits`,
+          `Through the project, beneficiaries learned how to create various Rimas-based products like flour, pastillas, polvoron, and espasol, which they can sell. This skill development led to innovation and allowed participants to expand their business reach and diversify their offerings. Some even began employing local students, generating additional income for young people in the area. This has positively impacted community bonds, as members support each other in producing and selling Rimas products. `,
+          `b.	Economic Growth and Job Creation`,
+          `The project, led by MarSU-CIT, contributed to the community's economic status by improving incomes and creating job opportunities, particularly for local women’s groups like KALIPI. Rimas-based products are now available in distant markets, even reaching places as far as Palawan and London. With more efficient production and an expanded supply chain, these products are accessible and affordable, which boosts both local and external sales. `,
+          `c.	Long-Term Potential and Sustainability`,
+          `The long-term implications of the Rimas project are promising. It offers rural community members sustainable income opportunities and contributes to a resilient local economy. While government policy support remains limited, the project has laid the groundwork for future growth and potential policy influence. By providing a steady source of income and fostering economic collaboration, the Rimas Extension Project strengthens the community's economic stability and self-reliance, demonstrating sustainable socio-economic practices.`,
+        ],
+      },
+      {
+        plans: [
+          `a.	Continuous Extension Projects on Rimas Products`,
+          `MarSU will consider conducting similar extension projects involving Rimas products and other local goods. These initiatives can be extended to interested individuals in various barangays across Marinduque. The expansion of such community service programs can not only benefit the local population but also serve as a foundation for future comparative impact studies.`,
+          `b.	Sustaining the Supply and Market of Rimas Products`,
+          `To ensure the continued availability and demand for Rimas products, MarSU will engage in ongoing research and training for beneficiaries of this extension project. This training can focus on diversifying the use of Rimas flour in combination with other types of flour, thus extending the supply of this seasonal fruit and opening new market possibilities.`,
+          `c.	Collaboration with Local and International Agencies`,
+          `MarSU will actively explore partnerships with both local and international agencies, particularly those within the industry, to further support individuals involved in the production of Rimas products. These collaborations can help attract a broader customer base, ensuring the project's sustainability and providing necessary resources for growth.`,
+        ],
+      },
+    ],
+    conclusion: `By implementing these plans, MarSU will contribute to the continuous development and success of Rimas product ventures, benefiting both the local economy and the broader community. In conclusion, the extension project initiated by the College of Industrial Technology on training with Rimas products has proven to be highly beneficial. It has not only enhanced the innovative and entrepreneurial skills of the beneficiaries but also positively impacted their economic status by generating additional income and creating new opportunities within the local community. Furthermore, the project has promoted sustainability by encouraging the long-term use of Rimas as a valuable raw material, benefiting both the individual participants and the broader community. With a focus on SDG 8 and empowerment, MarSU-CIT’s Rimas project is truly “Empowering Minds, Transforming Lives.”`,
+    cta: `Call to Action: For more information about MarSU-CIT extension programs, visit the College of Industrial Technology Facebook Page “Marinduque State University – College of Industrial Technology” or email us at industrialtechnology.1952@gmail.com. `,
+    tags: [
+      {
+        name: ['Decent Work and Economic Growth'],
+        icons: ['E-WEB-Goal-08.png'],
+      },
+    ],
+    gallery: [
+      {
+        id: 1,
+        image: 'sdg/project/project-rimas/rimas-1.png',
+        caption: 'rimas',
+        alt: '',
+      },
+      {
+        id: 2,
+        image: 'sdg/project/project-rimas/rimas-2.png',
+        caption: 'rimas',
+        alt: '',
+      },
+      {
+        id: 3,
+        image: 'sdg/project/project-rimas/rimas-3.png',
+        caption: 'rimas',
+        alt: '',
+      },
+      {
+        id: 4,
+        image: 'sdg/project/project-rimas/rimas-4.png',
+        caption: 'rimas',
         alt: '',
       },
     ],

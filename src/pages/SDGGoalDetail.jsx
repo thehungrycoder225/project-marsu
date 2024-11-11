@@ -74,7 +74,7 @@ const SDGGoalDetail = () => {
                             </p> */}
                             <div className='sgd_card--tags'>
                               {project.tags.map((tag) =>
-                                tag.image.map((icon, index) => (
+                                tag.icons.map((icon, index) => (
                                   <img
                                     key={`${tag.id}-${index}`}
                                     src={`sdg/${icon}`}
