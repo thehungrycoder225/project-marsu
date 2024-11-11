@@ -689,6 +689,178 @@ production of free-range chicken.`,
       },
     ],
   },
+  {
+    id: 9,
+    title:
+      'Building Bridges for Global Cooperation: MarSU and Universitas Airlangga Sign MOU',
+    subtitle:
+      'Marinduque State University and Universitas Airlangga formalize partnership to enhance academic cooperation, research exchange, and cultural collaboration.',
+    logo: 'sdg/project/mou-logo.jpg',
+    author: 'Marinduque State University',
+    date: 'March 2024',
+    desc: 'This project aims to establish a formal partnership between Marinduque State University and Universitas Airlangga to enhance academic cooperation, research exchange, and cultural collaboration.',
+    image: 'sdg/project/mou.jpg',
+    link: `/sdg/project/9/Building Bridges for Global Cooperation: MarSU and Universitas Airlangga Sign MOU`,
+    contents: [
+      {
+        background: `In a significant step towards expanding international collaboration, Marinduque State University (MarSU) and Universitas Airlangga (UNAIR) of Indonesia held a virtual signing of a Memorandum of Understanding (MOU), 2PM Philippine Time. This partnership marks a new chapter in academic cooperation, research exchange, and cultural collaboration between the two institutions.
+        The MOU signifies a mutual commitment to fostering global connections through joint programs, faculty exchanges, collaborative research initiatives, and student mobility opportunities. By joining forces, MarSU and Universitas Airlangga aim to promote the exchange of knowledge and best practices across borders, enhancing the educational experiences of their respective communities.
+        With the authority from the Board of Regents, Prof. Dr. Diosdado P. Zulueta signed the MOU on behalf of MarSU. Universitas Airlangga was represented by Dr. Mohammad Nasih, UNAIR Rector.
+        Key officials of both universities witnessed the virtual signing of the partnership. `,
+      },
+      {
+        highlights: [
+          `The signing of the MOU between MarSU and Universitas Airlangga is a significant milestone in the internationalization efforts of both institutions. This partnership will open doors to new opportunities for academic and cultural exchange, research collaboration, and joint initiatives that will benefit students, faculty, and staff.`,
+        ],
+      },
+      {
+        impact: [
+          `The signing of the MOU between MarSU and Universitas Airlangga is a significant milestone in the internationalization efforts of both institutions. This partnership will open doors to new opportunities for academic and cultural exchange, research collaboration, and joint initiatives that will benefit students, faculty, and staff.`,
+        ],
+      },
+      {
+        outcomes: [
+          `The signing of the MOU between MarSU and Universitas Airlangga is a significant milestone in the internationalization efforts of both institutions. This partnership will open doors to new opportunities for academic and cultural exchange, research collaboration, and joint initiatives that will benefit students, faculty, and staff.`,
+        ],
+      },
+      {
+        plans: [
+          `The signing of the MOU between MarSU and Universitas Airlangga is a significant milestone in the internationalization efforts of both institutions. This partnership will open doors to new opportunities for academic and cultural exchange, research collaboration, and joint initiatives that will benefit students, faculty, and staff.`,
+        ],
+      },
+    ],
+    conclusion: ``,
+    cta: ``,
+    tags: [
+      {
+        name: ['Quality Education', 'Partnerships for the Goals'],
+        icons: ['E-WEB-Goal-04.png', 'E-WEB-Goal-17.png'],
+      },
+    ],
+    gallery: [],
+  },
+  {
+    id: 10,
+    title:
+      '𝐅𝐫𝐨𝐦 𝐓𝐡𝐞 𝐇𝐞𝐚𝐫𝐭, 𝐓𝐨 𝐭𝐡𝐞 𝐖𝐨𝐫𝐥𝐝: 𝐂𝐇𝐄𝐃 𝐚𝐧𝐝 𝐌𝐚𝐫𝐒𝐔 𝐏𝐚𝐫𝐭𝐧𝐞𝐫 𝐟𝐨𝐫 𝐒𝐭𝐫𝐚𝐭𝐞𝐠𝐢𝐜 𝐈𝐧𝐭𝐞𝐫𝐧𝐚𝐭𝐢𝐨𝐧𝐚𝐥𝐢𝐳𝐚𝐭𝐢𝐨𝐧',
+    subtitle: `From The Heart, To The World: CHED and MarSU Partner for Strategic Internationalization`,
+    logo: '',
+    author: 'Marinduque State University',
+    date: 'October 2024',
+    desc: 'From The Heart, To The World: CHED and MarSU Partner for Strategic Internationalization, a project that aims to enhance the global competitiveness of MarSU through strategic partnerships and international collaborations.',
+    contents: [
+      {
+        background: `Marinduque State University (MarSU), in collaboration with the Commission on Higher Education (CHED) Regional Office - MIMAROPA, held a two-day Orientation-Workshop on Strategic Approaches to Internationalization, Global Citizenship Education, Ranking, and Sustainable Development in Education from October 9-10, 2024.
+    The event, spearheaded by Dr. Jimmy G. Catanes, CHED-MIMAROPA Regional Director, empowered MarSU’s academic community—students, faculty, researchers, and administrators—with the tools to align with global education standards. The focus on internationalization and global citizenship equips students to become globally competitive, while faculty and staff benefit from new international collaboration opportunities.
+    This initiative also positions MarSU as a key player in the global academic arena by integrating international benchmarks such as the Times Higher Education (THE) Impact Ranking and WURI Ranking. With the continued support of CHED-MIMAROPA, MarSU is on track to enhance its reputation and broaden opportunities for the university, contributing to the long-term growth of higher education in the region.
+    The collective efforts of the MarSU community led by the University President, Prof. Dr. Diosdado P. Zulueta highlights MarSU’s unified commitment to global excellence. Through this workshop, MarSU continues to pave the way for a more globally integrated, future-ready academic community `,
+      },
+      {
+        highlights: [``],
+      },
+      {
+        impact: [``],
+      },
+      {
+        outcomes: [``],
+      },
+      {
+        plans: [``],
+      },
+    ],
+    conclusion: ``,
+    cta: ``,
+    image: 'sdg/project/ched-marsu.jpg',
+    link: `/sdg/project/10/From The Heart, To The World: CHED and MarSU Partner for Strategic Internationalization`,
+    tags: [
+      {
+        name: ['Partnerships for the Goals'],
+        icons: ['E-WEB-Goal-17.png'],
+      },
+    ],
+    gallery: [],
+  },
+  {
+    id: 11,
+    title:
+      'Forging Synergy for World-Class Industrial Technologists: The MarSU and Coast Mountain College Partnership ',
+    subtitle: ``,
+    author: ``,
+    date: ``,
+    logo: '',
+    desc: `Marinduque State University (MarSU) and Coast Mountain College took a significant step towards international cooperation with the event titled Global Synergy: Forging International Partnerships, held under the theme "Expanding Horizons: Strengthening International Linkages in Industrial Technology." `,
+    contents: [
+      {
+        background: `Marinduque State University (MarSU) and Coast Mountain College took a significant step towards international cooperation with the event titled Global Synergy: Forging International Partnerships, held under the theme "Expanding Horizons: Strengthening International Linkages in Industrial Technology." The collaboration aims to foster academic and technological exchange, benefiting both institutions' faculty, staff, and students.
+    MarSU President, Professor Dr. Diosdado P. Zulueta, highlighted the strategic role of international linkages in the university’s overall development. He emphasized that partnerships like these are instrumental in expanding the horizons of the university’s academic and technological capabilities, particularly in the field of industrial technology.
+    Representing Coast Mountain College, Mr. Evan van Dyk shared his excitement about the collaboration. His official message underscored the mutual benefits of the partnership, particularly in the sharing of best practices and the possibility of student and faculty exchanges that would further enhance the learning experiences in both institutions.
+    his event marks the beginning of a promising partnership that is expected to bring forth innovation, growth, and global exposure for both Marinduque State University and Coast Mountain College. As they strengthen their ties, the two institutions are poised to contribute meaningfully to the global landscape of industrial technology.`,
+      },
+      {
+        highlights: [``],
+      },
+      {
+        impact: [``],
+      },
+      {
+        outcomes: [``],
+      },
+      {
+        plans: [``],
+      },
+    ],
+    conclusion: ``,
+    cta: ``,
+    image: 'sdg/project/marsu-coast.jpg',
+    link: `/sdg/project/11/Forging Synergy for World-Class Industrial Technologists: The MarSU and Coast Mountain College Partnership`,
+    tags: [
+      {
+        name: ['Quality Education', 'Partnerships for the Goals'],
+        icons: ['E-WEB-Goal-04.png', 'E-WEB-Goal-17.png'],
+      },
+    ],
+    gallery: [],
+  },
+  {
+    id: 12,
+    title:
+      'Bridging Connections for Sustainable Futures: MarSU Partners with ANAAA',
+    subtitle: ``,
+    author: ``,
+    date: ``,
+    logo: '',
+    desc: `Marinduque State University (MarSU) and the Association of National Agencies and Accredited Associations (ANAAA) have joined forces to create a sustainable future through the project titled "Bridging Connections for Sustainable Futures: MarSU Partners with ANAAA."`,
+    contents: [
+      {
+        background: `The Marinduque State University cordially hosted the visit of the National Agency for Academic Assessment and Accreditation (NAAAA) of the Democratic Republic of Timor Leste on September 19, 2024 at MarSU Main Campus, Tanza, Boac ,Marinduque and discussed the proposed areas of cooperation with NAAA and selected universities in East Timor.
+    As the Marinduque State University (MarSU) strengthens its international relations with various agencies and universities around the world, the community took another major step in fulfilling its role in partnership building for curriculum development and research opportunities by implementing its internationalization program and activities mechanisms.
+    The agenda included the establishment of a framework for international academic cooperation, curriculum development aligned with East Timor Higher Educational Standards, and faculty development aligned with East Timor qualification standards.`,
+      },
+      {
+        highlights: [``],
+      },
+      {
+        impact: [``],
+      },
+      {
+        outcomes: [``],
+      },
+      {
+        plans: [``],
+      },
+    ],
+    conclusion: ``,
+    cta: ``,
+    image: 'sdg/project/marsu-anana.jpg',
+    link: `/sdg/project/12/Bridging Connections for Sustainable Futures: MarSU Partners with ANAAA`,
+    tags: [
+      {
+        name: ['Quality Education'],
+        icons: ['E-WEB-Goal-04.png'],
+      },
+    ],
+    gallery: [],
+  },
 ];
 
 export default projects;
