@@ -898,7 +898,7 @@ production of free-range chicken.`,
     ],
     conclusion: ``,
     cta: ``,
-    image: 'sdg/project/',
+    image: 'sdg/project/module.jpg',
     link: `/sdg/project/13/3ES MODULE WRITING MODEL`,
     tags: [
       {
@@ -951,7 +951,7 @@ production of free-range chicken.`,
     ],
     conclusion: ``,
     cta: ``,
-    image: 'sdg/project/',
+    image: 'sdg/project/educator.jpg',
     link: `/sdg/project/14/Capacitating Educators on Research and Challenged Areas Program (CERCA)`,
     tags: [
       {
@@ -968,7 +968,7 @@ production of free-range chicken.`,
     author: `Dr. Rex Emannuel L. Asuncion`,
     date: `2011`,
     logo: '',
-    desc: ``,
+    desc: `Promoting and Safeguarding Marinduque's Heritage in Folk Music, a project that aims to preserve and promote Marinduque's rich folk music heritage through meticulous research and documentation.`,
     contents: [
       {
         background: `Dr. Rex Emmanuel Laurel Asuncion is dedicated to preserving and promoting Marinduque's rich folk music heritage. Through meticulous research, he has documented traditional songs such as "Alamat ng Dalawang Puting Gansa" and "Sulong, Aking Tandang," ensuring their authenticity and socio-cultural significance. His published work, "PAKINGGI Compilation of Selected Marinduque Island Folk Songs," serves as an important educational resource. Asuncion integrates these songs into the music curriculum to foster local identity and patriotism. His efforts also extend to choreographing folk dances and producing a documentary to further disseminate Marinduque's unique musical culture, ensuring its preservation for future generations.`,
@@ -1006,7 +1006,7 @@ production of free-range chicken.`,
     ],
     conclusion: ``,
     cta: ``,
-    image: 'sdg/project/',
+    image: 'sdg/project/culture.jpg',
     link: `/sdg/project/15/Promoting and Safeguarding Marinduque's Heritage in Folk Music`,
     tags: [
       {
