@@ -861,6 +861,161 @@ production of free-range chicken.`,
     ],
     gallery: [],
   },
+  {
+    id: 13,
+    title: '3ES MODULE WRITING MODEL',
+    subtitle: ``,
+    author: `Dr. Liza Marie Manoos-Pacia`,
+    date: `2020`,
+    logo: '',
+    desc: `The 3Es Module project at Marinduque State University was designed to equip instructors with a structured, remote teaching model to maintain educational continuity during the pandemic.`,
+    contents: [
+      {
+        background: `Due to the global health crisis, educational needs and solutions have received attention in academic institutions. With this, Marinduque State College developed the 3Es (Elicit, Explain and Evaluate) Module Writing Model to be used in flexible learning modality. This research aims to determine the acceptability of the instructional material. Specifically, it aims to identify the number of faculty that uses the model; determine the usual parts included in each section; identify the different forms where the model is being used; determine its acceptability in terms of adaptability, structure, usability, and perceived effectiveness; identify any recommendations and comments from the faculty that can improve the model; and ascertain significant agreement among the evaluators. The researcher used a quantitative–descriptive approach through the use of a validated questionnaire given to faculty members of Marinduque State College during the Midyear of academic year 2022. It was found out that the model is used by all respondents but how it is used depends on the course being taught. The objectives of the lesson are frequently included in the elicit section of the instructional material. Discussion of the subject, along with practice exercises and activities, can be found in the explain section. Assessment and reinforcing activities are typically included in the evaluate section. The instructional paradigm was discovered to be used in online learning resources and for presentation reasons. In terms of adaptability, structure, usability, and perceived efficacy, the 3Es Instructional Model was determined to be acceptable in all forms (Elicit, Explain, and Evaluate portions). It was suggested that the concept be adopted and modified for technical and skill-oriented courses. The model's qualities have moderate agreement among the evaluators.
+`,
+      },
+      {
+        highlights: [
+          `The model is adapted for both online learning materials and presentations.`,
+          `It is widely accepted for its adaptability, structure, usability, and effectiveness.`,
+          `The model is recommended for use in technical and skills-oriented courses, with evaluators showing moderate agreement on its attributes`,
+        ],
+      },
+      {
+        impact: [
+          `The 3Es Model supports student engagement and adaptability in remote learning.`,
+          `Instructors find the model useful for structured content delivery, enhancing the university's remote teaching quality.`,
+        ],
+      },
+      {
+        outcomes: [``],
+      },
+      {
+        plans: [
+          `Moving forward, the project aims to expand and refine the 3Es Module by incorporating feedback from users, enhancing its adaptability for diverse subjects, and exploring its application in technical and skills-oriented courses. Additionally, further research and testing will help optimize the model for blended learning environments, combining in-person and online teaching. Ultimately, the project envisions broader adoption across educational institutions, potentially influencing standard remote teaching practices at the university level and beyond.`,
+        ],
+      },
+    ],
+    conclusion: ``,
+    cta: ``,
+    image: 'sdg/project/',
+    link: `/sdg/project/13/3ES MODULE WRITING MODEL`,
+    tags: [
+      {
+        name: ['Quality Education'],
+        icons: ['E-WEB-Goal-04.png'],
+      },
+    ],
+    gallery: [],
+  },
+  {
+    id: 14,
+    title:
+      'Capacitating Educators on Research and Challenged Areas Program (CERCA)',
+    subtitle: ``,
+    author: `Dr. Liza Marie Manoos-Pacia`,
+    date: `2020`,
+    logo: '',
+    desc: `The 3Es Module project at Marinduque State University was designed to equip instructors with a structured, remote teaching model to maintain educational continuity during the pandemic.`,
+    contents: [
+      {
+        background: `The sequence should start with building strong partnerships and finalizing agreements (e.g., MOAs with DepEd), followed by technology integration and resource preparation. Training programs should be rolled out once the necessary tools and support structures are in place, with continuous monitoring and feedback loops to ensure adjustments as needed for successful execution.`,
+      },
+      {
+        highlights: [
+          `The project achieved its objectives through effective use of technology and collaboration with DepEd.`,
+          `Training was tailored based on teacher feedback, ensuring relevance and impact.`,
+          `The training was already conducted twice and will continuously and consistenly be conducted.`,
+          `Continuous evaluation allowed for improvements, ensuring the training met the evolving needs of teachers.`,
+        ],
+      },
+      {
+        impact: [
+          `The learners receive quality education with well-trained teachers.`,
+          `Participants successfully developed instructional materials or modules for specific topics, which were validated by the DepEd Learning Resource Management.`,
+          `Participants identified relevant research problems, developed research proposals, and presented them for critique. Some research projects were accepted for presentation in forums and publication in journals.`,
+          `Participants gained in-depth knowledge of the subjects they teach at the elementary level, mastering specific disciplines in education.`,
+          `Participants successfully designed learning plans and strategies utilizing contemporary teaching methods, enhancing their pedagogical skills.`,
+        ],
+      },
+      {
+        outcomes: [
+          `The program yielded instructional materials, research proposals, and teaching strategies that were successfully presented, critiqued, and published. Participants demonstrated increased mastery of their subjects and contemporary pedagogical techniques.`,
+        ],
+      },
+      {
+        plans: [
+          `Moving forward, the project aims to be expanded to reach more educators across various regions, with a focus on scaling up the training and research components. It can also be integrated into broader educational initiatives by partnering with more government bodies and institutions. Future steps may include regular follow-up sessions to assess the long-term impact on teaching practices, a continued emphasis on research application, and the potential for national dissemination of successful teaching modules and research studies.`,
+        ],
+      },
+    ],
+    conclusion: ``,
+    cta: ``,
+    image: 'sdg/project/',
+    link: `/sdg/project/14/Capacitating Educators on Research and Challenged Areas Program (CERCA)`,
+    tags: [
+      {
+        name: ['Quality Education'],
+        icons: ['E-WEB-Goal-04.png'],
+      },
+    ],
+    gallery: [],
+  },
+  {
+    id: 15,
+    title: `Promoting and Safeguarding Marinduque's Heritage in Folk Music`,
+    subtitle: ``,
+    author: `Dr. Rex Emannuel L. Asuncion`,
+    date: `2011`,
+    logo: '',
+    desc: ``,
+    contents: [
+      {
+        background: `Dr. Rex Emmanuel Laurel Asuncion is dedicated to preserving and promoting Marinduque's rich folk music heritage. Through meticulous research, he has documented traditional songs such as "Alamat ng Dalawang Puting Gansa" and "Sulong, Aking Tandang," ensuring their authenticity and socio-cultural significance. His published work, "PAKINGGI Compilation of Selected Marinduque Island Folk Songs," serves as an important educational resource. Asuncion integrates these songs into the music curriculum to foster local identity and patriotism. His efforts also extend to choreographing folk dances and producing a documentary to further disseminate Marinduque's unique musical culture, ensuring its preservation for future generations.`,
+      },
+      {
+        highlights: [
+          ` The project preserves Marinduque's unique folk music by documenting, transcribing, and arranging traditional songs.`,
+          `  It integrates these folk songs into educational curricula, fostering cultural pride and identity among students.`,
+          `    The project includes both audio and written documentation, as well as choreography for community performances.`,
+        ],
+      },
+      {
+        impact: [
+          `Enhanced cultural pride and identity among students as they learn about Marinduque’s heritage.`,
+          `Improved musical skills through exposure to traditional folk music, leading to a deeper appreciation of local art forms.`,
+          `Development of a sense of responsibility to preserve their cultural heritage, fostering patriotism and community engagement`,
+          ` Professors gain unique educational resources to incorporate local culture into their teaching, enriching the curriculum.`,
+          `The university strengthens its role as a preserver of Marinduque’s heritage, enhancing its reputation within the community and among cultural organizations.`,
+          `Increased research opportunities for faculty members interested in cultural studies, music education, and preservation.`,
+        ],
+      },
+      {
+        outcomes: [
+          `Publication of PAKINGGI Compilation of Selected Marinduque Island Folk Songs and its distribution in schools and libraries.`,
+          `Integration of folk music into local educational curricula, measurable by the number of schools adopting the curriculum.`,
+          `Number of documented songs, student performances, and the audience reached through the documentary and public performances.`,
+        ],
+      },
+      {
+        plans: [
+          `Moving forward, Dr. Asuncion’s project aims to expand documentation of Marinduque’s traditional songs, deepen integration into regional and national educational curricula, and enhance public access through digital archives. By hosting community performances and collaborating with local tourism, the project seeks to boost cultural pride and attract visitors. Efforts will also focus on securing sustainable funding and pursuing broader recognition through national and international cultural platforms, ensuring Marinduque’s folk music is preserved, celebrated, and accessible to future generations.
+`,
+        ],
+      },
+    ],
+    conclusion: ``,
+    cta: ``,
+    image: 'sdg/project/',
+    link: `/sdg/project/15/Promoting and Safeguarding Marinduque's Heritage in Folk Music`,
+    tags: [
+      {
+        name: ['Quality Education'],
+        icons: ['E-WEB-Goal-04.png'],
+      },
+    ],
+    gallery: [],
+  },
 ];
 
 export default projects;
