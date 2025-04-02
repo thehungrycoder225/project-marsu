@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo.png';
 
@@ -45,8 +45,8 @@ function LandingPage() {
           <>
             <div className='content landing-video-section'>
               <div className='p-5 w-100'>
-                <h3 className='text-1md font-bold'>Hello Mr. President</h3>
-                <p className='mb-5 fs-5 fw-light'>
+                <h3 className=''>Hello Mr. President</h3>
+                <p className='mb-5 fs-5'>
                   In a significant move to further the growth and development of
                   Marinduque State University, the University President has
                   taken a hands-on approach by creating a video message that
@@ -64,8 +64,6 @@ function LandingPage() {
                   width='560'
                   height='314'
                   src='https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Fmarinduquestatecollege%2Fvideos%2F1411789209494537%2F&show_text=false&width=560&t=0'
-                  scrolling='no'
-                  frameBorder={0}
                   allowfullscreen='true'
                   allow='autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share'
                 ></iframe>

@@ -2,6 +2,268 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Import euclid-square from public/fonts */
+@font-face {
+  font-family: 'Euclid Square';
+  src: url('fonts/euclid-square/EuclidSquare-Bold.eot');
+  src:
+    local('Euclid Square Bold'),
+    local('EuclidSquare-Bold'),
+    url('fonts/euclid-square/EuclidSquare-Bold.eot?#iefix')
+      format('embedded-opentype'),
+    url('fonts/euclid-square/EuclidSquare-Bold.woff2') format('woff2'),
+    url('fonts/euclid-square/EuclidSquare-Bold.woff') format('woff'),
+    url('fonts/euclid-square/EuclidSquare-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Euclid Square';
+  src: url('fonts/euclid-square/EuclidSquare-Regular.eot');
+  src:
+    local('Euclid Square Regular'),
+    local('EuclidSquare-Regular'),
+    url('fonts/euclid-square/EuclidSquare-Regular.eot?#iefix')
+      format('embedded-opentype'),
+    url('fonts/euclid-square/EuclidSquare-Regular.woff2') format('woff2'),
+    url('fonts/euclid-square/EuclidSquare-Regular.woff') format('woff'),
+    url('fonts/euclid-square/EuclidSquare-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Euclid Square';
+  src: url('fonts/euclid-square/EuclidSquare-SemiBold.eot');
+  src:
+    local('Euclid Square SemiBold'),
+    local('EuclidSquare-SemiBold'),
+    url('fonts/euclid-square/EuclidSquare-SemiBold.eot?#iefix')
+      format('embedded-opentype'),
+    url('fonts/euclid-square/EuclidSquare-SemiBold.woff2') format('woff2'),
+    url('fonts/euclid-square/EuclidSquare-SemiBold.woff') format('woff'),
+    url('fonts/euclid-square/EuclidSquare-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Euclid Square';
+  src: url('fonts/euclid-square/EuclidSquare-LightItalic.eot');
+  src:
+    local('Euclid Square Light Italic'),
+    local('EuclidSquare-LightItalic'),
+    url('fonts/euclid-square/EuclidSquare-LightItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('fonts/euclid-square/EuclidSquare-LightItalic.woff2') format('woff2'),
+    url('fonts/euclid-square/EuclidSquare-LightItalic.woff') format('woff'),
+    url('fonts/euclid-square/EuclidSquare-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Euclid Square';
+  src: url('fonts/euclid-square/EuclidSquare-MediumItalic.eot');
+  src:
+    local('Euclid Square Medium Italic'),
+    local('EuclidSquare-MediumItalic'),
+    url('fonts/euclid-square/EuclidSquare-MediumItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('fonts/euclid-square/EuclidSquare-MediumItalic.woff2') format('woff2'),
+    url('fonts/euclid-square/EuclidSquare-MediumItalic.woff') format('woff'),
+    url('fonts/euclid-square/EuclidSquare-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Euclid Square';
+  src: url('fonts/euclid-square/EuclidSquare-Medium.eot');
+  src:
+    local('Euclid Square Medium'),
+    local('EuclidSquare-Medium'),
+    url('fonts/euclid-square/EuclidSquare-Medium.eot?#iefix')
+      format('embedded-opentype'),
+    url('fonts/euclid-square/EuclidSquare-Medium.woff2') format('woff2'),
+    url('fonts/euclid-square/EuclidSquare-Medium.woff') format('woff'),
+    url('fonts/euclid-square/EuclidSquare-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Euclid Square';
+  src: url('fonts/euclid-square/EuclidSquare-Italic.eot');
+  src:
+    local('Euclid Square Italic'),
+    local('EuclidSquare-Italic'),
+    url('fonts/euclid-square/EuclidSquare-Italic.eot?#iefix')
+      format('embedded-opentype'),
+    url('fonts/euclid-square/EuclidSquare-Italic.woff2') format('woff2'),
+    url('fonts/euclid-square/EuclidSquare-Italic.woff') format('woff'),
+    url('fonts/euclid-square/EuclidSquare-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Euclid Square';
+  src: url('fonts/euclid-square/EuclidSquare-Light.eot');
+  src:
+    local('Euclid Square Light'),
+    local('EuclidSquare-Light'),
+    url('fonts/euclid-square/EuclidSquare-Light.eot?#iefix')
+      format('embedded-opentype'),
+    url('fonts/euclid-square/EuclidSquare-Light.woff2') format('woff2'),
+    url('fonts/euclid-square/EuclidSquare-Light.woff') format('woff'),
+    url('fonts/euclid-square/EuclidSquare-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Euclid Square';
+  src: url('fonts/euclid-square/EuclidSquare-SemiBoldItalic.eot');
+  src:
+    local('Euclid Square SemiBold Italic'),
+    local('EuclidSquare-SemiBoldItalic'),
+    url('fonts/euclid-square/EuclidSquare-SemiBoldItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('fonts/euclid-square/EuclidSquare-SemiBoldItalic.woff2') format('woff2'),
+    url('fonts/euclid-square/EuclidSquare-SemiBoldItalic.woff') format('woff'),
+    url('fonts/euclid-square/EuclidSquare-SemiBoldItalic.ttf')
+      format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Euclid Square';
+  src: url('fonts/euclid-square/EuclidSquare-BoldItalic.eot');
+  src:
+    local('Euclid Square Bold Italic'),
+    local('EuclidSquare-BoldItalic'),
+    url('fonts/euclid-square/EuclidSquare-BoldItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('fonts/euclid-square/EuclidSquare-BoldItalic.woff2') format('woff2'),
+    url('fonts/euclid-square/EuclidSquare-BoldItalic.woff') format('woff'),
+    url('fonts/euclid-square/EuclidSquare-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Source Serif Pro';
+  src: url('fonts/source-serif-pro/SourceSerifPro-BoldIt.eot');
+  src:
+    local('Source Serif Pro Bold Italic'),
+    local('SourceSerifPro-BoldIt'),
+    url('fonts/source-serif-pro/SourceSerifPro-BoldIt.eot?#iefix')
+      format('embedded-opentype'),
+    url('fonts/source-serif-pro/SourceSerifPro-BoldIt.woff2') format('woff2'),
+    url('fonts/source-serif-pro/SourceSerifPro-BoldIt.woff') format('woff'),
+    url('fonts/source-serif-pro/SourceSerifPro-BoldIt.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Source Serif Pro';
+  src: url('fonts/source-serif-pro/SourceSerifPro-ExtraLightIt.eot');
+  src:
+    local('Source Serif Pro ExtraLight Italic'),
+    local('SourceSerifPro-ExtraLightIt'),
+    url('fonts/source-serif-pro/SourceSerifPro-ExtraLightIt.eot?#iefix')
+      format('embedded-opentype'),
+    url('fonts/source-serif-pro/SourceSerifPro-ExtraLightIt.woff2')
+      format('woff2'),
+    url('fonts/source-serif-pro/SourceSerifPro-ExtraLightIt.woff')
+      format('woff'),
+    url('fonts/source-serif-pro/SourceSerifPro-ExtraLightIt.ttf')
+      format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Source Serif Pro';
+  src: url('fonts/source-serif-pro/SourceSerifPro-LightIt.eot');
+  src:
+    local('Source Serif Pro Light Italic'),
+    local('SourceSerifPro-LightIt'),
+    url('fonts/source-serif-pro/SourceSerifPro-LightIt.eot?#iefix')
+      format('embedded-opentype'),
+    url('fonts/source-serif-pro/SourceSerifPro-LightIt.woff2') format('woff2'),
+    url('fonts/source-serif-pro/SourceSerifPro-LightIt.woff') format('woff'),
+    url('fonts/source-serif-pro/SourceSerifPro-LightIt.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Source Serif Pro';
+  src: url('fonts/source-serif-pro/SourceSerifPro-BlackIt.eot');
+  src:
+    local('Source Serif Pro Black Italic'),
+    local('SourceSerifPro-BlackIt'),
+    url('fonts/source-serif-pro/SourceSerifPro-BlackIt.eot?#iefix')
+      format('embedded-opentype'),
+    url('fonts/source-serif-pro/SourceSerifPro-BlackIt.woff2') format('woff2'),
+    url('fonts/source-serif-pro/SourceSerifPro-BlackIt.woff') format('woff'),
+    url('fonts/source-serif-pro/SourceSerifPro-BlackIt.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Source Serif Pro';
+  src: url('fonts/source-serif-pro/SourceSerifPro-SemiboldIt.eot');
+  src:
+    local('Source Serif Pro Semibold Italic'),
+    local('SourceSerifPro-SemiboldIt'),
+    url('fonts/source-serif-pro/SourceSerifPro-SemiboldIt.eot?#iefix')
+      format('embedded-opentype'),
+    url('fonts/source-serif-pro/SourceSerifPro-SemiboldIt.woff2')
+      format('woff2'),
+    url('fonts/source-serif-pro/SourceSerifPro-SemiboldIt.woff') format('woff'),
+    url('fonts/source-serif-pro/SourceSerifPro-SemiboldIt.ttf')
+      format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Source Serif Pro';
+  src: url('fonts/source-serif-pro/SourceSerifPro-It.eot');
+  src:
+    local('Source Serif Pro Italic'),
+    local('SourceSerifPro-It'),
+    url('fonts/source-serif-pro/SourceSerifPro-It.eot?#iefix')
+      format('embedded-opentype'),
+    url('fonts/source-serif-pro/SourceSerifPro-It.woff2') format('woff2'),
+    url('fonts/source-serif-pro/SourceSerifPro-It.woff') format('woff'),
+    url('fonts/source-serif-pro/SourceSerifPro-It.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Source Serif Pro';
+  src: url('fonts/source-serif-pro/SourceSerifPro-Regular.eot');
+  src:
+    local('Source Serif Pro'),
+    local('SourceSerifPro-Regular'),
+    url('fonts/source-serif-pro/SourceSerifPro-Regular.eot?#iefix')
+      format('embedded-opentype'),
+    url('fonts/source-serif-pro/SourceSerifPro-Regular.woff2') format('woff2'),
+    url('fonts/source-serif-pro/SourceSerifPro-Regular.woff') format('woff'),
+    url('fonts/source-serif-pro/SourceSerifPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 #root {
   --color-primary: #660033;
   --color-primary-dark: #4c0026;
@@ -32,7 +294,7 @@
   --color-border-light: #eee;
   --color-border-dark: #ccc;
 
-  font-family: Poppins, sans-serif;
+  font-family: 'Euclid Square', sans-serif;
   font-size: 1.6rem;
   line-height: 2.4rem;
   color: var(--color-text);

@@ -15,6 +15,7 @@ function App() {
         <Route path='/sdg' element={<SGDPage />} />
         <Route path='/sdg/project/:id/:title' element={<SGDProject />} />
         <Route path='/sdg/goal/:id' element={<SDGGoalDetail />} />
+        {/* Colleges Route */}
         <Route path='*' element={<PageNotFound />} />
       </Routes>
     </>

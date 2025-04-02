@@ -1,53 +1,32 @@
-import React, { useState } from 'react';
 import './navigation.css';
-import { useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Popover, PopoverButton, PopoverPanel} from '@headlessui/react'
+import { useScrollPosition } from '../hooks/hooks';
+import { Link } from 'react-router-dom'
 
 const Navigation = () => {
-  const [menuOpen, setMenuOpen] = useState(null);
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [isScrolled, setIsScrolled] = useState(false);
-
-  const toggleMenu = (menu) => {
-    setMenuOpen(menuOpen === menu ? null : menu);
-  };
-
-  const toggleMobileMenu = () => {
-    setMobileMenuOpen(!mobileMenuOpen);
-  };
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
+  function classNames(...classes) {
+    return classes.filter(Boolean).join(' ')
+  }
+ 
+  const scrollPosition = useScrollPosition()
   return (
-    <header
-      className={`bg-primary-900 nav-bar ${isScrolled ? 'scrolled' : ''}`}
-    >
-      <div className='container mx-auto flex justify-between items-center p-4'>
-        <div className='flex items-center gap-6'>
-          <div className='nav-brand'>
-            <Link to='/'>
-              <img src='logo.png' alt='MarSU Logo' srcSet='logo.png' />
-            </Link>
-          </div>
-          <div>
-            <p className='nav-brand-text'>Marinduque State University</p>
-          </div>
+
+    <>
+    <Popover className={classNames(
+        scrollPosition > 0 ? 'shadow bg-transparent' : 'shadow-none',
+        'sticky top-0 z-20  bg-primary-900 transition-shadow',
+      )}>
+        <div className="flex justify-between items-center px-4 py-2 text-white">
+        <Link to="/" className="text-lg font-bold text-decoration-none">My Website</Link>
+        <div className="space-x-4">
+          <Link to="/" className="hover:text-gray-400 text-decoration-none">Home</Link>
+          <Link to="/about" className="hover:text-gray-400 text-decoration-none">About</Link>
+          <Link to="/contact" className="hover:text-gray-400 text-decoration-none">Contact</Link>
         </div>
       </div>
-    </header>
+      </Popover>
+      
+    </>
   );
 };
 
