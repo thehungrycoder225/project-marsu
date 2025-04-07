@@ -53,8 +53,10 @@ export default function Example() {
   return (
     <header
       className={classNames(
-        scrollPosition > 0 ? 'shadow bg-college-whitet' : 'shadow-none',
-        'sticky top-0 z-20 bg-transparent transition-shadow'
+        scrollPosition > 0
+          ? 'shadow bg-college-white'
+          : 'shadow-none bg-transparent',
+        'sticky top-0 z-20 transition-shadow'
       )}
     >
       <nav

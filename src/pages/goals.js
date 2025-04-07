@@ -1,3 +1,4 @@
+// Moved to SDG subfolder
 const goals = [
   {
     id: 1,

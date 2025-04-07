@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 import HeroComponent from '../components/Hero';
-import NavigationExample from '../components/Navigation';
 import Footer from '../components/Footer';
 import Section from '../components/Section';
 import logo from '../assets/sdg-logo.png';
@@ -55,7 +54,6 @@ const SGDPage = () => {
   };
   return (
     <>
-      <NavigationExample />
       <HeroComponent
         brand={logo}
         heroImage={'sgd_hero--brand'}
@@ -104,7 +102,7 @@ const SGDPage = () => {
                 and community engagement, Marinduque State University pledges to
                 be at the forefront of sustainable action, fully dedicated to
                 shaping a more inclusive, resilient, and sustainable future for
-                all."
+                all.
               </p>
               <p className='fs-4 fw-light'>
                 {'- Prof. Diosdado P. Zulueta, DPA'}

@@ -39,24 +39,6 @@ const partners = [
   { img: 'partners/partner (14).png', alt: 'dswd' },
 ];
 
-// function Marquee({ partners, reverse }) {
-//   return (
-//     <section
-//       className={reverse ? 'enable-animation-reverse' : 'enable-animation'}
-//     >
-//       <div className='marquee'>
-//         <div className='marquee_content'>
-//           {partners.map((partner, index) => (
-//             <div key={index} className='marquee_item'>
-//               <img src={partner.img} alt={partner.alt} />
-//             </div>
-//           ))}
-//         </div>
-//       </div>
-//     </section>
-//   );
-// }
-
 function PartnersComponent() {
   return (
     <div className='linkages'>
@@ -71,8 +53,6 @@ function PartnersComponent() {
           exceptional educational experiences to our students.
         </p>
       </div>
-      {/* <Marquee partners={partners.slice(0, 21)} />
-      <Marquee partners={partners.slice(21)} reverse /> */}
       <div className='marquee'>
         <Marquee speed={50}>
           {partners.map((partner, index) => (
