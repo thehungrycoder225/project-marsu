@@ -53,10 +53,8 @@ export default function Example() {
   return (
     <header
       className={classNames(
-        scrollPosition > 0
-          ? 'shadow bg-college-white'
-          : 'shadow-none bg-transparent',
-        'sticky top-0 z-20 transition-shadow'
+        scrollPosition > 0 ? 'shadow' : 'shadow-none bg-transparent',
+        'sticky top-0 z-20 transition-shadow h-full w-full overflow-hidden bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-10 border border-gray-100'
       )}
     >
       <nav
@@ -68,7 +66,7 @@ export default function Example() {
             <span className='sr-only'>Your Company</span>
             <img
               alt=''
-              src='https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600'
+              src='https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=grey&shade=600'
               className='h-8 w-auto'
             />
           </a>
@@ -84,14 +82,14 @@ export default function Example() {
           </button>
         </div>
         <PopoverGroup className='hidden lg:flex lg:gap-x-12'>
-          <a href='#' className='text-sm/6 font-semibold text-gray-900 '>
+          <a href='#' className='text-xl/6 font-semibold text-gray-900 '>
             Home
           </a>
-          <a href='#' className='text-sm/6 font-semibold text-gray-900'>
+          <a href='#' className='text-xl/6 font-semibold text-gray-900'>
             About
           </a>
           <Popover className='relative'>
-            <PopoverButton className='flex items-center gap-x-1 text-sm/6 font-semibold text-gray-900'>
+            <PopoverButton className='flex items-center gap-x-1 text-xl/6 font-semibold text-gray-900'>
               Programs
               <ChevronDownIcon
                 aria-hidden='true'
@@ -107,7 +105,7 @@ export default function Example() {
                 {programs.map((item) => (
                   <div
                     key={item.name}
-                    className='group relative flex items-center gap-x-6 rounded-lg p-4 text-sm/6 hover:bg-gray-50'
+                    className='group relative flex items-center gap-x-6 rounded-lg p-4 text-xl/6 hover:bg-gray-50'
                   >
                     <div className='flex size-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white'>
                       <item.icon
@@ -133,7 +131,7 @@ export default function Example() {
                   <a
                     key={item.name}
                     href={item.href}
-                    className='flex items-center justify-center gap-x-2.5 p-3 text-sm/6 font-semibold text-gray-900 hover:bg-gray-100'
+                    className='flex items-center justify-center gap-x-2.5 p-3 text-x/6 font-semibold text-gray-900 hover:bg-gray-100'
                   >
                     <item.icon
                       aria-hidden='true'
@@ -146,13 +144,13 @@ export default function Example() {
             </PopoverPanel>
           </Popover>
 
-          <a href='#' className='text-sm/6 font-semibold text-gray-900'>
+          <a href='#' className='text-xl/6 font-semibold text-gray-900'>
             Faculty and Staff
           </a>
-          <a href='#' className='text-sm/6 font-semibold text-gray-900'>
+          <a href='#' className='text-xl/6 font-semibold text-gray-900'>
             Research
           </a>
-          <a href='#' className='text-sm/6 font-semibold text-gray-900'>
+          <a href='#' className='text-xl/6 font-semibold text-gray-900'>
             Contact Us
           </a>
         </PopoverGroup>

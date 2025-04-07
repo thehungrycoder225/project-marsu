@@ -32,8 +32,39 @@ function Colleges() {
         imageHeight={college.imageHeight}
       />
       <div className='college-container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 shadow-none'>
+        {/* College News */}
+        <section>
+          <h2>News</h2>
+        </section>
+        {/* College Events */}
+        <section>{/* Add your college events content here */}</section>
+        {/* College Programs */}
+        <section>
+          <div className='college-programs'>
+            <h2 className='bold'>Programs Offered</h2>
+            {/* <ul className='program-list'>
+              {college.programs.map((program, index) => (
+                <li key={index} className='program-item'>
+                  {program}
+                </li>
+              ))}
+            </ul> */}
+          </div>
+        </section>
+        {/* Message from the Dean */}
+        <section></section>
         <section>
           <Faqs />
+        </section>
+        {/* Student Activities */}
+        <section>
+          <h2>Student Activities</h2>
+          {/* Add your student activities content here */}
+        </section>
+        {/* Success Stories */}
+        <section>
+          <h2>Success Stories</h2>
+          {/* Add your success stories content here */}
         </section>
       </div>
     </div>
