@@ -25,8 +25,8 @@ const Navigation = () => {
       children: [
         { name: 'College of Arts and Sciences', href: '/colleges/cass' },
         { name: 'College of Business and Management', href: '/colleges/cbm' },
-        { name: 'College of Engineering', href: '/colleges/coe' },
-        { name: 'College of Information Technology', href: '/colleges/cit' },
+        { name: 'College of Engineering', href: '/colleges/ceng' },
+        { name: 'College of Industrial Technology', href: '/colleges/cit' },
         { name: 'College of Education', href: '/colleges/ce' },
         { name: 'College of Hospitality Management', href: '/colleges/chm' },
         {
@@ -36,7 +36,11 @@ const Navigation = () => {
         { name: 'College of Law', href: '/colleges/cl' },
         { name: 'Graduate School', href: '/colleges/gs' },
         { name: 'College of Agriculture', href: '/colleges/ca' },
-        { name: 'College of Fisheries', href: '/colleges/cf' },
+        { name: 'College of Fisheries', href: '/colleges/cfas' },
+        {
+          name: 'College of Information and Computing Sciences',
+          href: '/colleges/cics',
+        },
       ],
     },
   ];
