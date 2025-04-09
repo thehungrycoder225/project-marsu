@@ -53,8 +53,8 @@ export default function Example() {
   return (
     <header
       className={classNames(
-        scrollPosition > 0 ? 'shadow' : 'shadow-none bg-transparent',
-        'sticky top-0 z-20 transition-shadow h-full w-full overflow-hidden bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-10 border border-gray-100'
+        scrollPosition > 0 ? 'shadow ' : 'shadow-none bg-transparent',
+        'sticky top-0 z-20 transition-shadow h-full w-full overflow-hidden bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-10 border border-gray-100 border-opacity-10'
       )}
     >
       <nav
