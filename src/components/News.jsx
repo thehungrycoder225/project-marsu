@@ -73,7 +73,9 @@ function NewsEvents({ collegeKey }) {
       <h2 className='text-3xl font-bold text-gray-800 mb-6'>News</h2>
       {/* Featured News Section */}
       <div className='featured-news mb-8'>
-        {!collegeKey ? (
+        {!collegeKey ||
+        !mockCollegeNews[collegeKey] ||
+        mockCollegeNews[collegeKey].length === 0 ? (
           <p className='text-gray-600'>No news available</p>
         ) : (
           mockCollegeNews[collegeKey].map((news) => {
@@ -112,7 +114,8 @@ function NewsEvents({ collegeKey }) {
 
       {/* Related Articles Section */}
       <div className='related-articles grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
-        {!mockCollegeNews[collegeKey]
+        {!mockCollegeNews[collegeKey] ||
+        mockCollegeNews[collegeKey].length === 0
           ? null
           : mockCollegeNews[collegeKey].map((news) => {
               if (!news.isFeatured) {
