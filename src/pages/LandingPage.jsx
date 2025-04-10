@@ -81,7 +81,8 @@ function LandingPage() {
           <Events />
         </SectionComponent>
         <SectionComponent>
-          <div className='flex  justify-center items-center rounded-lg p-6 text-white'>
+          {/* How to create a flex that will change the orientation on the smaller screen */}
+          <div className='flex flex-col md:flex-row justify-center items-center rounded-lg p-6 text-white max-w-7xl mx-auto gap-4'>
             <div className=''>
               <img
                 src='sdg-logo.png'
@@ -89,8 +90,8 @@ function LandingPage() {
                 alt='Marinduque State University SDG Logo'
               />
             </div>
-            <div className='flex flex-col gap-4 justify-center p-4 '>
-              <h3 className='text-xl/3 font-bold text-rose-950'>
+            <div className='flex flex-col max-w-7xl gap-4 p-4 '>
+              <h3 className='text-2xl font-bold text-rose-950'>
                 Marinduque State University Sustainable Development Goals
                 Center!
               </h3>
