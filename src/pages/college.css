@@ -6,7 +6,7 @@
   --secondary-600: #f59b0a;
   --secondary-500: #f5c20a;
 
-  --neutral-black: #1a1a1a;
+  --neutral-black: #323232;
   --neutral-white: #ffffff;
   --neutral-gray: #f0f0f0;
 }
@@ -32,22 +32,24 @@
 .college-container h4,
 .college-container h5,
 .college-container h6 {
-  margin: 0;
-  color: var(--primary-700);
+  color: var(--neutral-black);
 }
 
 .college-container a {
   color: var(--primary-700);
   text-decoration: none;
   transition: color 0.3s ease;
+  font-weight: 600;
 }
 .college-container a:hover {
+  cursor: pointer;
+  text-decoration: none;
   color: var(--primary-500);
 }
 
 .bg-college-primary {
   background-color: var(--primary-700);
-  color: var(--secondary-500);
+  color: var(--secondary-600);
 }
 
 .bg-college-white {
@@ -68,4 +70,14 @@
 .college-nav a:hover {
   color: var(--primary-500);
   text-decoration: none;
+  cursor: pointer;
+}
+
+@keyframes color {
+  0% {
+    color: var(--primary-700);
+  }
+  100% {
+    color: var(--secondary-600);
+  }
 }
