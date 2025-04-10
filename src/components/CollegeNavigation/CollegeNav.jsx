@@ -81,15 +81,15 @@ export default function Example() {
             <Bars3Icon aria-hidden='true' className='size-6' />
           </button>
         </div>
-        <PopoverGroup className='hidden lg:flex lg:gap-x-12'>
-          <a href='#' className='text-xl/6 font-semibold text-gray-900 '>
+        <PopoverGroup className='hidden lg:flex text-sm lg:gap-x-12'>
+          <a href='#' className=' font-semibold text-gray-900 '>
             Home
           </a>
-          <a href='#' className='text-xl/6 font-semibold text-gray-900'>
+          <a href='#' className=' font-semibold text-gray-900'>
             About
           </a>
           <Popover className='relative'>
-            <PopoverButton className='flex items-center gap-x-1 text-xl/6 font-semibold text-gray-900'>
+            <PopoverButton className='flex items-center gap-x-1  font-semibold text-gray-900'>
               Programs
               <ChevronDownIcon
                 aria-hidden='true'
@@ -105,7 +105,7 @@ export default function Example() {
                 {programs.map((item) => (
                   <div
                     key={item.name}
-                    className='group relative flex items-center gap-x-6 rounded-lg p-4 text-xl/6 hover:bg-gray-50'
+                    className='group relative flex items-center gap-x-6 rounded-lg p-4  hover:bg-gray-50'
                   >
                     <div className='flex size-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white'>
                       <item.icon
@@ -144,13 +144,13 @@ export default function Example() {
             </PopoverPanel>
           </Popover>
 
-          <a href='#' className='text-xl/6 font-semibold text-gray-900'>
+          <a href='#' className=' font-semibold text-gray-900'>
             Faculty and Staff
           </a>
-          <a href='#' className='text-xl/6 font-semibold text-gray-900'>
+          <a href='#' className=' font-semibold text-gray-900'>
             Research
           </a>
-          <a href='#' className='text-xl/6 font-semibold text-gray-900'>
+          <a href='#' className=' font-semibold text-gray-900'>
             Contact Us
           </a>
         </PopoverGroup>

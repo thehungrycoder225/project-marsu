@@ -51,7 +51,7 @@ const Navigation = () => {
       <Popover
         className={classNames(
           scrollPosition > 0
-            ? 'shadow py-2 ease-in-out transition-all hover:shadow-lg'
+            ? 'shadow py-4 ease-in-out transition-all hover:shadow-lg'
             : 'shadow-none',
           'sticky top-0 z-20 bg-primary-900 transition-shadow duration-300'
         )}

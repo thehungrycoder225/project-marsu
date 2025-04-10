@@ -22,6 +22,21 @@ function App() {
         <Route path='/sdg/goal/:id' element={<SDGGoalDetail />} />
         <Route path='/colleges/:collegeKey' element={<Colleges />}>
           <Route path='details' element={<div>College Details</div>} />
+          <Route path='news' element={<div>College News</div>}>
+            <Route path=':newsId' element={<div>College News Details</div>} />
+          </Route>
+          <Route path='events' element={<div>College Events</div>} />
+          <Route path='projects' element={<div>College Projects</div>} />
+          <Route path='research' element={<div>College Research</div>} />
+          <Route
+            path='collaborations'
+            element={<div>College Collaborations</div>}
+          />
+          <Route path='partners' element={<div>College Partners</div>} />
+          <Route path='resources' element={<div>College Resources</div>} />
+          <Route path='contact' element={<div>College Contact</div>} />
+          <Route path='about' element={<div>College About</div>} />
+          <Route path='*' element={<div>College Not Found</div>} />
         </Route>
         <Route path='*' element={<PageNotFound />} />
       </Routes>

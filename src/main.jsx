@@ -4,7 +4,7 @@ import { HashRouter as Router } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop.jsx';
 import App from './App.jsx';
 import './index.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

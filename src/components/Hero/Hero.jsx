@@ -19,12 +19,14 @@ function Hero({ title, tagline, imageSrc, imageAlt }) {
             }}
           />
         </div>
-        <div className='mx-auto  py-32 sm:py-48 lg:py-56'>
+        <div className='mx-auto py-32 sm:py-48 lg:py-56'>
           <div className='text-center'>
-            <h1 className='text-7xl font-bold tracking-tight text-white sm:text-7xl'>
+            <h1 className=' font-bold tracking-tight text-white sm:text-5xl'>
               {title}
             </h1>
-            <p className='mt-6 text-2xl leading-8 text-gray-300'>{tagline}</p>
+            <p className='mt-6  leading-8 text-gray-300 sm:text-2xl'>
+              {tagline}
+            </p>
             <div className='mt-10 flex items-center justify-center gap-x-6'>
               {/* <a
                 href='#'
