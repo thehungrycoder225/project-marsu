@@ -1,78 +1,127 @@
 import { Link } from 'react-router-dom';
 
-const programs = [
+const offeringsData = [
   {
-    id: 1,
-    name: 'Program Offerings',
-    description: 'Discover the various programs we offer to help you succeed.',
-    imageUrl: 'https://placehold.co/600x400/png',
-    href: `/colleges/collegeKey/program-offerings`,
-  },
-  {
-    id: 2,
-    name: 'Curriculum',
-    description:
-      'Explore our curriculum and course offerings. Become a part of our community.',
-    imageUrl: 'https://placehold.co/600x400/png',
-    href: `/colleges/collegeKey/curriculum`,
-  },
-  {
-    id: 3,
-    name: 'Career Opportunities',
-    description:
-      'Learn about the career opportunities available to our graduates.',
-    imageUrl: 'https://placehold.co/600x400/png',
-    href: `/colleges/collegeKey/career-opportunities`,
+    cics: [
+      {
+        id: 1,
+        title: 'Bachelor of Science in Computer Science',
+        description:
+          'A comprehensive program focusing on software development, algorithms, and data structures.',
+        imageUrl: 'https://placehold.co/600x400',
+        link: '/programs/cs',
+      },
+      {
+        id: 2,
+        title: 'Bachelor of Science in Information Technology',
+        description:
+          'A program designed to equip students with the skills needed for IT management and support.',
+        imageUrl: 'https://placehold.co/600x400',
+        link: '/programs/it',
+      },
+      {
+        id: 3,
+        title: 'Bachelor of Science in Information Systems',
+        description:
+          'A program that combines business and technology to prepare students for careers in information systems.',
+        imageUrl: 'https://placehold.co/600x400',
+        link: '/programs/is',
+      },
+      {
+        id: 4,
+        title: 'Bachelor of Science in Data Science',
+        description:
+          'A program focusing on data analysis, machine learning, and statistical methods.',
+        imageUrl: 'https://placehold.co/600x400',
+        link: '/programs/data-science',
+      },
+    ],
+    cass: [
+      {
+        id: 1,
+        title: 'Bachelor of Arts in Communication',
+        description:
+          'A program that explores the principles of communication and media studies.',
+        imageUrl: 'https://placehold.co/600x400',
+        link: '/programs/communication',
+      },
+      {
+        id: 2,
+        title: 'Bachelor of Arts in Psychology',
+        description:
+          'A program focusing on the scientific study of behavior and mental processes.',
+        imageUrl: 'https://placehold.co/600x400',
+        link: '/programs/psychology',
+      },
+    ],
+    // Add more colleges and their offerings as needed
+    cba: [
+      {
+        id: 1,
+        title: 'Bachelor of Science in Business Administration',
+        description:
+          'A program that provides a strong foundation in business principles and practices.',
+        imageUrl: 'https://placehold.co/600x400',
+        link: '/programs/business-administration',
+      },
+      {
+        id: 2,
+        title: 'Bachelor of Science in Accountancy',
+        description:
+          'A program designed to prepare students for a career in accounting and finance.',
+        imageUrl: 'https://placehold.co/600x400',
+        link: '/programs/accountancy',
+      },
+    ],
+    gs: [
+      {
+        id: 1,
+        title: 'Master in Information Technology',
+
+        description:
+          'A program that prepares students for advanced careers in IT and management.',
+        imageUrl: 'https://placehold.co/600x400',
+        link: '/programs/master-it',
+      },
+    ],
   },
 ];
 
-function Offerings() {
-  return (
-    <div className='bg-white py-24 sm:py-32'>
-      <div className='mx-auto max-w-7xl px-6 lg:px-8'>
-        <div className=' text-left '>
-          <h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
-            Explore Our Programs
-          </h2>
-          <p className='mt-2 text-sm leading-8 text-gray-600'>
-            Discover the diverse range of programs we offer to help you achieve
-            your academic and career goals. Join us in exploring the pathways to
-            success and growth.
-          </p>
-        </div>
-        <div className='mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3'>
-          {programs.map((post) => (
-            <article
-              key={post.id}
-              className='flex flex-col items-start justify-between'
+function Offerings({ collegeKey }) {
+  const offerings = offeringsData[0][collegeKey];
+  if (!offerings) {
+    return <div>No offerings available for this college.</div>;
+  } else {
+    return (
+      <div className=''>
+        <h2 className='text-2xl font-bold leading-10 tracking-tight text-gray-900'>
+          Programs Offered
+        </h2>
+        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4'>
+          {offerings.map((offering) => (
+            <div
+              key={offering.id}
+              className='bg-white shadow-md rounded-lg p-4 hover:shadow-lg transition-shadow duration-300'
             >
-              <div className='relative w-full'>
-                <img
-                  src={post.imageUrl || ''}
-                  alt={post.name || ''}
-                  className='aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]'
-                />
-                <div className='absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10' />
-              </div>
-              <div className='max-w-xl'>
-                <div className='  '>
-                  <h3 className='mt-3 text-md font-semibold leading-6 text-gray-900 group-hover:text-gray-600'>
-                    <a href={post.href || '#'}>
-                      <span className='absolute inset-0' />
-                      {post.name || ''}
-                    </a>
-                  </h3>
-                  <p className='mt-5 line-clamp-3 text-sm  text-gray-600'>
-                    {post.description || ''}
-                  </p>
-                </div>
-              </div>
-            </article>
+              <img
+                src={offering.imageUrl}
+                alt={offering.title}
+                className='w-full h-48 object-cover rounded-t-lg mb-4'
+              />
+              <h3 className='text-xl font-semibold'>{offering.title}</h3>
+              <p className='text-gray-700'>{offering.description}</p>
+              <Link
+                to={offering.link}
+                className='text-blue-500 mt-2 inline-block'
+              >
+                Learn More
+              </Link>
+            </div>
           ))}
         </div>
       </div>
-    </div>
-  );
+    );
+  }
 }
 
 export default Offerings;

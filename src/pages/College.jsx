@@ -5,6 +5,7 @@ import Hero from '../components/Hero/Hero';
 import Offerings from '../components/Featured/Offerings';
 import News from '../components/News';
 import Navigation from '../components/CollegeNavigation/CollegeNav';
+import Section from '../components/Section';
 import './College.css'; // Assuming you have some CSS for styling
 
 function Colleges() {
@@ -21,7 +22,7 @@ function Colleges() {
   }
 
   return (
-    <div className='college-page'>
+    <div className='college-page '>
       <Navigation />
       <Hero
         title={college.name}
@@ -33,30 +34,32 @@ function Colleges() {
         imageWidth={college.imageWidth}
         imageHeight={college.imageHeight}
       />
-      <div className='college-container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8'>
+      <div className='college-container mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8'>
         {/* College News */}
-        <section>
+        <Section>
           <News collegeKey={collegeKey} />
-        </section>
+        </Section>
         {/* College Events */}
-        <section>{/* Add your college events content here */}</section>
+        <Section>{/* Add your college events content here */}</Section>
         {/* College Programs */}
-        <section>{/* <Offerings /> */}</section>
+        <Section>
+          <Offerings collegeKey={collegeKey} />
+        </Section>
         {/* Message from the Dean */}
         <section></section>
-        <section>
+        <Section>
           <Faqs />
-        </section>
+        </Section>
         {/* Student Activities */}
-        <section>
+        <Section>
           <h2>Student Activities</h2>
           {/* Add your student activities content here */}
-        </section>
+        </Section>
         {/* Success Stories */}
-        <section>
+        <Section>
           <h2>Success Stories</h2>
           {/* Add your success stories content here */}
-        </section>
+        </Section>
       </div>
     </div>
   );

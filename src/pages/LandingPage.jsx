@@ -8,7 +8,6 @@ import NewsComponent from '../components/News';
 import SectionComponent from '../components/Section';
 import Events from '../components/Events';
 import './landing.css';
-import { Container } from 'react-bootstrap';
 import CampusLife from '../components/CLife';
 import Footer from '../components/Footer';
 import Splash from '../components/Splash';
@@ -39,14 +38,16 @@ function LandingPage() {
         description='Your Gateway to Excellence'
       />
 
-      <NewsComponent />
-      <Container>
+      <div className='landing-page-container mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8'>
+        <SectionComponent>
+          <NewsComponent />
+        </SectionComponent>
         <SectionComponent>
           <>
-            <div className='content landing-video-section'>
-              <div className='p-5 w-100'>
-                <h3 className=''>Hello Mr. President</h3>
-                <p className='mb-5 fs-5'>
+            <div className='flex justify-center items-center bg-rose-950 rounded-lg p-6 text-white'>
+              <div className='flex flex-col gap-4 justify-center p-4 '>
+                <h3 className='text-2xl/3 font-bold'>Hello Mr. President</h3>
+                <p className='text-sm'>
                   In a significant move to further the growth and development of
                   Marinduque State University, the University President has
                   taken a hands-on approach by creating a video message that
@@ -54,7 +55,9 @@ function LandingPage() {
                 </p>
                 <a
                   href='https://www.youtube.com/watch?v=9nl3yYgp-9I'
-                  className=''
+                  className='text-sm hover:text-amber-500'
+                  target='_blank'
+                  rel='noopener noreferrer'
                 >
                   Watch Series
                 </a>
@@ -71,37 +74,42 @@ function LandingPage() {
             </div>
           </>
         </SectionComponent>
-        <Events />
-        <CampusLife />
         <SectionComponent>
-          <>
-            <div className='sgd_landing sgd_landing_card'>
-              <div className='row align-items-center'>
-                <div className='col-md-3'>
-                  <img src='sdg-logo.png' className='sgd_landing_img' alt='' />
-                </div>
-                <div className='col-md-6'>
-                  <h3 className='linkages_title text-start fs-2'>
-                    Marinduque State University Sustainable Development Goals
-                    Center!
-                  </h3>
-                  <p>
-                    Explore our innovative programs and projects to generate
-                    long-term change, develop community involvement, and raise
-                    awareness of the Sustainable Development Goals.
-                  </p>
-                </div>
-                <div className='col-md-3'>
-                  <Link className='btn_sgd' to='/sdg'>
-                    {'Explore->'}
-                  </Link>
-                </div>
-              </div>
+          <CampusLife />
+        </SectionComponent>
+        <SectionComponent>
+          <Events />
+        </SectionComponent>
+        <SectionComponent>
+          <div className='flex  justify-center items-center rounded-lg p-6 text-white'>
+            <div className=''>
+              <img
+                src='sdg-logo.png'
+                className='sgd_landing_img aspect-ratio-4x3 cover-full max-w-sm'
+                alt='Marinduque State University SDG Logo'
+              />
             </div>
-          </>
+            <div className='flex flex-col gap-4 justify-center p-4 '>
+              <h3 className='text-xl/3 font-bold text-rose-950'>
+                Marinduque State University Sustainable Development Goals
+                Center!
+              </h3>
+              <p className='text-sm text-slate-950'>
+                Explore our innovative programs and projects to generate
+                long-term change, develop community involvement, and raise
+                awareness of the Sustainable Development Goals.
+              </p>
+              <Link
+                className='bg-rose-950 hover:bg-rose-700 text-white text-sm py-2 px-4 rounded max-w-sm w-fit'
+                to='/sdg'
+              >
+                Explore SDG Center
+              </Link>
+            </div>
+          </div>
         </SectionComponent>
         <Linkages />
-      </Container>
+      </div>
       <Footer />
     </div>
   );

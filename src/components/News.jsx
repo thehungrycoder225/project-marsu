@@ -69,8 +69,10 @@ function NewsEvents({ collegeKey }) {
     ],
   };
   return (
-    <div className='p-6'>
-      <h2 className='text-3xl font-bold text-gray-800 mb-6'>News</h2>
+    <>
+      <h2 className='text-2xl font-bold leading-10 tracking-tight text-gray-900 mb-6'>
+        News
+      </h2>
       {/* Featured News Section */}
       <div className='featured-news mb-8'>
         {!collegeKey ||
@@ -151,7 +153,7 @@ function NewsEvents({ collegeKey }) {
               return null;
             })}
       </div>
-    </div>
+    </>
   );
 }
 
