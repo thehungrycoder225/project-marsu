@@ -12,21 +12,19 @@ function NewsEvents({ collegeKey }) {
         date: '2025-04-01',
         content:
           'The College of Information and Computing Sciences has inaugurated a new state-of-the-art research lab to foster innovation.',
-        articleUrl: 'https://example.com/news1', // Added articleUrl for consistency nested in the college url
+        articleUrl: 'https://example.com/news1',
         isFeatured: true,
       },
       {
         id: 2,
-        imgUrl: 'https://placehold.co/600x400', // Added imgUrl for consistency
+        imgUrl: 'https://placehold.co/600x400',
         title: 'Annual Science Fair Announced',
         date: '2025-03-15',
         content:
           'The annual science fair will be held on May 10th, showcasing projects from students and faculty.',
-        articleUrl: 'https://example.com/news2', // Added articleUrl for consistency
-
+        articleUrl: 'https://example.com/news2',
         isFeatured: false,
       },
-
       {
         id: 3,
         imgUrl: 'https://placehold.co/600x400',
@@ -53,7 +51,7 @@ function NewsEvents({ collegeKey }) {
         title: 'Theater Workshop',
         date: '2025-02-28',
         content:
-          'A workshop on Theater will be conducted by alumni  on March 5th.',
+          'A workshop on Theater will be conducted by alumni on March 5th.',
         imgUrl: '',
         isFeatured: false,
       },
@@ -68,6 +66,49 @@ function NewsEvents({ collegeKey }) {
       },
     ],
   };
+
+  const renderNewsItem = (news, isFeatured) => (
+    // animation for the news item
+    <>
+      <div
+        key={news.id}
+        className={`news-item bg-white rounded-lg overflow-hidden ${isFeatured ? 'mb-6' : ''}`}
+      >
+        {news.imgUrl && (
+          <img
+            src={news.imgUrl}
+            alt={news.title}
+            className={`w-full ${isFeatured ? 'h-64' : 'h-40'} object-cover`}
+          />
+        )}
+        <div className='py-4'>
+          <h3
+            className={`${
+              isFeatured
+                ? 'text-2xl font-semibold mb-2'
+                : 'text-lg font-semibold mb-2'
+            } text-gray-800`}
+          >
+            {news.title}
+          </h3>
+          <p
+            className={`text-gray-600 ${isFeatured ? 'mb-4' : 'text-sm mb-3'}`}
+          >
+            {news.content}
+          </p>
+          <a
+            href={news.articleUrl}
+            className={`text-blue-500 hover:underline ${isFeatured ? 'font-medium' : 'text-sm font-medium'}`}
+          >
+            Read more
+          </a>
+        </div>
+      </div>
+    </>
+  );
+
+  const newsData = mockCollegeNews[collegeKey] || [];
+
   return (
     <>
       <h2 className='text-2xl font-bold leading-10 tracking-tight text-gray-900 mb-6'>
@@ -75,83 +116,20 @@ function NewsEvents({ collegeKey }) {
       </h2>
       {/* Featured News Section */}
       <div className='featured-news mb-8'>
-        {!collegeKey ||
-        !mockCollegeNews[collegeKey] ||
-        mockCollegeNews[collegeKey].length === 0 ? (
+        {newsData.length === 0 ? (
           <p className='text-gray-600'>No news available</p>
         ) : (
-          mockCollegeNews[collegeKey].map((news) => {
-            if (news.isFeatured) {
-              return (
-                <div
-                  key={news.id}
-                  className='news-item bg-white  rounded-lg overflow-hidden mb-6'
-                >
-                  {news.imgUrl && (
-                    <img
-                      src={news.imgUrl}
-                      alt={news.title}
-                      className='w-full h-64 object-cover'
-                    />
-                  )}
-                  <div className='py-6'>
-                    <h3 className='text-2xl font-semibold text-gray-800 mb-2'>
-                      {news.title}
-                    </h3>
-                    <p className='text-gray-600 mb-4'>{news.content}</p>
-                    <a
-                      href={news.articleUrl}
-                      className='text-blue-500 hover:underline font-medium'
-                    >
-                      Read more
-                    </a>
-                  </div>
-                </div>
-              );
-            }
-            return null;
-          })
+          newsData
+            .filter((news) => news.isFeatured)
+            .map((news) => renderNewsItem(news, true))
         )}
       </div>
 
       {/* Related Articles Section */}
       <div className='related-articles grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
-        {!mockCollegeNews[collegeKey] ||
-        mockCollegeNews[collegeKey].length === 0
-          ? null
-          : mockCollegeNews[collegeKey].map((news) => {
-              if (!news.isFeatured) {
-                return (
-                  <div
-                    key={news.id}
-                    className='news-item bg-white rounded-lg overflow-hidden'
-                  >
-                    {news.imgUrl && (
-                      <img
-                        src={news.imgUrl}
-                        alt={news.title}
-                        className='w-full h-40 object-cover'
-                      />
-                    )}
-                    <div className='py-4'>
-                      <h3 className='text-lg font-semibold text-gray-800 mb-2'>
-                        {news.title}
-                      </h3>
-                      <p className='text-gray-600 text-sm mb-3'>
-                        {news.content}
-                      </p>
-                      <a
-                        href={news.articleUrl}
-                        className='text-blue-500 hover:underline text-sm font-medium'
-                      >
-                        Read more
-                      </a>
-                    </div>
-                  </div>
-                );
-              }
-              return null;
-            })}
+        {newsData
+          .filter((news) => !news.isFeatured)
+          .map((news) => renderNewsItem(news, false))}
       </div>
     </>
   );
