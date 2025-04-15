@@ -1,11 +1,11 @@
 import { useParams } from 'react-router-dom';
-import { useColleges } from '../hooks/useColleges';
-import Faqs from '../components/Faqs/Faqs';
-import Hero from '../components/Hero/Hero';
-import Offerings from '../components/Featured/Offerings';
-import News from '../components/News';
-import Navigation from '../components/CollegeNavigation/CollegeNav';
-import Section from '../components/Section';
+import { useColleges } from '../../hooks/useColleges';
+import Faqs from '../../components/Faqs/Faqs';
+import Hero from '../../components/Hero/Hero';
+import Offerings from '../../components/Featured/Offerings';
+import News from '../../components/News';
+import Navigation from '../../components/CollegeNavigation/CollegeNav';
+import Section from '../../components/Section';
 import './College.css'; // Assuming you have some CSS for styling
 
 function Colleges() {

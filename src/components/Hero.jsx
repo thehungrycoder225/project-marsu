@@ -1,4 +1,4 @@
-import './hero.css';
+import './Hero/hero.css';
 
 import PropTypes from 'prop-types';
 

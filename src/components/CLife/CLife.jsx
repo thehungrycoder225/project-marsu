@@ -63,5 +63,3 @@ function CampusLife() {
 }
 
 export default CampusLife;
-
-// Moved to shared components folder

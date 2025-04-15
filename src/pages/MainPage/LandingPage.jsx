@@ -1,17 +1,18 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../assets/logo.png';
-
-import NavigationExample from '../components/Navigation';
-import HeroComponent from '../components/Hero';
-import NewsComponent from '../components/News';
-import SectionComponent from '../components/Section';
-import Events from '../components/Events';
+import logo from '../../assets/logo.png';
 import './landing.css';
-import CampusLife from '../components/CLife';
-import Footer from '../components/Footer';
-import Splash from '../components/Splash';
-import Linkages from '../components/Linkages';
+
+import NavigationExample from '../../components/Navigation';
+import HeroComponent from '../../components/Hero';
+import NewsComponent from '../../components/News';
+import SectionComponent from '../../components/Section';
+import Events from '../../components/Events/Events';
+import './landing.css';
+import CampusLife from '../../components/CLife/CLife';
+import Footer from '../../components/Footer';
+import Splash from '../../components/Splash';
+import Linkages from '../../components/Linkages';
 
 function LandingPage() {
   const [showSplash, setShowSplash] = useState(true);

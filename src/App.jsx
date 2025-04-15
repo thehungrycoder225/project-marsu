@@ -3,12 +3,14 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import { useDynamicTheme } from './hooks/useDynamicTheme';
 
-const LandingPage = lazy(() => import('./pages/LandingPage'));
-const SGDPage = lazy(() => import('./pages/SGDPage'));
-const SDGGoalDetail = lazy(() => import('./pages/SDGGoalDetail'));
-const SGDProject = lazy(() => import('./pages/SGDProject'));
-const Colleges = lazy(() => import('./pages/College'));
-const PageNotFound = lazy(() => import('./pages/404'));
+const LandingPage = lazy(() => import('./pages/MainPage/LandingPage'));
+const SGDPage = lazy(() => import('./pages/SDG/SGDPage'));
+const SDGGoalDetail = lazy(
+  () => import('./pages/SDG/components/SDGGoalDetail')
+);
+const SGDProject = lazy(() => import('./pages/SDG/components/SGDProject'));
+const Colleges = lazy(() => import('./pages/CollegePage/College'));
+const PageNotFound = lazy(() => import('./pages/404/404'));
 
 function App() {
   useDynamicTheme();

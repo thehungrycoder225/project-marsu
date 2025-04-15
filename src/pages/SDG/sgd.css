@@ -32,6 +32,10 @@
   transition: var(--transition);
 }
 
+.bg-sdg {
+  background-color: var(--primary-700);
+}
+
 .sgd_content {
   background-color: var(--bg-color);
   display: flex;

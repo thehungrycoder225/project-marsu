@@ -1,10 +1,10 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
-import Section from '../components/Section';
-import goals from './goals';
+import Section from '../../../components/Section';
+import goals from '../goals';
 import projects from './projects';
-import NavBack from '../components/NavBack';
+import NavBack from '../../../components/NavBack';
 import SDGNav from './SDGNav';
 import './sdggoal.css';
 

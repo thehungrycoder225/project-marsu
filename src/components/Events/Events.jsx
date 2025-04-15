@@ -85,5 +85,3 @@ function Events() {
 }
 
 export default Events;
-
-// Moved to shared components folder

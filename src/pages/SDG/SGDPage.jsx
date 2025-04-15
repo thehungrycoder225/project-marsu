@@ -1,12 +1,13 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
-import HeroComponent from '../components/Hero';
-import Footer from '../components/Footer';
-import Section from '../components/Section';
-import logo from '../assets/sdg-logo.png';
-import projects from './projects';
-import goals from './goals';
+
+import Hero from './components/Hero';
+import Footer from '../../components/Footer';
+import Section from '../../components/Section';
+import logo from '../../assets/sdg-logo.png';
+import projects from './components/projects';
+import goals from './components/goals';
 import './sgd.css';
 
 const GoalMarquee = ({ goals }) => (
@@ -41,26 +42,21 @@ const SGDPage = () => {
 
     setSelectedGoals(newSelectedGoals);
 
-    if (newSelectedGoals.length === 0) {
-      setFilteredProjects(projects);
-    } else {
-      const newFilteredProjects = projects.filter((project) =>
-        newSelectedGoals.every((goal) =>
-          project.tags.some((tag) => tag.name === goal)
-        )
-      );
-      setFilteredProjects(newFilteredProjects);
-    }
+    // if (newSelectedGoals.length === 0) {
+    //   setFilteredProjects(projects);
+    // } else {
+    //   const newFilteredProjects = projects.filter((project) =>
+    //     newSelectedGoals.every((goal) =>
+    //       project.tags.some((tag) => tag.name === goal)
+    //     )
+    //   );
+    //   setFilteredProjects(newFilteredProjects);
+    // }
   };
   return (
     <>
-      <HeroComponent
-        brand={logo}
-        heroImage={'sgd_hero--brand'}
-        titleText='sgd_title'
-        subText='sgd_subtitle'
-        desText='sgd_description'
-        heroPadding={'sgd_hero--padding'}
+      <Hero
+        image={logo}
         title='From the HEART, to the World'
         subtitle='Sustainability and Innovation @MarSU '
         description={`Marinduque State University (MarSU) reaffirms its unwavering commitment to the United Nations’ 2030 Agenda for Sustainable Development and the attainment of the 17 Sustainable Development Goals (SDGs). As an institution of higher learning, we recognize the University’s vital role in shaping a more inclusive, equitable, and sustainable world. Guided by our core values - H.E.A.R.T., MarSU stands at the forefront of driving transformative change through education, research, and community engagement – from the Heart of the Philippines to the global community. `}

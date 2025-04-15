@@ -1,13 +1,14 @@
 import { useParams } from 'react-router-dom';
-import Section from '../components/Section';
+import Section from '../../../components/Section';
 import { Container } from 'react-bootstrap';
-import PageNotFound from './404';
+import PageNotFound from '../../../pages/404/404';
 import projects from './projects'; // Ensure this path is correct
-import Footer from '../components/Footer';
-import NavBack from '../components/NavBack';
+import Footer from '../../../components/Footer';
+import NavBack from '../../../components/NavBack';
+import '../sgd.css';
 
 const SGDProject = () => {
-  const { id, title } = useParams();
+  const { id } = useParams();
   const project = projects.find(
     (project) => project.id === parseInt(id) && project.title
   );
