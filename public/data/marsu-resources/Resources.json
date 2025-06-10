@@ -1,0 +1,216 @@
+{
+  "college": [
+    {
+      "id": 1,
+      "collegeName": "College of Information and Computing Sciences",
+      "collegeProfile": [
+        {
+          "tagline": "Creating innovation, cultivating scuccess",
+           "history":   "The College of Information and Computing Sciences is one of the premier colleges in the province for IT
+                        Education and services. It aims to produce competitive IT professionals and IT-enabled individuals who
+                        will encourage real innovation for the advancement in the digital era of the province and the country as a
+                        whole. \n 
+                        The college was established in 1998 at MSC Boac Campus through BOT Resolution No. 35, s. 1998 as
+                        Institute of Information and Computing Sciences (IICS), a special program to offer Associate in Computer
+                        Technology (ACT). Believing that the province needs IT Human Resources, after two years, IICS was
+                        adopted as the School of Information and Computing Sciences (SICS), offering two emerging degree
+                        programs Bachelor of Science in Information Management and Bachelor of Science in Information
+                        Technology to cater to the graduates of ACT. Bachelor of Science in Information Management was also
+                        offered in Sta. Cruz Campus. The Bachelor of Science in Information Management (BSIM) was renamed to
+                        the Bachelor of Science in Information Systems (BSIS) to adapt to CHED Memorandum Order No. 53 series
+                        of 2006.  \n 
+                        After a decade, the Marinduque State College had an organizational restructuring wherein two of the big
+                        schools in the college were merged. The School of Industrial Technology and the School of Information
+                        and Computing Sciences convergence paved the way for the School of Technology's birth in 2016. After
+                        three years of being together, the two schools parted ways due to another organizational restructuring
+                        and SICS was re-birth in 2019.  \n 
+                        In 2021, however, SICS was converted to the Institute of Information Systems and Technology (IIST) and
+                        became part of the College of Engineering, Information and Industrial Technology (CEIIT) together with
+                        the Institute of Engineering and Department of Industrial Technology to centralize the resources of these
+                        three into a single college. But once again, fate has plans for this institute and let it navigate its ship on its
+                        own. Finally, the former school was converted into a college, banning the name of the College of
+                        Information and Computing Sciences (CICS).  \n 
+                        In 25 years of its existence, CICS has contributed significantly to MSC's mandates in Instruction, Research,
+                        Extension, and Production. Currently, both the BS in Information Systems and BS in Information
+                        Technology in Boac Campus are Level III Re-Accredited by the Accrediting Agency of Chartered Colleges
+                        and Universities in the Philippines (AACCUP), while the BS in Information Systems in Sta. Cruz Campus is
+                        Level II Re-Accredited. CICS has produced thousands of IT professionals serving in the province, other parts
+                        of the country, and even the global industry. Faculty and students are also actively engaged in research
+                        through various local and international presentations and publications. CICS also serves the community
+                        by providing relevant extension projects and activities.  \n 
+                        For the years to come, CICS still commits to giving what their stakeholders deserve through quality
+                        education and public service with their mantra, `WORK IN SILENCE AND LET OUR SUCCESS MAKE OUR
+                        NOISE!`
+                        ",
+          "goals": "To Produce competitive IT professionals and IT enabled individuals who will encourage real innovation for the advancement in the digital era of the province and the country as a whole.",
+          "awards": [
+            {
+                "id": 1,
+                "title": "Best IT College in the Philippines",
+                "year": 2023,
+                "description": "Awarded by the Philippine IT Association for excellence in IT education."
+            }
+          ]
+        }
+      ],
+      "programOffer": [
+        {
+          "id": 1,
+          "programName": "Bachelor of Science in Information Technology",
+          "curriculum": [
+            {
+              "id": 1,
+              "Year": "1st Year",
+              "Semester": [
+                {
+                    "id": 1,
+                    "SemesterName": "1st Semester",
+                    "CourseSubject": [
+                        {
+                            "id": 1,
+                            "courseName": "introduction to computing",
+                            "courseCode": "CC101",
+                            "units": 3,
+                            "prerequisite": "None"
+                        }
+                    ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "programOutcome": [
+            {
+              /*ano to*/
+            }
+          ],
+          "studyPlan": [
+            {
+              /*ano to*/
+            }
+          ],
+          "careerOpportunity": [
+            {
+              "id": 1,
+              "career": "",
+              "description": "",
+              "salaryRange": ""
+            }
+          ]
+        }
+      ],
+      "workForce": [
+        {
+          "faculty": [
+            {
+              "id": 1,
+              "image": "",
+              "name": "",
+              "designation": "",
+              "email": "",
+              "attainment": "",
+              "publication": ""
+            }
+          ]
+        },
+        {
+          "staff": [
+            {
+              "id": 1,
+              "image": "",
+              "name": "",
+              "designation": "",
+              "email": ""
+            }
+          ]
+        }
+      ],
+      "research": [
+        {
+          "research": [
+            {
+              "id": 1,
+              "title": "",
+              "publicationYear": "",
+              "completionYear": "",
+              "authors": "",
+              "indices": "",
+              "abstract": ""
+            }
+          ],
+          "extension": [
+            {
+              "id": 1,
+              "title": "",
+              "publicationYear": "",
+              "completioYear": "",
+              "authors": "",
+              "indices": "",
+              "abstract": ""
+            }
+          ]
+        }
+      ],
+      "studentAchievement": [
+        {
+          "id": 1,
+          "type": "",
+          "description": ""
+        }
+      ],
+      "studentProfile": [
+        {
+          "id": 1,
+          "programName": "",
+          "rate": "",
+          "image": ""
+        }
+      ],
+      "studentPublication": [
+        {
+          "studentOrg": [
+            {
+              "id": 1,
+              "name": "",
+              "designation": "",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "accomplishements": [
+            {
+              "id": 1,
+              "title": "",
+              "description": "",
+              "image": ""
+            }
+          ]
+        }
+      ],
+      "alumni": [
+        {
+          "tracer": [
+            {
+              "id": 1,
+              "image": "",
+              "name": "",
+              "career": ""
+            }
+          ]
+        },
+        {
+          "testimonials": [
+            {
+              "id": 1,
+              "image": "",
+              "name": "",
+              "story": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
