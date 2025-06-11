@@ -1,216 +1,487 @@
 {
-  "college": [
+  "version": "1.0.0",
+  "lastUpdated": "2025-06-10T00:00:00Z",
+  "colleges": [
     {
       "id": 1,
-      "collegeName": "College of Information and Computing Sciences",
-      "collegeProfile": [
-        {
-          "tagline": "Creating innovation, cultivating scuccess",
-           "history":   "The College of Information and Computing Sciences is one of the premier colleges in the province for IT
-                        Education and services. It aims to produce competitive IT professionals and IT-enabled individuals who
-                        will encourage real innovation for the advancement in the digital era of the province and the country as a
-                        whole. \n 
-                        The college was established in 1998 at MSC Boac Campus through BOT Resolution No. 35, s. 1998 as
-                        Institute of Information and Computing Sciences (IICS), a special program to offer Associate in Computer
-                        Technology (ACT). Believing that the province needs IT Human Resources, after two years, IICS was
-                        adopted as the School of Information and Computing Sciences (SICS), offering two emerging degree
-                        programs Bachelor of Science in Information Management and Bachelor of Science in Information
-                        Technology to cater to the graduates of ACT. Bachelor of Science in Information Management was also
-                        offered in Sta. Cruz Campus. The Bachelor of Science in Information Management (BSIM) was renamed to
-                        the Bachelor of Science in Information Systems (BSIS) to adapt to CHED Memorandum Order No. 53 series
-                        of 2006.  \n 
-                        After a decade, the Marinduque State College had an organizational restructuring wherein two of the big
-                        schools in the college were merged. The School of Industrial Technology and the School of Information
-                        and Computing Sciences convergence paved the way for the School of Technology's birth in 2016. After
-                        three years of being together, the two schools parted ways due to another organizational restructuring
-                        and SICS was re-birth in 2019.  \n 
-                        In 2021, however, SICS was converted to the Institute of Information Systems and Technology (IIST) and
-                        became part of the College of Engineering, Information and Industrial Technology (CEIIT) together with
-                        the Institute of Engineering and Department of Industrial Technology to centralize the resources of these
-                        three into a single college. But once again, fate has plans for this institute and let it navigate its ship on its
-                        own. Finally, the former school was converted into a college, banning the name of the College of
-                        Information and Computing Sciences (CICS).  \n 
-                        In 25 years of its existence, CICS has contributed significantly to MSC's mandates in Instruction, Research,
-                        Extension, and Production. Currently, both the BS in Information Systems and BS in Information
-                        Technology in Boac Campus are Level III Re-Accredited by the Accrediting Agency of Chartered Colleges
-                        and Universities in the Philippines (AACCUP), while the BS in Information Systems in Sta. Cruz Campus is
-                        Level II Re-Accredited. CICS has produced thousands of IT professionals serving in the province, other parts
-                        of the country, and even the global industry. Faculty and students are also actively engaged in research
-                        through various local and international presentations and publications. CICS also serves the community
-                        by providing relevant extension projects and activities.  \n 
-                        For the years to come, CICS still commits to giving what their stakeholders deserve through quality
-                        education and public service with their mantra, `WORK IN SILENCE AND LET OUR SUCCESS MAKE OUR
-                        NOISE!`
-                        ",
-          "goals": "To Produce competitive IT professionals and IT enabled individuals who will encourage real innovation for the advancement in the digital era of the province and the country as a whole.",
-          "awards": [
-            {
-                "id": 1,
-                "title": "Best IT College in the Philippines",
-                "year": 2023,
-                "description": "Awarded by the Philippine IT Association for excellence in IT education."
+      "name": { "en": "College of Information and Computing Sciences" },
+      "slug": "college-of-information-and-computing-sciences",
+      "shortName": { "en": "cics" },
+      "profile": {
+        "tagline": { "en": "Creating innovation, cultivating success" },
+        "history": {
+          "en": "The College of Information and Computing Sciences is one of the premier colleges in the province for IT Education and services. It aims to produce competitive IT professionals and IT-enabled individuals who will encourage real innovation for the advancement in the digital era of the province and the country as a whole.\nThe college was established in 1998 at MSC Boac Campus through BOT Resolution No. 35, s. 1998 as Institute of Information and Computing Sciences (IICS), a special program to offer Associate in Computer Technology (ACT). Believing that the province needs IT Human Resources, after two years, IICS was adopted as the School of Information and Computing Sciences (SICS), offering two emerging degree programs Bachelor of Science in Information Management and Bachelor of Science in Information Technology to cater to the graduates of ACT. Bachelor of Science in Information Management was also offered in Sta. Cruz Campus. The Bachelor of Science in Information Management (BSIM) was renamed to the Bachelor of Science in Information Systems (BSIS) to adapt to CHED Memorandum Order No. 53 series of 2006.\nAfter a decade, the Marinduque State College had an organizational restructuring wherein two of the big schools in the college were merged. The School of Industrial Technology and the School of Information and Computing Sciences convergence paved the way for the School of Technology's birth in 2016. After three years of being together, the two schools parted ways due to another organizational restructuring and SICS was re-birth in 2019.\nIn 2021, however, SICS was converted to the Institute of Information Systems and Technology (IIST) and became part of the College of Engineering, Information and Industrial Technology (CEIIT) together with the Institute of Engineering and Department of Industrial Technology to centralize the resources of these three into a single college. But once again, fate has plans for this institute and let it navigate its ship on its own. Finally, the former school was converted into a college, banning the name of the College of Information and Computing Sciences (CICS).\nIn 25 years of its existence, CICS has contributed significantly to MSC's mandates in Instruction, Research, Extension, and Production. Currently, both the BS in Information Systems and BS in Information Technology in Boac Campus are Level III Re-Accredited by the Accrediting Agency of Chartered Colleges and Universities in the Philippines (AACCUP), while the BS in Information Systems in Sta. Cruz Campus is Level II Re-Accredited. CICS has produced thousands of IT professionals serving in the province, other parts of the country, and even the global industry. Faculty and students are also actively engaged in research through various local and international presentations and publications. CICS also serves the community by providing relevant extension projects and activities.\nFor the years to come, CICS still commits to giving what their stakeholders deserve through quality education and public service with their mantra, 'WORK IN SILENCE AND LET OUR SUCCESS MAKE OUR NOISE!'"
+        },
+        "goals": {
+          "en": "To produce competitive IT professionals and IT enabled individuals who will encourage real innovation for the advancement in the digital era of the province and the country as a whole."
+        },
+        "awards": [
+          {
+            "id": 1,
+            "title": { "en": "Best IT College in the Philippines" },
+            "year": 2023,
+            "description": {
+              "en": "Awarded by the Philippine IT Association for excellence in IT education."
             }
-          ]
-        }
-      ],
-      "programOffer": [
+          }
+        ]
+      },
+      "programIds": [1, 2],
+      "news": [
         {
           "id": 1,
-          "programName": "Bachelor of Science in Information Technology",
-          "curriculum": [
+          "imgUrl": "https://placehold.co/600x400",
+          "title": { "en": "New Research Lab Inaugurated" },
+          "date": "2025-04-01",
+          "content": {
+            "en": "The College of Information and Computing Sciences has inaugurated a new state-of-the-art research lab to foster innovation."
+          },
+          "articleUrl": "/colleges/cics/news/1",
+          "isFeatured": true,
+          "author": "Dr. Jane Doe",
+          "tags": ["Research", "Innovation"]
+        },
+        {
+          "id": 2,
+          "imgUrl": "https://placehold.co/600x400",
+          "title": { "en": "Annual Science Fair Announced" },
+          "date": "2025-03-15",
+          "content": {
+            "en": "The annual science fair will be held on May 10th, showcasing projects from students and faculty."
+          },
+          "articleUrl": "/colleges/cics/news/2",
+          "isFeatured": true,
+          "author": "Prof. John Smith",
+          "tags": ["Event", "Science"]
+        },
+        {
+          "id": 3,
+          "imgUrl": "https://placehold.co/600x400",
+          "title": { "en": "Guest Lecture on AI" },
+          "date": "2025-02-20",
+          "content": {
+            "en": "A guest lecture on the latest advancements in AI will be held on March 5th."
+          },
+          "articleUrl": "/colleges/cics/news/3",
+          "isFeatured": false,
+          "author": "Dr. Alan Turing",
+          "tags": ["AI", "Lecture"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": { "en": "College of Engineering" },
+      "slug": "college-of-engineering",
+      "shortName": { "en": "ceng" },
+      "profile": {
+        "tagline": { "en": "Engineering the future, building the nation" },
+        "history": {
+          "en": "The College of Engineering has been a cornerstone of Marinduque State College since its inception, providing quality education in various engineering disciplines. Established in 1995, it has evolved to meet the changing needs of the industry and society."
+        },
+        "goals": {
+          "en": "To produce highly skilled engineers who can contribute to national development and innovation."
+        },
+        "awards": []
+      },
+      "programIds": [2],
+      "news": [
+        {
+          "id": 1,
+          "imgUrl": "https://placehold.co/600x400",
+          "title": { "en": "Engineering Symposium 2025" },
+          "date": "2025-05-20",
+          "content": {
+            "en": "Join us for the Engineering Symposium 2025 where students will present their innovative projects."
+          },
+          "articleUrl": "https://example.com/news4",
+          "isFeatured": true,
+          "author": "Engr. Emily Stone",
+          "tags": ["Symposium", "Engineering"]
+        },
+        {
+          "id": 2,
+          "imgUrl": "https://placehold.co/600x400",
+          "title": { "en": "New Faculty Appointment" },
+          "date": "2025-04-15",
+          "content": {
+            "en": "We are pleased to announce the appointment of Dr. Mark Lee as a new faculty member."
+          },
+          "articleUrl": "https://example.com/news5",
+          "isFeatured": false,
+          "author": "Admin",
+          "tags": ["Faculty", "Appointment"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": { "en": "College of Arts and Sciences" },
+      "slug": "college-of-arts-and-sciences",
+      "shortName": { "en": "cass" },
+      "profile": {
+        "tagline": { "en": "Cultivating creativity, fostering knowledge" },
+        "history": {
+          "en": "The College of Arts and Sciences has been integral to the cultural and intellectual development of Marinduque State College since its establishment in 1990. It offers a diverse range of programs that promote critical thinking and creativity."
+        },
+        "goals": {
+          "en": "To nurture creative thinkers and lifelong learners who can contribute to society through the arts and sciences."
+        },
+        "awards": []
+      },
+      "programIds": [3],
+      "news": [
+        {
+          "id": 1,
+          "imgUrl": "https://placehold.co/600x400",
+          "title": { "en": "Art Exhibition 2025" },
+          "date": "2025-06-05",
+          "content": {
+            "en": "The College of Arts and Sciences invites you to the annual Art Exhibition showcasing student artworks."
+          },
+          "articleUrl": "/colleges/cass/news/1",
+          "isFeatured": true,
+          "author": "Prof. Sarah Connor",
+          "tags": ["Art", "Exhibition"]
+        },
+        {
+          "id": 2,
+          "imgUrl": "https://placehold.co/600x400",
+          "title": { "en": "New Course Offerings" },
+          "date": "2025-05-10",
+          "content": {
+            "en": "We are excited to announce new course offerings for the upcoming academic year."
+          },
+          "articleUrl": "/colleges/cass/news/2",
+          "isFeatured": false,
+          "author": "Admin",
+          "tags": ["Courses", "Announcement"]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": { "en": "College of Industrial Technology" },
+      "slug": "college-of-industrial-technology",
+      "shortName": { "en": "cit" },
+      "profile": {
+        "tagline": { "en": "Empowering future innovators" },
+        "history": {
+          "en": "The College of Industrial Technology has been a vital part of Marinduque State University since its establishment, offering programs that equip students with the skills needed for the dynamic industrial environment."
+        },
+        "goals": {
+          "en": "To produce highly skilled technicians who can contribute to the industrial development of the province."
+        },
+        "awards": []
+      },
+      "programIds": [4],
+      "news": [
+        {
+          "id": 1,
+          "imgUrl": "https://placehold.co/600x400",
+          "title": { "en": "Tech Innovators Conference 2025" },
+          "date": "2025-07-10",
+          "content": {
+            "en": "Save the date for the Tech Innovators Conference 2025, featuring industry leaders and experts."
+          },
+          "articleUrl": "https://example.com/news8",
+          "isFeatured": true,
+          "author": "Engr. Tony Stark",
+          "tags": ["Conference", "Technology"]
+        },
+        {
+          "id": 2,
+          "imgUrl": "https://placehold.co/600x400",
+          "title": { "en": "Workshop on Emerging Technologies" },
+          "date": "2025-06-15",
+          "content": {
+            "en": "Join our workshop on emerging technologies and learn from the best in the field."
+          },
+          "articleUrl": "https://example.com/news9",
+          "isFeatured": false,
+          "author": "Admin",
+          "tags": ["Workshop", "Technologies"]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": { "en": "College of Business and Accountancy" },
+      "slug": "college-of-business-and-accountancy",
+      "shortName": { "en": "cba" },
+      "profile": {
+        "tagline": { "en": "Driving business excellence" },
+        "history": {
+          "en": "The College of Business and Management has been a leader in business education in Marinduque since its establishment, providing students with the knowledge and skills needed to excel in the business world."
+        },
+        "goals": {
+          "en": "To develop future business leaders who can drive economic growth and innovation."
+        },
+        "awards": []
+      },
+      "programIds": [5],
+      "news": [
+        {
+          "id": 1,
+          "imgUrl": "https://placehold.co/600x400",
+          "title": { "en": "Business Leaders Forum 2025" },
+          "date": "2025-08-20",
+          "content": {
+            "en": "Don't miss the Business Leaders Forum 2025, a gathering of top executives and entrepreneurs."
+          },
+          "articleUrl": "https://example.com/news10",
+          "isFeatured": true,
+          "author": "Mr. Richard Branson",
+          "tags": ["Forum", "Business"]
+        },
+        {
+          "id": 2,
+          "imgUrl": "https://placehold.co/600x400",
+          "title": { "en": "New MBA Program Launch" },
+          "date": "2025-07-25",
+          "content": {
+            "en": "We are thrilled to announce the launch of our new MBA program designed for aspiring business leaders."
+          },
+          "articleUrl": "https://example.com/news11",
+          "isFeatured": false,
+          "author": "Admin",
+          "tags": ["MBA", "Program"]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": { "en": "College of Education" },
+      "slug": "college-of-education",
+      "shortName": { "en": "coed" },
+      "profile": {
+        "tagline": { "en": "Inspiring future educators" },
+        "history": {
+          "en": "The College of Education has been shaping the future of education in Marinduque since its establishment, providing quality training for aspiring teachers."
+        },
+        "goals": {
+          "en": "To produce competent and compassionate educators who can inspire and lead the next generation."
+        },
+        "awards": []
+      },
+      "programIds": [6],
+      "news": [
+        {
+          "id": 1,
+          "imgUrl": "https://placehold.co/600x400",
+          "title": { "en": "Education Summit 2025" },
+          "date": "2025-09-15",
+          "content": {
+            "en": "Join us at the Education Summit 2025 to explore the future of education."
+          },
+          "articleUrl": "https://example.com/news12",
+          "isFeatured": true,
+          "author": "Dr. Maria Montessori",
+          "tags": ["Summit", "Education"]
+        },
+        {
+          "id": 2,
+          "imgUrl": "https://placehold.co/600x400",
+          "title": { "en": "New Scholarship Program" },
+          "date": "2025-08-05",
+          "content": {
+            "en": "We are excited to introduce a new scholarship program for deserving education students."
+          },
+          "articleUrl": "https://example.com/news13",
+          "isFeatured": false,
+          "author": "Admin",
+          "tags": ["Scholarship", "Education"]
+        }
+      ]
+    }
+  ],
+  "news": [],
+  "programs": [
+    {
+      "id": 1,
+      "collegeId": 1,
+      "name": { "en": "Bachelor of Science in Information Technology" },
+      "description": {
+        "en": "The Bachelor of Science in Information Technology program prepares students for a career in the IT industry, focusing on software development, network management, and database administration."
+      },
+      "curriculum": [
+        {
+          "id": 1,
+          "year": "1st Year",
+          "semesters": [
             {
               "id": 1,
-              "Year": "1st Year",
-              "Semester": [
+              "name": "1st Semester",
+              "courses": [
                 {
-                    "id": 1,
-                    "SemesterName": "1st Semester",
-                    "CourseSubject": [
-                        {
-                            "id": 1,
-                            "courseName": "introduction to computing",
-                            "courseCode": "CC101",
-                            "units": 3,
-                            "prerequisite": "None"
-                        }
-                    ]
+                  "id": 1,
+                  "name": { "en": "Introduction to Computing" },
+                  "code": "CC101",
+                  "units": 3,
+                  "prerequisite": null
                 }
               ]
             }
           ]
-        },
-        {
-          "programOutcome": [
-            {
-              /*ano to*/
-            }
-          ],
-          "studyPlan": [
-            {
-              /*ano to*/
-            }
-          ],
-          "careerOpportunity": [
-            {
-              "id": 1,
-              "career": "",
-              "description": "",
-              "salaryRange": ""
-            }
-          ]
         }
       ],
-      "workForce": [
-        {
-          "faculty": [
-            {
-              "id": 1,
-              "image": "",
-              "name": "",
-              "designation": "",
-              "email": "",
-              "attainment": "",
-              "publication": ""
-            }
-          ]
-        },
-        {
-          "staff": [
-            {
-              "id": 1,
-              "image": "",
-              "name": "",
-              "designation": "",
-              "email": ""
-            }
-          ]
-        }
-      ],
-      "research": [
-        {
-          "research": [
-            {
-              "id": 1,
-              "title": "",
-              "publicationYear": "",
-              "completionYear": "",
-              "authors": "",
-              "indices": "",
-              "abstract": ""
-            }
-          ],
-          "extension": [
-            {
-              "id": 1,
-              "title": "",
-              "publicationYear": "",
-              "completioYear": "",
-              "authors": "",
-              "indices": "",
-              "abstract": ""
-            }
-          ]
-        }
-      ],
-      "studentAchievement": [
+      "outcomes": [],
+      "studyPlans": [],
+      "careerOpportunities": [
         {
           "id": 1,
-          "type": "",
-          "description": ""
-        }
-      ],
-      "studentProfile": [
-        {
-          "id": 1,
-          "programName": "",
-          "rate": "",
-          "image": ""
-        }
-      ],
-      "studentPublication": [
-        {
-          "studentOrg": [
-            {
-              "id": 1,
-              "name": "",
-              "designation": "",
-              "image": ""
-            }
-          ]
-        },
-        {
-          "accomplishements": [
-            {
-              "id": 1,
-              "title": "",
-              "description": "",
-              "image": ""
-            }
-          ]
-        }
-      ],
-      "alumni": [
-        {
-          "tracer": [
-            {
-              "id": 1,
-              "image": "",
-              "name": "",
-              "career": ""
-            }
-          ]
-        },
-        {
-          "testimonials": [
-            {
-              "id": 1,
-              "image": "",
-              "name": "",
-              "story": ""
-            }
-          ]
+          "career": { "en": "" },
+          "description": { "en": "" },
+          "salaryRange": ""
         }
       ]
+    },
+    {
+      "id": 2,
+      "collegeId": 2,
+      "name": { "en": "Bachelor of Science in Information Systems" },
+      "description": {
+        "en": "The Bachelor of Science in Information Systems program focuses on the application of technology in business settings, preparing students for careers in IT management and consulting."
+      },
+      "curriculum": [],
+      "outcomes": [],
+      "studyPlans": [],
+      "careerOpportunities": []
+    },
+    {
+      "id": 3,
+      "collegeId": 3,
+      "name": { "en": "Bachelor of Arts in Communication" },
+      "curriculum": [],
+      "outcomes": [],
+      "studyPlans": [],
+      "careerOpportunities": []
+    },
+    {
+      "id": 4,
+      "collegeId": 4,
+      "name": { "en": "Bachelor of Science in Industrial Technology" },
+      "curriculum": [],
+      "outcomes": [],
+      "studyPlans": [],
+      "careerOpportunities": []
+    },
+    {
+      "id": 5,
+      "collegeId": 5,
+      "name": { "en": "Bachelor of Science in Business Administration" },
+      "curriculum": [],
+      "outcomes": [],
+      "studyPlans": [],
+      "careerOpportunities": []
+    },
+    {
+      "id": 6,
+      "collegeId": 6,
+      "name": { "en": "Bachelor of Elementary Education" },
+      "curriculum": [],
+      "outcomes": [],
+      "studyPlans": [],
+      "careerOpportunities": []
+    }
+  ],
+  "faculty": [
+    {
+      "id": 1,
+      "collegeId": 1,
+      "image": "",
+      "name": { "en": "" },
+      "designation": { "en": "" },
+      "email": "",
+      "attainment": { "en": "" },
+      "publications": []
+    }
+  ],
+  "staff": [
+    {
+      "id": 1,
+      "collegeId": 1,
+      "image": "",
+      "name": { "en": "" },
+      "designation": { "en": "" },
+      "email": ""
+    }
+  ],
+  "research": [
+    {
+      "id": 1,
+      "collegeId": 1,
+      "title": { "en": "" },
+      "publicationYear": "",
+      "completionYear": "",
+      "authors": [],
+      "indices": [],
+      "abstract": { "en": "" }
+    }
+  ],
+  "extensions": [
+    {
+      "id": 1,
+      "collegeId": 1,
+      "title": { "en": "" },
+      "publicationYear": "",
+      "completionYear": "",
+      "authors": [],
+      "indices": [],
+      "abstract": { "en": "" }
+    }
+  ],
+  "studentAchievements": [
+    {
+      "id": 1,
+      "collegeId": 1,
+      "type": { "en": "" },
+      "description": { "en": "" }
+    }
+  ],
+  "studentProfiles": [
+    {
+      "id": 1,
+      "collegeId": 1,
+      "programId": 1,
+      "rate": "",
+      "image": ""
+    }
+  ],
+  "studentOrganizations": [
+    {
+      "id": 1,
+      "collegeId": 1,
+      "name": { "en": "" },
+      "designation": { "en": "" },
+      "image": ""
+    }
+  ],
+  "studentAccomplishments": [
+    {
+      "id": 1,
+      "collegeId": 1,
+      "title": { "en": "" },
+      "description": { "en": "" },
+      "image": ""
+    }
+  ],
+  "alumni": [
+    {
+      "id": 1,
+      "collegeId": 1,
+      "image": "",
+      "name": { "en": "" },
+      "career": { "en": "" }
+    }
+  ],
+  "alumniTestimonials": [
+    {
+      "id": 1,
+      "alumniId": 1,
+      "image": "",
+      "name": { "en": "" },
+      "story": { "en": "" }
     }
   ]
 }

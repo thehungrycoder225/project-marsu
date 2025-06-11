@@ -6,28 +6,39 @@ import Offerings from '../../components/Featured/Offerings';
 import News from '../../components/News';
 import Navigation from '../../components/CollegeNavigation/CollegeNav';
 import Section from '../../components/Section';
-import './College.css'; // Assuming you have some CSS for styling
+import './College.css';
 
 function Colleges() {
   const { colleges, loading, error } = useColleges();
   const { collegeKey } = useParams();
+  // For localization, fallback to 'en'
+  const lang = 'en';
 
   if (loading) return <div>Loading...</div>;
   if (error) return <div>Error: {error}</div>;
 
-  const college = colleges.find((col) => col.key === collegeKey);
+  // Find by slug/shortName (collegeKey from URL)
+  const college = colleges.find(
+    (col) =>
+      col.slug === collegeKey ||
+      col.shortName.en === collegeKey ||
+      String(col.id) === collegeKey
+  );
 
   if (!college) {
     return <div>College not found</div>;
   }
 
+  const profile = college.profile || {};
+  const awards = profile.awards || [];
+
   return (
     <div className='college-page '>
       <Navigation />
       <Hero
-        title={college.name}
-        description={college.description}
-        tagline={college.tagline}
+        title={college.name?.[lang] || college.name?.en || college.name}
+        tagline={profile.tagline?.[lang] || profile.tagline?.en || ''}
+        description={profile.history?.[lang] || profile.history?.en || ''}
         imageSrc={college.imageSrc}
         imageAlt={college.imageAlt}
         imagePosition={college.imagePosition}
@@ -39,26 +50,51 @@ function Colleges() {
         <Section>
           <News collegeKey={collegeKey} />
         </Section>
-        {/* College Events */}
-        <Section>{/* Add your college events content here */}</Section>
         {/* College Programs */}
         <Section>
           <Offerings collegeKey={collegeKey} />
         </Section>
-        {/* Message from the Dean */}
-        <section></section>
+        {/* College Awards - only if present */}
+        {awards.length > 0 && (
+          <Section>
+            <h2>Awards</h2>
+            <ul>
+              {awards.map((award) => (
+                <li key={award.id} className='mb-2'>
+                  <strong>
+                    {award.title?.[lang] || award.title?.en || award.title}
+                  </strong>{' '}
+                  ({award.year})<br />
+                  <span>
+                    {award.description?.[lang] ||
+                      award.description?.en ||
+                      award.description}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </Section>
+        )}
+
+        {/* Message from the Dean - only if present */}
+        {profile.deanMessage?.[lang] && (
+          <Section>
+            <h2>Message from the Dean</h2>
+            <p>{profile.deanMessage[lang]}</p>
+          </Section>
+        )}
         <Section>
           <Faqs />
         </Section>
-        {/* Student Activities */}
+        {/* Student Activities - placeholder if no data */}
         <Section>
           <h2>Student Activities</h2>
-          {/* Add your student activities content here */}
+          <p>No student activities available at this time.</p>
         </Section>
-        {/* Success Stories */}
+        {/* Success Stories - placeholder if no data */}
         <Section>
           <h2>Success Stories</h2>
-          {/* Add your success stories content here */}
+          <p>No success stories available at this time.</p>
         </Section>
       </div>
     </div>
