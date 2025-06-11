@@ -94,7 +94,7 @@ function NewsEvents({ collegeKey }) {
                       className='w-full h-48 object-cover mb-4 rounded'
                     />
                   )}
-                  <h3 className='text-lg font-semibold mb-2'>
+                  <h3 className='text-md font-semibold mb-2'>
                     {news.title?.[lang] || news.title}
                   </h3>
                   <p className='text-gray-600 mb-2 text-sm'>
@@ -119,7 +119,7 @@ function NewsEvents({ collegeKey }) {
                     (isInternalUrl(news.articleUrl) ? (
                       <Link
                         to={news.articleUrl}
-                        className='text-blue-500 hover:underline mr-2'
+                        className='text-blue-500 text text-sm hover:underline mr-2'
                       >
                         Read more
                       </Link>

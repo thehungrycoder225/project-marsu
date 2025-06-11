@@ -23,7 +23,7 @@ function App() {
         <Route path='/sdg' element={<SGDPage />} />
         <Route path='/sdg/project/:id/:title' element={<SGDProject />} />
         <Route path='/sdg/goal/:id' element={<SDGGoalDetail />} />
-        {/* FLAT ROUTES for HashRouter compatibility */}
+        {/* FLAT ROUTES for HashRouter compatibility, including all college sections */}
         <Route path='/colleges/:collegeKey' element={<Colleges />} />
         <Route
           path='/colleges/:collegeKey/details'
@@ -50,24 +50,40 @@ function App() {
           element={<div>College Research</div>}
         />
         <Route
-          path='/colleges/:collegeKey/collaborations'
-          element={<div>College Collaborations</div>}
+          path='/colleges/:collegeKey/extensions'
+          element={<div>College Extensions</div>}
         />
         <Route
-          path='/colleges/:collegeKey/partners'
-          element={<div>College Partners</div>}
+          path='/colleges/:collegeKey/programs'
+          element={<div>College Programs</div>}
         />
         <Route
-          path='/colleges/:collegeKey/resources'
-          element={<div>College Resources</div>}
+          path='/colleges/:collegeKey/faculty'
+          element={<div>College Faculty</div>}
         />
         <Route
-          path='/colleges/:collegeKey/contact'
-          element={<div>College Contact</div>}
+          path='/colleges/:collegeKey/staff'
+          element={<div>College Staff</div>}
         />
         <Route
-          path='/colleges/:collegeKey/about'
-          element={<div>College About</div>}
+          path='/colleges/:collegeKey/student-achievements'
+          element={<div>Student Achievements</div>}
+        />
+        <Route
+          path='/colleges/:collegeKey/student-profile'
+          element={<div>Student Profile</div>}
+        />
+        <Route
+          path='/colleges/:collegeKey/student-organization'
+          element={<div>Student Organization</div>}
+        />
+        <Route
+          path='/colleges/:collegeKey/alumni'
+          element={<div>Alumni</div>}
+        />
+        <Route
+          path='/colleges/:collegeKey/testimonials'
+          element={<div>Alumni Testimonials</div>}
         />
         <Route
           path='/colleges/:collegeKey/*'
