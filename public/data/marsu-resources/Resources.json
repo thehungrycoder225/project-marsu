@@ -30,16 +30,21 @@
       "news": [
         {
           "id": 1,
-          "imgUrl": "https://placehold.co/600x400",
-          "title": { "en": "New Research Lab Inaugurated" },
-          "date": "2025-04-01",
+          "imgUrl": "https://scontent.fmnl4-7.fna.fbcdn.net/v/t39.30808-6/506404512_122258562824074473_1152407901904797597_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEriHamDt70_sLHfw9cwUzxJWzewUvvcyMlbN7BS-9zIwfYkBG3ftUaqiYXseUP2p0&_nc_ohc=12i-LibneLwQ7kNvwEphogI&_nc_oc=AdkUh3U9D4xZDf9ZLSyOcSzDpzS5jT22FOVa2rxYsG9Wq91_Xo_0gr-C-uyYKo4iZp4&_nc_zt=23&_nc_ht=scontent.fmnl4-7.fna&_nc_gid=dwEKghIrOZOvuor1YdN4XQ&oh=00_AfMiOtIwSmjZiE3Xmq0jVsgkoa4lmj1hioqDpfmKad5Zsg&oe=6855456B",
+          "title": {
+            "en": "MARSU Conducts Its 69th Annual Commencement Exercise Class 2025"
+          },
+          "date": "2025-06-14",
+          "description": {
+            "en": "The Marinduque State University (MARSU) held its 69th Annual Commencement Exercise for the Class of 2025 on June 14, 2025, at the MSC Boac Campus. The event celebrated the achievements of graduates from various colleges, including the College of Information and Computing Sciences (CICS)."
+          },
           "content": {
-            "en": "The College of Information and Computing Sciences has inaugurated a new state-of-the-art research lab to foster innovation."
+            "en": "As we look back on this special day, we honor the graduates of the College of Information and Computing Sciences, those who pushed through every challenge, stayed up late to finish projects, and kept going even when things got tough this moment is proof that all the hard work was worth it. From sleepless nights to moments of victory, they finally made it !."
           },
           "articleUrl": "/colleges/cics/news/1",
           "isFeatured": true,
-          "author": "Dr. Jane Doe",
-          "tags": ["Research", "Innovation"]
+          "author": "Infocus Publication",
+          "tags": ["Graduation", "Ceremony"]
         },
         {
           "id": 2,

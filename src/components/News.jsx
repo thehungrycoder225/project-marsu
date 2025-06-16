@@ -98,7 +98,8 @@ function NewsEvents({ collegeKey }) {
                     {news.title?.[lang] || news.title}
                   </h3>
                   <p className='text-gray-600 mb-2 text-sm'>
-                    {news.content?.[lang] || news.content}
+                    {news.description?.[lang].slice(0, 150) + '...' ||
+                      news.description.slice(0, 150) + '...'}
                   </p>
                   {news.author && (
                     <p className='text-xs text-gray-500'>By {news.author}</p>
@@ -168,7 +169,7 @@ function NewsEvents({ collegeKey }) {
                       {news.title?.[lang] || news.title}
                     </h3>
                     <p className='text-gray-600 mb-2 text-sm'>
-                      {news.content?.[lang] || news.content}
+                      {news.description?.[lang] || news.description}
                     </p>
                     {news.author && (
                       <p className='text-xs text-gray-500'>By {news.author}</p>
