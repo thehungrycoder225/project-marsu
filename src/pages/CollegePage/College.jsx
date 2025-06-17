@@ -6,6 +6,7 @@ import Offerings from '../../components/Featured/Offerings';
 import News from '../../components/News';
 import Navigation from '../../components/CollegeNavigation/CollegeNav';
 import Section from '../../components/Section';
+import CollegeAwards from '../../components/CollegeAwards';
 import './College.css';
 
 function Colleges() {
@@ -57,22 +58,7 @@ function Colleges() {
         {/* College Awards - only if present */}
         {awards.length > 0 && (
           <Section>
-            <h2>Awards</h2>
-            <ul>
-              {awards.map((award) => (
-                <li key={award.id} className='mb-2'>
-                  <strong>
-                    {award.title?.[lang] || award.title?.en || award.title}
-                  </strong>{' '}
-                  ({award.year})<br />
-                  <span>
-                    {award.description?.[lang] ||
-                      award.description?.en ||
-                      award.description}
-                  </span>
-                </li>
-              ))}
-            </ul>
+            <CollegeAwards awards={awards} lang={lang} />
           </Section>
         )}
 

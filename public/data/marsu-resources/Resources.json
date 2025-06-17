@@ -18,11 +18,36 @@
         "awards": [
           {
             "id": 1,
-            "title": { "en": "Best IT College in the Philippines" },
-            "year": 2023,
+            "title": {
+              "en": "National Digital Challenge - 1st Place"
+            },
+            "year": 2024,
             "description": {
-              "en": "Awarded by the Philippine IT Association for excellence in IT education."
-            }
+              "en": "Pollux Rey won the 1st Place in the National Digital Challenge 2024, showcasing their innovative solutions and technical expertise in the field of information technology."
+            },
+            "icon": "../../images/gold-medal.png"
+          },
+          {
+            "id": 2,
+            "title": {
+              "en": "DANGAL 2024 - Best Extension Program - CICS TechnoHub"
+            },
+            "year": 2024,
+            "description": {
+              "en": "The CICS TechnoHub, a collaborative initiative providing technology support and training to local communities, was recognized as the Best Extension Program at the DANGAL 2024 Awards."
+            },
+            "icon": "../../images/gold-medal.png"
+          },
+          {
+            "id": 3,
+            "title": {
+              "en": "AACCUP Level III Re-Accreditation"
+            },
+            "year": 2024,
+            "description": {
+              "en": "The Bachelor of Science in Information Systems and Bachelor of Science in Information Technology programs achieved Level III Re-Accreditation from the Accrediting Agency of Chartered Colleges and Universities in the Philippines (AACCUP)."
+            },
+            "icon": "images/gold-medal.png"
           }
         ]
       },
@@ -31,12 +56,17 @@
         {
           "id": 1,
           "imgUrl": "https://scontent.fmnl4-7.fna.fbcdn.net/v/t39.30808-6/506404512_122258562824074473_1152407901904797597_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEriHamDt70_sLHfw9cwUzxJWzewUvvcyMlbN7BS-9zIwfYkBG3ftUaqiYXseUP2p0&_nc_ohc=12i-LibneLwQ7kNvwEphogI&_nc_oc=AdkUh3U9D4xZDf9ZLSyOcSzDpzS5jT22FOVa2rxYsG9Wq91_Xo_0gr-C-uyYKo4iZp4&_nc_zt=23&_nc_ht=scontent.fmnl4-7.fna&_nc_gid=dwEKghIrOZOvuor1YdN4XQ&oh=00_AfMiOtIwSmjZiE3Xmq0jVsgkoa4lmj1hioqDpfmKad5Zsg&oe=6855456B",
+          "gallery": [
+            "https://placehold.co/600x400",
+            "https://placehold.co/600x400",
+            "https://placehold.co/600x400"
+          ],
           "title": {
             "en": "MARSU Conducts Its 69th Annual Commencement Exercise Class 2025"
           },
           "date": "2025-06-14",
           "description": {
-            "en": "The Marinduque State University (MARSU) held its 69th Annual Commencement Exercise for the Class of 2025 on June 14, 2025, at the MSC Boac Campus. The event celebrated the achievements of graduates from various colleges, including the College of Information and Computing Sciences (CICS)."
+            "en": "The Marinduque State University (MARSU) held its 69th Annual Commencement Exercise for the Class of 2025 on June 14, 2025, at the MSC Boac Campus."
           },
           "content": {
             "en": "As we look back on this special day, we honor the graduates of the College of Information and Computing Sciences, those who pushed through every challenge, stayed up late to finish projects, and kept going even when things got tough this moment is proof that all the hard work was worth it. From sleepless nights to moments of victory, they finally made it !."
@@ -48,29 +78,45 @@
         },
         {
           "id": 2,
-          "imgUrl": "https://placehold.co/600x400",
-          "title": { "en": "Annual Science Fair Announced" },
+          "imgUrl": "https://scontent.fmnl4-3.fna.fbcdn.net/v/t39.30808-6/386736911_122094549284074473_3777068919360151330_n.png?_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeFtmPSGmiR8yUuH1WtVdllc3SWxNllQt2HdJbE2WVC3YaGpfoCV9HEc9TxnEDDH4HE&_nc_ohc=i_u9lOwDnK8Q7kNvwEWB4T8&_nc_oc=AdnqltcAjfDs6r8vb0HHmFUD5wRQIvIhSY2CX5nPXvS7aVoWCl4E3zUh46HNr-351L8&_nc_zt=23&_nc_ht=scontent.fmnl4-3.fna&_nc_gid=VAt5aqf0KrJuKUd3NSCqEQ&oh=00_AfNPd7aviP3e1Tk40tkr2igvZ2cOkvQCZPu52GBnUICq-A&oe=685689B2",
+          "gallery": [
+            "https://placehold.co/600x400",
+            "https://placehold.co/600x400",
+            "https://placehold.co/600x400"
+          ],
+          "title": { "en": "A Legendary Send-off" },
           "date": "2025-03-15",
+          "description": {
+            "en": "A legendary send-off for the graduating class of 2025."
+          },
           "content": {
-            "en": "The annual science fair will be held on May 10th, showcasing projects from students and faculty."
+            "en": "It’s never easy to say goodbye to people who helped shape what a team truly means.\nTo our graduates — thank you. You were more than your roles. You were the ones behind the camera, behind the sketches, behind the sound checks. You were there when things got tough, when events popped up out of nowhere, when we had to run from one building to another with barely any rest. You still showed up, even if your house was far, even if your body was tired, even if the weather wasn’t on our side.\nYou captured moments, made people feel seen, and gave meaning to the smallest details. And you didn’t ask for recognition — you simply did what needed to be done, and you did it with heart.\nBarney once said, “𝘞𝘩𝘢𝘵𝘦𝘷𝘦𝘳 𝘺𝘰𝘶 𝘥𝘰 𝘪𝘯 𝘵𝘩𝘪𝘴 𝘭𝘪𝘧𝘦, 𝘪𝘵’𝘴 𝘯𝘰𝘵 𝘭𝘦𝘨𝘦𝘯𝘥𝘢𝘳𝘺 𝘶𝘯𝘭𝘦𝘴𝘴 𝘺𝘰𝘶𝘳 𝘧𝘳𝘪𝘦𝘯𝘥𝘴 𝘢𝘳𝘦 𝘵𝘩𝘦𝘳𝘦 𝘵𝘰 𝘴𝘦𝘦 𝘪𝘵.” And we were here to witness it — the late nights, the technical hiccups, the creative rushes, the laughter in between. It wasn’t always perfect, but it was real. It was honest. And it was legendary because you were part of it.\nWe’ve always worked in the moment — live coverage, real-time adjustments, no time for rewrites. And that’s also how this goodbye feels. Sudden. Fast. But meaningful.\nRobin once said, “𝘛𝘩𝘦 𝘧𝘶𝘵𝘶𝘳𝘦 𝘪𝘴 𝘴𝘤𝘢𝘳𝘺, 𝘣𝘶𝘵 𝘺𝘰𝘶 𝘤𝘢𝘯’𝘵 𝘫𝘶𝘴𝘵 𝘳𝘶𝘯 𝘣𝘢𝘤𝘬 𝘵𝘰 𝘵𝘩𝘦 𝘱𝘢𝘴𝘵 𝘣𝘦𝘤𝘢𝘶𝘴𝘦 𝘪𝘵’𝘴 𝘧𝘢𝘮𝘪𝘭𝘪𝘢𝘳.” And while it’s sad to let go of this chapter, we know you’re ready for what’s next. You’ve already proven how strong, passionate, and reliable you are. And whatever comes after this, we know you’ll carry those same values forward.\nYou’re graduating, but your presence stays with us. In every shoot we do, every layout we polish, every small thing we learned from you — you’ll be there, too.\nFrom all of us still here, thank you for the patience, the guidance, the small talks during long days, and for choosing to stay, even when it was hard.\nYou’ve made your mark. You’ll always be part of our story.\nWith love and pride,\nInfocus Family"
           },
           "articleUrl": "/colleges/cics/news/2",
-          "isFeatured": true,
-          "author": "Prof. John Smith",
-          "tags": ["Event", "Science"]
+          "isFeatured": false,
+          "author": ["Infocus Publication"],
+          "tags": ["Graduation", "Send-off"]
         },
         {
           "id": 3,
-          "imgUrl": "https://placehold.co/600x400",
-          "title": { "en": "Guest Lecture on AI" },
-          "date": "2025-02-20",
+          "imgUrl": "https://scontent.fmnl4-7.fna.fbcdn.net/v/t39.30808-6/506341579_1176362401174939_6901917840226455256_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeH1se3o7Uhx7iM9cmg9Yd2YKk8KFes87fYqTwoV6zzt9kjRqnA5hpt8I0V3O7Gu3AE&_nc_ohc=8xhLDeyB4VEQ7kNvwEbeKbR&_nc_oc=AdnCgchraDAwwkPQQPgoFJsJDOm0z8SeHi_iQy4tj78jWk_KwA0EIDecG1uSy11IUnA&_nc_zt=23&_nc_ht=scontent.fmnl4-7.fna&_nc_gid=cPFcAT3NFGsjsYPH-Nyatw&oh=00_AfNGM64zy4OHIA5HZ_fTdk61PaA940dw5nD1TgFJzX8M6A&oe=68569729",
+          "gallery": [
+            "https://placehold.co/600x400",
+            "https://placehold.co/600x400",
+            "https://placehold.co/600x400"
+          ],
+          "title": { "en": "Happy Independence Day" },
+          "date": "2025-06-12",
+          "description": {
+            "en": "Celebrating the bravery and sacrifices of Filipinos during the revolution."
+          },
           "content": {
-            "en": "A guest lecture on the latest advancements in AI will be held on March 5th."
+            "en": "When the revolution broke out in 1896, Filipinos risked their lives to fight for freedom from the colonizers. One of the key figures in the Philippine Revolution who offered shelter, food, and medical aid to the Katipunan revolutionaries was Melchora Aquino, known as Tandang Sora. She was also honored with the titles “Mother of the Katipunan” and “Grand Woman of the Revolution.” As a supporter of the Katipunan, she provided them with rice and cattle for food, as spotted in the photo. #RP612fic"
           },
           "articleUrl": "/colleges/cics/news/3",
           "isFeatured": false,
-          "author": "Dr. Alan Turing",
-          "tags": ["AI", "Lecture"]
+          "author": ["CiCS Official Page"],
+          "tags": ["Independence Day", "History"]
         }
       ]
     },
@@ -348,7 +394,416 @@
       "description": {
         "en": "The Bachelor of Science in Information Systems program focuses on the application of technology in business settings, preparing students for careers in IT management and consulting."
       },
-      "curriculum": [],
+      "curriculum": [
+        {
+          "id": 1,
+          "year": "1st Year",
+          "semesters": [
+            {
+              "id": 1,
+              "name": "1st Semester",
+              "courses": [
+                {
+                  "id": 1,
+                  "name": { "en": "Introduction to Computing" },
+                  "code": "CC101",
+                  "units": 3,
+                  "prerequisite": null
+                },
+                {
+                  "id": 2,
+                  "name": { "en": "Mathematics in the Modern World" },
+                  "code": "MMW101",
+                  "units": 3,
+                  "prerequisite": null
+                },
+                {
+                  "id": 3,
+                  "courseName": "Science, Technology and Society",
+                  "courseCode": "GE-STS",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 4,
+                  "courseName": "Purposive Communication",
+                  "courseCode": "GE-PurCom",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 5,
+                  "courseName": "Arts Appreciation",
+                  "courseCode": "GE-ArtApp",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 6,
+                  "courseName": "Understanding the self",
+                  "courseCode": "GE-UTS",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 7,
+                  "courseName": "Logic and critical Thinking",
+                  "courseCode": "GEE101",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 8,
+                  "courseName": "Movement Competency Training",
+                  "courseCode": "PATHFIT",
+                  "units": 2,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 9,
+                  "courseName": "National Service Training Program 1",
+                  "courseCode": "NSTP1",
+                  "units": 3,
+                  "prerequisite": "None"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "name": "2nd Semester",
+              "courses": [
+                {
+                  "id": 1,
+                  "courseName": "Computer Programming 1",
+                  "courseCode": "CC102",
+                  "units": 3,
+                  "prerequisite": "CC101"
+                },
+                {
+                  "id": 2,
+                  "courseName": "Fundamentals of Information System",
+                  "courseCode": "ISP101",
+                  "units": 3,
+                  "prerequisite": "CC101"
+                },
+                {
+                  "id": 3,
+                  "courseName": "Organization and Management Concepts",
+                  "courseCode": "ISP103",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 4,
+                  "courseName": "Business Process Management",
+                  "courseCode": "ISP102",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 5,
+                  "courseName": "Living In IT Era",
+                  "courseCode": "GEE102",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 6,
+                  "courseName": "Modern Communication and Technical Writing",
+                  "courseCode": "GEE103",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 7,
+                  "courseName": "Ethics",
+                  "courseCode": "GE-Ethics",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 8,
+                  "courseName": "Exercise-base Fitness Activities",
+                  "courseCode": "PATHFIT2",
+                  "units": 2,
+                  "prerequisite": "PATHFIT1"
+                },
+                {
+                  "id": 9,
+                  "courseName": "National Service Training Program 2",
+                  "courseCode": "NSTP",
+                  "units": 3,
+                  "prerequisite": "NSTP1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "year": "2nd Year",
+          "semesters": [
+            {
+              "id": 1,
+              "name": "1st Semester",
+              "courses": [
+                {
+                  "id": 1,
+                  "courseName": "Computer Programming 2",
+                  "courseCode": "CC201",
+                  "units": 3,
+                  "prerequisite": "CC102"
+                },
+                {
+                  "id": 2,
+                  "courseName": "Information Management",
+                  "courseCode": "CC202",
+                  "units": 3,
+                  "prerequisite": "CC101"
+                },
+                {
+                  "id": 3,
+                  "courseName": "Professional Issues in Information System",
+                  "courseCode": "ISP201",
+                  "units": 3,
+                  "prerequisite": "GE-Ethics"
+                },
+                {
+                  "id": 4,
+                  "courseName": "Information technology Infrastructure and Network Technology",
+                  "courseCode": "ISP203",
+                  "units": 3,
+                  "prerequisite": "cc101"
+                },
+                {
+                  "id": 5,
+                  "courseName": "Elective 1: Presentation Skills Using Information Technology",
+                  "courseCode": "ISE201",
+                  "units": 3,
+                  "prerequisite": "GEE 103"
+                },
+                {
+                  "id": 6,
+                  "courseName": "Reading in Philippine History",
+                  "courseCode": "GE-RPH",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 7,
+                  "courseName": "Sports",
+                  "courseCode": "PATHFIT3",
+                  "units": 3,
+                  "prerequisite": "PATHFIT2"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "name": "2nd Semester",
+              "courses": [
+                {
+                  "id": 1,
+                  "courseName": "Data Structure and Algorithms",
+                  "courseCode": "CC203",
+                  "units": 3,
+                  "prerequisite": "CC201"
+                },
+                {
+                  "id": 2,
+                  "courseName": "System Analysis and Design",
+                  "courseCode": "ISP204",
+                  "units": 3,
+                  "prerequisite": "All Courses passed prior in all previous semester"
+                },
+                {
+                  "id": 3,
+                  "courseName": "Quantitative Methods",
+                  "courseCode": "ISP205",
+                  "units": 3,
+                  "prerequisite": "GE-MMW"
+                },
+                {
+                  "id": 4,
+                  "courseName": "Introduction to Human-Computer Interaction",
+                  "courseCode": "ISP206",
+                  "units": 3,
+                  "prerequisite": "cC101"
+                },
+                {
+                  "id": 5,
+                  "courseName": "Evaluation of Business Performance",
+                  "courseCode": "iSP207",
+                  "units": 3,
+                  "prerequisite": "ISP102, ISP103, CC202"
+                },
+                {
+                  "id": 6,
+                  "courseName": "The Contemporary World",
+                  "courseCode": "GE202",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 7,
+                  "courseName": "Life and Works of Rizal",
+                  "courseCode": "GEM-Rizal",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 8,
+                  "courseName": "Sports",
+                  "courseCode": "PATHFIT4",
+                  "units": 2,
+                  "prerequisite": "PATHFIT3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "year": "3rd Year",
+          "semesters": [
+            {
+              "id": 1,
+              "name": "1st Semester",
+              "courses": [
+                {
+                  "id": 1,
+                  "courseName": "Application Development and Emerging Technologies",
+                  "courseCode": "CC301",
+                  "units": 3,
+                  "prerequisite": "CC201, Com prog 2"
+                },
+                {
+                  "id": 2,
+                  "courseName": "Financial Management",
+                  "courseCode": "ISP301",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 3,
+                  "courseName": "Information System Project Management 1",
+                  "courseCode": "ISP302",
+                  "units": 3,
+                  "prerequisite": "All Courses passed prior in all previous semester"
+                },
+                {
+                  "id": 4,
+                  "courseName": "Methods of Research in Information System",
+                  "courseCode": "ISP304",
+                  "units": 3,
+                  "prerequisite": "All Courses passed prior in all previous semester"
+                },
+                {
+                  "id": 5,
+                  "courseName": "Elective 2: Web System and Technology",
+                  "courseCode": "ISE301",
+                  "units": 3,
+                  "prerequisite": "CC201"
+                },
+                {
+                  "id": 6,
+                  "courseName": "Elective 3: Advance Database System",
+                  "courseCode": "ISE302",
+                  "units": 3,
+                  "prerequisite": "CC202"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "name": "2nd Semester",
+              "courses": [
+                {
+                  "id": 1,
+                  "courseName": "Capstone Project 1 – Proposal Writing and Presentation",
+                  "courseCode": "ISCAP301",
+                  "units": 3,
+                  "prerequisite": "All Courses passed prior in all previous semester"
+                },
+                {
+                  "id": 2,
+                  "courseName": "Information System Project Management 2",
+                  "courseCode": "ISP305",
+                  "units": 3,
+                  "prerequisite": "ISP303"
+                },
+                {
+                  "id": 3,
+                  "courseName": "Enterprise Resource Plan",
+                  "courseCode": "ISP205",
+                  "units": 3,
+                  "prerequisite": "ISP302, ISP104"
+                },
+                {
+                  "id": 4,
+                  "courseName": "Data Mining",
+                  "courseCode": "ISP307",
+                  "units": 3,
+                  "prerequisite": "ISP302"
+                },
+                {
+                  "id": 5,
+                  "courseName": "Elective 4: Seminar in Special Information System Topic",
+                  "courseCode": "ISE303",
+                  "units": 3,
+                  "prerequisite": "ISP101"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "year": "4th Year",
+          "semesters": [
+            {
+              "id": 1,
+              "name": "1st Semester",
+              "courses": [
+                {
+                  "id": 1,
+                  "courseName": "Capstone Project 2- Development and Implementation",
+                  "courseCode": "iSCAP401",
+                  "units": 3,
+                  "prerequisite": "ISCAP301"
+                },
+                {
+                  "id": 2,
+                  "courseName": "Information System Strategy Management and Acquisition",
+                  "courseCode": "ISP401",
+                  "units": 3,
+                  "prerequisite": "All Courses passed prior in all previous semester"
+                },
+                {
+                  "id": 3,
+                  "courseName": "Information Audit and Control",
+                  "courseCode": "ISP402",
+                  "units": 3,
+                  "prerequisite": "All Courses passed prior in all previous semester"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "name": "2nd Semester",
+              "courses": [
+                {
+                  "id": 1,
+                  "courseName": "On the Job Training – 486 Hours",
+                  "courseCode": "ISOJT",
+                  "units": 6,
+                  "prerequisite": "All Courses passed prior in all previous semester"
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "outcomes": [],
       "studyPlans": [],
       "careerOpportunities": []
@@ -394,11 +849,80 @@
     {
       "id": 1,
       "collegeId": 1,
-      "image": "",
-      "name": { "en": "" },
-      "designation": { "en": "" },
-      "email": "",
-      "attainment": { "en": "" },
+      "image": "https://drive.google.com/file/d/1upZV-7vmz6I4vRhvAIlTTwA61_c4nvw1/view",
+      "name": { "en": "Ivy Joy N. Aguiflor, LPT" },
+      "academicrank": { "en": "University Lecturer" },
+      "designation": { "en": "SAS Coordinator" },
+      "email": "aguiflor.ivyjoy@marsu.edu.ph",
+      "attainment": [
+        {
+          "id": 1,
+          "degree": {
+            "en": "Bachelor of Secondary Education Major in Mathematics"
+          },
+          "institution": { "en": "Marinduque State College" },
+          "year": null
+        },
+        {
+          "id": 2,
+          "degree": {
+            "en": "Master of Arts in Education Major in Mathematics"
+          },
+          "institution": { "en": "Marinduque State University" },
+          "year": null,
+          "units": 36
+        }
+      ],
+      "publications": [1]
+    },
+    {
+      "id": 2,
+      "collegeId": 1,
+      "image": "https://drive.google.com/file/d/1aj5s8fWnAGBvHomTM3SLSmpCVOrfsJ2v/view",
+      "name": { "en": "Carmelo O. Alojado" },
+      "academicrank": { "en": "University Lecturer" },
+      "designation": { "en": "Exetension Program Coordinator" },
+      "email": "alojado.carmelo@marsu.edu.ph",
+      "attainment": [
+        {
+          "id": 1,
+          "degree": { "en": "Bachelor of Science in Information Technology" },
+          "institution": { "en": "Marinduque State College" },
+          "year": null
+        },
+        {
+          "id": 2,
+          "degree": { "en": "Master of Science in Information Technology" },
+          "institution": { "en": "Marinduque State University" },
+          "year": null,
+          "units": 36
+        }
+      ],
+      "publications": []
+    },
+    {
+      "id": 3,
+      "collegeId": 1,
+      "image": "https://drive.google.com/file/d/1upZV-7vmz6I4vRhvAIlTTwA61_c4nvw1/view",
+      "name": { "en": "Doreena Joy C. Borja, MIT" },
+      "academicrank": { "en": "Assistant Professor I" },
+      "designation": { "en": "OJT Coordinator" },
+      "email": "borja.doreenajoy@marsu.edu.ph",
+      "attainment": [
+        {
+          "id": 1,
+          "degree": { "en": "Bachelor of Science in Information Technology" },
+          "institution": { "en": "Marinduque State College" },
+          "year": null
+        },
+        {
+          "id": 2,
+          "degree": { "en": "Master of Science in Information Technology" },
+          "institution": { "en": "Marinduque State University" },
+          "year": null,
+          "units": 36
+        }
+      ],
       "publications": []
     }
   ],
@@ -416,7 +940,9 @@
     {
       "id": 1,
       "collegeId": 1,
-      "title": { "en": "" },
+      "title": {
+        "en": "Will Economic Capablity and Technological Availability Affect Graduate Competencies: An Exploratory Study of BS/IT and BSIS Programs"
+      },
       "publicationYear": "",
       "completionYear": "",
       "authors": [],

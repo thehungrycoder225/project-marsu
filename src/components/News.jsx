@@ -71,7 +71,7 @@ function NewsEvents({ collegeKey }) {
 
   return (
     <>
-      <div className='mb-4 flex flex-col md:flex-row gap-2 items-start md:items-center'>
+      {/* <div className='mb-4 flex flex-col md:flex-row gap-2 items-start md:items-center'>
         <input
           type='text'
           placeholder='Search news...'
@@ -79,11 +79,11 @@ function NewsEvents({ collegeKey }) {
           onChange={(e) => setSearch(e.target.value)}
           className='border px-2 py-1 rounded w-full md:w-64'
         />
-      </div>
-      <div className='container mx-auto grid grid-cols-3 md:grid-cols-3 gap-4'>
+      </div> */}
+      <div className='container mx-auto grid grid-cols-2 md:grid-cols-3 gap-4'>
         <div className='col-span-auto md:col-span-2'>
           <h2 className='text-2xl font-bold mb-4'>Featured</h2>
-          <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
+          <div className='grid grid-cols-1 md:grid-cols-1 gap-4'>
             {featuredNews.length > 0 ? (
               featuredNews.map((news) => (
                 <div key={news.id} className='relative'>
@@ -91,10 +91,10 @@ function NewsEvents({ collegeKey }) {
                     <img
                       src={news.imgUrl}
                       alt={news.title?.[lang] || news.title}
-                      className='w-full h-48 object-cover mb-4 rounded'
+                      className='w-full h-60 object-cover mb-4 aspect-ratio-16/9 rounded'
                     />
                   )}
-                  <h3 className='text-md font-semibold mb-2'>
+                  <h3 className='text-lg font-semibold mb-2'>
                     {news.title?.[lang] || news.title}
                   </h3>
                   <p className='text-gray-600 mb-2 text-sm'>
@@ -102,7 +102,9 @@ function NewsEvents({ collegeKey }) {
                       news.description.slice(0, 150) + '...'}
                   </p>
                   {news.author && (
-                    <p className='text-xs text-gray-500'>By {news.author}</p>
+                    <p className='text-xs text-gray-500 my-2'>
+                      By {news.author}
+                    </p>
                   )}
                   {news.tags && news.tags.length > 0 && (
                     <div className='flex flex-wrap gap-1 mb-2'>
@@ -161,7 +163,7 @@ function NewsEvents({ collegeKey }) {
         <div>
           <h2 className='text-2xl font-bold mb-4'>Latest News</h2>
           <div className='grid grid-cols-1 gap-4'>
-            <div className='overflow-y-auto max-h-60'>
+            <div className='overflow-y-auto max-h-96'>
               {paginatedNews.length > 0 ? (
                 paginatedNews.map((news) => (
                   <div key={news.id} className='mb-4 p-2 border-b'>
