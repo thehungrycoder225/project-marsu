@@ -7,7 +7,7 @@ import News from '../../components/News';
 import Navigation from '../../components/CollegeNavigation/CollegeNav';
 import Section from '../../components/Section';
 import CollegeAwards from '../../components/CollegeAwards';
-import './College.css';
+// import './College.css';
 
 function Colleges() {
   const { colleges, loading, error } = useColleges();
