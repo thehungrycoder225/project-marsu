@@ -1,0 +1,1438 @@
+{
+  "version": 1,
+  "updatedAt": "2025-06-10T00:00:00Z",
+  "colleges": [
+    {
+      "id": 1,
+      "collegeKey": "cics",
+      "collegeName": {
+        "en": "College of Information and Computing Sciences",
+        "fil": "Kolehiyo ng Agham Pang-Impormasyon at Kompyuter"
+      },
+      "createdAt": "1998-01-01T00:00:00Z",
+      "updatedAt": "2025-06-10T00:00:00Z",
+      "parentCollegeKey": null,
+      "relatedColleges": ["ceng"],
+      "collegeProfile": [
+        {
+          "tagline": {
+            "en": "Creating Innovation Cultivating Success",
+            "fil": "Lumilikha ng Inobasyon, Nagpapalago ng Tagumpay"
+          },
+          "history": {
+            "en": "The College of Information and Computing Sciences is one of the premier colleges...",
+            "fil": "Ang Kolehiyo ng Agham Pang-Impormasyon at Kompyuter ay isa sa mga pangunahing kolehiyo..."
+          },
+          "goals": {
+            "en": "The teacher education degree programs aim to develop highly motivated and competent teachers...",
+            "fil": "Layunin ng mga programang pang-edukasyon na makapaglinang ng mga guro..."
+          },
+          "objectives": {
+            "en": "Develop elementary and secondary teachers who are personally and professionally equipped...",
+            "fil": "Linangin ang mga guro na may kasanayan sa ika-21 siglong kakayahan..."
+          },
+          "awards": [
+            {
+              "id": 1,
+              "title": {
+                "en": "BEST PERFORMING COLLEGE IN THE LICENSURE EXAMINATION"
+              },
+              "year": 2024,
+              "description": { "en": "" }
+            },
+            {
+              "id": 2,
+              "title": { "en": "BEST PERFORMING DEAN" },
+              "year": 2024,
+              "description": { "en": "" }
+            }
+          ]
+        }
+      ],
+      "programs": [1],
+      "workForce": [1],
+      "research": [1],
+      "studentAchievement": [1],
+      "studentProfile": [1, 2],
+      "studentPublication": [1],
+      "alumni": [1]
+    },
+    {
+      "id": 3,
+      "collegeKey": "ce",
+      "collegeName": {
+        "en": "College of Education",
+        "fil": "Kolehiyo ng Edukasyon"
+      },
+      "createdAt": "1952-01-01T00:00:00Z",
+      "updatedAt": "2025-06-10T00:00:00Z",
+      "parentCollegeKey": null,
+      "relatedColleges": ["cahs"],
+      "collegeProfile": [
+        {
+          "tagline": {
+            "en": "BUILDING THE NATION MOLDING THE FUTURE",
+            "fil": "BINABAWASAN ANG BANSA, HINUHUBOG ANG KINABUKASAN"
+          },
+          "history": {
+            "en": "The College of Education at Marinduque State University has a rich history...",
+            "fil": "Ang Kolehiyo ng Edukasyon sa Marinduque State University ay mayamang kasaysayan..."
+          },
+          "goals": {
+            "en": "The teacher education degree programs aim to develop highly motivated and competent teachers...",
+            "fil": "Layunin ng mga programang pang-edukasyon na makapaglinang ng mga guro..."
+          },
+          "objectives": {
+            "en": "Develop elementary and secondary teachers who are personally and professionally equipped...",
+            "fil": "Linangin ang mga guro na may kasanayan sa ika-21 siglong kakayahan..."
+          },
+          "awards": [
+            {
+              "id": 1,
+              "title": { "en": "THE 1ST DANGAL NG MARSU AWARDS" },
+              "year": 2022,
+              "description": {
+                "en": "BEST PERFORMING COLLEGE IN THE LICENSURE EXAMINATION"
+              }
+            },
+            {
+              "id": 2,
+              "title": { "en": "THE 1ST DANGAL NG MARSU AWARDS" },
+              "year": 2023,
+              "description": { "en": "BEST PERFORMING DEAN" }
+            },
+            {
+              "id": 3,
+              "title": { "en": "THE 1ST DANGAL NG MARSU AWARDS" },
+              "year": 2024,
+              "description": { "en": "BEST PERFORMING COLLEGE" }
+            }
+          ]
+        }
+      ],
+      "programs": [2],
+      "workForce": [2],
+      "research": [2],
+      "studentAchievement": [2],
+      "studentProfile": [3, 4, 5],
+      "studentPublication": [2],
+      "alumni": [2]
+    },
+    {
+      "id": 4,
+      "collegeKey": "cit",
+      "collegeName": {
+        "en": "College of Industrial Technology",
+        "fil": "Kolehiyo ng Teknolohiyang Pang-Industriya"
+      },
+      "createdAt": "1998-01-01T00:00:00Z",
+      "updatedAt": "2025-06-10T00:00:00Z",
+      "parentCollegeKey": null,
+      "relatedColleges": ["ceng"],
+      "collegeProfile": [
+        {
+          "tagline": {
+            "en": "Empowering Lives through Technology",
+            "fil": "Pagtulong sa Pamumuhay sa Pamamagitan ng Teknolohiya"
+          },
+          "history": {
+            "en": "The College of Industrial Technology (CIT) at Marinduque State University...",
+            "fil": "Ang Kolehiyo ng Teknolohiyang Pang-Industriya (CIT) sa Marinduque State University..."
+          },
+          "goals": {
+            "en": "The College of Industrial Technology aims to provide quality education...",
+            "fil": "Layunin ng Kolehiyo ng Teknolohiyang Pang-Industriya na magbigay ng de-kalidad na edukasyon..."
+          },
+          "awards": [
+            {
+              "id": 1,
+              "title": { "en": "MOST OUTSTANDING COLLEGE" },
+              "year": 2024,
+              "description": {
+                "en": "Awarded for exemplary performance and contribution to the university's mission."
+              }
+            }
+          ]
+        }
+      ],
+      "programs": [3],
+      "workForce": [3],
+      "research": [3],
+      "studentAchievement": [3],
+      "studentProfile": [6],
+      "studentPublication": [3],
+      "alumni": [3]
+    },
+    {
+      "id": 5,
+      "collegeKey": "ces",
+      "collegeName": {
+        "en": "College of Environmental Studies",
+        "fil": "Kolehiyo ng mga Pag-aaral sa Kapaligiran"
+      },
+      "createdAt": "1998-01-01T00:00:00Z",
+      "updatedAt": "2025-06-10T00:00:00Z",
+      "parentCollegeKey": null,
+      "relatedColleges": ["cahs"],
+      "collegeProfile": [
+        {
+          "tagline": {
+            "en": "Nurturing Nature, Shaping the Future",
+            "fil": "Pangalagaan ang Kalikasan, Hugis ng Kinabukasan"
+          },
+          "history": {
+            "en": "The College of Environmental Studies (CES) at Marinduque State University...",
+            "fil": "Ang Kolehiyo ng mga Pag-aaral sa Kapaligiran (CES) sa Marinduque State University..."
+          },
+          "goals": {
+            "en": "The College of Environmental Studies aims to promote environmental awareness...",
+            "fil": "Layunin ng Kolehiyo ng mga Pag-aaral sa Kapaligiran na itaguyod ang kamalayan sa kapaligiran..."
+          },
+          "awards": [
+            {
+              "id": 1,
+              "title": { "en": "GREEN COLLEGE AWARD" },
+              "year": 2024,
+              "description": {
+                "en": "In recognition of efforts in promoting sustainable practices."
+              }
+            }
+          ]
+        }
+      ],
+      "programs": [4],
+      "workForce": [4],
+      "research": [4],
+      "studentAchievement": [4],
+      "studentProfile": [7],
+      "studentPublication": [4],
+      "alumni": [4]
+    },
+    {
+      "id": 6,
+      "collegeKey": "cba",
+      "collegeName": {
+        "en": "College of Business Administration",
+        "fil": "Kolehiyo ng Pamamahala sa Negosyo"
+      },
+      "createdAt": "1998-01-01T00:00:00Z",
+      "updatedAt": "2025-06-10T00:00:00Z",
+      "parentCollegeKey": null,
+      "relatedColleges": ["ceng"],
+      "collegeProfile": [
+        {
+          "tagline": {
+            "en": "Leading in Business Education",
+            "fil": "Pangunguna sa Edukasyong Pang-Negosyo"
+          },
+          "history": {
+            "en": "The College of Business Administration (CBA) at Marinduque State University...",
+            "fil": "Ang Kolehiyo ng Pamamahala sa Negosyo (CBA) sa Marinduque State University..."
+          },
+          "goals": {
+            "en": "The College of Business Administration aims to provide excellent business education...",
+            "fil": "Layunin ng Kolehiyo ng Pamamahala sa Negosyo na magbigay ng mahusay na edukasyon sa negosyo..."
+          },
+          "awards": [
+            {
+              "id": 1,
+              "title": { "en": "BEST BUSINESS SCHOOL" },
+              "year": 2024,
+              "description": {
+                "en": "For outstanding performance in business education and research."
+              }
+            }
+          ]
+        }
+      ],
+      "programs": [5],
+      "workForce": [5],
+      "research": [5],
+      "studentAchievement": [5],
+      "studentProfile": [8],
+      "studentPublication": [5],
+      "alumni": [5]
+    },
+    {
+      "id": 7,
+      "collegeKey": "gs",
+      "collegeName": {
+        "en": "Graduate Studies",
+        "fil": "Mga Pag-aaral sa Nakatapos na Antas"
+      },
+      "createdAt": "1998-01-01T00:00:00Z",
+      "updatedAt": "2025-06-10T00:00:00Z",
+      "parentCollegeKey": null,
+      "relatedColleges": ["cahs"],
+      "collegeProfile": [
+        {
+          "tagline": {
+            "en": "Advancing Knowledge, Shaping Futures",
+            "fil": "Pagsulong ng Kaalaman, Pagbubuo ng mga Kinabukasan"
+          },
+          "history": {
+            "en": "The Graduate Studies at Marinduque State University offers advanced education...",
+            "fil": "Ang Mga Pag-aaral sa Nakatapos na Antas sa Marinduque State University ay nag-aalok ng mga advanced na edukasyon..."
+          },
+          "goals": {
+            "en": "The Graduate Studies program aims to provide students with advanced knowledge...",
+            "fil": "Layunin ng programa ng Mga Pag-aaral sa Nakatapos na Antas na bigyan ang mga estudyante ng advanced na kaalaman..."
+          },
+          "awards": [
+            {
+              "id": 1,
+              "title": { "en": "OUTSTANDING GRADUATE SCHOOL" },
+              "year": 2024,
+              "description": {
+                "en": "For excellence in graduate education and community service."
+              }
+            }
+          ]
+        }
+      ],
+      "programs": [6],
+      "workForce": [6],
+      "research": [6],
+      "studentAchievement": [6],
+      "studentProfile": [9],
+      "studentPublication": [6],
+      "alumni": [6]
+    }
+  ],
+  "programs": [
+    {
+      "id": 1,
+      "collegeKey": "cics",
+      "programName": { "en": "Bachelor of Science in Information Systems" },
+      "curriculum": [
+        {
+          "id": 1,
+          "year": "1st Year",
+          "semester": [
+            {
+              "id": 1,
+              "semesterName": "1st Semester",
+              "courseSubject": [
+                {
+                  "id": 1,
+                  "courseName": { "en": "Introduction to Computing" },
+                  "courseCode": "CC101",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 2,
+                  "courseName": { "en": "Mathematics in the Modern World" },
+                  "courseCode": "ISP101",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 3,
+                  "courseName": { "en": "Science, Technology and Society" },
+                  "courseCode": "GE-STS",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 4,
+                  "courseName": { "en": "Purposive Communication" },
+                  "courseCode": "GE-PurCom",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 5,
+                  "courseName": { "en": "Arts Appreciation" },
+                  "courseCode": "GE-ArtApp",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 6,
+                  "courseName": { "en": "Understanding the Self" },
+                  "courseCode": "GE-UTS",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 7,
+                  "courseName": { "en": "Logic and Critical Thinking" },
+                  "courseCode": "GEE101",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 8,
+                  "courseName": { "en": "Movement Competency Training" },
+                  "courseCode": "PATHFIT",
+                  "units": 2,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 9,
+                  "courseName": { "en": "National Service Training Program 1" },
+                  "courseCode": "NSTP1",
+                  "units": 3,
+                  "prerequisite": "None"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "createdAt": "1998-01-01T00:00:00Z",
+      "updatedAt": "2025-06-10T00:00:00Z"
+    },
+    {
+      "id": 2,
+      "collegeKey": "ce",
+      "programName": { "en": "Bachelor of Secondary Education" },
+      "curriculum": [
+        {
+          "id": 1,
+          "year": "1st Year",
+          "semester": [
+            {
+              "id": 1,
+              "semesterName": "1st Semester",
+              "courseSubject": [
+                {
+                  "id": 1,
+                  "courseName": { "en": "Foundation of Education" },
+                  "courseCode": "ED101",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 2,
+                  "courseName": { "en": "Child and Adolescent Development" },
+                  "courseCode": "ED102",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 3,
+                  "courseName": { "en": "The Contemporary World" },
+                  "courseCode": "GE-CW",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 4,
+                  "courseName": { "en": "Purposive Communication" },
+                  "courseCode": "GE-PurCom",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 5,
+                  "courseName": { "en": "Arts Appreciation" },
+                  "courseCode": "GE-ArtApp",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 6,
+                  "courseName": { "en": "Understanding the Self" },
+                  "courseCode": "GE-UTS",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 7,
+                  "courseName": { "en": "Logic and Critical Thinking" },
+                  "courseCode": "GEE101",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 8,
+                  "courseName": { "en": "Movement Competency Training" },
+                  "courseCode": "PATHFIT",
+                  "units": 2,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 9,
+                  "courseName": { "en": "National Service Training Program 1" },
+                  "courseCode": "NSTP1",
+                  "units": 3,
+                  "prerequisite": "None"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "createdAt": "1998-01-01T00:00:00Z",
+      "updatedAt": "2025-06-10T00:00:00Z"
+    },
+    {
+      "id": 3,
+      "collegeKey": "cit",
+      "programName": { "en": "Bachelor of Industrial Technology" },
+      "curriculum": [
+        {
+          "id": 1,
+          "year": "1st Year",
+          "semester": [
+            {
+              "id": 1,
+              "semesterName": "1st Semester",
+              "courseSubject": [
+                {
+                  "id": 1,
+                  "courseName": {
+                    "en": "Introduction to Industrial Technology"
+                  },
+                  "courseCode": "IT101",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 2,
+                  "courseName": { "en": "Engineering Drawing" },
+                  "courseCode": "IT102",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 3,
+                  "courseName": { "en": "Materials Science" },
+                  "courseCode": "IT103",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 4,
+                  "courseName": { "en": "Mechanics" },
+                  "courseCode": "IT104",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 5,
+                  "courseName": { "en": "Electrical Technology" },
+                  "courseCode": "IT105",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 6,
+                  "courseName": { "en": "Electronics Technology" },
+                  "courseCode": "IT106",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 7,
+                  "courseName": { "en": "Programming 101" },
+                  "courseCode": "IT107",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 8,
+                  "courseName": { "en": "Technical Writing" },
+                  "courseCode": "GE-TW",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 9,
+                  "courseName": { "en": "National Service Training Program 1" },
+                  "courseCode": "NSTP1",
+                  "units": 3,
+                  "prerequisite": "None"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "createdAt": "1998-01-01T00:00:00Z",
+      "updatedAt": "2025-06-10T00:00:00Z"
+    },
+    {
+      "id": 4,
+      "collegeKey": "ces",
+      "programName": { "en": "Bachelor of Science in Environmental Science" },
+      "curriculum": [
+        {
+          "id": 1,
+          "year": "1st Year",
+          "semester": [
+            {
+              "id": 1,
+              "semesterName": "1st Semester",
+              "courseSubject": [
+                {
+                  "id": 1,
+                  "courseName": {
+                    "en": "Introduction to Environmental Science"
+                  },
+                  "courseCode": "ES101",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 2,
+                  "courseName": { "en": "Ecology" },
+                  "courseCode": "ES102",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 3,
+                  "courseName": { "en": "Environmental Chemistry" },
+                  "courseCode": "ES103",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 4,
+                  "courseName": { "en": "Environmental Impact Assessment" },
+                  "courseCode": "ES104",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 5,
+                  "courseName": { "en": "Sustainable Development" },
+                  "courseCode": "ES105",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 6,
+                  "courseName": { "en": "Environmental Policy and Law" },
+                  "courseCode": "ES106",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 7,
+                  "courseName": {
+                    "en": "Statistics for Environmental Science"
+                  },
+                  "courseCode": "ES107",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 8,
+                  "courseName": {
+                    "en": "Research Methods in Environmental Science"
+                  },
+                  "courseCode": "GE-RMES",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 9,
+                  "courseName": { "en": "National Service Training Program 1" },
+                  "courseCode": "NSTP1",
+                  "units": 3,
+                  "prerequisite": "None"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "createdAt": "1998-01-01T00:00:00Z",
+      "updatedAt": "2025-06-10T00:00:00Z"
+    },
+    {
+      "id": 5,
+      "collegeKey": "cba",
+      "programName": { "en": "Bachelor of Science in Business Administration" },
+      "curriculum": [
+        {
+          "id": 1,
+          "year": "1st Year",
+          "semester": [
+            {
+              "id": 1,
+              "semesterName": "1st Semester",
+              "courseSubject": [
+                {
+                  "id": 1,
+                  "courseName": { "en": "Principles of Management" },
+                  "courseCode": "BA101",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 2,
+                  "courseName": { "en": "Business Mathematics" },
+                  "courseCode": "BA102",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 3,
+                  "courseName": { "en": "Business Communication" },
+                  "courseCode": "BA103",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 4,
+                  "courseName": { "en": "Principles of Marketing" },
+                  "courseCode": "BA104",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 5,
+                  "courseName": { "en": "Fundamentals of Accounting" },
+                  "courseCode": "BA105",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 6,
+                  "courseName": { "en": "Business Law" },
+                  "courseCode": "BA106",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 7,
+                  "courseName": { "en": "Entrepreneurship" },
+                  "courseCode": "BA107",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 8,
+                  "courseName": { "en": "Research Methods in Business" },
+                  "courseCode": "GE-RMB",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 9,
+                  "courseName": { "en": "National Service Training Program 1" },
+                  "courseCode": "NSTP1",
+                  "units": 3,
+                  "prerequisite": "None"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "createdAt": "1998-01-01T00:00:00Z",
+      "updatedAt": "2025-06-10T00:00:00Z"
+    },
+    {
+      "id": 6,
+      "collegeKey": "gs",
+      "programName": { "en": "Master in Public Administration" },
+      "curriculum": [
+        {
+          "id": 1,
+          "year": "1st Year",
+          "semester": [
+            {
+              "id": 1,
+              "semesterName": "1st Semester",
+              "courseSubject": [
+                {
+                  "id": 1,
+                  "courseName": {
+                    "en": "Theoretical Foundations of Public Administration"
+                  },
+                  "courseCode": "PA501",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 2,
+                  "courseName": { "en": "Public Policy Analysis" },
+                  "courseCode": "PA502",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 3,
+                  "courseName": { "en": "Administrative Behavior" },
+                  "courseCode": "PA503",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 4,
+                  "courseName": {
+                    "en": "Research Methods in Public Administration"
+                  },
+                  "courseCode": "GE-RMPA",
+                  "units": 3,
+                  "prerequisite": "None"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "createdAt": "1998-01-01T00:00:00Z",
+      "updatedAt": "2025-06-10T00:00:00Z"
+    }
+  ],
+  "workForce": [
+    {
+      "id": 1,
+      "collegeKey": "cics",
+      "faculty": [
+        {
+          "id": 1,
+          "image": { "url": "", "alt": "", "copyright": "" },
+          "name": { "en": "" },
+          "designation": { "en": "" },
+          "email": "",
+          "attainment": { "en": "" },
+          "publication": [1]
+        }
+      ],
+      "staff": [
+        {
+          "id": 1,
+          "image": { "url": "", "alt": "" },
+          "name": { "en": "" },
+          "designation": { "en": "" },
+          "email": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "collegeKey": "ce",
+      "faculty": [
+        {
+          "id": 2,
+          "image": { "url": "", "alt": "", "copyright": "" },
+          "name": { "en": "" },
+          "designation": { "en": "" },
+          "email": "",
+          "attainment": { "en": "" },
+          "publication": [2]
+        }
+      ],
+      "staff": [
+        {
+          "id": 2,
+          "image": { "url": "", "alt": "" },
+          "name": { "en": "" },
+          "designation": { "en": "" },
+          "email": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "collegeKey": "cit",
+      "faculty": [
+        {
+          "id": 3,
+          "image": { "url": "", "alt": "", "copyright": "" },
+          "name": { "en": "" },
+          "designation": { "en": "" },
+          "email": "",
+          "attainment": { "en": "" },
+          "publication": [3]
+        }
+      ],
+      "staff": [
+        {
+          "id": 3,
+          "image": { "url": "", "alt": "" },
+          "name": { "en": "" },
+          "designation": { "en": "" },
+          "email": ""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "collegeKey": "ces",
+      "faculty": [
+        {
+          "id": 4,
+          "image": { "url": "", "alt": "", "copyright": "" },
+          "name": { "en": "" },
+          "designation": { "en": "" },
+          "email": "",
+          "attainment": { "en": "" },
+          "publication": [4]
+        }
+      ],
+      "staff": [
+        {
+          "id": 4,
+          "image": { "url": "", "alt": "" },
+          "name": { "en": "" },
+          "designation": { "en": "" },
+          "email": ""
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "collegeKey": "cba",
+      "faculty": [
+        {
+          "id": 5,
+          "image": { "url": "", "alt": "", "copyright": "" },
+          "name": { "en": "" },
+          "designation": { "en": "" },
+          "email": "",
+          "attainment": { "en": "" },
+          "publication": [5]
+        }
+      ],
+      "staff": [
+        {
+          "id": 5,
+          "image": { "url": "", "alt": "" },
+          "name": { "en": "" },
+          "designation": { "en": "" },
+          "email": ""
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "collegeKey": "gs",
+      "faculty": [
+        {
+          "id": 6,
+          "image": { "url": "", "alt": "", "copyright": "" },
+          "name": { "en": "" },
+          "designation": { "en": "" },
+          "email": "",
+          "attainment": { "en": "" },
+          "publication": [6]
+        }
+      ],
+      "staff": [
+        {
+          "id": 6,
+          "image": { "url": "", "alt": "" },
+          "name": { "en": "" },
+          "designation": { "en": "" },
+          "email": ""
+        }
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": 1,
+      "collegeKey": "cics",
+      "research": [
+        {
+          "id": 1,
+          "title": { "en": "" },
+          "publicationYear": "",
+          "completionYear": "",
+          "authors": "",
+          "indices": "",
+          "abstract": { "en": "" }
+        }
+      ],
+      "extension": [
+        {
+          "id": 1,
+          "title": { "en": "" },
+          "publicationYear": "",
+          "completionYear": "",
+          "authors": "",
+          "indices": "",
+          "abstract": { "en": "" }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "collegeKey": "ce",
+      "research": [
+        {
+          "id": 2,
+          "title": { "en": "" },
+          "publicationYear": "",
+          "completionYear": "",
+          "authors": "",
+          "indices": "",
+          "abstract": { "en": "" }
+        }
+      ],
+      "extension": [
+        {
+          "id": 2,
+          "title": { "en": "" },
+          "publicationYear": "",
+          "completionYear": "",
+          "authors": "",
+          "indices": "",
+          "abstract": { "en": "" }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "collegeKey": "cit",
+      "research": [
+        {
+          "id": 3,
+          "title": { "en": "" },
+          "publicationYear": "",
+          "completionYear": "",
+          "authors": "",
+          "indices": "",
+          "abstract": { "en": "" }
+        }
+      ],
+      "extension": [
+        {
+          "id": 3,
+          "title": { "en": "" },
+          "publicationYear": "",
+          "completionYear": "",
+          "authors": "",
+          "indices": "",
+          "abstract": { "en": "" }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "collegeKey": "ces",
+      "research": [
+        {
+          "id": 4,
+          "title": { "en": "" },
+          "publicationYear": "",
+          "completionYear": "",
+          "authors": "",
+          "indices": "",
+          "abstract": { "en": "" }
+        }
+      ],
+      "extension": [
+        {
+          "id": 4,
+          "title": { "en": "" },
+          "publicationYear": "",
+          "completionYear": "",
+          "authors": "",
+          "indices": "",
+          "abstract": { "en": "" }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "collegeKey": "cba",
+      "research": [
+        {
+          "id": 5,
+          "title": { "en": "" },
+          "publicationYear": "",
+          "completionYear": "",
+          "authors": "",
+          "indices": "",
+          "abstract": { "en": "" }
+        }
+      ],
+      "extension": [
+        {
+          "id": 5,
+          "title": { "en": "" },
+          "publicationYear": "",
+          "completionYear": "",
+          "authors": "",
+          "indices": "",
+          "abstract": { "en": "" }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "collegeKey": "gs",
+      "research": [
+        {
+          "id": 6,
+          "title": { "en": "" },
+          "publicationYear": "",
+          "completionYear": "",
+          "authors": "",
+          "indices": "",
+          "abstract": { "en": "" }
+        }
+      ],
+      "extension": [
+        {
+          "id": 6,
+          "title": { "en": "" },
+          "publicationYear": "",
+          "completionYear": "",
+          "authors": "",
+          "indices": "",
+          "abstract": { "en": "" }
+        }
+      ]
+    }
+  ],
+  "studentAchievement": [
+    {
+      "id": 1,
+      "collegeKey": "cics",
+      "type": { "en": "" },
+      "description": { "en": "" }
+    },
+    {
+      "id": 2,
+      "collegeKey": "ce",
+      "type": { "en": "" },
+      "description": { "en": "" }
+    },
+    {
+      "id": 3,
+      "collegeKey": "cit",
+      "type": { "en": "" },
+      "description": { "en": "" }
+    },
+    {
+      "id": 4,
+      "collegeKey": "ces",
+      "type": { "en": "" },
+      "description": { "en": "" }
+    },
+    {
+      "id": 5,
+      "collegeKey": "cba",
+      "type": { "en": "" },
+      "description": { "en": "" }
+    },
+    {
+      "id": 6,
+      "collegeKey": "gs",
+      "type": { "en": "" },
+      "description": { "en": "" }
+    }
+  ],
+  "studentProfile": [
+    {
+      "id": 1,
+      "collegeKey": "cics",
+      "programName": { "en": "Bachelor of Science in Information Technology" },
+      "rate": "",
+      "image": { "url": "", "alt": "" }
+    },
+    {
+      "id": 2,
+      "collegeKey": "cics",
+      "programName": { "en": "Bachelor of Science in Information Systems" },
+      "rate": "",
+      "image": { "url": "", "alt": "" }
+    },
+    {
+      "id": 3,
+      "collegeKey": "ce",
+      "programName": { "en": "Bachelor of Secondary Education" },
+      "rate": "",
+      "image": { "url": "", "alt": "" }
+    },
+    {
+      "id": 4,
+      "collegeKey": "ce",
+      "programName": { "en": "Bachelor of Culture and Arts Education" },
+      "rate": "",
+      "image": { "url": "", "alt": "" }
+    },
+    {
+      "id": 5,
+      "collegeKey": "ce",
+      "programName": {
+        "en": "Bachelor of Technology and Livelihood Education"
+      },
+      "rate": "",
+      "image": { "url": "", "alt": "" }
+    },
+    {
+      "id": 6,
+      "collegeKey": "cit",
+      "programName": { "en": "Bachelor of Industrial Technology" },
+      "rate": "",
+      "image": { "url": "", "alt": "" }
+    },
+    {
+      "id": 7,
+      "collegeKey": "ces",
+      "programName": { "en": "Bachelor of Science in Environmental Science" },
+      "rate": "",
+      "image": { "url": "", "alt": "" }
+    },
+    {
+      "id": 8,
+      "collegeKey": "cba",
+      "programName": { "en": "Bachelor of Science in Business Administration" },
+      "rate": "",
+      "image": { "url": "", "alt": "" }
+    },
+    {
+      "id": 9,
+      "collegeKey": "gs",
+      "programName": { "en": "Master in Public Administration" },
+      "rate": "",
+      "image": { "url": "", "alt": "" }
+    }
+  ],
+  "studentPublication": [
+    {
+      "id": 1,
+      "collegeKey": "cics",
+      "studentOrg": [
+        {
+          "id": 1,
+          "name": { "en": "" },
+          "designation": { "en": "" },
+          "image": { "url": "", "alt": "" }
+        }
+      ],
+      "accomplishments": [
+        {
+          "id": 1,
+          "title": { "en": "" },
+          "description": { "en": "" },
+          "image": { "url": "", "alt": "" }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "collegeKey": "ce",
+      "studentOrg": [
+        {
+          "id": 2,
+          "name": { "en": "" },
+          "designation": { "en": "" },
+          "image": { "url": "", "alt": "" }
+        }
+      ],
+      "accomplishments": [
+        {
+          "id": 2,
+          "title": { "en": "" },
+          "description": { "en": "" },
+          "image": { "url": "", "alt": "" }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "collegeKey": "cit",
+      "studentOrg": [
+        {
+          "id": 3,
+          "name": { "en": "" },
+          "designation": { "en": "" },
+          "image": { "url": "", "alt": "" }
+        }
+      ],
+      "accomplishments": [
+        {
+          "id": 3,
+          "title": { "en": "" },
+          "description": { "en": "" },
+          "image": { "url": "", "alt": "" }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "collegeKey": "ces",
+      "studentOrg": [
+        {
+          "id": 4,
+          "name": { "en": "" },
+          "designation": { "en": "" },
+          "image": { "url": "", "alt": "" }
+        }
+      ],
+      "accomplishments": [
+        {
+          "id": 4,
+          "title": { "en": "" },
+          "description": { "en": "" },
+          "image": { "url": "", "alt": "" }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "collegeKey": "cba",
+      "studentOrg": [
+        {
+          "id": 5,
+          "name": { "en": "" },
+          "designation": { "en": "" },
+          "image": { "url": "", "alt": "" }
+        }
+      ],
+      "accomplishments": [
+        {
+          "id": 5,
+          "title": { "en": "" },
+          "description": { "en": "" },
+          "image": { "url": "", "alt": "" }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "collegeKey": "gs",
+      "studentOrg": [
+        {
+          "id": 6,
+          "name": { "en": "" },
+          "designation": { "en": "" },
+          "image": { "url": "", "alt": "" }
+        }
+      ],
+      "accomplishments": [
+        {
+          "id": 6,
+          "title": { "en": "" },
+          "description": { "en": "" },
+          "image": { "url": "", "alt": "" }
+        }
+      ]
+    }
+  ],
+  "alumni": [
+    {
+      "id": 1,
+      "collegeKey": "cics",
+      "tracer": [
+        {
+          "id": 1,
+          "image": { "url": "", "alt": "" },
+          "name": { "en": "" },
+          "career": { "en": "" }
+        }
+      ],
+      "testimonials": [
+        {
+          "id": 1,
+          "image": { "url": "", "alt": "" },
+          "name": { "en": "" },
+          "story": { "en": "" }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "collegeKey": "ce",
+      "tracer": [
+        {
+          "id": 2,
+          "image": { "url": "", "alt": "" },
+          "name": { "en": "" },
+          "career": { "en": "" }
+        }
+      ],
+      "testimonials": [
+        {
+          "id": 2,
+          "image": { "url": "", "alt": "" },
+          "name": { "en": "" },
+          "story": { "en": "" }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "collegeKey": "cit",
+      "tracer": [
+        {
+          "id": 3,
+          "image": { "url": "", "alt": "" },
+          "name": { "en": "" },
+          "career": { "en": "" }
+        }
+      ],
+      "testimonials": [
+        {
+          "id": 3,
+          "image": { "url": "", "alt": "" },
+          "name": { "en": "" },
+          "story": { "en": "" }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "collegeKey": "ces",
+      "tracer": [
+        {
+          "id": 4,
+          "image": { "url": "", "alt": "" },
+          "name": { "en": "" },
+          "career": { "en": "" }
+        }
+      ],
+      "testimonials": [
+        {
+          "id": 4,
+          "image": { "url": "", "alt": "" },
+          "name": { "en": "" },
+          "story": { "en": "" }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "collegeKey": "cba",
+      "tracer": [
+        {
+          "id": 5,
+          "image": { "url": "", "alt": "" },
+          "name": { "en": "" },
+          "career": { "en": "" }
+        }
+      ],
+      "testimonials": [
+        {
+          "id": 5,
+          "image": { "url": "", "alt": "" },
+          "name": { "en": "" },
+          "story": { "en": "" }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "collegeKey": "gs",
+      "tracer": [
+        {
+          "id": 6,
+          "image": { "url": "", "alt": "" },
+          "name": { "en": "" },
+          "career": { "en": "" }
+        }
+      ],
+      "testimonials": [
+        {
+          "id": 6,
+          "image": { "url": "", "alt": "" },
+          "name": { "en": "" },
+          "story": { "en": "" }
+        }
+      ]
+    }
+  ]
+}

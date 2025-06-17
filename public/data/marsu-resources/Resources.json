@@ -1,0 +1,1018 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-06-10T00:00:00Z",
+  "colleges": [
+    {
+      "id": 1,
+      "name": { "en": "College of Information and Computing Sciences" },
+      "slug": "college-of-information-and-computing-sciences",
+      "shortName": { "en": "cics" },
+      "profile": {
+        "tagline": { "en": "Creating innovation, cultivating success" },
+        "history": {
+          "en": "The College of Information and Computing Sciences is one of the premier colleges in the province for IT Education and services. It aims to produce competitive IT professionals and IT-enabled individuals who will encourage real innovation for the advancement in the digital era of the province and the country as a whole.\nThe college was established in 1998 at MSC Boac Campus through BOT Resolution No. 35, s. 1998 as Institute of Information and Computing Sciences (IICS), a special program to offer Associate in Computer Technology (ACT). Believing that the province needs IT Human Resources, after two years, IICS was adopted as the School of Information and Computing Sciences (SICS), offering two emerging degree programs Bachelor of Science in Information Management and Bachelor of Science in Information Technology to cater to the graduates of ACT. Bachelor of Science in Information Management was also offered in Sta. Cruz Campus. The Bachelor of Science in Information Management (BSIM) was renamed to the Bachelor of Science in Information Systems (BSIS) to adapt to CHED Memorandum Order No. 53 series of 2006.\nAfter a decade, the Marinduque State College had an organizational restructuring wherein two of the big schools in the college were merged. The School of Industrial Technology and the School of Information and Computing Sciences convergence paved the way for the School of Technology's birth in 2016. After three years of being together, the two schools parted ways due to another organizational restructuring and SICS was re-birth in 2019.\nIn 2021, however, SICS was converted to the Institute of Information Systems and Technology (IIST) and became part of the College of Engineering, Information and Industrial Technology (CEIIT) together with the Institute of Engineering and Department of Industrial Technology to centralize the resources of these three into a single college. But once again, fate has plans for this institute and let it navigate its ship on its own. Finally, the former school was converted into a college, banning the name of the College of Information and Computing Sciences (CICS).\nIn 25 years of its existence, CICS has contributed significantly to MSC's mandates in Instruction, Research, Extension, and Production. Currently, both the BS in Information Systems and BS in Information Technology in Boac Campus are Level III Re-Accredited by the Accrediting Agency of Chartered Colleges and Universities in the Philippines (AACCUP), while the BS in Information Systems in Sta. Cruz Campus is Level II Re-Accredited. CICS has produced thousands of IT professionals serving in the province, other parts of the country, and even the global industry. Faculty and students are also actively engaged in research through various local and international presentations and publications. CICS also serves the community by providing relevant extension projects and activities.\nFor the years to come, CICS still commits to giving what their stakeholders deserve through quality education and public service with their mantra, 'WORK IN SILENCE AND LET OUR SUCCESS MAKE OUR NOISE!'"
+        },
+        "goals": {
+          "en": "To produce competitive IT professionals and IT enabled individuals who will encourage real innovation for the advancement in the digital era of the province and the country as a whole."
+        },
+        "awards": [
+          {
+            "id": 1,
+            "title": {
+              "en": "National Digital Challenge - 1st Place"
+            },
+            "year": 2024,
+            "description": {
+              "en": "Pollux Rey won the 1st Place in the National Digital Challenge 2024, showcasing their innovative solutions and technical expertise in the field of information technology."
+            },
+            "icon": "../../images/gold-medal.png"
+          },
+          {
+            "id": 2,
+            "title": {
+              "en": "DANGAL 2024 - Best Extension Program - CICS TechnoHub"
+            },
+            "year": 2024,
+            "description": {
+              "en": "The CICS TechnoHub, a collaborative initiative providing technology support and training to local communities, was recognized as the Best Extension Program at the DANGAL 2024 Awards."
+            },
+            "icon": "../../images/gold-medal.png"
+          },
+          {
+            "id": 3,
+            "title": {
+              "en": "AACCUP Level III Re-Accreditation"
+            },
+            "year": 2024,
+            "description": {
+              "en": "The Bachelor of Science in Information Systems and Bachelor of Science in Information Technology programs achieved Level III Re-Accreditation from the Accrediting Agency of Chartered Colleges and Universities in the Philippines (AACCUP)."
+            },
+            "icon": "images/gold-medal.png"
+          }
+        ]
+      },
+      "programIds": [1, 2],
+      "news": [
+        {
+          "id": 1,
+          "imgUrl": "https://scontent.fmnl4-7.fna.fbcdn.net/v/t39.30808-6/506404512_122258562824074473_1152407901904797597_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEriHamDt70_sLHfw9cwUzxJWzewUvvcyMlbN7BS-9zIwfYkBG3ftUaqiYXseUP2p0&_nc_ohc=12i-LibneLwQ7kNvwEphogI&_nc_oc=AdkUh3U9D4xZDf9ZLSyOcSzDpzS5jT22FOVa2rxYsG9Wq91_Xo_0gr-C-uyYKo4iZp4&_nc_zt=23&_nc_ht=scontent.fmnl4-7.fna&_nc_gid=dwEKghIrOZOvuor1YdN4XQ&oh=00_AfMiOtIwSmjZiE3Xmq0jVsgkoa4lmj1hioqDpfmKad5Zsg&oe=6855456B",
+          "gallery": [
+            "https://placehold.co/600x400",
+            "https://placehold.co/600x400",
+            "https://placehold.co/600x400"
+          ],
+          "title": {
+            "en": "MARSU Conducts Its 69th Annual Commencement Exercise Class 2025"
+          },
+          "date": "2025-06-14",
+          "description": {
+            "en": "The Marinduque State University (MARSU) held its 69th Annual Commencement Exercise for the Class of 2025 on June 14, 2025, at the MSC Boac Campus."
+          },
+          "content": {
+            "en": "As we look back on this special day, we honor the graduates of the College of Information and Computing Sciences, those who pushed through every challenge, stayed up late to finish projects, and kept going even when things got tough this moment is proof that all the hard work was worth it. From sleepless nights to moments of victory, they finally made it !."
+          },
+          "articleUrl": "/colleges/cics/news/1",
+          "isFeatured": true,
+          "author": "Infocus Publication",
+          "tags": ["Graduation", "Ceremony"]
+        },
+        {
+          "id": 2,
+          "imgUrl": "https://scontent.fmnl4-3.fna.fbcdn.net/v/t39.30808-6/386736911_122094549284074473_3777068919360151330_n.png?_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeFtmPSGmiR8yUuH1WtVdllc3SWxNllQt2HdJbE2WVC3YaGpfoCV9HEc9TxnEDDH4HE&_nc_ohc=i_u9lOwDnK8Q7kNvwEWB4T8&_nc_oc=AdnqltcAjfDs6r8vb0HHmFUD5wRQIvIhSY2CX5nPXvS7aVoWCl4E3zUh46HNr-351L8&_nc_zt=23&_nc_ht=scontent.fmnl4-3.fna&_nc_gid=VAt5aqf0KrJuKUd3NSCqEQ&oh=00_AfNPd7aviP3e1Tk40tkr2igvZ2cOkvQCZPu52GBnUICq-A&oe=685689B2",
+          "gallery": [
+            "https://placehold.co/600x400",
+            "https://placehold.co/600x400",
+            "https://placehold.co/600x400"
+          ],
+          "title": { "en": "A Legendary Send-off" },
+          "date": "2025-03-15",
+          "description": {
+            "en": "A legendary send-off for the graduating class of 2025."
+          },
+          "content": {
+            "en": "It’s never easy to say goodbye to people who helped shape what a team truly means.\nTo our graduates — thank you. You were more than your roles. You were the ones behind the camera, behind the sketches, behind the sound checks. You were there when things got tough, when events popped up out of nowhere, when we had to run from one building to another with barely any rest. You still showed up, even if your house was far, even if your body was tired, even if the weather wasn’t on our side.\nYou captured moments, made people feel seen, and gave meaning to the smallest details. And you didn’t ask for recognition — you simply did what needed to be done, and you did it with heart.\nBarney once said, “𝘞𝘩𝘢𝘵𝘦𝘷𝘦𝘳 𝘺𝘰𝘶 𝘥𝘰 𝘪𝘯 𝘵𝘩𝘪𝘴 𝘭𝘪𝘧𝘦, 𝘪𝘵’𝘴 𝘯𝘰𝘵 𝘭𝘦𝘨𝘦𝘯𝘥𝘢𝘳𝘺 𝘶𝘯𝘭𝘦𝘴𝘴 𝘺𝘰𝘶𝘳 𝘧𝘳𝘪𝘦𝘯𝘥𝘴 𝘢𝘳𝘦 𝘵𝘩𝘦𝘳𝘦 𝘵𝘰 𝘴𝘦𝘦 𝘪𝘵.” And we were here to witness it — the late nights, the technical hiccups, the creative rushes, the laughter in between. It wasn’t always perfect, but it was real. It was honest. And it was legendary because you were part of it.\nWe’ve always worked in the moment — live coverage, real-time adjustments, no time for rewrites. And that’s also how this goodbye feels. Sudden. Fast. But meaningful.\nRobin once said, “𝘛𝘩𝘦 𝘧𝘶𝘵𝘶𝘳𝘦 𝘪𝘴 𝘴𝘤𝘢𝘳𝘺, 𝘣𝘶𝘵 𝘺𝘰𝘶 𝘤𝘢𝘯’𝘵 𝘫𝘶𝘴𝘵 𝘳𝘶𝘯 𝘣𝘢𝘤𝘬 𝘵𝘰 𝘵𝘩𝘦 𝘱𝘢𝘴𝘵 𝘣𝘦𝘤𝘢𝘶𝘴𝘦 𝘪𝘵’𝘴 𝘧𝘢𝘮𝘪𝘭𝘪𝘢𝘳.” And while it’s sad to let go of this chapter, we know you’re ready for what’s next. You’ve already proven how strong, passionate, and reliable you are. And whatever comes after this, we know you’ll carry those same values forward.\nYou’re graduating, but your presence stays with us. In every shoot we do, every layout we polish, every small thing we learned from you — you’ll be there, too.\nFrom all of us still here, thank you for the patience, the guidance, the small talks during long days, and for choosing to stay, even when it was hard.\nYou’ve made your mark. You’ll always be part of our story.\nWith love and pride,\nInfocus Family"
+          },
+          "articleUrl": "/colleges/cics/news/2",
+          "isFeatured": false,
+          "author": ["Infocus Publication"],
+          "tags": ["Graduation", "Send-off"]
+        },
+        {
+          "id": 3,
+          "imgUrl": "https://scontent.fmnl4-7.fna.fbcdn.net/v/t39.30808-6/506341579_1176362401174939_6901917840226455256_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeH1se3o7Uhx7iM9cmg9Yd2YKk8KFes87fYqTwoV6zzt9kjRqnA5hpt8I0V3O7Gu3AE&_nc_ohc=8xhLDeyB4VEQ7kNvwEbeKbR&_nc_oc=AdnCgchraDAwwkPQQPgoFJsJDOm0z8SeHi_iQy4tj78jWk_KwA0EIDecG1uSy11IUnA&_nc_zt=23&_nc_ht=scontent.fmnl4-7.fna&_nc_gid=cPFcAT3NFGsjsYPH-Nyatw&oh=00_AfNGM64zy4OHIA5HZ_fTdk61PaA940dw5nD1TgFJzX8M6A&oe=68569729",
+          "gallery": [
+            "https://placehold.co/600x400",
+            "https://placehold.co/600x400",
+            "https://placehold.co/600x400"
+          ],
+          "title": { "en": "Happy Independence Day" },
+          "date": "2025-06-12",
+          "description": {
+            "en": "Celebrating the bravery and sacrifices of Filipinos during the revolution."
+          },
+          "content": {
+            "en": "When the revolution broke out in 1896, Filipinos risked their lives to fight for freedom from the colonizers. One of the key figures in the Philippine Revolution who offered shelter, food, and medical aid to the Katipunan revolutionaries was Melchora Aquino, known as Tandang Sora. She was also honored with the titles “Mother of the Katipunan” and “Grand Woman of the Revolution.” As a supporter of the Katipunan, she provided them with rice and cattle for food, as spotted in the photo. #RP612fic"
+          },
+          "articleUrl": "/colleges/cics/news/3",
+          "isFeatured": false,
+          "author": ["CiCS Official Page"],
+          "tags": ["Independence Day", "History"]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": { "en": "College of Engineering" },
+      "slug": "college-of-engineering",
+      "shortName": { "en": "ceng" },
+      "profile": {
+        "tagline": { "en": "Engineering the future, building the nation" },
+        "history": {
+          "en": "The College of Engineering has been a cornerstone of Marinduque State College since its inception, providing quality education in various engineering disciplines. Established in 1995, it has evolved to meet the changing needs of the industry and society."
+        },
+        "goals": {
+          "en": "To produce highly skilled engineers who can contribute to national development and innovation."
+        },
+        "awards": []
+      },
+      "programIds": [2],
+      "news": [
+        {
+          "id": 1,
+          "imgUrl": "https://placehold.co/600x400",
+          "title": { "en": "Engineering Symposium 2025" },
+          "date": "2025-05-20",
+          "content": {
+            "en": "Join us for the Engineering Symposium 2025 where students will present their innovative projects."
+          },
+          "articleUrl": "https://example.com/news4",
+          "isFeatured": true,
+          "author": "Engr. Emily Stone",
+          "tags": ["Symposium", "Engineering"]
+        },
+        {
+          "id": 2,
+          "imgUrl": "https://placehold.co/600x400",
+          "title": { "en": "New Faculty Appointment" },
+          "date": "2025-04-15",
+          "content": {
+            "en": "We are pleased to announce the appointment of Dr. Mark Lee as a new faculty member."
+          },
+          "articleUrl": "https://example.com/news5",
+          "isFeatured": false,
+          "author": "Admin",
+          "tags": ["Faculty", "Appointment"]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": { "en": "College of Arts and Sciences" },
+      "slug": "college-of-arts-and-sciences",
+      "shortName": { "en": "cass" },
+      "profile": {
+        "tagline": { "en": "Cultivating creativity, fostering knowledge" },
+        "history": {
+          "en": "The College of Arts and Sciences has been integral to the cultural and intellectual development of Marinduque State College since its establishment in 1990. It offers a diverse range of programs that promote critical thinking and creativity."
+        },
+        "goals": {
+          "en": "To nurture creative thinkers and lifelong learners who can contribute to society through the arts and sciences."
+        },
+        "awards": []
+      },
+      "programIds": [3],
+      "news": [
+        {
+          "id": 1,
+          "imgUrl": "https://placehold.co/600x400",
+          "title": { "en": "Art Exhibition 2025" },
+          "date": "2025-06-05",
+          "content": {
+            "en": "The College of Arts and Sciences invites you to the annual Art Exhibition showcasing student artworks."
+          },
+          "articleUrl": "/colleges/cass/news/1",
+          "isFeatured": true,
+          "author": "Prof. Sarah Connor",
+          "tags": ["Art", "Exhibition"]
+        },
+        {
+          "id": 2,
+          "imgUrl": "https://placehold.co/600x400",
+          "title": { "en": "New Course Offerings" },
+          "date": "2025-05-10",
+          "content": {
+            "en": "We are excited to announce new course offerings for the upcoming academic year."
+          },
+          "articleUrl": "/colleges/cass/news/2",
+          "isFeatured": false,
+          "author": "Admin",
+          "tags": ["Courses", "Announcement"]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": { "en": "College of Industrial Technology" },
+      "slug": "college-of-industrial-technology",
+      "shortName": { "en": "cit" },
+      "profile": {
+        "tagline": { "en": "Empowering future innovators" },
+        "history": {
+          "en": "The College of Industrial Technology has been a vital part of Marinduque State University since its establishment, offering programs that equip students with the skills needed for the dynamic industrial environment."
+        },
+        "goals": {
+          "en": "To produce highly skilled technicians who can contribute to the industrial development of the province."
+        },
+        "awards": []
+      },
+      "programIds": [4],
+      "news": [
+        {
+          "id": 1,
+          "imgUrl": "https://placehold.co/600x400",
+          "title": { "en": "Tech Innovators Conference 2025" },
+          "date": "2025-07-10",
+          "content": {
+            "en": "Save the date for the Tech Innovators Conference 2025, featuring industry leaders and experts."
+          },
+          "articleUrl": "https://example.com/news8",
+          "isFeatured": true,
+          "author": "Engr. Tony Stark",
+          "tags": ["Conference", "Technology"]
+        },
+        {
+          "id": 2,
+          "imgUrl": "https://placehold.co/600x400",
+          "title": { "en": "Workshop on Emerging Technologies" },
+          "date": "2025-06-15",
+          "content": {
+            "en": "Join our workshop on emerging technologies and learn from the best in the field."
+          },
+          "articleUrl": "https://example.com/news9",
+          "isFeatured": false,
+          "author": "Admin",
+          "tags": ["Workshop", "Technologies"]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": { "en": "College of Business and Accountancy" },
+      "slug": "college-of-business-and-accountancy",
+      "shortName": { "en": "cba" },
+      "profile": {
+        "tagline": { "en": "Driving business excellence" },
+        "history": {
+          "en": "The College of Business and Management has been a leader in business education in Marinduque since its establishment, providing students with the knowledge and skills needed to excel in the business world."
+        },
+        "goals": {
+          "en": "To develop future business leaders who can drive economic growth and innovation."
+        },
+        "awards": []
+      },
+      "programIds": [5],
+      "news": [
+        {
+          "id": 1,
+          "imgUrl": "https://placehold.co/600x400",
+          "title": { "en": "Business Leaders Forum 2025" },
+          "date": "2025-08-20",
+          "content": {
+            "en": "Don't miss the Business Leaders Forum 2025, a gathering of top executives and entrepreneurs."
+          },
+          "articleUrl": "https://example.com/news10",
+          "isFeatured": true,
+          "author": "Mr. Richard Branson",
+          "tags": ["Forum", "Business"]
+        },
+        {
+          "id": 2,
+          "imgUrl": "https://placehold.co/600x400",
+          "title": { "en": "New MBA Program Launch" },
+          "date": "2025-07-25",
+          "content": {
+            "en": "We are thrilled to announce the launch of our new MBA program designed for aspiring business leaders."
+          },
+          "articleUrl": "https://example.com/news11",
+          "isFeatured": false,
+          "author": "Admin",
+          "tags": ["MBA", "Program"]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": { "en": "College of Education" },
+      "slug": "college-of-education",
+      "shortName": { "en": "coed" },
+      "profile": {
+        "tagline": { "en": "Inspiring future educators" },
+        "history": {
+          "en": "The College of Education has been shaping the future of education in Marinduque since its establishment, providing quality training for aspiring teachers."
+        },
+        "goals": {
+          "en": "To produce competent and compassionate educators who can inspire and lead the next generation."
+        },
+        "awards": []
+      },
+      "programIds": [6],
+      "news": [
+        {
+          "id": 1,
+          "imgUrl": "https://placehold.co/600x400",
+          "title": { "en": "Education Summit 2025" },
+          "date": "2025-09-15",
+          "content": {
+            "en": "Join us at the Education Summit 2025 to explore the future of education."
+          },
+          "articleUrl": "https://example.com/news12",
+          "isFeatured": true,
+          "author": "Dr. Maria Montessori",
+          "tags": ["Summit", "Education"]
+        },
+        {
+          "id": 2,
+          "imgUrl": "https://placehold.co/600x400",
+          "title": { "en": "New Scholarship Program" },
+          "date": "2025-08-05",
+          "content": {
+            "en": "We are excited to introduce a new scholarship program for deserving education students."
+          },
+          "articleUrl": "https://example.com/news13",
+          "isFeatured": false,
+          "author": "Admin",
+          "tags": ["Scholarship", "Education"]
+        }
+      ]
+    }
+  ],
+  "news": [],
+  "programs": [
+    {
+      "id": 1,
+      "collegeId": 1,
+      "name": { "en": "Bachelor of Science in Information Technology" },
+      "description": {
+        "en": "The Bachelor of Science in Information Technology program prepares students for a career in the IT industry, focusing on software development, network management, and database administration."
+      },
+      "curriculum": [
+        {
+          "id": 1,
+          "year": "1st Year",
+          "semesters": [
+            {
+              "id": 1,
+              "name": "1st Semester",
+              "courses": [
+                {
+                  "id": 1,
+                  "name": { "en": "Introduction to Computing" },
+                  "code": "CC101",
+                  "units": 3,
+                  "prerequisite": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "outcomes": [],
+      "studyPlans": [],
+      "careerOpportunities": [
+        {
+          "id": 1,
+          "career": { "en": "" },
+          "description": { "en": "" },
+          "salaryRange": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "collegeId": 2,
+      "name": { "en": "Bachelor of Science in Information Systems" },
+      "description": {
+        "en": "The Bachelor of Science in Information Systems program focuses on the application of technology in business settings, preparing students for careers in IT management and consulting."
+      },
+      "curriculum": [
+        {
+          "id": 1,
+          "year": "1st Year",
+          "semesters": [
+            {
+              "id": 1,
+              "name": "1st Semester",
+              "courses": [
+                {
+                  "id": 1,
+                  "name": { "en": "Introduction to Computing" },
+                  "code": "CC101",
+                  "units": 3,
+                  "prerequisite": null
+                },
+                {
+                  "id": 2,
+                  "name": { "en": "Mathematics in the Modern World" },
+                  "code": "MMW101",
+                  "units": 3,
+                  "prerequisite": null
+                },
+                {
+                  "id": 3,
+                  "courseName": "Science, Technology and Society",
+                  "courseCode": "GE-STS",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 4,
+                  "courseName": "Purposive Communication",
+                  "courseCode": "GE-PurCom",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 5,
+                  "courseName": "Arts Appreciation",
+                  "courseCode": "GE-ArtApp",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 6,
+                  "courseName": "Understanding the self",
+                  "courseCode": "GE-UTS",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 7,
+                  "courseName": "Logic and critical Thinking",
+                  "courseCode": "GEE101",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 8,
+                  "courseName": "Movement Competency Training",
+                  "courseCode": "PATHFIT",
+                  "units": 2,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 9,
+                  "courseName": "National Service Training Program 1",
+                  "courseCode": "NSTP1",
+                  "units": 3,
+                  "prerequisite": "None"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "name": "2nd Semester",
+              "courses": [
+                {
+                  "id": 1,
+                  "courseName": "Computer Programming 1",
+                  "courseCode": "CC102",
+                  "units": 3,
+                  "prerequisite": "CC101"
+                },
+                {
+                  "id": 2,
+                  "courseName": "Fundamentals of Information System",
+                  "courseCode": "ISP101",
+                  "units": 3,
+                  "prerequisite": "CC101"
+                },
+                {
+                  "id": 3,
+                  "courseName": "Organization and Management Concepts",
+                  "courseCode": "ISP103",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 4,
+                  "courseName": "Business Process Management",
+                  "courseCode": "ISP102",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 5,
+                  "courseName": "Living In IT Era",
+                  "courseCode": "GEE102",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 6,
+                  "courseName": "Modern Communication and Technical Writing",
+                  "courseCode": "GEE103",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 7,
+                  "courseName": "Ethics",
+                  "courseCode": "GE-Ethics",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 8,
+                  "courseName": "Exercise-base Fitness Activities",
+                  "courseCode": "PATHFIT2",
+                  "units": 2,
+                  "prerequisite": "PATHFIT1"
+                },
+                {
+                  "id": 9,
+                  "courseName": "National Service Training Program 2",
+                  "courseCode": "NSTP",
+                  "units": 3,
+                  "prerequisite": "NSTP1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "year": "2nd Year",
+          "semesters": [
+            {
+              "id": 1,
+              "name": "1st Semester",
+              "courses": [
+                {
+                  "id": 1,
+                  "courseName": "Computer Programming 2",
+                  "courseCode": "CC201",
+                  "units": 3,
+                  "prerequisite": "CC102"
+                },
+                {
+                  "id": 2,
+                  "courseName": "Information Management",
+                  "courseCode": "CC202",
+                  "units": 3,
+                  "prerequisite": "CC101"
+                },
+                {
+                  "id": 3,
+                  "courseName": "Professional Issues in Information System",
+                  "courseCode": "ISP201",
+                  "units": 3,
+                  "prerequisite": "GE-Ethics"
+                },
+                {
+                  "id": 4,
+                  "courseName": "Information technology Infrastructure and Network Technology",
+                  "courseCode": "ISP203",
+                  "units": 3,
+                  "prerequisite": "cc101"
+                },
+                {
+                  "id": 5,
+                  "courseName": "Elective 1: Presentation Skills Using Information Technology",
+                  "courseCode": "ISE201",
+                  "units": 3,
+                  "prerequisite": "GEE 103"
+                },
+                {
+                  "id": 6,
+                  "courseName": "Reading in Philippine History",
+                  "courseCode": "GE-RPH",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 7,
+                  "courseName": "Sports",
+                  "courseCode": "PATHFIT3",
+                  "units": 3,
+                  "prerequisite": "PATHFIT2"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "name": "2nd Semester",
+              "courses": [
+                {
+                  "id": 1,
+                  "courseName": "Data Structure and Algorithms",
+                  "courseCode": "CC203",
+                  "units": 3,
+                  "prerequisite": "CC201"
+                },
+                {
+                  "id": 2,
+                  "courseName": "System Analysis and Design",
+                  "courseCode": "ISP204",
+                  "units": 3,
+                  "prerequisite": "All Courses passed prior in all previous semester"
+                },
+                {
+                  "id": 3,
+                  "courseName": "Quantitative Methods",
+                  "courseCode": "ISP205",
+                  "units": 3,
+                  "prerequisite": "GE-MMW"
+                },
+                {
+                  "id": 4,
+                  "courseName": "Introduction to Human-Computer Interaction",
+                  "courseCode": "ISP206",
+                  "units": 3,
+                  "prerequisite": "cC101"
+                },
+                {
+                  "id": 5,
+                  "courseName": "Evaluation of Business Performance",
+                  "courseCode": "iSP207",
+                  "units": 3,
+                  "prerequisite": "ISP102, ISP103, CC202"
+                },
+                {
+                  "id": 6,
+                  "courseName": "The Contemporary World",
+                  "courseCode": "GE202",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 7,
+                  "courseName": "Life and Works of Rizal",
+                  "courseCode": "GEM-Rizal",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 8,
+                  "courseName": "Sports",
+                  "courseCode": "PATHFIT4",
+                  "units": 2,
+                  "prerequisite": "PATHFIT3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "year": "3rd Year",
+          "semesters": [
+            {
+              "id": 1,
+              "name": "1st Semester",
+              "courses": [
+                {
+                  "id": 1,
+                  "courseName": "Application Development and Emerging Technologies",
+                  "courseCode": "CC301",
+                  "units": 3,
+                  "prerequisite": "CC201, Com prog 2"
+                },
+                {
+                  "id": 2,
+                  "courseName": "Financial Management",
+                  "courseCode": "ISP301",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 3,
+                  "courseName": "Information System Project Management 1",
+                  "courseCode": "ISP302",
+                  "units": 3,
+                  "prerequisite": "All Courses passed prior in all previous semester"
+                },
+                {
+                  "id": 4,
+                  "courseName": "Methods of Research in Information System",
+                  "courseCode": "ISP304",
+                  "units": 3,
+                  "prerequisite": "All Courses passed prior in all previous semester"
+                },
+                {
+                  "id": 5,
+                  "courseName": "Elective 2: Web System and Technology",
+                  "courseCode": "ISE301",
+                  "units": 3,
+                  "prerequisite": "CC201"
+                },
+                {
+                  "id": 6,
+                  "courseName": "Elective 3: Advance Database System",
+                  "courseCode": "ISE302",
+                  "units": 3,
+                  "prerequisite": "CC202"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "name": "2nd Semester",
+              "courses": [
+                {
+                  "id": 1,
+                  "courseName": "Capstone Project 1 – Proposal Writing and Presentation",
+                  "courseCode": "ISCAP301",
+                  "units": 3,
+                  "prerequisite": "All Courses passed prior in all previous semester"
+                },
+                {
+                  "id": 2,
+                  "courseName": "Information System Project Management 2",
+                  "courseCode": "ISP305",
+                  "units": 3,
+                  "prerequisite": "ISP303"
+                },
+                {
+                  "id": 3,
+                  "courseName": "Enterprise Resource Plan",
+                  "courseCode": "ISP205",
+                  "units": 3,
+                  "prerequisite": "ISP302, ISP104"
+                },
+                {
+                  "id": 4,
+                  "courseName": "Data Mining",
+                  "courseCode": "ISP307",
+                  "units": 3,
+                  "prerequisite": "ISP302"
+                },
+                {
+                  "id": 5,
+                  "courseName": "Elective 4: Seminar in Special Information System Topic",
+                  "courseCode": "ISE303",
+                  "units": 3,
+                  "prerequisite": "ISP101"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "year": "4th Year",
+          "semesters": [
+            {
+              "id": 1,
+              "name": "1st Semester",
+              "courses": [
+                {
+                  "id": 1,
+                  "courseName": "Capstone Project 2- Development and Implementation",
+                  "courseCode": "iSCAP401",
+                  "units": 3,
+                  "prerequisite": "ISCAP301"
+                },
+                {
+                  "id": 2,
+                  "courseName": "Information System Strategy Management and Acquisition",
+                  "courseCode": "ISP401",
+                  "units": 3,
+                  "prerequisite": "All Courses passed prior in all previous semester"
+                },
+                {
+                  "id": 3,
+                  "courseName": "Information Audit and Control",
+                  "courseCode": "ISP402",
+                  "units": 3,
+                  "prerequisite": "All Courses passed prior in all previous semester"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "name": "2nd Semester",
+              "courses": [
+                {
+                  "id": 1,
+                  "courseName": "On the Job Training – 486 Hours",
+                  "courseCode": "ISOJT",
+                  "units": 6,
+                  "prerequisite": "All Courses passed prior in all previous semester"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "outcomes": [],
+      "studyPlans": [],
+      "careerOpportunities": []
+    },
+    {
+      "id": 3,
+      "collegeId": 3,
+      "name": { "en": "Bachelor of Arts in Communication" },
+      "curriculum": [],
+      "outcomes": [],
+      "studyPlans": [],
+      "careerOpportunities": []
+    },
+    {
+      "id": 4,
+      "collegeId": 4,
+      "name": { "en": "Bachelor of Science in Industrial Technology" },
+      "curriculum": [],
+      "outcomes": [],
+      "studyPlans": [],
+      "careerOpportunities": []
+    },
+    {
+      "id": 5,
+      "collegeId": 5,
+      "name": { "en": "Bachelor of Science in Business Administration" },
+      "curriculum": [],
+      "outcomes": [],
+      "studyPlans": [],
+      "careerOpportunities": []
+    },
+    {
+      "id": 6,
+      "collegeId": 6,
+      "name": { "en": "Bachelor of Elementary Education" },
+      "curriculum": [],
+      "outcomes": [],
+      "studyPlans": [],
+      "careerOpportunities": []
+    }
+  ],
+  "faculty": [
+    {
+      "id": 1,
+      "collegeId": 1,
+      "image": "https://drive.google.com/file/d/1upZV-7vmz6I4vRhvAIlTTwA61_c4nvw1/view",
+      "name": { "en": "Ivy Joy N. Aguiflor, LPT" },
+      "academicrank": { "en": "University Lecturer" },
+      "designation": { "en": "SAS Coordinator" },
+      "email": "aguiflor.ivyjoy@marsu.edu.ph",
+      "attainment": [
+        {
+          "id": 1,
+          "degree": {
+            "en": "Bachelor of Secondary Education Major in Mathematics"
+          },
+          "institution": { "en": "Marinduque State College" },
+          "year": null
+        },
+        {
+          "id": 2,
+          "degree": {
+            "en": "Master of Arts in Education Major in Mathematics"
+          },
+          "institution": { "en": "Marinduque State University" },
+          "year": null,
+          "units": 36
+        }
+      ],
+      "publications": [1]
+    },
+    {
+      "id": 2,
+      "collegeId": 1,
+      "image": "https://drive.google.com/file/d/1aj5s8fWnAGBvHomTM3SLSmpCVOrfsJ2v/view",
+      "name": { "en": "Carmelo O. Alojado" },
+      "academicrank": { "en": "University Lecturer" },
+      "designation": { "en": "Exetension Program Coordinator" },
+      "email": "alojado.carmelo@marsu.edu.ph",
+      "attainment": [
+        {
+          "id": 1,
+          "degree": { "en": "Bachelor of Science in Information Technology" },
+          "institution": { "en": "Marinduque State College" },
+          "year": null
+        },
+        {
+          "id": 2,
+          "degree": { "en": "Master of Science in Information Technology" },
+          "institution": { "en": "Marinduque State University" },
+          "year": null,
+          "units": 36
+        }
+      ],
+      "publications": []
+    },
+    {
+      "id": 3,
+      "collegeId": 1,
+      "image": "https://drive.google.com/file/d/1upZV-7vmz6I4vRhvAIlTTwA61_c4nvw1/view",
+      "name": { "en": "Doreena Joy C. Borja, MIT" },
+      "academicrank": { "en": "Assistant Professor I" },
+      "designation": { "en": "OJT Coordinator" },
+      "email": "borja.doreenajoy@marsu.edu.ph",
+      "attainment": [
+        {
+          "id": 1,
+          "degree": { "en": "Bachelor of Science in Information Technology" },
+          "institution": { "en": "Marinduque State College" },
+          "year": null
+        },
+        {
+          "id": 2,
+          "degree": { "en": "Master of Science in Information Technology" },
+          "institution": { "en": "Marinduque State University" },
+          "year": null,
+          "units": 36
+        }
+      ],
+      "publications": []
+    }
+  ],
+  "staff": [
+    {
+      "id": 1,
+      "collegeId": 1,
+      "image": "",
+      "name": { "en": "" },
+      "designation": { "en": "" },
+      "email": ""
+    }
+  ],
+  "research": [
+    {
+      "id": 1,
+      "collegeId": 1,
+      "title": {
+        "en": "Will Economic Capablity and Technological Availability Affect Graduate Competencies: An Exploratory Study of BS/IT and BSIS Programs"
+      },
+      "publicationYear": "",
+      "completionYear": "",
+      "authors": [],
+      "indices": [],
+      "abstract": { "en": "" }
+    }
+  ],
+  "extensions": [
+    {
+      "id": 1,
+      "collegeId": 1,
+      "title": { "en": "" },
+      "publicationYear": "",
+      "completionYear": "",
+      "authors": [],
+      "indices": [],
+      "abstract": { "en": "" }
+    }
+  ],
+  "studentAchievements": [
+    {
+      "id": 1,
+      "collegeId": 1,
+      "type": { "en": "" },
+      "description": { "en": "" }
+    }
+  ],
+  "studentProfiles": [
+    {
+      "id": 1,
+      "collegeId": 1,
+      "programId": 1,
+      "rate": "",
+      "image": ""
+    }
+  ],
+  "studentOrganizations": [
+    {
+      "id": 1,
+      "collegeId": 1,
+      "name": { "en": "" },
+      "designation": { "en": "" },
+      "image": ""
+    }
+  ],
+  "studentAccomplishments": [
+    {
+      "id": 1,
+      "collegeId": 1,
+      "title": { "en": "" },
+      "description": { "en": "" },
+      "image": ""
+    }
+  ],
+  "alumni": [
+    {
+      "id": 1,
+      "collegeId": 1,
+      "image": "",
+      "name": { "en": "" },
+      "career": { "en": "" }
+    }
+  ],
+  "alumniTestimonials": [
+    {
+      "id": 1,
+      "alumniId": 1,
+      "image": "",
+      "name": { "en": "" },
+      "story": { "en": "" }
+    }
+  ]
+}

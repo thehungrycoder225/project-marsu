@@ -14,6 +14,14 @@ function Footer() {
       { name: 'Department of Health', href: '#' },
       { name: 'Department of Science and Technology', href: '#' },
     ],
+    colleges: [
+      { name: 'College of Arts and Sciences', href: '#' },
+      { name: 'College of Business and Management', href: '#' },
+      { name: 'College of Engineering', href: '#' },
+      { name: 'College of Education', href: '#' },
+      { name: 'College of Hospitality Management', href: '#' },
+      { name: 'College of Information Technology', href: '#' },
+    ],
     company: [
       { name: 'MarSU Priisms', href: '#' },
       { name: 'MarSU Student Portal', href: '#' },

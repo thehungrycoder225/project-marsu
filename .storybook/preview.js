@@ -1,3 +1,4 @@
+import { config } from 'chai';
 import 'tailwindcss/tailwind.css';
 
 const preview = {
@@ -16,6 +17,14 @@ const preview = {
       // 'error' - fail CI on a11y violations
       // 'off' - skip a11y checks entirely
       test: 'todo',
+
+      options: {},
+    },
+  },
+  globals: {
+    a11y: {
+      // Optional flag to prevent the automatic check
+      manual: true,
     },
   },
 };

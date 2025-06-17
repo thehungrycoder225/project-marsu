@@ -1,25 +1,41 @@
-import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react'
-import { AnimatePresence, easeOut, motion } from 'framer-motion'
-import { ChevronDownIcon } from '@heroicons/react/20/solid'
-import { Fragment } from 'react'
+import { useFaqs } from '../../hooks/useFaqs';
 
-const Faqs = (title, description) => {
+const Faqs = () => {
+  const { faqs } = useFaqs();
+
   return (
-    <Disclosure>
-    <DisclosureButton className="group flex items-center gap-2">
-      Do you offer technical support?
-      <ChevronDownIcon className="w-5 group-data-[open]:rotate-180" />
-    </DisclosureButton>
-    <div className="overflow-hidden py-2">
-        <DisclosurePanel
-          transition
-          className="origin-top transition duration-200 ease-out data-[closed]:-translate-y-6 data-[closed]:opacity-0"
-        >
-          Yes! You can purchase a license that you can share with your entire team.
-        </DisclosurePanel>
+    <>
+      <div className='bg-white'>
+        <div>
+          <h2 className='text-2xl font-bold leading-10 tracking-tight text-gray-900'>
+            Frequently asked questions
+          </h2>
+          <p className='mt-6 max-w-2xl  text-base leading-7 text-gray-600'>
+            Have a different question and can’t find the answer you’re looking
+            for? Reach out to our support team by{' '}
+            <a href='#' className='font-semibold'>
+              sending us an email
+            </a>{' '}
+            and we’ll get back to you as soon as we can.
+          </p>
+          <div className='mt-20'>
+            <dl className='space-y-16 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-16 sm:space-y-0 lg:grid-cols-3 lg:gap-x-10'>
+              {faqs.map((faq) => (
+                <div key={faq.id}>
+                  <dt className='text-base font-semibold leading-7 text-gray-900'>
+                    {faq.question}
+                  </dt>
+                  <dd className='mt-2 text-base leading-7 text-gray-600'>
+                    {faq.answer}
+                  </dd>
+                </div>
+              ))}
+            </dl>
+          </div>
+        </div>
       </div>
-  </Disclosure>
-  )
-}
+    </>
+  );
+};
 
-export default Faqs
+export default Faqs;
