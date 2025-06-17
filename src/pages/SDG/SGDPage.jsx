@@ -8,28 +8,8 @@ import Section from '../../components/Section';
 import logo from '../../assets/sdg-logo.png';
 import projects from './components/projects';
 import goals from './components/goals';
+import SDGNavSwiper from './components/SDGNavSwiper';
 import './sgd.css';
-
-const GoalMarquee = ({ goals }) => (
-  // <Marquee speed={50} pauseOnHover={1}>
-  //   {goals.map((goal) => (
-  //     <div key={goal.id} className='marquee_item'>
-  //       <Link to={goal.link}>
-  //         <img src={goal.image} alt={goal.alt} className='sgd_goal--images' />
-  //       </Link>
-  //     </div>
-  //   ))}
-  // </Marquee>
-  <div className='scrollable-container'>
-    {goals.map((goal) => (
-      <div key={goal.id} className='marquee_item'>
-        <Link to={goal.link}>
-          <img src={goal.image} alt={goal.alt} className='sgd_goal--images' />
-        </Link>
-      </div>
-    ))}
-  </div>
-);
 
 const SGDPage = () => {
   const [selectedGoals, setSelectedGoals] = useState([]);
@@ -140,13 +120,7 @@ const SGDPage = () => {
             </div>
           </div>
           <div className='sgd_content'>
-            <div className='marquee'>
-              <GoalMarquee
-                goals={goals.slice(0, 8)}
-                handleGoalClick={handleGoalClick}
-                selectedGoals={selectedGoals}
-              />
-            </div>
+            <SDGNavSwiper goals={goals} />
           </div>
         </Section>
         <Section>
