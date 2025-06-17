@@ -5,6 +5,7 @@
     {
       "id": 1,
       "name": { "en": "College of Information and Computing Sciences" },
+      "collegeLogo": "../../images/cics-logo.png",
       "slug": "college-of-information-and-computing-sciences",
       "shortName": { "en": "cics" },
       "profile": {
@@ -14,6 +15,9 @@
         },
         "goals": {
           "en": "To produce competitive IT professionals and IT enabled individuals who will encourage real innovation for the advancement in the digital era of the province and the country as a whole."
+        },
+        "objectives": {
+          "en": "To provide quality education in Information and Computing Sciences that will produce globally competitive graduates.\nTo conduct relevant research in Information and Computing Sciences that will contribute to the advancement of knowledge and technology.\nTo extend services to the community through information and computing sciences that will uplift the quality of life of the people."
         },
         "awards": [
           {

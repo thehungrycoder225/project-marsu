@@ -12,6 +12,7 @@ const SGDProject = lazy(() => import('./pages/SDG/components/SGDProject'));
 const Colleges = lazy(() => import('./pages/CollegePage/College'));
 const PageNotFound = lazy(() => import('./pages/404/404'));
 const NewsDetail = lazy(() => import('./pages/CollegePage/NewsDetail'));
+const CollegeAbout = lazy(() => import('./pages/CollegePage/About'));
 
 function App() {
   useDynamicTheme();
@@ -85,6 +86,7 @@ function App() {
           path='/colleges/:collegeKey/testimonials'
           element={<div>Alumni Testimonials</div>}
         />
+        <Route path='/colleges/:collegeKey/about' element={<CollegeAbout />} />
         <Route
           path='/colleges/:collegeKey/*'
           element={<div>College Not Found</div>}
