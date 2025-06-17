@@ -1,50 +1,63 @@
 import { useState } from 'react';
-import {
-  Dialog,
-  DialogPanel,
-  Disclosure,
-  DisclosureButton,
-  DisclosurePanel,
-  Popover,
-  PopoverButton,
-  PopoverGroup,
-  PopoverPanel,
-} from '@headlessui/react';
-import {
-  Bars3Icon,
-  ChartPieIcon,
-  CursorArrowRaysIcon,
-  XMarkIcon,
-} from '@heroicons/react/24/outline';
-import {
-  ChevronDownIcon,
-  PhoneIcon,
-  PlayCircleIcon,
-} from '@heroicons/react/20/solid';
+import { useParams, Link, useLocation } from 'react-router-dom';
+import { Dialog, DialogPanel } from '@headlessui/react';
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import { useScrollPosition } from '../../hooks/hooks';
 
-const programs = [
+// Example: Replace with real logo/icon paths per college
+const collegeLogos = {
+  cics: '/public/logo.png',
+  ceng: '/public/logo.png',
+  cass: '/public/logo.png',
+  cit: '/public/logo.png',
+  cba: '/public/logo.png',
+  coed: '/public/logo.png',
+};
+
+const navLinks = [
   {
-    name: 'Information Technology',
-    description: 'Get a better understanding of your traffic',
-    href: '#',
-    icon: ChartPieIcon,
+    label: 'About',
+    to: (key) => `/colleges/${key}/about`,
+    tooltip: 'About the college',
   },
   {
-    name: 'Information Systems',
-    description: 'Speak directly to your customers',
-    href: '#',
-    icon: CursorArrowRaysIcon,
+    label: 'Programs',
+    to: (key) => `/colleges/${key}/programs`,
+    tooltip: 'Degree programs offered',
   },
-];
-const callsToAction = [
-  { name: 'Watch Campus Life', href: '#', icon: PlayCircleIcon },
-  { name: 'Contact Us', href: '#', icon: PhoneIcon },
+  {
+    label: 'Faculty',
+    to: (key) => `/colleges/${key}/faculty`,
+    tooltip: 'Meet the faculty',
+  },
+  {
+    label: 'News',
+    to: (key) => `/colleges/${key}/news`,
+    tooltip: 'Latest news',
+  },
+  {
+    label: 'Awards',
+    to: (key) => `/colleges/${key}/awards`,
+    tooltip: 'College awards',
+  },
+  {
+    label: 'Research',
+    to: (key) => `/colleges/${key}/research`,
+    tooltip: 'Research projects',
+  },
+  {
+    label: 'Contact',
+    to: (key) => `/colleges/${key}/contact`,
+    tooltip: 'Contact information',
+  },
 ];
 
-export default function Example() {
+export default function CollegeNav() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const scrollPosition = useScrollPosition();
+  const { collegeKey } = useParams();
+  const location = useLocation();
+  const logo = collegeLogos[collegeKey] || '/public/logo.png';
 
   function classNames(...classes) {
     return classes.filter(Boolean).join(' ');
@@ -53,177 +66,131 @@ export default function Example() {
   return (
     <header
       className={classNames(
-        scrollPosition > 0 ? 'shadow ' : 'shadow-none bg-transparent',
-        'sticky top-0 z-20 transition-shadow h-full w-full overflow-hidden bg-gray-400 rounded-md bg-clip-padding backdrop-filter backdrop-blur-lg bg-opacity-10 border border-gray-100 border-opacity-10'
+        scrollPosition > 0 ? 'shadow-lg' : 'shadow-none bg-transparent',
+        'sticky top-0 z-30 transition-shadow w-full bg-white/60 backdrop-blur-lg border-b border-gray-200'
       )}
     >
       <nav
-        aria-label='Global'
-        className='mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8 college-nav '
+        aria-label='College Navigation'
+        className='mx-auto flex max-w-7xl items-center justify-between p-4 lg:px-8'
       >
-        <div className='flex lg:flex-1'>
-          <a href='#' className='-m-1.5 p-1.5'>
-            <span className='sr-only'>Your Company</span>
+        <div className='flex items-center gap-2'>
+          <Link
+            to={`/colleges/${collegeKey}`}
+            className='flex items-center gap-2'
+          >
             <img
-              alt=''
-              src='https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=grey&shade=600'
-              className='h-8 w-auto'
+              alt='College Logo'
+              src={logo}
+              className='h-10 w-10 rounded-full object-contain'
             />
-          </a>
+            <span className='sr-only'>College Home</span>
+          </Link>
         </div>
         <div className='flex lg:hidden'>
           <button
             type='button'
             onClick={() => setMobileMenuOpen(true)}
-            className='-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700'
+            className='inline-flex items-center justify-center rounded-md p-2 text-gray-700 hover:text-[var(--primary-700)]'
+            aria-label='Open main menu'
           >
-            <span className='sr-only'>Open main menu</span>
-            <Bars3Icon aria-hidden='true' className='size-6' />
+            <Bars3Icon aria-hidden='true' className='h-6 w-6' />
           </button>
         </div>
-        <PopoverGroup className='hidden lg:flex text-sm lg:gap-x-12'>
-          <a href='#' className=' font-semibold text-gray-900 '>
-            Home
-          </a>
-          <a href='#' className=' font-semibold text-gray-900'>
-            About
-          </a>
-          <Popover className='relative'>
-            <PopoverButton className='flex items-center gap-x-1  font-semibold text-gray-900'>
-              Programs
-              <ChevronDownIcon
-                aria-hidden='true'
-                className='size-5 flex-none text-gray-400 group-data-[open]:rotate-180'
-              />
-            </PopoverButton>
-
-            <PopoverPanel
-              transition
-              className='absolute top-full -left-8 z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white ring-1 shadow-lg ring-gray-900/5 transition data-closed:translate-y-1 data-closed:opacity-0 data-enter:duration-200 data-enter:ease-out data-leave:duration-150 data-leave:ease-in'
-            >
-              <div className='p-4'>
-                {programs.map((item) => (
-                  <div
-                    key={item.name}
-                    className='group relative flex items-center gap-x-6 rounded-lg p-4  hover:bg-gray-50'
-                  >
-                    <div className='flex size-11 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white'>
-                      <item.icon
-                        aria-hidden='true'
-                        className='size-6 text-gray-600 group-hover:text-indigo-600'
-                      />
-                    </div>
-                    <div className='flex-auto'>
-                      <a
-                        href={item.href}
-                        className='block font-semibold text-gray-900'
-                      >
-                        {item.name}
-                        <span className='absolute inset-0' />
-                      </a>
-                      <p className='mt-1 text-gray-600'>{item.description}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-              <div className='grid grid-cols-2 divide-x divide-gray-900/5 bg-gray-50'>
-                {callsToAction.map((item) => (
-                  <a
-                    key={item.name}
-                    href={item.href}
-                    className='flex items-center justify-center gap-x-2.5 p-3 text-x/6 font-semibold text-gray-900 hover:bg-gray-100'
-                  >
-                    <item.icon
-                      aria-hidden='true'
-                      className='size-5 flex-none text-gray-400'
-                    />
-                    {item.name}
-                  </a>
-                ))}
-              </div>
-            </PopoverPanel>
-          </Popover>
-
-          <a href='#' className=' font-semibold text-gray-900'>
-            Faculty and Staff
-          </a>
-          <a href='#' className=' font-semibold text-gray-900'>
-            Research
-          </a>
-          <a href='#' className=' font-semibold text-gray-900'>
-            Contact Us
-          </a>
-        </PopoverGroup>
+        <div className='hidden lg:flex gap-x-6'>
+          {navLinks.map((link) => {
+            const to = link.to(collegeKey);
+            const isActive = location.pathname === to;
+            return (
+              <Link
+                key={link.label}
+                to={to}
+                className={classNames(
+                  'relative font-semibold px-3 py-2 transition-all',
+                  isActive
+                    ? 'nav-active' // text and underline via CSS
+                    : 'text-gray-900 hover:text-[var(--primary-700)]'
+                )}
+                aria-current={isActive ? 'page' : undefined}
+                title={link.tooltip}
+                style={
+                  isActive
+                    ? { borderBottom: '2px solid var(--primary-700)' }
+                    : {}
+                }
+              >
+                {link.label}
+                {isActive && (
+                  <span className='nav-indicator absolute left-1/2 -bottom-1 w-2 h-2 rounded-full -translate-x-1/2 animate-bounce' />
+                )}
+              </Link>
+            );
+          })}
+        </div>
       </nav>
+      {/* Mobile Drawer */}
       <Dialog
         open={mobileMenuOpen}
         onClose={setMobileMenuOpen}
         className='lg:hidden'
       >
-        <div className='fixed inset-0 z-10' />
-        <DialogPanel className='fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10'>
-          <div className='flex items-center justify-between'>
-            <a href='#' className='-m-1.5 p-1.5'>
-              <span className='sr-only'>Your Company</span>
+        <div className='fixed inset-0 z-40 bg-black/30' aria-hidden='true' />
+        <DialogPanel className='fixed inset-y-0 right-0 z-50 w-full max-w-xs bg-white/90 p-6 overflow-y-auto shadow-xl'>
+          <div className='flex items-center justify-between mb-6'>
+            <Link
+              to={`/colleges/${collegeKey}/about`}
+              className='flex items-center gap-2'
+            >
               <img
-                alt=''
-                src='https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600'
-                className='h-8 w-auto'
+                alt='College Logo'
+                src={
+                  collegeKey in collegeLogos
+                    ? collegeLogos[collegeKey]
+                    : '/public/logo.png'
+                }
+                className='h-10 w-10 rounded-full object-contain'
               />
-            </a>
+              <span className='sr-only'>College Home</span>
+            </Link>
             <button
               type='button'
               onClick={() => setMobileMenuOpen(false)}
-              className='-m-2.5 rounded-md p-2.5 text-gray-700'
+              className='rounded-md p-2 text-gray-700 hover:bg-gray-200 '
+              aria-label='Close menu'
             >
-              <span className='sr-only'>Close menu</span>
-              <XMarkIcon aria-hidden='true' className='size-6' />
+              <XMarkIcon aria-hidden='true' className='h-6 w-6' />
             </button>
           </div>
-          <div className='mt-6 flow-root'>
-            <div className='-my-6 divide-y divide-gray-500/10'>
-              <div className='space-y-2 py-6'>
-                <Disclosure as='div' className='-mx-3'>
-                  <DisclosureButton className='group flex w-full items-center justify-between rounded-lg py-2 pr-3.5 pl-3 text-base/7 font-semibold text-gray-900 hover:bg-gray-50'>
-                    Programs
-                    <ChevronDownIcon
-                      aria-hidden='true'
-                      className='size-5 flex-none group-data-open:rotate-180'
-                    />
-                  </DisclosureButton>
-                  <DisclosurePanel className='mt-2 space-y-2'>
-                    {[...programs, ...callsToAction].map((item) => (
-                      <DisclosureButton
-                        key={item.name}
-                        as='a'
-                        href={item.href}
-                        className='block rounded-lg py-2 pr-3 pl-6 text-sm/7 font-semibold text-gray-900 hover:bg-gray-50'
-                      >
-                        {item.name}
-                      </DisclosureButton>
-                    ))}
-                  </DisclosurePanel>
-                </Disclosure>
-                <a
-                  href='#'
-                  className='-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50'
+          <div className='flex flex-col gap-4'>
+            {navLinks.map((link) => {
+              const to = link.to(collegeKey);
+              const isActive = location.pathname === to;
+              return (
+                <Link
+                  key={link.label}
+                  to={to}
+                  className={classNames(
+                    'font-semibold px-3 py-2 transition-all',
+                    isActive
+                      ? 'nav-active'
+                      : 'text-gray-900 hover:text-[var(--primary-700)]'
+                  )}
+                  aria-current={isActive ? 'page' : undefined}
+                  title={link.tooltip}
+                  onClick={() => setMobileMenuOpen(false)}
+                  style={
+                    isActive
+                      ? { borderBottom: '1px solid var(--primary-700)' }
+                      : {}
+                  }
                 >
-                  Features
-                </a>
-                <a
-                  href='#'
-                  className='-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50'
-                >
-                  Marketplace
-                </a>
-                <a
-                  href='#'
-                  className='-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50'
-                >
-                  Company
-                </a>
-              </div>
-            </div>
+                  {link.label}
+                  {isActive && (
+                    <span className='nav-indicator absolute left-1/2 -bottom-1 w-2 h-2  -translate-x-1/2 animate-bounce' />
+                  )}
+                </Link>
+              );
+            })}
           </div>
         </DialogPanel>
       </Dialog>

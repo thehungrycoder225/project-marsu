@@ -432,3 +432,64 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+/* Minimalist dynamic color theming utilities */
+
+.heading-primary {
+  color: var(--primary-700, #660033);
+}
+
+.nav-active {
+  color: var(--primary-700, #660033) !important;
+  background: none !important;
+}
+
+/* .nav-indicator {
+  background: var(--primary-700, #660033);
+  box-shadow: 0 0 8px 0 var(--primary-700, #660033, 0.15);
+} */
+
+.divider-neutral {
+  border-color: #323232 !important;
+  background: #323232 !important;
+  opacity: 0.12;
+}
+
+.college-palette-bar {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.college-palette-dot {
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 9999px;
+  border: 1.5px solid #e5e7eb;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.07);
+}
+.college-palette-dot.primary {
+  background: var(--primary-700, #660033);
+}
+.college-palette-dot.secondary {
+  background: var(--secondary-700, #ffcc00);
+}
+
+/* Spinner using primary color */
+.spinner-primary {
+  border: 3px solid #e5e7eb;
+  border-top: 3px solid var(--primary-700, #660033);
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  animation: spin 1s linear infinite;
+  margin: 2rem auto;
+  display: block;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
