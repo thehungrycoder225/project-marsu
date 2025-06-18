@@ -4092,36 +4092,393 @@
       "collegeProfile": [
         {
           "tagline": {
-            "en": "Nurturing Nature, Shaping the Future",
-            "fil": "Pangalagaan ang Kalikasan, Hugis ng Kinabukasan"
+            "en": "Soar High Enbaysay",
+            "fil": "."
           },
           "history": {
-            "en": "The College of Environmental Studies (CES) at Marinduque State University...",
+            "en": "The Bachelor of Science in Environmental Science (BSES) program was granted to Marinduque State University (MarSU), then Marinduque State College (MSC), in AY 2013–2014 per CHED IV-B Order No. 0012, s. 2013. Initially offered at the School of Fisheries (Gasan Campus), the program was transferred to the School of Arts and Sciences (Boac Campus) in 2015 with 32 enrollees. The program was first headed by Assoc. Prof. Emma Cabildo. The pioneering class graduated under the School of Agriculture, Fisheries, and Natural Sciences (SAFNS) in 2019. BOT Resolution No. 25, s. 2013, confirmed the offering of new programs at MSC, including the BSES, which took effect in AY 2013–2014. The program was evaluated by CHED’s Regional Quality Assessment Team (RQAT) and was granted a Certificate of Program Compliance, effective AY 2019-2020. Due to the growing relevance of the field, the School of Environmental Sciences was created as per BOT Res. No. 12, s. 2020. Former MSC President Dr. Merian P. Catajay-Mani (2015-2020) designated Dr. Evangeline B. Mandia as the first Dean of the School of Environmental Sciences, beginning on May 18, 2020, per BOT Res No. 15 s. 2020. On September 1, 2021, the School of Environmental Sciences was renamed the Department of Environmental Sciences under the newly formed College of Natural and Allied Health Sciences (CNAHS). MSC President Prof. Dr. Diosdado P. Zulueta designated Inst. Christian Russel M. Rabi as the Department Head on September 1, 2021, per MSC Office of the President Memorandum No. 536 s. 2021. Recently, Dr. Evangeline B. Mandia was designated as the Dean of the newly-named College of Environmental Studies, as approved by MSC BOT Res. 33, S. 2023, which took effect on February 7, 2023, SY 2023-2024. Inst. Ronnel C. Nolos was designated as the new program head starting January 2024. Currently, the research-driven school has seven core faculty members and more than 200 students.",
             "fil": "Ang Kolehiyo ng mga Pag-aaral sa Kapaligiran (CES) sa Marinduque State University..."
           },
           "goals": {
-            "en": "The College of Environmental Studies aims to promote environmental awareness...",
-            "fil": "Layunin ng Kolehiyo ng mga Pag-aaral sa Kapaligiran na itaguyod ang kamalayan sa kapaligiran..."
+            "en": "N/A",
+            "fil": "."
           },
           "awards": [
             {
               "id": 1,
-              "title": { "en": "GREEN COLLEGE AWARD" },
-              "year": 2024,
-              "description": {
-                "en": "In recognition of efforts in promoting sustainable practices."
-              }
+              "title": "",
+              "year": "",
+              "description": ""
             }
           ]
         }
       ],
-      "programs": [4],
-      "workForce": [4],
-      "research": [4],
-      "studentAchievement": [4],
-      "studentProfile": [7],
-      "studentPublication": [4],
-      "alumni": [4]
+      "programs": [
+        {
+          "id": 1,
+          "programName": "BACHELOR OF SCIENCE IN ENVIRONMENTAL SCIENCE",
+          "programDescription": "The Bachelor of Science in Environmental Science is based on the major disciplines of science, such as biology, chemistry, physics, earth and marine sciences, and mathematics. In addition, the BS ES program includes training in the social science in order that its graduates will be equipped to understand the important roles of ethics, society, and culture in the environment (CMO No. 35 s. 2005).",
+          "curriculum": [
+            {
+              "id": 1,
+              "Year": "",
+              "Semester": [
+                {
+                  "id": 1,
+                  "SemesterName": "",
+                  "CourseSubject": [
+                    {
+                      "id": 1,
+                      "courseName": "",
+                      "courseCode": "",
+                      "units": 3,
+                      "prerequisite": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "programOutcome": [
+            {
+              "id": 1,
+              "outcome": "Demonstrate broad and coherent knowledge and understanding in the core areas of physical and natural sciences. Apply critical and problem-solving skills using the scientific method. Interpret relevant scientific data and make judgements that include reflection on relevant scientific and ethical issues. Carry out basic mathematical and statistical computations and use appropriate technologies in (a) the analysis of data; and (b) in pattern recognition, generalization, abstraction, critical analysis, and problem solving. Communicate information, ideas problems and solutions, both, orally and in writing to other scientists, decision makers and the public. Relate science and mathematics to the other disciplines. Design and perform safe and responsible techniques and procedures in laboratory or field practices. Critically evaluate input from others. Appreciate the limitations and implications of science in everyday life. Commit to the integrity of data. Demonstrate broad and coherent knowledge and understanding in the core areas of environmental science. Disseminate effectively knowledge pertaining to sound environmental protection, conservation, utilization, and management. Demonstrate the ability to contribute to the protection and management of the environment; and Analyze local environmental issues and problems in the regional and global context. Apply appropriate knowledge and innovation related to the environment."
+            }
+          ],
+          "studyPlan": [],
+          "careerOpportunity": [
+            {
+              "id": 1,
+              "career": "",
+              "description": "",
+              "salaryRange": ""
+            }
+          ]
+        }
+      ],
+      "workForce": [
+        {
+          "faculty": [
+            {
+              "id": 1,
+              "image": "",
+              "name": "",
+              "designation": "",
+              "email": "",
+              "educationalAttainment": [
+                {
+                  "id": 1,
+                  "attainment": ""
+                }
+              ],
+              "publication": [
+                {
+                  "id": 1,
+                  "title": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "staff": [
+            {
+              "id": 1,
+              "image": "",
+              "name": "",
+              "designation": "",
+              "email": ""
+            }
+          ]
+        }
+      ],
+      "research": [
+        {
+          "research": [
+            {
+              "id": 1,
+              "collegeId": 4,
+              "title": "Phytosuccession and Phytosociology of Plants in Ino-Capayang Mined-out Area for Possible Phytoremediation Activities in Marinduque",
+              "publicationYear": "2017",
+              "completionYear": "",
+              "authors": "Medianista, R. L., & Labay, P. M.",
+              "indices": "",
+              "abstract": "",
+              "citations": 5
+            },
+            {
+              "id": 2,
+              "collegeId": 4,
+              "title": "Sea-deposited Mine Tailings in Calancan Bay, Marinduque, Philippines-An Environmental Mineralogical Study",
+              "publicationYear": "2020",
+              "completionYear": "",
+              "authors": "Medianista, R. L.",
+              "indices": "",
+              "abstract": "",
+              "citations": ""
+            },
+            {
+              "id": 3,
+              "collegeId": 4,
+              "title": "Spatial Distribution of Hydrogeological Attributes in the Small Island Province of the Philippines: A Tool for Risk Analysis and Reduction Strategy",
+              "publicationYear": "2020",
+              "completionYear": "",
+              "authors": "Senoro, D. B., De Jesus, K. L., Chyan, J. M., Lamac, M. R. L., Bonifacio, P. B., Natal, P., & Yanuaria, C. A. S.",
+              "indices": "Proceedings of the Climate Smart and Disaster Resilient International Conference",
+              "abstract": "",
+              "citations": ""
+            },
+            {
+              "id": 4,
+              "collegeId": 4,
+              "title": "Mineralogical study of the redeposited near-shore STD waste in Calancan causeway, Philippines",
+              "publicationYear": "2021",
+              "completionYear": "",
+              "authors": "Medianista, R. L., Irshad, I., Weiszburg, T. G., & Harman-Tóth, E.",
+              "indices": "",
+              "abstract": "",
+              "citations": ""
+            },
+            {
+              "id": 5,
+              "collegeId": 4,
+              "title": "Spatial distribution of agricultural yields with elevated metal concentration of the island exposed to acid mine drainage",
+              "publicationYear": "2021",
+              "completionYear": "",
+              "authors": "Senoro, D. B., Bonifacio, P. B., Mascareñas, D. R., Tabelin, C. B., Ney, F. P., Lamac, M. R. L., & Tan, F. J.",
+              "indices": "Journal of Degraded and Mining Lands Management, Scopus",
+              "abstract": "",
+              "citations": 25
+            },
+            {
+              "id": 6,
+              "collegeId": 4,
+              "title": "Transition metals in freshwater crustaceans, tilapia, and inland water: Hazardous to the population of the small island province",
+              "publicationYear": "2021",
+              "completionYear": "",
+              "authors": "Agarin, C. J. M., Mascareñas, D. R., Nolos, R., Chan, E., & Senoro, D. B.",
+              "indices": "Toxics, Scopus, Web of Science",
+              "abstract": "",
+              "citations": 23
+            },
+            {
+              "id": 7,
+              "collegeId": 4,
+              "title": "In situ measurements of domestic water quality and health risks by elevated concentration of heavy metals and metalloids using Monte Carlo and MLGI methods",
+              "publicationYear": "2022",
+              "completionYear": "",
+              "authors": "Senoro, D. B., de Jesus, K. L. M., Nolos, R. C., Lamac, M. R. L., Deseo, K. M., & Tabelin, C. B.",
+              "indices": "Toxics, Scopus, Web of Science",
+              "abstract": "",
+              "citations": 27
+            },
+            {
+              "id": 8,
+              "collegeId": 4,
+              "title": "Health risks due to metal concentrations in soil and vegetables from the six municipalities of the Island Province in the Philippines",
+              "publicationYear": "2022",
+              "completionYear": "",
+              "authors": "Nolos, R. C., Agarin, C. J. M., Domino, M. Y. R., Bonifacio, P. B., Chan, E. B., Mascareñas, D. R., & Senoro, D. B.",
+              "indices": "International Journal of Environmental Research and Public Health, Scopus, Web of Science",
+              "abstract": "",
+              "citations": 40
+            },
+            {
+              "id": 9,
+              "collegeId": 4,
+              "title": "Color and image analysis approach in determination of soluble copper in water using tannic reaction analysis",
+              "publicationYear": "2022",
+              "completionYear": "",
+              "authors": "Historillo, J. F., Rosales, M., Merlin, M., & Mandia, E. B.",
+              "indices": "International Conference on Intelligent Computing & Optimization",
+              "abstract": "",
+              "citations": ""
+            },
+            {
+              "id": 10,
+              "collegeId": 4,
+              "title": "Drivers of deforestation and forest degradation in Palawan, Philippines: an analysis using social-ecological systems (SES) and institutional analysis and development (IAD) approaches",
+              "publicationYear": "2023",
+              "completionYear": "",
+              "authors": "Nolos, R. C., Zamroni, A., & Evina, K. F. P.",
+              "indices": "Geography, Environment, Sustainability, Scopus",
+              "abstract": "",
+              "citations": 16
+            },
+            {
+              "id": 11,
+              "collegeId": 4,
+              "title": "Detection of heavy metals, their distribution in Tilapia spp., and health risks assessment",
+              "publicationYear": "2023",
+              "completionYear": "",
+              "authors": "Mendoza, L. C., Nolos, R. C., Villaflores, O. B., Apostol, E. M. D., & Senoro, D. B.",
+              "indices": "Toxics, Scopus, Web of Science",
+              "abstract": "",
+              "citations": 15
+            },
+            {
+              "id": 12,
+              "collegeId": 4,
+              "title": "Metals and metalloid concentrations in fish, its spatial distribution in PPC, Philippines and the attributable risks",
+              "publicationYear": "2023",
+              "completionYear": "",
+              "authors": "Senoro, D. B., Plasus, M. M. G., Gorospe, A. F. B., Nolos, R. C., Baaco, A. T., & Lin, C.",
+              "indices": "Toxics, Scopus, Web of Science",
+              "abstract": "",
+              "citations": 6
+            },
+            {
+              "id": 13,
+              "collegeId": 4,
+              "title": "Global Overview on the Recent Studies of Geohazards: A Dynamic Population Approach",
+              "publicationYear": "2023",
+              "completionYear": "",
+              "authors": "Suprapto, N., Zamroni, A., Faustino-Eslava, D. V., Calzeta, E. C., Tiburan Jr, C. L., Rachmawati, Y., & Nolos, R. C.",
+              "indices": "Science of Tsunami Hazards, Scopus",
+              "abstract": "",
+              "citations": 2
+            },
+            {
+              "id": 14,
+              "collegeId": 4,
+              "title": "Challenges and recommendations for long-term rehabilitation of Boac River, Marinduque, Philippines, 20 years after the Marcopper mining disaster",
+              "publicationYear": "2023",
+              "completionYear": "",
+              "authors": "Serquiña, R. A. B., Dangcalan, R. J. P., Dapito, M., Buella-Mandia, E., & Sandoval, D. S. M.",
+              "indices": "Asian Journal of Resilience",
+              "abstract": "",
+              "citations": ""
+            },
+            {
+              "id": 15,
+              "collegeId": 4,
+              "title": "Understanding the knowledge of Mogpog residents about heavy metal pollution due to mining and its associated health risk",
+              "publicationYear": "2024",
+              "completionYear": "",
+              "authors": "Nolos, R. C., Sevilla-Nastor, J. B., Villanueva-Peyraube, J. D., & Sobremisana, M. J.",
+              "indices": "Journal of Degraded and Mining Lands Management, Scopus",
+              "abstract": "",
+              "citations": 1
+            },
+            {
+              "id": 16,
+              "collegeId": 4,
+              "title": "Distribution of potentially toxic elements (PTEs) and health risk assessment of soil in an island province in the Philippines",
+              "publicationYear": "2025",
+              "completionYear": "",
+              "authors": "Nolos, R., Sevilla-Nastor, J., & Villanueva-Peyraube, J.",
+              "indices": "Environmental Geochemistry and Health, Scopus, Web of Science",
+              "abstract": "",
+              "citations": ""
+            },
+            {
+              "id": 17,
+              "collegeId": 4,
+              "title": "Nature-based Solutions for Agricultural Drought Adaptation Strategies in the Karst Area of Gunungkidul Regency, Indonesia",
+              "publicationYear": "2025",
+              "completionYear": "",
+              "authors": "Zamroni, A., Putri, W. E. C., Nolos, R., & Ceballos, R.",
+              "indices": "Southeastern Philippines Journal of Research and Development, Scopus",
+              "abstract": "",
+              "citations": ""
+            },
+            {
+              "id": 18,
+              "collegeId": 4,
+              "title": "Heavy Metals Accumulation in the Agricultural Soils around the Limestone-Mining Area of Gunungkidul Regency, Indonesia",
+              "publicationYear": "2025",
+              "completionYear": "",
+              "authors": "Asih, A. S., Zamroni, A., Prasetya, H. N. E., Nolos, R. C., Hartono, H. G., Prahutama, A., & Ceballos, R. F.",
+              "indices": "Jordan Journal of Earth and Environmental Sciences, Scopus",
+              "abstract": "",
+              "citations": ""
+            },
+            {
+              "id": 19,
+              "collegeId": 4,
+              "title": "Acid Drainage From Sulphidic Mine Wastes: Comparing Continental Climate Mainland And Tropical Climate Sea Deposition Settings",
+              "publicationYear": "",
+              "completionYear": "",
+              "authors": "Medianista, R., Harman-Tóth, E., Irshad, I., & Weiszburg, T.",
+              "indices": "",
+              "abstract": "",
+              "citations": ""
+            }
+          ],
+          "extension": [
+            {
+              "id": 1,
+              "title": "",
+              "publicationYear": "",
+              "completioYear": "",
+              "authors": "",
+              "indices": "",
+              "abstract": ""
+            }
+          ]
+        }
+      ],
+      "studentAchievement": [
+        {
+          "id": 1,
+          "type": "",
+          "description": ""
+        }
+      ],
+      "studentProfile": [
+        {
+          "id": 1,
+          "programName": "",
+          "rate": "",
+          "image": ""
+        }
+      ],
+      "studentPublication": [
+        {
+          "studentOrg": [
+            {
+              "id": 1,
+              "name": "",
+              "designation": "",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "accomplishements": [
+            {
+              "id": 1,
+              "title": "",
+              "description": "",
+              "image": ""
+            }
+          ]
+        }
+      ],
+      "alumni": [
+        {
+          "tracer": [
+            {
+              "id": 1,
+              "image": "",
+              "name": "",
+              "career": ""
+            }
+          ]
+        },
+        {
+          "testimonials": [
+            {
+              "id": 1,
+              "image": "",
+              "name": "",
+              "story": ""
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 6,
