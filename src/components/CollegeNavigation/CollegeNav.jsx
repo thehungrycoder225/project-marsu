@@ -6,11 +6,11 @@ import { useScrollPosition } from '../../hooks/hooks';
 
 // Example: Replace with real logo/icon paths per college
 const collegeLogos = {
-  cics: '/public/images/cics-temp-logo.png',
-  'college-b': '/logos/college-b.png',
-  'college-c': '/logos/college-c.png',
+  cics: '../../images/cics-temp-logo.png',
+  'college-b': '../../images/college-b.png',
+  'college-c': '../../images/college-c.png',
   // Add more colleges as needed
-  default: '/public/logo.png', // Fallback logo
+  default: '/logo.png', // Fallback logo
 };
 
 const navLinks = [
