@@ -1404,91 +1404,674 @@
   "faculty": [
     {
       "id": 1,
-      "collegeId": 1,
-      "image": "https://drive.google.com/file/d/1upZV-7vmz6I4vRhvAIlTTwA61_c4nvw1/view",
-      "name": { "en": "Ivy Joy N. Aguiflor, LPT" },
-      "academicrank": { "en": "University Lecturer" },
-      "designation": { "en": "SAS Coordinator" },
-      "email": "aguiflor.ivyjoy@marsu.edu.ph",
-      "attainment": [
+      "image": "https://drive.google.com/file/d/1upZV-7vmz6I4vRhvAIlTTwA61_c4nvw1/view?usp=drive_link",
+      "name": "Ivy Joy N. Aguiflor, LPT",
+      "designation": "University Lecturer",
+      "email": "",
+      "educationalAttainment": [
         {
           "id": 1,
-          "degree": {
-            "en": "Bachelor of Secondary Education Major in Mathematics"
-          },
-          "institution": { "en": "Marinduque State College" },
-          "year": null
+          "attainment": "Bachelor of Secondary Education Major in Mathematics"
         },
         {
           "id": 2,
-          "degree": {
-            "en": "Master of Arts in Education Major in Mathematics"
-          },
-          "institution": { "en": "Marinduque State University" },
-          "year": null,
-          "units": 36
+          "attainment": "Master of Arts in Education Major in Mathematics Teaching(CAR)"
         }
       ],
-      "publications": [1]
+      "publication": [
+        {
+          "id": 1,
+          "title": "Will Economic Capability and Technological Availability Affect Graduate Competencies: An Exploratory Study of BSIT/BSIS Programs"
+        }
+      ]
     },
     {
       "id": 2,
-      "collegeId": 1,
-      "image": "https://drive.google.com/file/d/1aj5s8fWnAGBvHomTM3SLSmpCVOrfsJ2v/view",
-      "name": { "en": "Carmelo O. Alojado" },
-      "academicrank": { "en": "University Lecturer" },
-      "designation": { "en": "Exetension Program Coordinator" },
-      "email": "alojado.carmelo@marsu.edu.ph",
-      "attainment": [
+      "image": "https://drive.google.com/file/d/1aj5s8fWnAGBvHomTM3SLSmpCVOrfsJ2v/view?usp=drive_link",
+      "name": "Carmelo O. Alojado",
+      "designation": "University Lecturer",
+      "email": "",
+      "educationalAttainment": [
         {
           "id": 1,
-          "degree": { "en": "Bachelor of Science in Information Technology" },
-          "institution": { "en": "Marinduque State College" },
-          "year": null
-        },
-        {
-          "id": 2,
-          "degree": { "en": "Master of Science in Information Technology" },
-          "institution": { "en": "Marinduque State University" },
-          "year": null,
-          "units": 36
+          "attainment": "Master in Information Technology (18 Units)"
         }
       ],
-      "publications": []
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
     },
     {
       "id": 3,
-      "collegeId": 1,
-      "image": "https://drive.google.com/file/d/1upZV-7vmz6I4vRhvAIlTTwA61_c4nvw1/view",
-      "name": { "en": "Doreena Joy C. Borja, MIT" },
-      "academicrank": { "en": "Assistant Professor I" },
-      "designation": { "en": "OJT Coordinator" },
-      "email": "borja.doreenajoy@marsu.edu.ph",
-      "attainment": [
+      "image": "https://drive.google.com/file/d/1l6Z6ucn2VINOj1WNsvRqN9RTdYDg96jS/view?usp=drive_link",
+      "name": "Doreena Joy C. Borja, MIT",
+      "designation": "OJT Co-ordinator, Assistant Professor I",
+      "email": "",
+      "educationalAttainment": [
         {
           "id": 1,
-          "degree": { "en": "Bachelor of Science in Information Technology" },
-          "institution": { "en": "Marinduque State College" },
-          "year": null
+          "attainment": "Bachelor of Science in Information Technology"
         },
         {
           "id": 2,
-          "degree": { "en": "Master of Science in Information Technology" },
-          "institution": { "en": "Marinduque State University" },
-          "year": null,
-          "units": 36
+          "attainment": "Master in Information Technology"
         }
       ],
-      "publications": []
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "image": "https://drive.google.com/file/d/1rGR3s0RCBFt9oNU_KaWe3GU2QfSC2dRF/view?usp=drive_link",
+      "name": "Melvin M. Cario",
+      "designation": "University Lecturer",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Information Technology"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "image": "https://drive.google.com/file/d/1v7U5XzfQH_f2XhL_IQB0ZVXc4BwNI8AR/view?usp=drive_link",
+      "name": "Eunice G. De Luna-Malinao, MIT",
+      "designation": "Assistant Professor IV",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Information Technology"
+        },
+        {
+          "id": 2,
+          "attainment": "Master in Education Management"
+        },
+        {
+          "id": 3,
+          "attainment": "Master in Information Technology"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "image": "https://drive.google.com/file/d/1uMXADRX06Yr2ROiuW088RRnlCEiRM2kQ/view?usp=drive_link",
+      "name": "Villi Dane M. Go, MSCS",
+      "designation": "Instructor III",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Computer Science"
+        },
+        {
+          "id": 2,
+          "attainment": "Master of Science in Computer Science - Major in Software Development"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": "Geospatial Mapping of MSC Employees and Students for the Prevention of COVID- 19 Transmission."
+        },
+        {
+          "id": 2,
+          "title": "Geospatial Mapping of MSC Employees and Students for the Prevention of COVID- 19 Transmission."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "image": "https://drive.google.com/file/d/1wcJnKKXuoO3prnG9vVlJVHwX1bfxGLCl/view?usp=drive_link",
+      "name": "Lorimer L. Imperio, MIT",
+      "designation": "Assistant Professor II",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Computer Science"
+        },
+        {
+          "id": 2,
+          "attainment": "Master in Information Technology"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "image": "https://drive.google.com/file/d/1rmEMKLK3Dq3HOne4yVwgHqnXJJxDTAWd/view?usp=drive_link",
+      "name": "Kevin H. Jasmin, LPT",
+      "designation": "Instructor I, OJT Coordinator",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Information Technology"
+        },
+        {
+          "id": 2,
+          "attainment": "Master in Information Systems"
+        },
+        {
+          "id": 3,
+          "attainment": "Master in Information Technology (30 units)"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "image": "https://drive.google.com/file/d/1XnCLZh8Yq9ci8a9e656fhy5bpsUuJkHx/view?usp=drive_link",
+      "name": "Melvin Jinao",
+      "designation": "University Lecturer",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Information Technology – Networking and Data Security"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "image": "",
+      "name": "Raymart Landig, LPT",
+      "designation": "University Lecturer",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Education Major in Social Sciences"
+        },
+        {
+          "id": 2,
+          "attainment": "Master of Arts in Education Major in Social Science Education (18 units)"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "image": "https://drive.google.com/file/d/1DngSUHMmd-_wYvfPDVea8sJxbxZveUId/view?usp=drive_link",
+      "name": "Abegail Joy I. Laylay, LPT",
+      "designation": "University Lecturer",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Secondary Education Major in Social Sciences"
+        },
+        {
+          "id": 2,
+          "attainment": "Master of Arts in Education Major in Social Sciences Teaching"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "image": "https://drive.google.com/file/d/1rPJjkmIoQg_HuDU9hO8042hWmEO89MYv/view?usp=drive_link",
+      "name": "Beneden M. Logmao, MIS",
+      "designation": "Assistant Professor IV, Program Head(BS Information System)",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Information Management"
+        },
+        {
+          "id": 2,
+          "attainment": "Master in Information Systems"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": "Ornedo. Parental Engagement on Edukasyong Pantahanan at Pangkabuhayan: ICT Skills and Availability of ICT Equipment in Children’s Learning Amidst Pandemic."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "image": "https://drive.google.com/file/d/1KAss7-EZqDFTyvT_tarpTJp76LXyEGy8/view?usp=drive_link",
+      "name": "Art Jervin L. Magcamit, MIT",
+      "designation": "Assistant Professor I, Program Head(BS Information Technology)",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Information Technology"
+        },
+        {
+          "id": 2,
+          "attainment": "Master in Information Technology"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "image": "https://drive.google.com/file/d/1X2V18iOV5o-wiZEXEfhaDGERdaQgHLpj/view?usp=drive_link",
+      "name": "Ronjie Mar L. Malinao, DIT",
+      "designation": "College Dean",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Information Technology"
+        },
+        {
+          "id": 2,
+          "attainment": "Master in Information Technology"
+        },
+        {
+          "id": 2,
+          "attainment": "Doctor in Information Technology"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "image": "https://drive.google.com/file/d/1wLa5NfOCV9CEvzJSzqYGo5lJxRlzzMib/view?usp=drive_link",
+      "name": "Engr. Jayvi M. Mandalihan, CPE",
+      "designation": "University Lecturer",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Computer Engineering"
+        },
+        {
+          "id": 2,
+          "attainment": "Master in Information Technology"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": "Student’s Programming Performance Assessment Using Learning Analytics."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "image": "https://drive.google.com/file/d/1tJrhDzpCvH61tRZ6LEOtLp8BN9wERbfF/view?usp=drive_link",
+      "name": "Meynard O. Mangui",
+      "designation": "University Lecturer",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Secondary Education Major in MAPHE"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": "Student’s Programming Performance Assessment Using Learning Analytics."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "image": "https://drive.google.com/file/d/1p5QYjfDaDKOKYMPiJay3CLiL76hHyARB/view?usp=drive_link",
+      "name": "Jeffrey M. Marapia, MSCS",
+      "designation": "Instructor II",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Computer Science"
+        },
+        {
+          "id": 2,
+          "attainment": "Master of Science in Computer Science"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": "Ant Colony Optimization (ACO) for Short Route Calculation Implemented of Transport Mobile Application for Small Network Transport Services in Marinduque."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "image": "https://drive.google.com/file/d/1tC8WwH7at99oi8q6RRppE4QGnoFGX1Ut/view?usp=drive_link",
+      "name": "Christine May L. Nabos, MIT",
+      "designation": "Instructor III",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Information Technology"
+        },
+        {
+          "id": 2,
+          "attainment": "Master in Information Technology"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "image": "https://drive.google.com/file/d/1qMgK0BWSLXT-T2MATQP2jQMGcdjP6MG3/view?usp=drive_link",
+      "name": "Julieta Q. Nabos, PH.D",
+      "designation": "Assistant Professor V",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Computer Science"
+        },
+        {
+          "id": 2,
+          "attainment": "Master of Education in Educational Management"
+        },
+        {
+          "id": 3,
+          "attainment": "Master in Information Systems (15 units)"
+        },
+        {
+          "id": 4,
+          "attainment": "Doctor of Philosophy in Computer Science"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": "Development, Validation and Acceptance of a Module for Housekeeping Specialization in Technical Vocational Livelihood Track of the Senior High School Education. Philippine e-Journals Psychology and Education: A Multidisciplinary Journal."
+        },
+        {
+          "id": 2,
+          "title": "Digital Competencies and Experiences in using Digital Technologies of Public School Teachers in Island Municipalities in Quezon, Philippines. Philippine e-Journals Psychology and Education: A Mutidisciplinary Journal."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "image": "https://drive.google.com/file/d/1ta3qHpHknzvCFB1oXEHS6Rato7S-CVVL/view?usp=drive_link",
+      "name": "Kenneth L. Omiping",
+      "designation": "University Lecturer",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Information Technology"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "image": "https://drive.google.com/file/d/1qEyDL3ltQ4O5AOYi_vH_YZUJbuF2C7VL/view?usp=drive_link",
+      "name": "Jonex M. Ornedo",
+      "designation": "University Lecturer",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Information Technology"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "image": "https://drive.google.com/file/d/1wAu5sxFvjr0qJb20IzXyiC1qwiuf9KUh/view?usp=drive_link",
+      "name": "Wilmer M. Pascual",
+      "designation": "University Lecturer",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Computer Science"
+        },
+        {
+          "id": 2,
+          "attainment": "Master in Information Technology (30 units)"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": "Pascual. Predictive Modeling for Carabao Milk Quality: Unraveling Key Influencers using Machine Learning Techniques."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "image": "hhttps://drive.google.com/file/d/1qw_fvg96UMGyc2Wc_V60D52b5xTThpJT/view?usp=drive_link",
+      "name": "Christopher J. Rebistual",
+      "designation": "Assistant Professor IV, OJT Coordinator",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Computer Science"
+        },
+        {
+          "id": 2,
+          "attainment": "Master of Engineering Management (27 units)"
+        },
+        {
+          "id": 3,
+          "attainment": "Master of Arts in Education"
+        },
+        {
+          "id": 4,
+          "attainment": "Doctor of Education"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "image": "",
+      "name": "Coney Marie Rejano, LPT",
+      "designation": "University Lecturer",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Education Major in Social Sciences"
+        },
+        {
+          "id": 2,
+          "attainment": "Master of Arts in Education Major in Social Science Education (Currently Enrolled)"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "image": "https://drive.google.com/file/d/1z4kgmYXbM648rDpiT0M5ZhHdVkPNyCDq/view?usp=drive_link",
+      "name": "Joshua R. Relatorres",
+      "designation": "University Lecturer",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Information Technology"
+        },
+        {
+          "id": 2,
+          "attainment": "Master in Information Technology (CAR)"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "image": "https://drive.google.com/file/d/1Ma4Ovi8nJPdBrQktzJMpYcJ7u3xvdw_s/view?usp=drive_link",
+      "name": "Aldrin R. Requiz",
+      "designation": "Instructor I, OJT Coordinator",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Information Technology"
+        },
+        {
+          "id": 2,
+          "attainment": "Master of Science in Information Technology"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "image": "https://drive.google.com/file/d/1n4oui8MqOKTh--jGm_ShB2gdXdgmspNU/view?usp=drive_link",
+      "name": "Maria Nessa M. Solomon, MAED",
+      "designation": "Assistant Professor IV",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Information Management"
+        },
+        {
+          "id": 2,
+          "attainment": "Master in Information Systems"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "image": "https://drive.google.com/drive/folders/1qo0Y1k4SKo4HZ7gVNP9bdW_qxfLSQBnS?usp=drive_link",
+      "name": "Kierven A. Villaruel, MIT",
+      "designation": "Instructor III",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Information Technology"
+        },
+        {
+          "id": 2,
+          "attainment": "Master in Information Technology"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
     }
   ],
   "staff": [
     {
       "id": 1,
-      "collegeId": 1,
-      "image": "",
-      "name": { "en": "" },
-      "designation": { "en": "" },
+      "image": "https://drive.google.com/file/d/1Y5z3TlqJp5_hbYDY2lbejLQ8gI5-fOaP/view?usp=drive_link",
+      "name": "Janebhet R. Nagutom",
+      "designation": "Support Staff",
+      "email": ""
+    },
+    {
+      "id": 2,
+      "image": "https://drive.google.com/file/d/1J73P4X_tMM9rwhAbbR6lif01yq6jYbwk/view?usp=drive_link",
+      "name": "Danrick A. Mangui",
+      "designation": "Technical Staff",
       "email": ""
     }
   ],
