@@ -370,10 +370,557 @@
               "courses": [
                 {
                   "id": 1,
-                  "name": { "en": "Introduction to Computing" },
-                  "code": "CC101",
+                  "courseName": "introduction to computing",
+                  "courseCode": "CC101",
                   "units": 3,
-                  "prerequisite": null
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 2,
+                  "courseName": "mathematics in the modern world",
+                  "courseCode": "GE101 ",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 3,
+                  "courseName": "Understanding the Self",
+                  "courseCode": "GE102",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 4,
+                  "courseName": "Science, Technology and Societ",
+                  "courseCode": "GE103 ",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 5,
+                  "courseName": "The Contemporary World",
+                  "courseCode": "GE104 ",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 6,
+                  "courseName": "Logic and Critical Thinking",
+                  "courseCode": "GEE101",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 7,
+                  "courseName": "Filipino 2 (Malyuning Komunikasyon) ",
+                  "courseCode": "GEE102 ",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 8,
+                  "courseName": "P.E. 1 (Movement Enhancement)",
+                  "courseCode": "GEM101",
+                  "units": 2,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 9,
+                  "courseName": "NSTP 1",
+                  "courseCode": "GEM111",
+                  "units": 3,
+                  "prerequisite": "None"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "SemesterName": "2nd Semester",
+              "CourseSubject": [
+                {
+                  "id": 1,
+                  "courseName": "Computer Programming 1 ",
+                  "courseCode": "CC102",
+                  "units": 3,
+                  "prerequisite": "CC101"
+                },
+                {
+                  "id": 2,
+                  "courseName": "Computer Platform Technologies",
+                  "courseCode": "ITP101 ",
+                  "units": 3,
+                  "prerequisite": "CC101"
+                },
+                {
+                  "id": 3,
+                  "courseName": "Purposive Communication ",
+                  "courseCode": "GE105",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 4,
+                  "courseName": "Readings in Philippine History",
+                  "courseCode": "GE106",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 5,
+                  "courseName": "Ethics ",
+                  "courseCode": "GE107 ",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 6,
+                  "courseName": "Art Appreciation",
+                  "courseCode": "GE108",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 7,
+                  "courseName": "Filipino 2 (Panitikan) ",
+                  "courseCode": "GEE103",
+                  "units": 3,
+                  "prerequisite": "GEE102"
+                },
+                {
+                  "id": 8,
+                  "courseName": "P.E. 2 (Fitness Exercises)",
+                  "courseCode": "GEM102",
+                  "units": 2,
+                  "prerequisite": "PATHFIT1"
+                },
+                {
+                  "id": 9,
+                  "courseName": "NNSTP 2 ",
+                  "courseCode": "GEM112",
+                  "units": 3,
+                  "prerequisite": "GEM111"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "Year": "2nd Year",
+          "Semester": [
+            {
+              "id": 1,
+              "SemesterName": "1st Semester",
+              "CourseSubject": [
+                {
+                  "id": 1,
+                  "courseName": "Computer Programming 2",
+                  "courseCode": "CC103",
+                  "units": 3,
+                  "prerequisite": "CC102"
+                },
+                {
+                  "id": 2,
+                  "courseName": "Discrete Mathematics ",
+                  "courseCode": "ITP102",
+                  "units": 3,
+                  "prerequisite": "GE101, GEE101"
+                },
+                {
+                  "id": 3,
+                  "courseName": "Multimedia Arts Solutions",
+                  "courseCode": "ITP103",
+                  "units": 3,
+                  "prerequisite": "CC101"
+                },
+                {
+                  "id": 4,
+                  "courseName": "Intoduction to Human Computer Interaction",
+                  "courseCode": "ITP104 ",
+                  "units": 3,
+                  "prerequisite": "CC102"
+                },
+                {
+                  "id": 5,
+                  "courseName": "Networking ",
+                  "courseCode": "ITP105 ",
+                  "units": 3,
+                  "prerequisite": "ITP101"
+                },
+                {
+                  "id": 6,
+                  "courseName": "Life and Works of Rizal ",
+                  "courseCode": "GEM121",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 7,
+                  "courseName": "P.E. 3 (Individual/Dual Sports)",
+                  "courseCode": "GEM103 ",
+                  "units": 3,
+                  "prerequisite": "PATHFIT2"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "SemesterName": "2nd Semester",
+              "CourseSubject": [
+                {
+                  "id": 1,
+                  "courseName": "Data Structures and Algorithms",
+                  "courseCode": "CC104 ",
+                  "units": 3,
+                  "prerequisite": "CC103"
+                },
+                {
+                  "id": 2,
+                  "courseName": "Application Development and Emerging Technologies",
+                  "courseCode": "CC106",
+                  "units": 3,
+                  "prerequisite": "ACC103"
+                },
+                {
+                  "id": 3,
+                  "courseName": "Social and Professional Issues",
+                  "courseCode": "ITP106 ",
+                  "units": 3,
+                  "prerequisite": "CC101"
+                },
+                {
+                  "id": 4,
+                  "courseName": "Quantitative Methods",
+                  "courseCode": "ITP107",
+                  "units": 3,
+                  "prerequisite": "GE101"
+                },
+                {
+                  "id": 5,
+                  "courseName": "Computer Graphics Programming",
+                  "courseCode": "ITP108",
+                  "units": 3,
+                  "prerequisite": "CC101 "
+                },
+                {
+                  "id": 6,
+                  "courseName": "Integrative Programming and Technologie",
+                  "courseCode": "ITP109",
+                  "units": 3,
+                  "prerequisite": "CC103"
+                },
+                {
+                  "id": 7,
+                  "courseName": "P.E. 4 (Team Sports) ",
+                  "courseCode": "GEM104",
+                  "units": 3,
+                  "prerequisite": "None"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "Year": "3rd Year",
+          "Semester": [
+            {
+              "id": 1,
+              "SemesterName": "1st Semester",
+              "CourseSubject": [
+                {
+                  "id": 1,
+                  "courseName": "Information Management",
+                  "courseCode": "CC105",
+                  "units": 3,
+                  "prerequisite": "CC104"
+                },
+                {
+                  "id": 2,
+                  "courseName": "System Integration and Architecture",
+                  "courseCode": "ITP110",
+                  "units": 3,
+                  "prerequisite": "ITP105, CC106"
+                },
+                {
+                  "id": 3,
+                  "courseName": "System Administration and Maintenance",
+                  "courseCode": "ITP111",
+                  "units": 3,
+                  "prerequisite": "ITP106"
+                },
+                {
+                  "id": 4,
+                  "courseName": "Methods of Research",
+                  "courseCode": "ITP112",
+                  "units": 3,
+                  "prerequisite": "Regular 3rd Year"
+                }
+              ],
+              "tracks": [
+                {
+                  "id": 1,
+                  "trackName": "Network and Data Security Track",
+                  "courses": [
+                    {
+                      "id": 1,
+                      "courseName": "Information Assurance and Security",
+                      "courseCode": "ITS111",
+                      "units": 3,
+                      "prerequisite": "ITP106"
+                    },
+                    {
+                      "id": 2,
+                      "courseName": "Internet Technologies",
+                      "courseCode": "ITS112",
+                      "units": 3,
+                      "prerequisite": "ITP106"
+                    },
+                    {
+                      "id": 3,
+                      "courseName": "Introduction to Ethical Hacking",
+                      "courseCode": "ITS113",
+                      "units": 3,
+                      "prerequisite": "ITP106"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "trackName": "Software Development Track",
+                  "courses": [
+                    {
+                      "id": 1,
+                      "courseName": "Object-Oriented Programming",
+                      "courseCode": "ITS121",
+                      "units": 3,
+                      "prerequisite": "CC103"
+                    },
+                    {
+                      "id": 2,
+                      "courseName": "Mobile Application Development",
+                      "courseCode": "ITS122",
+                      "units": 3,
+                      "prerequisite": "CC103, ITP104"
+                    },
+                    {
+                      "id": 3,
+                      "courseName": "Web Programming 1",
+                      "courseCode": "ITS123",
+                      "units": 3,
+                      "prerequisite": "CC103, ITP104"
+                    }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "trackName": "Graphics Animation Track",
+                  "courses": [
+                    {
+                      "id": 1,
+                      "courseName": "Script Writing and Story Board Design",
+                      "courseCode": "ITS131",
+                      "units": 3,
+                      "prerequisite": "ITP108"
+                    },
+                    {
+                      "id": 2,
+                      "courseName": "Principles of 3D Animation",
+                      "courseCode": "ITS132",
+                      "units": 3,
+                      "prerequisite": "ITP108"
+                    },
+                    {
+                      "id": 3,
+                      "courseName": "Advance 2D Animation",
+                      "courseCode": "ITS133",
+                      "units": 3,
+                      "prerequisite": "ITP108"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "SemesterName": "2nd Semester",
+              "CourseSubject": [
+                {
+                  "id": 1,
+                  "courseName": "IT Project Management",
+                  "courseCode": "ITP113",
+                  "units": 3,
+                  "prerequisite": "Regular 3rd Year"
+                },
+                {
+                  "id": 2,
+                  "courseName": "Capstone Project 1",
+                  "courseCode": "CAP101",
+                  "units": 3,
+                  "prerequisite": "Regular 3rd Year"
+                },
+                {
+                  "id": 3,
+                  "courseName": "Elective 1 (Seminars and Field Trips)",
+                  "courseCode": "ITE101",
+                  "units": 3,
+                  "prerequisite": "None"
+                }
+              ],
+              "tracks": [
+                {
+                  "id": 1,
+                  "trackName": "Network and Data Security Track",
+                  "courses": [
+                    {
+                      "id": 1,
+                      "courseName": "Cyber Security Principles",
+                      "courseCode": "ITS114",
+                      "units": 3,
+                      "prerequisite": "ITS111"
+                    },
+                    {
+                      "id": 2,
+                      "courseName": "Cryptography",
+                      "courseCode": "ITS115",
+                      "units": 3,
+                      "prerequisite": "ITS113"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "trackName": "Software Development Track",
+                  "courses": [
+                    {
+                      "id": 1,
+                      "courseName": "Web Programming 2",
+                      "courseCode": "ITS124",
+                      "units": 3,
+                      "prerequisite": "ITS123"
+                    },
+                    {
+                      "id": 2,
+                      "courseName": "Software Engineering 1",
+                      "courseCode": "ITS125",
+                      "units": 3,
+                      "prerequisite": "Regular 3rd Year"
+                    }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "trackName": "Graphics Animation Track",
+                  "courses": [
+                    {
+                      "id": 1,
+                      "courseName": "Game Programming",
+                      "courseCode": "ITS134",
+                      "units": 3,
+                      "prerequisite": "ITS132, ITS133"
+                    },
+                    {
+                      "id": 2,
+                      "courseName": "Advance 3D Animation",
+                      "courseCode": "ITS135",
+                      "units": 3,
+                      "prerequisite": "ITS132"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "Year": "4th Year",
+          "Semester": [
+            {
+              "id": 1,
+              "SemesterName": "1st Semester",
+              "CourseSubject": [
+                {
+                  "id": 1,
+                  "courseName": "Capstone Project 2",
+                  "courseCode": "CAP102",
+                  "units": 3,
+                  "prerequisite": "CAP101"
+                },
+                {
+                  "id": 2,
+                  "courseName": "Elective 2",
+                  "courseCode": "ITE102",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 3,
+                  "courseName": "Elective 3",
+                  "courseCode": "ITE103",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 4,
+                  "courseName": "Elective 4",
+                  "courseCode": "ITE104",
+                  "units": 3,
+                  "prerequisite": "None"
+                }
+              ],
+              "tracks": [
+                {
+                  "id": 1,
+                  "trackName": "Network and Data Security Track",
+                  "courses": [
+                    {
+                      "id": 1,
+                      "courseName": "Cloud Computing",
+                      "courseCode": "ITS116",
+                      "units": 3,
+                      "prerequisite": "ITS112"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "trackName": "Software Development Track",
+                  "courses": [
+                    {
+                      "id": 1,
+                      "courseName": "Software Engineering 2",
+                      "courseCode": "ITS126",
+                      "units": 3,
+                      "prerequisite": "ITS125"
+                    }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "trackName": "Graphics Animation Track",
+                  "courses": [
+                    {
+                      "id": 1,
+                      "courseName": "Sound Production",
+                      "courseCode": "ITS136",
+                      "units": 3,
+                      "prerequisite": "ITS125"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "SemesterName": "2nd Semester",
+              "CourseSubject": [
+                {
+                  "id": 1,
+                  "courseName": "On-the-Job Training",
+                  "courseCode": "ITOJT",
+                  "units": 3,
+                  "prerequisite": "Completed Academic Requirements"
                 }
               ]
             }
@@ -808,7 +1355,12 @@
           ]
         }
       ],
-      "outcomes": [],
+      "outcomes": [
+        {
+          "id": 1,
+          "outcome": "Demonstrate broad and coherent knowledge and understanding in the core areas of information systems, including systems analysis and design, database management, networking, and information security. Apply critical thinking and problem-solving skills to analyze complex information systems problems and develop effective solutions. Design, implement, and manage information systems that meet organizational needs while adhering to ethical standards and legal requirements. Communicate effectively with diverse audiences, both orally and in writing, to convey technical information related to information systems. Work collaboratively in teams to achieve common goals in the development and implementation of information systems projects. Demonstrate a commitment to lifelong learning by staying current with emerging technologies and trends in the field of information systems."
+        }
+      ],
       "studyPlans": [],
       "careerOpportunities": []
     },
