@@ -1404,6 +1404,7 @@
   "faculty": [
     {
       "id": 1,
+      "collegeId": 1,
       "image": "https://drive.google.com/file/d/1upZV-7vmz6I4vRhvAIlTTwA61_c4nvw1/view?usp=drive_link",
       "name": "Ivy Joy N. Aguiflor, LPT",
       "designation": "University Lecturer",
@@ -1427,6 +1428,7 @@
     },
     {
       "id": 2,
+      "collegeId": 1,
       "image": "https://drive.google.com/file/d/1aj5s8fWnAGBvHomTM3SLSmpCVOrfsJ2v/view?usp=drive_link",
       "name": "Carmelo O. Alojado",
       "designation": "University Lecturer",
@@ -1446,6 +1448,7 @@
     },
     {
       "id": 3,
+      "collegeId": 1,
       "image": "https://drive.google.com/file/d/1l6Z6ucn2VINOj1WNsvRqN9RTdYDg96jS/view?usp=drive_link",
       "name": "Doreena Joy C. Borja, MIT",
       "designation": "OJT Co-ordinator, Assistant Professor I",
@@ -1469,6 +1472,7 @@
     },
     {
       "id": 4,
+      "collegeId": 1,
       "image": "https://drive.google.com/file/d/1rGR3s0RCBFt9oNU_KaWe3GU2QfSC2dRF/view?usp=drive_link",
       "name": "Melvin M. Cario",
       "designation": "University Lecturer",
@@ -1488,6 +1492,7 @@
     },
     {
       "id": 5,
+      "collegeId": 1,
       "image": "https://drive.google.com/file/d/1v7U5XzfQH_f2XhL_IQB0ZVXc4BwNI8AR/view?usp=drive_link",
       "name": "Eunice G. De Luna-Malinao, MIT",
       "designation": "Assistant Professor IV",
@@ -1515,6 +1520,7 @@
     },
     {
       "id": 6,
+      "collegeId": 1,
       "image": "https://drive.google.com/file/d/1uMXADRX06Yr2ROiuW088RRnlCEiRM2kQ/view?usp=drive_link",
       "name": "Villi Dane M. Go, MSCS",
       "designation": "Instructor III",
@@ -1542,6 +1548,7 @@
     },
     {
       "id": 7,
+      "collegeId": 1,
       "image": "https://drive.google.com/file/d/1wcJnKKXuoO3prnG9vVlJVHwX1bfxGLCl/view?usp=drive_link",
       "name": "Lorimer L. Imperio, MIT",
       "designation": "Assistant Professor II",
@@ -1565,6 +1572,7 @@
     },
     {
       "id": 8,
+      "collegeId": 1,
       "image": "https://drive.google.com/file/d/1rmEMKLK3Dq3HOne4yVwgHqnXJJxDTAWd/view?usp=drive_link",
       "name": "Kevin H. Jasmin, LPT",
       "designation": "Instructor I, OJT Coordinator",
@@ -1592,6 +1600,7 @@
     },
     {
       "id": 9,
+      "collegeId": 1,
       "image": "https://drive.google.com/file/d/1XnCLZh8Yq9ci8a9e656fhy5bpsUuJkHx/view?usp=drive_link",
       "name": "Melvin Jinao",
       "designation": "University Lecturer",
@@ -1611,6 +1620,7 @@
     },
     {
       "id": 10,
+      "collegeId": 1,
       "image": "",
       "name": "Raymart Landig, LPT",
       "designation": "University Lecturer",
@@ -1634,6 +1644,7 @@
     },
     {
       "id": 11,
+      "collegeId": 1,
       "image": "https://drive.google.com/file/d/1DngSUHMmd-_wYvfPDVea8sJxbxZveUId/view?usp=drive_link",
       "name": "Abegail Joy I. Laylay, LPT",
       "designation": "University Lecturer",
@@ -1657,6 +1668,7 @@
     },
     {
       "id": 12,
+      "collegeId": 1,
       "image": "https://drive.google.com/file/d/1rPJjkmIoQg_HuDU9hO8042hWmEO89MYv/view?usp=drive_link",
       "name": "Beneden M. Logmao, MIS",
       "designation": "Assistant Professor IV, Program Head(BS Information System)",
@@ -1680,6 +1692,7 @@
     },
     {
       "id": 13,
+      "collegeId": 1,
       "image": "https://drive.google.com/file/d/1KAss7-EZqDFTyvT_tarpTJp76LXyEGy8/view?usp=drive_link",
       "name": "Art Jervin L. Magcamit, MIT",
       "designation": "Assistant Professor I, Program Head(BS Information Technology)",
@@ -1703,6 +1716,7 @@
     },
     {
       "id": 14,
+      "collegeId": 1,
       "image": "https://drive.google.com/file/d/1X2V18iOV5o-wiZEXEfhaDGERdaQgHLpj/view?usp=drive_link",
       "name": "Ronjie Mar L. Malinao, DIT",
       "designation": "College Dean",
@@ -1730,6 +1744,7 @@
     },
     {
       "id": 15,
+      "collegeId": 1,
       "image": "https://drive.google.com/file/d/1wLa5NfOCV9CEvzJSzqYGo5lJxRlzzMib/view?usp=drive_link",
       "name": "Engr. Jayvi M. Mandalihan, CPE",
       "designation": "University Lecturer",
@@ -1753,6 +1768,7 @@
     },
     {
       "id": 16,
+      "collegeId": 1,
       "image": "https://drive.google.com/file/d/1tJrhDzpCvH61tRZ6LEOtLp8BN9wERbfF/view?usp=drive_link",
       "name": "Meynard O. Mangui",
       "designation": "University Lecturer",
@@ -1772,6 +1788,7 @@
     },
     {
       "id": 17,
+      "collegeId": 1,
       "image": "https://drive.google.com/file/d/1p5QYjfDaDKOKYMPiJay3CLiL76hHyARB/view?usp=drive_link",
       "name": "Jeffrey M. Marapia, MSCS",
       "designation": "Instructor II",
@@ -1795,6 +1812,7 @@
     },
     {
       "id": 18,
+      "collegeId": 1,
       "image": "https://drive.google.com/file/d/1tC8WwH7at99oi8q6RRppE4QGnoFGX1Ut/view?usp=drive_link",
       "name": "Christine May L. Nabos, MIT",
       "designation": "Instructor III",
@@ -1818,6 +1836,7 @@
     },
     {
       "id": 19,
+      "collegeId": 1,
       "image": "https://drive.google.com/file/d/1qMgK0BWSLXT-T2MATQP2jQMGcdjP6MG3/view?usp=drive_link",
       "name": "Julieta Q. Nabos, PH.D",
       "designation": "Assistant Professor V",
@@ -1853,6 +1872,7 @@
     },
     {
       "id": 20,
+      "collegeId": 1,
       "image": "https://drive.google.com/file/d/1ta3qHpHknzvCFB1oXEHS6Rato7S-CVVL/view?usp=drive_link",
       "name": "Kenneth L. Omiping",
       "designation": "University Lecturer",
@@ -1872,6 +1892,7 @@
     },
     {
       "id": 21,
+      "collegeId": 1,
       "image": "https://drive.google.com/file/d/1qEyDL3ltQ4O5AOYi_vH_YZUJbuF2C7VL/view?usp=drive_link",
       "name": "Jonex M. Ornedo",
       "designation": "University Lecturer",
@@ -1891,6 +1912,7 @@
     },
     {
       "id": 22,
+      "collegeId": 1,
       "image": "https://drive.google.com/file/d/1wAu5sxFvjr0qJb20IzXyiC1qwiuf9KUh/view?usp=drive_link",
       "name": "Wilmer M. Pascual",
       "designation": "University Lecturer",
@@ -1914,6 +1936,7 @@
     },
     {
       "id": 23,
+      "collegeId": 1,
       "image": "hhttps://drive.google.com/file/d/1qw_fvg96UMGyc2Wc_V60D52b5xTThpJT/view?usp=drive_link",
       "name": "Christopher J. Rebistual",
       "designation": "Assistant Professor IV, OJT Coordinator",
@@ -1945,6 +1968,7 @@
     },
     {
       "id": 24,
+      "collegeId": 1,
       "image": "",
       "name": "Coney Marie Rejano, LPT",
       "designation": "University Lecturer",
@@ -1968,6 +1992,7 @@
     },
     {
       "id": 25,
+      "collegeId": 1,
       "image": "https://drive.google.com/file/d/1z4kgmYXbM648rDpiT0M5ZhHdVkPNyCDq/view?usp=drive_link",
       "name": "Joshua R. Relatorres",
       "designation": "University Lecturer",
@@ -1991,6 +2016,7 @@
     },
     {
       "id": 26,
+      "collegeId": 1,
       "image": "https://drive.google.com/file/d/1Ma4Ovi8nJPdBrQktzJMpYcJ7u3xvdw_s/view?usp=drive_link",
       "name": "Aldrin R. Requiz",
       "designation": "Instructor I, OJT Coordinator",
@@ -2014,6 +2040,7 @@
     },
     {
       "id": 27,
+      "collegeId": 1,
       "image": "https://drive.google.com/file/d/1n4oui8MqOKTh--jGm_ShB2gdXdgmspNU/view?usp=drive_link",
       "name": "Maria Nessa M. Solomon, MAED",
       "designation": "Assistant Professor IV",
@@ -2037,6 +2064,7 @@
     },
     {
       "id": 28,
+      "collegeId": 1,
       "image": "https://drive.google.com/drive/folders/1qo0Y1k4SKo4HZ7gVNP9bdW_qxfLSQBnS?usp=drive_link",
       "name": "Kierven A. Villaruel, MIT",
       "designation": "Instructor III",
@@ -2062,6 +2090,7 @@
   "staff": [
     {
       "id": 1,
+      "collegeId": 1,
       "image": "https://drive.google.com/file/d/1Y5z3TlqJp5_hbYDY2lbejLQ8gI5-fOaP/view?usp=drive_link",
       "name": "Janebhet R. Nagutom",
       "designation": "Support Staff",
@@ -2069,6 +2098,7 @@
     },
     {
       "id": 2,
+      "collegeId": 1,
       "image": "https://drive.google.com/file/d/1J73P4X_tMM9rwhAbbR6lif01yq6jYbwk/view?usp=drive_link",
       "name": "Danrick A. Mangui",
       "designation": "Technical Staff",
@@ -3141,11 +3171,23 @@
     {
       "id": 1,
       "collegeId": 1,
-      "title": { "en": "" },
-      "publicationYear": "",
-      "completionYear": "",
-      "authors": [],
-      "indices": [],
+      "title": {
+        "en": "Launching of the BP-TUROL for the 11 cooperating schools in Marinduque"
+      },
+      "publicationYear": "September 20, 2024",
+      "completionYear": "N/A",
+      "authors": ["N/A"],
+      "indices": ["N/A"],
+      "abstract": { "en": "" }
+    },
+    {
+      "id": 2,
+      "collegeId": 1,
+      "title": { "en": "Implementation of the BP-TUROL Program" },
+      "publicationYear": "January 22, 2025",
+      "completionYear": "N/A",
+      "authors": ["N/A"],
+      "indices": ["N/A"],
       "abstract": { "en": "" }
     }
   ],
@@ -3188,9 +3230,103 @@
     {
       "id": 1,
       "collegeId": 1,
-      "image": "",
-      "name": { "en": "" },
-      "career": { "en": "" }
+      "tracer": [
+        {
+          "graduates_summary": {
+            "total_graduates": 586,
+            "total_respondents": 534,
+            "response_rate": "90.8%",
+            "programs": {
+              "BSIT": {
+                "graduates": 431,
+                "respondents": 429
+              },
+              "BSIS": {
+                "graduates": 103,
+                "respondents": 103
+              }
+            }
+          },
+          "employment_rates": {
+            "overall": {
+              "BSIT": "80.0%",
+              "BSIS": "80.2%"
+            },
+            "by_graduation_year": {
+              "2018-2019": {
+                "BSIT": "90.4%",
+                "BSIS": "84.4%"
+              },
+              "2019-2020": {
+                "BSIT": "86.3%",
+                "BSIS": "64.7%"
+              },
+              "2021-2022": {
+                "BSIT": "82.1%",
+                "BSIS": "82.8%"
+              },
+              "2022-2023": {
+                "BSIT": "71.5%",
+                "BSIS": "76.0%"
+              }
+            }
+          },
+          "employment_characteristics": {
+            "job_status": {
+              "BSIT": {
+                "regular_permanent": "44%",
+                "contractual": "35%",
+                "temporary": "11%",
+                "self_employed": "6%",
+                "casual": "4%"
+              },
+              "BSIS": {
+                "regular_permanent": "40%",
+                "contractual": "37%",
+                "temporary": "12%",
+                "casual": "6%",
+                "self_employed": "5%"
+              }
+            },
+            "top_occupations": {
+              "BSIT": [
+                "Clerks (26%)",
+                "Technicians and Associate Professionals (18.7%)",
+                "Service, Shop, and Sales Workers (16.8%)"
+              ],
+              "BSIS": [
+                "Professionals (20%)",
+                "Service, Shop, and Sales Workers (20%)",
+                "Clerks (18.7%)"
+              ]
+            }
+          },
+          "curriculum_relevance": {
+            "BSIT": {
+              "relevant": "81.0%",
+              "not_relevant": "19.0%"
+            },
+            "BSIS": {
+              "relevant": "75.7%",
+              "not_relevant": "24.3%"
+            }
+          },
+          "industry_distribution": {
+            "top_industries": {
+              "BSIT": [
+                "Various IT Companies (24%)",
+                "Community/Social/Personal Services (15.5%)",
+                "Education (7.8%)"
+              ],
+              "BSIS": [
+                "Various IT Companies (23.2%)",
+                "Financial Services (14.3%)",
+                "Community/Social/Personal Services (12.5%)"
+              ]
+            }
+          }
+        }
+      ]
     }
   ],
   "alumniTestimonials": [
