@@ -51,8 +51,8 @@ function CollegePrograms() {
       <CollegeNav />
       <div className='max-w-6xl mx-auto px-4 py-8'>
         <h1
-          className='text-3xl md:text-4xl font-bold mb-6'
-          style={{ color: 'var(--primary-700)' }}
+          className='text-2xl md:text-2xl font-bold mb-6'
+          style={{ color: '#323232' }}
         >
           {college.name?.[lang] || college.name?.en} Programs
         </h1>
@@ -62,8 +62,8 @@ function CollegePrograms() {
             programs.map((program, idx) => (
               <div
                 key={idx}
-                className='bg-white/80 rounded-xl shadow-lg p-6 flex flex-col justify-between border border-gray-100 hover:shadow-xl transition-shadow relative'
-                style={{ borderColor: 'var(--primary-300)' }}
+                className='bg-white/80 rounded-lg shadow-lg p-6 flex flex-col justify-between border border-gray-100 hover:shadow-xl transition-shadow relative'
+                style={{ borderColor: 'var(--primary-700)' }}
               >
                 {program.image && (
                   <img
@@ -74,7 +74,7 @@ function CollegePrograms() {
                 )}
                 <h2
                   className='text-xl font-bold mb-2'
-                  style={{ color: 'var(--primary-700)' }}
+                  style={{ color: '#323232' }}
                 >
                   {program.name?.[lang] || program.name?.en}
                 </h2>
@@ -109,7 +109,7 @@ function CollegePrograms() {
                 )}
                 <Link
                   to={`/colleges/${collegeKey}/programs/${program.key || idx + 1}`}
-                  className='mt-4 inline-block bg-[var(--primary-700)] text-white px-4 py-2 rounded shadow hover:bg-[var(--primary-800)] transition-colors font-semibold text-center'
+                  className='mt-4 inline-block bg-[var(--primary-700)] text-white px-2 py-2 rounded shadow hover:bg-[var(--primary-500)] hover:text-[var(--primary-700)] text-sm transition-colors font-semibold text-center'
                 >
                   View Details
                 </Link>
