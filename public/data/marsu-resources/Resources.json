@@ -361,6 +361,7 @@
       "id": 1,
       "collegeId": 1,
       "name": { "en": "Bachelor of Science in Information Technology" },
+      "version": "2023-2024",
       "description": {
         "en": "The Bachelor of Science in Information Technology program prepares students for a career in the IT industry, focusing on software development, network management, and database administration."
       },
@@ -400,6 +401,7 @@
       "id": 2,
       "collegeId": 2,
       "name": { "en": "Bachelor of Science in Information Systems" },
+      "version": "2023-2024",
       "description": {
         "en": "The Bachelor of Science in Information Systems program focuses on the application of technology in business settings, preparing students for careers in IT management and consulting."
       },

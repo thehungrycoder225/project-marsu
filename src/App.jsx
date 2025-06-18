@@ -14,6 +14,8 @@ const Colleges = lazy(() => import('./pages/CollegePage/College'));
 const PageNotFound = lazy(() => import('./pages/404/404'));
 const NewsDetail = lazy(() => import('./pages/CollegePage/NewsDetail'));
 const CollegeAbout = lazy(() => import('./pages/CollegePage/About'));
+const CollegePrograms = lazy(() => import('./pages/CollegePage/Programs'));
+const ProgramDetail = lazy(() => import('./pages/CollegePage/ProgramDetail'));
 
 function App() {
   useDynamicTheme();
@@ -58,7 +60,11 @@ function App() {
           />
           <Route
             path='/colleges/:collegeKey/programs'
-            element={<div>College Programs</div>}
+            element={<CollegePrograms />}
+          />
+          <Route
+            path='/colleges/:collegeKey/programs/:programId'
+            element={<ProgramDetail />}
           />
           <Route
             path='/colleges/:collegeKey/faculty'

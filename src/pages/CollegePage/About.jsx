@@ -19,7 +19,7 @@ function CollegeAbout() {
   const { colleges, faculty, loading, error } = useColleges();
   const params = useParams();
   const location = useLocation();
-  const lang = 'en'; // TODO: Replace with dynamic language selection
+  const lang = 'en';
 
   // Try to get collegeKey from params, fallback to hash/URL parsing
   let collegeKey = params.collegeKey;
