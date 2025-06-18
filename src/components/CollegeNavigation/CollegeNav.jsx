@@ -6,12 +6,11 @@ import { useScrollPosition } from '../../hooks/hooks';
 
 // Example: Replace with real logo/icon paths per college
 const collegeLogos = {
-  cics: '/public/logo.png',
-  ceng: '/public/logo.png',
-  cass: '/public/logo.png',
-  cit: '/public/logo.png',
-  cba: '/public/logo.png',
-  coed: '/public/logo.png',
+  cics: '/public/images/cics-temp-logo.png',
+  'college-b': '/logos/college-b.png',
+  'college-c': '/logos/college-c.png',
+  // Add more colleges as needed
+  default: '/public/logo.png', // Fallback logo
 };
 
 const navLinks = [
@@ -82,7 +81,7 @@ export default function CollegeNav() {
             <img
               alt='College Logo'
               src={logo}
-              className='h-10 w-10 rounded-full object-contain'
+              className='h-12 w-12 rounded-full object-contain'
             />
             <span className='sr-only'>College Home</span>
           </Link>
@@ -106,7 +105,7 @@ export default function CollegeNav() {
                 key={link.label}
                 to={to}
                 className={classNames(
-                  'relative font-semibold px-3 py-2 transition-all',
+                  'relative font-semibold px-3 py-2 transition-all text-sm',
                   isActive
                     ? 'nav-active' // text and underline via CSS
                     : 'text-gray-900 hover:text-[var(--primary-700)]'
@@ -139,7 +138,7 @@ export default function CollegeNav() {
           <div className='flex items-center justify-between mb-6'>
             <Link
               to={`/colleges/${collegeKey}/about`}
-              className='flex items-center gap-2'
+              className='flex items-center gap-2 '
             >
               <img
                 alt='College Logo'
@@ -155,7 +154,7 @@ export default function CollegeNav() {
             <button
               type='button'
               onClick={() => setMobileMenuOpen(false)}
-              className='rounded-md p-2 text-gray-700 hover:bg-gray-200 '
+              className='rounded-md p-2 text-gray-700 hover:bg-gray-200'
               aria-label='Close menu'
             >
               <XMarkIcon aria-hidden='true' className='h-6 w-6' />
@@ -170,7 +169,7 @@ export default function CollegeNav() {
                   key={link.label}
                   to={to}
                   className={classNames(
-                    'font-semibold px-3 py-2 transition-all',
+                    'font-semibold px-3 py-2 transition-all ',
                     isActive
                       ? 'nav-active'
                       : 'text-gray-900 hover:text-[var(--primary-700)]'

@@ -3,7 +3,9 @@
 import { useColleges } from '../hooks/useColleges';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { ShareIcon } from '@heroicons/react/24/outline';
 import PropTypes from 'prop-types';
+import MetaTags from './MetaTags';
 
 function NewsEvents({ collegeKey }) {
   const { colleges, loading, error } = useColleges();
@@ -65,12 +67,34 @@ function NewsEvents({ collegeKey }) {
   // Helper to determine if articleUrl is internal
   const isInternalUrl = (url) => url && url.startsWith('/colleges/');
 
+  // For meta tags, use the first featured or latest news as the primary article
+  const metaNews = featuredNews[0] || sortedNews[0];
+  const metaTitle =
+    metaNews?.metaTitle ||
+    metaNews?.title?.[lang] ||
+    metaNews?.title ||
+    'News | Marinduque State University';
+  const metaDescription =
+    metaNews?.metaDescription ||
+    metaNews?.description?.[lang] ||
+    metaNews?.description ||
+    'Latest news and updates from Marinduque State University.';
+  const metaImage = metaNews?.metaImage || metaNews?.imgUrl || '/logo.png';
+  const metaUrl = metaNews?.articleUrl || window.location.href;
+
   if (loading) return <div>Loading...</div>;
   if (error) return <div>Error: {error}</div>;
   if (!college) return <div>No news found for this college.</div>;
 
   return (
     <>
+      <MetaTags
+        title={metaTitle}
+        description={metaDescription}
+        image={metaImage}
+        url={metaUrl}
+        type='article'
+      />
       {/* <div className='mb-4 flex flex-col md:flex-row gap-2 items-start md:items-center'>
         <input
           type='text'
@@ -122,14 +146,14 @@ function NewsEvents({ collegeKey }) {
                     (isInternalUrl(news.articleUrl) ? (
                       <Link
                         to={news.articleUrl}
-                        className='text-blue-500 text text-sm hover:underline mr-2'
+                        className='text-[var(--primary-700)] font-bold text-sm hover:underline mr-2'
                       >
                         Read more
                       </Link>
                     ) : (
                       <a
                         href={news.articleUrl}
-                        className='text-blue-500 hover:underline mr-2'
+                        className='text-[var(--primary-700)] hover:underline mr-2'
                         target='_blank'
                         rel='noopener noreferrer'
                       >
@@ -137,10 +161,11 @@ function NewsEvents({ collegeKey }) {
                       </a>
                     ))}
                   <button
-                    className='text-xs text-blue-700 underline ml-2'
+                    className='text-xs text-gray-900 hover:text-gray-700 underline ml-2'
                     onClick={() => handleShare(news)}
+                    title='Share this news'
                   >
-                    Share
+                    <ShareIcon className='inline-block w-4 h-4 mr-1' />
                   </button>
                   {/* Expand/collapse details */}
                   {news.fullContent && (
@@ -167,14 +192,16 @@ function NewsEvents({ collegeKey }) {
               {paginatedNews.length > 0 ? (
                 paginatedNews.map((news) => (
                   <div key={news.id} className='mb-4 p-2 border-b'>
-                    <h3 className='text-lg font-semibold mb-2'>
+                    <h3 className='text-lg font-bold mb-2'>
                       {news.title?.[lang] || news.title}
                     </h3>
                     <p className='text-gray-600 mb-2 text-sm'>
                       {news.description?.[lang] || news.description}
                     </p>
                     {news.author && (
-                      <p className='text-xs text-gray-500'>By {news.author}</p>
+                      <p className='text-xs text-gray-500 mb-2'>
+                        By {news.author}
+                      </p>
                     )}
                     {news.tags && news.tags.length > 0 && (
                       <div className='flex flex-wrap gap-1 mb-2'>
@@ -192,14 +219,14 @@ function NewsEvents({ collegeKey }) {
                       (isInternalUrl(news.articleUrl) ? (
                         <Link
                           to={news.articleUrl}
-                          className='text-blue-500 hover:underline mr-2'
+                          className='text-[var(--primary-700)] font-bold text-sm hover:underline mr-2'
                         >
                           Read more
                         </Link>
                       ) : (
                         <a
                           href={news.articleUrl}
-                          className='text-blue-500 hover:underline mr-2'
+                          className='text-[var(--primary-700)] hover:underline mr-2'
                           target='_blank'
                           rel='noopener noreferrer'
                         >
@@ -207,10 +234,11 @@ function NewsEvents({ collegeKey }) {
                         </a>
                       ))}
                     <button
-                      className='text-xs text-blue-700 underline ml-2'
+                      className='text-xs text-gray-900 hover:text-gray-700 underline ml-2'
                       onClick={() => handleShare(news)}
+                      title='Share this news'
                     >
-                      Share
+                      <ShareIcon className='inline-block w-4 h-4 mr-1' />
                     </button>
                     {news.fullContent && (
                       <details className='mt-2'>

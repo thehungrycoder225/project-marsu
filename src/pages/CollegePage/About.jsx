@@ -1,7 +1,7 @@
 import { useParams, Link, useLocation } from 'react-router-dom';
 import { useColleges } from '../../hooks/useColleges';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination } from 'swiper/modules';
+import { Navigation, Pagination, Scrollbar } from 'swiper/modules';
 import CollegeNav from '../../components/CollegeNavigation/CollegeNav';
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -19,7 +19,7 @@ function CollegeAbout() {
   const { colleges, faculty, loading, error } = useColleges();
   const params = useParams();
   const location = useLocation();
-  const lang = 'en'; // TODO: Replace with dynamic language selection
+  const lang = 'en';
 
   // Try to get collegeKey from params, fallback to hash/URL parsing
   let collegeKey = params.collegeKey;
@@ -59,10 +59,10 @@ function CollegeAbout() {
         <div className='relative rounded-2xl overflow-hidden shadow-lg mb-8'>
           {images.length > 0 ? (
             <Swiper
-              modules={[Navigation, Pagination]}
-              navigation
-              pagination={{ clickable: true }}
+              modules={[Navigation, Scrollbar]}
+              scrollbar={{ draggable: true }}
               loop
+              autoplay={{ delay: 5000, disableOnInteraction: false }}
               className='w-full h-64 md:h-96'
             >
               {images.map((img, idx) => (
@@ -103,7 +103,7 @@ function CollegeAbout() {
             <div className='text-2xl font-bold'>
               {stats.accreditation || '—'}
             </div>
-            <div className='text-xs text-gray-500'>Accreditation</div>
+            <div className='text-xs text-gray-500'>Accreditation Level</div>
           </div>
           <div className='bg-white/70 rounded-lg shadow p-4 text-center'>
             <div className='text-2xl font-bold'>{collegeFaculty.length}</div>
@@ -168,7 +168,13 @@ function CollegeAbout() {
                     <div className='text-xs text-gray-500'>
                       {f.academicrank?.[lang] || f.academicrank?.en}
                     </div>
-                    <div className='text-xs text-blue-700'>{f.email}</div>
+                    <a
+                      className='text-xs text-[var(--primary-700)]'
+                      href={`mailto:${f.email}`}
+                      target='_blank'
+                    >
+                      {f.email}
+                    </a>
                   </div>
                 </div>
               ))}
@@ -179,19 +185,19 @@ function CollegeAbout() {
         <div className='flex flex-wrap gap-4 justify-center mt-8'>
           <Link
             to={`/colleges/${collegeKey}/programs`}
-            className='bg-gradient-to-r from-pink-500 to-blue-600 text-white px-6 py-2 rounded-full shadow hover:from-pink-600 hover:to-blue-700 transition-all font-semibold'
+            className='bg-gray-900 text-white px-6 py-2 rounded-sm shadow hover:text-[var(--primary-700)] transition-all font-semibold'
           >
             See Programs
           </Link>
           <Link
             to={`/colleges/${collegeKey}/faculty`}
-            className='bg-white/80 text-primary-700 px-6 py-2 rounded-full shadow hover:bg-blue-50 transition-all font-semibold'
+            className='bg-white/80 text-primary-700 px-6 py-2 rounded-sm shadow hover:bg-blue-50 transition-all font-semibold'
           >
             See Faculty
           </Link>
           <Link
             to='/'
-            className='bg-gray-200 text-gray-700 px-6 py-2 rounded-full shadow hover:bg-gray-300 transition-all font-semibold'
+            className='bg-gray-200 text-gray-700 px-6 py-2 rounded-sm shadow hover:bg-gray-300 transition-all font-semibold'
           >
             Back to Homepage
           </Link>

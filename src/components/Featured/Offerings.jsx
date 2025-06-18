@@ -28,15 +28,15 @@ function Offerings({ collegeKey }) {
   }
 
   return (
-    <div className='grid md:grid-cols-3 gap-4'>
-      <div className='0 p-4 '>
+    <div className='grid md:grid-cols-3 sm:grid-cols-2 gap-4'>
+      <div className='sm:col-span-1 md:col-span-1 mb-4'>
         <h2 className='text-2xl font-bold mb-4'>Program Offerings</h2>
         <p className='text-gray-700 text-sm'>
           Explore our diverse range of programs designed to equip you with the
           skills and knowledge needed for a successful career.
         </p>
       </div>
-      <div className='col-span-2'>
+      <div className='md:col-span-2 sm:col-span-1'>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-4'>
           {collegePrograms.map((offering) => (
             <div key={offering.id} className=''>
