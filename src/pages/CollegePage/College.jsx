@@ -46,7 +46,7 @@ function Colleges() {
         imageWidth={college.imageWidth}
         imageHeight={college.imageHeight}
       />
-      <div className='college-container mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8'>
+      <div className='college-container mx-auto max-w-7xl '>
         {/* College News */}
         <Section>
           <News collegeKey={collegeKey} />

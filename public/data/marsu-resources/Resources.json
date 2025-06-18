@@ -6,6 +6,11 @@
       "id": 1,
       "name": { "en": "College of Information and Computing Sciences" },
       "collegeLogo": "../../images/cics-logo.png",
+      "images": ["../../images/cics-temp-banner.png"],
+      "stats": {
+        "founded": 1998,
+        "accreditation": 3
+      },
       "slug": "college-of-information-and-computing-sciences",
       "shortName": { "en": "cics" },
       "profile": {

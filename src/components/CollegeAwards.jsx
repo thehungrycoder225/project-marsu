@@ -25,7 +25,10 @@ const CollegeAwards = ({ awards, lang }) => {
     <section className='my-12'>
       <div className='flex justify-between items-center mb-4'>
         <h2 className='text-2xl font-bold'>Awards</h2>
-        <a href='/awards' className='text-blue-600 hover:underline font-medium'>
+        <a
+          href='/awards'
+          className='text-[var(--primary-700)] hover:underline font-semibold text-sm'
+        >
           See all awards
         </a>
       </div>
