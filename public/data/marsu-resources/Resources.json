@@ -5,7 +5,7 @@
     {
       "id": 1,
       "name": { "en": "College of Information and Computing Sciences" },
-      "collegeLogo": "../../images/cics-logo.png",
+      "collegeLogo": "../../images/cics-temp-logo.png",
       "images": ["../../images/cics-temp-banner.png"],
       "stats": {
         "founded": 1998,
