@@ -4494,36 +4494,1042 @@
       "collegeProfile": [
         {
           "tagline": {
-            "en": "Leading in Business Education",
+            "en": "Dunong, Sining, Lakas at Karangalan CBA ikaw ang Hirang",
             "fil": "Pangunguna sa Edukasyong Pang-Negosyo"
           },
           "history": {
-            "en": "The College of Business Administration (CBA) at Marinduque State University...",
+            "en": "The College of Business and Accountancy (CBA) of Marinduque State College (MSC) was formally established on February 6, 2023, through MSC Board of Trustees Resolution No. 31, s. 2023, as part of MSC’s strategic move to become a full-fledged university. CBA emerged from a series of institutional transitions, beginning as the School of Business and Management (SBM), which was officially recognized in 2011 and launched during the second semester of the academic year 2011–2012. Over time, SBM evolved into the Institute of Accountancy, Business Administration, and Tourism Management (IABT) and was placed under the College of Accountancy, Business, and Governance in 2021. The unit steadily expanded its academic offerings, introducing the BS in Entrepreneurship in 2005, BS in Tourism Management in 2007, BS in Accounting Technology (now Accounting Information System) in 2013, and in 2018, seeking government approval to offer BS in Accountancy and BS in Business Administration with specializations in Human Resource Management, Marketing Management, and Financial Management. The leadership of the business unit has seen a number of changes throughout its development. Ms. Amelia M. Merano was the first Dean of SBM, succeeded by Ms. Verna Liza L. Capina (2012 & 2016), Mr. Michael V. Capina (2013 & 2021), and Mr. Generoso E. Udanga (2017). The role of Associate Dean was initially held by Mr. Mark Rey U. Tan, CPA, and was passed on to Dr. Merryrose Red-Palma in 2022. In 2023, Ms. Verna Liza L. Capina resumed leadership and continues to serve as Dean to the present. These leadership transitions reflect the ongoing commitment to institutional growth, academic excellence, and program development within the college.",
             "fil": "Ang Kolehiyo ng Pamamahala sa Negosyo (CBA) sa Marinduque State University..."
           },
           "goals": {
-            "en": "The College of Business Administration aims to provide excellent business education...",
+            "en": "To produce competent and ethical professionals and leaders in the fields of accountancy, Enterpreneurhip, Business, administration, Tourism and other multi-disciplinary fields of Business management comitted to the service of the province and the global community.",
             "fil": "Layunin ng Kolehiyo ng Pamamahala sa Negosyo na magbigay ng mahusay na edukasyon sa negosyo..."
           },
           "awards": [
             {
               "id": 1,
-              "title": { "en": "BEST BUSINESS SCHOOL" },
-              "year": 2024,
-              "description": {
-                "en": "For outstanding performance in business education and research."
-              }
+              "title": "",
+              "year": "",
+              "description": ""
             }
           ]
         }
       ],
-      "programs": [5],
-      "workForce": [5],
-      "research": [5],
-      "studentAchievement": [5],
-      "studentProfile": [8],
-      "studentPublication": [5],
-      "alumni": [5]
+      "programs": [
+        {
+          "id": 1,
+          "programName": "Bachelor of Science in Accountancy",
+          "programDescription": "This program provides general accounting education to students wanting to pursue a professional career in Accountancy in general and in Public Accounting in particular. Further, this is the program that complies with the latest competency framework for professional accountants issued by the International Federation of Accountants (IFAC) through the International Education Standards. Thus, this qualifies the graduate of this program to take assessments leading to certifications in Accountancy given by the Professional Regulatory Commission-Board of Accountancy (PRC-BOA) and other global professional Accountancy organizations.",
+          "curriculum": [
+            {
+              "id": 1,
+              "Year": "",
+              "Semester": [
+                {
+                  "id": 1,
+                  "SemesterName": "",
+                  "CourseSubject": [
+                    {
+                      "id": 1,
+                      "courseName": "",
+                      "courseCode": "",
+                      "units": 3,
+                      "prerequisite": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "programOutcome": [
+            {
+              "id": 1,
+              "outcome": "Demonstrate knowledge and understanding of the concepts, principles, and theories of accounting, business, and finance. Apply accounting and business knowledge to solve complex problems in real-world scenarios. Analyze financial statements and reports to make informed decisions. Communicate effectively in both written and oral forms in a professional context. Demonstrate ethical behavior and social responsibility in business practices. Utilize information technology tools for accounting and business applications."
+            }
+          ],
+          "studyPlan": [],
+          "careerOpportunity": [
+            {
+              "id": 1,
+              "career": "Junior Analyst",
+              "description": "",
+              "salaryRange": ""
+            },
+            {
+              "id": 2,
+              "career": "Consulting Staff",
+              "description": "",
+              "salaryRange": ""
+            },
+            {
+              "id": 3,
+              "career": "Cost Analyst",
+              "description": "",
+              "salaryRange": ""
+            },
+            {
+              "id": 4,
+              "career": "Accounting Information System Staff",
+              "description": "",
+              "salaryRange": ""
+            },
+            {
+              "id": 5,
+              "career": "Tax Accounting Staff",
+              "description": "",
+              "salaryRange": ""
+            },
+            {
+              "id": 6,
+              "career": "Financial Analyst",
+              "description": "",
+              "salaryRange": ""
+            },
+            {
+              "id": 7,
+              "career": "Budget Analyst",
+              "description": "",
+              "salaryRange": ""
+            },
+            {
+              "id": 8,
+              "career": "Credit Analyst",
+              "description": "",
+              "salaryRange": ""
+            },
+            {
+              "id": 9,
+              "career": "Cost Accountanct",
+              "description": "",
+              "salaryRange": ""
+            },
+            {
+              "id": 10,
+              "career": "State Accounting Examiner",
+              "description": "",
+              "salaryRange": ""
+            },
+            {
+              "id": 11,
+              "career": "NBI Agent",
+              "description": "",
+              "salaryRange": ""
+            },
+            {
+              "id": 12,
+              "career": "Treasury Agent",
+              "description": "",
+              "salaryRange": ""
+            },
+            {
+              "id": 13,
+              "career": "State Accountant",
+              "description": "",
+              "salaryRange": ""
+            },
+            {
+              "id": 14,
+              "career": "LGU Accountant",
+              "description": "",
+              "salaryRange": ""
+            },
+            {
+              "id": 15,
+              "career": "Revenue Officer",
+              "description": "",
+              "salaryRange": ""
+            },
+            {
+              "id": 16,
+              "career": "Audit Examiner",
+              "description": "",
+              "salaryRange": ""
+            },
+            {
+              "id": 17,
+              "career": "Budget Office",
+              "description": "",
+              "salaryRange": ""
+            },
+            {
+              "id": 18,
+              "career": "Financial Services Analyst",
+              "description": "",
+              "salaryRange": ""
+            },
+            {
+              "id": 19,
+              "career": "Junior Accounting Instructor",
+              "description": "",
+              "salaryRange": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "programName": "Bachelor of Science in Tourism Management",
+          "programDescription": "The programs related to the fields of hospitality and tourism education will equip students with competencies that are needed to execute operational tasks and management functions in food production (culinary), accommodation, food and beverage service, tourism planning and product development, events planning, transportation services, travel and tour operations and other emerging sectors of hospitality and tourism industry.",
+          "curriculum": [
+            {
+              "id": 1,
+              "Year": "",
+              "Semester": [
+                {
+                  "id": 1,
+                  "SemesterName": "",
+                  "CourseSubject": [
+                    {
+                      "id": 1,
+                      "courseName": "",
+                      "courseCode": "",
+                      "units": 3,
+                      "prerequisite": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "programOutcome": [
+            {
+              "id": 1,
+              "outcome": "Demonstrate knowledge of tourism industry, local tourism products and services. Interpret and apply relevant laws related to tourism industry. Observe and perform risk mitigation activities. Utilize information technology applications for tourism and hospitality. Manage and market a service-oriented business organization. Demonstrate administrative and managerial skills in a service-oriented organization. Prepare and monitor industry specific financial transactions and reports. Perform human capital development functions of a tourism oriented organization. Utilize various communication channels proficiently with guests and colleagues."
+            }
+          ],
+          "studyPlan": [],
+          "careerOpportunity": [
+            {
+              "id": 1,
+              "career": "Air Cabin Crew",
+              "description": "",
+              "salaryRange": ""
+            },
+            {
+              "id": 2,
+              "career": "Hotel Manager",
+              "description": "",
+              "salaryRange": ""
+            },
+            {
+              "id": 3,
+              "career": "Tour Manager",
+              "description": "",
+              "salaryRange": ""
+            },
+            {
+              "id": 4,
+              "career": "Tourism Officer",
+              "description": "",
+              "salaryRange": ""
+            },
+            {
+              "id": 5,
+              "career": "Tourist information Centre Manager",
+              "description": "",
+              "salaryRange": ""
+            },
+            {
+              "id": 6,
+              "career": "Travel Agency Manager",
+              "description": "",
+              "salaryRange": ""
+            },
+            {
+              "id": 7,
+              "career": "Conference Centre Manager",
+              "description": "",
+              "salaryRange": ""
+            },
+            {
+              "id": 8,
+              "career": "Customer Service Manager",
+              "description": "",
+              "salaryRange": ""
+            },
+            {
+              "id": 9,
+              "career": "Event Manager",
+              "description": "",
+              "salaryRange": ""
+            },
+            {
+              "id": 10,
+              "career": "Marketing Executive",
+              "description": "",
+              "salaryRange": ""
+            },
+            {
+              "id": 11,
+              "career": "Passenger Transport Manager",
+              "description": "",
+              "salaryRange": ""
+            },
+            {
+              "id": 12,
+              "career": "Sales Executive",
+              "description": "",
+              "salaryRange": ""
+            },
+            {
+              "id": 13,
+              "career": "Outdoor Activities/Education Manager",
+              "description": "",
+              "salaryRange": ""
+            }
+          ]
+        }
+      ],
+      "workForce": [
+        {
+          "faculty": [
+            {
+              "id": 1,
+              "image": "https://drive.google.com/drive/u/0/folders/1SuzFs_rAT3JGQ8tvBLxKMv2ex8kco3oH",
+              "name": "DR. VERNA LIZA L. CAPINA",
+              "designation": "Associate Professor V, College Dean",
+              "email": "capina.vernaliza@marsu.edu.ph",
+              "educationalAttainment": [
+                {
+                  "id": 1,
+                  "attainment": " Doctor of Business Administration"
+                }
+              ],
+              "publication": [
+                {
+                  "id": 1,
+                  "title": ""
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "image": "https://drive.google.com/drive/u/0/folders/1lwE9jBreKFjTHnn94qxLxeWqzG8ZhsN4",
+              "name": "GENEROSO E. UDANGA, MBA",
+              "designation": "Associate Professor V, Program Head",
+              "email": "udanga.generoso@marsu.edu.ph",
+              "educationalAttainment": [
+                {
+                  "id": 1,
+                  "attainment": ""
+                }
+              ],
+              "publication": [
+                {
+                  "id": 1,
+                  "title": "OCONUT INDUSTRY, ENTREPRENEURSHIP, GOOD GOVERNANCE, SUSTAINABLE DEVELOPMENT GOALS"
+                },
+                {
+                  "id": 2,
+                  "title": " Published 10+ research papers on various subject matters including papers on the coconut industry and on local governance; received the Best Researcher-Dangal ng MSC Award 2023"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "image": "https://drive.google.com/drive/u/0/folders/1WAqJJhMXSSiwoCfBTYiaKI_mtsKdyjXU",
+              "name": "RONALYN M. MOTOL, MPA,MBA",
+              "designation": "Assistant Professor 1, Program Head",
+              "email": "motol.ronalynm@marsu.edu.ph",
+              "educationalAttainment": [
+                {
+                  "id": 1,
+                  "attainment": ""
+                }
+              ],
+              "publication": [
+                {
+                  "id": 1,
+                  "title": ""
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "image": "https://drive.google.com/drive/u/0/folders/1npxv2yJXpjThcBnScioi7yH5NHh_2gqQ",
+              "name": "RHODA N. MOLBOG, MBA, MPA",
+              "designation": "Assistant Professor 1, Program Head",
+              "email": "",
+              "educationalAttainment": [
+                {
+                  "id": 1,
+                  "attainment": ""
+                }
+              ],
+              "publication": [
+                {
+                  "id": 1,
+                  "title": ""
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "image": "https://drive.google.com/drive/u/0/folders/1dj3VL1gUKYl6kF7pCaXemB-1ck1ojcCX",
+              "name": "DONABEL T. MAGAHIS, MBA",
+              "designation": "Assistant Professor IV, Program Head",
+              "email": "magahis.donabel@marsu.edu.ph",
+              "educationalAttainment": [
+                {
+                  "id": 1,
+                  "attainment": ""
+                }
+              ],
+              "publication": [
+                {
+                  "id": 1,
+                  "title": ""
+                },
+                {
+                  "id": 2,
+                  "title": ""
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "image": "https://drive.google.com/drive/u/0/folders/1X_xb3pDA8KUOlqzEaqresxfdQEjdIHgv",
+              "name": "RONALYN P. VILLALVA-REVILLOZA, MBA",
+              "designation": "INSTRUCTOR I",
+              "email": "villalva.ronalyn@marsu.edu.ph",
+              "educationalAttainment": [
+                {
+                  "id": 1,
+                  "attainment": ""
+                }
+              ],
+              "publication": [
+                {
+                  "id": 1,
+                  "title": ""
+                }
+              ]
+            },
+            {
+              "id": 7,
+              "image": "https://drive.google.com/drive/u/0/folders/1vLwGcwZ3jCQd-pNYkLWN7yFGz-qcf8GE",
+              "name": "JUN JOSEPH JOHN S. REFUERZO, MBA",
+              "designation": "Instructor I, Assistant Program Head BSA/BSAIS",
+              "email": "refuerzo.jun@marsu.edu.ph",
+              "educationalAttainment": [
+                {
+                  "id": 1,
+                  "attainment": ""
+                }
+              ],
+              "publication": [
+                {
+                  "id": 1,
+                  "title": ""
+                }
+              ]
+            },
+            {
+              "id": 8,
+              "image": "https://drive.google.com/drive/u/0/folders/1aCmjKTgFgwAbgasvOWkjgYCMVZ8MkR3S",
+              "name": "AZAEL MAY Q. PEÑAROYO-JOMADIAO, MBA",
+              "designation": "Instructor 1",
+              "email": "penaroyo.azaelmay@marsu.edu.ph",
+              "educationalAttainment": [
+                {
+                  "id": 1,
+                  "attainment": ""
+                }
+              ],
+              "publication": [
+                {
+                  "id": 1,
+                  "title": ""
+                }
+              ]
+            },
+            {
+              "id": 9,
+              "image": "https://drive.google.com/drive/u/0/folders/1lP8uYJa84spepwg0yaVQrsTv-sGH_3CW",
+              "name": "MERRYROSE RED PALMA, PH.D.-BM",
+              "designation": "Associate Professor II",
+              "email": "palma.merryrose@marsu.edu.ph",
+              "educationalAttainment": [
+                {
+                  "id": 1,
+                  "attainment": ""
+                }
+              ],
+              "publication": [
+                {
+                  "id": 1,
+                  "title": ""
+                }
+              ]
+            },
+            {
+              "id": 10,
+              "image": "https://drive.google.com/drive/u/0/folders/1fn-wrMoCHW44fz6wmBOGETnsBRcE5-yL",
+              "name": "LYNLE N. MENDOZA, MBA",
+              "designation": "Assistant Professor I",
+              "email": "mendoza.lynle@marsu.edu.ph",
+              "educationalAttainment": [
+                {
+                  "id": 1,
+                  "attainment": ""
+                }
+              ],
+              "publication": [
+                {
+                  "id": 1,
+                  "title": "OCONUT INDUSTRY, ENTREPRENEURSHIP, GOOD GOVERNANCE, SUSTAINABLE DEVELOPMENT GOALS"
+                }
+              ]
+            },
+            {
+              "id": 11,
+              "image": "https://drive.google.com/drive/u/0/folders/1x6frk7Jn_ujQGFTKsEAtYV1lqzyC9EFZ",
+              "name": "MARIFE R. MADLA, MBA, MPA",
+              "designation": "Assistant Professor II",
+              "email": "madla.marife@marsu.edu.ph",
+              "educationalAttainment": [
+                {
+                  "id": 1,
+                  "attainment": ""
+                }
+              ],
+              "publication": [
+                {
+                  "id": 1,
+                  "title": "Be a Tree Hugger: “Encourages people to embrace and protect trees, symbolizing their commitment to environmental conservation”."
+                },
+                {
+                  "id": 2,
+                  "title": "Hope Beyond Bars: Jail Visitation"
+                },
+                {
+                  "id": 3,
+                  "title": "Waves of Change: GAD Coastal Clean-up"
+                },
+                {
+                  "id": 4,
+                  "title": "GAD Grows: Planting Seeds of Equality-A tree Planting Drive"
+                }
+              ]
+            },
+            {
+              "id": 12,
+              "image": "https://drive.google.com/drive/u/0/folders/196Af82UqRAV6TFGo3eicltlGqe9vGZNg",
+              "name": "MARGARETTE FORTEN GUILMO, MBA",
+              "designation": "INSTRUCTOR I",
+              "email": "guilmo.margarette@marsu.edu.ph",
+              "educationalAttainment": [
+                {
+                  "id": 1,
+                  "attainment": ""
+                }
+              ],
+              "publication": [
+                {
+                  "id": 1,
+                  "title": ""
+                }
+              ]
+            },
+            {
+              "id": 13,
+              "image": "https://drive.google.com/drive/u/0/folders/1B3gspnbzd7vi7UZEkdICLx-pFrtn3PLC",
+              "name": "MARK LOUIE TANZ BALATICO GALANG, MBA",
+              "designation": "Instructor I, Extension Coordinator",
+              "email": "galang.marklouietanz@marsu.edu.ph",
+              "educationalAttainment": [
+                {
+                  "id": 1,
+                  "attainment": ""
+                }
+              ],
+              "publication": [
+                {
+                  "id": 1,
+                  "title": ""
+                }
+              ]
+            },
+            {
+              "id": 14,
+              "image": "https://drive.google.com/drive/u/0/folders/1N90guthB0fyeXq5_8cpWIG16wHAhpXoR",
+              "name": "JOAN MARIE LANUZA-ECLIPSE, MBA",
+              "designation": "Instructor I",
+              "email": "eclipse.joanmarie@marsu.edu.ph",
+              "educationalAttainment": [
+                {
+                  "id": 1,
+                  "attainment": ""
+                }
+              ],
+              "publication": [
+                {
+                  "id": 1,
+                  "title": ""
+                }
+              ]
+            },
+            {
+              "id": 15,
+              "image": "https://drive.google.com/drive/u/0/folders/1W_nobxAnm7BsQods6jk75k2AZaKKHld_",
+              "name": "JENYZA B. DIMACALI-ROJO, MBA",
+              "designation": "Instructor I, Research Coordinator",
+              "email": "dimacalirojo.jenyza@marsu.edu.ph",
+              "educationalAttainment": [
+                {
+                  "id": 1,
+                  "attainment": ""
+                }
+              ],
+              "publication": [
+                {
+                  "id": 1,
+                  "title": ""
+                }
+              ]
+            },
+            {
+              "id": 16,
+              "image": "https://drive.google.com/drive/u/0/folders/1xijFG_hzhfWyu53HOwjHXeDKOGvnzBWT",
+              "name": "MICHAEL V. CAPIÑA, Ph.D.",
+              "designation": "Associate Professor V",
+              "email": "capina.michael@marsu.edu.ph",
+              "educationalAttainment": [
+                {
+                  "id": 1,
+                  "attainment": ""
+                }
+              ],
+              "publication": [
+                {
+                  "id": 1,
+                  "title": ""
+                }
+              ]
+            },
+            {
+              "id": 17,
+              "image": "https://drive.google.com/drive/u/0/folders/1uEvMwG_eOFLobtQzte6SHnKbfi_frBgt",
+              "name": "RECHILLE B. RICAFRENTE",
+              "designation": "University Lecturer",
+              "email": "ricafrente.rechille@marsu.edu.ph",
+              "educationalAttainment": [
+                {
+                  "id": 1,
+                  "attainment": "Master’s in Management major in International Tourism and Hospitality Management (ongoing)",
+                  "status": "Ongoing"
+                }
+              ],
+              "publication": [
+                {
+                  "id": 1,
+                  "title": ""
+                }
+              ]
+            },
+            {
+              "id": 18,
+              "image": "https://drive.google.com/drive/u/0/folders/1VX1-LZ1s512pDiZOjsIM7afFB-IkUKvG",
+              "name": "JEANIE MAY PALATINO",
+              "designation": "University Lecturer ",
+              "email": "palatino.jeaniemay@marsu.edu.ph",
+              "educationalAttainment": [
+                {
+                  "id": 1,
+                  "attainment": "Master in Management major in International Tourism and Hospitality Management"
+                }
+              ],
+              "publication": [
+                {
+                  "id": 1,
+                  "title": ""
+                }
+              ]
+            },
+            {
+              "id": 19,
+              "image": "https://drive.google.com/drive/u/0/folders/1yPfbhM4qPIkyZpyLsSU-P2H7K8Jlvf_7",
+              "name": "SOPHIA YVETE P. ORILLA",
+              "designation": "University Lecturer ",
+              "email": "orilla.sophiayvete@marsu.edu.ph",
+              "educationalAttainment": [
+                {
+                  "id": 1,
+                  "attainment": "Master of Arts in Communication ",
+                  "status": "Ongoing"
+                }
+              ],
+              "publication": [
+                {
+                  "id": 1,
+                  "title": ""
+                }
+              ]
+            },
+            {
+              "id": 20,
+              "image": "https://drive.google.com/drive/u/0/folders/1rk1qryLd-M8--ZIexKsPX70U-0EPANaw",
+              "name": "ALCHONA WAYNE MAIGTING-LABAGUIS",
+              "designation": "University Lecturer ",
+              "email": "maigting.alchonawayne@marsu.edu.ph",
+              "educationalAttainment": [
+                {
+                  "id": 1,
+                  "attainment": "Master of Arts in Applied Linguistics"
+                }
+              ],
+              "publication": [
+                {
+                  "id": 1,
+                  "title": ""
+                }
+              ]
+            },
+            {
+              "id": 21,
+              "image": "https://drive.google.com/drive/u/0/folders/1SiHGI0UJXZe5eklJSflK8qRbPSSPUJkW",
+              "name": "JEIMYLEEN ANGELI M. CAS",
+              "designation": "University Lecturer ",
+              "email": "cas.jeimyleenangeli@marsu.edu.ph",
+              "educationalAttainment": [
+                {
+                  "id": 1,
+                  "attainment": "Masters in Foreign Service (with units)"
+                }
+              ],
+              "publication": [
+                {
+                  "id": 1,
+                  "title": ""
+                }
+              ]
+            },
+            {
+              "id": 22,
+              "image": "https://drive.google.com/drive/u/0/folders/1SiHGI0UJXZe5eklJSflK8qRbPSSPUJkW",
+              "name": "CARLVIN RUSS V. PAR",
+              "designation": "Part time University Lecturer",
+              "email": "par.carlvinruss@marsu.edu.ph",
+              "educationalAttainment": [
+                {
+                  "id": 1,
+                  "attainment": "BSBA major in Human Resource Development and Management "
+                },
+                {
+                  "id": 1,
+                  "attainment": "MASTER IN PUBLIC ADMINISTRATION major in Organizational Studies ",
+                  "status": "Ongoing"
+                }
+              ],
+              "publication": [
+                {
+                  "id": 1,
+                  "title": ""
+                }
+              ]
+            },
+            {
+              "id": 23,
+              "image": "https://drive.google.com/drive/u/0/folders/1TNu16ugZEDi5wIbbs4NVpTq4KHRKA8pL",
+              "name": "RONIEL M. MACATOL, PhD",
+              "designation": "Part-Time Lecturer",
+              "email": "macatol.roniel@marsu.edu.ph",
+              "educationalAttainment": [
+                {
+                  "id": 1,
+                  "attainment": "Doctor of Philosophy in Management"
+                }
+              ],
+              "publication": [
+                {
+                  "id": 1,
+                  "title": ""
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "staff": [
+            {
+              "id": 1,
+              "image": "",
+              "name": "",
+              "designation": "",
+              "email": ""
+            }
+          ]
+        }
+      ],
+      "research": [
+        {
+          "research": [
+            {
+              "id": 1,
+              "collegeId": 6,
+              "title": "Level of Satisfaction of the Residents of Barangay Pili, Mogpog, Marinduque",
+              "publicationYear": "2023",
+              "completionYear": "",
+              "authors": "Generoso E. Udanga, MBA",
+              "indices": "PSU BIMP-EAGA International Research Conference, February 9, 2023, City State Austrias, Puerto Princesa City, Palawan, Philippines",
+              "abstract": ""
+            },
+            {
+              "id": 2,
+              "collegeId": 6,
+              "title": "Lived Experiences of Selected MSMEs on Technological Assistance",
+              "publicationYear": "2023",
+              "completionYear": "",
+              "authors": "Michael V. Capiña, Ph.D-M",
+              "indices": "ICSAVED, March 14-17, 2023, Mariano Marcos State University",
+              "abstract": ""
+            },
+            {
+              "id": 3,
+              "collegeId": 6,
+              "title": "Evaluating Resident Satisfaction with Tourism Promotion Program in Barangay Pili, Mogpog, Marinduque: Implications to Local Tourism Management",
+              "publicationYear": "2023",
+              "completionYear": "",
+              "authors": "Generoso E. Udanga, MBA",
+              "indices": "AMPAYAG 2023, May 18-19, 2023, Laoag City, Ilocos Norte",
+              "abstract": ""
+            },
+            {
+              "id": 4,
+              "collegeId": 6,
+              "title": "Towards Achieving the Sustainable Development Goals",
+              "publicationYear": "2023",
+              "completionYear": "",
+              "authors": "Generoso E. Udanga, MBA",
+              "indices": "6th International Multidisciplinary Research Conference, June 27-29, 2023, Leyte Normal University",
+              "abstract": ""
+            },
+            {
+              "id": 5,
+              "collegeId": 6,
+              "title": "The Impact of Investment Fraud Victimization to the Wellbeing of Selected College Students: A Basis in Developing Interventions",
+              "publicationYear": "2023",
+              "completionYear": "",
+              "authors": "Ronalyn M. Motol",
+              "indices": "APCORE 2023 Hybrid International Conference, August 29-31, 2023, Via Zoom",
+              "abstract": ""
+            },
+            {
+              "id": 6,
+              "collegeId": 6,
+              "title": "MSMEs Diagnostic Framework: Basis for Policy Development",
+              "publicationYear": "2023",
+              "completionYear": "",
+              "authors": "Michael V. Capiña, Ph.D",
+              "indices": "ICESMED 2023, November 28-29, 2023, UP Diliman, Quezon City",
+              "abstract": ""
+            },
+            {
+              "id": 7,
+              "collegeId": 6,
+              "title": "Effectiveness of Microfinance Services on Poverty Alleviation Among Members in Selected Rural Areas in Mogpog Marinduque",
+              "publicationYear": "2024",
+              "completionYear": "",
+              "authors": "Generoso E. Udanga, MBA",
+              "indices": "Sinag at Balag, June 25-27, 2024, Sevilla Resort and Hotel, Lucena City",
+              "abstract": ""
+            },
+            {
+              "id": 8,
+              "collegeId": 6,
+              "title": "DTI Kapatid Mentor Me Program: An Entrepreneurial guide for Micro and Small Enterprises in the Province of Marinduque",
+              "publicationYear": "2024",
+              "completionYear": "",
+              "authors": "Michael Jaye P. Ribleza, MBA",
+              "indices": "2nd Nemesio Prudente International Research Conference, July 18-19, 2024, Via Zoom",
+              "abstract": ""
+            },
+            {
+              "id": 9,
+              "collegeId": 6,
+              "title": "Factors Affecting the Continuation of Business Start-Ups Among BS Entrepreneurship Students in Marinduque State University",
+              "publicationYear": "2024",
+              "completionYear": "",
+              "authors": "Donabel T. Magahis, MBA",
+              "indices": "ENEDA International Conference 2024, September 13-14, 2024, Miriam College – Henry Sy, Sr. Innovation Center",
+              "abstract": ""
+            },
+            {
+              "id": 10,
+              "collegeId": 6,
+              "title": "Level of Awareness in Digital Marketing Among Offline Sellers in Santa Cruz, Marinduque",
+              "publicationYear": "2024",
+              "completionYear": "",
+              "authors": "Generoso E. Udanga, MBA, Marvelous Marvin R. Pondevida, Glendel Ann P. Puente",
+              "indices": "ENEDA International Conference 2024, September 13-14, 2024, Miriam College – Henry Sy, Sr. Innovation Center",
+              "abstract": ""
+            },
+            {
+              "id": 11,
+              "collegeId": 6,
+              "title": "Arrowroot Industry in Marinduque: Its By-Products Innovation and Management",
+              "publicationYear": "2024",
+              "completionYear": "",
+              "authors": "Michael V. Capiña, Ph.D.",
+              "indices": "ENEDA International Conference 2024, September 13-14, 2024, Miriam College – Henry Sy, Sr. Innovation Center",
+              "abstract": ""
+            },
+            {
+              "id": 12,
+              "collegeId": 6,
+              "title": "Analyzing Key Factors Influencing Business Feasibility in Small Enterprises in Boac, Marinduque",
+              "publicationYear": "2024",
+              "completionYear": "",
+              "authors": "Margarette F. Guilmo, MBA, Paolo D. Ramos, Melody A. Malitao, Jesiel N. Maring, Rose Mae P. Recaña, Ronaly M. Motol",
+              "indices": "ENEDA International Conference 2024, September 13-14, 2024, Miriam College – Henry Sy, Sr. Innovation Center",
+              "abstract": ""
+            },
+            {
+              "id": 13,
+              "collegeId": 6,
+              "title": "Assessment of Best Practices of Different Successful Business Enterprises: Basis for Training and Development Plan",
+              "publicationYear": "2024",
+              "completionYear": "",
+              "authors": "Merryrose R. Palma, Ph.D - BM",
+              "indices": "ENEDA International Conference 2024, September 13-14, 2024, Miriam College – Henry Sy, Sr. Innovation Center",
+              "abstract": ""
+            },
+            {
+              "id": 14,
+              "collegeId": 6,
+              "title": "The Role of Digital Payment Methods in the Traditional Retail: Implications for Business Innovation",
+              "publicationYear": "2024",
+              "completionYear": "",
+              "authors": "Merryrose R. Palma, Ph.D - BM",
+              "indices": "ENEDA International Conference 2024, September 13-14, 2024, Miriam College – Henry Sy, Sr. Innovation Center",
+              "abstract": ""
+            },
+            {
+              "id": 15,
+              "collegeId": 6,
+              "title": "Financial Management Practices and their Influence on the Business Performance of the Food Business",
+              "publicationYear": "2024",
+              "completionYear": "",
+              "authors": "Merryrose R. Palma, Ph.D – BM, Joyce Ann Marie R. Padilla, Heart P. Forfieda",
+              "indices": "6th Adventist Colleges Research Association (ACRA) Annual Research Conference, September 23-24, 2024, Northeast Luzon Adventist College Inc.",
+              "abstract": ""
+            },
+            {
+              "id": 16,
+              "collegeId": 6,
+              "title": "Arrowroot Farming in Marinduque: Its Challenges and Opportunities",
+              "publicationYear": "2024",
+              "completionYear": "",
+              "authors": "Michael V. Capiña, Ph.D.",
+              "indices": "4th GAME 2024 Conference and Expo, October 24-25, 2024, Conrad Hotel and SMX Convention Center, Pasay City",
+              "abstract": ""
+            },
+            {
+              "id": 17,
+              "collegeId": 6,
+              "title": "Perceptions of Multi-Generational Gap Among Entrepreneurs in Marinduque Island: Basis for Educational Tools and Workshops",
+              "publicationYear": "2025",
+              "completionYear": "",
+              "authors": "Lynle N. Mendoza, MBA",
+              "indices": "National Marketing Research Congress 2025, March 28, 2025, Jose Rizal University, Mandaluyong, Manila",
+              "abstract": ""
+            },
+            {
+              "id": 18,
+              "collegeId": 6,
+              "title": "Opportunities and Challenges in Implementing AIS Practices: Insights from Boac, Marinduque’s Tourism Business",
+              "publicationYear": "2023",
+              "completionYear": "",
+              "authors": "Jenyza B. Dimacali-Rojo, MBA",
+              "indices": "International Journal of Scientific and Management Research, DOAJ, June 2023, ISSN: 2581-6888, DOI: http://doi.org/10.37502/IJSMR.2023.6601",
+              "abstract": ""
+            },
+            {
+              "id": 19,
+              "collegeId": 6,
+              "title": "Marinduque Island: Where Culture and Adventure Meet for Sustainable Tourism",
+              "publicationYear": "2023",
+              "completionYear": "",
+              "authors": "Lynle N. Mendoza, MBA",
+              "indices": "International Journal of Scientific and Management Research, DOAJ, June 2023, ISSN: 2581-6888, DOI: http://doi.org/10.37502/IJSMR.2023.6601",
+              "abstract": ""
+            }
+          ],
+          "extension": [
+            {
+              "id": 1,
+              "title": "",
+              "publicationYear": "",
+              "completioYear": "",
+              "authors": "",
+              "indices": "",
+              "abstract": ""
+            }
+          ]
+        }
+      ],
+      "studentAchievement": [
+        {
+          "id": 1,
+          "type": "",
+          "description": ""
+        }
+      ],
+      "studentProfile": [
+        {
+          "id": 1,
+          "programName": "",
+          "rate": "",
+          "image": ""
+        }
+      ],
+      "studentPublication": [
+        {
+          "studentOrg": [
+            {
+              "id": 1,
+              "name": "",
+              "designation": "",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "accomplishements": [
+            {
+              "id": 1,
+              "title": "",
+              "description": "",
+              "image": ""
+            }
+          ]
+        }
+      ],
+      "alumni": [
+        {
+          "tracer": [
+            {
+              "id": 1,
+              "image": "",
+              "name": "",
+              "career": ""
+            }
+          ]
+        },
+        {
+          "testimonials": [
+            {
+              "id": 1,
+              "image": "",
+              "name": "",
+              "story": ""
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 7,
