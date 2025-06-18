@@ -3776,32 +3776,307 @@
             "fil": "Pagtulong sa Pamumuhay sa Pamamagitan ng Teknolohiya"
           },
           "history": {
-            "en": "The College of Industrial Technology (CIT) at Marinduque State University...",
+            "en": "When Marinduque State College was established in 1952 as Marinduque School of Arts and Trades by virtue of Republic Act 805, the School had been operating the two-year Technical Curricula. During that year, Industrial Technology was a separate section which was headed by  Mr. Respicio A. Javier. The following courses were offered at the time: Technical Automotive Mechanics, Technical Building Construction, Technical Drafting, Technical Electricity, Technical Cosmetology, Garments Trades and Technical Food Trades. In Academic Year 1975 – 1976 the Department of Education Culture and Sports (DECS) Order No. 28 s. 1975 authorized the school to offer the four-year Bachelor of Science in Industrial Technology Curriculum (BSIT). During the term of College President Dr. Rodrigo G. Monterey Sr., a new organizational structure was created that paved the way for the merging of the two largest sections of the College: Engineering and Technology to become the School of Engineering and Technology (SET). By AY 2005 – 2006, during the term of College President Dr. Romulo H. Malvar, Technology was separated from Engineering and became a separate School, the School of Industrial Technology (SIT) that offered a two-year craftsmanship curriculum, a three year Technician program and a four-year Bachelors’ degree. During the term of College President Dr. Merian P.  Catajay-Mani, a new organizational structure was created with the School of Industrial Technology merging with the School of Information and Computing Sciences and became known as the School of Technology (STech), but by 2020, the Industrial Technology program was again separated to become what it is today, the School of Industrial Technology. Graduates of the Bachelor of Science in Industrial Technology are expected to become highly-skilled and ethically and socially responsible industrial technologists.",
             "fil": "Ang Kolehiyo ng Teknolohiyang Pang-Industriya (CIT) sa Marinduque State University..."
           },
           "goals": {
-            "en": "The College of Industrial Technology aims to provide quality education...",
+            "en": "Produce highly skilled industrial technologist; trained in their respective disciplines, socially responsible for the innovative state of the art technology and be globally competitive",
             "fil": "Layunin ng Kolehiyo ng Teknolohiyang Pang-Industriya na magbigay ng de-kalidad na edukasyon..."
           },
           "awards": [
             {
               "id": 1,
-              "title": { "en": "MOST OUTSTANDING COLLEGE" },
-              "year": 2024,
-              "description": {
-                "en": "Awarded for exemplary performance and contribution to the university's mission."
-              }
+              "title": "",
+              "year": "",
+              "description": ""
             }
           ]
         }
       ],
-      "programs": [3],
-      "workForce": [3],
-      "research": [3],
-      "studentAchievement": [3],
-      "studentProfile": [6],
-      "studentPublication": [3],
-      "alumni": [3]
+      "programs": [
+        {
+          "id": 1,
+          "programName": "",
+          "programDescription": "",
+          "curriculum": [
+            {
+              "id": 1,
+              "Year": "",
+              "Semester": [
+                {
+                  "id": 1,
+                  "SemesterName": "",
+                  "CourseSubject": [
+                    {
+                      "id": 1,
+                      "courseName": "",
+                      "courseCode": "",
+                      "units": 3,
+                      "prerequisite": ""
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "programOutcome": [
+            {
+              "id": 1,
+              "outcome": ""
+            }
+          ],
+          "careerOpportunity": [
+            {
+              "id": 1,
+              "career": "",
+              "description": "",
+              "salaryRange": ""
+            }
+          ]
+        }
+      ],
+      "workForce": [
+        {
+          "faculty": [
+            {
+              "id": 1,
+              "image": "",
+              "name": "",
+              "designation": "",
+              "email": "",
+              "educationalAttainment": [
+                {
+                  "id": 1,
+                  "attainment": ""
+                }
+              ],
+              "publication": [
+                {
+                  "id": 1,
+                  "title": ""
+                }
+              ]
+            }
+          ],
+          "staff": [
+            {
+              "id": 1,
+              "image": "",
+              "name": "",
+              "designation": "",
+              "email": ""
+            }
+          ]
+        }
+      ],
+      "research": [
+        {
+          "research": [
+            {
+              "id": 1,
+              "collegeId": 3,
+              "title": "Determination of Soluble Metals in Water Using RGB Component Analysis and Machine Learning Models",
+              "publicationYear": "2024",
+              "completionYear": "",
+              "authors": "Jan Fern Historillo, Robert G. De Luna, Menandro M. Merlin, Marife Rosales, Gerhard P. Tan",
+              "indices": "IEEE Xplore R10 Conference Proceedings, October 2024, For Presentation",
+              "abstract": ""
+            },
+            {
+              "id": 2,
+              "collegeId": 3,
+              "title": "The Use of Generative Artificial Intelligence in English Language Education as Perceived by Filipino ESL Teachers",
+              "publicationYear": "2024",
+              "completionYear": "",
+              "authors": "Nikka Mae J. Adling",
+              "indices": "2024 International Research Conference on Interdisciplinary Perspectives, September 2024, For Presentation",
+              "abstract": ""
+            },
+            {
+              "id": 3,
+              "collegeId": 3,
+              "title": "Effectiveness of using Various Machine Learning Prediction Models in Determining Soluble Metals in Water through RGB Color Component Analysis",
+              "publicationYear": "2024",
+              "completionYear": "",
+              "authors": "Jan Fern Historillo, Menandro M. Merlin, Evangeline B. Mandia",
+              "indices": "International Conference on Science, Technology and AI Applications, September 2024, For Presentation",
+              "abstract": ""
+            },
+            {
+              "id": 4,
+              "collegeId": 3,
+              "title": "Installation And Capability Testing of An Improvised Micro Hydro-Electric Generator at Banhigan Falls, Duyay, Boac, Marinduque",
+              "publicationYear": "2024",
+              "completionYear": "",
+              "authors": "Ulysses J. Landoy",
+              "indices": "International Conference on Science, Technology and AI Applications, September 2024, For Presentation",
+              "abstract": ""
+            },
+            {
+              "id": 5,
+              "collegeId": 3,
+              "title": "Energy-Harvesting Capability of Tulip-Type Turbine With Photovoltaic Module",
+              "publicationYear": "2024",
+              "completionYear": "",
+              "authors": "Alexander Del Mundo",
+              "indices": "International Conference on Science, Technology and AI Applications, September 2024, For Presentation",
+              "abstract": ""
+            },
+            {
+              "id": 6,
+              "collegeId": 3,
+              "title": "Efficiency Capability of an AC-Powered Multilayered Sieving Machine",
+              "publicationYear": "2024",
+              "completionYear": "",
+              "authors": "John Carlo Lasac",
+              "indices": "International Conference on Science, Technology and AI Applications, September 2024, For Presentation",
+              "abstract": ""
+            },
+            {
+              "id": 7,
+              "collegeId": 3,
+              "title": "Development And Performance Evaluation of Biomass Briquetting Machine",
+              "publicationYear": "2024",
+              "completionYear": "",
+              "authors": "Jade Julius N. Liguit, John Romeo Mendros",
+              "indices": "International Conference on Science, Technology and AI Applications, September 2024, For Presentation",
+              "abstract": ""
+            },
+            {
+              "id": 8,
+              "collegeId": 3,
+              "title": "Assessing The Curriculum Relevance of The Employment Status of Bachelor of Science in Industrial Technology Graduates Batch 2017 To 2022: Basis for Curriculum Enhancement",
+              "publicationYear": "2024",
+              "completionYear": "",
+              "authors": "Nikka Mae Adling, Rose Ann Pestano, Darlene Melecia, Lyca Chavez",
+              "indices": "International Conference on Science, Technology and AI Applications, September 2024, For Presentation",
+              "abstract": ""
+            },
+            {
+              "id": 9,
+              "collegeId": 3,
+              "title": "Monitoring And Evaluation of Physical Plant & Facilities of Marinduque State College: Basis for Formulating Comprehensive Facility Management Policy",
+              "publicationYear": "2024",
+              "completionYear": "",
+              "authors": "Armando H. Reyes",
+              "indices": "International Conference on Science, Technology and AI Applications, September 2024, For Presentation",
+              "abstract": ""
+            },
+            {
+              "id": 10,
+              "collegeId": 3,
+              "title": "Plant-Based Milk From Breadnut (Artocarpus Camansi, Blanco) Seeds And Peanut (Arachis Hypogaea) Composite",
+              "publicationYear": "2024",
+              "completionYear": "",
+              "authors": "Melgar Mabuti",
+              "indices": "International Conference on Science, Technology and AI Applications, September 2024, For Presentation",
+              "abstract": ""
+            },
+            {
+              "id": 11,
+              "collegeId": 3,
+              "title": "Ang Epektibong Pamumuno sa Kaisipang Moral ng mga Pilipino",
+              "publicationYear": "2024",
+              "completionYear": "",
+              "authors": "Joseph Erwin G. Silangil",
+              "indices": "2024 PAP Annual International Philosophy Conference, July 20, 2024, Presented and Published",
+              "abstract": ""
+            },
+            {
+              "id": 12,
+              "collegeId": 3,
+              "title": "Lived Experiences of FL Students in Nihongo: Basis for a Proposed Program for Teachers About Providing Corrective Feedback",
+              "publicationYear": "2023",
+              "completionYear": "",
+              "authors": "Nikka Mae Adling, Bea Patrizia Santos, Leo Vigil Batuctoc, Anthony Avendaño, Aifel Joy Francisco, Roberto Salvador, Sherlyn Saspa, Jeremias Rivera, Ma. Marietta Alvarez, Mee AnnMae Tungol",
+              "indices": "International Journal of Arts, Sciences and Education, 2023, pp. 122-131",
+              "abstract": "https://drive.google.com/file/d/1VfzODSJRVkpCPR2p7Ek8QWW7JFtWz2h_/view?usp=drive_link"
+            },
+            {
+              "id": 13,
+              "collegeId": 3,
+              "title": "Determination of Soluble Copper in Water Through Tannic Reaction Analysis Using an Optical Color Sensor and Machine Learning",
+              "publicationYear": "2023",
+              "completionYear": "",
+              "authors": "Jan Fern Historillo, Robert Gallena de Luna, Gerhard P. Tan",
+              "indices": "IEEE Xplore, 2023, pp. 490-494",
+              "abstract": ""
+            },
+            {
+              "id": 14,
+              "collegeId": 3,
+              "title": "Financial Literacy Of Teachers And School Heads In The Division Of Marinduque: Basis For Financial Education Enhancement Program",
+              "publicationYear": "2023",
+              "completionYear": "",
+              "authors": "Ganny Rey M. Macdon, Menandro M. Merlin",
+              "indices": "Psychology and Education: A Multidisciplinary Journal, 2023, pp. 1035-1046",
+              "abstract": ""
+            }
+          ],
+          "extension": []
+        }
+      ],
+      "studentAchievement": [
+        {
+          "id": 1,
+          "type": "",
+          "description": ""
+        }
+      ],
+      "studentProfile": [
+        {
+          "id": 1,
+          "programName": "",
+          "rate": "",
+          "image": ""
+        }
+      ],
+      "studentPublication": [
+        {
+          "studentOrg": [
+            {
+              "id": 1,
+              "name": "",
+              "designation": "",
+              "image": ""
+            }
+          ]
+        },
+        {
+          "accomplishements": [
+            {
+              "id": 1,
+              "title": "",
+              "description": "",
+              "image": ""
+            }
+          ]
+        }
+      ],
+      "alumni": [
+        {
+          "tracer": [
+            {
+              "id": 1,
+              "image": "",
+              "name": "",
+              "career": ""
+            }
+          ]
+        },
+        {
+          "testimonials": [
+            {
+              "id": 1,
+              "image": "",
+              "name": "",
+              "story": ""
+            }
+          ]
+        }
+      ]
     },
     {
       "id": 5,
