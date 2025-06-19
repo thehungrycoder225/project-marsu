@@ -46,10 +46,10 @@ function UniversityNewsDetail() {
         type='article'
       />
       <Link
-        to='/news'
+        to='/'
         className='text-primary-700 hover:underline mb-4 inline-block'
       >
-        &larr; Back to University News
+        &larr; Back to Homepage
       </Link>
       <div className='flex justify-between items-center mb-2'>
         <h1 className='text-3xl font-bold mb-2'>
