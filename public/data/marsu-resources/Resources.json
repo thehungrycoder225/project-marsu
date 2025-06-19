@@ -355,7 +355,6 @@
       ]
     }
   ],
-  "news": [],
   "programs": [
     {
       "id": 1,
@@ -3344,5 +3343,285 @@
       "name": { "en": "" },
       "story": { "en": "" }
     }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "title": {
+        "en": "Last day of Dropping of Subjects",
+        "fil": "Huling araw ng Pag-drop ng mga Asignatura"
+      },
+      "description": {
+        "en": "Students may drop subjects until this date.",
+        "fil": "Maaaring mag-drop ng asignatura ang mga estudyante hanggang sa petsang ito."
+      },
+      "date": "2025-09-13",
+      "day": { "en": "Friday", "fil": "Biyernes" },
+      "category": "academic",
+      "tags": ["academic", "deadline"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 2,
+      "title": {
+        "en": "Start of Midterm Examination",
+        "fil": "Simula ng Midterm Examination"
+      },
+      "description": {
+        "en": "Midterm exams begin for all colleges.",
+        "fil": "Magsisimula na ang midterm exams para sa lahat ng kolehiyo."
+      },
+      "date": "2025-09-25",
+      "day": { "en": "Wednesday", "fil": "Miyerkules" },
+      "category": "examination",
+      "tags": ["exam", "midterm"],
+      "isFeatured": true,
+      "isTrending": true
+    },
+    {
+      "id": 3,
+      "title": {
+        "en": "Health and Wellness Break",
+        "fil": "Pahinga para sa Kalusugan at Wellness"
+      },
+      "description": {
+        "en": "A day for health and wellness activities.",
+        "fil": "Isang araw para sa mga aktibidad ng kalusugan at wellness."
+      },
+      "date": "2025-09-30",
+      "day": { "en": "Monday", "fil": "Lunes" },
+      "category": "wellness",
+      "tags": ["wellness", "break"],
+      "isFeatured": false,
+      "isTrending": true
+    },
+    {
+      "id": 4,
+      "title": {
+        "en": "Start of MAR-SU Olympics",
+        "fil": "Simula ng MAR-SU Olympics"
+      },
+      "description": {
+        "en": "University-wide sports olympics opening.",
+        "fil": "Pagsisimula ng palarong pampalakasan ng unibersidad."
+      },
+      "date": "2025-10-14",
+      "day": { "en": "Monday", "fil": "Lunes" },
+      "category": "sports",
+      "tags": ["sports", "olympics"],
+      "isFeatured": true,
+      "isTrending": true
+    },
+    {
+      "id": 5,
+      "title": {
+        "en": "Deadline of Admission for 2nd Semester Requirements",
+        "fil": "Deadline ng Admission para sa mga Kailangan sa 2nd Semester"
+      },
+      "description": {
+        "en": "Last day to submit admission requirements for 2nd semester.",
+        "fil": "Huling araw ng pagsusumite ng mga kailangan para sa 2nd semester."
+      },
+      "date": "2025-11-08",
+      "day": { "en": "Friday", "fil": "Biyernes" },
+      "category": "admission",
+      "tags": ["admission", "deadline"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 6,
+      "title": {
+        "en": "Opening of Online Admission for 2nd Semester Transferees",
+        "fil": "Pagbubukas ng Online Admission para sa mga Transferee ng 2nd Semester"
+      },
+      "description": {
+        "en": "Online admission opens for transferees.",
+        "fil": "Bukas na ang online admission para sa mga transferee."
+      },
+      "date": "2025-11-11",
+      "day": { "en": "Monday", "fil": "Lunes" },
+      "category": "admission",
+      "tags": ["admission", "online"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 7,
+      "title": {
+        "en": "Start of Final Examination",
+        "fil": "Simula ng Final Examination"
+      },
+      "description": {
+        "en": "Final exams begin for all students.",
+        "fil": "Magsisimula na ang final exams para sa lahat ng estudyante."
+      },
+      "date": "2025-11-27",
+      "day": { "en": "Monday", "fil": "Lunes" },
+      "category": "examination",
+      "tags": ["exam", "finals"],
+      "isFeatured": true,
+      "isTrending": true
+    },
+    {
+      "id": 8,
+      "title": {
+        "en": "Start of Christmas Break",
+        "fil": "Simula ng Christmas Break"
+      },
+      "description": {
+        "en": "Christmas break officially starts.",
+        "fil": "Opisyal nang nagsimula ang Christmas break."
+      },
+      "date": "2025-12-01",
+      "day": { "en": "Monday", "fil": "Lunes" },
+      "category": "holiday",
+      "tags": ["holiday", "christmas"],
+      "isFeatured": false,
+      "isTrending": true
+    }
+  ],
+  "campusLife": [
+    {
+      "id": 1,
+      "title": {
+        "en": "CICS Life: Coding Nights & Coffee Breaks",
+        "fil": "Buhay CICS: Mga Gabi ng Pag-cocode at Kape"
+      },
+      "description": {
+        "en": "A glimpse into the vibrant student life at CICS, from hackathons to late-night study sessions.",
+        "fil": "Sulyap sa makulay na buhay-estudyante sa CICS, mula hackathon hanggang puyatan."
+      },
+      "imageUrl": "/images/campuslife/cicslife1.jpg",
+      "gallery": [
+        "/images/campuslife/cicslife1.jpg",
+        "/images/campuslife/cicslife2.jpg"
+      ],
+      "date": "2025-06-01",
+      "author": "Student Council",
+      "tags": ["cics", "cicslife", "studentlife"],
+      "isFeatured": true,
+      "isTrending": true,
+      "submittedByUser": false,
+      "content": {
+        "en": "From coding marathons to spontaneous coffee breaks, CICS students know how to balance work and play!",
+        "fil": "Mula coding marathon hanggang biglaang kapehan, marunong magbalanse ng saya at aral ang mga taga-CICS!"
+      }
+    },
+    {
+      "id": 2,
+      "title": {
+        "en": "Intramurals 2025: Champions Rise!",
+        "fil": "Intramurals 2025: Mga Kampeon!"
+      },
+      "description": {
+        "en": "Highlights from the university-wide sports fest.",
+        "fil": "Mga tampok sa paligsahan ng buong unibersidad."
+      },
+      "imageUrl": "/images/campuslife/intramurals2025.jpg",
+      "gallery": ["/images/campuslife/intramurals2025.jpg"],
+      "date": "2025-03-15",
+      "author": "Athletics Dept.",
+      "tags": ["sports", "intramurals", "trending"],
+      "isFeatured": false,
+      "isTrending": true,
+      "submittedByUser": false,
+      "content": {
+        "en": "The energy, the cheers, and the victories—Intramurals 2025 brought everyone together!",
+        "fil": "Ang sigla, hiyawan, at tagumpay—pinagbuklod ng Intramurals 2025 ang lahat!"
+      }
+    },
+    {
+      "id": 3,
+      "title": {
+        "en": "Share Your Campus Story!",
+        "fil": "Ibahagi ang Iyong Kuwento!"
+      },
+      "description": {
+        "en": "Submit your own campus life story, photo, or event.",
+        "fil": "Ipadala ang iyong sariling kwento, larawan, o kaganapan."
+      },
+      "imageUrl": "/images/campuslife/submit.jpg",
+      "gallery": [],
+      "date": "2025-06-19",
+      "author": "User Submission",
+      "tags": ["submission", "studentlife"],
+      "isFeatured": false,
+      "isTrending": false,
+      "submittedByUser": true,
+      "content": {
+        "en": "Want to be featured? Submit your campus life experience here!",
+        "fil": "Gusto mong ma-feature? Ipadala ang iyong campus life experience dito!"
+      }
+    }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "imgUrl": "../../images/news/marsu-the-world-ranking-4.jpg",
+      "gallery": [
+        "../../images/news/marsu-the-world-ranking-1.jpg",
+        "../../images/news/marsu-the-world-ranking-2.jpg",
+        "../../images/news/marsu-the-world-ranking-3.jpg",
+        "../../images/news/marsu-the-world-ranking-4.jpg"
+      ],
+      "title": {
+        "en": "Marinduque State University Joins Times Higher Education World University Rankings 2025"
+      },
+      "date": "2025-06-18",
+      "description": {
+        "en": "MARSU has been officially listed in the Times Higher Education World University Rankings for 2025, marking a significant milestone in its academic journey."
+      },
+      "content": {
+        "en": "MarSU earns global recognition for its commitment to sustainable and inclusive development\nBoac, Marinduque, Philippines Marinduque State University (MarSU), under the leadership of Prof. Dr. Diosdado P. Zulueta, proudly makes its debut in the Times Higher Education (THE) World University Rankings 2025, marking a historic milestone not only for the institution but also for the Province of Marinduque and the MIMAROPA Region.\nThe THE World University Rankings, established in 2010, is one of the most prestigious global performance assessments for higher education institutions. It evaluates universities based on five key pillars: teaching, research environment, research quality, industry engagement, and international outlook. The ranking aims to provide transparency and insights for students, educators, and policymakers across the globe.\nMarSU’s inclusion in this global list is a testament to its growing influence and commitment to academic excellence, research innovation, and global relevance. Most significantly, the university’s placement reflects its consistent efforts in advancing the United Nations’ 17 Sustainable Development Goals (SDGs)—from promoting quality education, gender equality, and climate action, to building partnerships that empower local and international communities.\nThis achievement affirms MarSU’s unwavering vision to be a transformative and globally engaged university that fosters inclusive development and sustainable impact. As it joins the ranks of the world’s recognized institutions, MarSU remains steadfast in its mission to shape future leaders who will contribute meaningfully to a better world"
+      },
+      "articleUrl": "/news/1",
+      "isFeatured": true,
+      "author": "MARSU Infromation Unit",
+      "tags": [
+        "University Rankings",
+        "MARSU",
+        "Global Recognition",
+        "Sustainable Development Goals"
+      ]
+    }
+  ],
+  "linkages": [
+    { "img": "partners/partner (1).jpg", "alt": "AAACU" },
+    { "img": "partners/partner (2).jpg", "alt": "CHED" },
+    { "img": "partners/partner (3).jpg", "alt": "DOST" },
+    { "img": "partners/partner (4).jpg", "alt": "DSWD" },
+    { "img": "partners/partner (5).jpg", "alt": "DSWD" },
+    { "img": "partners/partner (6).jpg", "alt": "DSWD" },
+    { "img": "partners/partner (7).jpg", "alt": "DSWD" },
+    { "img": "partners/partner (8).jpg", "alt": "DSWD" },
+    { "img": "partners/partner (9).jpg", "alt": "DSWD" },
+    { "img": "partners/partner (10).jpg", "alt": "DSWD" },
+    { "img": "partners/partner (11).jpg", "alt": "DSWD" },
+    { "img": "partners/partner (12).jpg", "alt": "DSWD" },
+    { "img": "partners/partner (13).jpg", "alt": "DSWD" },
+    { "img": "partners/partner (14).jpg", "alt": "DSWD" },
+    { "img": "partners/partner (15).jpg", "alt": "DSWD" },
+    { "img": "partners/partner (16).jpg", "alt": "DSWD" },
+    { "img": "partners/partner (17).jpg", "alt": "DSWD" },
+    { "img": "partners/partner (18).jpg", "alt": "DSWD" },
+    { "img": "partners/partner (19).jpg", "alt": "DSWD" },
+    { "img": "partners/partner (20).jpg", "alt": "DSWD" },
+    { "img": "partners/partner (21).jpg", "alt": "DSWD" },
+    { "img": "partners/partner (1).png", "alt": "DSWD" },
+    { "img": "partners/partner (2).png", "alt": "DSWD" },
+    { "img": "partners/partner (3).png", "alt": "DSWD" },
+    { "img": "partners/partner (4).png", "alt": "DSWD" },
+    { "img": "partners/partner (5).png", "alt": "DSWD" },
+    { "img": "partners/partner (6).png", "alt": "DSWD" },
+    { "img": "partners/partner (7).png", "alt": "DSWD" },
+    { "img": "partners/partner (8).png", "alt": "DSWD" },
+    { "img": "partners/partner (9).png", "alt": "DSWD" },
+    { "img": "partners/partner (10).png", "alt": "DSWD" },
+    { "img": "partners/partner (11).png", "alt": "DSWD" },
+    { "img": "partners/partner (12).png", "alt": "DSWD" },
+    { "img": "partners/partner (13).png", "alt": "DSWD" },
+    { "img": "partners/partner (14).png", "alt": "DSWD" }
   ]
 }

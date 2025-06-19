@@ -3,7 +3,9 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import { useDynamicTheme } from './hooks/useDynamicTheme';
 import { HelmetProvider } from 'react-helmet-async';
-
+const UniversityNewsDetail = lazy(
+  () => import('./components/UniversityNewsDetail')
+);
 const LandingPage = lazy(() => import('./pages/MainPage/LandingPage'));
 const SGDPage = lazy(() => import('./pages/SDG/SGDPage'));
 const SDGGoalDetail = lazy(
@@ -25,6 +27,7 @@ function App() {
       <Suspense fallback={<div className='text-center mt-10'>Loading...</div>}>
         <Routes>
           <Route path='/' element={<LandingPage />} />
+          <Route path='/news/:newsId' element={<UniversityNewsDetail />} />
           <Route path='/sdg' element={<SGDPage />} />
           <Route path='/sdg/project/:id/:title' element={<SGDProject />} />
           <Route path='/sdg/goal/:id' element={<SDGGoalDetail />} />

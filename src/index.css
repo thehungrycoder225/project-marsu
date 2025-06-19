@@ -265,35 +265,49 @@
 }
 
 #root {
-  --color-primary: #660033;
-  --color-primary-dark: #4c0026;
-  --color-primary-light: #80004d;
-  --color-secondary: #ffcc00;
-  --accent-700: #841037;
-  --accent-600: #a02339;
-  --accent-500: #ba3937;
-  --accent-400: #d25132;
-  --accent-300: #e56c29;
-  --accent-200: #f5881c;
-
-  --accent-700-light: hsla(338, 15%, 86%, 0.733);
-  --accent-600-light: #c04f61;
-  --accent-500-light: #d85f5f;
-  --accent-400-light: #f07f4f;
-  --accent-300-light: #ff9f3f;
-  --accent-200-light: #ffbf2f;
-
-  --color-text: #333;
-  --color-text-light: #fff;
-  --color-text-dark: #000;
+  /* --- Modern MARSU Color Theme (Tailwind-inspired, accessible, semantic) --- */
+  --color-primary: #660033; /* MARSU Maroon */
+  --color-primary-hover: #80004d;
+  --color-primary-active: #4c0026;
+  --color-secondary: #ffcc00; /* MARSU Gold */
+  --color-secondary-hover: #ffd633;
+  --color-secondary-active: #e6b800;
+  --color-accent: #e11d48; /* Tailwind Rose-600 */
+  --color-accent-hover: #be123c;
+  --color-accent-active: #9f1239;
+  --color-info: #2563eb; /* Tailwind Blue-600 */
+  --color-success: #22c55e; /* Tailwind Green-500 */
+  --color-warning: #f59e42; /* Tailwind Orange-400 */
+  --color-danger: #dc2626; /* Tailwind Red-600 */
   --color-bg: #fff;
   --color-bg-light: #f5f5f5;
-  --color-bg-dark: #333;
-
-  --color-border: #ddd;
-  --color-border-light: #eee;
-  --color-border-dark: #ccc;
-
+  --color-bg-dark: #1e293b; /* Tailwind Slate-900 */
+  --color-text: #22223b;
+  --color-text-light: #fff;
+  --color-text-dark: #1a1a1a;
+  --color-border: #e5e7eb; /* Tailwind Gray-200 */
+  --color-border-dark: #cbd5e1; /* Tailwind Gray-300 */
+  /* Semantic status colors */
+  --color-success-bg: #e7fbe7;
+  --color-warning-bg: #fff7e6;
+  --color-danger-bg: #ffeaea;
+  /* Overlay utility for hero/sections */
+  --hero-gradient: linear-gradient(
+    90deg,
+    rgba(102, 0, 51, 0.85) 0%,
+    rgba(255, 204, 0, 0.7) 100%
+  );
+  /* Button states */
+  --btn-primary-bg: var(--color-primary);
+  --btn-primary-hover: var(--color-primary-hover);
+  --btn-primary-active: var(--color-primary-active);
+  --btn-secondary-bg: var(--color-secondary);
+  --btn-secondary-hover: var(--color-secondary-hover);
+  --btn-secondary-active: var(--color-secondary-active);
+  --btn-accent-bg: var(--color-accent);
+  --btn-accent-hover: var(--color-accent-hover);
+  --btn-accent-active: var(--color-accent-active);
+  /* Example college color variables remain below for section theming */
   /* colleges-pallets */
   --cics-primary-700: #6ec207;
   --cics-primary-600: #7edc2a;

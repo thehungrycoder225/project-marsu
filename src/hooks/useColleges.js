@@ -5,6 +5,7 @@ export const useColleges = () => {
   const [programs, setPrograms] = useState([]);
   const [faculty, setFaculty] = useState([]);
   const [research, setResearch] = useState([]);
+  const [universityNews, setUniversityNews] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
@@ -20,6 +21,7 @@ export const useColleges = () => {
         setPrograms(resourceData.programs || []);
         setFaculty(resourceData.faculty || []);
         setResearch(resourceData.research || []);
+        setUniversityNews(resourceData.news || []);
         setLoading(false);
         console.log('colleges:', resourceData.colleges);
       } catch (err) {
@@ -30,5 +32,13 @@ export const useColleges = () => {
     fetchColleges();
   }, []);
 
-  return { colleges, programs, faculty, research, loading, error };
+  return {
+    colleges,
+    programs,
+    faculty,
+    research,
+    universityNews,
+    loading,
+    error,
+  };
 };
