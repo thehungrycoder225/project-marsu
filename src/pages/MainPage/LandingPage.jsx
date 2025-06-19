@@ -5,7 +5,7 @@ import './landing.css';
 
 import NavigationExample from '../../components/Navigation';
 import HeroComponent from '../../components/Hero';
-import NewsComponent from '../../components/News';
+import UniversityNews from '../../components/UniversityNews';
 import SectionComponent from '../../components/Section';
 import Events from '../../components/Events/Events';
 import './landing.css';
@@ -41,7 +41,7 @@ function LandingPage() {
 
       <div className='landing-page-container mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8'>
         <SectionComponent>
-          <NewsComponent />
+          <UniversityNews />
         </SectionComponent>
         <SectionComponent>
           <>

@@ -5,7 +5,6 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ShareIcon } from '@heroicons/react/24/outline';
 import PropTypes from 'prop-types';
-import MetaTags from './MetaTags';
 
 function NewsEvents({ collegeKey }) {
   const { colleges, loading, error } = useColleges();
@@ -67,34 +66,12 @@ function NewsEvents({ collegeKey }) {
   // Helper to determine if articleUrl is internal
   const isInternalUrl = (url) => url && url.startsWith('/colleges/');
 
-  // For meta tags, use the first featured or latest news as the primary article
-  const metaNews = featuredNews[0] || sortedNews[0];
-  const metaTitle =
-    metaNews?.metaTitle ||
-    metaNews?.title?.[lang] ||
-    metaNews?.title ||
-    'News | Marinduque State University';
-  const metaDescription =
-    metaNews?.metaDescription ||
-    metaNews?.description?.[lang] ||
-    metaNews?.description ||
-    'Latest news and updates from Marinduque State University.';
-  const metaImage = metaNews?.metaImage || metaNews?.imgUrl || '/logo.png';
-  const metaUrl = metaNews?.articleUrl || window.location.href;
-
   if (loading) return <div>Loading...</div>;
   if (error) return <div>Error: {error}</div>;
   if (!college) return <div>No news found for this college.</div>;
 
   return (
     <>
-      <MetaTags
-        title={metaTitle}
-        description={metaDescription}
-        image={metaImage}
-        url={metaUrl}
-        type='article'
-      />
       {/* <div className='mb-4 flex flex-col md:flex-row gap-2 items-start md:items-center'>
         <input
           type='text'

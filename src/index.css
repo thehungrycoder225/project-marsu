@@ -265,6 +265,7 @@
 }
 
 #root {
+  /* Default Color Theme */
   --color-primary: #660033;
   --color-primary-dark: #4c0026;
   --color-primary-light: #80004d;
@@ -293,7 +294,7 @@
   --color-border: #ddd;
   --color-border-light: #eee;
   --color-border-dark: #ccc;
-
+  /* Default Color Theme */
   /* colleges-pallets */
   --cics-primary-700: #6ec207;
   --cics-primary-600: #7edc2a;

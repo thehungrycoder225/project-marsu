@@ -854,6 +854,237 @@
       "outcomes": [],
       "studyPlans": [],
       "careerOpportunities": []
+    },
+    {
+      "id": 7,
+      "collegeId": 2,
+      "name": { "en": "Bachelor of Secondary Education" },
+      "description": {
+        "en": "The Bachelor of Secondary Education program prepares students to become effective secondary school teachers, equipped with the necessary knowledge and skills."
+      },
+      "curriculum": [
+        {
+          "id": 1,
+          "year": "1st Year",
+          "semesters": [
+            {
+              "id": 1,
+              "name": "1st Semester",
+              "courses": [
+                {
+                  "id": 1,
+                  "name": { "en": "Foundation of Education" },
+                  "code": "ED101",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 2,
+                  "name": { "en": "Child and Adolescent Development" },
+                  "code": "ED102",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 3,
+                  "name": { "en": "The Contemporary World" },
+                  "code": "GE-CW",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 4,
+                  "name": { "en": "Purposive Communication" },
+                  "code": "GE-PurCom",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 5,
+                  "name": { "en": "Arts Appreciation" },
+                  "code": "GE-ArtApp",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 6,
+                  "name": { "en": "Understanding the Self" },
+                  "code": "GE-UTS",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 7,
+                  "name": { "en": "Logic and Critical Thinking" },
+                  "code": "GEE101",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 8,
+                  "name": { "en": "Movement Competency Training" },
+                  "code": "PATHFIT",
+                  "units": 2,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 9,
+                  "name": { "en": "National Service Training Program 1" },
+                  "code": "NSTP1",
+                  "units": 3,
+                  "prerequisite": "None"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "outcomes": [],
+      "studyPlans": [],
+      "careerOpportunities": []
+    },
+    {
+      "id": 8,
+      "collegeId": 4,
+      "name": { "en": "Bachelor of Science in Environmental Science" },
+      "description": {
+        "en": "The Bachelor of Science in Environmental Science program provides students with a strong foundation in environmental studies, sustainability, and policy."
+      },
+      "curriculum": [
+        {
+          "id": 1,
+          "year": "1st Year",
+          "semesters": [
+            {
+              "id": 1,
+              "name": "1st Semester",
+              "courses": [
+                {
+                  "id": 1,
+                  "name": { "en": "Introduction to Environmental Science" },
+                  "code": "ES101",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 2,
+                  "name": { "en": "Ecology" },
+                  "code": "ES102",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 3,
+                  "name": { "en": "Environmental Chemistry" },
+                  "code": "ES103",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 4,
+                  "name": { "en": "Environmental Impact Assessment" },
+                  "code": "ES104",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 5,
+                  "name": { "en": "Sustainable Development" },
+                  "code": "ES105",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 6,
+                  "name": { "en": "Environmental Policy and Law" },
+                  "code": "ES106",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 7,
+                  "name": { "en": "Statistics for Environmental Science" },
+                  "code": "ES107",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 8,
+                  "name": { "en": "Research Methods in Environmental Science" },
+                  "code": "GE-RMES",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 9,
+                  "name": { "en": "National Service Training Program 1" },
+                  "code": "NSTP1",
+                  "units": 3,
+                  "prerequisite": "None"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "outcomes": [],
+      "studyPlans": [],
+      "careerOpportunities": []
+    },
+    {
+      "id": 9,
+      "collegeId": 6,
+      "name": { "en": "Master in Public Administration" },
+      "description": {
+        "en": "The Master in Public Administration program is designed for professionals seeking advanced knowledge in public sector management and policy."
+      },
+      "curriculum": [
+        {
+          "id": 1,
+          "year": "1st Year",
+          "semesters": [
+            {
+              "id": 1,
+              "name": "1st Semester",
+              "courses": [
+                {
+                  "id": 1,
+                  "name": {
+                    "en": "Theoretical Foundations of Public Administration"
+                  },
+                  "code": "PA501",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 2,
+                  "name": { "en": "Public Policy Analysis" },
+                  "code": "PA502",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 3,
+                  "name": { "en": "Administrative Behavior" },
+                  "code": "PA503",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 4,
+                  "name": { "en": "Research Methods in Public Administration" },
+                  "code": "GE-RMPA",
+                  "units": 3,
+                  "prerequisite": "None"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "outcomes": [],
+      "studyPlans": [],
+      "careerOpportunities": []
     }
   ],
   "faculty": [
