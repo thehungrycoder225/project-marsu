@@ -1240,57 +1240,69 @@
   "news": [
     {
       "id": 1,
-      "imgUrl": "https://www.marsu.edu.ph/images/news/main-campus-inauguration.jpg",
+      "imgUrl": "../../images/news/marsu-the-world-ranking-4.jpg",
       "gallery": [
-        "https://www.marsu.edu.ph/images/news/main-campus-inauguration-1.jpg",
-        "https://www.marsu.edu.ph/images/news/main-campus-inauguration-2.jpg"
+        "../../images/news/marsu-the-world-ranking-1.jpg",
+        "../../images/news/marsu-the-world-ranking-2.jpg",
+        "../../images/news/marsu-the-world-ranking-3.jpg",
+        "../../images/news/marsu-the-world-ranking-4.jpg"
       ],
-      "title": { "en": "MARSU Main Campus Inauguration Ceremony" },
-      "date": "2025-06-01",
+      "title": {
+        "en": "Marinduque State University Joins Times Higher Education World University Rankings 2025"
+      },
+      "date": "2025-06-18",
       "description": {
-        "en": "Marinduque State University celebrated the grand inauguration of its new main campus, attended by local officials, faculty, and students."
+        "en": "MARSU has been officially listed in the Times Higher Education World University Rankings for 2025, marking a significant milestone in its academic journey."
       },
       "content": {
-        "en": "The new main campus of Marinduque State University was officially inaugurated on June 1, 2025. The event was graced by the presence of the university president, local government officials, and hundreds of students and faculty members. The new facilities are expected to enhance the learning environment and support the university's mission of academic excellence."
+        "en": "MarSU earns global recognition for its commitment to sustainable and inclusive development\nBoac, Marinduque, Philippines Marinduque State University (MarSU), under the leadership of Prof. Dr. Diosdado P. Zulueta, proudly makes its debut in the Times Higher Education (THE) World University Rankings 2025, marking a historic milestone not only for the institution but also for the Province of Marinduque and the MIMAROPA Region.\nThe THE World University Rankings, established in 2010, is one of the most prestigious global performance assessments for higher education institutions. It evaluates universities based on five key pillars: teaching, research environment, research quality, industry engagement, and international outlook. The ranking aims to provide transparency and insights for students, educators, and policymakers across the globe.\nMarSU’s inclusion in this global list is a testament to its growing influence and commitment to academic excellence, research innovation, and global relevance. Most significantly, the university’s placement reflects its consistent efforts in advancing the United Nations’ 17 Sustainable Development Goals (SDGs)—from promoting quality education, gender equality, and climate action, to building partnerships that empower local and international communities.\nThis achievement affirms MarSU’s unwavering vision to be a transformative and globally engaged university that fosters inclusive development and sustainable impact. As it joins the ranks of the world’s recognized institutions, MarSU remains steadfast in its mission to shape future leaders who will contribute meaningfully to a better world"
       },
       "articleUrl": "/news/1",
       "isFeatured": true,
-      "author": "MARSU Communications",
-      "tags": ["Inauguration", "Campus", "University"]
-    },
-    {
-      "id": 2,
-      "imgUrl": "https://www.marsu.edu.ph/images/news/scholarship-announcement.jpg",
-      "gallery": [],
-      "title": { "en": "Scholarship Grants for Academic Year 2025-2026" },
-      "date": "2025-05-20",
-      "description": {
-        "en": "MARSU announces new scholarship opportunities for incoming and continuing students."
-      },
-      "content": {
-        "en": "The Office of Student Affairs is pleased to announce the opening of applications for various scholarship grants for the academic year 2025-2026. Interested students are encouraged to visit the university website for more details and application procedures."
-      },
-      "articleUrl": "/news/2",
-      "isFeatured": false,
-      "author": "Office of Student Affairs",
-      "tags": ["Scholarship", "Students"]
-    },
-    {
-      "id": 3,
-      "imgUrl": "https://www.marsu.edu.ph/images/news/research-expo.jpg",
-      "gallery": [],
-      "title": { "en": "MARSU Research Expo 2025 Highlights Innovation" },
-      "date": "2025-04-15",
-      "description": {
-        "en": "The annual research expo showcased groundbreaking projects from students and faculty."
-      },
-      "content": {
-        "en": "The 2025 MARSU Research Expo brought together innovators from across the university to present their latest research projects. The event highlighted the university's commitment to fostering a culture of research and development."
-      },
-      "articleUrl": "/news/3",
-      "isFeatured": true,
-      "author": "Research Office",
-      "tags": ["Research", "Expo", "Innovation"]
+      "author": "MARSU Infromation Unit",
+      "tags": [
+        "University Rankings",
+        "MARSU",
+        "Global Recognition",
+        "Sustainable Development Goals"
+      ]
     }
+  ],
+  "linkages": [
+    { "img": "partners/partner (1).jpg", "alt": "AAACU" },
+    { "img": "partners/partner (2).jpg", "alt": "CHED" },
+    { "img": "partners/partner (3).jpg", "alt": "DOST" },
+    { "img": "partners/partner (4).jpg", "alt": "DSWD" },
+    { "img": "partners/partner (5).jpg", "alt": "DSWD" },
+    { "img": "partners/partner (6).jpg", "alt": "DSWD" },
+    { "img": "partners/partner (7).jpg", "alt": "DSWD" },
+    { "img": "partners/partner (8).jpg", "alt": "DSWD" },
+    { "img": "partners/partner (9).jpg", "alt": "DSWD" },
+    { "img": "partners/partner (10).jpg", "alt": "DSWD" },
+    { "img": "partners/partner (11).jpg", "alt": "DSWD" },
+    { "img": "partners/partner (12).jpg", "alt": "DSWD" },
+    { "img": "partners/partner (13).jpg", "alt": "DSWD" },
+    { "img": "partners/partner (14).jpg", "alt": "DSWD" },
+    { "img": "partners/partner (15).jpg", "alt": "DSWD" },
+    { "img": "partners/partner (16).jpg", "alt": "DSWD" },
+    { "img": "partners/partner (17).jpg", "alt": "DSWD" },
+    { "img": "partners/partner (18).jpg", "alt": "DSWD" },
+    { "img": "partners/partner (19).jpg", "alt": "DSWD" },
+    { "img": "partners/partner (20).jpg", "alt": "DSWD" },
+    { "img": "partners/partner (21).jpg", "alt": "DSWD" },
+    { "img": "partners/partner (1).png", "alt": "DSWD" },
+    { "img": "partners/partner (2).png", "alt": "DSWD" },
+    { "img": "partners/partner (3).png", "alt": "DSWD" },
+    { "img": "partners/partner (4).png", "alt": "DSWD" },
+    { "img": "partners/partner (5).png", "alt": "DSWD" },
+    { "img": "partners/partner (6).png", "alt": "DSWD" },
+    { "img": "partners/partner (7).png", "alt": "DSWD" },
+    { "img": "partners/partner (8).png", "alt": "DSWD" },
+    { "img": "partners/partner (9).png", "alt": "DSWD" },
+    { "img": "partners/partner (10).png", "alt": "DSWD" },
+    { "img": "partners/partner (11).png", "alt": "DSWD" },
+    { "img": "partners/partner (12).png", "alt": "DSWD" },
+    { "img": "partners/partner (13).png", "alt": "DSWD" },
+    { "img": "partners/partner (14).png", "alt": "DSWD" }
   ]
 }

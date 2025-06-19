@@ -4,7 +4,7 @@ import logo from '../../assets/logo.png';
 import './landing.css';
 
 import NavigationExample from '../../components/Navigation';
-import HeroComponent from '../../components/Hero';
+import LandingHeroCarousel from '../../components/LandingHeroCarousel';
 import UniversityNews from '../../components/UniversityNews';
 import SectionComponent from '../../components/Section';
 import Events from '../../components/Events/Events';
@@ -16,29 +16,36 @@ import Linkages from '../../components/Linkages';
 import PlaylistSection from '../../components/PlaylistSection'; // Import the new PlaylistSection component
 
 function LandingPage() {
-  const [showSplash, setShowSplash] = useState(true);
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setShowSplash(false);
-    }, 3000); // Show splash screen for 3 seconds
+  const [showSplash, setShowSplash] = useState(false);
+  const [splashDone, setSplashDone] = useState(false);
 
-    return () => clearTimeout(timer);
+  useEffect(() => {
+    // Only show splash if not seen in last 24h
+    const lastSplash = localStorage.getItem('marsu_splash_last');
+    if (
+      !lastSplash ||
+      Date.now() - parseInt(lastSplash, 10) > 24 * 60 * 60 * 1000
+    ) {
+      setShowSplash(true);
+    } else {
+      setSplashDone(true);
+    }
   }, []);
 
-  if (showSplash) {
-    return <Splash />;
+  // Handler for Splash adaptive ready
+  const handleSplashReady = () => {
+    setShowSplash(false);
+    setSplashDone(true);
+  };
+
+  if (showSplash && !splashDone) {
+    return <Splash onReady={handleSplashReady} />;
   }
 
   return (
     <div>
       <NavigationExample />
-      <HeroComponent
-        title='Marinduque State University'
-        brand={logo}
-        heroPadding={'hero--padding '}
-        heroImage='hero-image'
-        description='Your Gateway to Excellence'
-      />
+      <LandingHeroCarousel />
 
       <div className='landing-page-container mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8'>
         <SectionComponent>
@@ -55,7 +62,7 @@ function LandingPage() {
         </SectionComponent>
         <SectionComponent>
           {/* How to create a flex that will change the orientation on the smaller screen */}
-          <div className='flex flex-col md:flex-row justify-center items-center rounded-lg p-6 text-white max-w-7xl mx-auto gap-4'>
+          <div className='flex flex-col md:flex-row justify-center items-center rounded-lg shadow-md p-6 text-white max-w-7xl mx-auto gap-4'>
             <div className=''>
               <img
                 src='sdg-logo.png'

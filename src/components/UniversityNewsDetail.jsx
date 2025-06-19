@@ -101,6 +101,24 @@ function UniversityNewsDetail() {
           </button>
         </div>
       )}
+
+      {/* Gallery */}
+      {news.gallery && news.gallery.length > 0 && (
+        <div className='mb-4'>
+          <h2 className='text-xl font-bold mb-2'>Gallery</h2>
+          <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
+            {news.gallery.map((image, index) => (
+              <img
+                key={index}
+                src={image}
+                alt={`Gallery image ${index + 1}`}
+                className='w-full h-64 object-cover rounded'
+                loading='lazy'
+              />
+            ))}
+          </div>
+        </div>
+      )}
       {/* Related news */}
       <hr className='my-8' />
       <h2 className='text-xl font-bold mb-4'>Related News</h2>

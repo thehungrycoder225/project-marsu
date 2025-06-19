@@ -1,50 +1,35 @@
+import { useEffect, useState } from 'react';
 import './linkages.css';
 import Marquee from 'react-fast-marquee';
 
-const partners = [
-  { img: 'partners/partner (1).jpg', alt: 'aaacu' },
-  { img: 'partners/partner (2).jpg', alt: 'ched' },
-  { img: 'partners/partner (3).jpg', alt: 'dost' },
-  { img: 'partners/partner (4).jpg', alt: 'dswd' },
-  { img: 'partners/partner (5).jpg', alt: 'dswd' },
-  { img: 'partners/partner (6).jpg', alt: 'dswd' },
-  { img: 'partners/partner (7).jpg', alt: 'dswd' },
-  { img: 'partners/partner (8).jpg', alt: 'dswd' },
-  { img: 'partners/partner (9).jpg', alt: 'dswd' },
-  { img: 'partners/partner (10).jpg', alt: 'dswd' },
-  { img: 'partners/partner (11).jpg', alt: 'dswd' },
-  { img: 'partners/partner (12).jpg', alt: 'dswd' },
-  { img: 'partners/partner (13).jpg', alt: 'dswd' },
-  { img: 'partners/partner (14).jpg', alt: 'dswd' },
-  { img: 'partners/partner (15).jpg', alt: 'dswd' },
-  { img: 'partners/partner (16).jpg', alt: 'dswd' },
-  { img: 'partners/partner (17).jpg', alt: 'dswd' },
-  { img: 'partners/partner (18).jpg', alt: 'dswd' },
-  { img: 'partners/partner (19).jpg', alt: 'dswd' },
-  { img: 'partners/partner (20).jpg', alt: 'dswd' },
-  { img: 'partners/partner (21).jpg', alt: 'dswd' },
-  { img: 'partners/partner (1).png', alt: 'dswd' },
-  { img: 'partners/partner (2).png', alt: 'dswd' },
-  { img: 'partners/partner (3).png', alt: 'dswd' },
-  { img: 'partners/partner (4).png', alt: 'dswd' },
-  { img: 'partners/partner (5).png', alt: 'dswd' },
-  { img: 'partners/partner (6).png', alt: 'dswd' },
-  { img: 'partners/partner (7).png', alt: 'dswd' },
-  { img: 'partners/partner (8).png', alt: 'dswd' },
-  { img: 'partners/partner (9).png', alt: 'dswd' },
-  { img: 'partners/partner (10).png', alt: 'dswd' },
-  { img: 'partners/partner (11).png', alt: 'dswd' },
-  { img: 'partners/partner (12).png', alt: 'dswd' },
-  { img: 'partners/partner (13).png', alt: 'dswd' },
-  { img: 'partners/partner (14).png', alt: 'dswd' },
-];
+function Linkages() {
+  const [partners, setPartners] = useState([]);
+  const [error, setError] = useState(null);
 
-function PartnersComponent() {
+  useEffect(() => {
+    fetch('/data/marsu-resources/Resources.json')
+      .then((res) => res.json())
+      .then((data) => {
+        setPartners(data.linkages || []);
+      })
+      .catch(() => setError('Failed to load partners.'));
+  }, []);
+
+  if (error) {
+    return <div className='text-red-600 text-center py-4'>{error}</div>;
+  }
+
+  if (!partners.length) {
+    return <div className='text-center py-4'>No partners available.</div>;
+  }
+
   return (
-    <div className='linkages'>
-      <div className='linkages_content'>
-        <h3 className='linkages_title'>Our Partners</h3>
-        <p className='linkages_description'>
+    <div className='py-8 px-4 md:px-8 lg:px-16 max-w-7xl mx-auto'>
+      <div className=''>
+        <h3 className='text-3xl text-center mb-2 font-bold text-[var(--primary-700)]'>
+          Our Partners
+        </h3>
+        <p className='text-lg text-justify text-gray-700 mb-4'>
           At Marinduque State University, our robust industry partnerships
           facilitate the development of industry-aligned curricula, while our
           institutional affiliations foster vital networks that enhance the
@@ -59,7 +44,7 @@ function PartnersComponent() {
             <div key={index} className='marquee_item'>
               <img
                 src={partner.img}
-                alt={partner.alt}
+                alt={partner.alt || 'Partner logo'}
                 className='linkages_image'
               />
             </div>
@@ -72,7 +57,7 @@ function PartnersComponent() {
             <div key={index} className='marquee_item'>
               <img
                 src={partner.img}
-                alt={partner.alt}
+                alt={partner.alt || 'Partner logo'}
                 className='linkages_image'
               />
             </div>
@@ -83,4 +68,4 @@ function PartnersComponent() {
   );
 }
 
-export default PartnersComponent;
+export default Linkages;
