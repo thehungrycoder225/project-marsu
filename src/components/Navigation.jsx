@@ -43,7 +43,7 @@ const navigation = [
 const socialLinks = [
   {
     name: 'Facebook',
-    href: 'https://facebook.com',
+    href: 'https://facebook.com/marinduquestateuniversity',
     icon: <ArrowUpRightIcon className='inline h-4 w-4 ml-1' />,
   },
   {
