@@ -3,7 +3,7 @@ import './splash.css';
 
 const mascots = ['logo.png'];
 
-function Splash({ onReady = false }) {
+function Splash({ onReady }) {
   const messages = [
     'Shaping futures, one click at a time...',
     'Loading your gateway to academic excellence...',
@@ -20,6 +20,7 @@ function Splash({ onReady = false }) {
   const [messageIndex, setMessageIndex] = useState(0);
   const [progress, setProgress] = useState(0);
   const [mascot, setMascot] = useState(mascots[0]);
+  const [splashSkipped, setSplashSkipped] = useState(false);
 
   // Only show splash if not seen in last 24h
   useEffect(() => {
@@ -29,6 +30,7 @@ function Splash({ onReady = false }) {
       lastSplash &&
       Date.now() - parseInt(lastSplash, 10) < 24 * 60 * 60 * 1000
     ) {
+      setSplashSkipped(true);
       if (typeof onReady === 'function') onReady();
       return;
     }
@@ -43,11 +45,6 @@ function Splash({ onReady = false }) {
     const msgInterval = setInterval(() => {
       setMessageIndex((prevIndex) => (prevIndex + 1) % messages.length);
     }, 1000);
-    // Hide splash when ready
-    if (onReady) {
-      setProgress(100);
-      clearInterval(progInterval);
-    }
     return () => {
       clearInterval(msgInterval);
       clearInterval(progInterval);
@@ -55,10 +52,11 @@ function Splash({ onReady = false }) {
   }, [onReady]);
 
   useEffect(() => {
-    if (progress >= 100) {
+    if (progress >= 100 && !splashSkipped) {
       localStorage.setItem('marsu_splash_last', Date.now().toString());
+      if (typeof onReady === 'function') onReady();
     }
-  }, [progress]);
+  }, [progress, splashSkipped, onReady]);
 
   return (
     <div className='splash-container splash-fade-in' aria-live='polite'>
