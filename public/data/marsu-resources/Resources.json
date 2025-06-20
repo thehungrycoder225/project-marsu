@@ -1375,7 +1375,12 @@
       "collegeId": 3,
       "name": { "en": "Bachelor of Arts in Communication" },
       "curriculum": [],
-      "outcomes": [],
+      "outcomes": [
+        {
+          "id": 1,
+          "outcome": "Define and access information needs; assess and organize information and knowledge. Produce, share and utilize information and knowledge. Communicate in different formats and platforms (print, broadcast, and online). Prepare communication/media plan. Conduct communication and media research and evaluation. Develop and produce communication materials in different formats and platforms. Demonstrate communication management and leadership skills. Develop entrepreneurial capabilities. Adhere to ethical standards and practices. Know and practice rights and responsibilities and accountabilities in the communication profession. Demonstrate a development orientation in communication work. Apply communication theories/models, principles, practices, and tools in development work."
+        }
+      ],
       "studyPlans": [],
       "careerOpportunities": []
     },
