@@ -267,12 +267,13 @@
 #root {
   /* --- Modern MARSU Color Theme (Tailwind-inspired, accessible, semantic) --- */
   --color-primary: #660033; /* MARSU Maroon */
+  --color-primary-500: #80004d; /* MARSU Maroon Light */
+  --color-primary-600: #990066; /* MARSU Maroon Dark */
   --color-primary-hover: #80004d;
   --color-primary-active: #4c0026;
   --color-secondary: #ffcc00; /* MARSU Gold */
-  --color-secondary-hover: #ffd633;
-  --color-secondary-active: #e6b800;
-  --color-accent: #e11d48; /* Tailwind Rose-600 */
+  --color-secondary-500: #ffd633; /* MARSU Gold Light */
+  --color-secondary-900: #e6b800; /* MARSU Gold Dark */
   --color-accent-hover: #be123c;
   --color-accent-active: #9f1239;
   --color-info: #2563eb; /* Tailwind Blue-600 */

@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/logo.png';
 import './landing.css';
 
 import NavigationExample from '../../components/Navigation';
@@ -13,6 +12,7 @@ import CampusLife from '../../components/CLife/CLife';
 import Footer from '../../components/Footer';
 import Splash from '../../components/Splash';
 import Linkages from '../../components/Linkages';
+import UniversityStats from '../../components/UniversityStats';
 import PlaylistSection from '../../components/PlaylistSection'; // Import the new PlaylistSection component
 
 function LandingPage() {
@@ -46,15 +46,9 @@ function LandingPage() {
     <div>
       <NavigationExample />
       <LandingHeroCarousel />
-
-      <div className='landing-page-container mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8'>
-        <SectionComponent>
-          <UniversityNews />
-        </SectionComponent>
-        {/* <SectionComponent>
-          <PlaylistSection />
-        </SectionComponent> */}
-        <SectionComponent>
+      <UniversityStats />
+      <div className='mx-auto max-w-7xl px-6 py-8 sm:py-12 lg:px-8'>
+        <SectionComponent bg='bg-gradient-to-t from-bg-gray-50 to bg-gray-100/20'>
           <CampusLife />
         </SectionComponent>
         <SectionComponent>
@@ -62,7 +56,7 @@ function LandingPage() {
         </SectionComponent>
         <SectionComponent>
           {/* How to create a flex that will change the orientation on the smaller screen */}
-          <div className='flex flex-col md:flex-row justify-center items-center rounded-lg shadow-md p-6 text-white max-w-7xl mx-auto gap-4'>
+          <div className='flex flex-col md:flex-row justify-center items-center rounded-lg bg-gradient-to-t from-bg-amber-50 to bg-amber-100/20 p-6 text-white max-w-7xl mx-auto gap-4'>
             <div className=''>
               <img
                 src='sdg-logo.png'

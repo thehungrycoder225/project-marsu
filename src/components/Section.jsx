@@ -1,8 +1,8 @@
-function Section({ children, id }) {
+function Section({ children, id, bg }) {
   return (
     <>
       <section
-        className='mx-auto max-w-7xl px-6 py-8 sm:py-12 lg:px-8 '
+        className={`mx-auto max-w-7xl px-4 sm:py-8 lg:px-8 ${bg}`}
         id={id}
       >
         {children}
