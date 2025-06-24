@@ -16,38 +16,15 @@ import UniversityStats from '../../components/UniversityStats';
 import PlaylistSection from '../../components/PlaylistSection'; // Import the new PlaylistSection component
 
 function LandingPage() {
-  const [showSplash, setShowSplash] = useState(false);
-  const [splashDone, setSplashDone] = useState(false);
-
-  useEffect(() => {
-    // Only show splash if not seen in last 24h
-    const lastSplash = localStorage.getItem('marsu_splash_last');
-    if (
-      !lastSplash ||
-      Date.now() - parseInt(lastSplash, 10) > 24 * 60 * 60 * 1000
-    ) {
-      setShowSplash(true);
-    } else {
-      setSplashDone(true);
-    }
-  }, []);
-
-  // Handler for Splash adaptive ready
-  const handleSplashReady = () => {
-    setShowSplash(false);
-    setSplashDone(true);
-  };
-
-  if (showSplash && !splashDone) {
-    return <Splash onReady={handleSplashReady} />;
-  }
-
   return (
     <div>
       <NavigationExample />
       <LandingHeroCarousel />
       <UniversityStats />
       <div className='mx-auto max-w-7xl px-6 py-8 sm:py-12 lg:px-8'>
+        <SectionComponent>
+          <UniversityNews />
+        </SectionComponent>
         <SectionComponent bg='bg-gradient-to-t from-bg-gray-50 to bg-gray-100/20'>
           <CampusLife />
         </SectionComponent>

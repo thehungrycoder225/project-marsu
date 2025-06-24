@@ -1,0 +1,84 @@
+.app-loader-glass {
+  position: relative;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40vh;
+  min-width: 100%;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(12px) saturate(1.2);
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.12);
+  transition: all 0.3s;
+}
+.app-loader-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem 1.5rem;
+}
+.app-loader-spinner {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app-loader-mascot {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+.app-loader-spinner-fallback {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: 4px solid #eab308;
+  border-top: 4px solid #b91c1c;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  animation: app-spin 1s linear infinite;
+  z-index: 0;
+}
+@keyframes app-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.app-loader-quote {
+  font-size: 1rem;
+  color: #b91c1c;
+  text-align: center;
+  font-weight: 600;
+  max-width: 320px;
+}
+.app-loader-cancel {
+  margin-top: 0.5rem;
+  background: #fff;
+  color: #b91c1c;
+  border: 1px solid #eab308;
+  border-radius: 999px;
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition:
+    background 0.2s,
+    color 0.2s;
+}
+.app-loader-cancel:hover,
+.app-loader-cancel:focus {
+  background: #fef3c7;
+  color: #a21caf;
+}

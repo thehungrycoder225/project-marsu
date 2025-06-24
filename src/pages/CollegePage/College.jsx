@@ -6,8 +6,7 @@ import Offerings from '../../components/Featured/Offerings';
 import News from '../../components/News';
 import Navigation from '../../components/CollegeNavigation/CollegeNav';
 import Section from '../../components/Section';
-import CollegeAwards from '../../components/CollegeAwards';
-// import './College.css';
+import './College.css';
 
 function Colleges() {
   const { colleges, loading, error } = useColleges();
@@ -46,7 +45,7 @@ function Colleges() {
         imageWidth={college.imageWidth}
         imageHeight={college.imageHeight}
       />
-      <div className='college-container mx-auto max-w-7xl '>
+      <div className='college-container mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8'>
         {/* College News */}
         <Section>
           <News collegeKey={collegeKey} />
@@ -58,7 +57,26 @@ function Colleges() {
         {/* College Awards - only if present */}
         {awards.length > 0 && (
           <Section>
-            <CollegeAwards awards={awards} lang={lang} />
+            <h2>Awards</h2>
+            <ul>
+              {awards.map((award) => (
+                <li key={award.id} className='mb-2'>
+                  <img
+                    src={award.icon}
+                    alt={award.title?.[lang] || award.title?.en || award.title}
+                  />
+                  <strong>
+                    {award.title?.[lang] || award.title?.en || award.title}
+                  </strong>{' '}
+                  ({award.year})<br />
+                  <span>
+                    {award.description?.[lang] ||
+                      award.description?.en ||
+                      award.description}
+                  </span>
+                </li>
+              ))}
+            </ul>
           </Section>
         )}
 

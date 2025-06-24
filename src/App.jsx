@@ -1,4 +1,4 @@
-import { lazy, Suspense } from 'react';
+import { lazy, Suspense, useState, useEffect } from 'react';
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import { useDynamicTheme } from './hooks/useDynamicTheme';
@@ -18,13 +18,39 @@ const NewsDetail = lazy(() => import('./pages/CollegePage/NewsDetail'));
 const CollegeAbout = lazy(() => import('./pages/CollegePage/About'));
 const CollegePrograms = lazy(() => import('./pages/CollegePage/Programs'));
 const ProgramDetail = lazy(() => import('./pages/CollegePage/ProgramDetail'));
+const Splash = lazy(() => import('./components/Splash'));
 
 function App() {
   useDynamicTheme();
+  const [showSplash, setShowSplash] = useState(false);
+  const [splashDone, setSplashDone] = useState(false);
+
+  useEffect(() => {
+    // Only show splash if not seen in last 24h
+    const lastSplash = localStorage.getItem('marsu_splash_last');
+    if (
+      !lastSplash ||
+      Date.now() - parseInt(lastSplash, 10) > 24 * 60 * 60 * 1000
+    ) {
+      setShowSplash(true);
+    } else {
+      setSplashDone(true);
+    }
+  }, []);
+
+  // Handler for Splash adaptive ready
+  const handleSplashReady = () => {
+    setShowSplash(false);
+    setSplashDone(true);
+  };
+
+  if (showSplash && !splashDone) {
+    return <Splash onReady={handleSplashReady} />;
+  }
 
   return (
     <HelmetProvider>
-      <Suspense fallback={<div className='text-center mt-10'>Loading...</div>}>
+      <Suspense fallback={<Splash onReady={handleSplashReady} />}>
         <Routes>
           <Route path='/' element={<LandingPage />} />
           <Route path='/news/:newsId' element={<UniversityNewsDetail />} />
