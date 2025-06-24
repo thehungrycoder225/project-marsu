@@ -9,6 +9,10 @@
         "en": "College of Information and Computing Sciences",
         "fil": "Kolehiyo ng Agham Pang-Impormasyon at Kompyuter"
       },
+      "heroImage": {
+        "url": "/public/images/college-banner/cics-hero.png",
+        "alt": "College of Information and Computing Sciences Hero Image"
+      },
       "createdAt": "1998-01-01T00:00:00Z",
       "updatedAt": "2025-06-10T00:00:00Z",
       "parentCollegeKey": null,

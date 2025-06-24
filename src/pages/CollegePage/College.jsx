@@ -39,7 +39,11 @@ function Colleges() {
         title={college.name?.[lang] || college.name?.en || college.name}
         tagline={profile.tagline?.[lang] || profile.tagline?.en || ''}
         description={profile.history?.[lang] || profile.history?.en || ''}
-        imageSrc={college.imageSrc}
+        imageSrc={
+          college.collegeKey
+            ? college.imageUrl
+            : 'https://placehold.co/1200x600'
+        }
         imageAlt={college.imageAlt}
         imagePosition={college.imagePosition}
         imageWidth={college.imageWidth}
