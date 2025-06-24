@@ -7,6 +7,7 @@ const UniversityNewsDetail = lazy(
   () => import('./components/UniversityNewsDetail')
 );
 const LandingPage = lazy(() => import('./pages/MainPage/LandingPage'));
+const AboutPage = lazy(() => import('./pages/MainPage/AboutPage'));
 const SGDPage = lazy(() => import('./pages/SDG/SGDPage'));
 const SDGGoalDetail = lazy(
   () => import('./pages/SDG/components/SDGGoalDetail')
@@ -53,6 +54,7 @@ function App() {
       <Suspense fallback={<Splash onReady={handleSplashReady} />}>
         <Routes>
           <Route path='/' element={<LandingPage />} />
+          <Route path='/about' element={<AboutPage />} />
           <Route path='/news/:newsId' element={<UniversityNewsDetail />} />
           <Route path='/sdg' element={<SGDPage />} />
           <Route path='/sdg/project/:id/:title' element={<SGDProject />} />
