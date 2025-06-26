@@ -195,15 +195,15 @@ const RecentTabs = ({ recentTabs, onTabSelect }) => {
 // Tab Preview Tooltip
 const TabPreview = ({ tab, isVisible }) => (
   <div
-    className={`absolute z-50 mt-2 p-3 bg-black text-white text-sm rounded-lg shadow-lg max-w-xs transition-opacity duration-200 ${
-      isVisible ? 'opacity-100' : 'opacity-0 pointer-events-none'
+    className={`absolute z-50 mt-2 p-2 text-center  text-gray-500 text-xs max-w-xs transition-opacity duration-200 ${
+      isVisible ? 'opacity-0' : 'opacity-0 pointer-events-none'
     }`}
   >
     <div className='flex items-center mb-1'>
-      <div className='mr-2 text-white'>{getTabIcon(tab.icon, 'w-4 h-4')}</div>
+      {/* <div className='mr-2 text-white'>{getTabIcon(tab.icon, 'w-4 h-4')}</div> */}
       <span className='font-medium'>{tab.label}</span>
     </div>
-    <p className='text-xs text-gray-300'>{tab.description}</p>
+    {/* <p className='text-xs text-gray-300'>{tab.description}</p> */}
   </div>
 );
 
@@ -221,12 +221,12 @@ const Breadcrumb = ({ activeTab, onNavigate }) => {
         About
       </button>
       <span className='text-gray-400'>/</span>
-      {groupData && (
+      {/* {groupData && (
         <>
           <span className='text-gray-500'>{groupData.label}</span>
           <span className='text-gray-400'>/</span>
         </>
-      )}
+      )} */}
       <span className='text-[var(--primary-700)] font-medium'>
         {activeTabData?.label}
       </span>
@@ -501,13 +501,13 @@ function AboutPage() {
                   aria-selected={activeTab === tab.id}
                   tabIndex={activeTab === tab.id ? 0 : -1}
                 >
-                  <span className='flex items-center space-x-2'>
+                  {/* <span className='flex items-center space-x-2'>
                     {getTabIcon(tab.icon, 'w-4 h-4')}
                     <span>{tab.label}</span>
                     {favorites.includes(tab.id) && (
                       <span className='text-yellow-500 text-sm'>⭐</span>
                     )}
-                  </span>
+                  </span> */}
                   {/* Active tab underline */}
                   {activeTab === tab.id && (
                     <div className='absolute bottom-0 left-0 right-0 h-0.5 bg-[var(--primary-700)] transition-all duration-200' />
@@ -567,7 +567,7 @@ function AboutPage() {
                   )}
 
                   {/* Favorites */}
-                  {favorites.length > 0 && (
+                  {/* {favorites.length > 0 && (
                     <div className='flex items-center space-x-2'>
                       <span className='text-xs text-gray-500 font-medium'>
                         Favorites:
@@ -589,7 +589,7 @@ function AboutPage() {
                         })}
                       </div>
                     </div>
-                  )}
+                  )} */}
                 </div>
               </div>
             </div>
@@ -623,19 +623,19 @@ function AboutPage() {
                     <div className='flex flex-col items-center space-y-2'>
                       <div className='flex items-center space-x-1'>
                         {getTabIcon(tab.icon, 'w-5 h-5')}
-                        {favorites.includes(tab.id) && (
+                        {/* {favorites.includes(tab.id) && (
                           <span className='text-yellow-500 text-xs'>⭐</span>
-                        )}
+                        )} */}
                         {/* Loading indicator */}
-                        {activeTab === tab.id && isLoading && (
+                        {/* {activeTab === tab.id && isLoading && (
                           <div className='animate-spin rounded-full h-3 w-3 border-2 border-[var(--primary-700)] border-t-transparent'></div>
-                        )}
+                        )} */}
                       </div>
                       <span className='text-xs text-center leading-tight truncate w-full'>
                         {tab.label}
                       </span>
                       {/* Favorite toggle button - only show on hover */}
-                      <button
+                      {/* <button
                         onClick={(e) => {
                           e.stopPropagation();
                           toggleFavorite(tab.id);
@@ -648,7 +648,7 @@ function AboutPage() {
                         }
                       >
                         {favorites.includes(tab.id) ? '★' : '☆'}
-                      </button>
+                      </button> */}
                     </div>
 
                     {/* Active tab underline */}
@@ -665,7 +665,9 @@ function AboutPage() {
           </div>
         </div>
         {/* Breadcrumb navigation */}
-        <Breadcrumb activeTab={activeTab} onNavigate={handleTabChange} />
+        <div className='w-full px-4 md:px-6 mt-4 mb-2'>
+          <Breadcrumb activeTab={activeTab} onNavigate={handleTabChange} />
+        </div>
         {/* Content */}
         <div className='w-full flex justify-center px-4 md:px-6'>
           <section
