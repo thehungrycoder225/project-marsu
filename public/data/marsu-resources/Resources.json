@@ -350,7 +350,388 @@
       ]
     }
   ],
-  "news": [],
+  "news": [
+    {
+      "newsID": "1",
+      "college": {
+        "collegeID": "01"
+      },
+      "gallery": [
+        "https://drive.google.com/open?id=1MkTjVYyAeAx7t5INPJU9H6uhh7nVOnlf&usp=drive_copy",
+        "https://drive.google.com/open?id=1bVS_ZSSlnUrK0kOJfR9sxpz0dXQC0P96&usp=drive_copy",
+        "https://drive.google.com/open?id=1zWQtfPRhOoWwJQDbFDDmdViCO3SUugao&usp=drive_copy",
+        "https://drive.google.com/open?id=131vom5y6Un6c4w5pJhv_cvUAooctsrAH&usp=drive_copy",
+        "https://drive.google.com/open?id=1mLvYBqYweAyhPWTtXjXmuBFFKbtouvov&usp=drive_copy"
+      ],
+      "headline": "UP Scientists to Lecture on Geohazards at Boac’s Casa Real",
+      "lead": " ",
+      "body": "19 June 2025 | A group of faculty & students from UP Diliman’s National Institute of Geological Sciences (NIGS), is given the traditional Marinduqueño welcome  by Mar S U’s VPRE Dr. Ma. Edelwina M. Blasé, VPAF Atty. Crispin Francis M. Jandusay (representing University President, Prof. Diosdado P. Zulueta) with faculty members from the College of Environmental Studies, and MarSU students. The group is here to deliver a series of lectures on Geohazards at the Casa Real on Saturday, 28 June 2025.  \nLed by Associate Prof. Leo T. Armada, PhD, they intend to help “raise awareness & a deeper understanding of geologic processes and geohazard risks specific to Marinduque”. Teachers of Earth Sciences, Disaster Preparedness personnel, Environmental Science students and other relevant practitioners are very much welcome to attend. \nEarlier in the week, Mar S U also welcomed scientists from UP Los Baños & experts from the United Kingdom’s  National Oceanographic Center, who are here to conduct an assessment of Marinduque’s coastline to check on its status after several decades since the Marcopper mining disaster of 1996. \nMarinduque State University has signed an MOU with the University of the Philippines Los Baños to be one of its collaborative research partners.",
+      "author": "MarSU Information Unit",
+      "publishedDate": "2025-06-19",
+      "category": ["Event"],
+      "tags": [
+        "UP Scientist",
+        "Geohazards Lecture",
+        "Marinduque Geohazard Risks"
+      ]
+    },
+    {
+      "newsID": "2",
+      "college": {
+        "collegeID": "01"
+      },
+      "gallery": [
+        "https://drive.google.com/file/d/1fJ3LvZ4c6lfenqCxCvMW5BSrMvY-xJm0/view?usp=sharing",
+        "https://drive.google.com/file/d/11N7W4OQaHun3kiuanuhBg0VYYL14Hh9M/view?usp=drive_link",
+        "https://drive.google.com/file/d/14YZkmqT0pmx6v70zM2I2JO0rIHZq598t/view?usp=drive_link",
+        "https://drive.google.com/file/d/1SYUIP06N_URSnIi6jMdf5BIkrDH-iaCE/view?usp=drive_link",
+        "https://drive.google.com/file/d/1xNGvNNsXNqLeBdYDo57hagaZsC31vnAq/view?usp=drive_link"
+      ],
+      "headline": "Faculty in In-Service Training 2025 - Day 1: Strenghtening Instructional Excellence",
+      "lead": " ",
+      "body": "Marinduque State University officially commenced the Faculty In-Service Training 2025 on June 18, 2025, at the MarSU Gymnasium. The opening ceremony featured welcome remarks from Ms. Erma E. Reyes, Supervising Administrative Officer, setting the stage for a productive and insightful program. Additionally, an official message from University President Dr. Diosdado P. Zulueta, delivered by Atty. Crispin Francis M. Jandusay, Vice President for Administration & Finance, reaffirmed the university’s commitment to academic advancement and instructional innovation. Shortly after, Asst. Prof. Raoul J. Magcamit introduced the Day 1 Resource Speaker.  \nThe program continued with an insightful lecture by Dr. Josephine M. Calamlam, Professor III at PNU-Manila, focusing on the development of pedagogically-sound, learner-centered, and outcomes-based instructional materials. The afternoon session transitioned into a structured lecture-discussion and guided development workshop, providing participants with the opportunity to apply key principles in instructional material design. \n A productive and enriching start to this professional development initiative, reaffirming Marinduque State University’s dedication to academic excellence and innovation.",
+      "author": "D. Sto. Domingo",
+      "publishedDate": "2025-06-19",
+      "category": ["Event"],
+      "tags": [
+        "In-Service",
+        "SDG",
+        "Academic Excellence",
+        "SD4QualityEducation",
+        "SDG"
+      ]
+    },
+    {
+      "newsID": "3",
+      "college": {
+        "collegeID": "01"
+      },
+      "gallery": [
+        "https://drive.google.com/open?id=1H1aML7AYNiLcLr0ycTAMtf8EB0_4o1v_&usp=drive_copy",
+        "https://drive.google.com/file/d/1E0CwsvvTZfGXYDU0fcU-hHxs6Aj3Gf_W/view?usp=drive_link",
+        "https://drive.google.com/file/d/1_NFdJg5ZjPP4Z5V2ykt2__F1pFvYoWW7/view?usp=drive_link",
+        "https://drive.google.com/open?id=1GoBQiEncw_HApbN5wO1TdaRuG0qbBBLN&usp=drive_copy"
+      ],
+      "headline": "Marinduque State University Joins Times Higher Education World University Rankings 2025",
+      "lead": "MarSU earns globasl recognition for its commitment to sustainable and inclusive development",
+      "body": "Marinduque State University (MarSU), under the leadership of Prof. Dr. Diosdado P. Zulueta, proudly makes its debut in the Times Higher Education (THE) World University Rankings 2025, marking a historic milestone not only for the institution but also for the Province of Marinduque and the MIMAROPA Region.  \nThe THE World University Rankings, established in 2010, is one of the most prestigious global performance assessments for higher education institutions. It evaluates universities based on five key pillars: teaching, research environment, research quality, industry engagement, and international outlook. The ranking aims to provide transparency and insights for students, educators, and policymakers across the globe. \n MarSU’s inclusion in this global list is a testament to its growing influence and commitment to academic excellence, research innovation, and global relevance. Most significantly, the university’s placement reflects its consistent efforts in advancing the United Nations’ 17 Sustainable Development Goals (SDGs)—from promoting quality education, gender equality, and climate action, to building partnerships that empower local and international communities. \nThis achievement affirms MarSU’s unwavering vision to be a transformative and globally engaged university that fosters inclusive development and sustainable impact. As it joins the ranks of the world’s recognized institutions, MarSU remains steadfast in its mission to shape future leaders who will contribute meaningfully to a better world.",
+      "author": "MarSU Information Unit",
+      "publishedDate": "2025-06-18",
+      "hashtags": ["#THEGlobalImpact", "#THEUniRankings"],
+      "category": ["Academic", "Announcement"],
+      "tags": ["Global Recognition", "University Rankings", "Higher Education"]
+    },
+    {
+      "newsID": "4",
+      "college": {
+        "collegeID": " "
+      },
+      "gallery": [
+        "https://drive.google.com/open?id=1bhm_iJz7wVW7VYxZXtrZnnXfh_XgyQmM&usp=drive_copy",
+        "https://drive.google.com/open?id=1PVQw7VTBwVklVTpWpjcM4_lN9wzqE6eo&usp=drive_copy",
+        "https://drive.google.com/open?id=1YyjfnqLs8CGWyrNQzM6kPx5zN-5T-wzn&usp=drive_copy",
+        "https://drive.google.com/open?id=1iRS4lrXdYPxee3h7akH5rgY6fudCkXeo&usp=drive_copy"
+      ],
+      "headline": "MarSU Joins 90th RDC MIMAROPA Full Council Meeting",
+      "lead": " ",
+      "body": "The 90th Regional Development Council (RDC) Full Council Meeting of MIMAROPA was successfully held on June 11, 2025, at The Heritage Hotel Manila, marking another milestone in the region’s ongoing efforts to enhance cooperation and development. The event brought together key decision-makers and stakeholders, including representatives from national agencies, local government units, and the academe, fostering collaboration and strategic discussions for the region’s progress. \nAmong the notable attendees from the academic sector were officials from Marinduque State University led by its University President, Prof. Diosdado P. Zulueta, accompanied by Assoc. Prof. Alfredo M. Ofrecio III, Chief of Staff and Ms. Mila Grace Gutierrez, Planning Officer III. \nFollowing the preliminaries, a recognition ceremony was held to honor the outgoing members of the 8th RDC MIMAROPA (2022–2025), during which plaques and certificates were awarded in appreciation of their contributions. \nThe agenda was packed with significant discussions and approvals on policies and programs shaping the socio-economic landsape of the region such as the State of the Region Address (SORA) delivered by RDC Chairperson and Romblon Governor Jose R. Riano; updates on the MIMAROPA Regional Development Investment Program (RDIP) 2023–2028; endorsements and approvals on strategic infrastructure and social development projects; and introduction of policy reforms and sectoral initiatives focusing on gender, economic planning, and maritime connectivity \nOfficials from various government agencies also presented progress reports and updates on regional economic conditions, program monitoring, and policy directions. \nThe RDC meeting serves as a platform for aligning regional priorities with national development goals. MarSU’s involvement in this significant gathering reinforces its vital role not only in providing quality education but also in shaping and supporting development agendas across the MIMAROPA region. \n(J. Breganza)",
+      "author": "J. Breganza",
+      "publishedDate": "2025-06-11",
+      "hashtags": [
+        "#EmpoweringMindsTransformingLives",
+        "#MarinduqueStateCollege",
+        "#SDG4QualityEducation",
+        "#SDG17PartnershipsfortheGoals",
+        "#SDG"
+      ],
+      "category": ["Event", "Academic"],
+      "tags": ["Council Meeting", "90th RDC MIMAROPA", "Quality Education"]
+    },
+    {
+      "newsID": "5",
+      "college": {
+        "collegeID": "01"
+      },
+      "gallery": [
+        "https://drive.google.com/open?id=1crEjXIf6DNKQVq8UZETxG8hLIyyQqCm_&usp=drive_copy",
+        "https://drive.google.com/open?id=1niMm8ZfHsW-lz3JFb4YmAXaRHFm86ugq&usp=drive_copy"
+      ],
+      "headline": "MarSU and PCA Explore Strategic Partnership in Agriculture Development",
+      "lead": " ",
+      "body": "As part of the continuous agriculture development, Prof. Diosdado P. Zulueta (MarSU President), paid a courtesy visit to Dr. Dexter R. Buted, Administrator of the Philippine Coconut Authority (PCA), at the PCA Central Office, Quezon City on June 9, 2025. \nThe meeting aimed to explore potential collaborations between MarSU and the PCA, particularly in areas related to coconut research, development, and extension services that can benefit coconut farmers in Marinduque and other coconut-producing provinces. \nBoth leaders expressed enthusiasm for possible joint initiatives that align with their shared vision of sustainable agricultural development and community empowerment.",
+      "author": "J. Breganza",
+      "publishedDate": "2025-06-11",
+      "category": ["Event", "Academic"],
+      "tags": [
+        "Agriculture",
+        "Strategic Partnership",
+        "PCA",
+        "Philippine Coconut Authority",
+        "SDG4QualityEducation",
+        "SDG17PartnershipsfortheGoals",
+        "SDG"
+      ]
+    },
+    {
+      "newsID": "6",
+      "college": {
+        "collegeID": "01"
+      },
+      "gallery": [
+        "https://drive.google.com/open?id=1lSLYL9_yjk7FpHnaNjdsFlghaoRHZOLi&usp=drive_copy",
+        "https://drive.google.com/open?id=1UgB-KzlC2VC9sSUMCn7xxJN-Hkp9JlON&usp=drive_copy",
+        "https://drive.google.com/open?id=1G3n6J6tCOhEPSFMzNKD7AXK8HgvOWGK-&usp=drive_copy",
+        "https://drive.google.com/open?id=1S5mhveC2Awq_5_R_TEdElrJvi4kIbY75&usp=drive_copy"
+      ],
+      "headline": "MarSU Champions Community Engagement Through Stakeholders' Forum and Impact Assessment Training",
+      "lead": " ",
+      "body": "Marinduque State University (MarSU) continues to champion excellence in  extension and community engagement through its recently concluded 'Stakeholders' Extension Forum and Impact Assessment Training for Extension Projects' through the initiative of the Extension Unit. Held from May 26–30, 2025 at Rojas Events Place in Santol, Boac, Marinduque, the event brought together a dynamic group of project leaders, extensionists, and representatives from key partner agencies. \nThe activity opened with a forum dedicated to engaging stakeholders and aligning extension initiatives with community needs. The following days were devoted to an intensive training on impact assessment, led by two esteemed experts in the field—Dr. Marilyn M. Elauria, Retired Professor 12 and Dr. Jessie C. Elauria, Retired Professor 12 and UP Scientist I. \n Participants deepened their understanding of vital concepts through a series of comprehensive topics, such as: \n• Impact Assessment Framework \n• Mapping Inputs to Benefits and Adoption Pathways \n• Sociological and Environmental Approaches in Impact Measurement \n• Data Collection Techniques \n• Cost and Return Analysis / Partial Budgeting \n• Benefit-Cost Approach to Impact Assessment \nEach session featured hands-on activities, allowing participants to apply their learnings to their respective extension projects. The program culminated in the presentation of completed Impact Assessment Project Proposals, showcasing the participants’ enhanced skills in research and evaluation. \nAmong the remarkable presentations were: \n• SAS Journalismo Training Project: An Impact Assessment (College of Arts and Social Sciences) \n• Impact Assessment on the Training and Production and Usage of a Foot-Operated Hand Sanitizer Dispenser and Handwashing Station (College of Engineering and College of Information and Computing Sciences)\n • Brigada-Pagbasa: Teachers Undertaking Reinforcement of Learning (College of Education) \n• Kaalaman at Katarungan sa Kabarangayan (KKK): A Refresher Training Program for Lupong Tagapamayapa Chairpersons and Members (College of Criminal Justice Education in collaboration with the College of Governance) \n• Impact Assessment on Technology Adoption on Quality of Bagoong and Patis Production (College  of Fisheries) \nTwo proposals were awarded Best Impact Assessment Project: \n🏆 SAS Journalismo Training Project: An Impact Assessment \n🏆 KKK: A Refresher Training Program for Lupong Tagapamayapa Chairpersons and Members \nAdditionally, the Best Presenter Award was given to Dr. Keam Eric L. Malabayabas of the College of Criminal Justice Education for his outstanding delivery and insightful analysis of the KKK project. \nAs the training came to a close, MarSU President Dr. Diosdado P. Zulueta extended his heartfelt gratitude to the participants, organizers, and speakers. He encouraged everyone to integrate the skills and insights gained into their future extension efforts—underscoring the university’s commitment to meaningful impact and inclusive development. \nThrough this initiative, MarSU reaffirms its role as a catalyst for transformative community partnerships grounded in research, service, and sustainability.",
+      "author": "C. Atienza",
+      "publishedDate": "2025-06-04",
+      "category": ["Event", "Academic"],
+      "tags": [
+        "Assessment Training",
+        "MarSU Engagement",
+        "Extension Forum",
+        "Impact Assessment",
+        "SDG4QualityEducation",
+        "SDG"
+      ]
+    },
+    {
+      "newsID": "7",
+      "college": {
+        "collegeID": "01"
+      },
+      "gallery": [
+        "https://drive.google.com/open?id=1DuSyTLSacCJtmK5YPZ7EPpajwHunVmhH&usp=drive_copy",
+        "https://drive.google.com/open?id=1ZrM1qiJASVD44tKa28G1_xU9so8ZiACv&usp=drive_copy",
+        "https://drive.google.com/open?id=11LNBmWhx6YmSJKiOhIURxCsuc2F5CGNW&usp=drive_copy",
+        "https://drive.google.com/open?id=1yfhPIbxNXYPNxo_zS6hlIvuPFgcsXCZv&usp=drive_copy"
+      ],
+      "headline": "MarSU Adds New Vehicle to Its Fleet",
+      "lead": " ",
+      "body": "In a move to enhance operational efficiency and logistical support, the Marinduque State University through its Supply and Property Management Unit officially received the newly procured Toyota Pick-up on April 28, 2025. The acquisition forms part of the institution’s approved procurement plan for FY 2025, aimed at strengthening mobility services across university operations. \nFollowing standard procedures, a physical inspection was conducted by the Commission on Audit (COA) on June 2, 2025. The inspection verified that the vehicle matched the technical specifications outlined in the Contract Agreement/Purchase Order. The inspection also ensured that the unit was in good running condition and free from any physical or mechanical defects. \nThe University continues to prioritize resource optimization and infrastructure support to improve service delivery. This procurement marks another step forward in maintaining transparency, accountability, and operational excellence.",
+      "author": "J. Mabiog",
+      "publishedDate": "2025",
+      "category": ["Academic"],
+      "tags": [
+        "New Vehicle",
+        "Resource Optimization",
+        "Supply and Property Management Unit",
+        "Procurement Plan",
+        "Toyota Pick-up"
+      ]
+    },
+    {
+      "newsID": "8",
+      "college": {
+        "collegeID": "01"
+      },
+      "gallery": [
+        "https://drive.google.com/open?id=1C1cpaLDnx6OOIuhQHpri5mPyrUCqjh1w&usp=drive_copy",
+        "https://drive.google.com/open?id=1188ZCDQWl8EDG4UzkoT4wDMdwoM8cLIu&usp=drive_copy",
+        "https://drive.google.com/open?id=1cug4a5FZlvp7A6I4M7qLbs_0yRjB3Paf&usp=drive_copy",
+        "https://drive.google.com/open?id=1py3q9f94kWwZb4CJESQHj1Sg1Y7cIRud&usp=drive_copy"
+      ],
+      "headline": "MarSU bags Best R&D Award for Probiotic Drink Innovation",
+      "lead": " ",
+      "body": "In a moment of continuous pursuit for research and innovation, Dr. Ma. Edelwina M. Blasé, Vice President for Research and Extension, received the esteemed Best R&D Award under Human Development Research Category on May 28, 2025 at the OMSC Gymnasium, Occidental Mindoro, for her pioneering work on the DOST-MIMAROPA-assisted project entitled “Development of a Non-Dairy Probiotic Drink using Coconut Sap as a Substrate”. \nDr. Blasé received the award together with Executive Assistant, Ms. Lenie Z. Rodriguez, who represented MarSU President, Prof. Dr. Diosdado P. Zulueta. Dr. Blasé’s dedication to innovation continues to push the boundaries of research, paving the way for advancements in nutrition and wellness. Additionally, MarSU showcased various products from the MarSU Gasan FTBI such as cocobagoong, bagoong, patis and arrowroot pulp products from Arrowroot Project. \nThis year’s 2025 Regional Science, Technology, and Innovation Week featured MIMAROPA Science, Technology, and Innovation Awards, Centerpiece Exhibit, Smarter MSMEs Summit, Beyond Invention: A Look on Market Ready Innovation, Oceans of Opportunity: Innovations for Sustainable Fisheries and Aquaculture; and Building Sustainable and Connected Communities. Part of the team that also attended the event were Ms. Geleen Del Prado from the Arrowroot Project and Dr. Randy T. Nobleza.",
+      "author": "D. Sto. Domingo",
+      "publishedDate": "2025-06-02",
+      "category": ["Event", "Academic"],
+      "tags": [
+        "R&D Award",
+        "Probiotic Drink Innovation",
+        "MarSU Research and Extension",
+        "SDG1NoPoverty",
+        "SDG2ZeroHunger",
+        "SDG9IndustryInnovationandInfrastructure",
+        "SDG12ResponsibleConsumptionandProduction",
+        "SDG17PartnershipsfortheGoals"
+      ]
+    },
+    {
+      "newsID": "9",
+      "college": {
+        "collegeID": "01"
+      },
+      "gallery": [
+        "https://drive.google.com/open?id=1Kw5QtdYbq32KU-BABQSw1WgEtn52Fu0E&usp=drive_copy",
+        "https://drive.google.com/open?id=1aOAHImRZGkIi4u3PR1eeDJy0GJ6k_sL9&usp=drive_copy",
+        "https://drive.google.com/open?id=1daR6f4-QhtjShQsK5F0boXlFmfwYImYg&usp=drive_copy",
+        "https://drive.google.com/open?id=10309cGArXEknHJ36JSak_1aFfGbfDJQx&usp=drive_copy",
+        "https://drive.google.com/open?id=1hdO_8SwsG4i1VhcrjePsbDkZZKqlx2L3&usp=drive_copy",
+        "https://drive.google.com/open?id=1ro1_id3Jc2Gj80mAvxNAU0qKXjhSnP8Q&usp=drive_copy",
+        "https://drive.google.com/open?id=15nkBBcvgQ2FthKW6mFMzmPVSCnw6bQVs&usp=drive_copy",
+        "https://drive.google.com/open?id=1zZoNvVIuT66xSOZcUD6B4iwNXkq2bqC0&usp=drive_copy"
+      ],
+      "headline": "Marinduque State University Strenghtens Global Linkages through the ASEAN Fellowship Program 2025 in Vietnam",
+      "lead": " ",
+      "body": "MarSU delegation proudly took part in the ASEAN Fellowship Program 2025 hosted by the Saigon Business School (SBS) in Ho Chi Minh City, Vietnam, from May 26–30, 2025. With the theme 'Future-Ready Classrooms for ASEAN: Integrating Innovation & Entrepreneurship in Teaching,' the program featured a series of dynamic workshops, field visits, and collaborative projects designed to explore innovation and entrepreneurship in higher education. \nRepresenting the university from the College of Business and Accountancy were the following distinguished faculty members: Assoc. Prof Dr. Verna Liza L. Capiña, Assoc. Prof. Generoso E. Udanga, Assoc. Prof. Dr. Merryrose R. Palma, Asst. Prof. Carlo Magno M. Castro, Inst. Gillbert P. Privado, and Inst. Jenyza Dimacali-Rojo. \nThroughout the five-day fellowship, the participants engaged in high-impact sessions ranging from workshops on artificial intelligence in education and curriculum innovation, to field visits to leading businesses and startups in Vietnam. Collaborative group projects also challenged participants to co-create solutions for real-world academic challenges, all while fostering stronger cross-cultural connections and academic cooperation within ASEAN. \nThis international engagement forms part of MarSU’s institutional partnership with Saigon Business School (SBS), further solidifying its commitment to global academic collaboration.  \nThe MarSU International Relations Office extends its heartfelt gratitude to University President Prof. Dr. Diosdado P. Zulueta for his unwavering support in promoting global competency among our faculty members and for championing global academic opportunities for the MarSU community.",
+      "author": "MarSU Information Unit",
+      "publishedDate": "2025-06-01",
+      "category": ["Event"],
+      "tags": [
+        "Global Linkages",
+        "ASEAN",
+        "ASEAN Fellowship Program",
+        "International Engagement",
+        "MarSU Internationalization",
+        "Global Learning",
+        "SDG4QualityEducation",
+        "SDG9IndustryInnovationandInfrastructure",
+        "SDG17PartnershipfortheGoals",
+        "FromtheHearttotheWorld"
+      ]
+    },
+    {
+      "newsID": "10",
+      "college": {
+        "collegeID": "01"
+      },
+      "gallery": [
+        "https://drive.google.com/open?id=1OvlEoj9SWJpLeRC_yLr3ZhSOGLeUiQ8Y&usp=drive_copy",
+        "https://drive.google.com/open?id=1o83rkCn6vrfHDkbNDaFMhi-N1USWsYUF&usp=drive_copy",
+        "https://drive.google.com/open?id=1ibWpl_ce4UjbmCX8eQc5yrFnvYrrYA6r&usp=drive_copy",
+        "https://drive.google.com/open?id=1nX8GsorKpGz07QL7oBF_XbZr3g9-mTyw&usp=drive_copy"
+      ],
+      "headline": "Marinduque State University Celebrates Nursing Students’ Achievements in Clinical Graduation",
+      "lead": " ",
+      "body": "On May 30, 2025 Marinduque State University (MarSU), through its College of Allied Health Sciences (CAHS), proudly held its Clinical Graduation for Nursing Students at the University Gymnasium. The ceremony marked a significant milestone in the journey of the university's future healthcare professionals. \nThe event commenced with a processional march led by the graduating students, faculty members, university officials, and the esteemed guest of honor. The solemn and celebratory tone of the ceremony was set by the MarSU ROTC Honor Guards. \nThe program formally began with Opening Remarks from Assoc. Prof. Julie P. Rodelas, Campus Director. This was followed by the Presentation of the CAHS Faculty of Instruction, led by Assoc. Prof. Marvin P. Plata, Dean of CAHS and Vice President for Student Affairs and Services. Ms. Joy V. Malilay, Associate Dean of CAHS and Program Head of BSN, then led the Presentation of Candidates for Clinical Graduation. \nOne of the most pivotal moments of the ceremony was the official confirmation of the clinical graduates by University President, Prof. Diosdado P. Zulueta. Following the confirmation, UPDPZ delivered a heartfelt message to the graduating class: 'This Clinical Graduation is more than a ceremony—it is a celebration of your courage, your discipline, and your heart for service. You have demonstrated that you are ready not just to heal but to lead, to care, and to serve beyond borders. Let your journey be guided by the values of integrity, compassion, and lifelong learning. MarSU is proud of you—and we believe in the greatness you will bring into the world of healthcare.' \nThe keynote address was delivered by Hon. Zenaida Concepcion-Gagno, a respected member of the Professional Regulation Commission (PRC) Board of Nursing. In her speech, she praised the dedication and resilience of the graduating class and emphasized the essential role of compassion, ethics, and continuous learning in the nursing profession.\nA Plaque of Appreciation was then presented to the keynote speaker in recognition of her valuable insights and contributions to the occasion. The program continued with the awarding of certificates of completion and the donning of the sablay, symbolizing the official recognition of the students’ clinical achievements. \nThe class response was delivered by Ms. Julianne Vhiera J. Lubay, who expressed heartfelt gratitude to the university, faculty, and families who supported the graduates throughout their academic journey. Asst. Prof. Raoul J. Magcamit, Vice President for Academic Affairs, also extended his warm greetings and congratulations to the graduating class. \nThe celebration featured musical interludes, student leadership awards, and touching tributes from faculty and parents, creating an atmosphere of pride and reflection. As these graduates step forward to pursue licensure and enter the professional world of healthcare, MarSU stands proud of its role in shaping not only competent and knowledgeable professionals but also individuals deeply rooted in the core values of integrity, compassion, and service. \n(J.Breganza)",
+      "author": "J. Breganza",
+      "publishedDate": "2025-05-30",
+      "category": ["Event"],
+      "tags": [
+        "Clinical Graduation",
+        "Nursing Students' Achievements",
+        "Graduation Ceremony"
+      ]
+    },
+    {
+      "newsID": "11",
+      "college": {
+        "collegeID": " "
+      },
+      "gallery": [
+        "https://drive.google.com/open?id=1cM98MIrTRiPbUWYOnRiGnwZge8TVFWsh&usp=drive_copy",
+        "https://drive.google.com/open?id=1vsWJTj5gWHt31Tx7oMmzezFlyAXxi0I_&usp=drive_copy",
+        "https://drive.google.com/open?id=1fbGBRtVn4dsE5yM6iFyKhJd2Rqe5DdDm&usp=drive_copy",
+        "https://drive.google.com/open?id=1CKTgWYawD32RckQwyHJu1tdx-_VLO5lE&usp=drive_copy"
+      ],
+      "headline": "MarSU Successfully conducts 4th Regular BOR Meeting",
+      "lead": " ",
+      "body": "The Marinduque State University (MarSU) Board of Regents (BOR) convened for its 4th Regular Meeting at the Executive Lounge of the Commission on Higher Education (CHED) Central Office in Quezon City on May 28, 2025.  \nKey highlights of the meeting included in-depth discussions on financial and fiscal matters, such as proposed financial plans for upcoming university projects. Administrative concerns were also addressed, including proposals to enhance institutional governance and operational efficiency, presented by Atty. Jandusay (VPAF). Additionally, under the academic developments, the Board reviewed new and existing academic programs and faculty development initiatives, including collaborations with foreign institutions which were presented by VPSAS Asso. Prof. Plata and VPAA Asst. Prof. Magcamit. \nThe meeting also addressed items for confirmation, such as the appointment of concerned faculty members and administrative personnel, various memorandum of agreement for the implementation of on-the-job training (OJT), and other collaborative undertakings and various agreements for the implementation of research and extension projects. \nPresided over by Hon. Marita R. Canapi, CHED Commissioner and Chairperson of the MarSU BOR, the meeting was attended by Prof. Diosdado P. Zulueta (MarSU President and BOR Vice Chair), Dr. Maria Morena V. Santos (University & Board Secretary), Assoc. Prof. Marvin P. Plata (Vice President for Student Affairs and Services), Hon. Rev. Fr. Ian R. Retardo (Private Sector Representative), Hon. Joy R. Profugo (President of the MarSU Faculty Federation Inc.), and Hon. Nolasco P. Revilla (President of the SSC Federation Inc.), Hon. Edna Imelda F. Legazpi (Regional Director, CHEDIV-B) was represented by Mr. Gary Cepe, while Hon. Christopher R. Baňas (Member, MarSU BOR) was represented by Atty. Nicole Katrine S. Manlapid.\nFurther, other key officials who joined via online platform include Atty. Crispin Francis M. Jandusay, (Vice President for Administration and Finance), Dr. Ma. Edelwina M. Blasé (Vice President for Research, Extension, and Training), Asst. Prof. Raoul J. Magcamit (Vice President for Academic Affairs), Atty. Hani Sipin, representing Rep. Lord Allan Q. Velasco; and Hon. Karen M. Motol (Private Sector Representative). \n(J. Breganza)",
+      "author": "J. Breganza",
+      "publishedDate": "2025-05-28",
+      "category": ["Event"],
+      "tags": [
+        "4th Regular BOR Meeting",
+        "Board of Regents",
+        "CHED",
+        "Academic Developments",
+        "SDG",
+        "SDG4QualityEducation"
+      ]
+    },
+    {
+      "newsID": "12",
+      "college": {
+        "collegeID": "01"
+      },
+      "gallery": [
+        "https://drive.google.com/open?id=1QTDdwE5HdaSbhvajAX4JCsdzu9NTXHve&usp=drive_copy",
+        "https://drive.google.com/open?id=1mkUS3ldst35T60pgTcjsaAkckkNl1OaE&usp=drive_copy",
+        "https://drive.google.com/open?id=1QZdPIMIDF4mJqPhz_W22RFa5c_FO-97V&usp=drive_copy",
+        "https://drive.google.com/open?id=1UcP-8hWRrc0hFsoJBg94MfmQFuvX5y_W&usp=drive_copy",
+        "https://drive.google.com/open?id=1trxEODsmZj9LaKudcoXNhENwcxicKu23&usp=drive_copy",
+        "https://drive.google.com/open?id=1DrSj5dEz64VA1ZMdxznDmWVgZeinc7Bh&usp=drive_copy",
+        "https://drive.google.com/open?id=1MUvLKLk-mvobuGU7WeOgRPCrRXyTJ32k&usp=drive_copy"
+      ],
+      "headline": "MarSU Forges Stronger Ties With Partners",
+      "lead": " ",
+      "body": "The Marinduque State University (MarSU), through its Extension Office, successfully held the Stakeholders’ Extension Forum on May 26, 2025, during the Day 1 of Stakeholders' Extension Forum and Impact Assessment Training for Extension Projects at Rojas Events Place, Santol, Boac. The event gathered key representatives from various key partner agencies to strengthen inter-agency collaboration and identify areas for future extension partnerships. \nThe forum brought together key partner agencies from the Provincial and Municipal Agriculture Offices, Department of Agrarian Reform (DAR), Bureau of Fisheries and Aquatic Resources (BFAR), PNP Marinduque, Department of Environment and Natural Resources (DENR)- PENRO, Department of the Interior and Local Government (DILG), Department of Health (DOH), Department of Education (DepEd), Department of Information and Communications Technology (DICT), Department of Science and Technology (DOST), Department of Trade and Industry (DTI), Technical Education and Skills Development Authority (TESDA) and private stakeholders.\nThe program opened with a warm welcome from Dr. Ma. Edelwina M. Blase, followed by an inspirational and visionary message from Dr. Diosdado P. Zulueta, President of Marinduque State University. In his message, he expressed his full support for the forum, emphasizing the importance of multi-sectoral collaboration in driving impactful extension initiatives. He reaffirmed the university’s commitment to community engagement and innovation as key pillars of MarSU’s development agenda.The highlight of the morning was a keynote address from  \nDr. Angelica Baylon, the Global Chair/ President Emeritus of the Philippine Association of Extension Program Implementers, Inc. (PAEPI), who emphasized the importance of innovation in community extension initiatives.\nThe forum featured four thematic sessions: \n1. Agriculture and Fisheries Extension Programs for Food Security, presented by PAO, MAO, DAR, and BFAR\n2. Community Safety and Environment Protection, presented by DENR \n3. Community Empowerment, Social Protection, and Local Governance, presented by DILG \n4. Innovation, Enterprise Development, and Capacity Building, presented by DOST, DTI, and TESDA \nEach session was followed by an open forum that enabled MarSU and the agencies to engage in dynamic discussions, share best practices, and pinpoint overlapping priorities. This exchange laid the groundwork for collaborative extension projects that address gaps and amplify the impact of each agency’s initiatives. \nThis forum marks a significant step toward a unified and responsive extension framework that empowers communities and enhances service delivery in the province. \n[C Atienza | Photos: D. Sto.Domingo]",
+      "author": "C. Atienza",
+      "publishedDate": "2025-05-27",
+      "category": ["Event"],
+      "tags": [
+        "Extension Forum",
+        "Impact Assessment",
+        "MarSU Partner Agencies",
+        "MarSU Open Forum",
+        "SDG4QualityEducation",
+        "SDG17PartnershipsfortheGoals",
+        "SDGs"
+      ]
+    },
+    {
+      "newsID": "13",
+      "college": {
+        "collegeID": "01"
+      },
+      "gallery": [
+        "https://drive.google.com/open?id=1ZleToJFc8f6M2bxt2fKg3TBngLvA7UBR&usp=drive_copy",
+        "https://drive.google.com/open?id=1hgoDFofvwyU3PVYoXqAtWTA8Q4mbE7NT&usp=drive_copy",
+        "https://drive.google.com/open?id=1VlFM95FA0PB7PNpJVJVThhQ0ebap2kKQ&usp=drive_copy",
+        "https://drive.google.com/open?id=1m_GlgZ7DtIpnWVmKNOuZ7HC_fZH1W6li&usp=drive_copy"
+      ],
+      "headline": "Marinduque State University Advances Internalization through Key Partnerships at the International COIL Conference 2025",
+      "lead": " ",
+      "body": "General Santos City — Marinduque State University (MarSU) reaffirmed its commitment to global learning and sustainable development by actively participating in the International COIL Conference 2025. Represented by International Relations Director Ms. Jholey Rose R. Leaño-Lancion and Executive Assistant Ms. Lenie Z. Rodriguez, MarSU forged new potential partnerships with institutions such as Urdaneta City University, Leyte Normal University, Central Philippine State University, Holy Child Colleges, Inc., and Universitas Islam Bandung, Indonesia. \nThese collaborations align with the United Nations’ Sustainable Development Goals, focusing on quality education and strong partnerships, and mark MarSU’s formal commitment to the Bayanihan COIL Network initiative of CHED-IAS. The partnerships aim to launch collaborative COIL projects in the coming academic year, strengthening internationalization by bridging local and global academic communities. \nMarSU extends gratitude to University President Prof. Dr. Diosdado P. Zulueta for his steadfast support in advancing the university’s international initiatives.",
+      "author": "MarSU Information Unit",
+      "publishedDate": "2025-05-25",
+      "category": ["Academic", "Event"],
+      "tags": [
+        "International Partnership",
+        "COIL Conference 2025",
+        "Global Learning",
+        "Sustainable Development"
+      ]
+    },
+    {
+      "newsID": "14",
+      "college": {
+        "collegeID": "01"
+      },
+      "gallery": [
+        "https://drive.google.com/open?id=1b5u_5oNNsohhILjWToUODZALNpOXcdnw&usp=drive_copy"
+      ],
+      "headline": "MarSU Top 9 Best Performing School in LPT (Secondary Level)",
+      "lead": "Congratulations, College of Education!",
+      "body": "With immense pride and overwhelming joy, we celebrate Marinduque State University's incredible achievement—Top 9 Best Performing School in the Licensure Examination for Teachers (Secondary Level)! \nThis victory is not just a ranking—it is a testament to the relentless passion, unwavering dedication, and unbreakable spirit of our educators, students, and leaders who pour their hearts into shaping the future of education. Every sleepless night, every sacrifice, every challenge faced head-on has led to this moment of triumph. \nTo our aspiring teachers, you are the beacon of hope for the generations to come, carrying the noble mission of education forward with excellence and integrity. To our faculty and staff, your unwavering commitment and guidance have transformed dreams into reality. \nMarSU, this milestone is proof that greatness is not just achieved—it is built with love, perseverance, and an unyielding belief in the power of education! \nCongratulations, College of Education! \nMabuhay, MarSU! Your journey to greater heights continues!",
+      "author": "MarSU Information Unit",
+      "publishedDate": "2025-05-23",
+      "category": ["Academic"],
+      "tags": [
+        "Licensure Examination For Teachers",
+        "Marsu Top 9",
+        "MarSU LPT Ranking"
+      ]
+    },
+    {
+      "newsID": "15",
+      "college": {
+        "collegeID": " "
+      },
+      "gallery": [
+        "https://drive.google.com/open?id=17_EMsoIXBRZv6UcTQszaghpr2EAqu1pC&usp=drive_copy",
+        "https://drive.google.com/open?id=1CqjsF42Q5VLuD9jcsPjNUbKJ_3yOJX6n&usp=drive_copy",
+        "https://drive.google.com/open?id=1tVxCxrCj-L80rpQcGIfAi2-XQC4s-DhH&usp=drive_copy"
+      ],
+      "headline": "Marinduque State University Integrated High School Holds 8th Commencement and 10th Moving-Up Ceremony",
+      "lead": " ",
+      "body": "On May 15, 2025, the Marinduque State University (MarSU) Integrated High School proudly celebrated its 8th Commencement Exercise and 10th Moving-Up Ceremony at the MarSU Gymnasium in Boac, honoring the academic achievements of its graduates and completers from the Junior and Senior High School departments. \nThe ceremony was graced by the presence of MarSU President, Prof. Diosdado P. Zulueta, who also officiated the confirmation of graduates and completers. He delivered an inspiring and heartfelt message to the graduates, moving-up students, and their families. \nIn his official message, Prof. Zulueta recognized the crucial role of families in the academic journey of the students, stating: \n“To the proud parents and guardians, your love, sacrifices, and guidance have been essential to the success of your children. Ang tagumpay nila ay tagumpay rin ninyo.” \nJoining President Zulueta at this momentous event were key university officials. Vice President for Research, Extension, and Training, Dr. Ma. Edelwina M. Blasé, Vice President for Academic Affairs, Asst. Prof. Raoul J. Magcamit, Vice President for Student Affairs and Services, Assoc. Prof. Marvin P. Plata, University Registrar, Ms. Gemma Tirol. Also in attendance were the academic leaders and faculty members from the College of Education, led by Dean Dr. Joy S. Montejo, and the Integrated High School, headed by Dr. Noel R. Palomares. \nThe gymnasium was filled with the joyful presence of proud parents, families, students, and invited guests, all gathered to witness this important academic milestone. The program featured the presentation of candidates for graduation and moving-up, the awarding of certificates and diplomas, and the awarding of academic honors.",
+      "author": "J. Breganza",
+      "publishedDate": "2025-05-15",
+      "category": ["Event"],
+      "tags": [
+        "Marsu Integrated High School",
+        "IHS 8th Commencement Exercise",
+        "10th Moving-Up Ceremony",
+        "Graduation Ceremony"
+      ]
+    }
+  ],
   "programs": [
     {
       "id": 1,
