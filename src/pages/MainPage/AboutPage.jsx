@@ -469,7 +469,7 @@ function AboutPage() {
       <Nav />
       <main className='mx-auto max-w-7xl px-4 sm:py-8 lg:px-8 '>
         {/* Mobile Tabs - Full width with underline */}
-        <div className='w-full md:hidden fixed top-[4.5rem] left-0 z-30 bg-white border-b border-gray-200 shadow-sm'>
+        <div className='md:hidden w-full fixed top-[4.5rem] left-0 z-30 bg-white border-b border-gray-200 shadow-sm'>
           {/* Search bar for mobile */}
           {/* <div className='px-4 py-2 border-b border-gray-100'>
             <SearchBox searchTerm={searchTerm} onSearch={setSearchTerm} />
@@ -501,13 +501,13 @@ function AboutPage() {
                   aria-selected={activeTab === tab.id}
                   tabIndex={activeTab === tab.id ? 0 : -1}
                 >
-                  {/* <span className='flex items-center space-x-2'>
+                  <span className='flex items-center space-x-2'>
                     {getTabIcon(tab.icon, 'w-4 h-4')}
                     <span>{tab.label}</span>
                     {favorites.includes(tab.id) && (
                       <span className='text-yellow-500 text-sm'>⭐</span>
                     )}
-                  </span> */}
+                  </span>
                   {/* Active tab underline */}
                   {activeTab === tab.id && (
                     <div className='absolute bottom-0 left-0 right-0 h-0.5 bg-[var(--primary-700)] transition-all duration-200' />
@@ -683,7 +683,7 @@ function AboutPage() {
             )}
 
             {/* Tab navigation at bottom for mobile */}
-            <div className='md:hidden mt-8 pt-6 border-t border-gray-200'>
+            <div className=' mt-8 pt-6 border-t border-gray-200'>
               <div className='flex justify-between items-center'>
                 {TABS.findIndex((tab) => tab.id === activeTab) > 0 && (
                   <button
