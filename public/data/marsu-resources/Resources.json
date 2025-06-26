@@ -823,7 +823,236 @@
       ],
       "outcomes": [],
       "studyPlans": [],
-      "careerOpportunities": []
+      "careerOpportunities": [],
+  "academicCalendar": [
+    {
+      "id": 2,
+      "collegeId": 1,
+      "semester": "2nd",
+      "activities": [
+        {
+          "id": 1,
+          "name": "Charter Day",
+          "date": "25-04-08",
+          "category": "Other Activity"
+        },
+        {
+          "id": 2,
+          "name": "Founder's Day",
+          "date": "25-04-26",
+          "category": "Other Activity"
+        },
+        {
+          "id": 3,
+          "name": "Foundation Day",
+          "date": "25-06-1",
+          "category": "Other Activity"
+        },
+        {
+          "id": 4,
+          "name": "University Conversion Day",
+          "date": "25-07-03",
+          "category": "Other Activity"
+        },
+        {
+          "id": 5,
+          "name": "MarSU Olympics / SCUAA 25",
+          "category": "Other Activity"
+        },
+        {
+          "id": 6,
+          "name": "College Days/Week",
+          "category": "Other Activity"
+        },
+        {
+          "id": 7,
+          "name": "Downloading of Clearance Form of Graduating Students (Midyear/November 25)",
+          "startDate": "25-11-10",
+          "endDate": "25-11-14",
+          "category": "Academic Activity"
+        },
+        {
+          "id": 8,
+          "name": "Downloading of Clearance Form of Graduating Students (May 26)",
+          "startDate": "26-04-06",
+          "endDate": "26-04-10",
+          "category": "Academic Activity"
+        },
+        {
+          "id": 9,
+          "name": "Online Admission Period for AY 26-27 - JHS (Grade 7) / SHS (Grade 11)",
+          "startDate": "26-02-02",
+          "endDate": "26-02-04",
+          "category": "Academic Activity"
+        },
+        {
+          "id": 10,
+          "name": "Online Admission Period for AY 26-27 - Incoming 1st Year College / Graduate Students Phase 1",
+          "startDate": "26-02-05",
+          "endDate": "26-02-06",
+          "category": "Academic Activity"
+        },
+        {
+          "id": 11,
+          "name": "Online Admission Period for AY 26-27 - Incoming 1st Year College / Graduate Students Phase 2",
+          "startDate": "26-02-16",
+          "endDate": "26-02-27",
+          "category": "Academic Activity"
+        },
+        {
+          "id": 12,
+          "name": "Online Admission Period for AY 26-27 - Incoming 1st Year College / Graduate Students Phase 3",
+          "startDate": "26-03-02",
+          "endDate": "26-03-13",
+          "category": "Academic Activity"
+        },
+        {
+          "id": 13,
+          "name": "New Year’s Day",
+          "date": "25-01-01",
+          "category": "Holiday"
+        },
+        {
+          "id": 14,
+          "name": "Eid’l Fitr (Feast of Ramadhan)",
+          "date": "25-03-30",
+          "category": "Holiday"
+        },
+        {
+          "id": 15,
+          "name": "Maundy Thursday",
+          "date": "25-04-17",
+          "category": "Holiday"
+        },
+        {
+          "id": 16,
+          "name": "Good Friday",
+          "date": "25-04-18",
+          "category": "Holiday"
+        },
+        {
+          "id": 17,
+          "name": "Araw ng Kagitingan (Day of Valor)",
+          "date": "25-04-09",
+          "category": "Holiday"
+        },
+        {
+          "id": 18,
+          "name": "Labor Day",
+          "date": "25-05-01",
+          "category": "Holiday"
+        },
+        {
+          "id": 19,
+          "name": "Eid’l Adha (Feast of Sacrifice)",
+          "date": "25-06-06",
+          "category": "Holiday"
+        },
+        {
+          "id": 20,
+          "name": "Independence Day",
+          "date": "25-06-12",
+          "category": "Holiday"
+        },
+        {
+          "id": 21,
+          "name": "National Heroes Day",
+          "date": "25-08-25",
+          "category": "Holiday"
+        },
+        {
+          "id": 22,
+          "name": "Bonifacio Day",
+          "date": "25-11-30",
+          "category": "Holiday"
+        },
+        {
+          "id": 23,
+          "name": "Christmas Day",
+          "date": "25-12-25",
+          "category": "Holiday"
+        },
+        {
+          "id": 24,
+          "name": "Rizal Day",
+          "date": "25-12-30",
+          "category": "Holiday"
+        },
+        {
+          "id": 25,
+          "name": "Ninoy Aquino Day",
+          "date": "25-08-1",
+          "category": "Holiday"
+        },
+        {
+          "id": 26,
+          "name": "All Saints’ Day",
+          "date": "25-11-01",
+          "category": "Holiday"
+        },
+        {
+          "id": 27,
+          "name": "Feast of the Immaculate Conception of Mary",
+          "date": "25-12-08",
+          "category": "Holiday"
+        },
+        {
+          "id": 28,
+          "name": "Last Day of the Year",
+          "date": "25-12-31",
+          "category": "Holiday"
+        },
+        {
+          "id": 29,
+          "name": "EDSA People Power Revolution Anniversary",
+          "date": "25-02-25",
+          "category": "Holiday"
+        },
+        {
+          "id": 30,
+          "name": "Chinese New Year",
+          "date": "25-01-29",
+          "category": "Holiday"
+        },
+        {
+          "id": 31,
+          "name": "Black Saturday",
+          "date": "25-04-19",
+          "category": "Holiday"
+        },
+        {
+          "id": 32,
+          "name": "Christmas Eve",
+          "date": "25-12-24",
+          "category": "Holiday"
+        },
+        {
+          "id": 33,
+          "name": "All Saints’ Day Eve",
+          "date": "25-10-31",
+          "category": "Holiday"
+        },
+        {
+          "id": 34,
+          "name": "Battle of Paye (Marinduque)",
+          "date": "25-07-31",
+          "category": "Holiday"
+        },
+        {
+          "id": 35,
+          "name": "Marinduque Day (Battle of Pulang Lupa)",
+          "date": "24-09-13",
+          "category": "Holiday"
+        }
+      ],
+      "date": "2025-2026",
+      "academicYear": {
+        "start": "2025-08-01",
+        "end": "2026-07-31"
+      }
+    }
+  ]
+
     },
     {
       "id": 3,
