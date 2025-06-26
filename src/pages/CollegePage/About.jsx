@@ -54,7 +54,7 @@ function CollegeAbout() {
   return (
     <>
       <CollegeNav />
-      <div className='max-w-5xl mx-auto px-4 py-8'>
+      <div className='college-page-content max-w-5xl mx-auto px-4 py-8'>
         {/* Hero/Banner */}
         <div className='relative rounded-2xl overflow-hidden shadow-lg mb-8'>
           {images.length > 0 ? (

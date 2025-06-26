@@ -49,7 +49,7 @@ function CollegePrograms() {
   return (
     <>
       <CollegeNav />
-      <div className='max-w-6xl mx-auto px-4 py-8'>
+      <div className='college-page-content max-w-6xl mx-auto px-4 py-8'>
         <h1
           className='text-2xl md:text-2xl font-bold mb-6'
           style={{ color: '#323232' }}
