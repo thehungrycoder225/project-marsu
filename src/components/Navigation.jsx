@@ -17,7 +17,6 @@ const universityLogo = '/logo.png'; // Update with your logo path
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'About', href: '/about' },
-  { name: 'Contact', href: '/contact' },
   {
     name: 'Colleges',
     href: '/colleges',
@@ -37,7 +36,6 @@ const navigation = [
     ],
   },
   { name: 'Research', href: '/research' },
-  { name: 'News', href: '/news' },
 ];
 
 const socialLinks = [
@@ -143,28 +141,28 @@ export default function Navigation() {
             )
           )}
           {/* Search Icon */}
-          <button
+          {/* <button
             onClick={() => setSearchOpen(true)}
             className='p-2 rounded-full hover:bg-gray-100 text-gray-700'
             aria-label='Open search'
           >
             <MagnifyingGlassIcon className='h-6 w-6' />
-          </button>
+          </button> */}
           {/* Accessibility Icon */}
-          <button
+          {/* <button
             onClick={() => setAccessOpen(true)}
             className='p-2 rounded-full hover:bg-gray-100 text-gray-700'
             aria-label='Accessibility options'
           >
             <AdjustmentsHorizontalIcon className='h-6 w-6' />
-          </button>
+          </button> */}
           {/* User/Profile Icon */}
-          <button
+          {/* <button
             className='p-2 rounded-full hover:bg-gray-100 text-gray-700'
             aria-label='User menu'
           >
             <UserCircleIcon className='h-7 w-7' />
-          </button>
+          </button> */}
         </div>
         {/* Mobile Menu Button */}
         <div className='flex lg:hidden'>
@@ -271,7 +269,7 @@ export default function Navigation() {
         </DialogPanel>
       </Dialog>
       {/* Search Dialog */}
-      <Dialog open={searchOpen} onClose={setSearchOpen} className='z-50'>
+      {/* <Dialog open={searchOpen} onClose={setSearchOpen} className='z-50'>
         <div className='fixed inset-0 bg-black/40' aria-hidden='true' />
         <DialogPanel className='fixed top-1/4 left-1/2 -translate-x-1/2 z-50 w-full max-w-md bg-white p-6 rounded-xl shadow-xl'>
           <div className='flex items-center gap-2 mb-4'>
@@ -293,9 +291,9 @@ export default function Navigation() {
             Type to search site content...
           </div>
         </DialogPanel>
-      </Dialog>
+      </Dialog> */}
       {/* Accessibility Dialog */}
-      <Dialog open={accessOpen} onClose={setAccessOpen} className='z-50'>
+      {/* <Dialog open={accessOpen} onClose={setAccessOpen} className='z-50'>
         <div className='fixed inset-0 bg-black/40' aria-hidden='true' />
         <DialogPanel className='fixed top-1/4 left-1/2 -translate-x-1/2 z-50 w-full max-w-xs bg-white p-6 rounded-xl shadow-xl'>
           <div className='mb-4 flex items-center gap-2'>
@@ -364,7 +362,7 @@ export default function Navigation() {
             </div>
           </div>
         </DialogPanel>
-      </Dialog>
+      </Dialog> */}
     </header>
   );
 }
