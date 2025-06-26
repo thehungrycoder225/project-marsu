@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './landing.css';
 
-import NavigationExample from '../../components/Navigation';
+import Navigation from '../../components/Navigation';
 import LandingHeroCarousel from '../../components/LandingHeroCarousel';
 import UniversityNews from '../../components/UniversityNews';
 import SectionComponent from '../../components/Section';
@@ -18,7 +18,7 @@ import PlaylistSection from '../../components/PlaylistSection'; // Import the ne
 function LandingPage() {
   return (
     <div>
-      <NavigationExample />
+      <Navigation />
       <LandingHeroCarousel />
       <UniversityStats />
       <div className='mx-auto max-w-7xl px-6 py-8 sm:py-12 lg:px-8'>
