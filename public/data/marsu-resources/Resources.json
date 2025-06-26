@@ -1027,7 +1027,7 @@
     {
       "id": 1,
       "alumniId": 1,
-      "image": "",
+      "image": "./images/alumni-testimonial.jpg",
       "name": { "en": "" },
       "story": { "en": "" }
     }
