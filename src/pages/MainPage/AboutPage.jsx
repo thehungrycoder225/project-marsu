@@ -467,18 +467,36 @@ function AboutPage() {
   return (
     <>
       <Nav />
-      <main className='mx-auto max-w-7xl px-4 sm:py-8 lg:px-8 '>
+      <main className='mx-auto max-w-7xl px-4 pt-32 sm:pt-28 lg:px-8 '>
+        {/* Mobile Header - Visible only on mobile */}
+        <div className='md:hidden mb-6'>
+          <div className='px-4 py-4 bg-gradient-to-r from-gray-50 to-white rounded-lg border border-gray-200'>
+            <div className='flex items-center gap-2 mb-2'>
+              <div className='w-1 h-5 bg-[var(--primary-700)] rounded-full'></div>
+              <p className='text-xs text-gray-600 font-medium'>
+                Learn About Marinduque State University
+              </p>
+            </div>
+            <h1 className='text-xl font-bold text-[var(--primary-700)] leading-tight'>
+              Our vision, heritage, values, and the people that shape our future
+            </h1>
+            <p className='text-gray-600 mt-2 text-xs'>
+              Discover what makes our institution unique and our commitment to excellence in education.
+            </p>
+          </div>
+        </div>
+        
         {/* Mobile Tabs - Full width with underline */}
-        <div className='md:hidden w-full fixed top-[4.5rem] left-0 z-30 bg-white border-b border-gray-200 shadow-sm'>
+        <div className='md:hidden w-full fixed top-[5.5rem] left-0 z-30 bg-white border-b border-gray-200 shadow-sm'>
           {/* Search bar for mobile */}
           {/* <div className='px-4 py-2 border-b border-gray-100'>
             <SearchBox searchTerm={searchTerm} onSearch={setSearchTerm} />
           </div> */}
 
           {/* Mobile tab navigation */}
-          <div className='relative'>
+          <div className='relative bg-white'>
             <div
-              className='flex overflow-x-auto scrollbar-hide'
+              className='flex overflow-x-auto scrollbar-hide px-2 py-1'
               role='tablist'
               aria-label='About page sections'
               ref={tabListRef}
@@ -491,9 +509,9 @@ function AboutPage() {
                   onClick={() => handleTabChange(tab.id)}
                   onMouseEnter={() => setHoveredTab(tab.id)}
                   onMouseLeave={() => setHoveredTab(null)}
-                  className={`relative flex-shrink-0 px-4 py-3 text-sm font-medium whitespace-nowrap transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[var(--primary-400)] ${
+                  className={`relative flex-shrink-0 mx-1 px-3 py-2 text-xs font-medium whitespace-nowrap transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[var(--primary-400)] rounded-lg ${
                     activeTab === tab.id
-                      ? 'text-[var(--primary-700)] bg-[var(--primary-50)]'
+                      ? 'text-[var(--primary-700)] bg-[var(--primary-100)] shadow-sm'
                       : 'text-gray-600 hover:text-[var(--primary-700)] hover:bg-gray-50'
                   }`}
                   aria-current={activeTab === tab.id ? 'page' : undefined}
@@ -501,16 +519,13 @@ function AboutPage() {
                   aria-selected={activeTab === tab.id}
                   tabIndex={activeTab === tab.id ? 0 : -1}
                 >
-                  <span className='flex items-center space-x-2'>
-                    {getTabIcon(tab.icon, 'w-4 h-4')}
+                  <span className='flex items-center space-x-1.5'>
+                    {getTabIcon(tab.icon, 'w-3.5 h-3.5')}
                     <span>{tab.label}</span>
-                    {favorites.includes(tab.id) && (
-                      <span className='text-yellow-500 text-sm'>⭐</span>
-                    )}
                   </span>
-                  {/* Active tab underline */}
+                  {/* Active tab indicator */}
                   {activeTab === tab.id && (
-                    <div className='absolute bottom-0 left-0 right-0 h-0.5 bg-[var(--primary-700)] transition-all duration-200' />
+                    <div className='absolute bottom-0 left-1/2 transform -translate-x-1/2 w-6 h-0.5 bg-[var(--primary-700)] rounded-full transition-all duration-200' />
                   )}
                   {/* Hover preview */}
                   <TabPreview tab={tab} isVisible={hoveredTab === tab.id} />
@@ -521,24 +536,26 @@ function AboutPage() {
         </div>
         {/* Desktop Full-width Tabs with Underline */}
         <div className='hidden md:block w-full'>
-          <div className='sticky top-[4.5rem] z-30 bg-white border-b  mb-8'>
+          <div className='sticky top-[5rem] z-30 bg-white/95 backdrop-blur-lg border-b shadow-sm mb-8'>
             {/* Enhanced header with search and shortcuts */}
-            <div className='px-6 py-4 border-b border-gray-100'>
+            <div className='px-6 py-6 border-b border-gray-100 bg-gradient-to-r from-gray-50 to-white'>
               <div className='flex items-center justify-between gap-4'>
-                <div>
-                  <p className='text-sm text-gray-500'>
-                    Learn About Marinduque State University
-                  </p>
-                  <h2 className='text-2xl font-bold text-[var(--primary-700)] mt-1'>
+                <div className='flex-1'>
+                  <div className='flex items-center gap-2 mb-2'>
+                    <div className='w-1 h-6 bg-[var(--primary-700)] rounded-full'></div>
+                    <p className='text-sm text-gray-600 font-medium'>
+                      Learn About Marinduque State University
+                    </p>
+                  </div>
+                  <h1 className='text-3xl font-bold text-[var(--primary-700)] leading-tight'>
                     Our vision, heritage, values, and the people that shape our
                     future
-                  </h2>
+                  </h1>
+                  <p className='text-gray-600 mt-2 text-sm'>
+                    Discover what makes our institution unique and our
+                    commitment to excellence in education.
+                  </p>
                 </div>
-                {/* Search box */}
-                {/* <div className='flex-1 max-w-md'>
-                  <SearchBox searchTerm={searchTerm} onSearch={setSearchTerm} />
-                </div> */}
-
                 {/* Quick actions */}
                 <div className='flex items-center space-x-4'>
                   {/* Recent tabs */}
@@ -565,39 +582,14 @@ function AboutPage() {
                       </div>
                     </div>
                   )}
-
-                  {/* Favorites */}
-                  {/* {favorites.length > 0 && (
-                    <div className='flex items-center space-x-2'>
-                      <span className='text-xs text-gray-500 font-medium'>
-                        Favorites:
-                      </span>
-                      <div className='flex space-x-1'>
-                        {favorites.slice(0, 4).map((tabId) => {
-                          const tab = TABS.find((t) => t.id === tabId);
-                          if (!tab) return null;
-                          return (
-                            <button
-                              key={tabId}
-                              onClick={() => handleTabChange(tabId)}
-                              className='text-xs px-2 py-1 bg-yellow-100 hover:bg-yellow-200 rounded-full text-yellow-800 transition-colors duration-150'
-                              title={tab.description}
-                            >
-                              {getTabIcon(tab.icon, 'w-3 h-3')}
-                            </button>
-                          );
-                        })}
-                      </div>
-                    </div>
-                  )} */}
                 </div>
               </div>
             </div>
 
             {/* Full-width tab navigation - Auto-fit all tabs */}
-            <div className='relative'>
+            <div className='relative bg-gray-50/50'>
               <div
-                className='flex w-full px-6'
+                className='flex w-full px-6 py-2'
                 role='tablist'
                 aria-label='About page sections'
                 ref={tabListRef}
@@ -610,10 +602,10 @@ function AboutPage() {
                     onClick={() => handleTabChange(tab.id)}
                     onMouseEnter={() => setHoveredTab(tab.id)}
                     onMouseLeave={() => setHoveredTab(null)}
-                    className={`relative flex-1 min-w-0 px-3 py-4 text-sm font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[var(--primary-400)] group ${
+                    className={`relative flex-1 min-w-0 mx-1 px-3 py-4 text-sm font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[var(--primary-400)] group rounded-lg ${
                       activeTab === tab.id
-                        ? 'text-[var(--primary-700)] bg-[var(--primary-50)]'
-                        : 'text-gray-600 hover:text-[var(--primary-700)] hover:bg-gray-50'
+                        ? 'text-[var(--primary-700)] bg-white shadow-sm border border-[var(--primary-200)]'
+                        : 'text-gray-600 hover:text-[var(--primary-700)] hover:bg-white/70'
                     }`}
                     aria-current={activeTab === tab.id ? 'page' : undefined}
                     role='tab'
@@ -623,37 +615,15 @@ function AboutPage() {
                     <div className='flex flex-col items-center space-y-2'>
                       <div className='flex items-center space-x-1'>
                         {getTabIcon(tab.icon, 'w-5 h-5')}
-                        {/* {favorites.includes(tab.id) && (
-                          <span className='text-yellow-500 text-xs'>⭐</span>
-                        )} */}
-                        {/* Loading indicator */}
-                        {/* {activeTab === tab.id && isLoading && (
-                          <div className='animate-spin rounded-full h-3 w-3 border-2 border-[var(--primary-700)] border-t-transparent'></div>
-                        )} */}
                       </div>
-                      <span className='text-xs text-center leading-tight truncate w-full'>
+                      <span className='text-xs text-center leading-tight truncate w-full font-medium'>
                         {tab.label}
                       </span>
-                      {/* Favorite toggle button - only show on hover */}
-                      {/* <button
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          toggleFavorite(tab.id);
-                        }}
-                        className='opacity-0 group-hover:opacity-100 transition-opacity text-gray-400 hover:text-yellow-500 text-xs absolute top-1 right-1'
-                        title={
-                          favorites.includes(tab.id)
-                            ? 'Remove from favorites'
-                            : 'Add to favorites'
-                        }
-                      >
-                        {favorites.includes(tab.id) ? '★' : '☆'}
-                      </button> */}
                     </div>
 
-                    {/* Active tab underline */}
+                    {/* Active tab indicator */}
                     {activeTab === tab.id && (
-                      <div className='absolute bottom-0 left-0 right-0 h-0.5 bg-[var(--primary-700)] transition-all duration-200' />
+                      <div className='absolute bottom-1 left-1/2 transform -translate-x-1/2 w-8 h-0.5 bg-[var(--primary-700)] rounded-full transition-all duration-200' />
                     )}
 
                     {/* Hover preview */}
@@ -666,12 +636,24 @@ function AboutPage() {
         </div>
         {/* Breadcrumb navigation */}
         <div className='w-full px-4 md:px-6 mt-4 mb-2'>
-          <Breadcrumb activeTab={activeTab} onNavigate={handleTabChange} />
+          <div className='hidden md:block'>
+            <Breadcrumb activeTab={activeTab} onNavigate={handleTabChange} />
+          </div>
+          {/* Mobile breadcrumb */}
+          <div className='md:hidden'>
+            <nav className='flex items-center space-x-2 text-xs text-gray-600 mb-2'>
+              <span className='text-gray-500'>About</span>
+              <span className='text-gray-400'>•</span>
+              <span className='text-[var(--primary-700)] font-medium'>
+                {TABS.find(tab => tab.id === activeTab)?.label}
+              </span>
+            </nav>
+          </div>
         </div>
         {/* Content */}
         <div className='w-full flex justify-center px-4 md:px-6'>
           <section
-            className={`max-w-6xl w-full bg-white p-8 mb-12 mt-20 md:mt-4 transition-all duration-500 ${sectionAnim}`}
+            className={`max-w-6xl w-full bg-white rounded-lg shadow-sm border border-gray-100 p-8 mb-12 mt-6 md:mt-6 transition-all duration-500 ${sectionAnim}`}
           >
             {/* Content with loading state */}
             {isLoading ? (
