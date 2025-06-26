@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useColleges } from '../../hooks/useColleges';
+import PropTypes from 'prop-types';
 
 function Offerings({ collegeKey }) {
   const { colleges, programs, loading, error } = useColleges();
@@ -68,5 +69,9 @@ function Offerings({ collegeKey }) {
     </div>
   );
 }
+Offerings.propTypes = {
+  collegeKey: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+    .isRequired,
+};
 
 export default Offerings;

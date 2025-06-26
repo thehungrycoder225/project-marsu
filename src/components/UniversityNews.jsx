@@ -162,9 +162,9 @@ function UniversityNews({ compact = false }) {
       >
         <div className='flex flex-col items-center gap-4 w-full max-w-2xl mx-auto px-2'>
           <Skeleton width='80%' height='2.5rem' className='mb-2' />
-          <Skeleton width='100%' height='7rem' className='mb-2 rounded-lg' />
-          <Skeleton width='100%' height='7rem' className='mb-2 rounded-lg' />
-          <Skeleton width='100%' height='7rem' className='mb-2 rounded-lg' />
+          <Skeleton width='100%' height='7rem' className='mb-2 rounded-md' />
+          <Skeleton width='100%' height='7rem' className='mb-2 rounded-md' />
+          <Skeleton width='100%' height='7rem' className='mb-2 rounded-md' />
           <div className='text-primary-700 font-semibold mt-4 text-center text-base md:text-lg'>
             {quote}
           </div>
@@ -235,14 +235,12 @@ function UniversityNews({ compact = false }) {
       >
         {featuredNews.length > 0 && (
           <div className='mb-8 sm:col-span-auto md:col-span-2'>
-            <h2 className='text-2xl font-bold mb-4'>
-              Featured University News
-            </h2>
+            <h2 className='text-2xl font-bold mb-4'>Featured News</h2>
             <Swiper
               spaceBetween={16}
               slidesPerView={1}
               loop={true}
-              className='rounded-lg shadow-lg'
+              className=''
             >
               {featuredNews.map((news) => (
                 <SwiperSlide key={news.id}>

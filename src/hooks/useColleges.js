@@ -23,7 +23,6 @@ export const useColleges = () => {
         setResearch(resourceData.research || []);
         setUniversityNews(resourceData.news || []);
         setLoading(false);
-        console.log('colleges:', resourceData.colleges);
       } catch (err) {
         setError(err.message);
         setLoading(false);

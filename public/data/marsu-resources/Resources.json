@@ -11,7 +11,7 @@
         "founded": 1998,
         "accreditation": 3
       },
-      "slug": "college-of-information-and-computing-sciences",
+      "slug": "college-of-information-and-computing-sSciences",
       "shortName": { "en": "cics" },
       "profile": {
         "tagline": { "en": "Creating innovation, cultivating success" },
@@ -353,6 +353,13 @@
           "tags": ["Scholarship", "Education"]
         }
       ]
+    },
+    {
+      "id": 7,
+      "key": "gs",
+      "name": { "en": "Graduate School" },
+      "slug": "graduate-school",
+      "shortName": { "en": "gs" }
     }
   ],
   "programs": [
@@ -3344,7 +3351,7 @@
     {
       "id": 1,
       "alumniId": 1,
-      "image": "",
+      "image": "./images/alumni-testimonial.jpg",
       "name": { "en": "" },
       "story": { "en": "" }
     }
