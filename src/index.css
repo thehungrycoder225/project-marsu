@@ -267,12 +267,13 @@
 #root {
   /* --- Modern MARSU Color Theme (Tailwind-inspired, accessible, semantic) --- */
   --color-primary: #660033; /* MARSU Maroon */
+  --color-primary-500: #80004d; /* MARSU Maroon Light */
+  --color-primary-600: #990066; /* MARSU Maroon Dark */
   --color-primary-hover: #80004d;
   --color-primary-active: #4c0026;
   --color-secondary: #ffcc00; /* MARSU Gold */
-  --color-secondary-hover: #ffd633;
-  --color-secondary-active: #e6b800;
-  --color-accent: #e11d48; /* Tailwind Rose-600 */
+  --color-secondary-500: #ffd633; /* MARSU Gold Light */
+  --color-secondary-900: #e6b800; /* MARSU Gold Dark */
   --color-accent-hover: #be123c;
   --color-accent-active: #9f1239;
   --color-info: #2563eb; /* Tailwind Blue-600 */
@@ -309,63 +310,93 @@
   --btn-accent-active: var(--color-accent-active);
   /* Example college color variables remain below for section theming */
   /* colleges-pallets */
-  --cics-primary-700: #6ec207;
+  /* CICS - Information & Computing Sciences (Original Green-Yellow theme, slightly refined for accessibility) */
+  --cics-primary-700: #6ec207; /* Bright green */
   --cics-primary-600: #7edc2a;
   --cics-primary-500: #8efc3d;
+  --cics-secondary-700: #ffeb00; /* Yellow accent */
+  --cics-secondary-600: #ffeb00;
+  --cics-secondary-500: #ffeb00;
 
-  --cics-secondary-700: #ffeb00;
-
-  --ceng-primary-700: #ff6600;
-  --ceng-primary-600: #ff7f00;
-  --ceng-primary-500: #ff9900;
-
-  --cit-primary-700: #fac937;
-  --cit-primary-600: #fbdc4a;
-  --cit-primary-500: #fce05d;
-
-  --coahs-primary-700: #652483;
-  --coahs-primary-600: #7a2b9c;
-  --coahs-primary-500: #8f32b5;
-
-  --cass-primary-700: #ff5d99;
+  /* CASS - Arts & Sciences (Original Pink theme) */
+  --cass-primary-700: #ff5d99; /* Pink */
   --cass-primary-600: #ff6daa;
   --cass-primary-500: #ff7ebb;
+  --cass-secondary-700: #e91e63; /* Supporting pink tone */
+  --cass-secondary-600: #f06292;
+  --cass-secondary-500: #f48fb1;
 
-  --cfas-primary-700: #02d8e9;
-  --cfas-primary-600: #1ee0f2;
-  --cfas-primary-500: #3ae8fc;
+  /* CENG - Engineering (Original Orange theme) */
+  --ceng-primary-700: #ff6600; /* Orange */
+  --ceng-primary-600: #ff7f00;
+  --ceng-primary-500: #ff9900;
+  --ceng-secondary-700: #e65100; /* Supporting orange tone */
+  --ceng-secondary-600: #ff8f00;
+  --ceng-secondary-500: #ffab00;
 
-  --ccj-primary-700: #800000;
-  --ccj-primary-600: #9b0000;
-  --ccj-primary-500: #b70000;
+  /* CIT - Industrial Technology (Original Yellow-Gold theme) */
+  --cit-primary-700: #fac937; /* Gold */
+  --cit-primary-600: #f0e68c;
+  --cit-primary-500: #e6d641;
+  --cit-secondary-700: #f57f17; /* Supporting amber tone */
+  --cit-secondary-600: #ffb300;
+  --cit-secondary-500: #ffc107;
 
-  --cens-primary-700: #125c13;
-  --cens-primary-600: #1a6f1a;
-  --cens-primary-500: #228522;
+  /* CE - Education (Original Light Blue theme, adapted from coed) */
+  --ce-primary-700: #2d80d2; /* Blue */
+  --ce-primary-600: #3f9be0;
+  --ce-primary-500: #51b6ef;
+  --ce-secondary-700: #1976d2; /* Supporting blue tone */
+  --ce-secondary-600: #42a5f5;
+  --ce-secondary-500: #64b5f6;
 
-  --cba-primary-700: #636b2f;
-  --cba-primary-600: #7a8b3a;
-  --cba-primary-500: #8faf4d;
+  /* CHM - Hospitality Management (Original Cyan theme from cfas) */
+  --chm-primary-700: #02d8e9; /* Cyan */
+  --chm-primary-600: #1ee0f2;
+  --chm-primary-500: #3ae8fc;
+  --chm-secondary-700: #00acc1; /* Supporting cyan tone */
+  --chm-secondary-600: #26c6da;
+  --chm-secondary-500: #4dd0e1;
 
-  --cgov-primary-700: #a70000;
-  --cgov-primary-600: #b70000;
-  --cgov-primary-500: #c70000;
+  /* CCJE - Criminal Justice (Original Dark Red theme from ccj) */
+  --ccje-primary-700: #800000; /* Dark red */
+  --ccje-primary-600: #9b0000;
+  --ccje-primary-500: #b70000;
+  --ccje-secondary-700: #d32f2f; /* Supporting red tone */
+  --ccje-secondary-600: #f44336;
+  --ccje-secondary-500: #ef5350;
 
-  --coed-primary-700: #2d80d2;
-  --coed-primary-600: #3f9be0;
-  --coed-primary-500: #51b6ef;
+  /* CL - Law (Refined Purple-Violet from coahs, adjusted for professionalism) */
+  --cl-primary-700: #652483; /* Deep purple */
+  --cl-primary-600: #7a2b9c;
+  --cl-primary-500: #8f32b5;
+  --cl-secondary-700: #7b1fa2; /* Supporting purple tone */
+  --cl-secondary-600: #9c27b0;
+  --cl-secondary-500: #ba68c8;
 
-  --cagri-primary-700: #00b200;
-  --cagri-primary-600: #00c700;
-  --cagri-primary-500: #00d800;
-
-  --gs-primary-700: #660020;
+  /* GS - Graduate School (Original theme with refined secondary) */
+  --gs-primary-700: #660020; /* Deep maroon */
   --gs-primary-600: #80002a;
   --gs-primary-500: #990033;
-
-  --gs-secondary-700: #ec8305;
+  --gs-secondary-700: #ec8305; /* Complementary gold */
   --gs-secondary-600: #f59b0a;
   --gs-secondary-500: #f5c20a;
+
+  /* CA - Agriculture (Original Green theme from cagri/cens, balanced) */
+  --ca-primary-700: #125c13; /* Forest green */
+  --ca-primary-600: #1a6f1a;
+  --ca-primary-500: #228522;
+  --ca-secondary-700: #2e7d32; /* Supporting green tone */
+  --ca-secondary-600: #43a047;
+  --ca-secondary-500: #66bb6a;
+
+  /* CFAS - Fisheries & Aquatic Sciences (Original Cyan theme) */
+  --cfas-primary-700: #02d8e9; /* Cyan */
+  --cfas-primary-600: #1ee0f2;
+  --cfas-primary-500: #3ae8fc;
+  --cfas-secondary-700: #0097a7; /* Supporting teal tone */
+  --cfas-secondary-600: #00bcd4;
+  --cfas-secondary-500: #26c6da;
 
   font-family: 'Euclid Square', sans-serif;
   line-height: 2.4rem;
@@ -387,7 +418,7 @@
 }
 
 html {
-  /* font-size: 62.5%; */
+  font-size: 100%; /* Normalize font size */
 }
 
 body {
@@ -506,4 +537,215 @@ h6 {
   100% {
     transform: rotate(360deg);
   }
+}
+
+/* Enhanced Tabs Navigation Styles */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.animate-fadein {
+  opacity: 0;
+  transform: translateY(8px);
+  animation: fadein 0.5s forwards;
+}
+
+@keyframes fadein {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.animate-slide-up {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideUp 0.3s forwards;
+}
+
+@keyframes slideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Tab content animations */
+.tab-enter {
+  opacity: 0;
+  transform: translateX(20px);
+}
+
+.tab-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition:
+    opacity 300ms ease-out,
+    transform 300ms ease-out;
+}
+
+.tab-exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.tab-exit-active {
+  opacity: 0;
+  transform: translateX(-20px);
+  transition:
+    opacity 300ms ease-out,
+    transform 300ms ease-out;
+}
+
+/* Custom scrollbar for desktop nav */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 2px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* College page layout utilities */
+.college-page-content {
+  /* Space for main nav (80px) + college nav (80px) = 160px */
+  padding-top: 160px;
+}
+
+@media (min-width: 1024px) {
+  .college-page-content {
+    /* Slightly more space on larger screens for comfort */
+    padding-top: 170px;
+  }
+}
+
+/* College theming utility classes */
+.college-theme-cics {
+  --college-primary: var(--cics-primary-700);
+  --college-secondary: var(--cics-secondary-700);
+  --college-accent: var(--cics-primary-600);
+}
+
+.college-theme-cass {
+  --college-primary: var(--cass-primary-700);
+  --college-secondary: var(--cass-secondary-700);
+  --college-accent: var(--cass-primary-600);
+}
+
+.college-theme-ceng {
+  --college-primary: var(--ceng-primary-700);
+  --college-secondary: var(--ceng-secondary-700);
+  --college-accent: var(--ceng-primary-600);
+}
+
+.college-theme-cit {
+  --college-primary: var(--cit-primary-700);
+  --college-secondary: var(--cit-primary-600);
+  --college-accent: var(--cit-primary-500);
+}
+
+.college-theme-ce {
+  --college-primary: var(--ce-primary-700);
+  --college-secondary: var(--ce-primary-600);
+  --college-accent: var(--ce-primary-500);
+}
+
+.college-theme-chm {
+  --college-primary: var(--chm-primary-700);
+  --college-secondary: var(--chm-primary-600);
+  --college-accent: var(--chm-primary-500);
+}
+
+.college-theme-ccje {
+  --college-primary: var(--ccje-primary-700);
+  --college-secondary: var(--ccje-primary-600);
+  --college-accent: var(--ccje-primary-500);
+}
+
+.college-theme-cl {
+  --college-primary: var(--cl-primary-700);
+  --college-secondary: var(--cl-primary-600);
+  --college-accent: var(--cl-primary-500);
+}
+
+.college-theme-gs {
+  --college-primary: var(--gs-primary-700);
+  --college-secondary: var(--gs-primary-600);
+  --college-accent: var(--gs-primary-500);
+}
+
+.college-theme-ca {
+  --college-primary: var(--ca-primary-700);
+  --college-secondary: var(--ca-primary-600);
+  --college-accent: var(--ca-primary-500);
+}
+
+.college-theme-cfas {
+  --college-primary: var(--cfas-primary-700);
+  --college-secondary: var(--cfas-primary-600);
+  --college-accent: var(--cfas-primary-500);
+}
+
+/* Color utility classes */
+.text-college-primary {
+  color: var(--college-primary);
+}
+
+.text-college-secondary {
+  color: var(--college-secondary);
+}
+
+.text-college-accent {
+  color: var(--college-accent);
+}
+
+.bg-college-primary {
+  background-color: var(--college-primary);
+}
+
+.bg-college-secondary {
+  background-color: var(--college-secondary);
+}
+
+.bg-college-accent {
+  background-color: var(--college-accent);
+}
+
+.border-college-primary {
+  border-color: var(--college-primary);
+}
+
+.border-college-secondary {
+  border-color: var(--college-secondary);
+}
+
+.border-college-accent {
+  border-color: var(--college-accent);
+}
+
+/* Hover states */
+.hover\:text-college-primary:hover {
+  color: var(--college-primary);
+}
+
+.hover\:bg-college-primary:hover {
+  background-color: var(--college-primary);
+}
+
+.hover\:border-college-primary:hover {
+  border-color: var(--college-primary);
 }

@@ -61,7 +61,7 @@ function ProgramDetail() {
         image={metaImage}
       />
       <CollegeNav />
-      <div className='max-w-4xl mx-auto px-4 py-8'>
+      <div className='college-page-content max-w-4xl mx-auto px-4 py-8'>
         <div className='flex flex-wrap items-center justify-between mb-4'>
           <Link
             to={`/colleges/${collegeKey}/programs`}

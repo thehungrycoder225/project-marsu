@@ -78,11 +78,11 @@ function CampusLife() {
   };
 
   if (error)
-    return <div className='text-red-600 text-center py-4'>{error}</div>;
+    return <div className='text-red-600 text-center py-2'>{error}</div>;
 
   return (
-    <section className='w-full max-w-7xl mx-auto px-2 sm:px-4 '>
-      <h3 className='text-3xl md:text-4xl font-bold text-center mb-2 text-primary-700'>
+    <>
+      <h3 className='text-2xl md:text-2xl font-bold  mb-2 text-[var(--primary-700)] text-center'>
         Campus Life
       </h3>
       <p className='text-base md:text-lg text-center text-gray-700 mb-6'>
@@ -245,7 +245,7 @@ function CampusLife() {
           </form>
         </div>
       )}
-    </section>
+    </>
   );
 }
 

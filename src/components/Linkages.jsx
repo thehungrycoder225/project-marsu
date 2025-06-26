@@ -26,10 +26,10 @@ function Linkages() {
   return (
     <div className='py-8 px-4 md:px-8 lg:px-16 max-w-7xl mx-auto'>
       <div className=''>
-        <h3 className='text-3xl text-center mb-2 font-bold text-[var(--primary-700)]'>
+        <h3 className='text-2xl text-center mb-2 font-bold text-[var(--primary-700)]'>
           Our Partners
         </h3>
-        <p className='text-lg text-justify text-gray-700 mb-4'>
+        <p className='text-md text-justify text-gray-700 mb-4'>
           At Marinduque State University, our robust industry partnerships
           facilitate the development of industry-aligned curricula, while our
           institutional affiliations foster vital networks that enhance the

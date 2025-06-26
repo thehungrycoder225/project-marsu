@@ -67,19 +67,62 @@ function Events() {
     const d = new Date(ev.date);
     const key = `${d.getFullYear()}-${d.getMonth()}`;
     if (!eventsByMonth[key]) eventsByMonth[key] = [];
+    // Sort events byMonth on ascending date order
+    ev.date = d; // Store date as Date object for sorting
+    ev.day = {
+      en: d.toLocaleDateString('en-US', { weekday: 'long' }),
+      fil: d.toLocaleDateString('fil-PH', { weekday: 'long' }),
+    };
+    ev.title = {
+      en: ev.title?.en || ev.title?.fil || 'Untitled Event',
+      fil: ev.title?.fil || ev.title?.en || 'Untitled Event',
+    };
+    ev.description = {
+      en: ev.description?.en || ev.description?.fil || 'No description',
+      fil: ev.description?.fil || ev.description?.en || 'Walang paglalarawan',
+    };
+    ev.isFeatured = ev.isFeatured || false;
+    ev.isTrending = ev.isTrending || false;
+    ev.tags = ev.tags || [];
+    ev.id = ev.id || `event-${d.getTime()}`; // Ensure unique ID
+    ev.category = ev.category || 'General';
+    ev.imageUrl = ev.imageUrl || '/default-event-image.jpg'; // Fallback image
+    ev.imageAlt = ev.imageAlt || 'Event Image'; // Fallback alt text
+    ev.author = ev.author || 'Marinduque State University'; // Fallback author
+    ev.authorUrl = ev.authorUrl || 'https://www.marsu.edu.ph'; // Fallback author URL
+    ev.authorImage = ev.authorImage || '/default-author-image.jpg'; // Fallback author image
+    ev.authorImageAlt = ev.authorImageAlt || 'Author Image'; // Fallback author
+    // Push event into the month key
     eventsByMonth[key].push(ev);
   });
-  const monthKeys = Object.keys(eventsByMonth).sort();
+
+  // After all events are grouped, sort the month keys in ascending order (year, then month)
+  const monthKeys = Object.keys(eventsByMonth)
+    .map((key) => {
+      const [year, month] = key.split('-').map(Number);
+      return { key, year, month };
+    })
+    .sort((a, b) => (a.year !== b.year ? a.year - b.year : a.month - b.month))
+    .map((item) => item.key);
+
+  // Sort events within each month by ascending date
+  monthKeys.forEach((key) => {
+    eventsByMonth[key].sort((a, b) => a.date - b.date);
+  });
+  if (events.length === 0 && !error)
+    return <div className='text-center py-8'>Loading events...</div>;
+  if (events.length === 0 && error)
+    return <div className='text-red-600 text-center py-4'>{error}</div>;
 
   if (error)
     return <div className='text-red-600 text-center py-4'>{error}</div>;
 
   return (
-    <section className='w-full max-w-4xl mx-auto px-2 sm:px-4 py-8 md:py-12'>
-      <h3 className='text-2xl md:text-3xl font-bold text-center mb-4 text-primary-700'>
-        Upcoming Events
-      </h3>
+    <section className='w-full max-w-7xl  mx-auto'>
       <div className='flex flex-col md:flex-row gap-2 md:gap-4 mb-6 items-center justify-between'>
+        <h3 className='text-2xl md:text-2xl font-bold text-center mb-4 text-[var(--primary-700)]'>
+          Upcoming Events
+        </h3>
         <input
           type='text'
           placeholder={
@@ -105,13 +148,6 @@ function Events() {
             </option>
           ))}
         </select>
-        {/* <button
-          onClick={() => window.print()}
-          aria-label='Print Events'
-          className='bg-primary-700 hover:bg-primary-800 text-white rounded px-4 py-2 text-sm font-semibold focus:outline-none focus:ring-2 focus:ring-primary-700'
-        >
-          🖨️ {lang === 'fil' ? 'I-print' : 'Print'}
-        </button> */}
       </div>
       {monthKeys.length === 0 && (
         <div className='col-span-full text-center text-gray-500 py-8'>
@@ -153,9 +189,9 @@ function Events() {
                       key={event.id}
                       className={`flex flex-col bg-white rounded-xl shadow-md p-4 border transition-all ${
                         event.isFeatured
-                          ? 'border-primary-700'
+                          ? 'border-[var(--color-primary-600)]'
                           : event.isTrending
-                            ? 'border-yellow-400'
+                            ? 'border-amber-600'
                             : 'border-gray-200'
                       }`}
                       tabIndex={0}
@@ -203,7 +239,7 @@ function Events() {
                           className={`mt-2 inline-block text-xs font-bold ${
                             event.isFeatured
                               ? 'text-primary-700'
-                              : 'text-yellow-500'
+                              : 'text-[var(--color-secondary)]'
                           }`}
                         >
                           {event.isFeatured
