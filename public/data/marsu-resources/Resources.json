@@ -382,10 +382,557 @@
               "courses": [
                 {
                   "id": 1,
-                  "name": { "en": "Introduction to Computing" },
-                  "code": "CC101",
+                  "courseName": "introduction to computing",
+                  "courseCode": "CC101",
                   "units": 3,
-                  "prerequisite": null
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 2,
+                  "courseName": "mathematics in the modern world",
+                  "courseCode": "GE101 ",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 3,
+                  "courseName": "Understanding the Self",
+                  "courseCode": "GE102",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 4,
+                  "courseName": "Science, Technology and Societ",
+                  "courseCode": "GE103 ",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 5,
+                  "courseName": "The Contemporary World",
+                  "courseCode": "GE104 ",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 6,
+                  "courseName": "Logic and Critical Thinking",
+                  "courseCode": "GEE101",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 7,
+                  "courseName": "Filipino 2 (Malyuning Komunikasyon) ",
+                  "courseCode": "GEE102 ",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 8,
+                  "courseName": "P.E. 1 (Movement Enhancement)",
+                  "courseCode": "GEM101",
+                  "units": 2,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 9,
+                  "courseName": "NSTP 1",
+                  "courseCode": "GEM111",
+                  "units": 3,
+                  "prerequisite": "None"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "SemesterName": "2nd Semester",
+              "CourseSubject": [
+                {
+                  "id": 1,
+                  "courseName": "Computer Programming 1 ",
+                  "courseCode": "CC102",
+                  "units": 3,
+                  "prerequisite": "CC101"
+                },
+                {
+                  "id": 2,
+                  "courseName": "Computer Platform Technologies",
+                  "courseCode": "ITP101 ",
+                  "units": 3,
+                  "prerequisite": "CC101"
+                },
+                {
+                  "id": 3,
+                  "courseName": "Purposive Communication ",
+                  "courseCode": "GE105",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 4,
+                  "courseName": "Readings in Philippine History",
+                  "courseCode": "GE106",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 5,
+                  "courseName": "Ethics ",
+                  "courseCode": "GE107 ",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 6,
+                  "courseName": "Art Appreciation",
+                  "courseCode": "GE108",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 7,
+                  "courseName": "Filipino 2 (Panitikan) ",
+                  "courseCode": "GEE103",
+                  "units": 3,
+                  "prerequisite": "GEE102"
+                },
+                {
+                  "id": 8,
+                  "courseName": "P.E. 2 (Fitness Exercises)",
+                  "courseCode": "GEM102",
+                  "units": 2,
+                  "prerequisite": "PATHFIT1"
+                },
+                {
+                  "id": 9,
+                  "courseName": "NNSTP 2 ",
+                  "courseCode": "GEM112",
+                  "units": 3,
+                  "prerequisite": "GEM111"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "Year": "2nd Year",
+          "Semester": [
+            {
+              "id": 1,
+              "SemesterName": "1st Semester",
+              "CourseSubject": [
+                {
+                  "id": 1,
+                  "courseName": "Computer Programming 2",
+                  "courseCode": "CC103",
+                  "units": 3,
+                  "prerequisite": "CC102"
+                },
+                {
+                  "id": 2,
+                  "courseName": "Discrete Mathematics ",
+                  "courseCode": "ITP102",
+                  "units": 3,
+                  "prerequisite": "GE101, GEE101"
+                },
+                {
+                  "id": 3,
+                  "courseName": "Multimedia Arts Solutions",
+                  "courseCode": "ITP103",
+                  "units": 3,
+                  "prerequisite": "CC101"
+                },
+                {
+                  "id": 4,
+                  "courseName": "Intoduction to Human Computer Interaction",
+                  "courseCode": "ITP104 ",
+                  "units": 3,
+                  "prerequisite": "CC102"
+                },
+                {
+                  "id": 5,
+                  "courseName": "Networking ",
+                  "courseCode": "ITP105 ",
+                  "units": 3,
+                  "prerequisite": "ITP101"
+                },
+                {
+                  "id": 6,
+                  "courseName": "Life and Works of Rizal ",
+                  "courseCode": "GEM121",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 7,
+                  "courseName": "P.E. 3 (Individual/Dual Sports)",
+                  "courseCode": "GEM103 ",
+                  "units": 3,
+                  "prerequisite": "PATHFIT2"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "SemesterName": "2nd Semester",
+              "CourseSubject": [
+                {
+                  "id": 1,
+                  "courseName": "Data Structures and Algorithms",
+                  "courseCode": "CC104 ",
+                  "units": 3,
+                  "prerequisite": "CC103"
+                },
+                {
+                  "id": 2,
+                  "courseName": "Application Development and Emerging Technologies",
+                  "courseCode": "CC106",
+                  "units": 3,
+                  "prerequisite": "ACC103"
+                },
+                {
+                  "id": 3,
+                  "courseName": "Social and Professional Issues",
+                  "courseCode": "ITP106 ",
+                  "units": 3,
+                  "prerequisite": "CC101"
+                },
+                {
+                  "id": 4,
+                  "courseName": "Quantitative Methods",
+                  "courseCode": "ITP107",
+                  "units": 3,
+                  "prerequisite": "GE101"
+                },
+                {
+                  "id": 5,
+                  "courseName": "Computer Graphics Programming",
+                  "courseCode": "ITP108",
+                  "units": 3,
+                  "prerequisite": "CC101 "
+                },
+                {
+                  "id": 6,
+                  "courseName": "Integrative Programming and Technologie",
+                  "courseCode": "ITP109",
+                  "units": 3,
+                  "prerequisite": "CC103"
+                },
+                {
+                  "id": 7,
+                  "courseName": "P.E. 4 (Team Sports) ",
+                  "courseCode": "GEM104",
+                  "units": 3,
+                  "prerequisite": "None"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "Year": "3rd Year",
+          "Semester": [
+            {
+              "id": 1,
+              "SemesterName": "1st Semester",
+              "CourseSubject": [
+                {
+                  "id": 1,
+                  "courseName": "Information Management",
+                  "courseCode": "CC105",
+                  "units": 3,
+                  "prerequisite": "CC104"
+                },
+                {
+                  "id": 2,
+                  "courseName": "System Integration and Architecture",
+                  "courseCode": "ITP110",
+                  "units": 3,
+                  "prerequisite": "ITP105, CC106"
+                },
+                {
+                  "id": 3,
+                  "courseName": "System Administration and Maintenance",
+                  "courseCode": "ITP111",
+                  "units": 3,
+                  "prerequisite": "ITP106"
+                },
+                {
+                  "id": 4,
+                  "courseName": "Methods of Research",
+                  "courseCode": "ITP112",
+                  "units": 3,
+                  "prerequisite": "Regular 3rd Year"
+                }
+              ],
+              "tracks": [
+                {
+                  "id": 1,
+                  "trackName": "Network and Data Security Track",
+                  "courses": [
+                    {
+                      "id": 1,
+                      "courseName": "Information Assurance and Security",
+                      "courseCode": "ITS111",
+                      "units": 3,
+                      "prerequisite": "ITP106"
+                    },
+                    {
+                      "id": 2,
+                      "courseName": "Internet Technologies",
+                      "courseCode": "ITS112",
+                      "units": 3,
+                      "prerequisite": "ITP106"
+                    },
+                    {
+                      "id": 3,
+                      "courseName": "Introduction to Ethical Hacking",
+                      "courseCode": "ITS113",
+                      "units": 3,
+                      "prerequisite": "ITP106"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "trackName": "Software Development Track",
+                  "courses": [
+                    {
+                      "id": 1,
+                      "courseName": "Object-Oriented Programming",
+                      "courseCode": "ITS121",
+                      "units": 3,
+                      "prerequisite": "CC103"
+                    },
+                    {
+                      "id": 2,
+                      "courseName": "Mobile Application Development",
+                      "courseCode": "ITS122",
+                      "units": 3,
+                      "prerequisite": "CC103, ITP104"
+                    },
+                    {
+                      "id": 3,
+                      "courseName": "Web Programming 1",
+                      "courseCode": "ITS123",
+                      "units": 3,
+                      "prerequisite": "CC103, ITP104"
+                    }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "trackName": "Graphics Animation Track",
+                  "courses": [
+                    {
+                      "id": 1,
+                      "courseName": "Script Writing and Story Board Design",
+                      "courseCode": "ITS131",
+                      "units": 3,
+                      "prerequisite": "ITP108"
+                    },
+                    {
+                      "id": 2,
+                      "courseName": "Principles of 3D Animation",
+                      "courseCode": "ITS132",
+                      "units": 3,
+                      "prerequisite": "ITP108"
+                    },
+                    {
+                      "id": 3,
+                      "courseName": "Advance 2D Animation",
+                      "courseCode": "ITS133",
+                      "units": 3,
+                      "prerequisite": "ITP108"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "SemesterName": "2nd Semester",
+              "CourseSubject": [
+                {
+                  "id": 1,
+                  "courseName": "IT Project Management",
+                  "courseCode": "ITP113",
+                  "units": 3,
+                  "prerequisite": "Regular 3rd Year"
+                },
+                {
+                  "id": 2,
+                  "courseName": "Capstone Project 1",
+                  "courseCode": "CAP101",
+                  "units": 3,
+                  "prerequisite": "Regular 3rd Year"
+                },
+                {
+                  "id": 3,
+                  "courseName": "Elective 1 (Seminars and Field Trips)",
+                  "courseCode": "ITE101",
+                  "units": 3,
+                  "prerequisite": "None"
+                }
+              ],
+              "tracks": [
+                {
+                  "id": 1,
+                  "trackName": "Network and Data Security Track",
+                  "courses": [
+                    {
+                      "id": 1,
+                      "courseName": "Cyber Security Principles",
+                      "courseCode": "ITS114",
+                      "units": 3,
+                      "prerequisite": "ITS111"
+                    },
+                    {
+                      "id": 2,
+                      "courseName": "Cryptography",
+                      "courseCode": "ITS115",
+                      "units": 3,
+                      "prerequisite": "ITS113"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "trackName": "Software Development Track",
+                  "courses": [
+                    {
+                      "id": 1,
+                      "courseName": "Web Programming 2",
+                      "courseCode": "ITS124",
+                      "units": 3,
+                      "prerequisite": "ITS123"
+                    },
+                    {
+                      "id": 2,
+                      "courseName": "Software Engineering 1",
+                      "courseCode": "ITS125",
+                      "units": 3,
+                      "prerequisite": "Regular 3rd Year"
+                    }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "trackName": "Graphics Animation Track",
+                  "courses": [
+                    {
+                      "id": 1,
+                      "courseName": "Game Programming",
+                      "courseCode": "ITS134",
+                      "units": 3,
+                      "prerequisite": "ITS132, ITS133"
+                    },
+                    {
+                      "id": 2,
+                      "courseName": "Advance 3D Animation",
+                      "courseCode": "ITS135",
+                      "units": 3,
+                      "prerequisite": "ITS132"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "Year": "4th Year",
+          "Semester": [
+            {
+              "id": 1,
+              "SemesterName": "1st Semester",
+              "CourseSubject": [
+                {
+                  "id": 1,
+                  "courseName": "Capstone Project 2",
+                  "courseCode": "CAP102",
+                  "units": 3,
+                  "prerequisite": "CAP101"
+                },
+                {
+                  "id": 2,
+                  "courseName": "Elective 2",
+                  "courseCode": "ITE102",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 3,
+                  "courseName": "Elective 3",
+                  "courseCode": "ITE103",
+                  "units": 3,
+                  "prerequisite": "None"
+                },
+                {
+                  "id": 4,
+                  "courseName": "Elective 4",
+                  "courseCode": "ITE104",
+                  "units": 3,
+                  "prerequisite": "None"
+                }
+              ],
+              "tracks": [
+                {
+                  "id": 1,
+                  "trackName": "Network and Data Security Track",
+                  "courses": [
+                    {
+                      "id": 1,
+                      "courseName": "Cloud Computing",
+                      "courseCode": "ITS116",
+                      "units": 3,
+                      "prerequisite": "ITS112"
+                    }
+                  ]
+                },
+                {
+                  "id": 2,
+                  "trackName": "Software Development Track",
+                  "courses": [
+                    {
+                      "id": 1,
+                      "courseName": "Software Engineering 2",
+                      "courseCode": "ITS126",
+                      "units": 3,
+                      "prerequisite": "ITS125"
+                    }
+                  ]
+                },
+                {
+                  "id": 3,
+                  "trackName": "Graphics Animation Track",
+                  "courses": [
+                    {
+                      "id": 1,
+                      "courseName": "Sound Production",
+                      "courseCode": "ITS136",
+                      "units": 3,
+                      "prerequisite": "ITS125"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "SemesterName": "2nd Semester",
+              "CourseSubject": [
+                {
+                  "id": 1,
+                  "courseName": "On-the-Job Training",
+                  "courseCode": "ITOJT",
+                  "units": 3,
+                  "prerequisite": "Completed Academic Requirements"
                 }
               ]
             }
@@ -821,7 +1368,12 @@
           ]
         }
       ],
-      "outcomes": [],
+      "outcomes": [
+        {
+          "id": 1,
+          "outcome": "Demonstrate broad and coherent knowledge and understanding in the core areas of information systems, including systems analysis and design, database management, networking, and information security. Apply critical thinking and problem-solving skills to analyze complex information systems problems and develop effective solutions. Design, implement, and manage information systems that meet organizational needs while adhering to ethical standards and legal requirements. Communicate effectively with diverse audiences, both orally and in writing, to convey technical information related to information systems. Work collaboratively in teams to achieve common goals in the development and implementation of information systems projects. Demonstrate a commitment to lifelong learning by staying current with emerging technologies and trends in the field of information systems."
+        }
+      ],
       "studyPlans": [],
       "careerOpportunities": []
     },
@@ -830,7 +1382,12 @@
       "collegeId": 3,
       "name": { "en": "Bachelor of Arts in Communication" },
       "curriculum": [],
-      "outcomes": [],
+      "outcomes": [
+        {
+          "id": 1,
+          "outcome": "Define and access information needs; assess and organize information and knowledge. Produce, share and utilize information and knowledge. Communicate in different formats and platforms (print, broadcast, and online). Prepare communication/media plan. Conduct communication and media research and evaluation. Develop and produce communication materials in different formats and platforms. Demonstrate communication management and leadership skills. Develop entrepreneurial capabilities. Adhere to ethical standards and practices. Know and practice rights and responsibilities and accountabilities in the communication profession. Demonstrate a development orientation in communication work. Apply communication theories/models, principles, practices, and tools in development work."
+        }
+      ],
       "studyPlans": [],
       "careerOpportunities": []
     },
@@ -866,90 +1423,703 @@
     {
       "id": 1,
       "collegeId": 1,
-      "image": "https://drive.google.com/file/d/1upZV-7vmz6I4vRhvAIlTTwA61_c4nvw1/view",
-      "name": { "en": "Ivy Joy N. Aguiflor, LPT" },
-      "academicrank": { "en": "University Lecturer" },
-      "designation": { "en": "SAS Coordinator" },
-      "email": "aguiflor.ivyjoy@marsu.edu.ph",
-      "attainment": [
+      "image": "https://drive.google.com/file/d/1upZV-7vmz6I4vRhvAIlTTwA61_c4nvw1/view?usp=drive_link",
+      "name": "Ivy Joy N. Aguiflor, LPT",
+      "designation": "University Lecturer",
+      "email": "",
+      "educationalAttainment": [
         {
           "id": 1,
-          "degree": {
-            "en": "Bachelor of Secondary Education Major in Mathematics"
-          },
-          "institution": { "en": "Marinduque State College" },
-          "year": null
+          "attainment": "Bachelor of Secondary Education Major in Mathematics"
         },
         {
           "id": 2,
-          "degree": {
-            "en": "Master of Arts in Education Major in Mathematics"
-          },
-          "institution": { "en": "Marinduque State University" },
-          "year": null,
-          "units": 36
+          "attainment": "Master of Arts in Education Major in Mathematics Teaching(CAR)"
         }
       ],
-      "publications": [1]
+      "publication": [
+        {
+          "id": 1,
+          "title": "Will Economic Capability and Technological Availability Affect Graduate Competencies: An Exploratory Study of BSIT/BSIS Programs"
+        }
+      ]
     },
     {
       "id": 2,
       "collegeId": 1,
-      "image": "https://drive.google.com/file/d/1aj5s8fWnAGBvHomTM3SLSmpCVOrfsJ2v/view",
-      "name": { "en": "Carmelo O. Alojado" },
-      "academicrank": { "en": "University Lecturer" },
-      "designation": { "en": "Exetension Program Coordinator" },
-      "email": "alojado.carmelo@marsu.edu.ph",
-      "attainment": [
+      "image": "https://drive.google.com/file/d/1aj5s8fWnAGBvHomTM3SLSmpCVOrfsJ2v/view?usp=drive_link",
+      "name": "Carmelo O. Alojado",
+      "designation": "University Lecturer",
+      "email": "",
+      "educationalAttainment": [
         {
           "id": 1,
-          "degree": { "en": "Bachelor of Science in Information Technology" },
-          "institution": { "en": "Marinduque State College" },
-          "year": null
-        },
-        {
-          "id": 2,
-          "degree": { "en": "Master of Science in Information Technology" },
-          "institution": { "en": "Marinduque State University" },
-          "year": null,
-          "units": 36
+          "attainment": "Master in Information Technology (18 Units)"
         }
       ],
-      "publications": []
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
     },
     {
       "id": 3,
       "collegeId": 1,
-      "image": "https://drive.google.com/file/d/1upZV-7vmz6I4vRhvAIlTTwA61_c4nvw1/view",
-      "name": { "en": "Doreena Joy C. Borja, MIT" },
-      "academicrank": { "en": "Assistant Professor I" },
-      "designation": { "en": "OJT Coordinator" },
-      "email": "borja.doreenajoy@marsu.edu.ph",
-      "attainment": [
+      "image": "https://drive.google.com/file/d/1l6Z6ucn2VINOj1WNsvRqN9RTdYDg96jS/view?usp=drive_link",
+      "name": "Doreena Joy C. Borja, MIT",
+      "designation": "OJT Co-ordinator, Assistant Professor I",
+      "email": "",
+      "educationalAttainment": [
         {
           "id": 1,
-          "degree": { "en": "Bachelor of Science in Information Technology" },
-          "institution": { "en": "Marinduque State College" },
-          "year": null
+          "attainment": "Bachelor of Science in Information Technology"
         },
         {
           "id": 2,
-          "degree": { "en": "Master of Science in Information Technology" },
-          "institution": { "en": "Marinduque State University" },
-          "year": null,
-          "units": 36
+          "attainment": "Master in Information Technology"
         }
       ],
-      "publications": []
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "collegeId": 1,
+      "image": "https://drive.google.com/file/d/1rGR3s0RCBFt9oNU_KaWe3GU2QfSC2dRF/view?usp=drive_link",
+      "name": "Melvin M. Cario",
+      "designation": "University Lecturer",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Information Technology"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "collegeId": 1,
+      "image": "https://drive.google.com/file/d/1v7U5XzfQH_f2XhL_IQB0ZVXc4BwNI8AR/view?usp=drive_link",
+      "name": "Eunice G. De Luna-Malinao, MIT",
+      "designation": "Assistant Professor IV",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Information Technology"
+        },
+        {
+          "id": 2,
+          "attainment": "Master in Education Management"
+        },
+        {
+          "id": 3,
+          "attainment": "Master in Information Technology"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "collegeId": 1,
+      "image": "https://drive.google.com/file/d/1uMXADRX06Yr2ROiuW088RRnlCEiRM2kQ/view?usp=drive_link",
+      "name": "Villi Dane M. Go, MSCS",
+      "designation": "Instructor III",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Computer Science"
+        },
+        {
+          "id": 2,
+          "attainment": "Master of Science in Computer Science - Major in Software Development"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": "Geospatial Mapping of MSC Employees and Students for the Prevention of COVID- 19 Transmission."
+        },
+        {
+          "id": 2,
+          "title": "Geospatial Mapping of MSC Employees and Students for the Prevention of COVID- 19 Transmission."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "collegeId": 1,
+      "image": "https://drive.google.com/file/d/1wcJnKKXuoO3prnG9vVlJVHwX1bfxGLCl/view?usp=drive_link",
+      "name": "Lorimer L. Imperio, MIT",
+      "designation": "Assistant Professor II",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Computer Science"
+        },
+        {
+          "id": 2,
+          "attainment": "Master in Information Technology"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "collegeId": 1,
+      "image": "https://drive.google.com/file/d/1rmEMKLK3Dq3HOne4yVwgHqnXJJxDTAWd/view?usp=drive_link",
+      "name": "Kevin H. Jasmin, LPT",
+      "designation": "Instructor I, OJT Coordinator",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Information Technology"
+        },
+        {
+          "id": 2,
+          "attainment": "Master in Information Systems"
+        },
+        {
+          "id": 3,
+          "attainment": "Master in Information Technology (30 units)"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "collegeId": 1,
+      "image": "https://drive.google.com/file/d/1XnCLZh8Yq9ci8a9e656fhy5bpsUuJkHx/view?usp=drive_link",
+      "name": "Melvin Jinao",
+      "designation": "University Lecturer",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Information Technology – Networking and Data Security"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "collegeId": 1,
+      "image": "",
+      "name": "Raymart Landig, LPT",
+      "designation": "University Lecturer",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Education Major in Social Sciences"
+        },
+        {
+          "id": 2,
+          "attainment": "Master of Arts in Education Major in Social Science Education (18 units)"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "collegeId": 1,
+      "image": "https://drive.google.com/file/d/1DngSUHMmd-_wYvfPDVea8sJxbxZveUId/view?usp=drive_link",
+      "name": "Abegail Joy I. Laylay, LPT",
+      "designation": "University Lecturer",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Secondary Education Major in Social Sciences"
+        },
+        {
+          "id": 2,
+          "attainment": "Master of Arts in Education Major in Social Sciences Teaching"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "collegeId": 1,
+      "image": "https://drive.google.com/file/d/1rPJjkmIoQg_HuDU9hO8042hWmEO89MYv/view?usp=drive_link",
+      "name": "Beneden M. Logmao, MIS",
+      "designation": "Assistant Professor IV, Program Head(BS Information System)",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Information Management"
+        },
+        {
+          "id": 2,
+          "attainment": "Master in Information Systems"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": "Ornedo. Parental Engagement on Edukasyong Pantahanan at Pangkabuhayan: ICT Skills and Availability of ICT Equipment in Children’s Learning Amidst Pandemic."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "collegeId": 1,
+      "image": "https://drive.google.com/file/d/1KAss7-EZqDFTyvT_tarpTJp76LXyEGy8/view?usp=drive_link",
+      "name": "Art Jervin L. Magcamit, MIT",
+      "designation": "Assistant Professor I, Program Head(BS Information Technology)",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Information Technology"
+        },
+        {
+          "id": 2,
+          "attainment": "Master in Information Technology"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "collegeId": 1,
+      "image": "https://drive.google.com/file/d/1X2V18iOV5o-wiZEXEfhaDGERdaQgHLpj/view?usp=drive_link",
+      "name": "Ronjie Mar L. Malinao, DIT",
+      "designation": "College Dean",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Information Technology"
+        },
+        {
+          "id": 2,
+          "attainment": "Master in Information Technology"
+        },
+        {
+          "id": 2,
+          "attainment": "Doctor in Information Technology"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "collegeId": 1,
+      "image": "https://drive.google.com/file/d/1wLa5NfOCV9CEvzJSzqYGo5lJxRlzzMib/view?usp=drive_link",
+      "name": "Engr. Jayvi M. Mandalihan, CPE",
+      "designation": "University Lecturer",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Computer Engineering"
+        },
+        {
+          "id": 2,
+          "attainment": "Master in Information Technology"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": "Student’s Programming Performance Assessment Using Learning Analytics."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "collegeId": 1,
+      "image": "https://drive.google.com/file/d/1tJrhDzpCvH61tRZ6LEOtLp8BN9wERbfF/view?usp=drive_link",
+      "name": "Meynard O. Mangui",
+      "designation": "University Lecturer",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Secondary Education Major in MAPHE"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": "Student’s Programming Performance Assessment Using Learning Analytics."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "collegeId": 1,
+      "image": "https://drive.google.com/file/d/1p5QYjfDaDKOKYMPiJay3CLiL76hHyARB/view?usp=drive_link",
+      "name": "Jeffrey M. Marapia, MSCS",
+      "designation": "Instructor II",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Computer Science"
+        },
+        {
+          "id": 2,
+          "attainment": "Master of Science in Computer Science"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": "Ant Colony Optimization (ACO) for Short Route Calculation Implemented of Transport Mobile Application for Small Network Transport Services in Marinduque."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "collegeId": 1,
+      "image": "https://drive.google.com/file/d/1tC8WwH7at99oi8q6RRppE4QGnoFGX1Ut/view?usp=drive_link",
+      "name": "Christine May L. Nabos, MIT",
+      "designation": "Instructor III",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Information Technology"
+        },
+        {
+          "id": 2,
+          "attainment": "Master in Information Technology"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "collegeId": 1,
+      "image": "https://drive.google.com/file/d/1qMgK0BWSLXT-T2MATQP2jQMGcdjP6MG3/view?usp=drive_link",
+      "name": "Julieta Q. Nabos, PH.D",
+      "designation": "Assistant Professor V",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Computer Science"
+        },
+        {
+          "id": 2,
+          "attainment": "Master of Education in Educational Management"
+        },
+        {
+          "id": 3,
+          "attainment": "Master in Information Systems (15 units)"
+        },
+        {
+          "id": 4,
+          "attainment": "Doctor of Philosophy in Computer Science"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": "Development, Validation and Acceptance of a Module for Housekeeping Specialization in Technical Vocational Livelihood Track of the Senior High School Education. Philippine e-Journals Psychology and Education: A Multidisciplinary Journal."
+        },
+        {
+          "id": 2,
+          "title": "Digital Competencies and Experiences in using Digital Technologies of Public School Teachers in Island Municipalities in Quezon, Philippines. Philippine e-Journals Psychology and Education: A Mutidisciplinary Journal."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "collegeId": 1,
+      "image": "https://drive.google.com/file/d/1ta3qHpHknzvCFB1oXEHS6Rato7S-CVVL/view?usp=drive_link",
+      "name": "Kenneth L. Omiping",
+      "designation": "University Lecturer",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Information Technology"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "collegeId": 1,
+      "image": "https://drive.google.com/file/d/1qEyDL3ltQ4O5AOYi_vH_YZUJbuF2C7VL/view?usp=drive_link",
+      "name": "Jonex M. Ornedo",
+      "designation": "University Lecturer",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Information Technology"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "collegeId": 1,
+      "image": "https://drive.google.com/file/d/1wAu5sxFvjr0qJb20IzXyiC1qwiuf9KUh/view?usp=drive_link",
+      "name": "Wilmer M. Pascual",
+      "designation": "University Lecturer",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Computer Science"
+        },
+        {
+          "id": 2,
+          "attainment": "Master in Information Technology (30 units)"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": "Pascual. Predictive Modeling for Carabao Milk Quality: Unraveling Key Influencers using Machine Learning Techniques."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "collegeId": 1,
+      "image": "hhttps://drive.google.com/file/d/1qw_fvg96UMGyc2Wc_V60D52b5xTThpJT/view?usp=drive_link",
+      "name": "Christopher J. Rebistual",
+      "designation": "Assistant Professor IV, OJT Coordinator",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Computer Science"
+        },
+        {
+          "id": 2,
+          "attainment": "Master of Engineering Management (27 units)"
+        },
+        {
+          "id": 3,
+          "attainment": "Master of Arts in Education"
+        },
+        {
+          "id": 4,
+          "attainment": "Doctor of Education"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "collegeId": 1,
+      "image": "",
+      "name": "Coney Marie Rejano, LPT",
+      "designation": "University Lecturer",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Education Major in Social Sciences"
+        },
+        {
+          "id": 2,
+          "attainment": "Master of Arts in Education Major in Social Science Education (Currently Enrolled)"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "collegeId": 1,
+      "image": "https://drive.google.com/file/d/1z4kgmYXbM648rDpiT0M5ZhHdVkPNyCDq/view?usp=drive_link",
+      "name": "Joshua R. Relatorres",
+      "designation": "University Lecturer",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Information Technology"
+        },
+        {
+          "id": 2,
+          "attainment": "Master in Information Technology (CAR)"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "collegeId": 1,
+      "image": "https://drive.google.com/file/d/1Ma4Ovi8nJPdBrQktzJMpYcJ7u3xvdw_s/view?usp=drive_link",
+      "name": "Aldrin R. Requiz",
+      "designation": "Instructor I, OJT Coordinator",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Information Technology"
+        },
+        {
+          "id": 2,
+          "attainment": "Master of Science in Information Technology"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "collegeId": 1,
+      "image": "https://drive.google.com/file/d/1n4oui8MqOKTh--jGm_ShB2gdXdgmspNU/view?usp=drive_link",
+      "name": "Maria Nessa M. Solomon, MAED",
+      "designation": "Assistant Professor IV",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Information Management"
+        },
+        {
+          "id": 2,
+          "attainment": "Master in Information Systems"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "collegeId": 1,
+      "image": "https://drive.google.com/drive/folders/1qo0Y1k4SKo4HZ7gVNP9bdW_qxfLSQBnS?usp=drive_link",
+      "name": "Kierven A. Villaruel, MIT",
+      "designation": "Instructor III",
+      "email": "",
+      "educationalAttainment": [
+        {
+          "id": 1,
+          "attainment": "Bachelor of Science in Information Technology"
+        },
+        {
+          "id": 2,
+          "attainment": "Master in Information Technology"
+        }
+      ],
+      "publication": [
+        {
+          "id": 1,
+          "title": ""
+        }
+      ]
     }
   ],
   "staff": [
     {
       "id": 1,
       "collegeId": 1,
-      "image": "",
-      "name": { "en": "" },
-      "designation": { "en": "" },
+      "image": "https://drive.google.com/file/d/1Y5z3TlqJp5_hbYDY2lbejLQ8gI5-fOaP/view?usp=drive_link",
+      "name": "Janebhet R. Nagutom",
+      "designation": "Support Staff",
+      "email": ""
+    },
+    {
+      "id": 2,
+      "collegeId": 1,
+      "image": "https://drive.google.com/file/d/1J73P4X_tMM9rwhAbbR6lif01yq6jYbwk/view?usp=drive_link",
+      "name": "Danrick A. Mangui",
+      "designation": "Technical Staff",
       "email": ""
     }
   ],
@@ -957,25 +2127,1085 @@
     {
       "id": 1,
       "collegeId": 1,
-      "title": {
-        "en": "Will Economic Capablity and Technological Availability Affect Graduate Competencies: An Exploratory Study of BS/IT and BSIS Programs"
-      },
-      "publicationYear": "",
-      "completionYear": "",
-      "authors": [],
-      "indices": [],
-      "abstract": { "en": "" }
+      "title": "Parental Involvement to the Full Implementation of In-Person Classes in the Division of Quezon: Basis for a Parental Support Program (PSP)",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Dr. Leodegario M. Jalos Jr.",
+      "indices": "Professional Education",
+      "abstract": ""
+    },
+    {
+      "id": 2,
+      "collegeId": 1,
+      "title": "Semantic Analysis on the Police Lingo in the Narratives of Students of Bachelor of science in Law Enforcement Administration: A Forensic Linguistic Study",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Dr. Susan B. Pineda, Annie M. Ruiz, Vergel L. Mayo",
+      "indices": "Language and Communication",
+      "abstract": ""
+    },
+    {
+      "id": 3,
+      "collegeId": 1,
+      "title": "School-Based Management Practices of Public Elementary Schools Division of Lucena City for the School Year 2022",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Dr. Leodegario M. Jalos Jr.",
+      "indices": "Social Studies",
+      "abstract": ""
+    },
+    {
+      "id": 4,
+      "collegeId": 1,
+      "title": "Application Principle of Good Governance in the Implementation of Support Services under the Comprehensive Agrarian Reform (CARP) in the Province of Marinduque: Basis to Formulate New Theory",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Dr. Leodegario M. Jalos Jr.",
+      "indices": "Social Studies",
+      "abstract": ""
+    },
+    {
+      "id": 5,
+      "collegeId": 1,
+      "title": "ISO 9001:2015 Certification Status and Organizational Effectiveness of the Department of Education Division Offices in CALABARZON: Validation of Quality Assurance Principles in the Department of Education",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Dr. Leodegario M. Jalos Jr.",
+      "indices": "Social Studies",
+      "abstract": ""
+    },
+    {
+      "id": 6,
+      "collegeId": 1,
+      "title": "Financial Management Practices of School Heads Related to the Implementation of the Basic Education Learning Continuity Plan(BE-LCP) in the Division of Quezon: Basis for Intervention Program",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Dr. Leodegario M. Jalos Jr.",
+      "indices": "Social Studies",
+      "abstract": ""
+    },
+    {
+      "id": 7,
+      "collegeId": 1,
+      "title": "Physical Facilities Monitoring System Employed by the Elementary Schools in the Third Congressional District of Quezon: Basis for an Enhanced Systematic Monitoring Model",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Dr. Leodegario M. Jalos Jr.",
+      "indices": "Social Studies",
+      "abstract": ""
+    },
+    {
+      "id": 8,
+      "collegeId": 1,
+      "title": "Challenges in Compulsory Acquisition of LNDS Under the Comprehensive Agrarian Reform (CARP) in the Province of Marinduque: Basis to Formulate a Process Model",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Dr. Leodegario M. Jalos Jr.",
+      "indices": "Social Studies",
+      "abstract": ""
+    },
+    {
+      "id": 9,
+      "collegeId": 1,
+      "title": "Male and Female Language Proficiency and Fluency in the Workplace: A Gender Linked Study",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Dr. Susan Barbosa Pineda",
+      "indices": "Language and Communication",
+      "abstract": ""
+    },
+    {
+      "id": 10,
+      "collegeId": 1,
+      "title": "Preparedness of Public Elementary School Teachers in Performing Their Tasks Before, During, and After Classroom Observation in Lopez East District, Division of Quezon- Co Author",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Dr. Liza Marie M. Manoos",
+      "indices": "Professional Education",
+      "abstract": ""
+    },
+    {
+      "id": 11,
+      "collegeId": 1,
+      "title": "Students' LMS Experience and their Learning Motivation and Academic Performance in Mathematics",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Romalyn DC. Macayaon, Dr. Noel R. Palomares",
+      "indices": "Professional Education",
+      "abstract": ""
+    },
+    {
+      "id": 12,
+      "collegeId": 1,
+      "title": "Contextualized and Localized Modules in Araling Panlipunan 9 for Secondary Schools in the Division of Marinduque: A Validation",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Rizalina M. Fidelino, LPT.MA",
+      "indices": "Social Studies",
+      "abstract": ""
+    },
+    {
+      "id": 13,
+      "collegeId": 1,
+      "title": "The Use of Six-Questions Cognitive Model in Developing the Mathematical Skills of Grade 6 Learners",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "John Cris P. Andrade, Noel R. Palomares, EdD",
+      "indices": "Mathematics",
+      "abstract": ""
+    },
+    {
+      "id": 14,
+      "collegeId": 1,
+      "title": "Profiling of Marinduque State College- Bachelor of Secondary Education Graduate's Achievement",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Dexter M. Go, Dr. Liza Marie M. Manoos-Pacia",
+      "indices": "Mathematics",
+      "abstract": ""
+    },
+    {
+      "id": 15,
+      "collegeId": 1,
+      "title": "Effectiveness of Recorded Lecture Video in Teaching Mathematical Measures of Position Among Grade 10 Learners",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Baby Ann P. Motar, Noel R. Palomares, EdD",
+      "indices": "Mathematics",
+      "abstract": ""
+    },
+    {
+      "id": 16,
+      "collegeId": 1,
+      "title": "Students' Perception towards Learning Mathematics and their Academic Performance",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Gliza N. Almonte, Noel R. Palomares, EdD",
+      "indices": "Mathematics",
+      "abstract": ""
+    },
+    {
+      "id": 17,
+      "collegeId": 1,
+      "title": "Level of Preparedness of the Pre-Service Teachers as Assessed by Resource Schools",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Arlene M. Quindoza, Noel R. Palomares, EdD",
+      "indices": "Mathematics",
+      "abstract": ""
+    },
+    {
+      "id": 18,
+      "collegeId": 1,
+      "title": "Predictors of Student's Academic Performance in Mathematics Via Modular Distance Learning",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Camille L. Manggol, Dr. Annalyn J. Decena",
+      "indices": "Mathematics",
+      "abstract": ""
+    },
+    {
+      "id": 19,
+      "collegeId": 1,
+      "title": "Level of Satisfaction of Bachelor of Secondary Education (BSEd) Students on the Auxilliary Services, Marinduque State College",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Noelle Anne S. Pelaez, Dr. Susan B. Pineda",
+      "indices": "Mathematics",
+      "abstract": ""
+    },
+    {
+      "id": 20,
+      "collegeId": 1,
+      "title": "Mathematics Students' Learning Styles and their Academic Achievement",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Althea R. Esplana, Noel R. Palomares, EdD",
+      "indices": "Mathematics",
+      "abstract": ""
+    },
+    {
+      "id": 21,
+      "collegeId": 1,
+      "title": "Causes of Student's Anxiety Towards Mathematics Learning: Input to a Proposed Anxiety Management Strategy",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Antonette M. Magyaya, Rosalyn J. Dasco, RGC, CMHA",
+      "indices": "Mathematics",
+      "abstract": ""
+    },
+    {
+      "id": 22,
+      "collegeId": 1,
+      "title": "Student's Difficulties in Solving Worded Problems Involving Fractions: Input for a Proposed Intervention",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Joyce Ann M. Madriño, Maria Teresa C. Chavez,LPT, MAED",
+      "indices": "Mathematics",
+      "abstract": ""
+    },
+    {
+      "id": 23,
+      "collegeId": 1,
+      "title": "Blended Learning Modality and Academic Performance of Bachelor of Secondary Education (BSEd) Students",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Jean Rose R. Perin, Noel R. Palomares, EdD",
+      "indices": "Mathematics",
+      "abstract": ""
+    },
+    {
+      "id": 24,
+      "collegeId": 1,
+      "title": "The Use of Manipulatives in Developing the Least Mastered Competencies in Mathematics 6",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Mary Joy S. Laririt, Noel R. Palomares, EdD",
+      "indices": "Mathematics",
+      "abstract": ""
+    },
+    {
+      "id": 25,
+      "collegeId": 1,
+      "title": "Mathematics Teaching Strategies in the New Normal: It's Effect on Learner's Academic Performance",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Mary Grace F. Quijano, Noel R. Palomares, EdD",
+      "indices": "Mathematics",
+      "abstract": ""
+    },
+    {
+      "id": 26,
+      "collegeId": 1,
+      "title": "Factors Affecting the Academic Performance of the Bachelor of Secondary Education( (BSEd) Mathematics Students of Marinduque State College",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Maridenn M. Lazo, Noel R. Palomares, EdD",
+      "indices": "Mathematics",
+      "abstract": ""
+    },
+    {
+      "id": 27,
+      "collegeId": 1,
+      "title": "Difficulties Encountered in Applying Mathematical Procedures Among 9 and 10 Students",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Anna Veronica P. Quinto, Noel R. Palomares, EdD",
+      "indices": "Mathematics",
+      "abstract": ""
+    },
+    {
+      "id": 28,
+      "collegeId": 1,
+      "title": "Phytoremediation Potential of Plants Growing on Heavy Metals Zinc (Zn), Copper (Cu) and Manganese (Mn) Contaminated Soil in the Abandoned Consolidated Mining Incorporated (CMI) in Capayang-Ino, Mogpog, Marinduque",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "FIDELINO, John Cedric G., MANUBA, Kayecel L., MONTEAGUDO, Hannesy V., Mae Kristine C. Ogayre, LPT, MD",
+      "indices": "Science",
+      "abstract": ""
+    },
+    {
+      "id": 29,
+      "collegeId": 1,
+      "title": "Diversity and Distribution of Angiosperms in Mt. Malindig",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "CUARTEROS, Charish R., FATALLA, Sam David A., PERNIA, Marc Julius M., Gladys L. San Juan, LPT",
+      "indices": "Science",
+      "abstract": ""
+    },
+    {
+      "id": 30,
+      "collegeId": 1,
+      "title": "Status of Pteridophyte (Ferns) Species Diversity in Mt. Malindig",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "FRANK, Maria Socorro S., MAGPARANGALAN, Alma D., RETARDO, Lea Agnes P., Gladys L. San Juan, LPT",
+      "indices": "Science",
+      "abstract": ""
+    },
+    {
+      "id": 31,
+      "collegeId": 1,
+      "title": "Status of Butterfly Industry in Marinduque",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "ABALAIN, Kian S., CELIZ, Stephanie F., LUMALANG, Tricia Marie V., Maria Victoria M. Miciano, LPT, MAT",
+      "indices": "Science",
+      "abstract": ""
+    },
+    {
+      "id": 32,
+      "collegeId": 1,
+      "title": "Perceived Effects of Video Conferencing in Developing Competencies in Science Courses of BSEd Students",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "CRUZ, John Vincent S., FIDELINO, Rizza F., VALENZUELA, Joyvel R., Maria Victoria M. Miciano, LPT, MAT",
+      "indices": "Science",
+      "abstract": ""
+    },
+    {
+      "id": 33,
+      "collegeId": 1,
+      "title": "Practices of Butterfly Farmers and Breeders in Selected Barangays of Boac: Basis for Developing a Butterfly Farming Techno Guide",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "MOGOL, Jaira Mae, NOVENARIO, Danilo Jr. M., PERALTA, Jessa S., Gerald G. Gutierrez, LPT, DBA",
+      "indices": "Science",
+      "abstract": ""
+    },
+    {
+      "id": 34,
+      "collegeId": 1,
+      "title": "Product Acceptability of Preserved Butterflies for Commercialization",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "DOMINGUEZ, Sara Jane V., MATINING, Nerica Marie S., VILLAVICENCIO, Willa Mae M. Paredes, LPT, MAEd",
+      "indices": "Science",
+      "abstract": ""
+    },
+    {
+      "id": 35,
+      "collegeId": 1,
+      "title": "Secondary school Science Teachers' Level of Familiarity to Laboratory Equipment: Basis for a Proposed Intervention",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "GARCIA, Danel Ann R., PERFIÑAN, Adrian E., REY, Benedicto Jr. B.",
+      "indices": "Science",
+      "abstract": ""
+    },
+    {
+      "id": 36,
+      "collegeId": 1,
+      "title": "Resiliency of Idea leuconoe (Leucono) in Temperature Changes: Basis for a Proposed Project Proposal",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "MALITAO, Jomerose M., MANGANA, Ryan R., MOTOL, Jhean Marie R., Gerald G. Gutierrez, LPT, DBA",
+      "indices": "Science",
+      "abstract": ""
+    },
+    {
+      "id": 37,
+      "collegeId": 1,
+      "title": "The Butterfly Garden Design and Management Practices of Selected Butterfly Farmers in the Province of Marinduque",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "ALEJO, John Axil F., MANINGAS, Anne Louiela, MARCIANO, Arianne F., Gerald G. Gutierrez, LPT, DBA",
+      "indices": "Science",
+      "abstract": ""
+    },
+    {
+      "id": 38,
+      "collegeId": 1,
+      "title": "Assessing Employment Status and Career Outcomes: A Tracer Study of BSEd Physical Sciences Graduates of Marinduque State College Batch 2009 – 2014",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "PAR, Princess P., REANZARES, Roxane F., Noel R. Palomares, LPT, EdD",
+      "indices": "Science",
+      "abstract": ""
+    },
+    {
+      "id": 39,
+      "collegeId": 1,
+      "title": "Teachers' Level of Familiarity to Various Online and Offline Science Applications in Teaching Science Courses",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "DUMARAN, John David B., PATIÑO, Melanie P., Joshua Aaron M. Pagulayan, LPT, MA",
+      "indices": "Science",
+      "abstract": ""
+    },
+    {
+      "id": 40,
+      "collegeId": 1,
+      "title": "The Effects of Pop Culture Trends to the Professional Training of Pre-service Teachers at Marinduque State College",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Brendth J. Constantino, Zhyra Marie M. Penus, Ms. Alchona Wayne T. Maigting",
+      "indices": "Social Studies",
+      "abstract": ""
+    },
+    {
+      "id": 41,
+      "collegeId": 1,
+      "title": "Problems Encountered by the Pedicab Drivers During The Pandemic in the Municipality of Mogpog",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "John Michael Reyes, Clarence Ann M. Nagutom, Dr. Noel R. Palomares",
+      "indices": "Social Studies",
+      "abstract": ""
+    },
+    {
+      "id": 42,
+      "collegeId": 1,
+      "title": "Status of Implementation of the Economic Support and Loan Assistance Ventures Program Amidst Covid-19 Pandemic in the Selected Barangays of Municipality of Mogpog",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Majie Anne L. Mangao, Denchel M. Minga, Mr. Arnel M. Lantita",
+      "indices": "Social Studies",
+      "abstract": ""
+    },
+    {
+      "id": 43,
+      "collegeId": 1,
+      "title": "Documentation of Old Wedding Practices of Lowland Marinduque and Highland Marinduque",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Mary Joy J. Marang, Ronnie Lin P. Rullan, Joshua Aaron M. Pagulayan,LPT. MA",
+      "indices": "Social Studies",
+      "abstract": ""
+    },
+    {
+      "id": 44,
+      "collegeId": 1,
+      "title": "Influencing Factors for Teenage Pregnancy in Buenavista Marinduque: Basis for an Intervention Program",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Lovern P. Ferrer, Elaine F. Privado, Kyle David V. Atienza, LPT. MA",
+      "indices": "Social Studies",
+      "abstract": ""
+    },
+    {
+      "id": 45,
+      "collegeId": 1,
+      "title": "Frequency of Using Digital Learning Resources Related to the Academic Performance of Social Studies Students in Marinduque State College",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Arlene P. Calanog, Marjorie L. Pantoja, Ms. Marife M. Moreno",
+      "indices": "Social Studies",
+      "abstract": ""
+    },
+    {
+      "id": 46,
+      "collegeId": 1,
+      "title": "A Comparative Analysis of the Different Versions of Putong in the Municipality of Boac",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Ma. Dessirie G. Montiano, Evalyn M. Garing, Bernadette N. Del Prado, LPT. MAED",
+      "indices": "Social Studies",
+      "abstract": ""
+    },
+    {
+      "id": 47,
+      "collegeId": 1,
+      "title": "Level of Awareness of the Residents of the Municipality of Buenavista in the R.A 7658 Otherwise Known as the Child Labor Act of the Philippines",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Van Lexerd R. Fiegalan, Clarence F. Privado, Mr. Jimbert S. Cedeño",
+      "indices": "Social Studies",
+      "abstract": ""
+    },
+    {
+      "id": 48,
+      "collegeId": 1,
+      "title": "Assessing the Effects of African Swine Fever To Hog Raiser's Livelihood in Buenavista Marinduque",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Iveelyn L.Fellizar, Roderick J.Fernandez, Mr.Jerahmeel M.Laderas",
+      "indices": "Social Studies",
+      "abstract": ""
+    },
+    {
+      "id": 49,
+      "collegeId": 1,
+      "title": "Influence of Social Media in Decision Making: Presidential Election 2022",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Bianca May R. San Juan, Dr. Noel R. Palomares",
+      "indices": "Social Studies",
+      "abstract": ""
+    },
+    {
+      "id": 50,
+      "collegeId": 1,
+      "title": "Ang Pagkakatatag ng mga Barrio High School sa Bayan ng Gasan: Makasaysayang Dokumentasyon",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Cyrus M. Saliendres, Emerlyn L. Sigue, Mr. Jerahmeel M. Laderas",
+      "indices": "Social Studies",
+      "abstract": ""
+    },
+    {
+      "id": 51,
+      "collegeId": 1,
+      "title": "Parochial Churches of Boac: A Documention",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Monneca M. Marquez, Zarren Keithly M. Malarayap, Mr. Joshua Aaron M. Pagulayan",
+      "indices": "Social Studies",
+      "abstract": ""
+    },
+    {
+      "id": 52,
+      "collegeId": 1,
+      "title": "Influence of Parents to the Choice of Degree Program of their Children",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Joshua P. Quindoza, Dr. Leodegario M. Jalos",
+      "indices": "Social Studies",
+      "abstract": ""
+    },
+    {
+      "id": 53,
+      "collegeId": 1,
+      "title": "Challenges of Bachelor of Secondary Education Students under the care of a Guardian (Non-Parent)",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Florinna M. Casim, Dr. Leodegario M. Jalos",
+      "indices": "Social Studies",
+      "abstract": ""
+    },
+    {
+      "id": 54,
+      "collegeId": 1,
+      "title": "Academic Performance of Bachelor of Secondary Education (BSEd) Social Studies Freshmen Students in Science and Mathematics Subjects Under the Senior High School Curriculum",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Noreeze Angela H. Soleta, Dr. Leodegario M. Jalos",
+      "indices": "Social Studies",
+      "abstract": ""
+    },
+    {
+      "id": 55,
+      "collegeId": 1,
+      "title": "Sports and Recreational Activity Involvement of Bachelor of Secondary Education- Social Studies Students in Marinduque State College",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Jean Nica Delos Santos, Dr. Leodegario M. Jalos",
+      "indices": "Social Studies",
+      "abstract": ""
+    },
+    {
+      "id": 56,
+      "collegeId": 1,
+      "title": "Status of Bachelor of Secondary Education Working Students in Marinduque State College",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Gimalyn M. Miranda, Dr. Leodegario M. Jalos",
+      "indices": "Social Studies",
+      "abstract": ""
+    },
+    {
+      "id": 57,
+      "collegeId": 1,
+      "title": "Perception of Non- Members to the Pantawid Pamilyang Pilipino Program 4P's",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Katherine Molato, Dr. Leodegario M. Jalos",
+      "indices": "Social Studies",
+      "abstract": ""
+    },
+    {
+      "id": 58,
+      "collegeId": 1,
+      "title": "Community Involvement of Pantawid Pamilyang Pilipino Program (4Ps) Beneficiaries in Barangay Dili, Gasan, Marinduque",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Angel Joyce G. Evangelista, Dr. Leodegario M. Jalos",
+      "indices": "Social Studies",
+      "abstract": ""
+    },
+    {
+      "id": 59,
+      "collegeId": 1,
+      "title": "Work Experiences of the Bachelor of the Secondary Education-Social Studies Students Before Entering the College",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Clean S. Saez, Dr. Leodegario M. Jalos",
+      "indices": "Social Studies",
+      "abstract": ""
+    },
+    {
+      "id": 60,
+      "collegeId": 1,
+      "title": "Analysis of the Performance of Bachelor of Secondary Education Social Studies Freshmen Students in Marinduque State College Qualifying Examination",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Dave Q. Palermo, Dr. Leodegario M. Jalos",
+      "indices": "Social Studies",
+      "abstract": ""
+    },
+    {
+      "id": 61,
+      "collegeId": 1,
+      "title": "Academic Performance in Araling Panlipunan of Bachelor of Secondary Education (BSEd) Social Studies Freshmen Students in Their Junior High School Years",
+      "publicationYear": "2023",
+      "completionYear": "2023",
+      "authors": "Mariejoy D. Manuba, Dr. Leodegario M. Jalos",
+      "indices": "Social Studies",
+      "abstract": ""
+    },
+    {
+      "id": 62,
+      "collegeId": 1,
+      "title": "Exploring the Perceived Impact of 1-3-5 Rating Technique to the Language Proficiency and Confidence of the Graduates of Bachelor of elementary Education (BEED)",
+      "publicationYear": "2022",
+      "completionYear": "2022",
+      "authors": "Dr. Annalyn J. Decena",
+      "indices": "Language and Communication",
+      "abstract": ""
+    },
+    {
+      "id": 63,
+      "collegeId": 1,
+      "title": "Discovering the Local Marindukanon Recreational Games as Input for Learning Module in PE: Basis for Curriculum Enhancement",
+      "publicationYear": "2022",
+      "completionYear": "2022",
+      "authors": "Genil S. Labaguis",
+      "indices": "General Education",
+      "abstract": ""
+    },
+    {
+      "id": 64,
+      "collegeId": 1,
+      "title": "Inflectional Affixation of Marinduque Tagalog as Used by the Native Speakers in Eastern and Western Marinduque",
+      "publicationYear": "2022",
+      "completionYear": "2022",
+      "authors": "Pineda, Susan B. Ph. D.",
+      "indices": "Language",
+      "abstract": ""
+    },
+    {
+      "id": 65,
+      "collegeId": 1,
+      "title": "Gender, Age, and Domain in Relation to Language Use of the Native Speakers in West and East Marinduque",
+      "publicationYear": "2022",
+      "completionYear": "2022",
+      "authors": "Pineda, Susan B. Ph. D.",
+      "indices": "Language",
+      "abstract": ""
+    },
+    {
+      "id": 66,
+      "collegeId": 1,
+      "title": "HAMUSAPAN (Proficiency and Fluency in the Use of L2 Between Male and Female Employees in the Workplace: Basis for an Extension Program",
+      "publicationYear": "2022",
+      "completionYear": "2022",
+      "authors": "Pineda, Susan B. Ph. D.",
+      "indices": "Language",
+      "abstract": ""
+    },
+    {
+      "id": 67,
+      "collegeId": 1,
+      "title": "Mapping of Selected Social Practices as Intangible Cultural – Heritage in Marinduque",
+      "publicationYear": "2022",
+      "completionYear": "2022",
+      "authors": "Del Prado, Bernadette N.",
+      "indices": "Social Studies",
+      "abstract": ""
+    },
+    {
+      "id": 68,
+      "collegeId": 1,
+      "title": "A Narrative Inquiry of Youth Engagement in Environmental Stewardship nas Influenced by Social Actors",
+      "publicationYear": "2022",
+      "completionYear": "2022",
+      "authors": "Pagulayan, Joshua Aaron M.",
+      "indices": "Social Studies",
+      "abstract": ""
+    },
+    {
+      "id": 69,
+      "collegeId": 1,
+      "title": "Exploring the Marindukanon Recreational Games as Input for Learning Module in Physical Education",
+      "publicationYear": "2022",
+      "completionYear": "2022",
+      "authors": "Labaguis, Genil S.",
+      "indices": "MAPEH",
+      "abstract": ""
+    },
+    {
+      "id": 70,
+      "collegeId": 1,
+      "title": "Health Risks Due to Metal Concentrations in Soil and Vegetables from the Six Municipalities of the Island Province in the Philippines",
+      "publicationYear": "2022",
+      "completionYear": "2022",
+      "authors": "Ronnel C. Nolos, Christine Joy M. Agarin, Maria Ysabel R. Domino, Pauline B. Bonifacio, Eduardo B. Chan, Doreen R. Mascareñas, Delia B. Senoro",
+      "indices": "Science",
+      "abstract": ""
+    },
+    {
+      "id": 71,
+      "collegeId": 1,
+      "title": "Netizens' Strategies in Learning Vocabularies from the Context of Preferred Social Media Posts",
+      "publicationYear": "2022",
+      "completionYear": "2022",
+      "authors": "Annalyn J. Decena, Susan Ramilo-Butac",
+      "indices": "Language",
+      "abstract": ""
+    },
+    {
+      "id": 72,
+      "collegeId": 1,
+      "title": "Elicit, Explain, Evaluate: Module Writing Model",
+      "publicationYear": "2022",
+      "completionYear": "2022",
+      "authors": "Liza Marie M. Manoos",
+      "indices": "Mathematics",
+      "abstract": ""
+    },
+    {
+      "id": 73,
+      "collegeId": 1,
+      "title": "Spatial distribution of agricultural yields with elevated metal concentration of the island exposed to acid mine drainage",
+      "publicationYear": "2022",
+      "completionYear": "2022",
+      "authors": "Delia B. Senoro, Pauline B. Bonifacio, Doreen R. Mascareñas, Carlito B.Tabelin, Froilan P. Ney, Ma. Rowela L. Lamac, Fibor J. Tan",
+      "indices": "Science",
+      "abstract": ""
+    },
+    {
+      "id": 74,
+      "collegeId": 1,
+      "title": "Students Level of Familiarity to Various Online and Offline Mathematical Application as Learning Tool",
+      "publicationYear": "2022",
+      "completionYear": "2022",
+      "authors": "Lazarte, John Cornelius M., Rey, Aldrin R., Palomares Noel R. Ph.D.",
+      "indices": "Mathematics",
+      "abstract": ""
+    },
+    {
+      "id": 75,
+      "collegeId": 1,
+      "title": "Students Attributes Related to Mathematical Achievements in Problem Solving Among Senior High Students",
+      "publicationYear": "2022",
+      "completionYear": "2022",
+      "authors": "Limpiada, Rhea, Regencia, Amira Grace R., Manoos,Ph.D. Liza Marie M.",
+      "indices": "Mathematics",
+      "abstract": ""
+    },
+    {
+      "id": 76,
+      "collegeId": 1,
+      "title": "Predictors of Student's Academic Performance in Mathematics via Modular Distance Learning",
+      "publicationYear": "2022",
+      "completionYear": "2022",
+      "authors": "Labos, Paula Mae M., Manggol, Camille L., Decena Ph.D. Analyn J.",
+      "indices": "Mathematics",
+      "abstract": ""
+    },
+    {
+      "id": 77,
+      "collegeId": 1,
+      "title": "Contemporary Putong: Brass Ensemble Arrangement",
+      "publicationYear": "2022",
+      "completionYear": "2022",
+      "authors": "Manlangit, Clint Sean M., Janap, Maricon P.",
+      "indices": "Cultural Ed.",
+      "abstract": ""
+    },
+    {
+      "id": 78,
+      "collegeId": 1,
+      "title": "Familiarity of the Youths to Historical Landmarks in Marinduque",
+      "publicationYear": "2022",
+      "completionYear": "2022",
+      "authors": "Laylay, Abegail Joy L., Jalos Jr. Ed. D. Leodegario M.",
+      "indices": "Social Studies",
+      "abstract": ""
+    },
+    {
+      "id": 79,
+      "collegeId": 1,
+      "title": "Teaching and Learning with Technology: Assessment of E-learning Digital Tools in Teaching Science in the New Normal",
+      "publicationYear": "2022",
+      "completionYear": "2022",
+      "authors": "Logatoc, Princess Idahlia, S., Macayaon, Ramon DC.",
+      "indices": "Science",
+      "abstract": ""
+    },
+    {
+      "id": 80,
+      "collegeId": 1,
+      "title": "Correlation Between Achievement Goal Orientation and Motivated Learning Strategies of BTLEd students of Marinduque State College",
+      "publicationYear": "2022",
+      "completionYear": "2022",
+      "authors": "Clarivel M. Miranda",
+      "indices": "BTLED",
+      "abstract": ""
+    },
+    {
+      "id": 81,
+      "collegeId": 1,
+      "title": "Perception of 2nd Year Education Students on Social Interactions in Online Learning Environment",
+      "publicationYear": "2022",
+      "completionYear": "2022",
+      "authors": "Joshua Aaron M. Pagulayan",
+      "indices": "Social Studies",
+      "abstract": ""
+    },
+    {
+      "id": 82,
+      "collegeId": 1,
+      "title": "Employers' Feedback on the Performance of MSC SED Graduates",
+      "publicationYear": "2022",
+      "completionYear": "2022",
+      "authors": "Rizalina M. Fidelino, Raoul J. Magcamit, Arnel M. Lantita, Joshua Aaron M. Pagulayan, Bernadette N. Del Prado",
+      "indices": "Social Studies",
+      "abstract": ""
+    },
+    {
+      "id": 83,
+      "collegeId": 1,
+      "title": "Assessing Pre-Service Teachers' People Skills: Basis for Student Development Programs",
+      "publicationYear": "2022",
+      "completionYear": "2022",
+      "authors": "Willa Mae M. Paredes",
+      "indices": "Science",
+      "abstract": ""
+    },
+    {
+      "id": 84,
+      "collegeId": 1,
+      "title": "Pteridophyte Diversity in Marinduque Wildlife Sanctuary, Marinduque, Philippine",
+      "publicationYear": "2022",
+      "completionYear": "2022",
+      "authors": "Roche M. Zoleta",
+      "indices": "Science",
+      "abstract": ""
+    },
+    {
+      "id": 85,
+      "collegeId": 1,
+      "title": "Transition Metals in Freshwater Crustaceans, Tilapia, and Inland Water: Hazardous to the Population of the Small Island Province",
+      "publicationYear": "2021",
+      "completionYear": "2021",
+      "authors": "Christine Joy M. Agarin, Doreen R. Mascareñas, Ronnel Nolos, Eduardo Chan, Delia B. Senoro",
+      "indices": "Science",
+      "abstract": ""
+    },
+    {
+      "id": 86,
+      "collegeId": 1,
+      "title": "Unraveling the Local Folk Dances in Marinduque",
+      "publicationYear": "2021",
+      "completionYear": "2021",
+      "authors": "Dr. Rex Emmanuel L. Asuncion",
+      "indices": "Culture and Arts",
+      "abstract": ""
+    },
+    {
+      "id": 87,
+      "collegeId": 1,
+      "title": "Cultural Mapping in the Province of Marinduque, Philippines: Basis for Art Conservancy and Humanities Indigenization in Education",
+      "publicationYear": "2021",
+      "completionYear": "2021",
+      "authors": "Rex Emmanuel L. Asuncion",
+      "indices": "Culture and Arts",
+      "abstract": ""
+    },
+    {
+      "id": 88,
+      "collegeId": 1,
+      "title": "Unraveling The Local Folk Dances of Marinduque",
+      "publicationYear": "2021",
+      "completionYear": "2021",
+      "authors": "Rex Emmanuel L. Asuncion, Genil S. Labaguis",
+      "indices": "Culture and Arts",
+      "abstract": ""
+    },
+    {
+      "id": 89,
+      "collegeId": 1,
+      "title": "Netizens' Strategies in Learning Vocabularies from the Context of Preferred Social Media Posts",
+      "publicationYear": "2021",
+      "completionYear": "2021",
+      "authors": "Annalyn J. Decena, Susam Ramilo-Butac",
+      "indices": "Language and Communication",
+      "abstract": ""
+    },
+    {
+      "id": 90,
+      "collegeId": 1,
+      "title": "Elicit, Explain, Evaluate: Module Writing Model",
+      "publicationYear": "2021",
+      "completionYear": "2021",
+      "authors": "Liza Marie M. Manoos",
+      "indices": "Professional Education",
+      "abstract": ""
+    },
+    {
+      "id": 91,
+      "collegeId": 1,
+      "title": "Discovering Marindukanon Recreational Games as Input for Learning Module in Physical Education: Input for Curriculum Enhancement",
+      "publicationYear": "2021",
+      "completionYear": "2021",
+      "authors": "Genil S. Labaguis",
+      "indices": "Culture and Arts",
+      "abstract": ""
+    },
+    {
+      "id": 92,
+      "collegeId": 1,
+      "title": "Acquired Skills and the Competencies in Bread and Pastry Production of Grade 11 TVL Senior High School Students",
+      "publicationYear": "2021",
+      "completionYear": "2021",
+      "authors": "Frannie M. Rodil",
+      "indices": "Home Economics",
+      "abstract": ""
+    },
+    {
+      "id": 93,
+      "collegeId": 1,
+      "title": "Survey on the Reading Difficulties of K-12 Learners in Selected TagalogSpeaking Provinces: Basis for Intervention",
+      "publicationYear": "2021",
+      "completionYear": "2021",
+      "authors": "Annalyn J. Decena",
+      "indices": "Language",
+      "abstract": ""
+    },
+    {
+      "id": 94,
+      "collegeId": 1,
+      "title": "Performance of the Graduates of MSC Laboratory School (Preschool) as Perceived by their Parents and Teachers in the School they are Enrolled In.",
+      "publicationYear": "2021",
+      "completionYear": "2021",
+      "authors": "Fernandez, Charissa May R.",
+      "indices": "General Education",
+      "abstract": ""
+    },
+    {
+      "id": 95,
+      "collegeId": 1,
+      "title": "Taxonomies and Trends in Baccalaureate Researchers: A Documentary Analysis of BSEd Social Studies Theses from 2015 to 2019",
+      "publicationYear": "2021",
+      "completionYear": "2021",
+      "authors": "Pagulayan, Joshua Aaron M., Marinduque, Jairanie S.",
+      "indices": "Social Studies",
+      "abstract": ""
+    },
+    {
+      "id": 96,
+      "collegeId": 1,
+      "title": "A Tracer Study of the Marinduque State College BSEd Mathematics Graduates: Their Employability, Attributes and Competence",
+      "publicationYear": "2021",
+      "completionYear": "2021",
+      "authors": "Palomares, Noel R., Macayaon, Romalyn DC",
+      "indices": "Mathematics",
+      "abstract": ""
+    },
+    {
+      "id": 97,
+      "collegeId": 1,
+      "title": "Satisfaction Level of the College of Education, Arts and Social Sciences – Institute of Education Faculty re: Rank and Employment Status: A Basis for Faculty Development Programs",
+      "publicationYear": "2021",
+      "completionYear": "2021",
+      "authors": "Paredes, Willa Mae M.",
+      "indices": "Professional Education",
+      "abstract": ""
+    },
+    {
+      "id": 98,
+      "collegeId": 1,
+      "title": "Profile of Marinduque State College BSEd Social Studies Graduates from 2009 to 2019: A Tracer Study",
+      "publicationYear": "2021",
+      "completionYear": "2021",
+      "authors": "Pagulayan, Joshua Aaron M., Fidelino, Rizalina M., Del Prado, Bernadette N., Magcamit, Raoul J., Lantita, Arnel M.",
+      "indices": "Social Studies",
+      "abstract": ""
+    },
+    {
+      "id": 99,
+      "collegeId": 1,
+      "title": "Difficulty Encountered by Non-MAPHE Teachers in Teaching Schools in the Division of Marinduque",
+      "publicationYear": "2021",
+      "completionYear": "2021",
+      "authors": "Odias, Erika G., Balut, SharmaineB.",
+      "indices": "MAPEH",
+      "abstract": ""
+    },
+    {
+      "id": 100,
+      "collegeId": 1,
+      "title": "Learning Styles of Second Year Institute of Education (IEd) Students: A Survey",
+      "publicationYear": "2021",
+      "completionYear": "2021",
+      "authors": "Laylay, Alexandra Ysabel S, Fidelino, Rizalina M.",
+      "indices": "Professional Education",
+      "abstract": ""
+    },
+    {
+      "id": 101,
+      "collegeId": 1,
+      "title": "A Tracer Study of Bachelor of Secondary Education (BSED) Major in Physical Sciences Graduates of Marinduque State College School of Education (2015- 2019): An input to Curricular Development",
+      "publicationYear": "2021",
+      "completionYear": "2021",
+      "authors": "Willa Mae M. Paredes, Maria Victoria M. Miciano",
+      "indices": "Science",
+      "abstract": ""
+    },
+    {
+      "id": 102,
+      "collegeId": 1,
+      "title": "Subsistence of Arts and Cultural Heritage in the Island Province of Marinduque, Philippines: Education Challenges in the New Normal",
+      "publicationYear": "2021",
+      "completionYear": "2021",
+      "authors": "Rex Emmanuel L. Asuncion",
+      "indices": "Cultural Education",
+      "abstract": ""
+    },
+    {
+      "id": 103,
+      "collegeId": 1,
+      "title": "Home-schooling on a Crisis: Teachers' Parents' and Learners' Experiences During this COVID- 19 Pandemic",
+      "publicationYear": "2020",
+      "completionYear": "2020",
+      "authors": "Annalyn J. Decena",
+      "indices": "Professional Education",
+      "abstract": ""
+    },
+    {
+      "id": 104,
+      "collegeId": 1,
+      "title": "Survey on the Reading Difficulties of K12 Learners in Selected Tagalog-Speaking Provinces: Basis for Intervention",
+      "publicationYear": "2020",
+      "completionYear": "2020",
+      "authors": "Dr. Annalyn Jawili- Decena",
+      "indices": "Language and Communication",
+      "abstract": ""
+    },
+    {
+      "id": 105,
+      "collegeId": 1,
+      "title": "Transition Metals in Freshwater Crustaceans, Tilapia, and Inland Water: Hazardous to the Population of the Small Island Province",
+      "publicationYear": "2020",
+      "completionYear": "2020",
+      "authors": "Christine Joy M. Agarin, Doreen R. Mascareñas, Ronnel Nolos, Eduardo Chan, Delia B. Senoro",
+      "indices": "Science",
+      "abstract": ""
+    },
+    {
+      "id": 106,
+      "collegeId": 1,
+      "title": "Spatial distribution of agricultural yields with elevated metal concentration of the island exposed to acid mine drainage",
+      "publicationYear": "2020",
+      "completionYear": "2020",
+      "authors": "Delia B. Senoro, Pauline B. Bonifacio, Doreen R. Mascareñas, Carlito B.Tabelin, Froilan P. Ney, Ma. Rowela L. Lamac, Fibor J. Tan",
+      "indices": "Science",
+      "abstract": ""
     }
   ],
   "extensions": [
     {
       "id": 1,
       "collegeId": 1,
-      "title": { "en": "" },
-      "publicationYear": "",
-      "completionYear": "",
-      "authors": [],
-      "indices": [],
+      "title": {
+        "en": "Launching of the BP-TUROL for the 11 cooperating schools in Marinduque"
+      },
+      "publicationYear": "September 20, 2024",
+      "completionYear": "N/A",
+      "authors": ["N/A"],
+      "indices": ["N/A"],
+      "abstract": { "en": "" }
+    },
+    {
+      "id": 2,
+      "collegeId": 1,
+      "title": { "en": "Implementation of the BP-TUROL Program" },
+      "publicationYear": "January 22, 2025",
+      "completionYear": "N/A",
+      "authors": ["N/A"],
+      "indices": ["N/A"],
       "abstract": { "en": "" }
     }
   ],
@@ -1018,9 +3248,103 @@
     {
       "id": 1,
       "collegeId": 1,
-      "image": "",
-      "name": { "en": "" },
-      "career": { "en": "" }
+      "tracer": [
+        {
+          "graduates_summary": {
+            "total_graduates": 586,
+            "total_respondents": 534,
+            "response_rate": "90.8%",
+            "programs": {
+              "BSIT": {
+                "graduates": 431,
+                "respondents": 429
+              },
+              "BSIS": {
+                "graduates": 103,
+                "respondents": 103
+              }
+            }
+          },
+          "employment_rates": {
+            "overall": {
+              "BSIT": "80.0%",
+              "BSIS": "80.2%"
+            },
+            "by_graduation_year": {
+              "2018-2019": {
+                "BSIT": "90.4%",
+                "BSIS": "84.4%"
+              },
+              "2019-2020": {
+                "BSIT": "86.3%",
+                "BSIS": "64.7%"
+              },
+              "2021-2022": {
+                "BSIT": "82.1%",
+                "BSIS": "82.8%"
+              },
+              "2022-2023": {
+                "BSIT": "71.5%",
+                "BSIS": "76.0%"
+              }
+            }
+          },
+          "employment_characteristics": {
+            "job_status": {
+              "BSIT": {
+                "regular_permanent": "44%",
+                "contractual": "35%",
+                "temporary": "11%",
+                "self_employed": "6%",
+                "casual": "4%"
+              },
+              "BSIS": {
+                "regular_permanent": "40%",
+                "contractual": "37%",
+                "temporary": "12%",
+                "casual": "6%",
+                "self_employed": "5%"
+              }
+            },
+            "top_occupations": {
+              "BSIT": [
+                "Clerks (26%)",
+                "Technicians and Associate Professionals (18.7%)",
+                "Service, Shop, and Sales Workers (16.8%)"
+              ],
+              "BSIS": [
+                "Professionals (20%)",
+                "Service, Shop, and Sales Workers (20%)",
+                "Clerks (18.7%)"
+              ]
+            }
+          },
+          "curriculum_relevance": {
+            "BSIT": {
+              "relevant": "81.0%",
+              "not_relevant": "19.0%"
+            },
+            "BSIS": {
+              "relevant": "75.7%",
+              "not_relevant": "24.3%"
+            }
+          },
+          "industry_distribution": {
+            "top_industries": {
+              "BSIT": [
+                "Various IT Companies (24%)",
+                "Community/Social/Personal Services (15.5%)",
+                "Education (7.8%)"
+              ],
+              "BSIS": [
+                "Various IT Companies (23.2%)",
+                "Financial Services (14.3%)",
+                "Community/Social/Personal Services (12.5%)"
+              ]
+            }
+          }
+        }
+      ]
     }
   ],
   "alumniTestimonials": [
