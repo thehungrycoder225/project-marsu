@@ -3353,140 +3353,984 @@
     {
       "id": 1,
       "title": {
-        "en": "Last day of Dropping of Subjects",
-        "fil": "Huling araw ng Pag-drop ng mga Asignatura"
+          "en": "Request for Academic Program Evaluation of Candidates for Midyear (November 2025) and April 2026 Graduation; 10% Commencement Exercises",
+          "fil": "Paghingi ng Ebalwasyon ng Akademikong Programa para sa mga Kandidato sa Midyear (Nobyembre 2025) at Araw ng Pagtatapos sa Abril 2026; 10% ng Seremonya ng Pagtatapos"
       },
       "description": {
-        "en": "Students may drop subjects until this date.",
-        "fil": "Maaaring mag-drop ng asignatura ang mga estudyante hanggang sa petsang ito."
+          "en": "Evaluation of academic programs for candidates graduating in Midyear 2025 and April 2026 as part of commencement preparation.",
+          "fil": "Pagsusuri ng akademikong programa ng mga kandidato para sa pagtatapos sa Midyear 2025 at Abril 2026 bilang bahagi ng paghahanda sa seremonya ng pagtatapos."
       },
-      "date": "2025-09-13",
-      "day": { "en": "Friday", "fil": "Biyernes" },
-      "category": "academic",
-      "tags": ["academic", "deadline"],
+      "date": "2025-07-01 - 2025-07-11",
+      "day": { "en": "Monday to Friday", "fil": "Lunes hanggang Biyernes" },
+      "category": "graduation",
+      "tags": ["academic", "deadline","graduation"],
       "isFeatured": false,
       "isTrending": false
     },
     {
       "id": 2,
       "title": {
-        "en": "Start of Midterm Examination",
-        "fil": "Simula ng Midterm Examination"
+          "en": "Online Enrollment Period for JHS (Grade 7-10) and Incoming 1st Year College Students",
+          "fil": "Panahon ng Online Enrollment para sa Junior High School (Grade 7-10) at mga Papasok na Unang Taon na Estudyante sa Kolehiyo"
       },
       "description": {
-        "en": "Midterm exams begin for all colleges.",
-        "fil": "Magsisimula na ang midterm exams para sa lahat ng kolehiyo."
+          "en": "Online enrollment for Junior High School (Grades 7-10) and incoming first-year college students.",
+          "fil": "Online enrollment para sa Junior High School (Grade 7-10) at mga bagong pasok sa kolehiyo."
       },
-      "date": "2025-09-25",
-      "day": { "en": "Wednesday", "fil": "Miyerkules" },
-      "category": "examination",
-      "tags": ["exam", "midterm"],
-      "isFeatured": true,
-      "isTrending": true
+      "date": "2025-06-18 - 2025-07-11",
+      "day": { "en": "Monday to Friday", "fil": "Lunes hanggang Biyernes" },
+      "category": "enrollment",
+      "tags": ["academic", "enrollment"],
+      "isFeatured": false,
+      "isTrending": false
     },
     {
       "id": 3,
       "title": {
-        "en": "Health and Wellness Break",
-        "fil": "Pahinga para sa Kalusugan at Wellness"
+          "en": "Online enrollment for Old College Students (2nd Year - 4th Year), Transferees, Returning Students, 2nd Coursers, CTPE and Graduate (Masters and Doctorate) Students",
+          "fil": "Online enrollment para sa mga dating estudyante sa kolehiyo (Ika-2 hanggang Ika-4 na Taon), mga transferee, nagbabalik na estudyante, pangalawang kurso, CTPE, at mga mag-aaral sa antas gradwado (Masterado at Doktorado)."
       },
       "description": {
-        "en": "A day for health and wellness activities.",
-        "fil": "Isang araw para sa mga aktibidad ng kalusugan at wellness."
+          "en": "Online enrollment for returning college students, transferees, second coursers, CTPE, and graduate students.",
+          "fil": "Online enrollment para sa mga dating kolehiyo, transferee, nagbabalik na estudyante, kumukuha ng ikalawang kurso, CTPE, at mga mag-aaral sa graduate studies."
       },
-      "date": "2025-09-30",
-      "day": { "en": "Monday", "fil": "Lunes" },
-      "category": "wellness",
-      "tags": ["wellness", "break"],
+      "date": "2025-07-07 - 2025-07-25",
+      "day": { "en": "Monday to Friday", "fil": "Lunes hanggang Biyernes" },
+      "category": "enrollment",
+      "tags": ["academic", "enrollment"],
       "isFeatured": false,
-      "isTrending": true
+      "isTrending": false
     },
     {
       "id": 4,
       "title": {
-        "en": "Start of MAR-SU Olympics",
-        "fil": "Simula ng MAR-SU Olympics"
+          "en": "Filing of Letter Request for Special/Petition Class (SPC) / Evaluation Period",
+          "fil": "Pagsusumite ng Liham ng Kahilingan para sa Special o Petition Class (SPC) / Panahon ng Ebalwasyon"
       },
       "description": {
-        "en": "University-wide sports olympics opening.",
-        "fil": "Pagsisimula ng palarong pampalakasan ng unibersidad."
+          "en": "Filing of letter request for SPC or Petition Class and evaluation of related documents.",
+          "fil": "Pagsusumite ng liham ng kahilingan para sa SPC o Petition Class at pagsusuri ng mga kaugnay na dokumento."
       },
-      "date": "2025-10-14",
-      "day": { "en": "Monday", "fil": "Lunes" },
-      "category": "sports",
-      "tags": ["sports", "olympics"],
-      "isFeatured": true,
-      "isTrending": true
+      "date": "2025-07-14 - 2025-07-18 / 2025-07-21 - 2025-07-25",
+      "day": { "en": "Monday to Friday", "fil": "Lunes hanggang Biyernes" },
+      "category": "Special Class",
+      "tags": ["academic", "special class", "evaluation"],
+      "isFeatured": false,
+      "isTrending": false
     },
     {
       "id": 5,
       "title": {
-        "en": "Deadline of Admission for 2nd Semester Requirements",
-        "fil": "Deadline ng Admission para sa mga Kailangan sa 2nd Semester"
+          "en": "Submission of Requirements (hard copy) of New Students to ARO",
+          "fil": "Pagsusumite ng mga kinakailangang dokumento (hard copy) ng mga bagong estudyante sa ARO."
       },
       "description": {
-        "en": "Last day to submit admission requirements for 2nd semester.",
-        "fil": "Huling araw ng pagsusumite ng mga kailangan para sa 2nd semester."
+          "en": "Submission of hard copy documents of new students to the ARO.",
+          "fil": "Pagbibigay ng hard copy ng mga dokumento ng bagong estudyante sa ARO."
       },
-      "date": "2025-11-08",
-      "day": { "en": "Friday", "fil": "Biyernes" },
+      "date": "2025-07-28 - 2025-08-08",
+      "day": { "en": "Monday to Friday", "fil": "Lunes hanggang Biyernes" },
       "category": "admission",
-      "tags": ["admission", "deadline"],
+      "tags": ["academic", "deadline","submission"],
       "isFeatured": false,
       "isTrending": false
     },
     {
       "id": 6,
       "title": {
-        "en": "Opening of Online Admission for 2nd Semester Transferees",
-        "fil": "Pagbubukas ng Online Admission para sa mga Transferee ng 2nd Semester"
+          "en": "Filing of Application for Midyear (November) 2025 Graduation / 70th Commencement Exercises",
+          "fil": "Pagsusumite ng aplikasyon para sa Midyear (Nobyembre) 2025 Pagtatapos / ika-70 na Seremonya ng Pagtatapos."
       },
       "description": {
-        "en": "Online admission opens for transferees.",
-        "fil": "Bukas na ang online admission para sa mga transferee."
+          "en": "This process involves submitting an application to participate in the Midyear 2025 Graduation and the 70th Commencement Exercises, ensuring eligibility and preparation for the ceremony.",
+          "fil": "Ang prosesong ito ay kinapapalooban ng pagsusumite ng aplikasyon upang makilahok sa Midyear 2025 Pagtatapos at ika-70 na Seremonya ng Pagtatapos, upang matiyak ang karapatan at kahandaan para sa programa."
       },
-      "date": "2025-11-11",
-      "day": { "en": "Monday", "fil": "Lunes" },
-      "category": "admission",
-      "tags": ["admission", "online"],
+      "date": "2025-09-29 - 2025-10-10",
+      "day": { "en": "Monday to Friday", "fil": "Lunes hanggang Biyernes" },
+      "category": "graduation",
+      "tags": ["academic", "graduation"],
       "isFeatured": false,
       "isTrending": false
     },
     {
       "id": 7,
       "title": {
-        "en": "Start of Final Examination",
-        "fil": "Simula ng Final Examination"
+          "en": "First Day of Service of Faculty",
+          "fil": "Unang Araw ng Paglilingkod ng mga guro"
       },
       "description": {
-        "en": "Final exams begin for all students.",
-        "fil": "Magsisimula na ang final exams para sa lahat ng estudyante."
+          "en": "The first day when faculty members begin their duties for the academic year.",
+          "fil": "Ang unang araw kung kailan nagsisimula ang mga guro sa kanilang tungkulin para sa akademikong taon."
       },
-      "date": "2025-11-27",
+      "date": "2025-07-21",
       "day": { "en": "Monday", "fil": "Lunes" },
-      "category": "examination",
-      "tags": ["exam", "finals"],
-      "isFeatured": true,
-      "isTrending": true
+      "category": "academic",
+      "tags": ["service","faculty"],
+      "isFeatured": false,
+      "isTrending": false
     },
     {
       "id": 8,
       "title": {
-        "en": "Start of Christmas Break",
-        "fil": "Simula ng Christmas Break"
+          "en": "Faculty In-Service Training",
+          "fil": "Pagsasanay ng mga guro sa Serbisyo"
       },
       "description": {
-        "en": "Christmas break officially starts.",
-        "fil": "Opisyal nang nagsimula ang Christmas break."
+          "en": "A training program designed for faculty members to enhance their knowledge, skills, and professional development.",
+          "fil": "Isang programa ng pagsasanay na inilaan para sa mga guro upang mapahusay ang kanilang kaalaman, kasanayan, at propesyonal na pag-unlad."
       },
-      "date": "2025-12-01",
-      "day": { "en": "Monday", "fil": "Lunes" },
-      "category": "holiday",
-      "tags": ["holiday", "christmas"],
+      "date": "2025-07-21 - 2025-07-25",
+      "day": { "en": "Monday to Friday", "fil": "Lunes hanggang Biyernes" },
+      "category": "Training",
+      "tags": ["training", "faculty"],
       "isFeatured": false,
-      "isTrending": true
+      "isTrending": false
+    },
+    {
+      "id": 9,
+      "title": {
+          "en": "First Day of Regular Classes and F2F Student Orientation",
+          "fil": "Unang Araw ng Regular na Klase at F2F na Pagsasanay para sa mga Estudyante"
+      },
+      "description": {
+          "en": "A day marking the start of regular classes alongside face-to-face orientation for students to guide them on policies, programs, and expectations for the academic year.",
+          "fil": "Isang araw ng pagsisimula ng mga regular na klase kasabay ng harapang oryentasyon para sa mga estudyante upang gabayan sila sa mga patakaran, programa, at mga inaasahan sa akademikong taon."
+      },
+      "date": "2025-07-28",
+      "day": { "en": "Monday", "fil": "Lunes" },
+      "category": "academic",
+      "tags": ["academic", "classes", "orientation"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 10,
+      "title": {
+          "en": "Last day of Adding/Changing of Subjects",
+          "fil": "Huling Araw ng Pagdaragdag/Pagbabago ng mga Paksa"
+      },
+      "description": {
+          "en": "The last day for students to add or change their subjects for the current semester.",
+          "fil": "Ang huling araw para sa mga estudyante na magdagdag o magpalit ng kanilang mga asignatura para sa kasalukuyang semestre."
+      },
+      "date": "2025-08-01",
+      "day": { "en": "Friday", "fil": "Biyernes" },
+      "category": "Subjects",
+      "tags": ["academic", "deadline", "subjects"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 11,
+      "title": {
+          "en": "Last Day of Dropping of Subjects",
+          "fil": "Huling Araw ng Pag-drop ng mga Asignatura"
+      },
+      "description": {
+          "en": "The last day for students to drop or withdraw from their subjects for the current semester.",
+          "fil": "Ang huling araw para sa mga estudyante na mag-drop o mag-withdraw ng kanilang mga asignatura sa kasalukuyang semestre"
+      },
+      "date": "2025-09-15",
+      "day": { "en": "Monday", "fil": "Lunes" },
+      "category": "Subjects",
+      "tags": ["academic", "deadline", "dropping", "subjects"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 12,
+      "title": {
+          "en": "Last Day of Settlement of Admission Requirements of New Students enrolled during the 1st Semester AY 2025-2026",
+          "fil": "Huling Araw ng Pagsasaayos ng mga Kinakailangang Dokumento ng mga Bagong Estudyanteng Nag-enroll sa Unang Semestre ng TA 2025-2026."
+      },
+      "description": {
+          "en": "The last day for new students to submit and have their admission requirements processed for enrollment in the first semester of the academic year 2025-2026.",
+          "fil": "Ang huling araw para maisumite at maproseso ng mga bagong estudyante ang kanilang mga kinakailangang dokumento para sa enrollment sa unang semestre ng taong akademiko 2025-2026."
+      },
+      "date": "2025-09-15 - 2025-079-19",
+      "day": { "en": "Monday to Friday", "fil": "Lunes hanggang Biyernes" },
+      "category": "admission",
+      "tags": ["academic", "deadline", "admission", "requirements"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id":13,
+      "title": {
+          "en": "Midterm Examinations",
+          "fil": "Pagsusulit sa Kalagitnaan ng Termino"
+      },
+      "description": {
+          "en": "An exam conducted midway through the semester to assess students’ knowledge and progress on the topics covered.",
+          "fil": "Isang pagsusulit na isinasagawa sa kalagitnaan ng semestre upang masukat ang kaalaman at pag-unlad ng mga estudyante sa mga napag-aralang aralin."
+      },
+      "date": "2025-09-25 - 2025-09-27",
+      "day": { "en": "Monday to Wednesday", "fil": "Lunes hanggang Miyerkules" },
+      "category": "Examination",
+      "tags": ["academic", "examination", "midterm"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 14,
+      "title": {
+          "en": "Submission of Final Manuscript (Thesis/Dissertation) of Candidates for Midyear (November) 2025 Graduation",
+          "fil": "Pagsusumite ng Pinal na Manuskripto (Thesis/Dissertation) ng mga Kandidato para sa Midyear (Nobyembre) 2025 Pagtatapos."
+      },
+      "description": {
+          "en": "The process of submitting the final copy of the thesis or dissertation by candidates for the Midyear (November) 2025 Graduation as part of their graduation requirements.",
+          "fil": "Ang proseso ng pagsusumite ng pinal na kopya ng thesis o dissertation ng mga estudyanteng kandidato para sa Midyear (Nobyembre) 2025 Pagtatapos bilang bahagi ng kanilang mga graduation requirements."
+      },
+      "date": "2025-11-17",
+      "day": { "en": "Monday", "fil": "Lunes" },
+      "category": "graduation",
+      "tags": ["academic", "graduation", "thesis"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 15,
+      "title": {
+          "en": "Final Examinations",
+          "fil": "Pangwakas na Pagsusulit"
+      },
+      "description": {
+          "en": "An examination conducted at the end of the semester to assess the students' overall knowledge and understanding of all topics covered.",
+          "fil": "Isang pagsusulit na isinasagawa sa pagtatapos ng semestre upang sukatin ang kabuuang kaalaman at pag-unawa ng mga estudyante sa lahat ng paksang tinalakay."
+      },
+      "date": "2025-11-27 - 2025-11-29",
+      "day": { "en": "Thursday to Saturday", "fil": "Huwebes hanggang Sabado" },
+      "category": "Examination",
+      "tags": ["academic", "examination", "finals"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 16,
+      "title": {
+          "en": "End of 1st Semester AY 2025-2026 and Last Day of Completion of Incomplete (INC.) Rating obtained during the 1st Semester AY 2024-2025 (for the subjects without advanced subjects)",
+          "fil": "Pagtatapos ng Unang Semestre ng AY 2025-2026 at Huling Araw ng Pagtatapos ng Incomplete (INC.) na Marka na nakuha noong Unang Semestre ng AY 2024-2025 (para sa mga asignaturang walang kasunod na advanced na asignatura)."
+      },
+      "description": {
+          "en": "The end of the 1st semester of AY 2025-2026 and the final deadline for students to complete their Incomplete (INC.) grades obtained during the 1st semester of AY 2024-2025, applicable only to subjects without advanced courses.",
+          "fil": "Ang araw ng pagtatapos ng unang semestre ng AY 2025-2026 at ang itinakdang huling araw para sa mga estudyante na makumpleto ang kanilang Incomplete (INC.) na marka mula sa unang semestre ng AY 2024-2025, para lamang sa mga asignaturang walang kasunod na advanced na kurso."
+      },
+      "date": "2025-11-08",
+      "day": { "en": "Saturday", "fil": "Sabado" },
+      "category": "academic",
+      "tags": ["academic", "incomplete", "deadline", "semester"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 17,
+      "title": {
+          "en": "Semestral Break",
+          "fil": "Pansamantalang Bakasyon sa Pagitan ng mga Semestre"
+      },
+      "description": {
+          "en": "A break period for students and faculty after the end of a semester and before the start of the next one.",
+          "fil": "Isang panahon ng pahinga para sa mga estudyante at guro matapos ang pagtatapos ng semestre bago magsimula ang susunod na semestre."
+      },
+      "date": "2025-12-01 - 2025-12-14",
+      "day": { "en": "Monday to Friday", "fil": "Lunes hanggang Biyernes" },
+      "category": "Semester Break",
+      "tags": ["academic", "semester"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 18,
+      "title": {
+          "en": "Online Admissiion of Transferees, Returning and Graduate Students for 2nd Semester AY 2025-2026",
+          "fil": "Online Admission ng mga Transferee, Nagbabalik na Estudyante at mga Mag-aaral sa Antas Gradwado para sa Ikalawang Semestre ng AY 2025-2026"
+
+      },
+      "description": {
+          "en": "An online application and admission process for transferees, returning students, and graduate-level students for the second semester of Academic Year 2025-2026.",
+          "fil": "Isang online na proseso ng aplikasyon at pagtanggap para sa mga transferee, nagbabalik na estudyante, at mga mag-aaral sa antas gradwado para sa ikalawang semestre ng taong akademiko 2025-2026."
+      },
+      "date": "2025-12-01 - 2025-012-05",
+      "day": { "en": "Monday to Friday", "fil": "Lunes hanggang Biyernes" },
+      "category": "enrollment",
+      "tags": ["academic", "admission", "transferees", "graduate"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 19,
+      "title": {
+          "en": "Last Day of Online Posting of Grades of Faculty",
+          "fil": "Huling Araw ng Online na Paglalathala ng mga Grado ng mga Guro"
+      },
+      "description": {
+          "en": "The final deadline for faculty to post students' official grades in the online system for the current semester.",
+          "fil": "Ang itinakdang huling araw para sa mga guro na mag-post ng mga opisyal na grado ng mga estudyante sa online system para sa kasalukuyang semestre."
+      },
+      "date": "2025-12-07",
+      "day": { "en": "Sunday", "fil": "Linggo" },
+      "category": "Grades",
+      "tags": ["academic", "deadline", "grades", "faculty"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 20,
+      "title": {
+          "en": "Submission of Official Grading Sheets(Hard Copies) to ARO",
+          "fil": "Pagsusumite ng Opisyal na mga Sheet ng Pagmamarka (Hard Copies) sa ARO"
+      },
+      "description": {
+          "en": "The process of submitting the printed official grading sheets by faculty to the Academic Records Office (ARO) as part of the documentation of students' grades.",
+          "fil": "Ang proseso ng pagsumite ng naka-print na opisyal na grading sheets ng mga guro sa Academic Records Office (ARO) bilang bahagi ng dokumentasyon ng mga grado ng estudyante."
+      },
+      "date": "2025-12-09",
+      "day": { "en": "Tuesday", "fil": "Martes" },
+      "category": "grades",
+      "tags": ["academic", "deadline", "grading"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 21,
+      "title": {
+          "en": "Deliberation of Final List of Candidates for Midyear / November 2025 Graduation / 70th Commencement Exercises by Department/College/Graduate School",
+          "fil": "Pagpapasya sa Pinal na Listahan ng mga Kandidato para sa Midyear / Nobyembre 2025 Pagtatapos / ika-70 na Seremonya ng Pagtatapos ng Kagawaran/Kolehiyo/Graduate School"
+      },
+      "description": {
+          "en": "A thorough review and approval process by each department, college, or graduate school of the final list of student candidates for the Midyear / November 2025 Graduation and the 70th Commencement Exercises.",
+          "fil": "Isang proseso ng masusing pagsusuri at pag-apruba ng bawat departamento, kolehiyo, o graduate school sa pinal na listahan ng mga estudyanteng kandidato para sa pagtatapos sa Midyear / Nobyembre 2025 at sa ika-70 na Seremonya ng Pagtatapos."
+      },
+      "date": "2025-12-11",
+      "day": { "en": "Thursday", "fil": "Huwebes" },
+      "category": "graduation",
+      "tags": ["academic", "graduation"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 22,
+      "title": {
+          "en": "Presentation of Final List of Candidates for Midyear / November 2025 Graduation / 70th Commencement Exercises before the Academic Council",
+          "fil": "Pagtatanghal ng Pinal na Listahan ng mga Kandidato para sa Midyear / Nobyembre 2025 Pagtatapos / ika-70 na Seremonya ng Pagtatapos sa harap ng Academic Council"
+      },
+      "description": {
+          "en": "Isang pormal na presentasyon ng pinal na listahan ng mga estudyanteng kandidato para sa pagtatapos sa Midyear / Nobyembre 2025 at sa ika-70 na Seremonya ng Pagtatapos, na isinasagawa sa harap ng Academic Council para sa pagsusuri at pinal na pag-apruba.",
+          "fil": "A formal presentation of the final list of student candidates for the Midyear / November 2025 Graduation and the 70th Commencement Exercises before the Academic Council for review and final approval."
+      },
+      "date": "4th Quarter 2025",
+      "day": { "en": "Monday to Friday", "fil": "Lunes hanggang Biyernes" },
+      "category": "academic",
+      "tags": ["academic", "graduation"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 23,
+      "title": {
+          "en": "Midyear (November) 2025 Graduation / 70th Commencement Exercises",
+          "fil": "Pagtatapos sa Midyear (Nobyembre) 2025 / ika-70 na Seremonya ng Pagtatapos"
+      },
+      "description": {
+          "en": "A formal graduation ceremony held during Midyear (November) to confer diplomas and recognize students who have successfully completed their academic programs for Academic Year 2025-2026.",
+          "fil": "Isang pormal na seremonya ng pagtatapos na ginaganap tuwing Midyear (Nobyembre) upang igawad ang mga diploma at pagkilala sa mga estudyanteng matagumpay na nakatapos ng kanilang mga kurso sa ilalim ng taong akademiko 2025-2026."
+      },
+      "date": "2025-12-17",
+      "day": { "en": "Wednesday", "fil": "Miyerkules" },
+      "category": "graduation",
+      "tags": ["academic", "graduation"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 24,
+      "title": {
+        "en": "Online Enrollment Period for College Students (old and new)",
+        "fil": "Panahon ng Pagpapatala Online para sa mga Mag-aaral sa Kolehiyo (Balik-Mag-aaral at Bagong Mag-aaral)"
+      },
+      "description": {
+        "en": "Enrollment period for both new and returning college students.",
+        "fil": "Panahon ng pagpapatala para sa mga bagong mag-aaral at mga nagbabalik na mag-aaral sa kolehiyo."
+      },
+      "date": "2025-12-9",
+      "day": { "en": "Tuesday", "fil": "Martes" },
+      "category": "enrollment",
+      "tags": ["academic", "enrollment", "second semester"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 25,
+      "title": {
+          "en": "Filling of Letter Request for Special/Petition Class (SPC)/Evaluation Period",
+          "fil": "Pagsusumite ng Sulat para sa Special/Petition Class (SPC) / Panahon ng Ebalwasyon"
+      },
+      "description": {
+          "en": "Students may file SPC letters and undergo evaluation during this period.",
+          "fil": "Maaaring magsumite ng liham para sa SPC at sumailalim sa ebalwasyon ang mga estudyante sa panahong ito."
+      },
+      "date": "2025-12-09 to 2025-12-12",
+      "day": { "en": "Tuesday to Friday", "fil": "Martes hanggang Biyernes" },
+      "category": "enrollment",
+      "tags": ["enrollment", "midyear", "special class", "evaluation"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 26,
+      "title": {
+          "en": "First Day of Service of Faculty / First Day of Regular Classes",
+          "fil": "Unang Araw ng Serbisyo ng mga Guro / Unang Araw ng Regular na Klase"
+      },
+      "description": {
+          "en": "Start of faculty duties and beginning of regular classes for 2nd semester AY 2025–2026.",
+          "fil": "Pagbabalik serbisyo ng mga guro at pagsisimula ng regular na klase para sa 2nd Semester, AY 2025–2026."
+      },
+      "date": "2025-12-15",
+      "day": { "en": "Monday", "fil": "Lunes" },
+      "category": "academic",
+      "tags": ["academic", "classes", "faculty"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 27,
+      "title": {
+          "en": "Last Day of Adding/Changing of Subjects",
+          "fil": "Huling Araw ng Pagdaragdag/Pagpapalit ng Asignatura"
+      },
+      "description": {
+          "en": "Final day to add or change subjects for the 2nd semester.",
+          "fil": "Huling araw ng pagdaragdag o pagpapalit ng mga asignatura para sa ikalawang semestre."
+      },
+      "date": "2025-12-19",
+      "day": { "en": "Friday", "fil": "Biyernes" },
+      "category": "academic",
+      "tags": ["academic", "enrollment", "subjects"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 28,
+      "title": {
+          "en": "2nd Semester AY 2025-2026",
+          "fil": "Ikalawang Semestre AY 2025-2026"
+      },
+      "description": {
+          "en": "Official class period for the 2nd semester of AY 2025–2026.",
+          "fil": "Opisyal na panahon ng klase para sa ikalawang semestre ng AY 2025–2026."
+      },
+      "date": "2025-12-15 to 2026-04-25",
+      "day": { "en": "Monday to Saturday", "fil": "Lunes hanggang Sabado" },
+      "category": "academic",
+      "tags": ["academic", "semester", "classes"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 29,
+      "title": {
+          "en": "Last Day of Dropping of Subjects",
+          "fil": "Huling Araw ng Pag-drop ng Asignatura"
+      },
+      "description": {
+          "en": "Deadline for students to drop subjects.",
+          "fil": "Huling araw ng pag-drop ng asignatura ng mga estudyante."
+      },
+      "date": "2026-02-09",
+      "day": { "en": "Monday", "fil": "Lunes" },
+      "category": "academic",
+      "tags": ["academic", "deadline", "subjects"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 30,
+      "title": {
+          "en": "Last Day of Settlement of Admission Requirements for New Students (2nd Semester)",
+          "fil": "Huling Araw ng Pagsumite ng Admission Requirements ng mga Bagong Mag-aaral (Ika-2 Semestre)"
+      },
+      "description": {
+          "en": "Final day for new students to submit admission requirements for the 2nd semester.",
+          "fil": "Huling araw ng pagsusumite ng admission requirements para sa mga bagong estudyante sa ikalawang semestre."
+      },
+      "date": "2026-02-09 to 2026-02-13",
+      "day": { "en": "Monday to Friday", "fil": "Lunes hanggang Biyernes" },
+      "category": "admission",
+      "tags": ["admission", "academic", "deadline"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 31,
+      "title": {
+          "en": "Midterm Examination",
+          "fil": "Pagsusulit sa Midterm"
+      },
+      "description": {
+          "en": "Midterm examinations for all enrolled students.",
+          "fil": "Pagsusulit sa Midterm para sa lahat ng naka-enroll na mga estudyante."
+      },
+      "date": "2026-02-19 to 2026-02-21",
+      "day": { "en": "Thursday to Saturday", "fil": "Huwebes hanggang Sabado" },
+      "category": "academic",
+      "tags": ["academic", "examination", "midterm"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 32,
+      "title": {
+          "en": "Filing of Application for April 2026 Graduation / 70th Commencement Exercises",
+          "fil": "Pagsusumite ng Aplikasyon para sa Pagtatapos sa Abril 2026 / ika-70 Pagtatapos"
+      },
+      "description": {
+          "en": "Deadline for filing graduation applications for April 2026 commencement exercises.",
+          "fil": "Huling petsa para sa pagsusumite ng aplikasyon sa graduation para sa pagtatapos sa Abril 2026."
+      },
+      "date": "2026-02-23 to 2026-03-06",
+      "day": {
+          "en": "Monday to Friday",
+          "fil": "Lunes hanggang Biyernes"
+      },
+      "category": "academic",
+      "tags": ["academic", "graduation", "application", "commencement"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 33,
+      "title": {
+          "en": "Presentation of Final List of Candidates for April 2026 Graduation / 70th Commencement Exercises before the Academic Council",
+          "fil": "Presentasyon ng Huling Listahan ng mga Magsisipagtapos sa Abril 2026 / Ika-70 na Pagtatapos sa Academic Council"
+      },
+      "description": {
+          "en": "Presentation of the final list of graduation candidates to the University's Academic Council.",
+          "fil": "Pagpapakita ng huling listahan ng mga magsisipagtapos sa Academic Council ng Unibersidad."
+      },
+      "date": "2026-02",
+      "day": {
+          "en": "2nd Quarter 2026",
+          "fil": "Ikalawang Markahan ng 2026"
+      },
+      "category": "academic",
+      "tags": ["academic", "graduation", "academic-council", "candidates"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 34,
+      "title": {
+          "en": "Final Examination",
+          "fil": "Huling Pagsusulit"
+      },
+      "description": {
+          "en": "Final examinations for the 2nd semester for all enrolled students.",
+          "fil": "Huling pagsusulit sa ikalawang semestre para sa lahat ng naka-enroll na mga estudyante."
+      },
+      "date": "2026-04-23 to 2026-04-25",
+      "day": {
+          "en": "Thursday to Saturday",
+          "fil": "Huwebes hanggang Sabado"
+      },
+      "category": "academic",
+      "tags": ["academic", "examination", "final"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 35,
+      "title": {
+          "en": "Deliberation of Final List of Candidates for May 2026 Graduation / 70th Commencement Exercises by Department/College",
+          "fil": "Pagpupulong para sa Huling Listahan ng mga Magsisispagtapos sa Mayo 2026 / Ikaw-70 Pagtatapos ng bawat Departamento/Kolehiyo."
+      },
+      "description": {
+          "en": "University's department/college deliberation on final graduation candidates list.",
+          "fil": "Pagpupulong ng mga departamento/kolehiyo ng unibersidad sa huling listahan ng mga magsisipagtapos."
+      },
+      "date": "2026-05-13",
+      "day": {
+          "en": "Wednesday",
+          "fil": "Miyerkules"
+      },
+      "category": "academic",
+      "tags": ["academic", "graduation", "deliberation"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 36,
+      "title": {
+          "en": "Deliberation of Final List of Graduating Students by the Committee on Students' Records",
+          "fil": "Pagpupulong ng Committee sa Students' Records sa Huling Listahan ng mga Magsisipagtapos"
+      },
+      "description": {
+          "en": "Committee deliberation on the final list of graduating students.",
+          "fil": "Pagpupulong ng komite sa huling listahan ng mga magsisipagtapos."
+      },
+      "date": "2026-05-14",
+      "day": {
+          "en": "Thursday",
+          "fil": "Huwebes"
+      },
+      "category": "academic",
+      "tags": ["academic", "graduation", "committee", "students-records"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 37,
+      "title": {
+          "en": "End of 2nd Semester AY 2025-2026 and Last Day of Completion of Incomplete (INC.) Rating",
+          "fil": "Huling Araw ng 2nd Semester, AY 2025-2026 at Pagkumpleto ng Incomplete (INC.) Rating"
+      },
+      "description": {
+          "en": "End of second semester and deadline for completing incomplete ratings from previous semester.",
+          "fil": "Pagtatapos ng ikalawang semestre at huling araw para sa pagkumpleto ng mga incomplete rating mula sa nagdaang semestre."
+      },
+      "date": "2026-04-24",
+      "day": {
+          "en": "Friday",
+          "fil": "Biyernes"
+      },
+      "category": "academic",
+      "tags": ["academic", "semester-end", "incomplete-rating", "deadline"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 38,
+      "title": {
+          "en": "Submission of Final Manuscript (Thesis/Dissertation) of Candidates for April 2026 Graduation",
+          "fil": "Pagsusumite ng Pinal na Manuscript (Thesis/Dissertation) ng mga Magsisipagtapos sa Abril 2026"
+      },
+      "description": {
+          "en": "Deadline for submitting final thesis or dissertation manuscripts for April graduation 2026.",
+          "fil": "Huling petsa para sa pagsusumite ng pinal na thesis o dissertation manuscript para sa graduation sa Abril 2026."
+      },
+      "date": "2026-04-28",
+      "day": {
+          "en": "Tuesday",
+          "fil": "Martes"
+      },
+      "category": "academic",
+      "tags": [
+          "academic",
+          "thesis",
+          "dissertation",
+          "manuscript",
+          "graduation"
+      ],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 39,
+      "title": {
+          "en": "Last Day of Online Posting of Grades by Faculty Members / Submission of Official Grading Sheets for Graduating and Non-Graduating Students/Last Day of Service of Faculty",
+          "fil": "Huling Araw ng Pag-post Online ng mga Grado ng mga Faculty Members / Pagsusumite ng Official Grading Sheets para sa mga graduating at non-graduating na mga Estudyante/Huling Araw ng Serbisyo ng Faculty"
+      },
+      "description": {
+          "en": "Final deadline for faculty to submit grades online and official grading sheets.",
+          "fil": "Huling araw para sa mga faculty ng pagsusumite ng mga grado online at opisyal na talaang ng marka"
+      },
+      "date": "2026-05-10",
+      "day": {
+          "en": "Sunday",
+          "fil": "Linggo"
+      },
+      "category": "academic",
+      "tags": ["academic", "grades", "faculty", "grading-sheets", "deadline"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 40,
+      "title": {
+          "en": "Submission of Official Grading Sheets (hardcopies) to ARO",
+          "fil": "Pagsusumite ng Official Grading Sheets (nakalimbag na kopya) sa ARO"
+      },
+      "description": {
+          "en": "Submission of physical copies of official grading sheets to the Academic Records Office.",
+          "fil": "Pagsusumite ng mga nakalimbag na kopya ng mga opisyal na talaan ng marka sa Tanggapan ng Mga Akademikong Rekord."
+      },
+      "date": "2026-05-11",
+      "day": {
+          "en": "Monday",
+          "fil": "Lunes"
+      },
+      "category": "academic",
+      "tags": ["academic", "grading-sheets", "ARO", "hardcopy", "submission"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 41,
+      "title": {
+          "en": "April 2026 Graduation / 70th Commencement Exercises",
+          "fil": "Pagtatapos sa Abril 2026 / Ika-70 na Pagtatapos"
+      },
+      "description": {
+          "en": "Graduation ceremony and 70th commencement exercises.",
+          "fil": "Seremonya ng mga Magsisipagtapos at Ika-70 Pagtatapos."
+      },
+      "date": "2026-05-28",
+      "day": {
+          "en": "Thursday",
+          "fil": "Huwebes"
+      },
+      "category": "academic",
+      "tags": ["academic", "graduation", "commencement", "ceremony"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 42,
+      "title": {
+          "en": "Filing of Request for SPCs / Evaluation of SPCs",
+          "fil": "Pagsusumite ng Request para sa SPCs o Ebalwasyon ng SPCs"
+      },
+      "description": {
+          "en": "Period for filing requests and evaluation of Subject/Course Permits (SPCs).",
+          "fil": "Panahon para sa pagsusumite ng mga request at ebalwasyon ng mga Subject/Course Permits (SPCs)."
+      },
+      "date": "2026-05-13 to 2026-05-15",
+      "day": {
+          "en": "Wednesday to Friday",
+          "fil": "Miyerkules hanggang Biyernes"
+      },
+      "category": "academic",
+      "tags": ["academic", "SPC", "evaluation", "permits"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 43,
+      "title": {
+          "en": "Online Admission of Transferees, Returning and Graduate Students for MidyearTerm 2026",
+          "fil": "Online na Pagtatala ng mga Transferees, Returning at Graduate Students para sa MidyearTerm 2026"
+      },
+      "description": {
+          "en": "Online admission period for transferee, returning, and graduate students for midyear term.",
+          "fil": "Panahon ng online na pagtatala para sa mga transferee, returning, at graduate students para sa midyear term."
+      },
+      "date": "2026-05-12 to 2026-05-13",
+      "day": {
+          "en": "Tuesday to Wednesday",
+          "fil": "Martes hanggang Miyerkules"
+      },
+      "category": "admission",
+      "tags": [
+          "academic",
+          "admission",
+          "online",
+          "transferees",
+          "graduate",
+          "midyear"
+      ],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 44,
+      "title": {
+          "en": "Online Regular Enrollment Period",
+          "fil": "Panahon ng Regular na Online na Pagpapatala"
+      },
+      "description": {
+          "en": "Regular online enrollment period for the upcoming term.",
+          "fil": "Panahon ng regular na online na pagpapatala para sa darating na termino."
+      },
+      "date": "2026-05-14 to 2026-05-15",
+      "day": {
+          "en": "Thursday to Friday",
+          "fil": "Huwebes hanggang Biyernes"
+      },
+      "category": "enrollment",
+      "tags": ["academic", "enrollment", "online", "regular"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 45,
+      "title": {
+          "en": "Last Day of Adding/Changing of Subjects",
+          "fil": "Huling Araw ng Pagdagdag/Pagbabago ng mga Asignatura"
+      },
+      "description": {
+          "en": "Final deadline for adding or changing subjects for undergraduate and graduate students.",
+          "fil": "Huling araw para sa pagdagdag o pagbabago ng mga asignatura para sa mga undergraduate at graduate na estudyante."
+      },
+      "date": "2026-05-22 and 2026-05-29",
+      "day": {
+          "en": "Friday (UGS: May 22, GS: May 29)",
+          "fil": "Biyernes (UGS: Mayo 22, GS: Mayo 29)"
+      },
+      "category": "academic",
+      "tags": ["academic", "registration", "subjects", "midyear", "deadline"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 46,
+      "title": {
+          "en": "Last Day of Dropping of Subjects",
+          "fil": "Huling Araw ng Pag-drop ng mga Asignatura"
+      },
+      "description": {
+          "en": "Final deadline for dropping subjects during the midyear term.",
+          "fil": "Huling Araw para sa pag-drop ng mga asignatura sa midyear term."
+      },
+      "date": "2026-05-25",
+      "day": {
+          "en": "Monday",
+          "fil": "Lunes"
+      },
+      "category": "academic",
+      "tags": [
+          "academic",
+          "registration",
+          "subjects",
+          "dropping",
+          "midyear",
+          "deadline"
+      ],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 47,
+      "title": {
+          "en": "Last Day of Settlement of Admission Requirements of New Students Enrolled During the Midyear Term (May-June) 2026",
+          "fil": "Huling Araw ng Pagsasaayos ng mga Kinakailangang Dokumento sa Admission ng mga Bagong Estudyanteng Nag-enroll sa Midyear Term (Mayo-Hunyo) 2026"
+      },
+      "description": {
+          "en": "Final deadline for new students to complete all admission requirements for midyear term enrollment.",
+          "fil": "Huling araw para sa mga bagong estudyante na makumpleto ang lahat ng mga kinakailangang ipasa sa admission para sa midyear term."
+      },
+      "date": "2026-06-04",
+      "day": {
+          "en": "Wednesday",
+          "fil": "Miyerkules"
+      },
+      "category": "academic",
+      "tags": [
+          "academic",
+          "admission",
+          "requirements",
+          "new-students",
+          "midyear"
+      ],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 48,
+      "title": {
+          "en": "Midterm Examination - Midyear Term",
+          "fil": "Pagsusulit sa Kalagitnaan ng Termino - Midyear Term"
+      },
+      "description": {
+          "en": "Midterm examinations for undergraduate or graduate students during midyear term.",
+          "fil": "Pagsusulit sa kalagitnaan ng termino para sa mga undergraduate at graduate na estudyante sa midyear term."
+      },
+      "date": "2026-06-05 to 2026-06-15",
+      "day": {
+          "en": "Thursday to Sabado (UGS: June 5-7), Saturday to Sunday (GS: June 14-15)",
+          "fil": "Huwebes hanggang Sabado (UGS: Hunyo 5-7), Sabado hanggang Linggo (GS: Hunyo 14-15)"
+      },
+      "category": "academic",
+      "tags": ["academic", "examination", "midterm", "midyear"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 49,
+      "title": {
+          "en": "Final Examination - Midyear Term",
+          "fil": "Huling Pagsusulit - Midyear Term"
+      },
+      "description": {
+          "en": "Final examinations for undergraduate and graduate students during midyear term.",
+          "fil": "Huling pagsusulit para sa mga undergraduate at graduate na estudyante sa midyear term."
+      },
+      "date": "2026-06-26 to 2026-06-29",
+      "day": {
+          "en": "Thursday to Linggo (UGS: June 26-28, GS: June 28-29)",
+          "fil": "Huwebes hanggang Linggo (UGS: Hunyo 26-28, GS: Hunyo 28-29)"
+      },
+      "category": "academic",
+      "tags": ["academic", "examination", "final", "midyear"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 50,
+      "title": {
+          "en": "End of Midyear Term (May-June) 2026 and Last Day of Completion of Incomplete (INC.) Rating",
+          "fil": "Katapusan ng Midyear Term (Mayo-Hunyo) 2026 at Huling Araw ng Pagkumpleto ng Incomplete (INC.) Rating"
+      },
+      "description": {
+          "en": "End of midyear term and final deadline for completing incomplete ratings from previous terms.",
+          "fil": "Katapusan ng midyear term at huling araw para sa pagkumpleto ng mga incomplete rating mula sa mga nagdaang termino."
+      },
+      "date": "2026-06-27",
+      "day": {
+          "en": "Saturday",
+          "fil": "Sabado"
+      },
+      "category": "academic",
+      "tags": [
+          "academic",
+          "term-end",
+          "incomplete-rating",
+          "midyear",
+          "deadline"
+      ],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 51,
+      "title": {
+          "en": "Last Day of Online Posting of Grades of Faculty",
+          "fil": "Huling Araw ng mga Faculty sa Pagpost Online ng mga Grado"
+      },
+      "description": {
+          "en": "Final deadline for faculty members to post grades online for midyear term.",
+          "fil": "Huling araw para sa mga miyembro ng faculty na mag-post ng mga grado online para sa midyear term."
+      },
+      "date": "2026-07-05",
+      "day": {
+          "en": "Sunday",
+          "fil": "Linggo"
+      },
+      "category": "academic",
+      "tags": ["academic", "grades", "faculty", "online-posting", "deadline"],
+      "isFeatured": false,
+      "isTrending": false
+    },
+    {
+      "id": 52,
+      "title": {
+          "en": "Submission of Official Grading Sheets (hardcopies) to ARO",
+          "fil": "Pagsusumite ng Opisyal na Talaan ng mga Marka (Nakalimbag na Kopya) sa ARO"
+      },
+      "description": {
+          "en": "Submission of physical copies of official grading sheets to the Academic Records Office for midyear term.",
+          "fil": "Pagsusumite ng mga pisikal na kopya ng mga Talaan ng Marka sa Tanggapan ng Pang-Akademikong Rekord para sa midyear term."
+      },
+      "date": "2026-07-06",
+      "day": {
+          "en": "Monday",
+          "fil": "Lunes"
+      },
+      "category": "academic",
+      "tags": ["academic", "grading-sheets", "ARO", "hardcopy", "submission"],
+      "isFeatured": false,
+      "isTrending": false
     }
-  ],
+],
   "campusLife": [
     {
       "id": 1,
