@@ -481,11 +481,12 @@ function AboutPage() {
               Our vision, heritage, values, and the people that shape our future
             </h1>
             <p className='text-gray-600 mt-2 text-xs'>
-              Discover what makes our institution unique and our commitment to excellence in education.
+              Discover what makes our institution unique and our commitment to
+              excellence in education.
             </p>
           </div>
         </div>
-        
+
         {/* Mobile Tabs - Full width with underline */}
         <div className='md:hidden w-full fixed top-[5.5rem] left-0 z-30 bg-white border-b border-gray-200 shadow-sm'>
           {/* Search bar for mobile */}
@@ -494,9 +495,9 @@ function AboutPage() {
           </div> */}
 
           {/* Mobile tab navigation */}
-          <div className='relative bg-white'>
+          <div className='relative bg-white/95 backdrop-blur-lg hidden md:block'>
             <div
-              className='flex overflow-x-auto scrollbar-hide px-2 py-1'
+              className='flex overflow-x-auto scrollbar-hide px-2 py-2'
               role='tablist'
               aria-label='About page sections'
               ref={tabListRef}
@@ -645,7 +646,7 @@ function AboutPage() {
               <span className='text-gray-500'>About</span>
               <span className='text-gray-400'>•</span>
               <span className='text-[var(--primary-700)] font-medium'>
-                {TABS.find(tab => tab.id === activeTab)?.label}
+                {TABS.find((tab) => tab.id === activeTab)?.label}
               </span>
             </nav>
           </div>

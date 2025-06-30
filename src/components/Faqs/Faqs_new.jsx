@@ -32,24 +32,6 @@ const Faqs = ({ collegeKey = 'default' }) => {
   const [newQuestion, setNewQuestion] = useState('');
   const [submissionStatus, setSubmissionStatus] = useState(null);
 
-  // College-specific theme configuration
-  const getCollegeTheme = () => {
-    const primaryVar = `--${collegeKey}-primary-500`;
-    const primaryDarkVar = `--${collegeKey}-primary-700`;
-    const secondaryVar = `--${collegeKey}-secondary-500`;
-
-    return {
-      primary: `var(${primaryVar}, #3b82f6)`,
-      primaryDark: `var(${primaryDarkVar}, #1d4ed8)`,
-      secondary: `var(${secondaryVar}, #6366f1)`,
-      primaryVar,
-      primaryDarkVar,
-      secondaryVar,
-    };
-  };
-
-  const theme = getCollegeTheme();
-
   // FAQ Categories with icons
   const categories = [
     {
@@ -196,8 +178,7 @@ const Faqs = ({ collegeKey = 'default' }) => {
         </h2>
         <p className='text-gray-600 max-w-2xl mx-auto mb-8'>
           Find answers to common questions about our programs, admissions, and
-          campus life. Can&apos;t find what you&apos;re looking for? We&apos;re
-          here to help!
+          campus life. Can't find what you're looking for? We're here to help!
         </p>
 
         {/* Search Bar */}
@@ -209,11 +190,7 @@ const Faqs = ({ collegeKey = 'default' }) => {
               placeholder='Search FAQs...'
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className='w-full pl-10 pr-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:border-transparent bg-white/70 backdrop-blur-sm'
-              style={{
-                '--tw-ring-color': theme.primary,
-                '--tw-ring-opacity': '0.5',
-              }}
+              className='w-full pl-10 pr-4 py-3 rounded-lg border border-gray-200 focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white/70 backdrop-blur-sm'
             />
           </div>
         </div>
@@ -232,10 +209,10 @@ const Faqs = ({ collegeKey = 'default' }) => {
                     : 'bg-white/70 text-gray-600 border-gray-200 hover:bg-gray-50'
                 }`}
                 style={{
-                  ...(selectedCategory === category.id && {
-                    '--tw-ring-color': theme.primary,
-                    '--tw-ring-opacity': '0.5',
-                  }),
+                  ringColor:
+                    selectedCategory === category.id
+                      ? `var(--${collegeKey}-primary-500, #3b82f6)`
+                      : undefined,
                 }}
               >
                 <Icon className='w-4 h-4' />
@@ -250,36 +227,21 @@ const Faqs = ({ collegeKey = 'default' }) => {
       {selectedCategory === 'all' && searchTerm === '' && (
         <div className='mb-12'>
           <h3 className='text-xl font-semibold text-gray-900 mb-6 flex items-center gap-2'>
-            <HandThumbUpIcon
-              className='w-5 h-5'
-              style={{ color: theme.secondary }}
-            />
+            <HandThumbUpIcon className='w-5 h-5 text-yellow-500' />
             Popular Questions
           </h3>
           <div className='grid md:grid-cols-3 gap-4 mb-8'>
             {featuredFaqs.map((faq) => (
               <div
                 key={`featured-${faq.id}`}
-                className='rounded-lg p-4 border cursor-pointer hover:shadow-md transition-all duration-300'
-                style={{
-                  background: `linear-gradient(135deg, ${theme.primary}08, ${theme.secondary}08)`,
-                  borderColor: `${theme.primary}40`,
-                }}
+                className='bg-gradient-to-br from-blue-50 to-indigo-50 rounded-lg p-4 border border-blue-200/60 cursor-pointer hover:shadow-md transition-all duration-300'
                 onClick={() => toggleFaq(faq.id)}
               >
                 <div className='flex items-start justify-between mb-2'>
                   <h4 className='font-medium text-gray-900 text-sm line-clamp-2'>
                     {faq.question}
                   </h4>
-                  <span
-                    className='text-xs px-2 py-1 rounded-full flex-shrink-0 ml-2'
-                    style={{
-                      backgroundColor: `${theme.secondary}20`,
-                      color: theme.primaryDark,
-                      borderColor: `${theme.secondary}40`,
-                      border: '1px solid',
-                    }}
-                  >
+                  <span className='text-xs px-2 py-1 rounded-full bg-yellow-100 text-yellow-700 border border-yellow-200 flex-shrink-0 ml-2'>
                     Popular
                   </span>
                 </div>
@@ -308,11 +270,7 @@ const Faqs = ({ collegeKey = 'default' }) => {
               <button
                 onClick={() => toggleFaq(faq.id)}
                 onKeyDown={(e) => handleKeyDown(e, faq.id)}
-                className='w-full text-left p-6 focus:outline-none focus:ring-2 focus:ring-inset rounded-xl'
-                style={{
-                  '--tw-ring-color': theme.primary,
-                  '--tw-ring-opacity': '0.5',
-                }}
+                className='w-full text-left p-6 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-inset rounded-xl'
                 aria-expanded={isExpanded}
                 aria-controls={`faq-answer-${faq.id}`}
               >
@@ -328,14 +286,7 @@ const Faqs = ({ collegeKey = 'default' }) => {
                         }
                       </span>
                       {faq.isFeatured && (
-                        <span
-                          className='text-xs px-2 py-1 rounded-full border'
-                          style={{
-                            backgroundColor: `${theme.secondary}20`,
-                            color: theme.primaryDark,
-                            borderColor: `${theme.secondary}40`,
-                          }}
-                        >
+                        <span className='text-xs px-2 py-1 rounded-full bg-yellow-100 text-yellow-700 border border-yellow-200'>
                           Popular
                         </span>
                       )}
@@ -374,20 +325,11 @@ const Faqs = ({ collegeKey = 'default' }) => {
                         <div className='flex items-center gap-2'>
                           <button
                             onClick={() => handleVote(faq.id, true)}
-                            className={`flex items-center gap-1 px-3 py-1 rounded-lg text-sm transition-all duration-300 border ${
+                            className={`flex items-center gap-1 px-3 py-1 rounded-lg text-sm transition-all duration-300 ${
                               userVote === true
-                                ? 'border'
+                                ? 'bg-green-100 text-green-700 border border-green-200'
                                 : 'bg-gray-100 text-gray-600 hover:bg-green-50 border border-gray-200'
                             }`}
-                            style={
-                              userVote === true
-                                ? {
-                                    backgroundColor: `${theme.primary}20`,
-                                    color: theme.primaryDark,
-                                    borderColor: `${theme.primary}40`,
-                                  }
-                                : {}
-                            }
                           >
                             {userVote === true ? (
                               <HandThumbUpSolid className='w-4 h-4' />
@@ -430,16 +372,7 @@ const Faqs = ({ collegeKey = 'default' }) => {
                             <button
                               key={relatedFaq.id}
                               onClick={() => toggleFaq(relatedFaq.id)}
-                              className='block w-full text-left text-sm hover:underline transition-colors'
-                              style={{
-                                color: theme.primary,
-                              }}
-                              onMouseEnter={(e) => {
-                                e.target.style.color = theme.primaryDark;
-                              }}
-                              onMouseLeave={(e) => {
-                                e.target.style.color = theme.primary;
-                              }}
+                              className='block w-full text-left text-sm text-blue-600 hover:text-blue-800 hover:underline transition-colors'
                             >
                               {relatedFaq.question}
                             </button>
@@ -470,16 +403,7 @@ const Faqs = ({ collegeKey = 'default' }) => {
               setSearchTerm('');
               setSelectedCategory('all');
             }}
-            className='px-4 py-2 text-white rounded-lg hover:opacity-90 transition-all duration-300'
-            style={{
-              backgroundColor: theme.primary,
-            }}
-            onMouseEnter={(e) => {
-              e.target.style.backgroundColor = theme.primaryDark;
-            }}
-            onMouseLeave={(e) => {
-              e.target.style.backgroundColor = theme.primary;
-            }}
+            className='px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors'
           >
             Clear Filters
           </button>
@@ -489,18 +413,9 @@ const Faqs = ({ collegeKey = 'default' }) => {
       {/* Quick Actions */}
       <div className='mt-12 grid md:grid-cols-2 gap-6'>
         {/* Contact Support */}
-        <div
-          className='rounded-xl p-6 border'
-          style={{
-            background: `linear-gradient(135deg, ${theme.primary}08, ${theme.secondary}08)`,
-            borderColor: `${theme.primary}40`,
-          }}
-        >
+        <div className='bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-6 border border-blue-200/60'>
           <div className='flex items-center gap-3 mb-4'>
-            <div
-              className='w-10 h-10 rounded-lg flex items-center justify-center'
-              style={{ backgroundColor: theme.primary }}
-            >
+            <div className='w-10 h-10 bg-blue-500 rounded-lg flex items-center justify-center'>
               <ChatBubbleLeftRightIcon className='w-5 h-5 text-white' />
             </div>
             <h3 className='text-lg font-semibold text-gray-900'>
@@ -508,47 +423,23 @@ const Faqs = ({ collegeKey = 'default' }) => {
             </h3>
           </div>
           <p className='text-gray-600 mb-4'>
-            Can&apos;t find the answer you&apos;re looking for? Our support team
-            is here to help.
+            Can't find the answer you're looking for? Our support team is here
+            to help.
           </p>
           <div className='space-y-2'>
-            <button
-              className='w-full px-4 py-2 text-white rounded-lg hover:opacity-90 transition-all duration-300'
-              style={{ backgroundColor: theme.primary }}
-              onMouseEnter={(e) => {
-                e.target.style.backgroundColor = theme.primaryDark;
-              }}
-              onMouseLeave={(e) => {
-                e.target.style.backgroundColor = theme.primary;
-              }}
-            >
+            <button className='w-full px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors'>
               Contact Support
             </button>
-            <button
-              className='w-full px-4 py-2 bg-white rounded-lg hover:bg-gray-50 transition-colors border'
-              style={{
-                color: theme.primary,
-                borderColor: `${theme.primary}40`,
-              }}
-            >
+            <button className='w-full px-4 py-2 bg-white text-blue-500 border border-blue-200 rounded-lg hover:bg-blue-50 transition-colors'>
               Schedule a Call
             </button>
           </div>
         </div>
 
         {/* Submit Question */}
-        <div
-          className='rounded-xl p-6 border'
-          style={{
-            background: `linear-gradient(135deg, ${theme.secondary}08, ${theme.primary}08)`,
-            borderColor: `${theme.secondary}40`,
-          }}
-        >
+        <div className='bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl p-6 border border-green-200/60'>
           <div className='flex items-center gap-3 mb-4'>
-            <div
-              className='w-10 h-10 rounded-lg flex items-center justify-center'
-              style={{ backgroundColor: theme.secondary }}
-            >
+            <div className='w-10 h-10 bg-green-500 rounded-lg flex items-center justify-center'>
               <PlusIcon className='w-5 h-5 text-white' />
             </div>
             <h3 className='text-lg font-semibold text-gray-900'>
@@ -559,19 +450,12 @@ const Faqs = ({ collegeKey = 'default' }) => {
           {!showSubmissionForm ? (
             <>
               <p className='text-gray-600 mb-4'>
-                Have a question that&apos;s not listed? Help us improve by
-                suggesting it.
+                Have a question that's not listed? Help us improve by suggesting
+                it.
               </p>
               <button
                 onClick={() => setShowSubmissionForm(true)}
-                className='w-full px-4 py-2 text-white rounded-lg hover:opacity-90 transition-all duration-300'
-                style={{ backgroundColor: theme.secondary }}
-                onMouseEnter={(e) => {
-                  e.target.style.backgroundColor = theme.primaryDark;
-                }}
-                onMouseLeave={(e) => {
-                  e.target.style.backgroundColor = theme.secondary;
-                }}
+                className='w-full px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 transition-colors'
               >
                 Submit Question
               </button>
@@ -582,11 +466,7 @@ const Faqs = ({ collegeKey = 'default' }) => {
                 value={newQuestion}
                 onChange={(e) => setNewQuestion(e.target.value)}
                 placeholder='What would you like to know?'
-                className='w-full px-3 py-2 border border-gray-200 rounded-lg focus:ring-2 focus:border-transparent resize-none h-20'
-                style={{
-                  '--tw-ring-color': theme.secondary,
-                  '--tw-ring-opacity': '0.5',
-                }}
+                className='w-full px-3 py-2 border border-gray-200 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent resize-none h-20'
                 disabled={submissionStatus === 'submitting'}
               />
               <div className='flex gap-2'>
@@ -595,18 +475,7 @@ const Faqs = ({ collegeKey = 'default' }) => {
                   disabled={
                     !newQuestion.trim() || submissionStatus === 'submitting'
                   }
-                  className='flex-1 px-4 py-2 text-white rounded-lg hover:opacity-90 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2'
-                  style={{ backgroundColor: theme.secondary }}
-                  onMouseEnter={(e) => {
-                    if (!e.target.disabled) {
-                      e.target.style.backgroundColor = theme.primaryDark;
-                    }
-                  }}
-                  onMouseLeave={(e) => {
-                    if (!e.target.disabled) {
-                      e.target.style.backgroundColor = theme.secondary;
-                    }
-                  }}
+                  className='flex-1 px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2'
                 >
                   {submissionStatus === 'submitting' ? (
                     <>

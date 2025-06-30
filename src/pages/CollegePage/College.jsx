@@ -366,7 +366,7 @@ function Colleges() {
           </Section>
         )}
         <Section>
-          <Faqs />
+          <Faqs collegeKey={collegeKey} />
         </Section>
         {/* Student Activities - placeholder if no data */}
         <Section>
