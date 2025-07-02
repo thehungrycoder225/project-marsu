@@ -383,11 +383,14 @@ function UniversityNewsDetail() {
           break;
         }
         case 'facebook': {
-          window.open(
-            `https://www.facebook.com/sharer/sharer.php?quote=${encodeURIComponent(text)}&u=${encodeURIComponent(shareUrl)}`,
-            '_blank',
-            'width=600,height=400'
-          );
+          // Use simplified Facebook sharing for selected text
+          const fbParams = new URLSearchParams({
+            u: shareUrl,
+            quote: text,
+            hashtag: '#MARSUNews',
+          });
+          const fbUrl = `https://www.facebook.com/sharer/sharer.php?${fbParams.toString()}`;
+          window.open(fbUrl, 'facebook-share-dialog', 'width=626,height=436');
           break;
         }
         case 'copy': {
@@ -737,10 +740,24 @@ function UniversityNewsDetail() {
           break;
         }
         case 'facebook': {
-          // Facebook's simpler sharer that doesn't require app configuration
-          // For hash-based URLs, we'll add some additional parameters to help Facebook
-          const fbUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}&quote=${encodeURIComponent(title)}`;
-          window.open(fbUrl, '_blank', 'width=600,height=400');
+          // Use the optimized Facebook sharing function if available
+          if (window.shareFacebookOptimized) {
+            window.shareFacebookOptimized();
+          } else {
+            // Fallback to traditional sharer with proper parameters for hash URLs
+            const fbParams = new URLSearchParams({
+              u: shareUrl,
+              quote: title,
+              hashtag: '#MARSUNews',
+            });
+
+            if (description) {
+              fbParams.append('description', description.slice(0, 200));
+            }
+
+            const fbUrl = `https://www.facebook.com/sharer/sharer.php?${fbParams.toString()}`;
+            window.open(fbUrl, 'facebook-share-dialog', 'width=626,height=436');
+          }
           break;
         }
         case 'copy': {
@@ -792,10 +809,34 @@ function UniversityNewsDetail() {
               }
             }
           } else {
-            // Fallback to Facebook
-            const fbUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}&quote=${encodeURIComponent(title)}`;
-            window.open(fbUrl, '_blank', 'width=600,height=400');
+            // Fallback to copy link
+            try {
+              await navigator.clipboard.writeText(shareUrl);
+              // Create a temporary notification
+              const notification = document.createElement('div');
+              notification.textContent = 'Link copied to clipboard!';
+              notification.style.cssText = `
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                background: var(--color-primary);
+                color: white;
+                padding: 12px 20px;
+                border-radius: 8px;
+                z-index: 1000;
+                font-size: 14px;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+              `;
+              document.body.appendChild(notification);
+              setTimeout(() => {
+                document.body.removeChild(notification);
+              }, 3000);
+            } catch (err) {
+              console.error('Failed to copy: ', err);
+              alert('Unable to share or copy link');
+            }
           }
+          break;
         }
       }
     },
@@ -966,24 +1007,145 @@ function UniversityNewsDetail() {
         type='article'
       />
 
-      {/* Additional meta tags for Windows server hash routing */}
+      {/* Additional meta tags for Windows server hash routing and Facebook sharing */}
       <script
         dangerouslySetInnerHTML={{
           __html: `
-            // Help Facebook and other crawlers understand hash-based routing
-            if (window.location.hash && !window.fbAsyncInit) {
-              // Set up proper meta tags for social sharing
+            // Enhanced Facebook sharing support for hash-based URLs
+            (function() {
+              var currentUrl = window.location.href;
+              var newsId = '${newsId}';
+              var title = ${JSON.stringify(news?.headline?.[lang] || news?.headline || 'University News')};
+              var description = ${JSON.stringify(news?.lead?.[lang] || news?.lead || '')};
+              var imageUrl = '${metaImage}';
+              
+              // Facebook Bot Detection and Redirection
+              var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+              var isFacebookBot = /facebookexternalhit|facebookcatalog/i.test(userAgent);
+              
+              if (isFacebookBot) {
+                // For Facebook bots, we need to provide a clean URL structure
+                // This is a workaround for hash-based routing limitations
+                var cleanUrl = currentUrl.replace('/#/', '/share/');
+                console.log('Facebook bot detected, attempting to redirect to:', cleanUrl);
+                
+                // Instead of redirecting, we'll enhance the current page's meta tags
+                // because Facebook might still be able to read them
+                var metaTags = document.getElementsByTagName('meta');
+                for (var i = 0; i < metaTags.length; i++) {
+                  var meta = metaTags[i];
+                  if (meta.getAttribute('property') === 'og:url') {
+                    meta.setAttribute('content', currentUrl);
+                  }
+                }
+              }
+              
+              // Set up proper canonical URL
               var canonical = document.querySelector('link[rel="canonical"]');
               if (!canonical) {
                 canonical = document.createElement('link');
                 canonical.rel = 'canonical';
                 document.head.appendChild(canonical);
               }
-              canonical.href = '${metaUrl}';
-            }
+              canonical.href = currentUrl;
+              
+              // Update Open Graph meta tags dynamically for better social sharing
+              var ogTags = {
+                'og:url': currentUrl,
+                'og:title': title,
+                'og:description': description,
+                'og:image': imageUrl,
+                'og:type': 'article',
+                'og:site_name': 'Marinduque State University',
+                'og:updated_time': new Date().toISOString()
+              };
+              
+              Object.keys(ogTags).forEach(function(property) {
+                var meta = document.querySelector('meta[property="' + property + '"]');
+                if (!meta) {
+                  meta = document.createElement('meta');
+                  meta.setAttribute('property', property);
+                  document.head.appendChild(meta);
+                }
+                meta.setAttribute('content', ogTags[property]);
+              });
+              
+              // Add Twitter Card meta tags for better Twitter sharing
+              var twitterTags = {
+                'twitter:card': 'summary_large_image',
+                'twitter:title': title,
+                'twitter:description': description,
+                'twitter:image': imageUrl,
+                'twitter:url': currentUrl
+              };
+              
+              Object.keys(twitterTags).forEach(function(name) {
+                var meta = document.querySelector('meta[name="' + name + '"]');
+                if (!meta) {
+                  meta = document.createElement('meta');
+                  meta.setAttribute('name', name);
+                  document.head.appendChild(meta);
+                }
+                meta.setAttribute('content', twitterTags[name]);
+              });
+              
+              // Enhanced Facebook sharing helper function
+              window.shareFacebookOptimized = function() {
+                // Check if Facebook SDK is available
+                if (typeof FB !== 'undefined' && FB.ui) {
+                  FB.ui({
+                    method: 'share',
+                    href: currentUrl,
+                    quote: title,
+                    hashtag: '#MARSUNews'
+                  }, function(response) {
+                    if (response && !response.error_message) {
+                      console.log('Facebook share successful');
+                    } else {
+                      console.log('Facebook share cancelled or failed');
+                    }
+                  });
+                } else {
+                  // Fallback to sharer.php with optimized parameters
+                  var fbParams = new URLSearchParams({
+                    u: currentUrl,
+                    quote: title,
+                    hashtag: '#MARSUNews'
+                  });
+                  
+                  if (description) {
+                    fbParams.append('description', description.slice(0, 200));
+                  }
+                  
+                  var fbUrl = 'https://www.facebook.com/sharer/sharer.php?' + fbParams.toString();
+                  var popup = window.open(fbUrl, 'facebook-share-dialog', 'width=626,height=436,scrollbars=yes,resizable=yes');
+                  
+                  // Check if popup was blocked
+                  if (!popup || popup.closed || typeof popup.closed === 'undefined') {
+                    // Popup was blocked, provide fallback
+                    alert('Please allow popups for this site to share on Facebook, or copy the URL manually: ' + currentUrl);
+                  }
+                }
+              };
+              
+              // Make sharing function globally available
+              window.shareOnFacebook = window.shareFacebookOptimized;
+            })();
           `,
         }}
       />
+
+      {/* Facebook SDK for better sharing support */}
+      <script
+        async
+        defer
+        crossOrigin='anonymous'
+        src='https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0&appId=1234567890'
+      />
+
+      {/* Preconnect to Facebook for faster sharing */}
+      <link rel='preconnect' href='https://www.facebook.com' />
+      <link rel='dns-prefetch' href='//www.facebook.com' />
 
       {/* Enhanced container with better mobile spacing */}
       <div className='max-w-4xl mx-auto py-4 px-4 sm:px-6 lg:px-8'>
@@ -1355,12 +1517,12 @@ function UniversityNewsDetail() {
 
         {/* Previous/Next Article Navigation */}
         {(previousArticle || nextArticle) && (
-          <section className='border-t border-[var(--color-border-dark)] pt-8 mb-8'>
-            <div className='flex justify-between items-center'>
+          <section className='pt-8 mb-8'>
+            <div className='flex justify-between items-center md:justify-evenly'>
               {previousArticle ? (
                 <Link
                   to={`/news/${previousArticle.id}`}
-                  className='group flex items-center space-x-3 max-w-sm p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-300 border border-gray-200 hover:border-[var(--color-primary)]'
+                  className='group flex items-center space-x-2 max-w-sm p-4 transition-all duration-300 hover:border-[var(--color-primary)]'
                 >
                   <ChevronLeftIcon className='w-5 h-5 text-gray-400 group-hover:text-[var(--color-primary)] flex-shrink-0 transition-colors' />
                   <div className='text-left'>
@@ -1380,7 +1542,7 @@ function UniversityNewsDetail() {
               {nextArticle ? (
                 <Link
                   to={`/news/${nextArticle.id}`}
-                  className='group flex items-center space-x-3 max-w-sm p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-300 text-right border border-gray-200 hover:border-[var(--color-primary)]'
+                  className='group flex items-center space-x-3 max-w-sm p-4 transition-all duration-300 text-right hover:border-[var(--color-primary)]'
                 >
                   <div className='text-right'>
                     <p className='text-xs text-[var(--color-secondary-900)] font-medium mb-1'>
