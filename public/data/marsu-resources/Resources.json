@@ -3360,29 +3360,29 @@
     {
       "id": 1,
       "title": {
-          "en": "Request for Academic Program Evaluation of Candidates for Midyear (November 2025) and April 2026 Graduation; 10% Commencement Exercises",
-          "fil": "Paghingi ng Ebalwasyon ng Akademikong Programa para sa mga Kandidato sa Midyear (Nobyembre 2025) at Araw ng Pagtatapos sa Abril 2026; 10% ng Seremonya ng Pagtatapos"
+        "en": "Request for Academic Program Evaluation of Candidates for Midyear (November 2025) and April 2026 Graduation; 10% Commencement Exercises",
+        "fil": "Paghingi ng Ebalwasyon ng Akademikong Programa para sa mga Kandidato sa Midyear (Nobyembre 2025) at Araw ng Pagtatapos sa Abril 2026; 10% ng Seremonya ng Pagtatapos"
       },
       "description": {
-          "en": "Evaluation of academic programs for candidates graduating in Midyear 2025 and April 2026 as part of commencement preparation.",
-          "fil": "Pagsusuri ng akademikong programa ng mga kandidato para sa pagtatapos sa Midyear 2025 at Abril 2026 bilang bahagi ng paghahanda sa seremonya ng pagtatapos."
+        "en": "Evaluation of academic programs for candidates graduating in Midyear 2025 and April 2026 as part of commencement preparation.",
+        "fil": "Pagsusuri ng akademikong programa ng mga kandidato para sa pagtatapos sa Midyear 2025 at Abril 2026 bilang bahagi ng paghahanda sa seremonya ng pagtatapos."
       },
       "date": "2025-07-01 - 2025-07-11",
       "day": { "en": "Monday to Friday", "fil": "Lunes hanggang Biyernes" },
       "category": "graduation",
-      "tags": ["academic", "deadline","graduation"],
+      "tags": ["academic", "deadline", "graduation"],
       "isFeatured": false,
       "isTrending": false
     },
     {
       "id": 2,
       "title": {
-          "en": "Online Enrollment Period for JHS (Grade 7-10) and Incoming 1st Year College Students",
-          "fil": "Panahon ng Online Enrollment para sa Junior High School (Grade 7-10) at mga Papasok na Unang Taon na Estudyante sa Kolehiyo"
+        "en": "Online Enrollment Period for JHS (Grade 7-10) and Incoming 1st Year College Students",
+        "fil": "Panahon ng Online Enrollment para sa Junior High School (Grade 7-10) at mga Papasok na Unang Taon na Estudyante sa Kolehiyo"
       },
       "description": {
-          "en": "Online enrollment for Junior High School (Grades 7-10) and incoming first-year college students.",
-          "fil": "Online enrollment para sa Junior High School (Grade 7-10) at mga bagong pasok sa kolehiyo."
+        "en": "Online enrollment for Junior High School (Grades 7-10) and incoming first-year college students.",
+        "fil": "Online enrollment para sa Junior High School (Grade 7-10) at mga bagong pasok sa kolehiyo."
       },
       "date": "2025-06-18 - 2025-07-11",
       "day": { "en": "Monday to Friday", "fil": "Lunes hanggang Biyernes" },
@@ -3394,12 +3394,12 @@
     {
       "id": 3,
       "title": {
-          "en": "Online enrollment for Old College Students (2nd Year - 4th Year), Transferees, Returning Students, 2nd Coursers, CTPE and Graduate (Masters and Doctorate) Students",
-          "fil": "Online enrollment para sa mga dating estudyante sa kolehiyo (Ika-2 hanggang Ika-4 na Taon), mga transferee, nagbabalik na estudyante, pangalawang kurso, CTPE, at mga mag-aaral sa antas gradwado (Masterado at Doktorado)."
+        "en": "Online enrollment for Old College Students (2nd Year - 4th Year), Transferees, Returning Students, 2nd Coursers, CTPE and Graduate (Masters and Doctorate) Students",
+        "fil": "Online enrollment para sa mga dating estudyante sa kolehiyo (Ika-2 hanggang Ika-4 na Taon), mga transferee, nagbabalik na estudyante, pangalawang kurso, CTPE, at mga mag-aaral sa antas gradwado (Masterado at Doktorado)."
       },
       "description": {
-          "en": "Online enrollment for returning college students, transferees, second coursers, CTPE, and graduate students.",
-          "fil": "Online enrollment para sa mga dating kolehiyo, transferee, nagbabalik na estudyante, kumukuha ng ikalawang kurso, CTPE, at mga mag-aaral sa graduate studies."
+        "en": "Online enrollment for returning college students, transferees, second coursers, CTPE, and graduate students.",
+        "fil": "Online enrollment para sa mga dating kolehiyo, transferee, nagbabalik na estudyante, kumukuha ng ikalawang kurso, CTPE, at mga mag-aaral sa graduate studies."
       },
       "date": "2025-07-07 - 2025-07-25",
       "day": { "en": "Monday to Friday", "fil": "Lunes hanggang Biyernes" },
@@ -3411,12 +3411,12 @@
     {
       "id": 4,
       "title": {
-          "en": "Filing of Letter Request for Special/Petition Class (SPC) / Evaluation Period",
-          "fil": "Pagsusumite ng Liham ng Kahilingan para sa Special o Petition Class (SPC) / Panahon ng Ebalwasyon"
+        "en": "Filing of Letter Request for Special/Petition Class (SPC) / Evaluation Period",
+        "fil": "Pagsusumite ng Liham ng Kahilingan para sa Special o Petition Class (SPC) / Panahon ng Ebalwasyon"
       },
       "description": {
-          "en": "Filing of letter request for SPC or Petition Class and evaluation of related documents.",
-          "fil": "Pagsusumite ng liham ng kahilingan para sa SPC o Petition Class at pagsusuri ng mga kaugnay na dokumento."
+        "en": "Filing of letter request for SPC or Petition Class and evaluation of related documents.",
+        "fil": "Pagsusumite ng liham ng kahilingan para sa SPC o Petition Class at pagsusuri ng mga kaugnay na dokumento."
       },
       "date": "2025-07-14 - 2025-07-18 / 2025-07-21 - 2025-07-25",
       "day": { "en": "Monday to Friday", "fil": "Lunes hanggang Biyernes" },
@@ -3428,29 +3428,29 @@
     {
       "id": 5,
       "title": {
-          "en": "Submission of Requirements (hard copy) of New Students to ARO",
-          "fil": "Pagsusumite ng mga kinakailangang dokumento (hard copy) ng mga bagong estudyante sa ARO."
+        "en": "Submission of Requirements (hard copy) of New Students to ARO",
+        "fil": "Pagsusumite ng mga kinakailangang dokumento (hard copy) ng mga bagong estudyante sa ARO."
       },
       "description": {
-          "en": "Submission of hard copy documents of new students to the ARO.",
-          "fil": "Pagbibigay ng hard copy ng mga dokumento ng bagong estudyante sa ARO."
+        "en": "Submission of hard copy documents of new students to the ARO.",
+        "fil": "Pagbibigay ng hard copy ng mga dokumento ng bagong estudyante sa ARO."
       },
       "date": "2025-07-28 - 2025-08-08",
       "day": { "en": "Monday to Friday", "fil": "Lunes hanggang Biyernes" },
       "category": "admission",
-      "tags": ["academic", "deadline","submission"],
+      "tags": ["academic", "deadline", "submission"],
       "isFeatured": false,
       "isTrending": false
     },
     {
       "id": 6,
       "title": {
-          "en": "Filing of Application for Midyear (November) 2025 Graduation / 70th Commencement Exercises",
-          "fil": "Pagsusumite ng aplikasyon para sa Midyear (Nobyembre) 2025 Pagtatapos / ika-70 na Seremonya ng Pagtatapos."
+        "en": "Filing of Application for Midyear (November) 2025 Graduation / 70th Commencement Exercises",
+        "fil": "Pagsusumite ng aplikasyon para sa Midyear (Nobyembre) 2025 Pagtatapos / ika-70 na Seremonya ng Pagtatapos."
       },
       "description": {
-          "en": "This process involves submitting an application to participate in the Midyear 2025 Graduation and the 70th Commencement Exercises, ensuring eligibility and preparation for the ceremony.",
-          "fil": "Ang prosesong ito ay kinapapalooban ng pagsusumite ng aplikasyon upang makilahok sa Midyear 2025 Pagtatapos at ika-70 na Seremonya ng Pagtatapos, upang matiyak ang karapatan at kahandaan para sa programa."
+        "en": "This process involves submitting an application to participate in the Midyear 2025 Graduation and the 70th Commencement Exercises, ensuring eligibility and preparation for the ceremony.",
+        "fil": "Ang prosesong ito ay kinapapalooban ng pagsusumite ng aplikasyon upang makilahok sa Midyear 2025 Pagtatapos at ika-70 na Seremonya ng Pagtatapos, upang matiyak ang karapatan at kahandaan para sa programa."
       },
       "date": "2025-09-29 - 2025-10-10",
       "day": { "en": "Monday to Friday", "fil": "Lunes hanggang Biyernes" },
@@ -3462,29 +3462,29 @@
     {
       "id": 7,
       "title": {
-          "en": "First Day of Service of Faculty",
-          "fil": "Unang Araw ng Paglilingkod ng mga guro"
+        "en": "First Day of Service of Faculty",
+        "fil": "Unang Araw ng Paglilingkod ng mga guro"
       },
       "description": {
-          "en": "The first day when faculty members begin their duties for the academic year.",
-          "fil": "Ang unang araw kung kailan nagsisimula ang mga guro sa kanilang tungkulin para sa akademikong taon."
+        "en": "The first day when faculty members begin their duties for the academic year.",
+        "fil": "Ang unang araw kung kailan nagsisimula ang mga guro sa kanilang tungkulin para sa akademikong taon."
       },
       "date": "2025-07-21",
       "day": { "en": "Monday", "fil": "Lunes" },
       "category": "academic",
-      "tags": ["service","faculty"],
+      "tags": ["service", "faculty"],
       "isFeatured": false,
       "isTrending": false
     },
     {
       "id": 8,
       "title": {
-          "en": "Faculty In-Service Training",
-          "fil": "Pagsasanay ng mga guro sa Serbisyo"
+        "en": "Faculty In-Service Training",
+        "fil": "Pagsasanay ng mga guro sa Serbisyo"
       },
       "description": {
-          "en": "A training program designed for faculty members to enhance their knowledge, skills, and professional development.",
-          "fil": "Isang programa ng pagsasanay na inilaan para sa mga guro upang mapahusay ang kanilang kaalaman, kasanayan, at propesyonal na pag-unlad."
+        "en": "A training program designed for faculty members to enhance their knowledge, skills, and professional development.",
+        "fil": "Isang programa ng pagsasanay na inilaan para sa mga guro upang mapahusay ang kanilang kaalaman, kasanayan, at propesyonal na pag-unlad."
       },
       "date": "2025-07-21 - 2025-07-25",
       "day": { "en": "Monday to Friday", "fil": "Lunes hanggang Biyernes" },
@@ -3496,12 +3496,12 @@
     {
       "id": 9,
       "title": {
-          "en": "First Day of Regular Classes and F2F Student Orientation",
-          "fil": "Unang Araw ng Regular na Klase at F2F na Pagsasanay para sa mga Estudyante"
+        "en": "First Day of Regular Classes and F2F Student Orientation",
+        "fil": "Unang Araw ng Regular na Klase at F2F na Pagsasanay para sa mga Estudyante"
       },
       "description": {
-          "en": "A day marking the start of regular classes alongside face-to-face orientation for students to guide them on policies, programs, and expectations for the academic year.",
-          "fil": "Isang araw ng pagsisimula ng mga regular na klase kasabay ng harapang oryentasyon para sa mga estudyante upang gabayan sila sa mga patakaran, programa, at mga inaasahan sa akademikong taon."
+        "en": "A day marking the start of regular classes alongside face-to-face orientation for students to guide them on policies, programs, and expectations for the academic year.",
+        "fil": "Isang araw ng pagsisimula ng mga regular na klase kasabay ng harapang oryentasyon para sa mga estudyante upang gabayan sila sa mga patakaran, programa, at mga inaasahan sa akademikong taon."
       },
       "date": "2025-07-28",
       "day": { "en": "Monday", "fil": "Lunes" },
@@ -3513,12 +3513,12 @@
     {
       "id": 10,
       "title": {
-          "en": "Last day of Adding/Changing of Subjects",
-          "fil": "Huling Araw ng Pagdaragdag/Pagbabago ng mga Paksa"
+        "en": "Last day of Adding/Changing of Subjects",
+        "fil": "Huling Araw ng Pagdaragdag/Pagbabago ng mga Paksa"
       },
       "description": {
-          "en": "The last day for students to add or change their subjects for the current semester.",
-          "fil": "Ang huling araw para sa mga estudyante na magdagdag o magpalit ng kanilang mga asignatura para sa kasalukuyang semestre."
+        "en": "The last day for students to add or change their subjects for the current semester.",
+        "fil": "Ang huling araw para sa mga estudyante na magdagdag o magpalit ng kanilang mga asignatura para sa kasalukuyang semestre."
       },
       "date": "2025-08-01",
       "day": { "en": "Friday", "fil": "Biyernes" },
@@ -3530,12 +3530,12 @@
     {
       "id": 11,
       "title": {
-          "en": "Last Day of Dropping of Subjects",
-          "fil": "Huling Araw ng Pag-drop ng mga Asignatura"
+        "en": "Last Day of Dropping of Subjects",
+        "fil": "Huling Araw ng Pag-drop ng mga Asignatura"
       },
       "description": {
-          "en": "The last day for students to drop or withdraw from their subjects for the current semester.",
-          "fil": "Ang huling araw para sa mga estudyante na mag-drop o mag-withdraw ng kanilang mga asignatura sa kasalukuyang semestre"
+        "en": "The last day for students to drop or withdraw from their subjects for the current semester.",
+        "fil": "Ang huling araw para sa mga estudyante na mag-drop o mag-withdraw ng kanilang mga asignatura sa kasalukuyang semestre"
       },
       "date": "2025-09-15",
       "day": { "en": "Monday", "fil": "Lunes" },
@@ -3547,12 +3547,12 @@
     {
       "id": 12,
       "title": {
-          "en": "Last Day of Settlement of Admission Requirements of New Students enrolled during the 1st Semester AY 2025-2026",
-          "fil": "Huling Araw ng Pagsasaayos ng mga Kinakailangang Dokumento ng mga Bagong Estudyanteng Nag-enroll sa Unang Semestre ng TA 2025-2026."
+        "en": "Last Day of Settlement of Admission Requirements of New Students enrolled during the 1st Semester AY 2025-2026",
+        "fil": "Huling Araw ng Pagsasaayos ng mga Kinakailangang Dokumento ng mga Bagong Estudyanteng Nag-enroll sa Unang Semestre ng TA 2025-2026."
       },
       "description": {
-          "en": "The last day for new students to submit and have their admission requirements processed for enrollment in the first semester of the academic year 2025-2026.",
-          "fil": "Ang huling araw para maisumite at maproseso ng mga bagong estudyante ang kanilang mga kinakailangang dokumento para sa enrollment sa unang semestre ng taong akademiko 2025-2026."
+        "en": "The last day for new students to submit and have their admission requirements processed for enrollment in the first semester of the academic year 2025-2026.",
+        "fil": "Ang huling araw para maisumite at maproseso ng mga bagong estudyante ang kanilang mga kinakailangang dokumento para sa enrollment sa unang semestre ng taong akademiko 2025-2026."
       },
       "date": "2025-09-15 - 2025-079-19",
       "day": { "en": "Monday to Friday", "fil": "Lunes hanggang Biyernes" },
@@ -3562,17 +3562,20 @@
       "isTrending": false
     },
     {
-      "id":13,
+      "id": 13,
       "title": {
-          "en": "Midterm Examinations",
-          "fil": "Pagsusulit sa Kalagitnaan ng Termino"
+        "en": "Midterm Examinations",
+        "fil": "Pagsusulit sa Kalagitnaan ng Termino"
       },
       "description": {
-          "en": "An exam conducted midway through the semester to assess students’ knowledge and progress on the topics covered.",
-          "fil": "Isang pagsusulit na isinasagawa sa kalagitnaan ng semestre upang masukat ang kaalaman at pag-unlad ng mga estudyante sa mga napag-aralang aralin."
+        "en": "An exam conducted midway through the semester to assess students’ knowledge and progress on the topics covered.",
+        "fil": "Isang pagsusulit na isinasagawa sa kalagitnaan ng semestre upang masukat ang kaalaman at pag-unlad ng mga estudyante sa mga napag-aralang aralin."
       },
       "date": "2025-09-25 - 2025-09-27",
-      "day": { "en": "Monday to Wednesday", "fil": "Lunes hanggang Miyerkules" },
+      "day": {
+        "en": "Monday to Wednesday",
+        "fil": "Lunes hanggang Miyerkules"
+      },
       "category": "Examination",
       "tags": ["academic", "examination", "midterm"],
       "isFeatured": false,
@@ -3581,12 +3584,12 @@
     {
       "id": 14,
       "title": {
-          "en": "Submission of Final Manuscript (Thesis/Dissertation) of Candidates for Midyear (November) 2025 Graduation",
-          "fil": "Pagsusumite ng Pinal na Manuskripto (Thesis/Dissertation) ng mga Kandidato para sa Midyear (Nobyembre) 2025 Pagtatapos."
+        "en": "Submission of Final Manuscript (Thesis/Dissertation) of Candidates for Midyear (November) 2025 Graduation",
+        "fil": "Pagsusumite ng Pinal na Manuskripto (Thesis/Dissertation) ng mga Kandidato para sa Midyear (Nobyembre) 2025 Pagtatapos."
       },
       "description": {
-          "en": "The process of submitting the final copy of the thesis or dissertation by candidates for the Midyear (November) 2025 Graduation as part of their graduation requirements.",
-          "fil": "Ang proseso ng pagsusumite ng pinal na kopya ng thesis o dissertation ng mga estudyanteng kandidato para sa Midyear (Nobyembre) 2025 Pagtatapos bilang bahagi ng kanilang mga graduation requirements."
+        "en": "The process of submitting the final copy of the thesis or dissertation by candidates for the Midyear (November) 2025 Graduation as part of their graduation requirements.",
+        "fil": "Ang proseso ng pagsusumite ng pinal na kopya ng thesis o dissertation ng mga estudyanteng kandidato para sa Midyear (Nobyembre) 2025 Pagtatapos bilang bahagi ng kanilang mga graduation requirements."
       },
       "date": "2025-11-17",
       "day": { "en": "Monday", "fil": "Lunes" },
@@ -3598,12 +3601,12 @@
     {
       "id": 15,
       "title": {
-          "en": "Final Examinations",
-          "fil": "Pangwakas na Pagsusulit"
+        "en": "Final Examinations",
+        "fil": "Pangwakas na Pagsusulit"
       },
       "description": {
-          "en": "An examination conducted at the end of the semester to assess the students' overall knowledge and understanding of all topics covered.",
-          "fil": "Isang pagsusulit na isinasagawa sa pagtatapos ng semestre upang sukatin ang kabuuang kaalaman at pag-unawa ng mga estudyante sa lahat ng paksang tinalakay."
+        "en": "An examination conducted at the end of the semester to assess the students' overall knowledge and understanding of all topics covered.",
+        "fil": "Isang pagsusulit na isinasagawa sa pagtatapos ng semestre upang sukatin ang kabuuang kaalaman at pag-unawa ng mga estudyante sa lahat ng paksang tinalakay."
       },
       "date": "2025-11-27 - 2025-11-29",
       "day": { "en": "Thursday to Saturday", "fil": "Huwebes hanggang Sabado" },
@@ -3615,12 +3618,12 @@
     {
       "id": 16,
       "title": {
-          "en": "End of 1st Semester AY 2025-2026 and Last Day of Completion of Incomplete (INC.) Rating obtained during the 1st Semester AY 2024-2025 (for the subjects without advanced subjects)",
-          "fil": "Pagtatapos ng Unang Semestre ng AY 2025-2026 at Huling Araw ng Pagtatapos ng Incomplete (INC.) na Marka na nakuha noong Unang Semestre ng AY 2024-2025 (para sa mga asignaturang walang kasunod na advanced na asignatura)."
+        "en": "End of 1st Semester AY 2025-2026 and Last Day of Completion of Incomplete (INC.) Rating obtained during the 1st Semester AY 2024-2025 (for the subjects without advanced subjects)",
+        "fil": "Pagtatapos ng Unang Semestre ng AY 2025-2026 at Huling Araw ng Pagtatapos ng Incomplete (INC.) na Marka na nakuha noong Unang Semestre ng AY 2024-2025 (para sa mga asignaturang walang kasunod na advanced na asignatura)."
       },
       "description": {
-          "en": "The end of the 1st semester of AY 2025-2026 and the final deadline for students to complete their Incomplete (INC.) grades obtained during the 1st semester of AY 2024-2025, applicable only to subjects without advanced courses.",
-          "fil": "Ang araw ng pagtatapos ng unang semestre ng AY 2025-2026 at ang itinakdang huling araw para sa mga estudyante na makumpleto ang kanilang Incomplete (INC.) na marka mula sa unang semestre ng AY 2024-2025, para lamang sa mga asignaturang walang kasunod na advanced na kurso."
+        "en": "The end of the 1st semester of AY 2025-2026 and the final deadline for students to complete their Incomplete (INC.) grades obtained during the 1st semester of AY 2024-2025, applicable only to subjects without advanced courses.",
+        "fil": "Ang araw ng pagtatapos ng unang semestre ng AY 2025-2026 at ang itinakdang huling araw para sa mga estudyante na makumpleto ang kanilang Incomplete (INC.) na marka mula sa unang semestre ng AY 2024-2025, para lamang sa mga asignaturang walang kasunod na advanced na kurso."
       },
       "date": "2025-11-08",
       "day": { "en": "Saturday", "fil": "Sabado" },
@@ -3632,12 +3635,12 @@
     {
       "id": 17,
       "title": {
-          "en": "Semestral Break",
-          "fil": "Pansamantalang Bakasyon sa Pagitan ng mga Semestre"
+        "en": "Semestral Break",
+        "fil": "Pansamantalang Bakasyon sa Pagitan ng mga Semestre"
       },
       "description": {
-          "en": "A break period for students and faculty after the end of a semester and before the start of the next one.",
-          "fil": "Isang panahon ng pahinga para sa mga estudyante at guro matapos ang pagtatapos ng semestre bago magsimula ang susunod na semestre."
+        "en": "A break period for students and faculty after the end of a semester and before the start of the next one.",
+        "fil": "Isang panahon ng pahinga para sa mga estudyante at guro matapos ang pagtatapos ng semestre bago magsimula ang susunod na semestre."
       },
       "date": "2025-12-01 - 2025-12-14",
       "day": { "en": "Monday to Friday", "fil": "Lunes hanggang Biyernes" },
@@ -3649,13 +3652,12 @@
     {
       "id": 18,
       "title": {
-          "en": "Online Admissiion of Transferees, Returning and Graduate Students for 2nd Semester AY 2025-2026",
-          "fil": "Online Admission ng mga Transferee, Nagbabalik na Estudyante at mga Mag-aaral sa Antas Gradwado para sa Ikalawang Semestre ng AY 2025-2026"
-
+        "en": "Online Admissiion of Transferees, Returning and Graduate Students for 2nd Semester AY 2025-2026",
+        "fil": "Online Admission ng mga Transferee, Nagbabalik na Estudyante at mga Mag-aaral sa Antas Gradwado para sa Ikalawang Semestre ng AY 2025-2026"
       },
       "description": {
-          "en": "An online application and admission process for transferees, returning students, and graduate-level students for the second semester of Academic Year 2025-2026.",
-          "fil": "Isang online na proseso ng aplikasyon at pagtanggap para sa mga transferee, nagbabalik na estudyante, at mga mag-aaral sa antas gradwado para sa ikalawang semestre ng taong akademiko 2025-2026."
+        "en": "An online application and admission process for transferees, returning students, and graduate-level students for the second semester of Academic Year 2025-2026.",
+        "fil": "Isang online na proseso ng aplikasyon at pagtanggap para sa mga transferee, nagbabalik na estudyante, at mga mag-aaral sa antas gradwado para sa ikalawang semestre ng taong akademiko 2025-2026."
       },
       "date": "2025-12-01 - 2025-012-05",
       "day": { "en": "Monday to Friday", "fil": "Lunes hanggang Biyernes" },
@@ -3667,12 +3669,12 @@
     {
       "id": 19,
       "title": {
-          "en": "Last Day of Online Posting of Grades of Faculty",
-          "fil": "Huling Araw ng Online na Paglalathala ng mga Grado ng mga Guro"
+        "en": "Last Day of Online Posting of Grades of Faculty",
+        "fil": "Huling Araw ng Online na Paglalathala ng mga Grado ng mga Guro"
       },
       "description": {
-          "en": "The final deadline for faculty to post students' official grades in the online system for the current semester.",
-          "fil": "Ang itinakdang huling araw para sa mga guro na mag-post ng mga opisyal na grado ng mga estudyante sa online system para sa kasalukuyang semestre."
+        "en": "The final deadline for faculty to post students' official grades in the online system for the current semester.",
+        "fil": "Ang itinakdang huling araw para sa mga guro na mag-post ng mga opisyal na grado ng mga estudyante sa online system para sa kasalukuyang semestre."
       },
       "date": "2025-12-07",
       "day": { "en": "Sunday", "fil": "Linggo" },
@@ -3684,12 +3686,12 @@
     {
       "id": 20,
       "title": {
-          "en": "Submission of Official Grading Sheets(Hard Copies) to ARO",
-          "fil": "Pagsusumite ng Opisyal na mga Sheet ng Pagmamarka (Hard Copies) sa ARO"
+        "en": "Submission of Official Grading Sheets(Hard Copies) to ARO",
+        "fil": "Pagsusumite ng Opisyal na mga Sheet ng Pagmamarka (Hard Copies) sa ARO"
       },
       "description": {
-          "en": "The process of submitting the printed official grading sheets by faculty to the Academic Records Office (ARO) as part of the documentation of students' grades.",
-          "fil": "Ang proseso ng pagsumite ng naka-print na opisyal na grading sheets ng mga guro sa Academic Records Office (ARO) bilang bahagi ng dokumentasyon ng mga grado ng estudyante."
+        "en": "The process of submitting the printed official grading sheets by faculty to the Academic Records Office (ARO) as part of the documentation of students' grades.",
+        "fil": "Ang proseso ng pagsumite ng naka-print na opisyal na grading sheets ng mga guro sa Academic Records Office (ARO) bilang bahagi ng dokumentasyon ng mga grado ng estudyante."
       },
       "date": "2025-12-09",
       "day": { "en": "Tuesday", "fil": "Martes" },
@@ -3701,12 +3703,12 @@
     {
       "id": 21,
       "title": {
-          "en": "Deliberation of Final List of Candidates for Midyear / November 2025 Graduation / 70th Commencement Exercises by Department/College/Graduate School",
-          "fil": "Pagpapasya sa Pinal na Listahan ng mga Kandidato para sa Midyear / Nobyembre 2025 Pagtatapos / ika-70 na Seremonya ng Pagtatapos ng Kagawaran/Kolehiyo/Graduate School"
+        "en": "Deliberation of Final List of Candidates for Midyear / November 2025 Graduation / 70th Commencement Exercises by Department/College/Graduate School",
+        "fil": "Pagpapasya sa Pinal na Listahan ng mga Kandidato para sa Midyear / Nobyembre 2025 Pagtatapos / ika-70 na Seremonya ng Pagtatapos ng Kagawaran/Kolehiyo/Graduate School"
       },
       "description": {
-          "en": "A thorough review and approval process by each department, college, or graduate school of the final list of student candidates for the Midyear / November 2025 Graduation and the 70th Commencement Exercises.",
-          "fil": "Isang proseso ng masusing pagsusuri at pag-apruba ng bawat departamento, kolehiyo, o graduate school sa pinal na listahan ng mga estudyanteng kandidato para sa pagtatapos sa Midyear / Nobyembre 2025 at sa ika-70 na Seremonya ng Pagtatapos."
+        "en": "A thorough review and approval process by each department, college, or graduate school of the final list of student candidates for the Midyear / November 2025 Graduation and the 70th Commencement Exercises.",
+        "fil": "Isang proseso ng masusing pagsusuri at pag-apruba ng bawat departamento, kolehiyo, o graduate school sa pinal na listahan ng mga estudyanteng kandidato para sa pagtatapos sa Midyear / Nobyembre 2025 at sa ika-70 na Seremonya ng Pagtatapos."
       },
       "date": "2025-12-11",
       "day": { "en": "Thursday", "fil": "Huwebes" },
@@ -3718,12 +3720,12 @@
     {
       "id": 22,
       "title": {
-          "en": "Presentation of Final List of Candidates for Midyear / November 2025 Graduation / 70th Commencement Exercises before the Academic Council",
-          "fil": "Pagtatanghal ng Pinal na Listahan ng mga Kandidato para sa Midyear / Nobyembre 2025 Pagtatapos / ika-70 na Seremonya ng Pagtatapos sa harap ng Academic Council"
+        "en": "Presentation of Final List of Candidates for Midyear / November 2025 Graduation / 70th Commencement Exercises before the Academic Council",
+        "fil": "Pagtatanghal ng Pinal na Listahan ng mga Kandidato para sa Midyear / Nobyembre 2025 Pagtatapos / ika-70 na Seremonya ng Pagtatapos sa harap ng Academic Council"
       },
       "description": {
-          "en": "Isang pormal na presentasyon ng pinal na listahan ng mga estudyanteng kandidato para sa pagtatapos sa Midyear / Nobyembre 2025 at sa ika-70 na Seremonya ng Pagtatapos, na isinasagawa sa harap ng Academic Council para sa pagsusuri at pinal na pag-apruba.",
-          "fil": "A formal presentation of the final list of student candidates for the Midyear / November 2025 Graduation and the 70th Commencement Exercises before the Academic Council for review and final approval."
+        "en": "Isang pormal na presentasyon ng pinal na listahan ng mga estudyanteng kandidato para sa pagtatapos sa Midyear / Nobyembre 2025 at sa ika-70 na Seremonya ng Pagtatapos, na isinasagawa sa harap ng Academic Council para sa pagsusuri at pinal na pag-apruba.",
+        "fil": "A formal presentation of the final list of student candidates for the Midyear / November 2025 Graduation and the 70th Commencement Exercises before the Academic Council for review and final approval."
       },
       "date": "4th Quarter 2025",
       "day": { "en": "Monday to Friday", "fil": "Lunes hanggang Biyernes" },
@@ -3735,12 +3737,12 @@
     {
       "id": 23,
       "title": {
-          "en": "Midyear (November) 2025 Graduation / 70th Commencement Exercises",
-          "fil": "Pagtatapos sa Midyear (Nobyembre) 2025 / ika-70 na Seremonya ng Pagtatapos"
+        "en": "Midyear (November) 2025 Graduation / 70th Commencement Exercises",
+        "fil": "Pagtatapos sa Midyear (Nobyembre) 2025 / ika-70 na Seremonya ng Pagtatapos"
       },
       "description": {
-          "en": "A formal graduation ceremony held during Midyear (November) to confer diplomas and recognize students who have successfully completed their academic programs for Academic Year 2025-2026.",
-          "fil": "Isang pormal na seremonya ng pagtatapos na ginaganap tuwing Midyear (Nobyembre) upang igawad ang mga diploma at pagkilala sa mga estudyanteng matagumpay na nakatapos ng kanilang mga kurso sa ilalim ng taong akademiko 2025-2026."
+        "en": "A formal graduation ceremony held during Midyear (November) to confer diplomas and recognize students who have successfully completed their academic programs for Academic Year 2025-2026.",
+        "fil": "Isang pormal na seremonya ng pagtatapos na ginaganap tuwing Midyear (Nobyembre) upang igawad ang mga diploma at pagkilala sa mga estudyanteng matagumpay na nakatapos ng kanilang mga kurso sa ilalim ng taong akademiko 2025-2026."
       },
       "date": "2025-12-17",
       "day": { "en": "Wednesday", "fil": "Miyerkules" },
@@ -3769,12 +3771,12 @@
     {
       "id": 25,
       "title": {
-          "en": "Filling of Letter Request for Special/Petition Class (SPC)/Evaluation Period",
-          "fil": "Pagsusumite ng Sulat para sa Special/Petition Class (SPC) / Panahon ng Ebalwasyon"
+        "en": "Filling of Letter Request for Special/Petition Class (SPC)/Evaluation Period",
+        "fil": "Pagsusumite ng Sulat para sa Special/Petition Class (SPC) / Panahon ng Ebalwasyon"
       },
       "description": {
-          "en": "Students may file SPC letters and undergo evaluation during this period.",
-          "fil": "Maaaring magsumite ng liham para sa SPC at sumailalim sa ebalwasyon ang mga estudyante sa panahong ito."
+        "en": "Students may file SPC letters and undergo evaluation during this period.",
+        "fil": "Maaaring magsumite ng liham para sa SPC at sumailalim sa ebalwasyon ang mga estudyante sa panahong ito."
       },
       "date": "2025-12-09 to 2025-12-12",
       "day": { "en": "Tuesday to Friday", "fil": "Martes hanggang Biyernes" },
@@ -3786,12 +3788,12 @@
     {
       "id": 26,
       "title": {
-          "en": "First Day of Service of Faculty / First Day of Regular Classes",
-          "fil": "Unang Araw ng Serbisyo ng mga Guro / Unang Araw ng Regular na Klase"
+        "en": "First Day of Service of Faculty / First Day of Regular Classes",
+        "fil": "Unang Araw ng Serbisyo ng mga Guro / Unang Araw ng Regular na Klase"
       },
       "description": {
-          "en": "Start of faculty duties and beginning of regular classes for 2nd semester AY 2025–2026.",
-          "fil": "Pagbabalik serbisyo ng mga guro at pagsisimula ng regular na klase para sa 2nd Semester, AY 2025–2026."
+        "en": "Start of faculty duties and beginning of regular classes for 2nd semester AY 2025–2026.",
+        "fil": "Pagbabalik serbisyo ng mga guro at pagsisimula ng regular na klase para sa 2nd Semester, AY 2025–2026."
       },
       "date": "2025-12-15",
       "day": { "en": "Monday", "fil": "Lunes" },
@@ -3803,12 +3805,12 @@
     {
       "id": 27,
       "title": {
-          "en": "Last Day of Adding/Changing of Subjects",
-          "fil": "Huling Araw ng Pagdaragdag/Pagpapalit ng Asignatura"
+        "en": "Last Day of Adding/Changing of Subjects",
+        "fil": "Huling Araw ng Pagdaragdag/Pagpapalit ng Asignatura"
       },
       "description": {
-          "en": "Final day to add or change subjects for the 2nd semester.",
-          "fil": "Huling araw ng pagdaragdag o pagpapalit ng mga asignatura para sa ikalawang semestre."
+        "en": "Final day to add or change subjects for the 2nd semester.",
+        "fil": "Huling araw ng pagdaragdag o pagpapalit ng mga asignatura para sa ikalawang semestre."
       },
       "date": "2025-12-19",
       "day": { "en": "Friday", "fil": "Biyernes" },
@@ -3820,12 +3822,12 @@
     {
       "id": 28,
       "title": {
-          "en": "2nd Semester AY 2025-2026",
-          "fil": "Ikalawang Semestre AY 2025-2026"
+        "en": "2nd Semester AY 2025-2026",
+        "fil": "Ikalawang Semestre AY 2025-2026"
       },
       "description": {
-          "en": "Official class period for the 2nd semester of AY 2025–2026.",
-          "fil": "Opisyal na panahon ng klase para sa ikalawang semestre ng AY 2025–2026."
+        "en": "Official class period for the 2nd semester of AY 2025–2026.",
+        "fil": "Opisyal na panahon ng klase para sa ikalawang semestre ng AY 2025–2026."
       },
       "date": "2025-12-15 to 2026-04-25",
       "day": { "en": "Monday to Saturday", "fil": "Lunes hanggang Sabado" },
@@ -3837,12 +3839,12 @@
     {
       "id": 29,
       "title": {
-          "en": "Last Day of Dropping of Subjects",
-          "fil": "Huling Araw ng Pag-drop ng Asignatura"
+        "en": "Last Day of Dropping of Subjects",
+        "fil": "Huling Araw ng Pag-drop ng Asignatura"
       },
       "description": {
-          "en": "Deadline for students to drop subjects.",
-          "fil": "Huling araw ng pag-drop ng asignatura ng mga estudyante."
+        "en": "Deadline for students to drop subjects.",
+        "fil": "Huling araw ng pag-drop ng asignatura ng mga estudyante."
       },
       "date": "2026-02-09",
       "day": { "en": "Monday", "fil": "Lunes" },
@@ -3854,12 +3856,12 @@
     {
       "id": 30,
       "title": {
-          "en": "Last Day of Settlement of Admission Requirements for New Students (2nd Semester)",
-          "fil": "Huling Araw ng Pagsumite ng Admission Requirements ng mga Bagong Mag-aaral (Ika-2 Semestre)"
+        "en": "Last Day of Settlement of Admission Requirements for New Students (2nd Semester)",
+        "fil": "Huling Araw ng Pagsumite ng Admission Requirements ng mga Bagong Mag-aaral (Ika-2 Semestre)"
       },
       "description": {
-          "en": "Final day for new students to submit admission requirements for the 2nd semester.",
-          "fil": "Huling araw ng pagsusumite ng admission requirements para sa mga bagong estudyante sa ikalawang semestre."
+        "en": "Final day for new students to submit admission requirements for the 2nd semester.",
+        "fil": "Huling araw ng pagsusumite ng admission requirements para sa mga bagong estudyante sa ikalawang semestre."
       },
       "date": "2026-02-09 to 2026-02-13",
       "day": { "en": "Monday to Friday", "fil": "Lunes hanggang Biyernes" },
@@ -3871,12 +3873,12 @@
     {
       "id": 31,
       "title": {
-          "en": "Midterm Examination",
-          "fil": "Pagsusulit sa Midterm"
+        "en": "Midterm Examination",
+        "fil": "Pagsusulit sa Midterm"
       },
       "description": {
-          "en": "Midterm examinations for all enrolled students.",
-          "fil": "Pagsusulit sa Midterm para sa lahat ng naka-enroll na mga estudyante."
+        "en": "Midterm examinations for all enrolled students.",
+        "fil": "Pagsusulit sa Midterm para sa lahat ng naka-enroll na mga estudyante."
       },
       "date": "2026-02-19 to 2026-02-21",
       "day": { "en": "Thursday to Saturday", "fil": "Huwebes hanggang Sabado" },
@@ -3888,17 +3890,17 @@
     {
       "id": 32,
       "title": {
-          "en": "Filing of Application for April 2026 Graduation / 70th Commencement Exercises",
-          "fil": "Pagsusumite ng Aplikasyon para sa Pagtatapos sa Abril 2026 / ika-70 Pagtatapos"
+        "en": "Filing of Application for April 2026 Graduation / 70th Commencement Exercises",
+        "fil": "Pagsusumite ng Aplikasyon para sa Pagtatapos sa Abril 2026 / ika-70 Pagtatapos"
       },
       "description": {
-          "en": "Deadline for filing graduation applications for April 2026 commencement exercises.",
-          "fil": "Huling petsa para sa pagsusumite ng aplikasyon sa graduation para sa pagtatapos sa Abril 2026."
+        "en": "Deadline for filing graduation applications for April 2026 commencement exercises.",
+        "fil": "Huling petsa para sa pagsusumite ng aplikasyon sa graduation para sa pagtatapos sa Abril 2026."
       },
       "date": "2026-02-23 to 2026-03-06",
       "day": {
-          "en": "Monday to Friday",
-          "fil": "Lunes hanggang Biyernes"
+        "en": "Monday to Friday",
+        "fil": "Lunes hanggang Biyernes"
       },
       "category": "academic",
       "tags": ["academic", "graduation", "application", "commencement"],
@@ -3908,17 +3910,17 @@
     {
       "id": 33,
       "title": {
-          "en": "Presentation of Final List of Candidates for April 2026 Graduation / 70th Commencement Exercises before the Academic Council",
-          "fil": "Presentasyon ng Huling Listahan ng mga Magsisipagtapos sa Abril 2026 / Ika-70 na Pagtatapos sa Academic Council"
+        "en": "Presentation of Final List of Candidates for April 2026 Graduation / 70th Commencement Exercises before the Academic Council",
+        "fil": "Presentasyon ng Huling Listahan ng mga Magsisipagtapos sa Abril 2026 / Ika-70 na Pagtatapos sa Academic Council"
       },
       "description": {
-          "en": "Presentation of the final list of graduation candidates to the University's Academic Council.",
-          "fil": "Pagpapakita ng huling listahan ng mga magsisipagtapos sa Academic Council ng Unibersidad."
+        "en": "Presentation of the final list of graduation candidates to the University's Academic Council.",
+        "fil": "Pagpapakita ng huling listahan ng mga magsisipagtapos sa Academic Council ng Unibersidad."
       },
       "date": "2026-02",
       "day": {
-          "en": "2nd Quarter 2026",
-          "fil": "Ikalawang Markahan ng 2026"
+        "en": "2nd Quarter 2026",
+        "fil": "Ikalawang Markahan ng 2026"
       },
       "category": "academic",
       "tags": ["academic", "graduation", "academic-council", "candidates"],
@@ -3928,17 +3930,17 @@
     {
       "id": 34,
       "title": {
-          "en": "Final Examination",
-          "fil": "Huling Pagsusulit"
+        "en": "Final Examination",
+        "fil": "Huling Pagsusulit"
       },
       "description": {
-          "en": "Final examinations for the 2nd semester for all enrolled students.",
-          "fil": "Huling pagsusulit sa ikalawang semestre para sa lahat ng naka-enroll na mga estudyante."
+        "en": "Final examinations for the 2nd semester for all enrolled students.",
+        "fil": "Huling pagsusulit sa ikalawang semestre para sa lahat ng naka-enroll na mga estudyante."
       },
       "date": "2026-04-23 to 2026-04-25",
       "day": {
-          "en": "Thursday to Saturday",
-          "fil": "Huwebes hanggang Sabado"
+        "en": "Thursday to Saturday",
+        "fil": "Huwebes hanggang Sabado"
       },
       "category": "academic",
       "tags": ["academic", "examination", "final"],
@@ -3948,17 +3950,17 @@
     {
       "id": 35,
       "title": {
-          "en": "Deliberation of Final List of Candidates for May 2026 Graduation / 70th Commencement Exercises by Department/College",
-          "fil": "Pagpupulong para sa Huling Listahan ng mga Magsisispagtapos sa Mayo 2026 / Ikaw-70 Pagtatapos ng bawat Departamento/Kolehiyo."
+        "en": "Deliberation of Final List of Candidates for May 2026 Graduation / 70th Commencement Exercises by Department/College",
+        "fil": "Pagpupulong para sa Huling Listahan ng mga Magsisispagtapos sa Mayo 2026 / Ikaw-70 Pagtatapos ng bawat Departamento/Kolehiyo."
       },
       "description": {
-          "en": "University's department/college deliberation on final graduation candidates list.",
-          "fil": "Pagpupulong ng mga departamento/kolehiyo ng unibersidad sa huling listahan ng mga magsisipagtapos."
+        "en": "University's department/college deliberation on final graduation candidates list.",
+        "fil": "Pagpupulong ng mga departamento/kolehiyo ng unibersidad sa huling listahan ng mga magsisipagtapos."
       },
       "date": "2026-05-13",
       "day": {
-          "en": "Wednesday",
-          "fil": "Miyerkules"
+        "en": "Wednesday",
+        "fil": "Miyerkules"
       },
       "category": "academic",
       "tags": ["academic", "graduation", "deliberation"],
@@ -3968,17 +3970,17 @@
     {
       "id": 36,
       "title": {
-          "en": "Deliberation of Final List of Graduating Students by the Committee on Students' Records",
-          "fil": "Pagpupulong ng Committee sa Students' Records sa Huling Listahan ng mga Magsisipagtapos"
+        "en": "Deliberation of Final List of Graduating Students by the Committee on Students' Records",
+        "fil": "Pagpupulong ng Committee sa Students' Records sa Huling Listahan ng mga Magsisipagtapos"
       },
       "description": {
-          "en": "Committee deliberation on the final list of graduating students.",
-          "fil": "Pagpupulong ng komite sa huling listahan ng mga magsisipagtapos."
+        "en": "Committee deliberation on the final list of graduating students.",
+        "fil": "Pagpupulong ng komite sa huling listahan ng mga magsisipagtapos."
       },
       "date": "2026-05-14",
       "day": {
-          "en": "Thursday",
-          "fil": "Huwebes"
+        "en": "Thursday",
+        "fil": "Huwebes"
       },
       "category": "academic",
       "tags": ["academic", "graduation", "committee", "students-records"],
@@ -3988,17 +3990,17 @@
     {
       "id": 37,
       "title": {
-          "en": "End of 2nd Semester AY 2025-2026 and Last Day of Completion of Incomplete (INC.) Rating",
-          "fil": "Huling Araw ng 2nd Semester, AY 2025-2026 at Pagkumpleto ng Incomplete (INC.) Rating"
+        "en": "End of 2nd Semester AY 2025-2026 and Last Day of Completion of Incomplete (INC.) Rating",
+        "fil": "Huling Araw ng 2nd Semester, AY 2025-2026 at Pagkumpleto ng Incomplete (INC.) Rating"
       },
       "description": {
-          "en": "End of second semester and deadline for completing incomplete ratings from previous semester.",
-          "fil": "Pagtatapos ng ikalawang semestre at huling araw para sa pagkumpleto ng mga incomplete rating mula sa nagdaang semestre."
+        "en": "End of second semester and deadline for completing incomplete ratings from previous semester.",
+        "fil": "Pagtatapos ng ikalawang semestre at huling araw para sa pagkumpleto ng mga incomplete rating mula sa nagdaang semestre."
       },
       "date": "2026-04-24",
       "day": {
-          "en": "Friday",
-          "fil": "Biyernes"
+        "en": "Friday",
+        "fil": "Biyernes"
       },
       "category": "academic",
       "tags": ["academic", "semester-end", "incomplete-rating", "deadline"],
@@ -4008,25 +4010,25 @@
     {
       "id": 38,
       "title": {
-          "en": "Submission of Final Manuscript (Thesis/Dissertation) of Candidates for April 2026 Graduation",
-          "fil": "Pagsusumite ng Pinal na Manuscript (Thesis/Dissertation) ng mga Magsisipagtapos sa Abril 2026"
+        "en": "Submission of Final Manuscript (Thesis/Dissertation) of Candidates for April 2026 Graduation",
+        "fil": "Pagsusumite ng Pinal na Manuscript (Thesis/Dissertation) ng mga Magsisipagtapos sa Abril 2026"
       },
       "description": {
-          "en": "Deadline for submitting final thesis or dissertation manuscripts for April graduation 2026.",
-          "fil": "Huling petsa para sa pagsusumite ng pinal na thesis o dissertation manuscript para sa graduation sa Abril 2026."
+        "en": "Deadline for submitting final thesis or dissertation manuscripts for April graduation 2026.",
+        "fil": "Huling petsa para sa pagsusumite ng pinal na thesis o dissertation manuscript para sa graduation sa Abril 2026."
       },
       "date": "2026-04-28",
       "day": {
-          "en": "Tuesday",
-          "fil": "Martes"
+        "en": "Tuesday",
+        "fil": "Martes"
       },
       "category": "academic",
       "tags": [
-          "academic",
-          "thesis",
-          "dissertation",
-          "manuscript",
-          "graduation"
+        "academic",
+        "thesis",
+        "dissertation",
+        "manuscript",
+        "graduation"
       ],
       "isFeatured": false,
       "isTrending": false
@@ -4034,17 +4036,17 @@
     {
       "id": 39,
       "title": {
-          "en": "Last Day of Online Posting of Grades by Faculty Members / Submission of Official Grading Sheets for Graduating and Non-Graduating Students/Last Day of Service of Faculty",
-          "fil": "Huling Araw ng Pag-post Online ng mga Grado ng mga Faculty Members / Pagsusumite ng Official Grading Sheets para sa mga graduating at non-graduating na mga Estudyante/Huling Araw ng Serbisyo ng Faculty"
+        "en": "Last Day of Online Posting of Grades by Faculty Members / Submission of Official Grading Sheets for Graduating and Non-Graduating Students/Last Day of Service of Faculty",
+        "fil": "Huling Araw ng Pag-post Online ng mga Grado ng mga Faculty Members / Pagsusumite ng Official Grading Sheets para sa mga graduating at non-graduating na mga Estudyante/Huling Araw ng Serbisyo ng Faculty"
       },
       "description": {
-          "en": "Final deadline for faculty to submit grades online and official grading sheets.",
-          "fil": "Huling araw para sa mga faculty ng pagsusumite ng mga grado online at opisyal na talaang ng marka"
+        "en": "Final deadline for faculty to submit grades online and official grading sheets.",
+        "fil": "Huling araw para sa mga faculty ng pagsusumite ng mga grado online at opisyal na talaang ng marka"
       },
       "date": "2026-05-10",
       "day": {
-          "en": "Sunday",
-          "fil": "Linggo"
+        "en": "Sunday",
+        "fil": "Linggo"
       },
       "category": "academic",
       "tags": ["academic", "grades", "faculty", "grading-sheets", "deadline"],
@@ -4054,17 +4056,17 @@
     {
       "id": 40,
       "title": {
-          "en": "Submission of Official Grading Sheets (hardcopies) to ARO",
-          "fil": "Pagsusumite ng Official Grading Sheets (nakalimbag na kopya) sa ARO"
+        "en": "Submission of Official Grading Sheets (hardcopies) to ARO",
+        "fil": "Pagsusumite ng Official Grading Sheets (nakalimbag na kopya) sa ARO"
       },
       "description": {
-          "en": "Submission of physical copies of official grading sheets to the Academic Records Office.",
-          "fil": "Pagsusumite ng mga nakalimbag na kopya ng mga opisyal na talaan ng marka sa Tanggapan ng Mga Akademikong Rekord."
+        "en": "Submission of physical copies of official grading sheets to the Academic Records Office.",
+        "fil": "Pagsusumite ng mga nakalimbag na kopya ng mga opisyal na talaan ng marka sa Tanggapan ng Mga Akademikong Rekord."
       },
       "date": "2026-05-11",
       "day": {
-          "en": "Monday",
-          "fil": "Lunes"
+        "en": "Monday",
+        "fil": "Lunes"
       },
       "category": "academic",
       "tags": ["academic", "grading-sheets", "ARO", "hardcopy", "submission"],
@@ -4074,17 +4076,17 @@
     {
       "id": 41,
       "title": {
-          "en": "April 2026 Graduation / 70th Commencement Exercises",
-          "fil": "Pagtatapos sa Abril 2026 / Ika-70 na Pagtatapos"
+        "en": "April 2026 Graduation / 70th Commencement Exercises",
+        "fil": "Pagtatapos sa Abril 2026 / Ika-70 na Pagtatapos"
       },
       "description": {
-          "en": "Graduation ceremony and 70th commencement exercises.",
-          "fil": "Seremonya ng mga Magsisipagtapos at Ika-70 Pagtatapos."
+        "en": "Graduation ceremony and 70th commencement exercises.",
+        "fil": "Seremonya ng mga Magsisipagtapos at Ika-70 Pagtatapos."
       },
       "date": "2026-05-28",
       "day": {
-          "en": "Thursday",
-          "fil": "Huwebes"
+        "en": "Thursday",
+        "fil": "Huwebes"
       },
       "category": "academic",
       "tags": ["academic", "graduation", "commencement", "ceremony"],
@@ -4094,17 +4096,17 @@
     {
       "id": 42,
       "title": {
-          "en": "Filing of Request for SPCs / Evaluation of SPCs",
-          "fil": "Pagsusumite ng Request para sa SPCs o Ebalwasyon ng SPCs"
+        "en": "Filing of Request for SPCs / Evaluation of SPCs",
+        "fil": "Pagsusumite ng Request para sa SPCs o Ebalwasyon ng SPCs"
       },
       "description": {
-          "en": "Period for filing requests and evaluation of Subject/Course Permits (SPCs).",
-          "fil": "Panahon para sa pagsusumite ng mga request at ebalwasyon ng mga Subject/Course Permits (SPCs)."
+        "en": "Period for filing requests and evaluation of Subject/Course Permits (SPCs).",
+        "fil": "Panahon para sa pagsusumite ng mga request at ebalwasyon ng mga Subject/Course Permits (SPCs)."
       },
       "date": "2026-05-13 to 2026-05-15",
       "day": {
-          "en": "Wednesday to Friday",
-          "fil": "Miyerkules hanggang Biyernes"
+        "en": "Wednesday to Friday",
+        "fil": "Miyerkules hanggang Biyernes"
       },
       "category": "academic",
       "tags": ["academic", "SPC", "evaluation", "permits"],
@@ -4114,26 +4116,26 @@
     {
       "id": 43,
       "title": {
-          "en": "Online Admission of Transferees, Returning and Graduate Students for MidyearTerm 2026",
-          "fil": "Online na Pagtatala ng mga Transferees, Returning at Graduate Students para sa MidyearTerm 2026"
+        "en": "Online Admission of Transferees, Returning and Graduate Students for MidyearTerm 2026",
+        "fil": "Online na Pagtatala ng mga Transferees, Returning at Graduate Students para sa MidyearTerm 2026"
       },
       "description": {
-          "en": "Online admission period for transferee, returning, and graduate students for midyear term.",
-          "fil": "Panahon ng online na pagtatala para sa mga transferee, returning, at graduate students para sa midyear term."
+        "en": "Online admission period for transferee, returning, and graduate students for midyear term.",
+        "fil": "Panahon ng online na pagtatala para sa mga transferee, returning, at graduate students para sa midyear term."
       },
       "date": "2026-05-12 to 2026-05-13",
       "day": {
-          "en": "Tuesday to Wednesday",
-          "fil": "Martes hanggang Miyerkules"
+        "en": "Tuesday to Wednesday",
+        "fil": "Martes hanggang Miyerkules"
       },
       "category": "admission",
       "tags": [
-          "academic",
-          "admission",
-          "online",
-          "transferees",
-          "graduate",
-          "midyear"
+        "academic",
+        "admission",
+        "online",
+        "transferees",
+        "graduate",
+        "midyear"
       ],
       "isFeatured": false,
       "isTrending": false
@@ -4141,17 +4143,17 @@
     {
       "id": 44,
       "title": {
-          "en": "Online Regular Enrollment Period",
-          "fil": "Panahon ng Regular na Online na Pagpapatala"
+        "en": "Online Regular Enrollment Period",
+        "fil": "Panahon ng Regular na Online na Pagpapatala"
       },
       "description": {
-          "en": "Regular online enrollment period for the upcoming term.",
-          "fil": "Panahon ng regular na online na pagpapatala para sa darating na termino."
+        "en": "Regular online enrollment period for the upcoming term.",
+        "fil": "Panahon ng regular na online na pagpapatala para sa darating na termino."
       },
       "date": "2026-05-14 to 2026-05-15",
       "day": {
-          "en": "Thursday to Friday",
-          "fil": "Huwebes hanggang Biyernes"
+        "en": "Thursday to Friday",
+        "fil": "Huwebes hanggang Biyernes"
       },
       "category": "enrollment",
       "tags": ["academic", "enrollment", "online", "regular"],
@@ -4161,17 +4163,17 @@
     {
       "id": 45,
       "title": {
-          "en": "Last Day of Adding/Changing of Subjects",
-          "fil": "Huling Araw ng Pagdagdag/Pagbabago ng mga Asignatura"
+        "en": "Last Day of Adding/Changing of Subjects",
+        "fil": "Huling Araw ng Pagdagdag/Pagbabago ng mga Asignatura"
       },
       "description": {
-          "en": "Final deadline for adding or changing subjects for undergraduate and graduate students.",
-          "fil": "Huling araw para sa pagdagdag o pagbabago ng mga asignatura para sa mga undergraduate at graduate na estudyante."
+        "en": "Final deadline for adding or changing subjects for undergraduate and graduate students.",
+        "fil": "Huling araw para sa pagdagdag o pagbabago ng mga asignatura para sa mga undergraduate at graduate na estudyante."
       },
       "date": "2026-05-22 and 2026-05-29",
       "day": {
-          "en": "Friday (UGS: May 22, GS: May 29)",
-          "fil": "Biyernes (UGS: Mayo 22, GS: Mayo 29)"
+        "en": "Friday (UGS: May 22, GS: May 29)",
+        "fil": "Biyernes (UGS: Mayo 22, GS: Mayo 29)"
       },
       "category": "academic",
       "tags": ["academic", "registration", "subjects", "midyear", "deadline"],
@@ -4181,26 +4183,26 @@
     {
       "id": 46,
       "title": {
-          "en": "Last Day of Dropping of Subjects",
-          "fil": "Huling Araw ng Pag-drop ng mga Asignatura"
+        "en": "Last Day of Dropping of Subjects",
+        "fil": "Huling Araw ng Pag-drop ng mga Asignatura"
       },
       "description": {
-          "en": "Final deadline for dropping subjects during the midyear term.",
-          "fil": "Huling Araw para sa pag-drop ng mga asignatura sa midyear term."
+        "en": "Final deadline for dropping subjects during the midyear term.",
+        "fil": "Huling Araw para sa pag-drop ng mga asignatura sa midyear term."
       },
       "date": "2026-05-25",
       "day": {
-          "en": "Monday",
-          "fil": "Lunes"
+        "en": "Monday",
+        "fil": "Lunes"
       },
       "category": "academic",
       "tags": [
-          "academic",
-          "registration",
-          "subjects",
-          "dropping",
-          "midyear",
-          "deadline"
+        "academic",
+        "registration",
+        "subjects",
+        "dropping",
+        "midyear",
+        "deadline"
       ],
       "isFeatured": false,
       "isTrending": false
@@ -4208,25 +4210,25 @@
     {
       "id": 47,
       "title": {
-          "en": "Last Day of Settlement of Admission Requirements of New Students Enrolled During the Midyear Term (May-June) 2026",
-          "fil": "Huling Araw ng Pagsasaayos ng mga Kinakailangang Dokumento sa Admission ng mga Bagong Estudyanteng Nag-enroll sa Midyear Term (Mayo-Hunyo) 2026"
+        "en": "Last Day of Settlement of Admission Requirements of New Students Enrolled During the Midyear Term (May-June) 2026",
+        "fil": "Huling Araw ng Pagsasaayos ng mga Kinakailangang Dokumento sa Admission ng mga Bagong Estudyanteng Nag-enroll sa Midyear Term (Mayo-Hunyo) 2026"
       },
       "description": {
-          "en": "Final deadline for new students to complete all admission requirements for midyear term enrollment.",
-          "fil": "Huling araw para sa mga bagong estudyante na makumpleto ang lahat ng mga kinakailangang ipasa sa admission para sa midyear term."
+        "en": "Final deadline for new students to complete all admission requirements for midyear term enrollment.",
+        "fil": "Huling araw para sa mga bagong estudyante na makumpleto ang lahat ng mga kinakailangang ipasa sa admission para sa midyear term."
       },
       "date": "2026-06-04",
       "day": {
-          "en": "Wednesday",
-          "fil": "Miyerkules"
+        "en": "Wednesday",
+        "fil": "Miyerkules"
       },
       "category": "academic",
       "tags": [
-          "academic",
-          "admission",
-          "requirements",
-          "new-students",
-          "midyear"
+        "academic",
+        "admission",
+        "requirements",
+        "new-students",
+        "midyear"
       ],
       "isFeatured": false,
       "isTrending": false
@@ -4234,17 +4236,17 @@
     {
       "id": 48,
       "title": {
-          "en": "Midterm Examination - Midyear Term",
-          "fil": "Pagsusulit sa Kalagitnaan ng Termino - Midyear Term"
+        "en": "Midterm Examination - Midyear Term",
+        "fil": "Pagsusulit sa Kalagitnaan ng Termino - Midyear Term"
       },
       "description": {
-          "en": "Midterm examinations for undergraduate or graduate students during midyear term.",
-          "fil": "Pagsusulit sa kalagitnaan ng termino para sa mga undergraduate at graduate na estudyante sa midyear term."
+        "en": "Midterm examinations for undergraduate or graduate students during midyear term.",
+        "fil": "Pagsusulit sa kalagitnaan ng termino para sa mga undergraduate at graduate na estudyante sa midyear term."
       },
       "date": "2026-06-05 to 2026-06-15",
       "day": {
-          "en": "Thursday to Sabado (UGS: June 5-7), Saturday to Sunday (GS: June 14-15)",
-          "fil": "Huwebes hanggang Sabado (UGS: Hunyo 5-7), Sabado hanggang Linggo (GS: Hunyo 14-15)"
+        "en": "Thursday to Sabado (UGS: June 5-7), Saturday to Sunday (GS: June 14-15)",
+        "fil": "Huwebes hanggang Sabado (UGS: Hunyo 5-7), Sabado hanggang Linggo (GS: Hunyo 14-15)"
       },
       "category": "academic",
       "tags": ["academic", "examination", "midterm", "midyear"],
@@ -4254,17 +4256,17 @@
     {
       "id": 49,
       "title": {
-          "en": "Final Examination - Midyear Term",
-          "fil": "Huling Pagsusulit - Midyear Term"
+        "en": "Final Examination - Midyear Term",
+        "fil": "Huling Pagsusulit - Midyear Term"
       },
       "description": {
-          "en": "Final examinations for undergraduate and graduate students during midyear term.",
-          "fil": "Huling pagsusulit para sa mga undergraduate at graduate na estudyante sa midyear term."
+        "en": "Final examinations for undergraduate and graduate students during midyear term.",
+        "fil": "Huling pagsusulit para sa mga undergraduate at graduate na estudyante sa midyear term."
       },
       "date": "2026-06-26 to 2026-06-29",
       "day": {
-          "en": "Thursday to Linggo (UGS: June 26-28, GS: June 28-29)",
-          "fil": "Huwebes hanggang Linggo (UGS: Hunyo 26-28, GS: Hunyo 28-29)"
+        "en": "Thursday to Linggo (UGS: June 26-28, GS: June 28-29)",
+        "fil": "Huwebes hanggang Linggo (UGS: Hunyo 26-28, GS: Hunyo 28-29)"
       },
       "category": "academic",
       "tags": ["academic", "examination", "final", "midyear"],
@@ -4274,25 +4276,25 @@
     {
       "id": 50,
       "title": {
-          "en": "End of Midyear Term (May-June) 2026 and Last Day of Completion of Incomplete (INC.) Rating",
-          "fil": "Katapusan ng Midyear Term (Mayo-Hunyo) 2026 at Huling Araw ng Pagkumpleto ng Incomplete (INC.) Rating"
+        "en": "End of Midyear Term (May-June) 2026 and Last Day of Completion of Incomplete (INC.) Rating",
+        "fil": "Katapusan ng Midyear Term (Mayo-Hunyo) 2026 at Huling Araw ng Pagkumpleto ng Incomplete (INC.) Rating"
       },
       "description": {
-          "en": "End of midyear term and final deadline for completing incomplete ratings from previous terms.",
-          "fil": "Katapusan ng midyear term at huling araw para sa pagkumpleto ng mga incomplete rating mula sa mga nagdaang termino."
+        "en": "End of midyear term and final deadline for completing incomplete ratings from previous terms.",
+        "fil": "Katapusan ng midyear term at huling araw para sa pagkumpleto ng mga incomplete rating mula sa mga nagdaang termino."
       },
       "date": "2026-06-27",
       "day": {
-          "en": "Saturday",
-          "fil": "Sabado"
+        "en": "Saturday",
+        "fil": "Sabado"
       },
       "category": "academic",
       "tags": [
-          "academic",
-          "term-end",
-          "incomplete-rating",
-          "midyear",
-          "deadline"
+        "academic",
+        "term-end",
+        "incomplete-rating",
+        "midyear",
+        "deadline"
       ],
       "isFeatured": false,
       "isTrending": false
@@ -4300,17 +4302,17 @@
     {
       "id": 51,
       "title": {
-          "en": "Last Day of Online Posting of Grades of Faculty",
-          "fil": "Huling Araw ng mga Faculty sa Pagpost Online ng mga Grado"
+        "en": "Last Day of Online Posting of Grades of Faculty",
+        "fil": "Huling Araw ng mga Faculty sa Pagpost Online ng mga Grado"
       },
       "description": {
-          "en": "Final deadline for faculty members to post grades online for midyear term.",
-          "fil": "Huling araw para sa mga miyembro ng faculty na mag-post ng mga grado online para sa midyear term."
+        "en": "Final deadline for faculty members to post grades online for midyear term.",
+        "fil": "Huling araw para sa mga miyembro ng faculty na mag-post ng mga grado online para sa midyear term."
       },
       "date": "2026-07-05",
       "day": {
-          "en": "Sunday",
-          "fil": "Linggo"
+        "en": "Sunday",
+        "fil": "Linggo"
       },
       "category": "academic",
       "tags": ["academic", "grades", "faculty", "online-posting", "deadline"],
@@ -4320,24 +4322,24 @@
     {
       "id": 52,
       "title": {
-          "en": "Submission of Official Grading Sheets (hardcopies) to ARO",
-          "fil": "Pagsusumite ng Opisyal na Talaan ng mga Marka (Nakalimbag na Kopya) sa ARO"
+        "en": "Submission of Official Grading Sheets (hardcopies) to ARO",
+        "fil": "Pagsusumite ng Opisyal na Talaan ng mga Marka (Nakalimbag na Kopya) sa ARO"
       },
       "description": {
-          "en": "Submission of physical copies of official grading sheets to the Academic Records Office for midyear term.",
-          "fil": "Pagsusumite ng mga pisikal na kopya ng mga Talaan ng Marka sa Tanggapan ng Pang-Akademikong Rekord para sa midyear term."
+        "en": "Submission of physical copies of official grading sheets to the Academic Records Office for midyear term.",
+        "fil": "Pagsusumite ng mga pisikal na kopya ng mga Talaan ng Marka sa Tanggapan ng Pang-Akademikong Rekord para sa midyear term."
       },
       "date": "2026-07-06",
       "day": {
-          "en": "Monday",
-          "fil": "Lunes"
+        "en": "Monday",
+        "fil": "Lunes"
       },
       "category": "academic",
       "tags": ["academic", "grading-sheets", "ARO", "hardcopy", "submission"],
       "isFeatured": false,
       "isTrending": false
     }
-],
+  ],
   "campusLife": [
     {
       "id": 1,
@@ -4415,6 +4417,54 @@
   "news": [
     {
       "id": 1,
+      "imgUrl": " ",
+      "gallery": [],
+      "headline": {
+        "en": "UP Scientists to Lecture on Geohazards at Boac’s Casa Real"
+      },
+      "date": "2025-06-19",
+      "lead": {
+        "en": "UP Diliman’s NIGS team arrives in Marinduque ahead of their June 28 lecture series on geohazards, promoting local awareness and preparedness."
+      },
+      "body": {
+        "en": "19 June 2025 | A group of faculty & students from UP Diliman’s National Institute of Geological Sciences (NIGS), is given the traditional Marinduqueño welcome  by Mar S U’s VPRE Dr. Ma. Edelwina M. Blasé, VPAF Atty. Crispin Francis M. Jandusay (representing University President, Prof. Diosdado P. Zulueta) with faculty members from the College of Environmental Studies, and MarSU students. The group is here to deliver a series of lectures on Geohazards at the Casa Real on Saturday, 28 June 2025.  \nLed by Associate Prof. Leo T. Armada, PhD, they intend to help “raise awareness & a deeper understanding of geologic processes and geohazard risks specific to Marinduque”. Teachers of Earth Sciences, Disaster Preparedness personnel, Environmental Science students and other relevant practitioners are very much welcome to attend. \nEarlier in the week, Mar S U also welcomed scientists from UP Los Baños & experts from the United Kingdom’s  National Oceanographic Center, who are here to conduct an assessment of Marinduque’s coastline to check on its status after several decades since the Marcopper mining disaster of 1996. \nMarinduque State University has signed an MOU with the University of the Philippines Los Baños to be one of its collaborative research partners."
+      },
+      "articleUrl": "/news/1",
+      "isFeatured": false,
+      "author": "MARSU Infromation Unit",
+      "tags": [
+        "UP Scientist",
+        "Geohazards Lecture",
+        "Marinduque Geohazard Risks"
+      ]
+    },
+    {
+      "id": 2,
+      "imgUrl": " ",
+      "gallery": [],
+      "headline": {
+        "en": "Faculty in In-Service Training 2025 - Day 1: Strenghtening Instructional Excellence"
+      },
+      "date": "2025-06-19",
+      "lead": {
+        "en": "Marinduque State University kicked off its 2025 Faculty In-Service Training on June 18, featuring expert talks and workshops focused on outcomes-based, learner-centered instruction."
+      },
+      "body": {
+        "en": "Marinduque State University officially commenced the Faculty In-Service Training 2025 on June 18, 2025, at the MarSU Gymnasium. The opening ceremony featured welcome remarks from Ms. Erma E. Reyes, Supervising Administrative Officer, setting the stage for a productive and insightful program. Additionally, an official message from University President Dr. Diosdado P. Zulueta, delivered by Atty. Crispin Francis M. Jandusay, Vice President for Administration & Finance, reaffirmed the university’s commitment to academic advancement and instructional innovation. Shortly after, Asst. Prof. Raoul J. Magcamit introduced the Day 1 Resource Speaker.  \nThe program continued with an insightful lecture by Dr. Josephine M. Calamlam, Professor III at PNU-Manila, focusing on the development of pedagogically-sound, learner-centered, and outcomes-based instructional materials. The afternoon session transitioned into a structured lecture-discussion and guided development workshop, providing participants with the opportunity to apply key principles in instructional material design. \n A productive and enriching start to this professional development initiative, reaffirming Marinduque State University’s dedication to academic excellence and innovation."
+      },
+      "articleUrl": "/news/2",
+      "isFeatured": false,
+      "author": "D. Sto. Domingo",
+      "tags": [
+        "In-Service",
+        "SDG",
+        "Academic Excellence",
+        "SD4QualityEducation",
+        "SDG"
+      ]
+    },
+    {
+      "id": 3,
       "imgUrl": "../../images/news/marsu-the-world-ranking-4.jpg",
       "gallery": [
         "../../images/news/marsu-the-world-ranking-1.jpg",
@@ -4422,24 +4472,331 @@
         "../../images/news/marsu-the-world-ranking-3.jpg",
         "../../images/news/marsu-the-world-ranking-4.jpg"
       ],
-      "title": {
+      "headline": {
         "en": "Marinduque State University Joins Times Higher Education World University Rankings 2025"
       },
       "date": "2025-06-18",
-      "description": {
+      "lead": {
         "en": "MARSU has been officially listed in the Times Higher Education World University Rankings for 2025, marking a significant milestone in its academic journey."
       },
-      "content": {
+      "body": {
         "en": "MarSU earns global recognition for its commitment to sustainable and inclusive development\nBoac, Marinduque, Philippines Marinduque State University (MarSU), under the leadership of Prof. Dr. Diosdado P. Zulueta, proudly makes its debut in the Times Higher Education (THE) World University Rankings 2025, marking a historic milestone not only for the institution but also for the Province of Marinduque and the MIMAROPA Region.\nThe THE World University Rankings, established in 2010, is one of the most prestigious global performance assessments for higher education institutions. It evaluates universities based on five key pillars: teaching, research environment, research quality, industry engagement, and international outlook. The ranking aims to provide transparency and insights for students, educators, and policymakers across the globe.\nMarSU’s inclusion in this global list is a testament to its growing influence and commitment to academic excellence, research innovation, and global relevance. Most significantly, the university’s placement reflects its consistent efforts in advancing the United Nations’ 17 Sustainable Development Goals (SDGs)—from promoting quality education, gender equality, and climate action, to building partnerships that empower local and international communities.\nThis achievement affirms MarSU’s unwavering vision to be a transformative and globally engaged university that fosters inclusive development and sustainable impact. As it joins the ranks of the world’s recognized institutions, MarSU remains steadfast in its mission to shape future leaders who will contribute meaningfully to a better world"
       },
-      "articleUrl": "/news/1",
+      "articleUrl": "/news/3",
       "isFeatured": true,
-      "author": "MARSU Infromation Unit",
+      "author": "MarSU Information Unit",
       "tags": [
         "University Rankings",
         "MARSU",
         "Global Recognition",
+        "Sustainable Development Goals",
+        "Higher Education"
+      ]
+    },
+    {
+      "id": 4,
+      "imgUrl": " ",
+      "gallery": [],
+      "headline": {
+        "en": "MarSU Joins 90th RDC MIMAROPA Full Council Meeting"
+      },
+      "date": "2025-06-19",
+      "lead": {
+        "en": "Marinduque State University officials took part in the RDC Full Council Meeting, contributing to key regional development discussions and policy planning."
+      },
+      "body": {
+        "en": "The 90th Regional Development Council (RDC) Full Council Meeting of MIMAROPA was successfully held on June 11, 2025, at The Heritage Hotel Manila, marking another milestone in the region’s ongoing efforts to enhance cooperation and development. The event brought together key decision-makers and stakeholders, including representatives from national agencies, local government units, and the academe, fostering collaboration and strategic discussions for the region’s progress. \nAmong the notable attendees from the academic sector were officials from Marinduque State University led by its University President, Prof. Diosdado P. Zulueta, accompanied by Assoc. Prof. Alfredo M. Ofrecio III, Chief of Staff and Ms. Mila Grace Gutierrez, Planning Officer III. \nFollowing the preliminaries, a recognition ceremony was held to honor the outgoing members of the 8th RDC MIMAROPA (2022–2025), during which plaques and certificates were awarded in appreciation of their contributions. \nThe agenda was packed with significant discussions and approvals on policies and programs shaping the socio-economic landsape of the region such as the State of the Region Address (SORA) delivered by RDC Chairperson and Romblon Governor Jose R. Riano; updates on the MIMAROPA Regional Development Investment Program (RDIP) 2023–2028; endorsements and approvals on strategic infrastructure and social development projects; and introduction of policy reforms and sectoral initiatives focusing on gender, economic planning, and maritime connectivity \nOfficials from various government agencies also presented progress reports and updates on regional economic conditions, program monitoring, and policy directions. \nThe RDC meeting serves as a platform for aligning regional priorities with national development goals. MarSU’s involvement in this significant gathering reinforces its vital role not only in providing quality education but also in shaping and supporting development agendas across the MIMAROPA region."
+      },
+      "articleUrl": "/news/4",
+      "isFeatured": false,
+      "author": "J. Breganza",
+      "tags": [
+        "Council Meeting",
+        "90th RDC MIMAROPA",
+        "Quality Education",
         "Sustainable Development Goals"
+      ]
+    },
+    {
+      "id": 5,
+      "imgUrl": " ",
+      "gallery": [],
+      "headline": {
+        "en": "MarSU and PCA Explore Strategic Partnership in Agriculture Development"
+      },
+      "date": "2025-06-11",
+      "lead": {
+        "en": "MarSU President Prof. Diosdado P. Zulueta met with PCA Administrator Dr. Dexter R. Buted to discuss potential collaborations in coconut research and development."
+      },
+      "body": {
+        "en": "As part of the continuous agriculture development, Prof. Diosdado P. Zulueta (MarSU President), paid a courtesy visit to Dr. Dexter R. Buted, Administrator of the Philippine Coconut Authority (PCA), at the PCA Central Office, Quezon City on June 9, 2025. \nThe meeting aimed to explore potential collaborations between MarSU and the PCA, particularly in areas related to coconut research, development, and extension services that can benefit coconut farmers in Marinduque and other coconut-producing provinces. \nBoth leaders expressed enthusiasm for possible joint initiatives that align with their shared vision of sustainable agricultural development and community empowerment."
+      },
+      "articleUrl": "/news/5",
+      "isFeatured": false,
+      "author": "J. Breganza",
+      "tags": [
+        "Agriculture",
+        "Strategic Partnership",
+        "PCA",
+        "Philippine Coconut Authority",
+        "Sustainable Development Goals",
+        "SDG"
+      ]
+    },
+    {
+      "id": 6,
+      "imgUrl": " ",
+      "gallery": [],
+      "headline": {
+        "en": "MarSU Champions Community Engagement Through Stakeholders' Forum and Impact Assessment Training"
+      },
+      "date": "2025-06-04",
+      "lead": {
+        "en": "Marinduque State University successfully held its Stakeholders' Extension Forum and Impact Assessment Training, equipping project leaders and partners with tools to evaluate and enhance community-based initiatives."
+      },
+      "body": {
+        "en": "Marinduque State University (MarSU) continues to champion excellence in  extension and community engagement through its recently concluded 'Stakeholders' Extension Forum and Impact Assessment Training for Extension Projects' through the initiative of the Extension Unit. Held from May 26–30, 2025 at Rojas Events Place in Santol, Boac, Marinduque, the event brought together a dynamic group of project leaders, extensionists, and representatives from key partner agencies. \nThe activity opened with a forum dedicated to engaging stakeholders and aligning extension initiatives with community needs. The following days were devoted to an intensive training on impact assessment, led by two esteemed experts in the field—Dr. Marilyn M. Elauria, Retired Professor 12 and Dr. Jessie C. Elauria, Retired Professor 12 and UP Scientist I. \n Participants deepened their understanding of vital concepts through a series of comprehensive topics, such as: \n• Impact Assessment Framework \n• Mapping Inputs to Benefits and Adoption Pathways \n• Sociological and Environmental Approaches in Impact Measurement \n• Data Collection Techniques \n• Cost and Return Analysis / Partial Budgeting \n• Benefit-Cost Approach to Impact Assessment \nEach session featured hands-on activities, allowing participants to apply their learnings to their respective extension projects. The program culminated in the presentation of completed Impact Assessment Project Proposals, showcasing the participants’ enhanced skills in research and evaluation. \nAmong the remarkable presentations were: \n• SAS Journalismo Training Project: An Impact Assessment (College of Arts and Social Sciences) \n• Impact Assessment on the Training and Production and Usage of a Foot-Operated Hand Sanitizer Dispenser and Handwashing Station (College of Engineering and College of Information and Computing Sciences)\n • Brigada-Pagbasa: Teachers Undertaking Reinforcement of Learning (College of Education) \n• Kaalaman at Katarungan sa Kabarangayan (KKK): A Refresher Training Program for Lupong Tagapamayapa Chairpersons and Members (College of Criminal Justice Education in collaboration with the College of Governance) \n• Impact Assessment on Technology Adoption on Quality of Bagoong and Patis Production (College  of Fisheries) \nTwo proposals were awarded Best Impact Assessment Project: \n🏆 SAS Journalismo Training Project: An Impact Assessment \n🏆 KKK: A Refresher Training Program for Lupong Tagapamayapa Chairpersons and Members \nAdditionally, the Best Presenter Award was given to Dr. Keam Eric L. Malabayabas of the College of Criminal Justice Education for his outstanding delivery and insightful analysis of the KKK project. \nAs the training came to a close, MarSU President Dr. Diosdado P. Zulueta extended his heartfelt gratitude to the participants, organizers, and speakers. He encouraged everyone to integrate the skills and insights gained into their future extension efforts—underscoring the university’s commitment to meaningful impact and inclusive development. \nThrough this initiative, MarSU reaffirms its role as a catalyst for transformative community partnerships grounded in research, service, and sustainability."
+      },
+      "articleUrl": "/news/6",
+      "isFeatured": false,
+      "author": "C. Atienza",
+      "tags": [
+        "Assessment Training",
+        "MarSU Engagement",
+        "Extension Forum",
+        "Impact Assessment",
+        "Sustainable Development Goals",
+        "SDG"
+      ]
+    },
+    {
+      "id": 7,
+      "imgUrl": " ",
+      "gallery": [],
+      "headline": {
+        "en": "MarSU Adds New Vehicle to Its Fleet"
+      },
+      "date": "2025-06-03",
+      "lead": {
+        "en": "Marinduque State University enhances its mobility and operations with the acquisition of a new Toyota pick-up, supporting efficient service delivery across campuses."
+      },
+      "body": {
+        "en": "In a move to enhance operational efficiency and logistical support, the Marinduque State University through its Supply and Property Management Unit officially received the newly procured Toyota Pick-up on April 28, 2025. The acquisition forms part of the institution’s approved procurement plan for FY 2025, aimed at strengthening mobility services across university operations. \nFollowing standard procedures, a physical inspection was conducted by the Commission on Audit (COA) on June 2, 2025. The inspection verified that the vehicle matched the technical specifications outlined in the Contract Agreement/Purchase Order. The inspection also ensured that the unit was in good running condition and free from any physical or mechanical defects. \nThe University continues to prioritize resource optimization and infrastructure support to improve service delivery. This procurement marks another step forward in maintaining transparency, accountability, and operational excellence."
+      },
+      "articleUrl": "/news/7",
+      "isFeatured": false,
+      "author": "J. Mabiog",
+      "tags": [
+        "New Vehicle",
+        "Resource Optimization",
+        "Supply and Property Management Unit",
+        "Procurement Plan",
+        "Toyota Pick-up"
+      ]
+    },
+    {
+      "id": 8,
+      "imgUrl": " ",
+      "gallery": [],
+      "headline": {
+        "en": "MarSU bags Best R&D Award for Probiotic Drink Innovation"
+      },
+      "date": "2025-06-02",
+      "lead": {
+        "en": "Dr. Ma. Edelwina M. Blasé earned the Best R&D Award for her innovative probiotic drink project using coconut sap, highlighting MarSU’s commitment to research and human development."
+      },
+      "body": {
+        "en": "In a moment of continuous pursuit for research and innovation, Dr. Ma. Edelwina M. Blasé, Vice President for Research and Extension, received the esteemed Best R&D Award under Human Development Research Category on May 28, 2025 at the OMSC Gymnasium, Occidental Mindoro, for her pioneering work on the DOST-MIMAROPA-assisted project entitled “Development of a Non-Dairy Probiotic Drink using Coconut Sap as a Substrate”. \nDr. Blasé received the award together with Executive Assistant, Ms. Lenie Z. Rodriguez, who represented MarSU President, Prof. Dr. Diosdado P. Zulueta. Dr. Blasé’s dedication to innovation continues to push the boundaries of research, paving the way for advancements in nutrition and wellness. Additionally, MarSU showcased various products from the MarSU Gasan FTBI such as cocobagoong, bagoong, patis and arrowroot pulp products from Arrowroot Project. \nThis year’s 2025 Regional Science, Technology, and Innovation Week featured MIMAROPA Science, Technology, and Innovation Awards, Centerpiece Exhibit, Smarter MSMEs Summit, Beyond Invention: A Look on Market Ready Innovation, Oceans of Opportunity: Innovations for Sustainable Fisheries and Aquaculture; and Building Sustainable and Connected Communities. Part of the team that also attended the event were Ms. Geleen Del Prado from the Arrowroot Project and Dr. Randy T. Nobleza."
+      },
+      "articleUrl": "/news/8",
+      "isFeatured": false,
+      "author": "D. Sto. Domingo",
+      "tags": [
+        "R&D Award",
+        "Probiotic Drink Innovation",
+        "MarSU Research and Extension",
+        "SDG1NoPoverty",
+        "SDG2ZeroHunger",
+        "SDG9IndustryInnovationandInfrastructure",
+        "SDG12ResponsibleConsumptionandProduction",
+        "SDG17PartnershipsfortheGoals"
+      ]
+    },
+    {
+      "id": 9,
+      "imgUrl": " ",
+      "gallery": [],
+      "headline": {
+        "en": "Marinduque State University Strenghtens Global Linkages through the ASEAN Fellowship Program 2025 in Vietnam"
+      },
+      "date": "2025-06-01",
+      "lead": {
+        "en": "Faculty from Marinduque State University took part in the ASEAN Fellowship Program 2025 in Vietnam, exploring innovation and entrepreneurship in future-ready classrooms through workshops, field visits, and international collaboration."
+      },
+      "body": {
+        "en": "MarSU delegation proudly took part in the ASEAN Fellowship Program 2025 hosted by the Saigon Business School (SBS) in Ho Chi Minh City, Vietnam, from May 26–30, 2025. With the theme 'Future-Ready Classrooms for ASEAN: Integrating Innovation & Entrepreneurship in Teaching,' the program featured a series of dynamic workshops, field visits, and collaborative projects designed to explore innovation and entrepreneurship in higher education. \nRepresenting the university from the College of Business and Accountancy were the following distinguished faculty members: Assoc. Prof Dr. Verna Liza L. Capiña, Assoc. Prof. Generoso E. Udanga, Assoc. Prof. Dr. Merryrose R. Palma, Asst. Prof. Carlo Magno M. Castro, Inst. Gillbert P. Privado, and Inst. Jenyza Dimacali-Rojo. \nThroughout the five-day fellowship, the participants engaged in high-impact sessions ranging from workshops on artificial intelligence in education and curriculum innovation, to field visits to leading businesses and startups in Vietnam. Collaborative group projects also challenged participants to co-create solutions for real-world academic challenges, all while fostering stronger cross-cultural connections and academic cooperation within ASEAN. \nThis international engagement forms part of MarSU’s institutional partnership with Saigon Business School (SBS), further solidifying its commitment to global academic collaboration.  \nThe MarSU International Relations Office extends its heartfelt gratitude to University President Prof. Dr. Diosdado P. Zulueta for his unwavering support in promoting global competency among our faculty members and for championing global academic opportunities for the MarSU community."
+      },
+      "articleUrl": "/news/9",
+      "isFeatured": false,
+      "author": "MarSU Information Unit",
+      "tags": [
+        "Global Linkages",
+        "ASEAN",
+        "ASEAN Fellowship Program",
+        "International Engagement",
+        "MarSU Internationalization",
+        "Global Learning",
+        "SDG4QualityEducation",
+        "SDG9IndustryInnovationandInfrastructure",
+        "SDG17PartnershipfortheGoals",
+        "FromtheHearttotheWorld"
+      ]
+    },
+    {
+      "id": 10,
+      "imgUrl": " ",
+      "gallery": [],
+      "headline": {
+        "en": "Marinduque State University Celebrates Nursing Students’ Achievements in Clinical Graduation"
+      },
+      "date": "2025-05-30",
+      "lead": {
+        "en": "MarSU celebrated the clinical graduation of its nursing students, honoring their dedication and readiness to serve in the healthcare field with compassion, integrity, and excellence."
+      },
+      "body": {
+        "en": "On May 30, 2025 Marinduque State University (MarSU), through its College of Allied Health Sciences (CAHS), proudly held its Clinical Graduation for Nursing Students at the University Gymnasium. The ceremony marked a significant milestone in the journey of the university's future healthcare professionals. \nThe event commenced with a processional march led by the graduating students, faculty members, university officials, and the esteemed guest of honor. The solemn and celebratory tone of the ceremony was set by the MarSU ROTC Honor Guards. \nThe program formally began with Opening Remarks from Assoc. Prof. Julie P. Rodelas, Campus Director. This was followed by the Presentation of the CAHS Faculty of Instruction, led by Assoc. Prof. Marvin P. Plata, Dean of CAHS and Vice President for Student Affairs and Services. Ms. Joy V. Malilay, Associate Dean of CAHS and Program Head of BSN, then led the Presentation of Candidates for Clinical Graduation. \nOne of the most pivotal moments of the ceremony was the official confirmation of the clinical graduates by University President, Prof. Diosdado P. Zulueta. Following the confirmation, UPDPZ delivered a heartfelt message to the graduating class: 'This Clinical Graduation is more than a ceremony—it is a celebration of your courage, your discipline, and your heart for service. You have demonstrated that you are ready not just to heal but to lead, to care, and to serve beyond borders. Let your journey be guided by the values of integrity, compassion, and lifelong learning. MarSU is proud of you—and we believe in the greatness you will bring into the world of healthcare.' \nThe keynote address was delivered by Hon. Zenaida Concepcion-Gagno, a respected member of the Professional Regulation Commission (PRC) Board of Nursing. In her speech, she praised the dedication and resilience of the graduating class and emphasized the essential role of compassion, ethics, and continuous learning in the nursing profession.\nA Plaque of Appreciation was then presented to the keynote speaker in recognition of her valuable insights and contributions to the occasion. The program continued with the awarding of certificates of completion and the donning of the sablay, symbolizing the official recognition of the students’ clinical achievements. \nThe class response was delivered by Ms. Julianne Vhiera J. Lubay, who expressed heartfelt gratitude to the university, faculty, and families who supported the graduates throughout their academic journey. Asst. Prof. Raoul J. Magcamit, Vice President for Academic Affairs, also extended his warm greetings and congratulations to the graduating class. \nThe celebration featured musical interludes, student leadership awards, and touching tributes from faculty and parents, creating an atmosphere of pride and reflection. As these graduates step forward to pursue licensure and enter the professional world of healthcare, MarSU stands proud of its role in shaping not only competent and knowledgeable professionals but also individuals deeply rooted in the core values of integrity, compassion, and service."
+      },
+      "articleUrl": "/news/10",
+      "isFeatured": false,
+      "author": "J. Breganza",
+      "tags": [
+        "Clinical Graduation",
+        "Nursing Students' Achievements",
+        "Graduation Ceremony"
+      ]
+    },
+    {
+      "id": 11,
+      "imgUrl": " ",
+      "gallery": [],
+      "headline": {
+        "en": "MarSU Successfully conducts 4th Regular BOR Meeting"
+      },
+      "date": "2025-05-28",
+      "lead": {
+        "en": "The Marinduque State University Board of Regents convened to discuss key academic, financial, and administrative matters, reinforcing the university’s strategic direction and institutional growth."
+      },
+      "body": {
+        "en": "The Marinduque State University (MarSU) Board of Regents (BOR) convened for its 4th Regular Meeting at the Executive Lounge of the Commission on Higher Education (CHED) Central Office in Quezon City on May 28, 2025.  \nKey highlights of the meeting included in-depth discussions on financial and fiscal matters, such as proposed financial plans for upcoming university projects. Administrative concerns were also addressed, including proposals to enhance institutional governance and operational efficiency, presented by Atty. Jandusay (VPAF). Additionally, under the academic developments, the Board reviewed new and existing academic programs and faculty development initiatives, including collaborations with foreign institutions which were presented by VPSAS Asso. Prof. Plata and VPAA Asst. Prof. Magcamit. \nThe meeting also addressed items for confirmation, such as the appointment of concerned faculty members and administrative personnel, various memorandum of agreement for the implementation of on-the-job training (OJT), and other collaborative undertakings and various agreements for the implementation of research and extension projects. \nPresided over by Hon. Marita R. Canapi, CHED Commissioner and Chairperson of the MarSU BOR, the meeting was attended by Prof. Diosdado P. Zulueta (MarSU President and BOR Vice Chair), Dr. Maria Morena V. Santos (University & Board Secretary), Assoc. Prof. Marvin P. Plata (Vice President for Student Affairs and Services), Hon. Rev. Fr. Ian R. Retardo (Private Sector Representative), Hon. Joy R. Profugo (President of the MarSU Faculty Federation Inc.), and Hon. Nolasco P. Revilla (President of the SSC Federation Inc.), Hon. Edna Imelda F. Legazpi (Regional Director, CHEDIV-B) was represented by Mr. Gary Cepe, while Hon. Christopher R. Baňas (Member, MarSU BOR) was represented by Atty. Nicole Katrine S. Manlapid.\nFurther, other key officials who joined via online platform include Atty. Crispin Francis M. Jandusay, (Vice President for Administration and Finance), Dr. Ma. Edelwina M. Blasé (Vice President for Research, Extension, and Training), Asst. Prof. Raoul J. Magcamit (Vice President for Academic Affairs), Atty. Hani Sipin, representing Rep. Lord Allan Q. Velasco; and Hon. Karen M. Motol (Private Sector Representative)."
+      },
+      "articleUrl": "/news/11",
+      "isFeatured": false,
+      "author": "J. Breganza",
+      "tags": [
+        "4th Regular BOR Meeting",
+        "Board of Regents",
+        "CHED",
+        "Academic Developments",
+        "SDG",
+        "SDG4QualityEducation"
+      ]
+    },
+    {
+      "id": 12,
+      "imgUrl": " ",
+      "gallery": [],
+      "headline": {
+        "en": "MarSU Forges Stronger Ties With Partners"
+      },
+      "date": "2025-05-27",
+      "lead": {
+        "en": "Marinduque State University gathered key partner agencies for a Stakeholders’ Extension Forum, strengthening multi-sectoral collaboration and laying the groundwork for future community-focused extension initiatives."
+      },
+      "body": {
+        "en": "The Marinduque State University (MarSU), through its Extension Office, successfully held the Stakeholders’ Extension Forum on May 26, 2025, during the Day 1 of Stakeholders' Extension Forum and Impact Assessment Training for Extension Projects at Rojas Events Place, Santol, Boac. The event gathered key representatives from various key partner agencies to strengthen inter-agency collaboration and identify areas for future extension partnerships. \nThe forum brought together key partner agencies from the Provincial and Municipal Agriculture Offices, Department of Agrarian Reform (DAR), Bureau of Fisheries and Aquatic Resources (BFAR), PNP Marinduque, Department of Environment and Natural Resources (DENR)- PENRO, Department of the Interior and Local Government (DILG), Department of Health (DOH), Department of Education (DepEd), Department of Information and Communications Technology (DICT), Department of Science and Technology (DOST), Department of Trade and Industry (DTI), Technical Education and Skills Development Authority (TESDA) and private stakeholders.\nThe program opened with a warm welcome from Dr. Ma. Edelwina M. Blase, followed by an inspirational and visionary message from Dr. Diosdado P. Zulueta, President of Marinduque State University. In his message, he expressed his full support for the forum, emphasizing the importance of multi-sectoral collaboration in driving impactful extension initiatives. He reaffirmed the university’s commitment to community engagement and innovation as key pillars of MarSU’s development agenda.The highlight of the morning was a keynote address from  \nDr. Angelica Baylon, the Global Chair/ President Emeritus of the Philippine Association of Extension Program Implementers, Inc. (PAEPI), who emphasized the importance of innovation in community extension initiatives.\nThe forum featured four thematic sessions: \n1. Agriculture and Fisheries Extension Programs for Food Security, presented by PAO, MAO, DAR, and BFAR\n2. Community Safety and Environment Protection, presented by DENR \n3. Community Empowerment, Social Protection, and Local Governance, presented by DILG \n4. Innovation, Enterprise Development, and Capacity Building, presented by DOST, DTI, and TESDA \nEach session was followed by an open forum that enabled MarSU and the agencies to engage in dynamic discussions, share best practices, and pinpoint overlapping priorities. This exchange laid the groundwork for collaborative extension projects that address gaps and amplify the impact of each agency’s initiatives. \nThis forum marks a significant step toward a unified and responsive extension framework that empowers communities and enhances service delivery in the province."
+      },
+      "articleUrl": "/news/12",
+      "isFeatured": false,
+      "author": "C. Atienza",
+      "tags": [
+        "Extension Forum",
+        "Impact Assessment",
+        "MarSU Partner Agencies",
+        "MarSU Open Forum",
+        "SDG4QualityEducation",
+        "SDG17PartnershipsfortheGoals",
+        "SDGs"
+      ]
+    },
+    {
+      "id": 13,
+      "imgUrl": " ",
+      "gallery": [],
+      "headline": {
+        "en": "Marinduque State University Advances Internalization through Key Partnerships at the International COIL Conference 2025"
+      },
+      "date": "2025-05-25",
+      "lead": {
+        "en": "Marinduque State University joined the International COIL Conference 2025, forging new partnerships and advancing its commitment to global collaboration and sustainable education."
+      },
+      "body": {
+        "en": "General Santos City — Marinduque State University (MarSU) reaffirmed its commitment to global learning and sustainable development by actively participating in the International COIL Conference 2025. Represented by International Relations Director Ms. Jholey Rose R. Leaño-Lancion and Executive Assistant Ms. Lenie Z. Rodriguez, MarSU forged new potential partnerships with institutions such as Urdaneta City University, Leyte Normal University, Central Philippine State University, Holy Child Colleges, Inc., and Universitas Islam Bandung, Indonesia. \nThese collaborations align with the United Nations’ Sustainable Development Goals, focusing on quality education and strong partnerships, and mark MarSU’s formal commitment to the Bayanihan COIL Network initiative of CHED-IAS. The partnerships aim to launch collaborative COIL projects in the coming academic year, strengthening internationalization by bridging local and global academic communities. \nMarSU extends gratitude to University President Prof. Dr. Diosdado P. Zulueta for his steadfast support in advancing the university’s international initiatives."
+      },
+      "articleUrl": "/news/13",
+      "isFeatured": false,
+      "author": "MarSU Information Unit",
+      "tags": [
+        "International Partnership",
+        "COIL Conference 2025",
+        "Global Learning",
+        "Sustainable Development"
+      ]
+    },
+    {
+      "id": 14,
+      "imgUrl": " ",
+      "gallery": [],
+      "headline": {
+        "en": "MarSU Top 9 Best Performing School in LPT (Secondary Level)"
+      },
+      "date": "2025-05-23",
+      "lead": {
+        "en": "Marinduque State University proudly celebrates its recognition as the 9th Best Performing School in the Licensure Examination for Teachers (Secondary Level)—a true testament to the excellence, dedication, and heart of its education community."
+      },
+      "body": {
+        "en": "With immense pride and overwhelming joy, we celebrate Marinduque State University's incredible achievement—Top 9 Best Performing School in the Licensure Examination for Teachers (Secondary Level)! \nThis victory is not just a ranking—it is a testament to the relentless passion, unwavering dedication, and unbreakable spirit of our educators, students, and leaders who pour their hearts into shaping the future of education. Every sleepless night, every sacrifice, every challenge faced head-on has led to this moment of triumph. \nTo our aspiring teachers, you are the beacon of hope for the generations to come, carrying the noble mission of education forward with excellence and integrity. To our faculty and staff, your unwavering commitment and guidance have transformed dreams into reality. \nMarSU, this milestone is proof that greatness is not just achieved—it is built with love, perseverance, and an unyielding belief in the power of education! \nCongratulations, College of Education! \nMabuhay, MarSU! Your journey to greater heights continues!"
+      },
+      "articleUrl": "/news/14",
+      "isFeatured": false,
+      "author": "MarSU Information Unit",
+      "tags": [
+        "Licensure Examination For Teachers",
+        "Marsu Top 9",
+        "MarSU LPT Ranking"
+      ]
+    },
+    {
+      "id": 15,
+      "imgUrl": " ",
+      "gallery": [],
+      "headline": {
+        "en": "Marinduque State University Integrated High School Holds 8th Commencement and 10th Moving-Up Ceremony"
+      },
+      "date": "2025-05-15",
+      "lead": {
+        "en": "Marinduque State University celebrated the achievements of its Junior and Senior High School students in a heartfelt ceremony led by President Prof. Diosdado P. Zulueta, honoring graduates, completers, and their families."
+      },
+      "body": {
+        "en": "On May 15, 2025, the Marinduque State University (MarSU) Integrated High School proudly celebrated its 8th Commencement Exercise and 10th Moving-Up Ceremony at the MarSU Gymnasium in Boac, honoring the academic achievements of its graduates and completers from the Junior and Senior High School departments. \nThe ceremony was graced by the presence of MarSU President, Prof. Diosdado P. Zulueta, who also officiated the confirmation of graduates and completers. He delivered an inspiring and heartfelt message to the graduates, moving-up students, and their families. \nIn his official message, Prof. Zulueta recognized the crucial role of families in the academic journey of the students, stating: \n“To the proud parents and guardians, your love, sacrifices, and guidance have been essential to the success of your children. Ang tagumpay nila ay tagumpay rin ninyo.” \nJoining President Zulueta at this momentous event were key university officials. Vice President for Research, Extension, and Training, Dr. Ma. Edelwina M. Blasé, Vice President for Academic Affairs, Asst. Prof. Raoul J. Magcamit, Vice President for Student Affairs and Services, Assoc. Prof. Marvin P. Plata, University Registrar, Ms. Gemma Tirol. Also in attendance were the academic leaders and faculty members from the College of Education, led by Dean Dr. Joy S. Montejo, and the Integrated High School, headed by Dr. Noel R. Palomares. \nThe gymnasium was filled with the joyful presence of proud parents, families, students, and invited guests, all gathered to witness this important academic milestone. The program featured the presentation of candidates for graduation and moving-up, the awarding of certificates and diplomas, and the awarding of academic honors."
+      },
+      "articleUrl": "/news/15",
+      "isFeatured": false,
+      "author": "J. Breganza",
+      "tags": [
+        "Marsu Integrated High School",
+        "IHS 8th Commencement Exercise",
+        "10th Moving-Up Ceremony",
+        "Graduation Ceremony"
       ]
     }
   ],
