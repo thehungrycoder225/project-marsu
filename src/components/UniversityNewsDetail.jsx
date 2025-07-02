@@ -349,30 +349,82 @@ function UniversityNewsDetail() {
   const shareSelectedText = useCallback(
     async (platform = 'twitter') => {
       const text = `"${selectedText}" - ${news?.headline?.[lang] || news?.headline || 'University News'}`;
-      const url = window.location.href;
+
+      // Create a proper URL for sharing while maintaining Windows server compatibility
+      const currentHost = window.location.hostname;
+      const isProduction =
+        currentHost === 'www.marsu.edu.ph' || currentHost === 'marsu.edu.ph';
+      const isDevelopment =
+        currentHost === 'project-marsu.vercel.app' ||
+        currentHost === 'localhost';
+
+      let baseUrl;
+      if (isProduction) {
+        baseUrl = 'https://www.marsu.edu.ph';
+      } else if (isDevelopment) {
+        baseUrl = window.location.origin;
+      } else {
+        baseUrl = window.location.origin;
+      }
+
+      // For Windows server, we need to keep the hash for proper routing
+      const shareUrl =
+        news?.articleUrl && news.articleUrl.startsWith('http')
+          ? news.articleUrl
+          : `${baseUrl}/#/news/${newsId}`;
 
       switch (platform) {
-        case 'facebook':
+        case 'twitter': {
           window.open(
-            `https://www.facebook.com/sharer/sharer.php?quote=${encodeURIComponent(text)}&u=${encodeURIComponent(url)}`,
-            '_blank'
+            `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(shareUrl)}`,
+            '_blank',
+            'width=600,height=400'
           );
           break;
-        case 'copy':
+        }
+        case 'facebook': {
+          window.open(
+            `https://www.facebook.com/sharer/sharer.php?quote=${encodeURIComponent(text)}&u=${encodeURIComponent(shareUrl)}`,
+            '_blank',
+            'width=600,height=400'
+          );
+          break;
+        }
+        case 'copy': {
           try {
-            await navigator.clipboard.writeText(`${text}\n\n${url}`);
-            alert('Quote copied to clipboard!');
+            await navigator.clipboard.writeText(`${text}\n\n${shareUrl}`);
+            // Create a temporary notification
+            const notification = document.createElement('div');
+            notification.textContent = 'Quote copied to clipboard!';
+            notification.style.cssText = `
+              position: fixed;
+              top: 20px;
+              right: 20px;
+              background: var(--color-primary);
+              color: white;
+              padding: 12px 20px;
+              border-radius: 8px;
+              z-index: 1000;
+              font-size: 14px;
+              box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            `;
+            document.body.appendChild(notification);
+            setTimeout(() => {
+              document.body.removeChild(notification);
+            }, 3000);
           } catch (err) {
             console.error('Failed to copy: ', err);
+            alert('Quote copied to clipboard!');
           }
           break;
+        }
       }
 
       setShowSharePopup(false);
       setSelectedText('');
       window.getSelection().removeAllRanges();
     },
-    [selectedText, news, lang]
+    [selectedText, news, lang, newsId]
   );
 
   // Render rich text content with lazy loading
@@ -646,49 +698,108 @@ function UniversityNewsDetail() {
   // Enhanced share handler with multiple platforms
   const handleShare = useCallback(
     async (platform = 'native') => {
-      const url = news?.articleUrl || window.location.href;
+      // Create a proper URL for sharing while maintaining Windows server compatibility
+      const currentHost = window.location.hostname;
+      const isProduction =
+        currentHost === 'www.marsu.edu.ph' || currentHost === 'marsu.edu.ph';
+      const isDevelopment =
+        currentHost === 'project-marsu.vercel.app' ||
+        currentHost === 'localhost';
+
+      let baseUrl;
+      if (isProduction) {
+        baseUrl = 'https://www.marsu.edu.ph';
+      } else if (isDevelopment) {
+        baseUrl = window.location.origin;
+      } else {
+        baseUrl = window.location.origin;
+      }
+
+      // For Windows server, we need to keep the hash for proper routing
+      // But we'll try to make it more social media friendly
+      const shareUrl =
+        news?.articleUrl && news.articleUrl.startsWith('http')
+          ? news.articleUrl
+          : `${baseUrl}/#/news/${newsId}`;
+
       const title =
         news?.headline?.[lang] || news?.headline || 'University News';
+      const description = news?.lead?.[lang] || news?.lead || '';
 
       switch (platform) {
-        case 'twitter':
+        case 'twitter': {
+          const twitterText = `${title}${description ? ` - ${description.slice(0, 100)}...` : ''}`;
           window.open(
-            `https://twitter.com/intent/tweet?text=${encodeURIComponent(title)}&url=${encodeURIComponent(url)}`,
-            '_blank'
+            `https://twitter.com/intent/tweet?text=${encodeURIComponent(twitterText)}&url=${encodeURIComponent(shareUrl)}`,
+            '_blank',
+            'width=600,height=400'
           );
           break;
-        case 'facebook':
-          window.open(
-            `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`,
-            '_blank'
-          );
+        }
+        case 'facebook': {
+          // Facebook's simpler sharer that doesn't require app configuration
+          // For hash-based URLs, we'll add some additional parameters to help Facebook
+          const fbUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}&quote=${encodeURIComponent(title)}`;
+          window.open(fbUrl, '_blank', 'width=600,height=400');
           break;
-        case 'copy':
+        }
+        case 'copy': {
           try {
-            await navigator.clipboard.writeText(url);
-            alert('Link copied to clipboard!');
+            await navigator.clipboard.writeText(shareUrl);
+            // Create a temporary notification
+            const notification = document.createElement('div');
+            notification.textContent = 'Link copied to clipboard!';
+            notification.style.cssText = `
+              position: fixed;
+              top: 20px;
+              right: 20px;
+              background: var(--color-primary);
+              color: white;
+              padding: 12px 20px;
+              border-radius: 8px;
+              z-index: 1000;
+              font-size: 14px;
+              box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+            `;
+            document.body.appendChild(notification);
+            setTimeout(() => {
+              document.body.removeChild(notification);
+            }, 3000);
           } catch (err) {
             console.error('Failed to copy: ', err);
+            // Fallback for older browsers
+            const textArea = document.createElement('textarea');
+            textArea.value = shareUrl;
+            document.body.appendChild(textArea);
+            textArea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textArea);
+            alert('Link copied to clipboard!');
           }
           break;
-        default:
-          if (navigator.share && navigator.canShare({ title, url })) {
+        }
+        default: {
+          if (navigator.share && navigator.canShare({ title, url: shareUrl })) {
             try {
-              await navigator.share({ title, url });
+              await navigator.share({
+                title,
+                url: shareUrl,
+                text: description,
+              });
             } catch (err) {
               if (err.name !== 'AbortError') {
                 console.error('Error sharing:', err);
               }
             }
           } else {
-            window.open(
-              `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`,
-              '_blank'
-            );
+            // Fallback to Facebook
+            const fbUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}&quote=${encodeURIComponent(title)}`;
+            window.open(fbUrl, '_blank', 'width=600,height=400');
           }
+        }
       }
     },
-    [lang, news?.articleUrl, news?.headline]
+    [lang, news?.articleUrl, news?.headline, news?.lead, newsId]
   );
 
   // Skeleton loading component
@@ -822,7 +933,28 @@ function UniversityNewsDetail() {
   const metaDescription =
     news.metaDescription || news.lead?.[lang] || news.lead || '';
   const metaImage = news.metaImage || news.imgUrl || '/logo.png';
-  const metaUrl = news.articleUrl || window.location.href;
+
+  // Create canonical URL for meta tags (maintaining Windows server hash routing)
+  const currentHost = window.location.hostname;
+  const isProduction =
+    currentHost === 'www.marsu.edu.ph' || currentHost === 'marsu.edu.ph';
+  const isDevelopment =
+    currentHost === 'project-marsu.vercel.app' || currentHost === 'localhost';
+
+  let baseUrl;
+  if (isProduction) {
+    baseUrl = 'https://www.marsu.edu.ph';
+  } else if (isDevelopment) {
+    baseUrl = window.location.origin;
+  } else {
+    baseUrl = window.location.origin;
+  }
+
+  // For Windows server, maintain hash routing but ensure proper meta tags
+  const metaUrl =
+    news.articleUrl && news.articleUrl.startsWith('http')
+      ? news.articleUrl
+      : `${baseUrl}/#/news/${newsId}`;
 
   return (
     <div className='min-h-screen bg-gray-50'>
@@ -832,6 +964,25 @@ function UniversityNewsDetail() {
         image={metaImage}
         url={metaUrl}
         type='article'
+      />
+
+      {/* Additional meta tags for Windows server hash routing */}
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            // Help Facebook and other crawlers understand hash-based routing
+            if (window.location.hash && !window.fbAsyncInit) {
+              // Set up proper meta tags for social sharing
+              var canonical = document.querySelector('link[rel="canonical"]');
+              if (!canonical) {
+                canonical = document.createElement('link');
+                canonical.rel = 'canonical';
+                document.head.appendChild(canonical);
+              }
+              canonical.href = '${metaUrl}';
+            }
+          `,
+        }}
       />
 
       {/* Enhanced container with better mobile spacing */}
