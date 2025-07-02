@@ -1,0 +1,178 @@
+{
+  "sampleEvents": [
+    {
+      "id": "event-001",
+      "title": {
+        "en": "College of Information and Computing Sciences Orientation",
+        "fil": "Orientation ng College of Information and Computing Sciences"
+      },
+      "description": {
+        "en": "Welcome new students to CICS with an introduction to programs, faculty, and campus resources.",
+        "fil": "Pagtanggap sa mga bagong estudyante sa CICS kasama ang pagpapakilala sa mga programa, faculty, at campus resources."
+      },
+      "date": "2025-07-15T09:00:00Z",
+      "location": "CICS Auditorium",
+      "category": "Academic",
+      "eventType": "Orientation",
+      "tags": ["CICS", "Orientation", "New Students"],
+      "organizer": "College of Information and Computing Sciences",
+      "isFeatured": true,
+      "isTrending": false,
+      "priority": "high",
+      "imageUrl": "/images/cics-temp-banner.png"
+    },
+    {
+      "id": "event-002",
+      "title": {
+        "en": "Mid-Term Examinations Week",
+        "fil": "Linggo ng Mid-Term Examinations"
+      },
+      "description": {
+        "en": "University-wide mid-term examinations for all undergraduate and graduate programs.",
+        "fil": "Pandaigdigang mid-term examinations para sa lahat ng undergraduate at graduate programs."
+      },
+      "date": "2025-07-21T08:00:00Z",
+      "location": "All Campus Buildings",
+      "category": "Academic",
+      "eventType": "Examination",
+      "tags": ["Midterms", "Examinations", "Academic"],
+      "organizer": "Office of the Registrar",
+      "isFeatured": false,
+      "isTrending": true,
+      "priority": "high",
+      "imageUrl": "/images/landing-bg-1.jpg"
+    },
+    {
+      "id": "event-003",
+      "title": {
+        "en": "MARSU Foundation Day Celebration",
+        "fil": "Pagdiriwang ng Foundation Day ng MARSU"
+      },
+      "description": {
+        "en": "Annual celebration of MARSU's founding with cultural performances, academic competitions, and community activities.",
+        "fil": "Taunang pagdiriwang ng pagkakatatag ng MARSU kasama ang mga cultural performance, academic competition, at community activities."
+      },
+      "date": "2025-08-01T07:00:00Z",
+      "location": "MARSU Main Campus",
+      "category": "University",
+      "eventType": "Celebration",
+      "tags": ["Foundation Day", "Anniversary", "Culture", "Community"],
+      "organizer": "University Administration",
+      "isFeatured": true,
+      "isTrending": true,
+      "priority": "high",
+      "imageUrl": "/images/landing-bg-2.jpg"
+    },
+    {
+      "id": "event-004",
+      "title": {
+        "en": "Research Symposium 2025",
+        "fil": "Research Symposium 2025"
+      },
+      "description": {
+        "en": "Annual research symposium showcasing faculty and student research projects across all colleges.",
+        "fil": "Taunang research symposium na nagtatampok ng mga research project ng faculty at estudyante sa lahat ng kolehiyo."
+      },
+      "date": "2025-08-15T08:30:00Z",
+      "location": "University Gymnasium",
+      "category": "Research",
+      "eventType": "Symposium",
+      "tags": ["Research", "Innovation", "Academic", "Faculty", "Students"],
+      "organizer": "Research and Development Office",
+      "isFeatured": false,
+      "isTrending": false,
+      "priority": "normal",
+      "imageUrl": "/images/landing-bg-3.jpg"
+    },
+    {
+      "id": "event-005",
+      "title": {
+        "en": "Final Enrollment Deadline",
+        "fil": "Huling Deadline ng Enrollment"
+      },
+      "description": {
+        "en": "Last day for late enrollment and payment of tuition fees for the current semester.",
+        "fil": "Huling araw para sa late enrollment at bayad ng tuition fees para sa kasalukuyang semester."
+      },
+      "date": "2025-07-10T17:00:00Z",
+      "location": "Registrar's Office",
+      "category": "Academic",
+      "eventType": "Deadline",
+      "tags": ["Enrollment", "Deadline", "Tuition", "Registration"],
+      "organizer": "Office of the Registrar",
+      "isFeatured": false,
+      "isTrending": false,
+      "priority": "high",
+      "imageUrl": "/images/landing-bg-1.jpg"
+    },
+    {
+      "id": "event-006",
+      "title": {
+        "en": "Intramural Sports Festival",
+        "fil": "Intramural Sports Festival"
+      },
+      "description": {
+        "en": "Inter-college sports competition featuring basketball, volleyball, track and field, and other sporting events.",
+        "fil": "Inter-college sports competition na may basketball, volleyball, track and field, at iba pang sporting events."
+      },
+      "date": "2025-09-01T06:00:00Z",
+      "location": "MARSU Sports Complex",
+      "category": "Sports",
+      "eventType": "Competition",
+      "tags": [
+        "Sports",
+        "Intramurals",
+        "Competition",
+        "Basketball",
+        "Volleyball"
+      ],
+      "organizer": "Student Affairs Office",
+      "isFeatured": false,
+      "isTrending": false,
+      "priority": "normal",
+      "imageUrl": "/images/landing-bg-2.jpg"
+    },
+    {
+      "id": "event-007",
+      "title": {
+        "en": "Graduation Ceremony - Class of 2025",
+        "fil": "Graduation Ceremony - Class of 2025"
+      },
+      "description": {
+        "en": "Commencement exercises for graduating students from all colleges and programs.",
+        "fil": "Commencement exercises para sa mga graduating students mula sa lahat ng kolehiyo at programa."
+      },
+      "date": "2025-10-15T08:00:00Z",
+      "location": "MARSU Gymnasium",
+      "category": "Academic",
+      "eventType": "Graduation",
+      "tags": ["Graduation", "Commencement", "Class of 2025", "Ceremony"],
+      "organizer": "University Administration",
+      "isFeatured": true,
+      "isTrending": false,
+      "priority": "high",
+      "imageUrl": "/images/landing-bg-3.jpg"
+    },
+    {
+      "id": "event-008",
+      "title": {
+        "en": "Library Week Activities",
+        "fil": "Mga Aktibidad ng Library Week"
+      },
+      "description": {
+        "en": "Week-long activities promoting reading, research skills, and library resources utilization.",
+        "fil": "Lingguhang aktibidad na nagpo-promote ng pagbabasa, research skills, at paggamit ng library resources."
+      },
+      "date": "2025-09-15T08:00:00Z",
+      "location": "University Library",
+      "category": "Academic",
+      "eventType": "Educational",
+      "tags": ["Library", "Reading", "Research", "Education"],
+      "organizer": "University Library",
+      "isFeatured": false,
+      "isTrending": false,
+      "priority": "normal",
+      "imageUrl": "/images/landing-bg-1.jpg"
+    }
+  ]
+}

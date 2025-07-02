@@ -1,0 +1,164 @@
+{
+  "campusLife": [
+    {
+      "id": "story-001",
+      "title": {
+        "en": "Annual Science Fair: Where Innovation Meets Creativity",
+        "fil": "Taunang Science Fair: Kung Saan Nagsasama ang Innovation at Creativity"
+      },
+      "description": {
+        "en": "Students showcased groundbreaking research projects, from sustainable energy solutions to marine conservation initiatives, making MARSU proud of its future scientists and innovators.",
+        "fil": "Ipinakita ng mga estudyante ang kanilang mga makabagong proyektong pananaliksik, mula sa sustainable energy solutions hanggang sa marine conservation initiatives, na nagpapamalas ng dangal ng MARSU sa hinaharap na mga scientist at innovator."
+      },
+      "author": "Maria Santos",
+      "date": "2024-03-15",
+      "imageUrl": "/images/Arts 1.jpg",
+      "tags": ["Academic", "Science", "Innovation", "Research"],
+      "category": "Academic",
+      "isFeatured": true,
+      "isTrending": false,
+      "likes": 87,
+      "submittedByUser": false
+    },
+    {
+      "id": "story-002",
+      "title": {
+        "en": "Intramural Sports Festival: Unity Through Competition",
+        "fil": "Intramural Sports Festival: Pagkakaisa sa Pamamagitan ng Kompetisyon"
+      },
+      "description": {
+        "en": "The annual intramural brought together students from all departments in friendly competition. Basketball, volleyball, and track events showcased our athletic talents while building lasting friendships.",
+        "fil": "Ang taunang intramural ay nagtipon sa mga estudyante mula sa lahat ng departamento sa magiliw na kompetisyon. Ang basketball, volleyball, at track events ay nagpakita ng aming athletic talents habang bumubuo ng matibay na pagkakaibigan."
+      },
+      "author": "John Michael Cruz",
+      "date": "2024-02-28",
+      "imageUrl": "/images/ROTC 1.jpg",
+      "tags": ["Sports", "Unity", "Competition", "Students"],
+      "category": "Sports",
+      "isFeatured": false,
+      "isTrending": true,
+      "likes": 156,
+      "submittedByUser": true
+    },
+    {
+      "id": "story-003",
+      "title": {
+        "en": "Cultural Night: Celebrating Filipino Heritage",
+        "fil": "Cultural Night: Pagdiriwang ng Pamana ng Pilipino"
+      },
+      "description": {
+        "en": "A spectacular evening celebrating our rich Filipino culture through traditional dances, music, and cuisine. Students from different provinces shared their unique regional traditions.",
+        "fil": "Isang kahanga-hangang gabi na nagdiriwang ng aming mayamang kultura ng Pilipino sa pamamagitan ng tradisyonal na sayaw, musika, at pagkain. Ang mga estudyante mula sa iba't ibang probinsya ay nagbahagi ng kanilang natatanging mga tradisyon sa rehiyon."
+      },
+      "author": "Carmen Dela Cruz",
+      "date": "2024-04-12",
+      "imageUrl": "/images/Arts 2.jpg",
+      "tags": ["Culture", "Heritage", "Arts", "Tradition"],
+      "category": "Cultural",
+      "isFeatured": false,
+      "isTrending": false,
+      "likes": 123,
+      "submittedByUser": false
+    },
+    {
+      "id": "story-004",
+      "title": {
+        "en": "Marine Biology Field Trip: Exploring Underwater Wonders",
+        "fil": "Marine Biology Field Trip: Paggalugad sa mga Kahanga-hangang sa Ilalim ng Dagat"
+      },
+      "description": {
+        "en": "Biology students embarked on an educational journey to explore marine ecosystems around Marinduque. The hands-on experience provided invaluable insights into marine conservation.",
+        "fil": "Ang mga estudyanteng Biology ay nagsimula ng educational journey upang galugarin ang marine ecosystems sa paligid ng Marinduque. Ang hands-on experience ay nagbigay ng napakahalalagang insights sa marine conservation."
+      },
+      "author": "Dr. Elena Rodriguez",
+      "date": "2024-01-20",
+      "imageUrl": "/images/landing-bg-2.jpg",
+      "tags": ["Education", "Marine", "Biology", "Conservation"],
+      "category": "Academic",
+      "isFeatured": true,
+      "isTrending": false,
+      "likes": 92,
+      "submittedByUser": false
+    },
+    {
+      "id": "story-005",
+      "title": {
+        "en": "Community Service: Clean-up Drive Success",
+        "fil": "Community Service: Tagumpay ng Clean-up Drive"
+      },
+      "description": {
+        "en": "MARSU students organized a massive coastal clean-up drive, collecting over 500 kg of waste and planting 200 mangrove seedlings. Our commitment to environmental stewardship continues to grow.",
+        "fil": "Ang mga estudyante ng MARSU ay nag-organisa ng malaking coastal clean-up drive, nakolekta ang mahigit 500 kg ng basura at nagtanim ng 200 mangrove seedlings. Ang aming commitment sa environmental stewardship ay patuloy na lumalaki."
+      },
+      "author": "Green Club Officers",
+      "date": "2024-05-05",
+      "imageUrl": "/images/CWTS 1.jpg",
+      "tags": ["Environment", "Community", "Service", "Conservation"],
+      "category": "Community Service",
+      "isFeatured": false,
+      "isTrending": true,
+      "likes": 201,
+      "submittedByUser": true
+    },
+    {
+      "id": "story-006",
+      "title": {
+        "en": "Graduation Day 2024: Dreams Fulfilled",
+        "fil": "Graduation Day 2024: Natupad na mga Pangarap"
+      },
+      "description": {
+        "en": "A memorable graduation ceremony celebrating the achievements of 1,200 graduates. Proud families witnessed their children's academic journey culminate in this momentous occasion.",
+        "fil": "Isang hindi malilimutang graduation ceremony na nagdiriwang sa mga tagumpay ng 1,200 graduates. Ang mga proud na pamilya ay nasaksihan ang pagtatapos ng academic journey ng kanilang mga anak sa mahalagang okasyong ito."
+      },
+      "author": "MARSU Communications",
+      "date": "2024-06-15",
+      "imageUrl": "/images/landing-bg-3.jpg",
+      "tags": ["Graduation", "Achievement", "Ceremony", "Success"],
+      "category": "Academic",
+      "isFeatured": true,
+      "isTrending": true,
+      "likes": 342,
+      "submittedByUser": false
+    },
+    {
+      "id": "story-007",
+      "title": {
+        "en": "Music Festival: Harmonies Under the Stars",
+        "fil": "Music Festival: Mga Harmonya sa Ilalim ng mga Bituin"
+      },
+      "description": {
+        "en": "The annual music festival featured local bands, student performers, and guest artists. The open-air concert under the starlit sky created magical moments that will be remembered forever.",
+        "fil": "Ang taunang music festival ay nagpakita ng mga lokal na banda, student performers, at guest artists. Ang open-air concert sa ilalim ng bituin ay lumikha ng mga mahiwagang sandali na hindi malilimutan."
+      },
+      "author": "Music Department",
+      "date": "2024-03-30",
+      "imageUrl": "/images/Instruments 1.jpg",
+      "tags": ["Music", "Arts", "Performance", "Entertainment"],
+      "category": "Cultural",
+      "isFeatured": false,
+      "isTrending": false,
+      "likes": 78,
+      "submittedByUser": false
+    },
+    {
+      "id": "story-008",
+      "title": {
+        "en": "Student Leadership Summit: Empowering Tomorrow's Leaders",
+        "fil": "Student Leadership Summit: Pagbibigay-kapangyarihan sa mga Lider ng Bukas"
+      },
+      "description": {
+        "en": "Student leaders from across Marinduque gathered for intensive workshops on leadership, project management, and community engagement. The summit fostered collaboration and shared best practices.",
+        "fil": "Ang mga student leaders mula sa buong Marinduque ay nagtipon para sa intensive workshops sa leadership, project management, at community engagement. Ang summit ay nag-foster ng collaboration at nagbahagi ng best practices."
+      },
+      "author": "Student Council",
+      "date": "2024-04-25",
+      "imageUrl": "/images/CWTS 2.jpg",
+      "tags": ["Leadership", "Workshop", "Students", "Development"],
+      "category": "Leadership",
+      "isFeatured": false,
+      "isTrending": false,
+      "likes": 65,
+      "submittedByUser": true
+    }
+  ]
+}
