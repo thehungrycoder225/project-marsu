@@ -4417,8 +4417,14 @@
   "news": [
     {
       "id": 1,
-      "imgUrl": " ",
-      "gallery": [],
+      "imgUrl": "../../images/news/lecture-on-geohazards-5.jpg",
+      "gallery": [
+        "../../images/news/lecture-on-geohazards-1.jpg",
+        "../../images/news/lecture-on-geohazards-2.jpg",
+        "../../images/news/lecture-on-geohazards-3.jpg",
+        "../../images/news/lecture-on-geohazards-4.jpg",
+        "../../images/news/lecture-on-geohazards-5.jpg"
+      ],
       "headline": {
         "en": "UP Scientists to Lecture on Geohazards at Boac’s Casa Real"
       },
@@ -4440,8 +4446,14 @@
     },
     {
       "id": 2,
-      "imgUrl": " ",
-      "gallery": [],
+      "imgUrl": "../../images/news/d1-in-service-training-3.jpg",
+      "gallery": [
+        "../../images/news/d1-in-service-training.jpg",
+        "../../images/news/d1-in-service-training-2.jpg",
+        "../../images/news/d1-in-service-training-3.jpg",
+        "../../images/news/d1-in-service-training-4.jpg",
+        "../../images/news/d1-in-service-training-5.jpg"
+      ],
       "headline": {
         "en": "Faculty in In-Service Training 2025 - Day 1: Strenghtening Instructional Excellence"
       },
@@ -4495,8 +4507,13 @@
     },
     {
       "id": 4,
-      "imgUrl": " ",
-      "gallery": [],
+      "imgUrl": "../../images/news/marsu-rdc-meeting-4.jpg",
+      "gallery": [
+        "../../images/news/marsu-rdc-meeting-1.jpg",
+        "../../images/news/marsu-rdc-meeting-2.jpg",
+        "../../images/news/marsu-rdc-meeting-3.jpg",
+        "../../images/news/marsu-rdc-meeting-4.jpg"
+      ],
       "headline": {
         "en": "MarSU Joins 90th RDC MIMAROPA Full Council Meeting"
       },
@@ -4519,8 +4536,11 @@
     },
     {
       "id": 5,
-      "imgUrl": " ",
-      "gallery": [],
+      "imgUrl": "../../images/news/marsu-pca-agri-partnership-2.jpg",
+      "gallery": [
+        "../../images/news/marsu-pca-agri-partnership-1.jpg",
+        "../../images/news/marsu-pca-agri-partnership-2.jpg"
+      ],
       "headline": {
         "en": "MarSU and PCA Explore Strategic Partnership in Agriculture Development"
       },
@@ -4545,8 +4565,13 @@
     },
     {
       "id": 6,
-      "imgUrl": " ",
-      "gallery": [],
+      "imgUrl": "../../images/news/forum-assessment-training-1.jpg",
+      "gallery": [
+        "../../images/news/forum-assessment-training-1.jpg",
+        "../../images/news/forum-assessment-training-2.jpg",
+        "../../images/news/forum-assessment-training-3.jpg",
+        "../../images/news/forum-assessment-training-4.jpg"
+      ],
       "headline": {
         "en": "MarSU Champions Community Engagement Through Stakeholders' Forum and Impact Assessment Training"
       },
@@ -4571,8 +4596,13 @@
     },
     {
       "id": 7,
-      "imgUrl": " ",
-      "gallery": [],
+      "imgUrl": "../../images/news/marsu-new-vehicle-1.jpg",
+      "gallery": [
+        "../../images/news/marsu-new-vehicle-1.jpg",
+        "../../images/news/marsu-new-vehicle-2.jpg",
+        "../../images/news/marsu-new-vehicle-3.jpg",
+        "../../images/news/marsu-new-vehicle-4.jpg"
+      ],
       "headline": {
         "en": "MarSU Adds New Vehicle to Its Fleet"
       },
@@ -4596,8 +4626,13 @@
     },
     {
       "id": 8,
-      "imgUrl": " ",
-      "gallery": [],
+      "imgUrl": "../../images/news/marsu-r&d-award-1.jpg",
+      "gallery": [
+        "../../images/news/marsu-r&d-award-1.jpg",
+        "../../images/news/marsu-r&d-award-2.jpg",
+        "../../images/news/marsu-r&d-award-3.jpg",
+        "../../images/news/marsu-r&d-award-4.jpg"
+      ],
       "headline": {
         "en": "MarSU bags Best R&D Award for Probiotic Drink Innovation"
       },
@@ -4624,8 +4659,17 @@
     },
     {
       "id": 9,
-      "imgUrl": " ",
-      "gallery": [],
+      "imgUrl": "../../images/news/asean-fellowship-program-1.jpg",
+      "gallery": [
+        "../../images/news/asean-fellowship-program-1.jpg",
+        "../../images/news/asean-fellowship-program-2.jpg",
+        "../../images/news/asean-fellowship-program-3.jpg",
+        "../../images/news/asean-fellowship-program-4.jpg",
+        "../../images/news/asean-fellowship-program-5.jpg",
+        "../../images/news/asean-fellowship-program-6.jpg",
+        "../../images/news/asean-fellowship-program-7.jpg",
+        "../../images/news/asean-fellowship-program-8.jpg"
+      ],
       "headline": {
         "en": "Marinduque State University Strenghtens Global Linkages through the ASEAN Fellowship Program 2025 in Vietnam"
       },
@@ -4654,8 +4698,13 @@
     },
     {
       "id": 10,
-      "imgUrl": " ",
-      "gallery": [],
+      "imgUrl": "../../images/news/nursing-clinical-graduation-1.jpg",
+      "gallery": [
+        "../../images/news/nursing-clinical-graduation-1.jpg",
+        "../../images/news/nursing-clinical-graduation-2.jpg",
+        "../../images/news/nursing-clinical-graduation-3.jpg",
+        "../../images/news/nursing-clinical-graduation-4.jpg"
+      ],
       "headline": {
         "en": "Marinduque State University Celebrates Nursing Students’ Achievements in Clinical Graduation"
       },
@@ -4677,8 +4726,13 @@
     },
     {
       "id": 11,
-      "imgUrl": " ",
-      "gallery": [],
+      "imgUrl": "../../images/news/4th-bor-meeting-3.jpg",
+      "gallery": [
+        "../../images/news/4th-bor-meeting-1.jpg",
+        "../../images/news/4th-bor-meeting-2.jpg",
+        "../../images/news/4th-bor-meeting-3.jpg",
+        "../../images/news/4th-bor-meeting-4.jpg"
+      ],
       "headline": {
         "en": "MarSU Successfully conducts 4th Regular BOR Meeting"
       },
@@ -4703,8 +4757,16 @@
     },
     {
       "id": 12,
-      "imgUrl": " ",
-      "gallery": [],
+      "imgUrl": "../../images/news/marsu-ties-with-partners-1.jpg",
+      "gallery": [
+        "../../images/news/marsu-ties-with-partners-1.jpg",
+        "../../images/news/marsu-ties-with-partners-2.jpg",
+        "../../images/news/marsu-ties-with-partners-3.jpg",
+        "../../images/news/marsu-ties-with-partners-4.jpg",
+        "../../images/news/marsu-ties-with-partners-5.jpg",
+        "../../images/news/marsu-ties-with-partners-6.jpg",
+        "../../images/news/marsu-ties-with-partners-7.jpg"
+      ],
       "headline": {
         "en": "MarSU Forges Stronger Ties With Partners"
       },
@@ -4730,8 +4792,13 @@
     },
     {
       "id": 13,
-      "imgUrl": " ",
-      "gallery": [],
+      "imgUrl": "../../images/news/international-coil-conference-3.jpg",
+      "gallery": [
+        "../../images/news/international-coil-conference-1.jpg",
+        "../../images/news/international-coil-conference-2.jpg",
+        "../../images/news/international-coil-conference-3.jpg",
+        "../../images/news/international-coil-conference-4.jpg"
+      ],
       "headline": {
         "en": "Marinduque State University Advances Internalization through Key Partnerships at the International COIL Conference 2025"
       },
@@ -4754,8 +4821,8 @@
     },
     {
       "id": 14,
-      "imgUrl": " ",
-      "gallery": [],
+      "imgUrl": "../../images/news/marsu-lpt-top-nine-1.jpg",
+      "gallery": ["../../images/news/marsu-lpt-top-nine-1.jpg"],
       "headline": {
         "en": "MarSU Top 9 Best Performing School in LPT (Secondary Level)"
       },
@@ -4777,8 +4844,12 @@
     },
     {
       "id": 15,
-      "imgUrl": " ",
-      "gallery": [],
+      "imgUrl": "../../images/news/marsu-ihs-moving-up-1.jpg",
+      "gallery": [
+        "../../images/news/marsu-ihs-moving-up-1.jpg",
+        "../../images/news/marsu-ihs-moving-up-2.jpg",
+        "../../images/news/marsu-ihs-moving-up-3.jpg"
+      ],
       "headline": {
         "en": "Marinduque State University Integrated High School Holds 8th Commencement and 10th Moving-Up Ceremony"
       },
@@ -4793,10 +4864,12 @@
       "isFeatured": false,
       "author": "J. Breganza",
       "tags": [
-        "Marsu Integrated High School",
-        "IHS 8th Commencement Exercise",
-        "10th Moving-Up Ceremony",
-        "Graduation Ceremony"
+        "Integrated High School",
+        "Commencement Exercise",
+        "Moving-Up Ceremony",
+        "Graduation Ceremony",
+        "Integrated High School",
+        "Marinduque State University"
       ]
     }
   ],
