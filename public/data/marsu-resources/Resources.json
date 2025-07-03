@@ -4930,6 +4930,44 @@
           "description": "MarSU provides excellence in instruction, research, extension and production, responsive to the needs of the 21st century education in pursuit of global transformation."
         }
       }
+    },
+
+    {
+      "id": 3,
+      "GoalsAndObjectives": {
+        "goal": [
+          {
+            "id": 1,
+            "title": "Instruction",
+            "description": "To implement innovative, inclusive and sustainable life-long learning strategies under the new normal state of affairs.",
+            "objectives": "Accredit all in-placed programs before the end of 2024 to a higher level. \nObtain 100% of the in-placed programs with COPCs (Certificates of Program Compliance) and Gas (Government Authority) \nImprove the curricular programs by matching the needs of the society by preparing the students with entrepreneurial skills as business-oriented graduates rather than mere employees of public and private companies. \nImplement blended-learning in all instructional programs and extensions services using the combinations of digital social platforms, radio and soft and hard copies of lectures and manuals. \nIncrease the number of faculty with ISBN and copyrighted modules, books and manuals in hard (print) and soft (electronic) copies using DIY (do-it-yourself) formats to 50% (91 out of 181) \nImprove the performance of graduates in the licensure exams, as much as possible above the national passing marks in all programs. \nInvite faculty members and lecturers from other universities and colleges to conduct lectures on specialized topics and management issues via zoom, webinar, and other forms of audio-visual platforms on a quarterly basis. \nEmbed the unique Marinduque culture by incorporating it across all curricula and in the four-fold functions of the college \nEmbed an eco-friendly culture among students and faculty across all curricula and in the four-fold functions of the college \nEstablish the School of Agriculture and the School of Engineering as centres of development"
+          },
+          {
+            "id": 2,
+            "title": "Research",
+            "description": "To embed research productivity across all programs and activities to compliment instruction, extension, production and management",
+            "objectives": "Increase the number of faculty engaged in research by 20% (46 out of 181) \nIncrease the R & D Budget of the College to match the Php75,000 per research budget through partnership andoutsourcing activities, especially for bankable projects \nIncrease the number of faculty with published research outputs in reputable journals to 20% (35 out of 181) \nIncrease the number of faculty with patents to 20% and develop more viable technologies out of the province’s resources, such as breadfruits, root crops, marine resources, native pig, herbal products, etc. through research that can be utilized by communities as source of income, at least one on a yearly basis \nNurture active partnership with the DOST, DA, DTI, DENR,DOT, DOH, DAR and other agencies of the government in their regional and national consortia for funding of R&E Projects \nEstablish the Research & Development Centres for Philippine Native Pig, Food Processing and the Rehabilitation & Management of Former Mining Areas"
+          },
+          {
+            "id": 3,
+            "title": "Extension",
+            "description": "To embed research productivity across all programs and activities to compliment instruction, extension, production and management",
+            "objectives": "Increase the number of faculty engaged in extension work by 40% (73 out of 181) with the participation of the students \nIncrease the Extension Program Budget of the College to Php 75,000.00 per program through partnership and outsourcing activities \nImplement an “Adopt a Community Program” to help the provincial government in organizing livelihoods and cooperatives out of the developed technologies of the college, at least two on a yearly basis \nHelp the provincial government in establishing ICT centreson marginalized or “dead zone” areas where internet connectivity is a problem that can be used by the students and the community as well"
+          },
+          {
+            "id": 4,
+            "title": "Production",
+            "description": "To pursue income-generating programs geared to financial sustainability.",
+            "objectives": "Enhance and sustain the financially performing IGPs by increasing their funding and income by 40% \nEstablish a product incubator and processing centres for production of viable and marketable products \nImplement assistance to communities to utilize the developed technologies in their income-generating activities in partnership with the local and national governments, foundations and the civil societies"
+          },
+          {
+            "id": 5,
+            "title": "Adm. & Mngt.",
+            "description": "To build enduring human, social and physical capital through networking with local and national governments, industries and civil societies towards good governance",
+            "objectives": "Increase the number of faculty with doctorate degrees by 10% (additional 18), while the rest shall be 100% master’s degree holders. \nIncrease the number of faculty with full-professorship rank by 5% (additional 6) \nIncrease the number of non-teaching employees with permanent plantilla by 30% as the College’s services increase towards university status \nIncrease the number of faculty members with full scholarship grants in foreign universities by 10% (additional 15) \nForge a strong internationalization of program by building networks with foreign universities and colleges at least one on a yearly basis. \nSustain the ISO Certification of the institution. \nEmpower each campus and school with a bottom-up style of management and conduct regular consultation with the municipal and provincial governments and other stakeholders for development program alignment. \nConduct regular and transparent auditing of resources, the 5Ms of management on a quarterly basis with the CSC, COA and other concerned agencies with 100% compliance. \nInstitutionalize the giving of CNAs and the giving of rewards and incentives to performing faculty and staff under the principle of good governance. \nInvest in building state-of-the-art physical capital for national and global competitiveness, like the DOST’s Science Centrum and other an eco-friendly, digitally intelligent Techno-Hub for the advancement of learning and services of the college to the province"
+          }
+        ]
+      }
     }
   ]
 }
