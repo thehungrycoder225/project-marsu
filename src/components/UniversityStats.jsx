@@ -61,7 +61,6 @@ const defaultStats = [
   {
     id: 3,
     description: 'ISO 9001:2015 Certified',
-    imageUrl: '/images/iso-9001.png', // Example image URL
   },
   {
     id: 4,
@@ -71,11 +70,10 @@ const defaultStats = [
   {
     id: 5,
     description: 'Philippine Quality Awardee',
-    imageUrl: '/images/philippine-quality-award.png',
   },
   {
     id: 6,
-    description: 'Rank 1500+ in QS World University Rankings',
+    description: 'Rank 1500+ in THE World University Rankings',
     count: 1500,
   },
 ];

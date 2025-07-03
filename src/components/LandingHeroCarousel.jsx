@@ -11,11 +11,11 @@ const heroSlides = [
     id: 1,
     headline: 'Marinduque State University',
     subtitle: 'Your Gateway to Excellence',
-    description: 'Empowering Minds. Shaping the Future.',
+    description: 'Empowering Minds. Transforming Lives.',
     image: '/images/landing-bg-1.jpg',
     cta: 'Explore MARSU',
     ctaLink: '#main-content',
-    showCta: true,
+    showCta: false,
   },
   {
     id: 2,
