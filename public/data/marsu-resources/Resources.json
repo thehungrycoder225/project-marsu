@@ -4997,6 +4997,13 @@
           }
         ]
       }
+    },
+    {
+      "id": 5,
+      "QualityPolicy": {
+        "description": "Marinduque State College is a research-driven higher education institution committed to provide excellent services to its stakeholders’ highest level of satisfaction through a quality management system imbued with its Core Values, guided by its Five-Point Agenda and by adhering to globally-adopted quality standards. \nWe endeavor to:",
+        "fivePointAgenda": "1. Establish harmonious partnership with our stakeholders and clients in order to effect mutually-beneficial results. \n2. Maintain the highest degree of work excellence and work ethics that respect the innate dedication and commitment of our employees and stakeholders.\n3.Develop a culture of continual improvement in our processes. \n4. Sustain effective, efficient and accessible delivery of goods and services to meet the needs of the College. \n5. Maintain accountable, transparent, consultative and participative leadership between and among employees stakeholders in decision-making processes."
+      }
     }
   ]
 }
