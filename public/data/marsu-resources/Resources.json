@@ -4968,6 +4968,35 @@
           }
         ]
       }
+    },
+    {
+      "id": 4,
+      "CoreValues": {
+        "description": "Empowering minds, transforming lives and advancing opportunities with a HEART:",
+        "acronym": "HEART",
+        "values": [
+          {
+            "letter": "H",
+            "value": "Holistic teaching approach"
+          },
+          {
+            "letter": "E",
+            "value": "Expanded community services"
+          },
+          {
+            "letter": "A",
+            "value": "Active participation on global and national issues"
+          },
+          {
+            "letter": "R",
+            "value": "Responsive research and extension programs"
+          },
+          {
+            "letter": "T",
+            "value": "Trustworthy governance and leadership"
+          }
+        ]
+      }
     }
   ]
 }
