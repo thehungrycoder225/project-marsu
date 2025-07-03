@@ -4982,5 +4982,101 @@
     { "img": "partners/partner (12).png", "alt": "DSWD" },
     { "img": "partners/partner (13).png", "alt": "DSWD" },
     { "img": "partners/partner (14).png", "alt": "DSWD" }
+  ],
+  "about": [
+    {
+      "id": 1,
+      "history": {
+        "description": "This section contains the historical milestones of Marinduque State University.",
+        "events": "The Marinduque State University began in 1952 when Republic Act No. 805, authored by then Congressman Panfilo M. Manguera was signed into law by the late President Elpidio Quirino instituting the establishment of the Marinduque School of Arts and Trades (MSAT) in Tanza, Boac, Marinduque. The school offered two levels of education until 1975: the Two-Year Technical Education and the Four-Year Secondary Programs. \nIn the school year 1975 – 1976, DECS Order No. 28, s. 1975 authorized the school to offer the four-year Bachelor of Science in Industrial Technology (BSIT) curriculum. On the second endorsement of the Secretary of Education, the school was further permitted to offer the Bachelor in Industrial Education (BSIE) curriculum in the School Year 1978-1979. \nOn April 8, 1983, Batas Pambansa Blg. 377 filed by the Honorable Carmencita O. Reyes was signed into law by President Ferdinand E. Marcos converting the MSAT into the Marinduque Institute of Science and Technology (MIST) providing opportunities to expand its curricular offerings. The Bachelor of Science in Civil Engineering (BSCE) program was opened in Boac Campus and MIST established its Torrijos Campus offering Bachelor of Science in Agriculture, Bachelor of Science in Fishery, Trade Technical Education, and Secondary Education. \nCongresswoman Carmencita O. Reyes again filed a bill and authored Republic Act No. 6833 changing the name of Marinduque Institute of Science and Technology to Marinduque State College, effective January 5, 1990. In her desire to extend the college’s service to Marinduqueños, Cong. Reyes again authored Republic Act No.7319 which was approved on March 30, 1992, making MSC more accessible to the people. The school was established in Pinggan, Gasan; the School of Agriculture in Poctoy, Torrijos was institutionalized and the former Marinduque Community College in Sta. Cruz, thus, establishing the four campuses in Poblacion and Matalaba, Sta. Cruz, Poctoy, Torrijos, and Pinggan, Gasan.\nThe establishment of the School of Fisheries is mandated by RA 7319 to be established at Barangay Pinggan, Gasan. However, due to the unavailability of suitable sites at Barangay Pinggan, it was relocated to Barangay Banuyo, Gasan. The relocation was approved through the leadership and relentless efforts of several individuals: firstly, by Cong. Carmencita O. Reyes; secondly, Hon. Ulysses Ituralde, Mayor of Gasan together with the Sangguniang Bayan Members passing and approving SB Resolution No. 94-57 which strongly favored the relocation of the School of Fisheries to Banuyo. Finally, the relocation was approved through the letter of appeal of Prof. Atilano H. Menorca, the Officer-In-Charge, to His Excellency Fidel V. Ramos, President of the Philippines Republic on April 26, 1995.\nIn 2010, with the aspiration of continually providing quality and innovative education to the youth of Marinduquenos, MSC took the initiative for the conversion into a state university. The first universityhood bill - HB No. 04457 was filed by Cong. Lord Allan Jay Q. Velasco in 2011 during the 15th Congress. Subsequently in 2013, during the 16th Congress, Congresswoman Regina Ongsiako Reyes filed HB 1820. Then in 2016, Cong. Velasco filed the bill anew with HB No. 1281and in 2019, House Bill No. 8729 moved up to the President’s approval.\nRepublic Act (R.A.) No. 11334 authored by Congressman Lord Allan Jay Q. Velasco was signed into law by President Rodrigo Roa Duterte on April 26, 2019, converting the Marinduque State College into a State University. In order to effect this law, the institution endeavored to submit all compliance documents for conversion and upon endorsement of the CHEDRO MIMAROPA, the CHED Composite Team conducted an onsite validation visit on February 21-23, 2023. \nOn May 27, 2024, by virtue of the CEB Resolution No. 276-2024, the long-coveted dream to become a full-fledged university was approved by the Commission after having been found compliant with the requirements for conversion as stipulated in Section 21 of RA 11334.\nThe historical declaration of conversion of Marinduque State College in the Municipality of Boac, Province of Marinduque into a State University to be known as the Marinduque State University and the oath taking of the first University President, Dr. Diosdado P. Zulueta was held on July 3, 2024 at CHED Central Office, Quezon City. \nAs the first ever university in the province, MarSU envisioned to become a globally recognized university, fostering academic excellence through research and innovation by 2030."
+      }
+    },
+    {
+      "id": 2,
+      "MissionAndVision": {
+        "Mission": {
+          "id": 1,
+          "description": "By 2030, MarSU is a globally recognized university, fostering academic excellence through research and innovation."
+        },
+        "Vision": {
+          "id": 1,
+          "description": "MarSU provides excellence in instruction, research, extension and production, responsive to the needs of the 21st century education in pursuit of global transformation."
+        }
+      }
+    },
+
+    {
+      "id": 3,
+      "GoalsAndObjectives": {
+        "goal": [
+          {
+            "id": 1,
+            "title": "Instruction",
+            "description": "To implement innovative, inclusive and sustainable life-long learning strategies under the new normal state of affairs.",
+            "objectives": "Accredit all in-placed programs before the end of 2024 to a higher level. \nObtain 100% of the in-placed programs with COPCs (Certificates of Program Compliance) and Gas (Government Authority) \nImprove the curricular programs by matching the needs of the society by preparing the students with entrepreneurial skills as business-oriented graduates rather than mere employees of public and private companies. \nImplement blended-learning in all instructional programs and extensions services using the combinations of digital social platforms, radio and soft and hard copies of lectures and manuals. \nIncrease the number of faculty with ISBN and copyrighted modules, books and manuals in hard (print) and soft (electronic) copies using DIY (do-it-yourself) formats to 50% (91 out of 181) \nImprove the performance of graduates in the licensure exams, as much as possible above the national passing marks in all programs. \nInvite faculty members and lecturers from other universities and colleges to conduct lectures on specialized topics and management issues via zoom, webinar, and other forms of audio-visual platforms on a quarterly basis. \nEmbed the unique Marinduque culture by incorporating it across all curricula and in the four-fold functions of the college \nEmbed an eco-friendly culture among students and faculty across all curricula and in the four-fold functions of the college \nEstablish the School of Agriculture and the School of Engineering as centres of development"
+          },
+          {
+            "id": 2,
+            "title": "Research",
+            "description": "To embed research productivity across all programs and activities to compliment instruction, extension, production and management",
+            "objectives": "Increase the number of faculty engaged in research by 20% (46 out of 181) \nIncrease the R & D Budget of the College to match the Php75,000 per research budget through partnership andoutsourcing activities, especially for bankable projects \nIncrease the number of faculty with published research outputs in reputable journals to 20% (35 out of 181) \nIncrease the number of faculty with patents to 20% and develop more viable technologies out of the province’s resources, such as breadfruits, root crops, marine resources, native pig, herbal products, etc. through research that can be utilized by communities as source of income, at least one on a yearly basis \nNurture active partnership with the DOST, DA, DTI, DENR,DOT, DOH, DAR and other agencies of the government in their regional and national consortia for funding of R&E Projects \nEstablish the Research & Development Centres for Philippine Native Pig, Food Processing and the Rehabilitation & Management of Former Mining Areas"
+          },
+          {
+            "id": 3,
+            "title": "Extension",
+            "description": "To embed research productivity across all programs and activities to compliment instruction, extension, production and management",
+            "objectives": "Increase the number of faculty engaged in extension work by 40% (73 out of 181) with the participation of the students \nIncrease the Extension Program Budget of the College to Php 75,000.00 per program through partnership and outsourcing activities \nImplement an “Adopt a Community Program” to help the provincial government in organizing livelihoods and cooperatives out of the developed technologies of the college, at least two on a yearly basis \nHelp the provincial government in establishing ICT centreson marginalized or “dead zone” areas where internet connectivity is a problem that can be used by the students and the community as well"
+          },
+          {
+            "id": 4,
+            "title": "Production",
+            "description": "To pursue income-generating programs geared to financial sustainability.",
+            "objectives": "Enhance and sustain the financially performing IGPs by increasing their funding and income by 40% \nEstablish a product incubator and processing centres for production of viable and marketable products \nImplement assistance to communities to utilize the developed technologies in their income-generating activities in partnership with the local and national governments, foundations and the civil societies"
+          },
+          {
+            "id": 5,
+            "title": "Adm. & Mngt.",
+            "description": "To build enduring human, social and physical capital through networking with local and national governments, industries and civil societies towards good governance",
+            "objectives": "Increase the number of faculty with doctorate degrees by 10% (additional 18), while the rest shall be 100% master’s degree holders. \nIncrease the number of faculty with full-professorship rank by 5% (additional 6) \nIncrease the number of non-teaching employees with permanent plantilla by 30% as the College’s services increase towards university status \nIncrease the number of faculty members with full scholarship grants in foreign universities by 10% (additional 15) \nForge a strong internationalization of program by building networks with foreign universities and colleges at least one on a yearly basis. \nSustain the ISO Certification of the institution. \nEmpower each campus and school with a bottom-up style of management and conduct regular consultation with the municipal and provincial governments and other stakeholders for development program alignment. \nConduct regular and transparent auditing of resources, the 5Ms of management on a quarterly basis with the CSC, COA and other concerned agencies with 100% compliance. \nInstitutionalize the giving of CNAs and the giving of rewards and incentives to performing faculty and staff under the principle of good governance. \nInvest in building state-of-the-art physical capital for national and global competitiveness, like the DOST’s Science Centrum and other an eco-friendly, digitally intelligent Techno-Hub for the advancement of learning and services of the college to the province"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "CoreValues": {
+        "description": "Empowering minds, transforming lives and advancing opportunities with a HEART:",
+        "acronym": "HEART",
+        "values": [
+          {
+            "letter": "H",
+            "value": "Holistic teaching approach"
+          },
+          {
+            "letter": "E",
+            "value": "Expanded community services"
+          },
+          {
+            "letter": "A",
+            "value": "Active participation on global and national issues"
+          },
+          {
+            "letter": "R",
+            "value": "Responsive research and extension programs"
+          },
+          {
+            "letter": "T",
+            "value": "Trustworthy governance and leadership"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "QualityPolicy": {
+        "description": "Marinduque State College is a research-driven higher education institution committed to provide excellent services to its stakeholders’ highest level of satisfaction through a quality management system imbued with its Core Values, guided by its Five-Point Agenda and by adhering to globally-adopted quality standards. \nWe endeavor to:",
+        "fivePointAgenda": "1. Establish harmonious partnership with our stakeholders and clients in order to effect mutually-beneficial results. \n2. Maintain the highest degree of work excellence and work ethics that respect the innate dedication and commitment of our employees and stakeholders.\n3.Develop a culture of continual improvement in our processes. \n4. Sustain effective, efficient and accessible delivery of goods and services to meet the needs of the College. \n5. Maintain accountable, transparent, consultative and participative leadership between and among employees stakeholders in decision-making processes."
+      }
+    }
   ]
 }

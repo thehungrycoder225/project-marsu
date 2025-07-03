@@ -2,6 +2,16 @@ import Nav from '../../components/Navigation';
 import Footer from '../../components/Footer';
 import { useRef, useState, useEffect, useMemo, useCallback } from 'react';
 
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Autoplay, Parallax } from 'swiper/modules';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/parallax';
+
 // Import Heroicons
 import {
   ClockIcon,
@@ -13,6 +23,10 @@ import {
   UserGroupIcon,
   TrophyIcon,
   PhoneIcon,
+  WrenchScrewdriverIcon,
+  ChartBarIcon,
+  AcademicCapIcon,
+  BuildingLibraryIcon,
 } from '@heroicons/react/24/outline';
 
 // Icon mapping for tabs using Heroicons
@@ -256,6 +270,12 @@ function AboutPage() {
     return saved ? JSON.parse(saved) : [];
   });
 
+  // Data fetching state
+  const [aboutData, setAboutData] = useState(null);
+  const [dataLoading, setDataLoading] = useState(true);
+  const [dataError, setDataError] = useState(null);
+  const [lastFetched, setLastFetched] = useState(null);
+
   // Filtered tabs based on search
   const filteredTabs = useMemo(() => {
     if (!searchTerm) return TABS;
@@ -322,88 +342,842 @@ function AboutPage() {
       return newFavorites;
     });
   }, []);
-  // Section content as components for clarity
-  const tabContent = {
-    history: (
-      <section id='history'>
-        <h2 className='text-2xl font-bold mb-2 text-[var(--primary-700)]'>
-          History
-        </h2>
-        <p className='text-gray-700'>[Insert university history here]</p>
-      </section>
-    ),
-    'vision-mission': (
-      <section id='vision-mission'>
-        <h2 className='text-2xl font-bold mb-2 text-[var(--primary-700)]'>
-          Vision-Mission
-        </h2>
-        <p className='text-gray-700'>[Insert vision and mission here]</p>
-      </section>
-    ),
-    goals: (
-      <section id='goals'>
-        <h2 className='text-2xl font-bold mb-2 text-[var(--primary-700)]'>
-          Goals & Objectives
-        </h2>
-        <p className='text-gray-700'>[Insert goals and objectives here]</p>
-      </section>
-    ),
-    'core-values': (
-      <section id='core-values'>
-        <h2 className='text-2xl font-bold mb-2 text-[var(--primary-700)]'>
-          Core Values
-        </h2>
-        <ul className='list-disc list-inside text-gray-600 space-y-1'>
-          <li>Integrity</li>
-          <li>Excellence</li>
-          <li>Innovation</li>
-          <li>Service</li>
-          <li>Respect</li>
-          <li>Collaboration</li>
-        </ul>
-      </section>
-    ),
-    'quality-policy': (
-      <section id='quality-policy'>
-        <h2 className='text-2xl font-bold mb-2 text-[var(--primary-700)]'>
-          Quality Policy
-        </h2>
-        <p className='text-gray-700'>[Insert quality policy here]</p>
-      </section>
-    ),
-    mandates: (
-      <section id='mandates'>
-        <h2 className='text-2xl font-bold mb-2 text-[var(--primary-700)]'>
-          Mandates & Charter
-        </h2>
-        <p className='text-gray-700'>[Insert mandates and charter here]</p>
-      </section>
-    ),
-    councils: (
-      <section id='councils'>
-        <h2 className='text-2xl font-bold mb-2 text-[var(--primary-700)]'>
-          University Councils
-        </h2>
-        <p className='text-gray-700'>[Insert university councils here]</p>
-      </section>
-    ),
-    milestones: (
-      <section id='milestones'>
-        <h2 className='text-2xl font-bold mb-2 text-[var(--primary-700)]'>
-          Milestones
-        </h2>
-        <p className='text-gray-700'>[Insert milestones here]</p>
-      </section>
-    ),
-    contact: (
-      <section id='contact'>
-        <h2 className='text-2xl font-bold mb-2 text-[var(--primary-700)]'>
-          Contact Us
-        </h2>
-        <p className='text-gray-700'>[Insert contact information here]</p>
-      </section>
-    ),
-  };
+
+  // Data fetching functions
+  const fetchAboutData = useCallback(async (forceRefresh = false) => {
+    try {
+      setDataLoading(true);
+      setDataError(null);
+
+      // Check cache first (unless forcing refresh)
+      if (!forceRefresh) {
+        const cachedData = localStorage.getItem('aboutPage-data');
+        const cachedTimestamp = localStorage.getItem(
+          'aboutPage-data-timestamp'
+        );
+
+        if (cachedData && cachedTimestamp) {
+          const cacheAge = Date.now() - parseInt(cachedTimestamp);
+          const cacheValidityPeriod = 24 * 60 * 60 * 1000; // 24 hours
+
+          if (cacheAge < cacheValidityPeriod) {
+            setAboutData(JSON.parse(cachedData));
+            setLastFetched(new Date(parseInt(cachedTimestamp)));
+            setDataLoading(false);
+            return;
+          }
+        }
+      }
+
+      // Fetch fresh data
+      const response = await fetch('/data/marsu-resources/Resources.json');
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+      }
+
+      const data = await response.json();
+      const aboutSection = data.about || {};
+
+      // Cache the data
+      localStorage.setItem('aboutPage-data', JSON.stringify(aboutSection));
+      localStorage.setItem('aboutPage-data-timestamp', Date.now().toString());
+
+      setAboutData(aboutSection);
+      setLastFetched(new Date());
+    } catch (error) {
+      console.error('Failed to fetch about data:', error);
+      setDataError(error.message);
+
+      // Try to use cached data as fallback
+      const cachedData = localStorage.getItem('aboutPage-data');
+      if (cachedData) {
+        setAboutData(JSON.parse(cachedData));
+        const cachedTimestamp = localStorage.getItem(
+          'aboutPage-data-timestamp'
+        );
+        if (cachedTimestamp) {
+          setLastFetched(new Date(parseInt(cachedTimestamp)));
+        }
+      }
+    } finally {
+      setDataLoading(false);
+    }
+  }, []);
+
+  // Refresh data manually
+  const handleRefreshData = useCallback(() => {
+    fetchAboutData(true);
+  }, [fetchAboutData]);
+
+  // Helper function to get data from JSON structure
+  const getTabDataFromJson = useCallback(
+    (tabId) => {
+      if (!aboutData || !Array.isArray(aboutData)) return null;
+
+      // Map tab IDs to JSON structure keys
+      const tabMapping = {
+        history: 'history',
+        'vision-mission': 'MissionAndVision',
+        goals: 'GoalsAndObjectives',
+        'core-values': 'CoreValues',
+        'quality-policy': 'QualityPolicy',
+        mandates: 'Mandates',
+        councils: 'Councils',
+        milestones: 'Milestones',
+        contact: 'Contact',
+      };
+
+      const jsonKey = tabMapping[tabId];
+      if (!jsonKey) return null;
+
+      // Find the item with the matching key
+      const item = aboutData.find((item) => item[jsonKey]);
+      return item ? item[jsonKey] : null;
+    },
+    [aboutData]
+  );
+
+  // Helper function to parse history timeline
+  const parseHistoryTimeline = useCallback((historyText) => {
+    if (!historyText) return [];
+
+    const eras = [
+      {
+        id: 'foundation',
+        title: 'Foundation Era',
+        period: '1952-1975',
+        color: 'primary',
+        icon: WrenchScrewdriverIcon,
+        description: 'The beginning of our educational journey',
+      },
+      {
+        id: 'expansion',
+        title: 'Expansion Era',
+        period: '1975-1990',
+        color: 'secondary',
+        icon: ChartBarIcon,
+        description: 'Growth and diversification of programs',
+      },
+      {
+        id: 'college',
+        title: 'College Era',
+        period: '1990-2019',
+        color: 'info',
+        icon: AcademicCapIcon,
+        description: 'Development as a state college',
+      },
+      {
+        id: 'university',
+        title: 'University Era',
+        period: '2019-Present',
+        color: 'success',
+        icon: BuildingLibraryIcon,
+        description: 'Achievement of university status',
+      },
+    ];
+
+    // Extract key events with dates
+    const keyEvents = [
+      {
+        year: '1952',
+        title: 'Marinduque School of Arts and Trades (MSAT) Established',
+        era: 'foundation',
+      },
+      { year: '1975', title: 'Bachelor Programs Introduced', era: 'expansion' },
+      {
+        year: '1983',
+        title:
+          'Converted to Marinduque Institute of Science and Technology (MIST)',
+        era: 'expansion',
+      },
+      {
+        year: '1990',
+        title: 'Became Marinduque State College',
+        era: 'college',
+      },
+      {
+        year: '1992',
+        title: 'Multi-Campus System Established',
+        era: 'college',
+      },
+      {
+        year: '2019',
+        title: 'Republic Act No. 11334 Signed',
+        era: 'university',
+      },
+      {
+        year: '2024',
+        title: 'Officially Became Marinduque State University',
+        era: 'university',
+      },
+    ];
+
+    return { eras, keyEvents };
+  }, []);
+
+  // Helper function to render content with fallback
+  const renderTabContent = useCallback(
+    (tabId) => {
+      const tabInfo = TABS.find((tab) => tab.id === tabId);
+      if (!tabInfo) return null;
+
+      // Get data from JSON or use fallback
+      const jsonData = getTabDataFromJson(tabId);
+      const hasJsonData = jsonData && Object.keys(jsonData).length > 0;
+
+      return (
+        <section id={tabId}>
+          <div className='flex items-center justify-between mb-4'>
+            <h2 className='text-2xl font-bold text-[var(--primary-700)]'>
+              {tabInfo.label}
+            </h2>
+            {dataError && (
+              <div className='flex items-center text-amber-600 text-sm'>
+                <svg
+                  className='w-4 h-4 mr-1'
+                  fill='none'
+                  stroke='currentColor'
+                  viewBox='0 0 24 24'
+                >
+                  <path
+                    strokeLinecap='round'
+                    strokeLinejoin='round'
+                    strokeWidth={2}
+                    d='M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.98-.833-2.75 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z'
+                  />
+                </svg>
+                Using cached data
+              </div>
+            )}
+          </div>
+
+          {hasJsonData ? (
+            <div className='space-y-6'>
+              {/* History Section */}
+              {tabId === 'history' && jsonData.description && (
+                <div className='space-y-8'>
+                  {/* Description Header */}
+                  <div className='text-center'>
+                    <div className='bg-gradient-to-r from-[var(--color-primary)]/10 to-[var(--color-primary)]/20 border border-[var(--color-primary)]/30 rounded-lg p-6'>
+                      <p className='text-[var(--color-primary)] font-medium text-lg'>
+                        {jsonData.description}
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* Progress Indicator */}
+                  <div className='bg-white rounded-lg border border-gray-200 p-6'>
+                    <h3 className='text-xl font-bold text-gray-800 mb-6 text-center'>
+                      Our Transformation Journey
+                    </h3>
+                    <div className='flex items-center justify-between mb-8'>
+                      {[
+                        { name: 'MSAT', year: '1952', color: 'primary' },
+                        { name: 'MIST', year: '1983', color: 'secondary' },
+                        { name: 'MSC', year: '1990', color: 'info' },
+                        { name: 'MarSU', year: '2024', color: 'success' },
+                      ].map((stage, index) => (
+                        <div
+                          key={stage.name}
+                          className='flex flex-col items-center flex-1'
+                        >
+                          <div
+                            className={`w-12 h-12 rounded-full flex items-center justify-center text-white font-bold text-sm 
+                            ${
+                              stage.color === 'primary'
+                                ? 'bg-[var(--color-primary)]'
+                                : stage.color === 'secondary'
+                                  ? 'bg-[var(--color-secondary)] text-black'
+                                  : stage.color === 'info'
+                                    ? 'bg-[var(--color-info)]'
+                                    : 'bg-[var(--color-success)]'
+                            }`}
+                          >
+                            {index + 1}
+                          </div>
+                          <div className='mt-2 text-center'>
+                            <div className='font-bold text-gray-800 text-sm'>
+                              {stage.name}
+                            </div>
+                            <div className='text-xs text-gray-600'>
+                              {stage.year}
+                            </div>
+                          </div>
+                          {index < 3 && (
+                            <div
+                              className='hidden md:block absolute h-1 bg-gray-300 top-6 left-1/2 transform -translate-y-1/2'
+                              style={{
+                                width: 'calc(25% - 24px)',
+                                marginLeft: '24px',
+                              }}
+                            ></div>
+                          )}
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+
+                  {/* Interactive Parallax Timeline using Swiper */}
+                  <div className='bg-gradient-to-br from-[var(--color-bg-light)] to-gray-100 rounded-xl border border-gray-200 p-8 overflow-hidden relative'>
+                    {/* Background decorative elements */}
+                    <div className='absolute inset-0 opacity-5'>
+                      <div className='absolute top-0 left-0 w-32 h-32 bg-[var(--color-primary)] rounded-full blur-3xl'></div>
+                      <div className='absolute bottom-0 right-0 w-24 h-24 bg-[var(--color-secondary)] rounded-full blur-2xl'></div>
+                    </div>
+
+                    <div className='relative z-10'>
+                      <h3 className='text-2xl font-bold text-gray-800 mb-2 text-center'>
+                        Journey Through Time
+                      </h3>
+                      <p className='text-gray-600 text-center mb-8'>
+                        Explore the evolution of our institution through
+                        immersive storytelling
+                      </p>
+
+                      <Swiper
+                        modules={[Navigation, Pagination, Autoplay, Parallax]}
+                        spaceBetween={20}
+                        slidesPerView={1}
+                        navigation={{
+                          nextEl: '.swiper-button-next-custom',
+                          prevEl: '.swiper-button-prev-custom',
+                        }}
+                        pagination={{
+                          clickable: true,
+                          el: '.swiper-pagination-custom',
+                          renderBullet: function (index, className) {
+                            return (
+                              '<span class="' +
+                              className +
+                              ' !bg-[var(--color-primary)] !w-3 !h-3 !mx-1"></span>'
+                            );
+                          },
+                        }}
+                        autoplay={{ delay: 6000, disableOnInteraction: false }}
+                        parallax={true}
+                        speed={800}
+                        breakpoints={{
+                          768: { slidesPerView: 1.2, spaceBetween: 30 },
+                          1024: { slidesPerView: 1.5, spaceBetween: 40 },
+                        }}
+                        className='history-parallax-swiper !pb-12'
+                      >
+                        {parseHistoryTimeline(jsonData.events).eras.map(
+                          (era, index) => (
+                            <SwiperSlide key={era.id}>
+                              <div className='relative h-96 rounded-2xl overflow-hidden shadow-xl border border-slate-200 bg-white'>
+                                {/* Parallax Background */}
+                                <div
+                                  className={`absolute inset-0 transition-all duration-700
+                                ${
+                                  era.color === 'primary'
+                                    ? 'bg-gradient-to-br from-[var(--color-primary)] via-[var(--color-primary-500)] to-[var(--color-primary-600)]'
+                                    : era.color === 'secondary'
+                                      ? 'bg-gradient-to-br from-[var(--color-secondary)] via-[var(--color-secondary-500)] to-[var(--color-secondary-900)]'
+                                      : era.color === 'info'
+                                        ? 'bg-gradient-to-br from-[var(--color-info)] via-blue-600 to-blue-700'
+                                        : 'bg-gradient-to-br from-[var(--color-success)] via-green-600 to-green-700'
+                                }`}
+                                  data-swiper-parallax='-200'
+                                >
+                                  {/* Decorative Pattern */}
+                                  <div className='absolute inset-0 opacity-10'>
+                                    <div className='absolute top-0 right-0 w-32 h-32 bg-white rounded-full blur-xl'></div>
+                                    <div className='absolute bottom-0 left-0 w-24 h-24 bg-white rounded-full blur-lg'></div>
+                                    <div className='absolute top-1/2 left-1/2 w-40 h-40 bg-white rounded-full blur-2xl transform -translate-x-1/2 -translate-y-1/2'></div>
+                                  </div>
+                                </div>
+
+                                {/* Content Container */}
+                                <div className='relative z-10 h-full flex flex-col p-8 text-white'>
+                                  {/* Era Icon and Title */}
+                                  <div
+                                    className='text-center mb-6'
+                                    data-swiper-parallax='-100'
+                                  >
+                                    <div
+                                      className='text-white mb-4 filter drop-shadow-lg flex justify-center'
+                                      data-swiper-parallax='-50'
+                                    >
+                                      <era.icon
+                                        className={`w-16 h-16 ${era.color === 'secondary' ? 'text-[var(--color-text-dark)]' : 'text-white'}`}
+                                      />
+                                    </div>
+                                    <h4
+                                      className={`text-3xl font-bold mb-2 drop-shadow-md ${era.color === 'secondary' ? 'text-[var(--color-text-dark)]' : 'text-white'}`}
+                                    >
+                                      {era.title}
+                                    </h4>
+                                    <div
+                                      className={`inline-block backdrop-blur-sm px-4 py-2 rounded-full text-sm font-semibold border ${era.color === 'secondary' ? 'bg-black/20 border-black/30 text-[var(--color-text-dark)]' : 'bg-white/20 border-white/30 text-white'}`}
+                                    >
+                                      {era.period}
+                                    </div>
+                                  </div>
+
+                                  {/* Era Description */}
+                                  <div
+                                    className='flex-1 flex flex-col justify-center'
+                                    data-swiper-parallax='-150'
+                                  >
+                                    <p
+                                      className={`text-center text-lg font-medium leading-relaxed mb-6 drop-shadow-sm max-w-md mx-auto ${era.color === 'secondary' ? 'text-[var(--color-text-dark)]' : 'text-white'}`}
+                                    >
+                                      {era.description}
+                                    </p>
+
+                                    {/* Key Achievements for this Era */}
+                                    <div className='space-y-3 max-w-sm mx-auto'>
+                                      {parseHistoryTimeline(jsonData.events)
+                                        .keyEvents.filter(
+                                          (event) => event.era === era.id
+                                        )
+                                        .slice(0, 3) // Show only top 3 events for clean design
+                                        .map((event, eventIndex) => (
+                                          <div
+                                            key={eventIndex}
+                                            className={`flex items-center space-x-3 backdrop-blur-sm rounded-lg px-4 py-2 border ${era.color === 'secondary' ? 'bg-black/10 border-black/20' : 'bg-white/10 border-white/20'}`}
+                                            data-swiper-parallax={`-${50 + eventIndex * 25}`}
+                                          >
+                                            <div
+                                              className={`w-2 h-2 rounded-full flex-shrink-0 ${era.color === 'secondary' ? 'bg-[var(--color-text-dark)]' : 'bg-white'}`}
+                                            ></div>
+                                            <div>
+                                              <div
+                                                className={`font-bold text-sm ${era.color === 'secondary' ? 'text-[var(--color-text-dark)]' : 'text-white'}`}
+                                              >
+                                                {event.year}
+                                              </div>
+                                              <div
+                                                className={`text-xs leading-tight ${era.color === 'secondary' ? 'text-[var(--color-text-dark)] opacity-80' : 'text-white opacity-90'}`}
+                                              >
+                                                {event.title}
+                                              </div>
+                                            </div>
+                                          </div>
+                                        ))}
+                                    </div>
+                                  </div>
+
+                                  {/* Bottom Navigation Hint */}
+                                  <div
+                                    className='text-center mt-4'
+                                    data-swiper-parallax='-75'
+                                  >
+                                    <div
+                                      className={`inline-flex items-center space-x-2 text-xs opacity-75 ${era.color === 'secondary' ? 'text-[var(--color-text-dark)]' : 'text-white'}`}
+                                    >
+                                      <span>
+                                        Slide {index + 1} of{' '}
+                                        {
+                                          parseHistoryTimeline(jsonData.events)
+                                            .eras.length
+                                        }
+                                      </span>
+                                      <svg
+                                        className='w-4 h-4'
+                                        fill='none'
+                                        stroke='currentColor'
+                                        viewBox='0 0 24 24'
+                                      >
+                                        <path
+                                          strokeLinecap='round'
+                                          strokeLinejoin='round'
+                                          strokeWidth={2}
+                                          d='M9 5l7 7-7 7'
+                                        />
+                                      </svg>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </SwiperSlide>
+                          )
+                        )}
+
+                        {/* Custom Navigation Buttons */}
+                        <div className='swiper-button-prev-custom absolute left-4 top-1/2 transform -translate-y-1/2 z-20 w-12 h-12 bg-white/90 backdrop-blur-sm rounded-full shadow-lg border border-slate-200 flex items-center justify-center cursor-pointer hover:bg-white transition-all duration-300 group'>
+                          <svg
+                            className='w-5 h-5 text-[var(--color-primary)] group-hover:text-[var(--color-primary-hover)] transform group-hover:scale-110 transition-all duration-300'
+                            fill='none'
+                            stroke='currentColor'
+                            viewBox='0 0 24 24'
+                          >
+                            <path
+                              strokeLinecap='round'
+                              strokeLinejoin='round'
+                              strokeWidth={2}
+                              d='M15 19l-7-7 7-7'
+                            />
+                          </svg>
+                        </div>
+                        <div className='swiper-button-next-custom absolute right-4 top-1/2 transform -translate-y-1/2 z-20 w-12 h-12 bg-white/90 backdrop-blur-sm rounded-full shadow-lg border border-slate-200 flex items-center justify-center cursor-pointer hover:bg-white transition-all duration-300 group'>
+                          <svg
+                            className='w-5 h-5 text-[var(--color-primary)] group-hover:text-[var(--color-primary-hover)] transform group-hover:scale-110 transition-all duration-300'
+                            fill='none'
+                            stroke='currentColor'
+                            viewBox='0 0 24 24'
+                          >
+                            <path
+                              strokeLinecap='round'
+                              strokeLinejoin='round'
+                              strokeWidth={2}
+                              d='M9 5l7 7-7 7'
+                            />
+                          </svg>
+                        </div>
+                      </Swiper>
+
+                      {/* Custom Pagination */}
+                      <div className='swiper-pagination-custom mt-6 flex justify-center'></div>
+                    </div>
+                  </div>
+
+                  {/* Detailed History Text */}
+                  {jsonData.events && (
+                    <div className='bg-[var(--color-bg-light)] rounded-lg p-6'>
+                      <h3 className='text-xl font-bold text-[var(--color-primary)] mb-4'>
+                        Complete Historical Account
+                      </h3>
+                      <div className='prose max-w-none'>
+                        {jsonData.events.split('\n').map(
+                          (paragraph, index) =>
+                            paragraph.trim() && (
+                              <p
+                                key={index}
+                                className='text-[var(--color-text)] leading-relaxed mb-4 text-justify'
+                              >
+                                {paragraph.trim()}
+                              </p>
+                            )
+                        )}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              )}
+
+              {/* Mission and Vision Section */}
+              {tabId === 'vision-mission' && (
+                <div className='space-y-8'>
+                  {/* Header */}
+                  <div className='text-center mb-8'>
+                    <p className='text-[var(--color-text)] text-sm font-medium tracking-wide uppercase mb-2'>
+                      Our Purpose
+                    </p>
+                    <h3 className='text-2xl font-bold text-[var(--color-primary)]'>
+                      Vision & Mission
+                    </h3>
+                  </div>
+
+                  {/* Vision and Mission Cards */}
+                  <div className='grid md:grid-cols-2 gap-8'>
+                    {jsonData.Vision && (
+                      <div className='group'>
+                        <div className='relative bg-white border border-gray-200 rounded-xl p-8 h-full transition-all duration-300 hover:shadow-lg hover:border-[var(--color-primary)]/30'>
+                          {/* Icon */}
+                          <div className='w-12 h-12 bg-[var(--color-primary)]/10 rounded-lg flex items-center justify-center mb-6 group-hover:bg-[var(--color-primary)]/20 transition-colors duration-300'>
+                            <EyeIcon className='w-6 h-6 text-[var(--color-primary)]' />
+                          </div>
+
+                          {/* Title */}
+                          <h4 className='text-xl font-bold text-[var(--color-primary)] mb-4'>
+                            Vision
+                          </h4>
+
+                          {/* Content */}
+                          <p className='text-[var(--color-text)] leading-relaxed text-base'>
+                            {jsonData.Vision.description}
+                          </p>
+
+                          {/* Decorative element */}
+                          <div className='absolute top-0 right-0 w-16 h-16 bg-gradient-to-br from-[var(--color-primary)]/5 to-transparent rounded-bl-full'></div>
+                        </div>
+                      </div>
+                    )}
+
+                    {jsonData.Mission && (
+                      <div className='group'>
+                        <div className='relative bg-white border border-gray-200 rounded-xl p-8 h-full transition-all duration-300 hover:shadow-lg hover:border-[var(--color-secondary)]/60'>
+                          {/* Icon */}
+                          <div className='w-12 h-12 bg-[var(--color-secondary)]/20 rounded-lg flex items-center justify-center mb-6 group-hover:bg-[var(--color-secondary)]/30 transition-colors duration-300'>
+                            <FlagIcon className='w-6 h-6 text-[var(--color-secondary-900)]' />
+                          </div>
+
+                          {/* Title */}
+                          <h4 className='text-xl font-bold text-[var(--color-secondary-900)] mb-4'>
+                            Mission
+                          </h4>
+
+                          {/* Content */}
+                          <p className='text-[var(--color-text)] leading-relaxed text-base'>
+                            {jsonData.Mission.description}
+                          </p>
+
+                          {/* Decorative element */}
+                          <div className='absolute top-0 right-0 w-16 h-16 bg-gradient-to-br from-[var(--color-secondary)]/10 to-transparent rounded-bl-full'></div>
+                        </div>
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Optional: Simple divider or quote */}
+                  <div className='text-center py-8'>
+                    <div className='max-w-2xl mx-auto'>
+                      <div className='h-px bg-gradient-to-r from-transparent via-[var(--color-primary)]/30 to-transparent mb-6'></div>
+                      <p className='text-[var(--color-text)] text-sm italic'>
+                        &ldquo;Empowering minds, transforming communities, building the future&rdquo;
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              {/* Goals and Objectives Section */}
+              {tabId === 'goals' && jsonData.goal && (
+                <div className='space-y-6'>
+                  <h3 className='text-2xl font-semibold text-gray-800 mb-4'>
+                    Strategic Goals & Objectives
+                  </h3>
+                  <div className='grid gap-6'>
+                    {jsonData.goal.map((goal, index) => (
+                      <div
+                        key={goal.id}
+                        className='bg-white border border-gray-200 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow'
+                      >
+                        <div className='flex items-start space-x-4'>
+                          <div className='flex-shrink-0 w-10 h-10 bg-primary-100 text-primary-600 rounded-full flex items-center justify-center font-bold'>
+                            {index + 1}
+                          </div>
+                          <div className='flex-1 space-y-3'>
+                            <h4 className='text-xl font-bold text-gray-800'>
+                              {goal.title}
+                            </h4>
+                            <p className='text-gray-600 leading-relaxed'>
+                              {goal.description}
+                            </p>
+                            {goal.objectives && (
+                              <div className='space-y-2'>
+                                <h5 className='font-semibold text-gray-700'>
+                                  Key Objectives:
+                                </h5>
+                                <div className='pl-4 space-y-2'>
+                                  {goal.objectives.split('\n').map(
+                                    (objective, objIndex) =>
+                                      objective.trim() && (
+                                        <div
+                                          key={objIndex}
+                                          className='flex items-start space-x-2'
+                                        >
+                                          <span className='text-primary-500 text-sm mt-1'>
+                                            •
+                                          </span>
+                                          <p className='text-gray-600 text-sm leading-relaxed'>
+                                            {objective.trim()}
+                                          </p>
+                                        </div>
+                                      )
+                                  )}
+                                </div>
+                              </div>
+                            )}
+                          </div>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* Core Values Section */}
+              {tabId === 'core-values' && (
+                <div className='space-y-6'>
+                  {jsonData.description && (
+                    <div className='text-center'>
+                      <p className='text-xl text-gray-700 leading-relaxed'>
+                        {jsonData.description}
+                      </p>
+                    </div>
+                  )}
+                  {jsonData.values && (
+                    <div className='grid gap-4 md:grid-cols-2 lg:grid-cols-3'>
+                      {jsonData.values.map((value, index) => (
+                        <div
+                          key={index}
+                          className='bg-gradient-to-br from-primary-50 to-primary-100 border border-primary-200 rounded-lg p-6 text-center hover:shadow-md transition-shadow'
+                        >
+                          <div className='w-16 h-16 bg-primary-500 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4'>
+                            {value.letter}
+                          </div>
+                          <h4 className='font-bold text-primary-800 text-lg mb-2'>
+                            {value.letter}
+                          </h4>
+                          <p className='text-primary-700 font-medium'>
+                            {value.value}
+                          </p>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              )}
+
+              {/* Quality Policy Section */}
+              {tabId === 'quality-policy' && (
+                <div className='space-y-6'>
+                  {jsonData.description && (
+                    <div className='bg-gray-50 border border-gray-200 rounded-lg p-6'>
+                      <h3 className='text-lg font-semibold text-gray-800 mb-3'>
+                        Quality Policy Statement
+                      </h3>
+                      <div className='prose max-w-none'>
+                        {jsonData.description.split('\n').map(
+                          (paragraph, index) =>
+                            paragraph.trim() && (
+                              <p
+                                key={index}
+                                className='text-gray-700 leading-relaxed mb-3'
+                              >
+                                {paragraph.trim()}
+                              </p>
+                            )
+                        )}
+                      </div>
+                    </div>
+                  )}
+                  {jsonData.fivePointAgenda && (
+                    <div className='bg-blue-50 border border-blue-200 rounded-lg p-6'>
+                      <h3 className='text-lg font-semibold text-blue-800 mb-4'>
+                        Five-Point Agenda
+                      </h3>
+                      <div className='space-y-3'>
+                        {jsonData.fivePointAgenda.split('\n').map(
+                          (point, index) =>
+                            point.trim() && (
+                              <div
+                                key={index}
+                                className='flex items-start space-x-3'
+                              >
+                                <span className='flex-shrink-0 w-6 h-6 bg-blue-500 text-white rounded-full flex items-center justify-center text-sm font-bold'>
+                                  {point.match(/^\d+/)?.[0] || index + 1}
+                                </span>
+                                <p className='text-blue-700 leading-relaxed'>
+                                  {point.replace(/^\d+\.\s*/, '')}
+                                </p>
+                              </div>
+                            )
+                        )}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              )}
+
+              {/* Generic fallback for other sections */}
+              {![
+                'history',
+                'vision-mission',
+                'goals',
+                'core-values',
+                'quality-policy',
+              ].includes(tabId) && (
+                <div className='space-y-4'>
+                  {Object.entries(jsonData).map(([key, value]) => (
+                    <div key={key}>
+                      <h3 className='text-lg font-semibold text-gray-800 mb-2 capitalize'>
+                        {key.replace(/[-_]/g, ' ')}
+                      </h3>
+                      {Array.isArray(value) ? (
+                        <ul className='list-disc list-inside text-gray-600 space-y-1'>
+                          {value.map((item, index) => (
+                            <li key={index}>{item}</li>
+                          ))}
+                        </ul>
+                      ) : (
+                        <p className='text-gray-700 leading-relaxed'>{value}</p>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          ) : (
+            <div className='bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-lg p-6'>
+              <div className='flex items-start space-x-3'>
+                <div className='flex-shrink-0'>
+                  <svg
+                    className='w-6 h-6 text-blue-500'
+                    fill='none'
+                    stroke='currentColor'
+                    viewBox='0 0 24 24'
+                  >
+                    <path
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
+                      strokeWidth={2}
+                      d='M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z'
+                    />
+                  </svg>
+                </div>
+                <div>
+                  <h3 className='text-sm font-medium text-blue-800 mb-1'>
+                    Content Coming Soon
+                  </h3>
+                  <p className='text-sm text-blue-600'>
+                    {tabInfo.description} - This section is currently being
+                    updated with fresh content. Check back soon for the latest
+                    information.
+                  </p>
+                  <div className='mt-3 flex items-center space-x-2 text-xs text-blue-500'>
+                    <svg
+                      className='w-4 h-4'
+                      fill='none'
+                      stroke='currentColor'
+                      viewBox='0 0 24 24'
+                    >
+                      <path
+                        strokeLinecap='round'
+                        strokeLinejoin='round'
+                        strokeWidth={2}
+                        d='M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z'
+                      />
+                    </svg>
+                    <span>We&apos;re working on it!</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* Show last updated timestamp if available */}
+          {lastFetched && hasJsonData && (
+            <div className='mt-6 pt-4 border-t border-gray-200'>
+              <p className='text-xs text-gray-500 flex items-center space-x-1'>
+                <svg
+                  className='w-3 h-3'
+                  fill='none'
+                  stroke='currentColor'
+                  viewBox='0 0 24 24'
+                >
+                  <path
+                    strokeLinecap='round'
+                    strokeLinejoin='round'
+                    strokeWidth={2}
+                    d='M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z'
+                  />
+                </svg>
+                <span>
+                  Last updated: {lastFetched.toLocaleDateString()} at{' '}
+                  {lastFetched.toLocaleTimeString()}
+                </span>
+              </p>
+            </div>
+          )}
+        </section>
+      );
+    },
+    [dataError, lastFetched, getTabDataFromJson, parseHistoryTimeline]
+  );
 
   // Set initial hash to 'about' when component mounts
   useEffect(() => {
@@ -413,6 +1187,11 @@ function AboutPage() {
     url.searchParams.delete('tab');
     window.history.replaceState(null, '', url.toString());
   }, []);
+
+  // Fetch data on component mount
+  useEffect(() => {
+    fetchAboutData();
+  }, [fetchAboutData]);
 
   // Remove deep linking effect since we're using localStorage only
   // This prevents navigation issues with browser back button
@@ -464,8 +1243,40 @@ function AboutPage() {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
+  // Custom styles for the parallax timeline
+  const timelineStyles = `
+    .history-parallax-swiper .swiper-slide {
+      transform-style: preserve-3d;
+    }
+    
+    .history-parallax-swiper .swiper-button-prev-custom:hover,
+    .history-parallax-swiper .swiper-button-next-custom:hover {
+      transform: translateY(-50%) scale(1.1);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    }
+    
+    .history-parallax-swiper [data-swiper-parallax] {
+      transition: transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    }
+    
+    .swiper-pagination-custom .swiper-pagination-bullet {
+      transition: all 0.3s ease;
+      background: var(--color-primary) !important;
+      opacity: 0.6;
+    }
+    
+    .swiper-pagination-custom .swiper-pagination-bullet-active {
+      background: var(--color-primary) !important;
+      opacity: 1;
+      transform: scale(1.2);
+    }
+  `;
+
   return (
     <>
+      {/* Inject custom styles */}
+      <style dangerouslySetInnerHTML={{ __html: timelineStyles }} />
+
       <Nav />
       <main className='mx-auto max-w-7xl px-4 sm:py-8 lg:px-8 '>
         {/* Mobile Tabs - Full width with underline */}
@@ -533,6 +1344,25 @@ function AboutPage() {
                     Our vision, heritage, values, and the people that shape our
                     future
                   </h2>
+                  {/* Data status indicator */}
+                  {dataError && (
+                    <div className='mt-2 flex items-center text-amber-600 text-sm'>
+                      <svg
+                        className='w-4 h-4 mr-1'
+                        fill='none'
+                        stroke='currentColor'
+                        viewBox='0 0 24 24'
+                      >
+                        <path
+                          strokeLinecap='round'
+                          strokeLinejoin='round'
+                          strokeWidth={2}
+                          d='M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.98-.833-2.75 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z'
+                        />
+                      </svg>
+                      Unable to load latest content, showing cached version
+                    </div>
+                  )}
                 </div>
                 {/* Search box */}
                 {/* <div className='flex-1 max-w-md'>
@@ -541,6 +1371,29 @@ function AboutPage() {
 
                 {/* Quick actions */}
                 <div className='flex items-center space-x-4'>
+                  {/* Data refresh button */}
+                  <button
+                    onClick={handleRefreshData}
+                    disabled={dataLoading}
+                    className='flex items-center space-x-2 px-3 py-2 text-sm font-medium text-gray-600 hover:text-[var(--primary-700)] hover:bg-gray-50 rounded-lg transition-colors duration-150 disabled:opacity-50 disabled:cursor-not-allowed'
+                    title='Refresh content data'
+                  >
+                    <svg
+                      className={`w-4 h-4 ${dataLoading ? 'animate-spin' : ''}`}
+                      fill='none'
+                      stroke='currentColor'
+                      viewBox='0 0 24 24'
+                    >
+                      <path
+                        strokeLinecap='round'
+                        strokeLinejoin='round'
+                        strokeWidth={2}
+                        d='M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15'
+                      />
+                    </svg>
+                    <span className='hidden sm:inline'>Refresh</span>
+                  </button>
+
                   {/* Recent tabs */}
                   {recentTabs.length > 0 && (
                     <div className='flex items-center space-x-2'>
@@ -674,11 +1527,11 @@ function AboutPage() {
             className={`max-w-6xl w-full bg-white p-8 mb-12 mt-20 md:mt-4 transition-all duration-500 ${sectionAnim}`}
           >
             {/* Content with loading state */}
-            {isLoading ? (
+            {isLoading || dataLoading ? (
               <SkeletonLoader />
             ) : (
               <div className='transform transition-all duration-300 ease-out'>
-                {tabContent[activeTab]}
+                {renderTabContent(activeTab)}
               </div>
             )}
 
@@ -809,5 +1662,42 @@ export default AboutPage;
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+History Timeline Swiper Customization
+.history-timeline-swiper {
+  padding: 20px 0 50px 0;
+}
+
+.history-timeline-swiper .swiper-button-next,
+.history-timeline-swiper .swiper-button-prev {
+  background: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  color: var(--primary-600);
+}
+
+.history-timeline-swiper .swiper-button-next:after,
+.history-timeline-swiper .swiper-button-prev:after {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.history-timeline-swiper .swiper-pagination {
+  bottom: 10px;
+}
+
+.history-timeline-swiper .swiper-pagination-bullet {
+  background: var(--primary-500);
+  opacity: 0.5;
+  width: 10px;
+  height: 10px;
+}
+
+.history-timeline-swiper .swiper-pagination-bullet-active {
+  opacity: 1;
+  transform: scale(1.2);
 }
 */
