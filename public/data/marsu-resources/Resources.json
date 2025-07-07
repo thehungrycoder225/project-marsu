@@ -5008,40 +5008,64 @@
     {
       "id": 6,
       "Mandates&Charter": {
-        "description": "Established through RA 805 on June 21, 1952, as a school of arts and trades. MSC transitioned into being a higher education institution by virtue of Batas Pambansa 377, RA 6833, and RA 7319 which expanded its mandate of instruction, research, extension, and production in its four branches. RA 11334 converting the College to Marinduque State University was signed on April 26, 2019, further expanding its mandate",
+        "description": {
+          "en": "Established through RA 805 on June 21, 1952, as a school of arts and trades. MSC transitioned into being a higher education institution by virtue of Batas Pambansa 377, RA 6833, and RA 7319 which expanded its mandate of instruction, research, extension, and production in its four branches. RA 11334 converting the College to Marinduque State University was signed on April 26, 2019, further expanding its mandate"
+        },
         "mandates": [
           {
             "id": 1,
-            "ra-number": "Republic Act No. 805",
+            "ra-number": { "en": "Republic Act No. 805" },
             "date": "1952-06-21",
-            "description": "An act to establish, organize, and maintain one National High School of Arts and Trades in the Municipality of Boac, Province of Marinduque, to be known as the Marinduque School of Arts and Trades and to Authorize the Appropriation of Funds for the Purpose. “Authorized by the late Representative Panfilo M. Manguera, it was signed into law by the late President Elpidio Quirino in 1952 strategically located in Barangay Tanza, MSAT had been a DEC – supervised institution from 1952 until April 7, 1983."
+            "description": {
+              "en": "An act to establish, organize, and maintain one National High School of Arts and Trades in the Municipality of Boac, Province of Marinduque, to be known as the Marinduque School of Arts and Trades and to Authorize the Appropriation of Funds for the Purpose. “Authorized by the late Representative Panfilo M. Manguera, it was signed into law by the late President Elpidio Quirino in 1952 strategically located in Barangay Tanza, MSAT had been a DEC – supervised institution from 1952 until April 7, 1983."
+            }
           },
           {
             "id": 2,
-            "ra-number": "Batas Pambansa Blg. 377",
+            "ra-number": { "en": "Batas Pambansa Blg. 377" },
             "date": "1983-04-08",
-            "description": "An act converting the Marinduque School of Arts and Trades into the Marinduque Institute of Science and Technology broadening for the purpose of its curricular programs in Science and Technology."
+            "description": {
+              "en": "An act converting the Marinduque School of Arts and Trades into the Marinduque Institute of Science and Technology broadening for the purpose of its curricular programs in Science and Technology."
+            }
           },
           {
             "id": 3,
-            "ra-number": "Republic Act No. 6833",
+            "ra-number": { "en": "Republic Act No. 6833" },
             "date": "1990-01-05",
-            "description": "An act changing the name of the Marinduque Institute of Science and Technology in Barangy Tanza, Municipality of Boac, Province of Marinduque to Marinduque State College."
+            "description": {
+              "en": "An act changing the name of the Marinduque Institute of Science and Technology in Barangy Tanza, Municipality of Boac, Province of Marinduque to Marinduque State College."
+            }
           },
           {
             "id": 4,
-            "ra-number": "Republic Act No. 7319",
+            "ra-number": { "en": "Republic Act No. 7319" },
             "date": "1992-03-30",
-            "description": "An act establishing the College of Agriculture in Barangay Poctoy, Municipality of Torrijos; the College of Fisheries in Barangay Pinggan, Municipality of Gasan; and the Marinduque Community College in the Municipality of Sta. Cruz, all in the Province of Marinduque, as branches of the Marinduque State College."
+            "description": {
+              "en": "An act establishing the College of Agriculture in Barangay Poctoy, Municipality of Torrijos; the College of Fisheries in Barangay Pinggan, Municipality of Gasan; and the Marinduque Community College in the Municipality of Sta. Cruz, all in the Province of Marinduque, as branches of the Marinduque State College."
+            }
           },
           {
             "id": 5,
-            "ra-number": "Republic Act No. 11334",
+            "ra-number": { "en": "Republic Act No. 11334" },
             "date": "2019-04-26",
-            "description": "An act converting the Marinduque State College in the Municipality of Boac, Province of Marinduque into a state university, to be known as the Marinduque State University and appropriating funds therefor"
+            "description": {
+              "en": "An act converting the Marinduque State College in the Municipality of Boac, Province of Marinduque into a state university, to be known as the Marinduque State University and appropriating funds therefor."
+            }
           }
         ]
       }
+    },
+    {
+      "id": 7,
+      "universityCouncils": {}
+    },
+    {
+      "id": 8,
+      "milestones": {}
+    },
+    {
+      "id": 9,
+      "contactUs": {}
     }
   ]
 }
