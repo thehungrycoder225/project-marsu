@@ -1853,60 +1853,7 @@ production of free-range chicken.`,
     ],
     gallery: [],
   },
-  {
-    id: 13,
-    title: '3ES MODULE WRITING MODEL',
-    subtitle: ``,
-    author: `Dr. Liza Marie Manoos-Pacia`,
-    date: `2020`,
-    logo: '',
-    featured: {
-      isHero: false,
-      isTall: false,
-      isCompact: true, // Include in compact cards
-      priority: 13,
-      heroOrder: 13, // Fifth position (compact)
-    },
-    desc: `The 3Es Module project at Marinduque State University was designed to equip instructors with a structured, remote teaching model to maintain educational continuity during the pandemic.`,
-    contents: [
-      {
-        background: `Due to the global health crisis, educational needs and solutions have received attention in academic institutions. With this, Marinduque State College developed the 3Es (Elicit, Explain and Evaluate) Module Writing Model to be used in flexible learning modality. This research aims to determine the acceptability of the instructional material. Specifically, it aims to identify the number of faculty that uses the model; determine the usual parts included in each section; identify the different forms where the model is being used; determine its acceptability in terms of adaptability, structure, usability, and perceived effectiveness; identify any recommendations and comments from the faculty that can improve the model; and ascertain significant agreement among the evaluators. The researcher used a quantitative–descriptive approach through the use of a validated questionnaire given to faculty members of Marinduque State College during the Midyear of academic year 2022. It was found out that the model is used by all respondents but how it is used depends on the course being taught. The objectives of the lesson are frequently included in the elicit section of the instructional material. Discussion of the subject, along with practice exercises and activities, can be found in the explain section. Assessment and reinforcing activities are typically included in the evaluate section. The instructional paradigm was discovered to be used in online learning resources and for presentation reasons. In terms of adaptability, structure, usability, and perceived efficacy, the 3Es Instructional Model was determined to be acceptable in all forms (Elicit, Explain, and Evaluate portions). It was suggested that the concept be adopted and modified for technical and skill-oriented courses. The model's qualities have moderate agreement among the evaluators.
-`,
-      },
-      {
-        highlights: [
-          `The model is adapted for both online learning materials and presentations.`,
-          `It is widely accepted for its adaptability, structure, usability, and effectiveness.`,
-          `The model is recommended for use in technical and skills-oriented courses, with evaluators showing moderate agreement on its attributes`,
-        ],
-      },
-      {
-        impact: [
-          `The 3Es Model supports student engagement and adaptability in remote learning.`,
-          `Instructors find the model useful for structured content delivery, enhancing the university's remote teaching quality.`,
-        ],
-      },
-      {
-        outcomes: [``],
-      },
-      {
-        plans: [
-          `Moving forward, the project aims to expand and refine the 3Es Module by incorporating feedback from users, enhancing its adaptability for diverse subjects, and exploring its application in technical and skills-oriented courses. Additionally, further research and testing will help optimize the model for blended learning environments, combining in-person and online teaching. Ultimately, the project envisions broader adoption across educational institutions, potentially influencing standard remote teaching practices at the university level and beyond.`,
-        ],
-      },
-    ],
-    conclusion: ``,
-    cta: ``,
-    image: 'sdg/project/module.jpg',
-    link: `/sdg/project/13/3ES MODULE WRITING MODEL`,
-    tags: [
-      {
-        name: ['Quality Education'],
-        icons: ['E-WEB-Goal-04.png'],
-      },
-    ],
-    gallery: [],
-  },
+
   {
     id: 14,
     title:
