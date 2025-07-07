@@ -5432,7 +5432,127 @@
     },
     {
       "id": 8,
-      "milestones": {}
+      "milestones": {
+        "title": { "en": "MarSU Milestone" },
+        "description": {
+          "en": "A showcase of the prestigious awards, accreditations, and milestones earned by Marinduque State University through the years."
+        },
+        "items": [
+          {
+            "id": 1,
+            "year": null,
+            "title": { "en": "CAPDEV Accelerator Award" },
+            "description": {
+              "en": "Conferred CAPDEV Accelerator Award by Department of Interior and Local Government (DILG) MIMAROPA and DILG Marinduque. This award isan “annual event that recognizes the valuable contribution of DILG partner institutions in implementing various capacity development initiatives.”"
+            }
+          },
+          {
+            "id": 2,
+            "year": 2023,
+            "title": { "en": "RESET Award" },
+            "awardingBody": null,
+            "description": {
+              "en": "MSC received accolades with the conferment of the RESET Award 2023 for leading MSC as a Mental Health First Responder School"
+            }
+          },
+          {
+            "id": 3,
+            "year": 2022,
+            "title": { "en": "Top 3 Performing State College" },
+            "awardingBody": null,
+            "description": {
+              "en": "Ranked Top 3 as performing state college with the highest number of Level II Accredited programs in 2022"
+            }
+          },
+          {
+            "id": 4,
+            "year": null,
+            "title": {
+              "en": "PQA Level I – Recognition for Commitment to Quality Management"
+            },
+            "awardingBody": "Philippine Quality Award (PQA)",
+            "description": {
+              "en": "Awarded PQA Level I-Recognition for Commitment to Quality Management, first SUC in Region IV"
+            }
+          },
+          {
+            "id": 5,
+            "year": 2017,
+            "title": { "en": "ISO 9001:2008 Certification" },
+            "awardingBody": "TÜV Rheinland",
+            "description": {
+              "en": "Awarded ISO 9001:2008 certified by TUV Rheinland, the first to be certified as such in the MIMAROPA Region in Year 2017 and was upgraded to ISO 9001:2015 Certification in 2018."
+            }
+          },
+          {
+            "id": 6,
+            "year": 2019,
+            "title": {
+              "en": "Bronze Award for Human Resource Management Systems"
+            },
+            "awardingBody": "Civil Service Commission (CSC)",
+            "description": {
+              "en": "In 2019, MSC achieved the national Bronze Award of the Civil Service Commission for having managed and implemented its human resource management systems."
+            }
+          },
+          {
+            "id": 7,
+            "year": 2018,
+            "title": { "en": "PRIME-HRM Maturity Level II" },
+            "awardingBody": "Civil Service Commission (CSC)",
+            "description": {
+              "en": "In 2018, MSC was awarded PRIME HRM Maturity Level II in all four core HR systems (Learning and Development, Recruitment, Selection and Placement, and Performance Management), one of the only two (2) SUC awardees in Region IV."
+            }
+          },
+          {
+            "id": 8,
+            "year": null,
+            "title": { "en": "100% COPC for All Academic Programs" },
+            "awardingBody": "Commission on Higher Education (CHED)",
+            "description": {
+              "en": "100% of all academic programs were granted Certificate of Program Compliance (COPC)"
+            }
+          },
+          {
+            "id": 9,
+            "year": 2018,
+            "title": { "en": "100% AACCUP Accreditation" },
+            "awardingBody": "AACCUP",
+            "description": {
+              "en": "All undergraduate and graduate programs of MSC are 100% accredited with the AACCUP (Accrediting Agency of Chartered Colleges and Universities in the Philippines) from the year 2018 to the present."
+            }
+          },
+          {
+            "id": 10,
+            "year": null,
+            "title": { "en": "SUC Level III and NBC 461 8th Cycle" },
+            "awardingBody": "NBC",
+            "description": {
+              "en": "Achieved SUC Level III status and the upgrading of the faculty profile through NBC 461 8th Cycle evaluation."
+            }
+          },
+          {
+            "id": 10,
+            "year": 2018,
+            "title": { "en": "Top 6 SUCs (1992–2018)" },
+            "awardingBody": null,
+            "description": {
+              "en": "Ranked Top 6 among the 112 Top Ranking SUCs in the country in terms of percentage of accredited programs from 1992-2018."
+            }
+          },
+          {
+            "id": 10,
+            "year": null,
+            "title": {
+              "en": "Top 24 Best Electrical Engineering Schools in PH"
+            },
+            "awardingBody": null,
+            "description": {
+              "en": "Ranked 24th among 110 SUCs acclaimed as Best Electrical Engineering Schools in PH with overall score of 66.50%."
+            }
+          }
+        ]
+      }
     },
     {
       "id": 9,
