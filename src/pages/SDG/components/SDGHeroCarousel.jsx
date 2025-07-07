@@ -41,7 +41,7 @@ const sdgHeroSlides = [
       'Our research and community initiatives focus on climate resilience, sustainable practices, and environmental conservation for Marinduque and beyond.',
     image: '/sdg/sdg-bg-13.png',
     cta: 'View Projects',
-    ctaLink: '#sdgProjects',
+    ctaLink: '#sdgFeatured',
     showCta: true,
     theme: 'climate',
   },
@@ -83,6 +83,27 @@ const StatCounter = ({ end, duration = 2000, suffix = '' }) => {
       {suffix}
     </span>
   );
+};
+
+// Smooth scroll function
+const scrollToSection = (sectionId) => {
+  const element = document.getElementById(sectionId);
+  if (element) {
+    const headerHeight = 80; // Adjust based on your header height
+    const elementPosition = element.offsetTop - headerHeight;
+
+    window.scrollTo({
+      top: elementPosition,
+      behavior: 'smooth',
+    });
+  }
+};
+
+// Handle CTA click
+const handleCtaClick = (e, targetId) => {
+  e.preventDefault();
+  const cleanId = targetId.replace('#', '');
+  scrollToSection(cleanId);
 };
 
 function SDGHeroCarousel({ slides = sdgHeroSlides }) {
@@ -147,9 +168,9 @@ function SDGHeroCarousel({ slides = sdgHeroSlides }) {
                     {/* Call to Action */}
                     {slide.showCta && slide.cta && (
                       <div className='flex flex-wrap gap-4 animate-fade-in delay-300'>
-                        <a
-                          href={slide.ctaLink}
-                          className='inline-flex items-center px-8 py-4 bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-gray-900 font-bold rounded-full shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-yellow-300'
+                        <button
+                          onClick={(e) => handleCtaClick(e, slide.ctaLink)}
+                          className='inline-flex items-center px-8 py-4 bg-gradient-to-r from-yellow-400 to-yellow-500 hover:from-yellow-500 hover:to-yellow-600 text-gray-900 font-bold rounded-full shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-yellow-300 cursor-pointer'
                         >
                           {slide.cta}
                           <svg
@@ -165,13 +186,13 @@ function SDGHeroCarousel({ slides = sdgHeroSlides }) {
                               d='M17 8l4 4m0 0l-4 4m4-4H3'
                             />
                           </svg>
-                        </a>
-                        <a
-                          href='#sdgForeword'
-                          className='inline-flex items-center px-8 py-4 border-2 border-white/30 hover:border-white text-white font-semibold rounded-full backdrop-blur-sm hover:bg-white/10 transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-white/20'
+                        </button>
+                        <button
+                          onClick={(e) => handleCtaClick(e, '#sdgForeword')}
+                          className='inline-flex items-center px-8 py-4 border-2 border-white/30 hover:border-white text-white font-semibold rounded-full backdrop-blur-sm hover:bg-white/10 transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-white/20 cursor-pointer'
                         >
                           Learn More
-                        </a>
+                        </button>
                       </div>
                     )}
                   </div>
@@ -221,9 +242,10 @@ function SDGHeroCarousel({ slides = sdgHeroSlides }) {
 
               {/* Scroll indicator */}
               <div className='absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce'>
-                <a
-                  href='#sdgForeword'
-                  className='text-white/70 hover:text-white transition-colors'
+                <button
+                  onClick={(e) => handleCtaClick(e, '#sdgForeword')}
+                  className='text-white/70 hover:text-white transition-colors focus:outline-none focus:ring-2 focus:ring-white/50 rounded-full p-2 cursor-pointer'
+                  aria-label='Scroll to next section'
                 >
                   <svg
                     className='w-8 h-8'
@@ -238,7 +260,7 @@ function SDGHeroCarousel({ slides = sdgHeroSlides }) {
                       d='M19 14l-7 7m0 0l-7-7m7 7V3'
                     />
                   </svg>
-                </a>
+                </button>
               </div>
             </div>
           </SwiperSlide>

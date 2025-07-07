@@ -21,8 +21,70 @@ const SGDPage = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [expandedMissionCard, setExpandedMissionCard] = useState(null);
   const [currentTestimonial, setCurrentTestimonial] = useState(0);
+  const [showScrollNav, setShowScrollNav] = useState(false);
+  const [activeSection, setActiveSection] = useState('');
+  const [isNavDrawerOpen, setIsNavDrawerOpen] = useState(false);
   const forewordRef = useRef(null);
   const missionRef = useRef(null);
+
+  // Scroll to section function
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      const headerHeight = 80; // Adjust based on your header height
+      const elementPosition = element.offsetTop - headerHeight;
+
+      window.scrollTo({
+        top: elementPosition,
+        behavior: 'smooth',
+      });
+    }
+  };
+
+  // Scroll to top function
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
+
+  // Handle navigation clicks
+  const handleNavClick = (e, sectionId) => {
+    e.preventDefault();
+    scrollToSection(sectionId);
+  };
+
+  // Show/hide floating navigation and track active section
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrolled = window.scrollY;
+      const isScrolled = scrolled > 300; // Show after scrolling 300px
+      setShowScrollNav(isScrolled);
+
+      // Determine active section
+      const sections = [
+        'sdgForeword',
+        'sdgMission',
+        'sdgGoals',
+        'sdgFeatured',
+        'sdgProjects',
+        'sdgPartnership',
+      ];
+      const headerHeight = 80;
+
+      for (let i = sections.length - 1; i >= 0; i--) {
+        const element = document.getElementById(sections[i]);
+        if (element && scrolled >= element.offsetTop - headerHeight - 100) {
+          setActiveSection(sections[i]);
+          break;
+        }
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   // Get featured projects dynamically
   const featuredProjects = getFeaturedByOrder();
@@ -1602,27 +1664,6 @@ const SGDPage = () => {
             </div>
 
             {/* Call to Action */}
-            {/* <div className='text-center mt-16'>
-              <Link
-                to='#sdgProjects'
-                className='inline-flex items-center space-x-3 bg-gradient-to-r from-primary-500 to-secondary-500 hover:from-primary-600 hover:to-secondary-600 text-white font-semibold px-8 py-4 rounded-2xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300'
-              >
-                <span>Explore All Projects</span>
-                <svg
-                  className='w-5 h-5'
-                  fill='none'
-                  stroke='currentColor'
-                  viewBox='0 0 24 24'
-                >
-                  <path
-                    strokeLinecap='round'
-                    strokeLinejoin='round'
-                    strokeWidth={2}
-                    d='M17 8l4 4m0 0l-4 4m4-4H3'
-                  />
-                </svg>
-              </Link>
-            </div> */}
           </div>
         </Section>
         <Section id='sdgProjects'>
@@ -1934,7 +1975,7 @@ const SGDPage = () => {
                 <div className='text-center p-6 bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow'>
                   <div className='w-12 h-12 bg-rose-100 rounded-full flex items-center justify-center mx-auto mb-4'>
                     <svg
-                      className='w-6 h-6 text-rose-600'
+                      className='w-6 h-6 text-rose-900'
                       fill='none'
                       stroke='currentColor'
                       viewBox='0 0 24 24'
