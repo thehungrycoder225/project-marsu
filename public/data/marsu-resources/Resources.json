@@ -5556,7 +5556,19 @@
     },
     {
       "id": 9,
-      "contactUs": {}
+      "contact": {
+        "title": "Contact Us",
+        "description": "For more information, reach out to us through any of the following channels.",
+        "website": "https://www.mscmarinduque.edu.ph",
+        "emails": ["president@marsu.edu.ph", "records@marsu.edu.ph"],
+        "phoneNumbers": ["042-332-2028", "042-332-2728"],
+        "address": {
+          "street": "Panfilo Manguera Sr. Road",
+          "barangay": "Tanza",
+          "municipality": "Boac",
+          "province": "Marinduque"
+        }
+      }
     }
   ]
 }
