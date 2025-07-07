@@ -5057,7 +5057,378 @@
     },
     {
       "id": 7,
-      "universityCouncils": {}
+      "universityCouncils": {
+        "administrativeCouncil": {
+          "name": { "en": "The MarSU Administrative Council" },
+          "description": {
+            "en": "The MarSU Administrative Council is consists of the president of the college as Chairperson, the vice president(s), deans, directors, and other officials of equal rank as members, and whose duty is to review and recommend to the Board of Trustees policies governing the administration, management, and development planning of the college for appropriate action."
+          },
+          "chair": {
+            "id": 1,
+            "name": "Dr.DIOSDADO P. ZULUETA",
+            "position": { "en": "University President" }
+          },
+          "members": [
+            {
+              "id": 1,
+              "name": "Atty. CRISPIN FRANCIS M. JANDUSAY",
+              "position": {
+                "en": "Vice President for Administration and Finance"
+              }
+            },
+            {
+              "id": 2,
+              "name": "Mr. RAOUL J. MAGCAMIT",
+              "position": { "en": "Vice President for Academic Affairs" }
+            },
+            {
+              "id": 3,
+              "name": "Dr. MA. EDELWINA M. BLASE",
+              "position": { "en": "Vice President for Research & Extension" }
+            },
+            {
+              "id": 4,
+              "name": "Mr. MARVIN P. PLATA",
+              "position": {
+                "en": "Vice President for Student Affairs & Services"
+              }
+            },
+            {
+              "id": 5,
+              "name": "Mr. JULIE P. RODELAS",
+              "position": { "en": "Campus Director, MSC Boac" }
+            },
+            {
+              "id": 6,
+              "name": "Mr. JOVITO L. OPEÑA",
+              "position": { "en": "Campus Director, MSC Gasan" }
+            },
+            {
+              "id": 7,
+              "name": "Mr. WILMER L. IMPERIO II",
+              "position": { "en": "Campus Director, MSC Sta. Cruz" }
+            },
+            {
+              "id": 8,
+              "name": "Mr. HARVEY A. DULAY",
+              "position": { "en": "Campus Director, MSC Torrijos" }
+            },
+            {
+              "id": 9,
+              "name": "Mr. GERALD M. PAJANUSTAN",
+              "position": {
+                "en": "Center Director, MSC Extramural Study Center-Mogpog"
+              }
+            },
+            {
+              "id": 10,
+              "name": "Mr. MARVIN P. PLATA",
+              "position": { "en": "Dean, College of Allied Health Sciences" }
+            },
+            {
+              "id": 11,
+              "name": "Dr. MARILYN A. MAYORES",
+              "position": { "en": "Dean, College of Agriculture" }
+            },
+            {
+              "id": 12,
+              "name": "Dr. ERNESTO L. LARGADO",
+              "position": { "en": "Dean, College of Arts, Social and Sciences" }
+            },
+            {
+              "id": 13,
+              "name": "Dr. VERNA LIZA L. CAPIÑA",
+              "position": { "en": "Dean, College of Business and Accountancy" }
+            },
+            {
+              "id": 14,
+              "name": "Dr. JOY S. MONTEJO",
+              "position": { "en": "Dean, College of Education" }
+            },
+            {
+              "id": 15,
+              "name": "Engr. MELITO L. HIRONDO",
+              "position": { "en": "Dean, College of Engineering" }
+            },
+            {
+              "id": 16,
+              "name": "Dr. EVANGELINE B. MANDIA",
+              "position": { "en": "Dean, College of Environmental Studies" }
+            },
+            {
+              "id": 17,
+              "name": "Dr. PALOMA D. DE CHAVEZ",
+              "position": {
+                "en": "Dean, College of Fisheries and Aquatic Sciences"
+              }
+            },
+            {
+              "id": 18,
+              "name": "Mr. MARIO T. MASCAREÑAS",
+              "position": { "en": "Dean, College of Industrial Technology" }
+            },
+            {
+              "id": 19,
+              "name": "Dr. RONJIE MAR L. MALINAO",
+              "position": {
+                "en": "Dean, College of Information and Computing Sciences"
+              }
+            },
+            {
+              "id": 20,
+              "name": "Dr. ANNE GRACE M. LABATETE",
+              "position": { "en": "Dean, College of Governance" }
+            },
+            {
+              "id": 21,
+              "name": "Dr. JULIETA Q. NABOS",
+              "position": { "en": "Dean, Graduate School" }
+            },
+            {
+              "id": 22,
+              "name": "Ms. JHOANNA KRIS N. SAGER",
+              "position": {
+                "en": "Chief, Institutional Planning and Development"
+              }
+            },
+            {
+              "id": 23,
+              "name": "Ms. ERMA E. REYES",
+              "position": { "en": "Director, Administrative Services" }
+            },
+            {
+              "id": 24,
+              "name": "Dr. MICHAEL V. CAPIÑA",
+              "position": {
+                "en": "Director, Business Affairs & Production Services"
+              }
+            },
+            {
+              "id": 25,
+              "name": "Mr. ALFREDO M. OFRECIO III",
+              "position": { "en": "Director, Financial Services" }
+            },
+            {
+              "id": 26,
+              "name": "Atty. ARLYN R. RETARDO",
+              "position": { "en": "Director, Gender & Development" }
+            },
+            {
+              "id": 27,
+              "name": "Dr. MENANDRO M. MERLIN",
+              "position": { "en": "Director, Institutional Quality Assurance" }
+            },
+            {
+              "id": 28,
+              "name": "Mr. ARNEL M. LANTITA",
+              "position": { "en": "Director, Student Development" }
+            },
+            {
+              "id": 29,
+              "name": "Dr. ROSALYN J. DASCO",
+              "position": { "en": "Director, Student Programs & Services" }
+            },
+            {
+              "id": 30,
+              "name": "Ms. EMELITA R. RODELAS",
+              "position": { "en": "Director, Student Welfare" }
+            },
+            {
+              "id": 31,
+              "name": "Dr. LIZA MARIE M. MANOOS-PACIA",
+              "position": { "en": "Director, Research" }
+            },
+            {
+              "id": 32,
+              "name": "Dr. DOREEN R. MASCAREÑAS",
+              "position": { "en": "Director, Extension" }
+            },
+            {
+              "id": 33,
+              "name": "Mr. EDGARDO R. LARIRIT",
+              "position": {
+                "en": "Director, Knowledge & Technology Transfer Office"
+              }
+            }
+          ],
+          "secretary": {
+            "id": 1,
+            "name": "Ms. MARIA MORENA V. SANTOS",
+            "position": { "en": "Board Secretary V" }
+          },
+          "academicCouncil": {
+            "name": { "en": "The MarSU Academic Council" },
+            "description": {
+              "en": "The MarSU Academic Council is composed of the president of the College as Chairperson and all members of the instructional staff with the rank of not lower than assistant professor as members. It has the power to review and recommend the curricular offerings and rules of discipline of the College subject for appropriate action of the Board of Trustees."
+            },
+            "chair": {
+              "id": 1,
+              "name": "Dr.DIOSDADO P. ZULUETA",
+              "position": { "en": "University President" }
+            },
+            "secretary": {
+              "id": 1,
+              "name": "Ms. MARIA MORENA V. SANTOS",
+              "position": { "en": "Board Secretary V" }
+            },
+            "membersByRank": [
+              {
+                "id": 1,
+                "rank": { "en": "Collge Professor" },
+                "members": ["Dr. ROMULO H. MALVAR"]
+              },
+              {
+                "id": 2,
+                "rank": { "en": "Professor V" },
+                "members": ["Dr. ARNOLFO M. MONLEON"]
+              },
+              {
+                "id": 3,
+                "rank": { "en": "Professor IV" },
+                "members": ["Dr. MA. EDELWINA M. BLASE"]
+              },
+              {
+                "id": 4,
+                "rank": { "en": "Professor II" },
+                "members": ["Dr. DOREEN R. MASCAREÑAS"]
+              },
+              {
+                "id": 5,
+                "rank": { "en": "Associate Professor V" },
+                "members": [
+                  "Dr. REX EMANNUEL L. ASUNCION",
+                  "Dr. VERNA LIZA L. CAPIÑA",
+                  "Dr. LEODEGARIO M. JALOS JR",
+                  "Mr. JORGE M. MANDIA",
+                  "Dr. LIZA MARIE M. MANOOS-PACIA",
+                  "Mr. JOVITO L. OPEÑA",
+                  "Dr. ALEXANDER M. PASCUA",
+                  "Dr. SUSAN B. PINEDA"
+                ]
+              },
+              {
+                "id": 6,
+                "rank": { "en": "Associate Professor IV" },
+                "members": [
+                  "Ms. JEANY M. BUGARIN",
+                  "Dr. PALOMA D. DE CHAVEZ",
+                  "Dr. MARILYN A. MAYORES",
+                  "Dr. MENANDRO M. MERLIN"
+                ]
+              },
+              {
+                "id": 7,
+                "rank": { "en": "Associate Professor III" },
+                "members": [
+                  "Dr. MICHAEL V. CAPIÑA",
+                  "Engr. WILLER A. DAYAHAN",
+                  "Dr. ANNALYN J. DECENA",
+                  "Engr. MELITO L. HIRONDO",
+                  "Engr. DESIREE T. MALALAD",
+                  "Dr. RONJIE MAR L. MALINAO",
+                  "Dr. JOY R. PROFUGO"
+                ]
+              },
+              {
+                "id": 8,
+                "rank": { "en": "Associate Professor II" },
+                "members": [
+                  "Mr. ABRAHAM L. CUEVAS",
+                  "Mr. HILARION R. ELEGADO",
+                  "Dr. ANNE GRACE M. LABATETE",
+                  "Mr. MARIO T. MASCAREÑAS",
+                  "Dr. DIOMENES L. MONTARON",
+                  "Dr. JULIETA Q. NABOS",
+                  "Engr. FROILAN P. NEY",
+                  "Mr. ALFREDO M. OFRECIO III",
+                  "Dr. JELLIAN T. RICAFRENTE",
+                  "Mr. JAIME M. VASQUEZ"
+                ]
+              },
+              {
+                "id": 9,
+                "rank": { "en": "Associate Professor I" },
+                "members": [
+                  "Dr. ERNESTO L. LARGADO",
+                  "Mr. ENRICO M. MARIPOSQUE",
+                  "Dr. JOY S. MONTEJO",
+                  "Dr. RANDY T. NOBLEZA",
+                  "Mr. MARVIN P. PLATA",
+                  "Ms. ISABEL R. REFORMA",
+                  "Engr. TEODOR M. RICAMARA",
+                  "Mr. JULIE P. RODELAS",
+                  "Mr. GENEROSO E. UDANGA"
+                ]
+              },
+              {
+                "id": 10,
+                "rank": { "en": "Assistant Professor IV" },
+                "members": [
+                  "Engr. NILO M. BUENAVENTURA",
+                  "Mr. JUNN QUIRK I. ESPIRITU",
+                  "Mr. RUBEN M. LABAY",
+                  "Mr. ARNEL M. LANTITA",
+                  "Mr. EDGARDO R. LARIRIT",
+                  "Ms. LORRAINE M. PASCUA",
+                  "Ms. ANNIE M. RUIZ"
+                ]
+              },
+              {
+                "id": 11,
+                "rank": { "en": "Assistant Professor III" },
+                "members": [
+                  "Ms. EUNICE G. DE LUNA-MALINAO",
+                  "Ms. RUBYANN T. LANTITA",
+                  "Engr. ANTONIO JEROLD R. LANTORIA JR.",
+                  "Ms. ANNA ROFFEL O. LOZADA",
+                  "Mr. RAOUL J. MAGCAMIT",
+                  "Ms. DONABEL T. MAGAHIS",
+                  "Engr. ANA FE N. MOLATO",
+                  "Mr. ADRIAN S. MAUSIG",
+                  "Mr. NOEL R. PALOMARES",
+                  "Ms. MERGIECELYN R. QUEZADA",
+                  "Dr. RANDELL R. REGINIO",
+                  "Ms. EMELITA R. RODELAS"
+                ]
+              },
+              {
+                "id": 12,
+                "rank": { "en": "Assistant Professor II" },
+                "members": [
+                  "Ms. ALICE JOY M. AQUINO",
+                  "Ms. ROSALYN J. DASCO",
+                  "Mr. HARVEY A. DULAY",
+                  "Dr. GERALD G. GUTIERREZ",
+                  "Mr. LORIMER L. IMPERIO",
+                  "Ms. BENEDEN M. LOGMAO",
+                  "Ms. CHERIE ANN M. LUNA",
+                  "Ms. ABEGAIL O. MAGCAMIT",
+                  "Mr. ROBERT M. MASCAREÑAS",
+                  "Mr. VERGEL L. MAYO",
+                  "Mr. ORLANDO M. OLIVA",
+                  "Dr. MERRYROSE R. PALMA",
+                  "Dr. CHRISTOPHER J. REBISTUAL",
+                  "Ms. MARIA NESSA M. SOLOMON",
+                  "Mr. AMELITO M. ZULUETA"
+                ]
+              },
+              {
+                "id": 13,
+                "rank": { "en": "Assistant Professor I" },
+                "members": [
+                  "Mr. CARLO MAGNO N. CASTRO",
+                  "Mr. WILMER L. IMPERIO II",
+                  "Mr. ESTANISLAO L. MALAGOTNOT JR.",
+                  "Ar. MAYNARD M. MUHI",
+                  "Ms. MAE KRISTINE C. OGAYRE",
+                  "Mr. GERALD M. PAJANUSTAN",
+                  "Ms. ROSALINDA E. PUNZALAN"
+                ]
+              }
+            ]
+          }
+        }
+      }
     },
     {
       "id": 8,
