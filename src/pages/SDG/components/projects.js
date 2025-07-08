@@ -118,7 +118,7 @@ const projects = [
     desc: `Mangrove Rehabilitation and Aquasilviculture`,
     author: `MarSU-CES`,
     date: `2023`,
-    link: `/sdg/project/7/WURI`,
+    link: `/sdg-center/project/7/WURI`,
     logo: `sdg/project/sise.jpg`,
     // Enhanced Rich Media Content
     media: {
@@ -409,7 +409,7 @@ const projects = [
     desc: `Free-range Layer and Broiler Chicken Multiplier Breeder Farm`,
     author: `MarSU College of Agriculture`,
     date: `January 2021`,
-    link: `/sdg/project/6/FreeRange`,
+    link: `/sdg-center/project/6/FreeRange`,
     logo: `sdg/project/freerange-logo.jpg`,
     // Enhanced Rich Media Content
     media: {
@@ -693,7 +693,7 @@ production of free-range chicken.`,
     desc: `A Training Program for Barangay Officials`,
     author: `Profugo, Joy`,
     date: `April 2021`,
-    link: `/sdg/project/5/GRACE`,
+    link: `/sdg-center/project/5/GRACE`,
     logo: `sdg/project/grace-logo.jpg`,
     contents: [
       {
@@ -785,7 +785,7 @@ production of free-range chicken.`,
     author: `Marinduque State University - College of Information and Computing Sciences (CICS)`,
     desc: `Connecting Internet Underprivileged Villages of Marinduque`,
     date: `January 2023`,
-    link: `/sdg/project/4/iUgpong`,
+    link: `/sdg-center/project/4/iUgpong`,
     logo: `sdg/project/iugnay-logo.jpg`,
     featured: {
       isHero: true,
@@ -1093,7 +1093,7 @@ production of free-range chicken.`,
     desc: 'Mogpog Barangay Secretaries enhance language and communication skills through MarSU-Led Training - strengthens local governance paving the way for more transparent, educated, and tech-savvy communities.',
     author: `Jholey Rose R. Leaño-Lancion`,
     date: `March 2024`,
-    link: `/sdg/project/1/Language Integration `,
+    link: `/sdg-center/project/1/Language Integration `,
     logo: `sdg/project/marsu-logo-LID.jpg`,
 
     // Enhanced Rich Media Content
@@ -1494,7 +1494,7 @@ production of free-range chicken.`,
     subtitle: `Scaling Up Arrowroot Enterprise through Arrowroot Bagasse Products Technology Transfer  .`,
     author: `Michael V. Capiña, PhD & Verna Liza L. Capiña, DBA`,
     date: `Nov. 8, 2024`,
-    link: `/sdg/project/3/Project ScaleUp`,
+    link: `/sdg-center/project/3/Project ScaleUp`,
     logo: `sdg/project/marsu-logo-ScaleUp.jpg`,
     // Featured configuration
     featured: {
@@ -1575,7 +1575,7 @@ production of free-range chicken.`,
     desc: `A six-year impact study by the Department of Trade and Industry (DTI) highlights the positive socio-economic effects of Marinduque State University`,
     author: `College of Industrial Technology`,
     date: `November 6, 2023`,
-    link: `/sdg/project/8/Empowering Communities through Rimas: MarSU-CIT’s Extension Project Drives Socio-Economic Growth`,
+    link: `/sdg-center/project/8/Empowering Communities through Rimas: MarSU-CIT’s Extension Project Drives Socio-Economic Growth`,
     logo: `sdg/project/rimas-logo.jpg`,
     featured: {
       isHero: false,
@@ -1663,7 +1663,7 @@ production of free-range chicken.`,
     date: 'March 2024',
     desc: 'This project aims to establish a formal partnership between Marinduque State University and Universitas Airlangga to enhance academic cooperation, research exchange, and cultural collaboration.',
     image: 'sdg/project/mou.jpg',
-    link: `/sdg/project/9/Building Bridges for Global Cooperation: MarSU and Universitas Airlangga Sign MOU`,
+    link: `/sdg-center/project/9/Building Bridges for Global Cooperation: MarSU and Universitas Airlangga Sign MOU`,
     featured: {
       isHero: false,
       isTall: false,
@@ -1749,7 +1749,7 @@ production of free-range chicken.`,
     conclusion: ``,
     cta: ``,
     image: 'sdg/project/ched-marsu.jpg',
-    link: `/sdg/project/10/From The Heart, To The World: CHED and MarSU Partner for Strategic Internationalization`,
+    link: `/sdg-center/project/10/From The Heart, To The World: CHED and MarSU Partner for Strategic Internationalization`,
     tags: [
       {
         name: ['Partnerships for the Goals'],
@@ -1797,7 +1797,7 @@ production of free-range chicken.`,
     conclusion: ``,
     cta: ``,
     image: 'sdg/project/marsu-coast.jpg',
-    link: `/sdg/project/11/Forging Synergy for World-Class Industrial Technologists: The MarSU and Coast Mountain College Partnership`,
+    link: `/sdg-center/project/11/Forging Synergy for World-Class Industrial Technologists: The MarSU and Coast Mountain College Partnership`,
     tags: [
       {
         name: ['Quality Education', 'Partnerships for the Goals'],
@@ -1844,7 +1844,7 @@ production of free-range chicken.`,
     conclusion: ``,
     cta: ``,
     image: 'sdg/project/marsu-anana.jpg',
-    link: `/sdg/project/12/Bridging Connections for Sustainable Futures: MarSU Partners with ANAAA`,
+    link: `/sdg-center/project/12/Bridging Connections for Sustainable Futures: MarSU Partners with ANAAA`,
     tags: [
       {
         name: ['Quality Education'],
@@ -1905,7 +1905,7 @@ production of free-range chicken.`,
     conclusion: ``,
     cta: ``,
     image: 'sdg/project/educator.jpg',
-    link: `/sdg/project/14/Capacitating Educators on Research and Challenged Areas Program (CERCA)`,
+    link: `/sdg-center/project/14/Capacitating Educators on Research and Challenged Areas Program (CERCA)`,
     tags: [
       {
         name: ['Quality Education'],
@@ -1967,7 +1967,7 @@ production of free-range chicken.`,
     conclusion: ``,
     cta: ``,
     image: 'sdg/project/culture.jpg',
-    link: `/sdg/project/15/Promoting and Safeguarding Marinduque's Heritage in Folk Music`,
+    link: `/sdg-center/project/15/Promoting and Safeguarding Marinduque's Heritage in Folk Music`,
     tags: [
       {
         name: ['Quality Education'],
