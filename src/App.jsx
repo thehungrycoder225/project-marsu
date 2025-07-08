@@ -56,9 +56,12 @@ function App() {
           <Route path='/' element={<LandingPage />} />
           <Route path='/about' element={<AboutPage />} />
           <Route path='/news/:newsId' element={<UniversityNewsDetail />} />
-          <Route path='/sdg' element={<SGDPage />} />
-          <Route path='/sdg/project/:id/:title' element={<SGDProject />} />
-          <Route path='/sdg/goal/:id' element={<SDGGoalDetail />} />
+          <Route path='/sdg-center' element={<SGDPage />} />
+          <Route
+            path='/sdg-center/project/:id/:title'
+            element={<SGDProject />}
+          />
+          <Route path='/sdg-center/goal/:id' element={<SDGGoalDetail />} />
           {/* FLAT ROUTES for HashRouter compatibility, including all college sections */}
           <Route path='/colleges/:collegeKey' element={<Colleges />} />
           <Route

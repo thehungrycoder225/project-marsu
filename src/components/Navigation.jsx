@@ -144,6 +144,27 @@ const quickActions = [
   },
 ];
 
+const additionalLinks = [
+  {
+    name: 'SDG Center',
+    href: '/sdg-center ',
+    icon: UserCircleIcon,
+    description: 'Sustainable Development Goals initiatives',
+  },
+  {
+    name: 'Library',
+    href: '/library',
+    icon: MagnifyingGlassIcon,
+    description: 'Access our digital and physical library resources',
+  },
+  {
+    name: 'GAD Portal',
+    href: '/gad-portal',
+    icon: UserCircleIcon,
+    description: 'Gender and Development initiatives',
+  },
+];
+
 // Group colleges by category for mega menu
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
@@ -313,7 +334,6 @@ export default function Navigation() {
             )
           )}
         </div>
-
         {/* Center - Logo & Brand */}
         <div className='flex items-center gap-3 lg:flex-shrink-0 group'>
           <Link
@@ -334,31 +354,67 @@ export default function Navigation() {
           </Link>
         </div>
 
-        {/* Right Side - Options */}
         <div className='hidden lg:flex gap-x-1 items-center justify-end flex-1'>
-          {/* Accessibility Icon */}
+          {/* Additional Links */}
+          {additionalLinks.map((link) => (
+            <Link
+              key={link.name}
+              to={link.href.trim()}
+              className={classNames(
+                'font-medium px-5 py-3 text-sm transition-all duration-500 rounded-xl flex items-center gap-2.5 group relative hover:scale-[1.02] active:scale-[0.98]',
+                location.pathname === link.href.trim()
+                  ? isHomepage && scrollPosition <= 20
+                    ? 'text-gray-50 scale-[1.02] drop-shadow-[0_1px_2px_rgba(0,0,0,0.3)]'
+                    : 'text-[var(--primary-700)] scale-[1.02]'
+                  : isHomepage
+                    ? scrollPosition > 20
+                      ? 'text-gray-900 hover:text-[var(--primary-700)]'
+                      : 'text-gray-50 hover:text-gray-50/80 drop-shadow-[0_1px_2px_rgba(0,0,0,0.3)]'
+                    : 'text-gray-900 hover:text-[var(--primary-700)]'
+              )}
+              aria-current={
+                location.pathname === link.href.trim() ? 'page' : undefined
+              }
+            >
+              <link.icon className='h-4 w-4 group-hover:scale-110 transition-transform duration-300' />
+              {link.name}
+              {/* Active underline */}
+              {location.pathname === link.href.trim() ? (
+                <div
+                  className={classNames(
+                    'absolute bottom-0 left-1/2 transform -translate-x-1/2 w-4/5 h-0.5',
+                    isHomepage && scrollPosition <= 20
+                      ? 'bg-white/90'
+                      : 'bg-[var(--primary-700)]'
+                  )}
+                />
+              ) : (
+                <div
+                  className={classNames(
+                    'absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-0.5 group-hover:w-4/5 transition-all duration-300 ease-out',
+                    isHomepage && scrollPosition <= 20
+                      ? 'bg-white/90'
+                      : 'bg-[var(--primary-700)]'
+                  )}
+                />
+              )}
+            </Link>
+          ))}
+
+          {/* Accessibility Button */}
           <button
+            type='button'
             onClick={() => setAccessOpen(true)}
             className={classNames(
-              'p-3 rounded-xl transition-all duration-500 hover:scale-[1.02] active:scale-[0.98] group relative',
-              isHomepage
-                ? scrollPosition > 20
-                  ? 'text-gray-700 hover:text-[var(--primary-700)]'
-                  : 'text-gray-50 hover:text-gray-50/80 drop-shadow-[0_1px_2px_rgba(0,0,0,0.3)]'
-                : 'text-gray-700 hover:text-[var(--primary-700)]'
+              'ml-2 px-4 py-3 rounded-xl flex items-center gap-2.5 font-medium text-sm transition-all duration-500 hover:scale-[1.02] active:scale-[0.98] bg-gray-100 hover:bg-gray-200 text-gray-700',
+              isHomepage && scrollPosition <= 20
+                ? 'bg-white/10 text-gray-50 hover:bg-white/20'
+                : ''
             )}
             aria-label='Accessibility options'
           >
-            <AdjustmentsHorizontalIcon className='h-5 w-5 group-hover:scale-110 transition-transform duration-300' />
-            {/* Subtle hover indicator */}
-            <div
-              className={classNames(
-                'absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 h-0.5 group-hover:w-3/4 transition-all duration-300 ease-out',
-                isHomepage && scrollPosition <= 20
-                  ? 'bg-white/90'
-                  : 'bg-[var(--primary-700)]'
-              )}
-            />
+            <AdjustmentsHorizontalIcon className='h-5 w-5' />
+            <span className='hidden xl:inline'>Accessibility</span>
           </button>
         </div>
         {/* Mobile Menu Button */}

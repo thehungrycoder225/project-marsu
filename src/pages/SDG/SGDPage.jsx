@@ -869,33 +869,6 @@ const SGDPage = () => {
                 </div>
               </div>
             </div>
-
-            {/* Call to Action */}
-            {/* <div className='text-center mt-16'>
-              <div className='inline-flex flex-col lg:flex-row gap-4'>
-                <button className='px-8 py-4 bg-primary-500 hover:bg-primary-900 text-white font-semibold rounded-lg shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300'>
-                  <span className='flex items-center space-x-2'>
-                    <span>Explore Our Programs</span>
-                    <svg
-                      className='w-5 h-5'
-                      fill='none'
-                      stroke='currentColor'
-                      viewBox='0 0 24 24'
-                    >
-                      <path
-                        strokeLinecap='round'
-                        strokeLinejoin='round'
-                        strokeWidth={2}
-                        d='M17 8l4 4m0 0l-4 4m4-4H3'
-                      />
-                    </svg>
-                  </span>
-                </button>
-                <button className='px-8 py-4 border-2 border-primary-500 hover:border-primary-900 text-primary-500 hover:text-primary-900 font-semibold rounded-lg transition-all duration-300'>
-                  Join Our Research
-                </button>
-              </div>
-            </div> */}
           </div>
         </Section>
         <Section id='sdgGoals'>

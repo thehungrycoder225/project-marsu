@@ -23,7 +23,7 @@ const goals = [
       },
     ],
     alt: 'No Poverty',
-    link: '/sdg/goal/1',
+    link: '/sdg-center/goal/1',
   },
   {
     id: 2,
@@ -44,7 +44,7 @@ const goals = [
       },
     ],
     alt: 'Zero Hunger',
-    link: '/sdg/goal/2',
+    link: '/sdg-center/goal/2',
   },
   {
     id: 3,
@@ -67,7 +67,7 @@ const goals = [
       },
     ],
     alt: 'Good Health and Well-being',
-    link: '/sdg/goal/3',
+    link: '/sdg-center/goal/3',
   },
   {
     id: 4,
@@ -90,7 +90,7 @@ const goals = [
       },
     ],
     alt: 'Quality Education',
-    link: '/sdg/goal/4',
+    link: '/sdg-center/goal/4',
   },
   {
     id: 5,
@@ -113,7 +113,7 @@ const goals = [
       },
     ],
     alt: 'Gender Equality',
-    link: '/sdg/goal/5',
+    link: '/sdg-center/goal/5',
   },
   {
     id: 6,
@@ -136,7 +136,7 @@ const goals = [
       },
     ],
     alt: 'Clean Water and Sanitation',
-    link: '/sdg/goal/6',
+    link: '/sdg-center/goal/6',
   },
   {
     id: 7,
@@ -159,7 +159,7 @@ const goals = [
       },
     ],
     alt: 'Affordable and Clean Energy',
-    link: '/sdg/goal/7',
+    link: '/sdg-center/goal/7',
   },
   {
     id: 8,
@@ -183,7 +183,7 @@ const goals = [
       },
     ],
     alt: 'Decent Work and Economic Growth',
-    link: '/sdg/goal/8',
+    link: '/sdg-center/goal/8',
   },
   {
     id: 9,
@@ -206,7 +206,7 @@ const goals = [
       },
     ],
     alt: 'Industry, Innovation, and Infrastructure',
-    link: '/sdg/goal/9',
+    link: '/sdg-center/goal/9',
   },
   {
     id: 10,
@@ -229,7 +229,7 @@ const goals = [
       },
     ],
     alt: 'Reduced Inequality',
-    link: '/sdg/goal/10',
+    link: '/sdg-center/goal/10',
   },
   {
     id: 11,
@@ -252,7 +252,7 @@ const goals = [
       },
     ],
     alt: 'Sustainable Cities and Communities',
-    link: '/sdg/goal/11',
+    link: '/sdg-center/goal/11',
   },
   {
     id: 12,
@@ -275,7 +275,7 @@ const goals = [
       },
     ],
     alt: 'Responsible Consumption and Production',
-    link: '/sdg/goal/12',
+    link: '/sdg-center/goal/12',
   },
   {
     id: 13,
@@ -302,7 +302,7 @@ const goals = [
       },
     ],
     alt: 'Climate Action',
-    link: '/sdg/goal/13',
+    link: '/sdg-center/goal/13',
   },
   {
     id: 14,
@@ -330,7 +330,7 @@ const goals = [
       },
     ],
     alt: 'Life Below Water',
-    link: '/sdg/goal/14',
+    link: '/sdg-center/goal/14',
   },
   {
     id: 15,
@@ -360,7 +360,7 @@ const goals = [
       },
     ],
     alt: 'Life on Land',
-    link: '/sdg/goal/15',
+    link: '/sdg-center/goal/15',
   },
   {
     id: 16,
@@ -387,7 +387,7 @@ const goals = [
       },
     ],
     alt: 'Peace, Justice, and Strong Institutions',
-    link: '/sdg/goal/16',
+    link: '/sdg-center/goal/16',
   },
   {
     id: 17,
@@ -414,7 +414,7 @@ const goals = [
       },
     ],
     alt: 'Partnerships for the Goals',
-    link: '/sdg/goal/17',
+    link: '/sdg-center/goal/17',
   },
 ];
 
