@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Dialog, DialogPanel } from '@headlessui/react';
 import {
   Bars3Icon,
@@ -186,6 +186,54 @@ export default function Navigation() {
   const [fontSize, setFontSize] = useState('text-base');
   const [highContrast, setHighContrast] = useState(false);
 
+  // Apply accessibility settings to document
+  useEffect(() => {
+    const root = document.documentElement;
+
+    // Apply font size
+    switch (fontSize) {
+      case 'text-sm':
+        root.style.fontSize = '14px';
+        break;
+      case 'text-base':
+        root.style.fontSize = '16px';
+        break;
+      case 'text-lg':
+        root.style.fontSize = '18px';
+        break;
+      default:
+        root.style.fontSize = '16px';
+    }
+
+    // Apply high contrast
+    if (highContrast) {
+      root.style.filter = 'contrast(1.5) saturate(1.3)';
+      root.classList.add('high-contrast');
+    } else {
+      root.style.filter = '';
+      root.classList.remove('high-contrast');
+    }
+
+    // Store preferences in localStorage
+    localStorage.setItem('accessibility-fontSize', fontSize);
+    localStorage.setItem('accessibility-highContrast', highContrast.toString());
+  }, [fontSize, highContrast]);
+
+  // Load accessibility preferences on mount
+  useEffect(() => {
+    const savedFontSize = localStorage.getItem('accessibility-fontSize');
+    const savedHighContrast = localStorage.getItem(
+      'accessibility-highContrast'
+    );
+
+    if (savedFontSize) {
+      setFontSize(savedFontSize);
+    }
+    if (savedHighContrast) {
+      setHighContrast(savedHighContrast === 'true');
+    }
+  }, []);
+
   return (
     <header
       className={classNames(
@@ -202,7 +250,6 @@ export default function Navigation() {
             : 'bg-white/90 backdrop-blur-lg border-b border-gray-200/20 shadow-md',
         'fixed top-0 z-50 transition-all duration-500 ease-out w-full'
       )}
-      style={highContrast ? { filter: 'contrast(1.5)' } : {}}
     >
       <nav
         aria-label='Main Navigation'
@@ -568,25 +615,34 @@ export default function Navigation() {
                 Font Size
               </label>
               <div className='flex gap-2'>
-                {['text-sm', 'text-base', 'text-lg'].map((size) => (
+                {[
+                  { value: 'text-sm', label: 'Small', display: 'A-' },
+                  { value: 'text-base', label: 'Normal', display: 'A' },
+                  { value: 'text-lg', label: 'Large', display: 'A+' },
+                ].map((size) => (
                   <button
-                    key={size}
-                    onClick={() => setFontSize(size)}
+                    key={size.value}
+                    onClick={() => setFontSize(size.value)}
                     className={classNames(
                       'flex-1 px-4 py-2 rounded-lg font-medium transition-all',
-                      fontSize === size
+                      fontSize === size.value
                         ? 'bg-[var(--primary-700)] text-white shadow-lg'
                         : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                     )}
+                    title={`Set font size to ${size.label}`}
                   >
-                    {size === 'text-sm'
-                      ? 'A-'
-                      : size === 'text-base'
-                        ? 'A'
-                        : 'A+'}
+                    {size.display}
                   </button>
                 ))}
               </div>
+              <p className='text-xs text-gray-500 mt-2'>
+                Current size:{' '}
+                {fontSize === 'text-sm'
+                  ? 'Small (14px)'
+                  : fontSize === 'text-base'
+                    ? 'Normal (16px)'
+                    : 'Large (18px)'}
+              </p>
             </div>
 
             <div>
@@ -594,30 +650,55 @@ export default function Navigation() {
                 Contrast
               </label>
               <div className='flex gap-2'>
-                {[false, true].map((contrast) => (
+                {[
+                  {
+                    value: false,
+                    label: 'Normal',
+                    description: 'Standard contrast',
+                  },
+                  {
+                    value: true,
+                    label: 'High',
+                    description: 'Enhanced contrast',
+                  },
+                ].map((contrast) => (
                   <button
-                    key={contrast.toString()}
-                    onClick={() => setHighContrast(contrast)}
+                    key={contrast.value.toString()}
+                    onClick={() => setHighContrast(contrast.value)}
                     className={classNames(
                       'flex-1 px-4 py-2 rounded-lg font-medium transition-all',
-                      highContrast === contrast
+                      highContrast === contrast.value
                         ? 'bg-[var(--primary-700)] text-white shadow-lg'
                         : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                     )}
+                    title={contrast.description}
                   >
-                    {contrast ? 'High' : 'Normal'}
+                    {contrast.label}
                   </button>
                 ))}
               </div>
+              <p className='text-xs text-gray-500 mt-2'>
+                Current:{' '}
+                {highContrast ? 'High contrast enabled' : 'Normal contrast'}
+              </p>
             </div>
           </div>
 
-          <div className='mt-6 pt-6 border-t border-gray-200'>
+          <div className='mt-6 pt-6 border-t border-gray-200 space-y-3'>
             <button
-              onClick={() => setAccessOpen(false)}
+              onClick={() => {
+                setFontSize('text-base');
+                setHighContrast(false);
+              }}
               className='w-full px-4 py-2 bg-gray-100 text-gray-700 rounded-lg font-medium hover:bg-gray-200 transition-colors'
             >
-              Close
+              Reset to Default
+            </button>
+            <button
+              onClick={() => setAccessOpen(false)}
+              className='w-full px-4 py-2 bg-[var(--primary-700)] text-white rounded-lg font-medium hover:bg-[var(--primary-800)] transition-colors'
+            >
+              Apply & Close
             </button>
           </div>
         </DialogPanel>
